@@ -116,6 +116,80 @@ Before the full script:
 
 Pass condition: the cold open is understandable, visually coherent and reproducible without depending on random generative-video output.
 
+## Cold-open proof specification v0.1
+
+### Voice-over
+
+> You open your laptop to finish one thing.
+> Then a message appears. You close it.
+> A tab reminds you of something else.
+> You check your phone without even knowing why.
+> Thirty seconds later, the document is still there—but the thought you had is gone.
+> Maybe your attention span isn’t broken.
+> Maybe your task just has too many exits.
+> And if that’s the problem, forcing yourself to focus harder may be the wrong fix.
+
+Target: 29–32 seconds at a natural 140–150 WPM.
+
+### Shot sequence
+
+1. NOD opens one document.
+2. A message appears.
+3. The message closes and becomes an exit.
+4. A browser tab becomes another exit.
+5. NOD automatically reaches for the phone.
+6. Message, tab and phone create a short switching loop.
+7. NOD returns to the unchanged document.
+8. The original thought is gone.
+9. Camera reveals multiple open doors.
+10. NOD tries to force concentration while the exits remain open.
+
+### Minimum assets
+
+NOD poses:
+
+- neutral sitting;
+- typing;
+- closing notification;
+- reaching for phone;
+- confused;
+- forcing concentration.
+
+Props:
+
+- desk and chair;
+- laptop and document;
+- blinking cursor;
+- phone;
+- message and thought bubbles;
+- browser tab;
+- modular open/closed door;
+- message, browser and phone icons;
+- one reusable room.
+
+### Technical target
+
+- 1920×1080;
+- 16:9;
+- 30 fps;
+- 48 kHz audio;
+- editable vector masters;
+- separated voice and SFX;
+- no generative-video dependency;
+- mobile-readable composition.
+
+### Pass criteria
+
+- the visual sequence is understandable without narration;
+- narration clearly communicates the `too many exits` thesis;
+- NOD remains readable on a mobile screen;
+- doors work as one consistent metaphor;
+- assets and motions are reusable;
+- revisions do not require regenerating whole scenes;
+- hands-on production time and bottlenecks are recorded.
+
+Heavy media and editable production files remain outside the public repository.
+
 ---
 
 # Adjacency Scan
