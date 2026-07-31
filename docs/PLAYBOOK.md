@@ -39,13 +39,22 @@ Tone:
 
 ## 3. Content pillars
 
-Первоначальные:
+Утверждены:
 
-1. Focus and digital behavior.
-2. Learning and memory.
-3. Action and practical systems.
-4. Social confidence.
-5. Decision-making and money behavior.
+1. Attention & Digital Behavior.
+2. Learning & Action Systems.
+3. Social Navigation.
+4. Decisions & Money Behavior — после подтверждения первых кластеров.
+
+Launch sequence:
+
+1. attention span / task switching;
+2. phone addiction / doomscrolling;
+3. learning difficult things;
+4. starting before feeling ready;
+5. small talk / social blanking.
+
+Practical philosophy используется только для actionable ideas. Generic psychology, health и finance не должны размывать стартовое ожидание аудитории.
 
 Темы здоровья, психологии и финансов требуют повышенного fact-checking.
 

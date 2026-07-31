@@ -97,11 +97,15 @@ AdSense не является единственной моделью.
 
 > English practical self-improvement с оригинальным простым визуальным героем.
 
-Рабочее расширенное позиционирование:
+Внутреннее позиционирование:
 
-> Visual explanations for navigating modern life.
+> Visual life skills for navigating modern life.
 
-Второй вариант пока является гипотезой и требует adjacency scan.
+Стартовое audience promise:
+
+> Clear visual explanations for focus, learning, action and social life — without guru nonsense.
+
+Это редакционная рамка, а не утверждённое название или slogan.
 
 Primary audience:
 
@@ -112,13 +116,22 @@ Primary audience:
 - интересуются focus, learning, social skills и practical productivity;
 - устали от guru-контента и нереалистичных routines.
 
-Первые тематические кластеры:
+Content pillars:
 
-- attention and focus;
-- learning;
-- doomscrolling and phone habits;
-- taking action;
-- social skills.
+1. Attention & Digital Behavior — стартовый.
+2. Learning & Action Systems — основной.
+3. Social Navigation — расширение.
+4. Decisions & Money Behavior — позже, с усиленным fact-checking.
+
+Launch sequence:
+
+1. attention span / task switching;
+2. phone addiction / doomscrolling;
+3. learning difficult things;
+4. starting before feeling ready;
+5. small talk / social blanking.
+
+Practical philosophy используется как источник отдельных actionable ideas, но не как самостоятельный pillar.
 
 ## 8. Evidence channels
 
@@ -174,24 +187,25 @@ VIDEO-001:
 - решение: рабочий `One Door Protocol`;
 - до финального сценария нужны source-backed outline и три title/thumbnail packages.
 
-## 12. Reserve directions
+## 12. Adjacency decision and reserves
 
-После запуска основного пилота могут быть добавлены:
+Adjacency scan завершён.
+
+Результат:
+
+- digital behavior объединяется с attention;
+- learning объединяется с action systems;
+- social skills входит как третий pillar;
+- behavioral economics допускается позже как decisions/money behavior;
+- practical philosophy не является отдельным pillar;
+- generic everyday psychology отклонена как самостоятельная стратегия из-за шаблонности и AI-slop risk.
+
+Резервные отдельные каналы:
 
 1. Visual Curiosity.
 2. Animated Fitness.
 
-Перед регистрацией канала проводится ограниченный adjacency scan:
-
-- learning science;
-- digital behavior;
-- social skills;
-- behavioral economics;
-- consumer psychology;
-- practical philosophy;
-- visual explanations of modern life.
-
-Scan не должен превращаться в бесконечный поиск ниши.
+Их не смешивать с основным каналом на старте.
 
 ## 13. Current stop
 
@@ -205,8 +219,9 @@ Scan не должен превращаться в бесконечный пои
 
 ## 14. Next actions
 
-1. Проверить резервные смежные направления.
-2. Подготовить source-backed outline VIDEO-001.
-3. Создать три packaging concepts.
-4. Уточнить character brief NOD.
-5. После проверки — принять решение о регистрации канала.
+1. Подготовить claim table и source-backed outline VIDEO-001.
+2. Создать competitor packaging board.
+3. Создать три rough thumbnail concepts.
+4. Уточнить character brief и asset feasibility NOD.
+5. Провести English title QA.
+6. После проверки — принять решение о регистрации канала.

@@ -129,6 +129,45 @@ URL: https://www.youtube.com/watch?v=dUw1Mlq4AQ4
 - Todoist: https://www.todoist.com/help/articles/todoist-partner-programs-t8t2hZ0Z
 - Grammarly: https://www.grammarly.com/affiliates
 
+## Adjacency scan channels
+
+### Smart Adjacent
+
+URL: https://www.youtube.com/@smart.adjacent/videos
+
+Relevant videos:
+
+- https://www.youtube.com/watch?v=ptrbG6675JA
+- https://www.youtube.com/watch?v=qxIi6_jkzjA
+- https://www.youtube.com/watch?v=w5Inai-IsZ0
+
+### Jomo referral model
+
+Status: official product changelog  
+URL: https://jomo.so/changelog
+
+### Educated Wonder
+
+URL: https://www.youtube.com/@EducatedWonder/videos
+
+### Learning references
+
+- Justin Sung: https://www.youtube.com/@JustinSung/videos
+- Amy Wang: https://www.youtube.com/@wamyy5
+- Gohar Khan: https://www.youtube.com/@goharsguide
+- Elizabeth Filips: https://www.youtube.com/@elizabethfilips
+
+### Social navigation references
+
+- Charisma on Command: https://www.youtube.com/user/charismaoncommand/videos
+- Vinh Giang: https://www.youtube.com/@askvinh/videos
+- Vanessa Van Edwards: https://www.youtube.com/channel/UCj9QBB4bNTv29f4oFIreNmw
+
+### Behavioral and philosophy references
+
+- Pursuit of Wonder: https://www.youtube.com/@PursuitofWonder/videos
+- Two Cents: https://www.youtube.com/@TwoCentsPBS/videos
+
 ## Source rules
 
 Приоритет:

@@ -155,18 +155,40 @@ CTA: попросить назвать первый «выход», которы
 
 # Adjacency Scan
 
-Status: planned
+Status: completed  
+Decision: expand internal positioning to `visual life skills for navigating modern life`.
 
-Проверяем:
+## Comparative result
 
-1. Learning science.
-2. Digital behavior.
-3. Social skills.
-4. Behavioral economics.
-5. Consumer psychology.
-6. Practical philosophy.
-7. Visual curiosity about human behavior.
+1. Digital behavior / attention — 92/100.
+2. Learning / action systems — 89/100.
+3. Social navigation — 82/100.
+4. Decisions / behavioral economics — 79/100.
+5. Practical philosophy — 72/100.
+6. Generic everyday psychology — 61/100.
 
-Цель: выяснить, должен ли канал называться узким self-improvement или более широким `visual life skills`.
+Scores are internal comparative judgments, not external statistics.
 
-Ограничение: scan не отменяет основной пилот и не открывает бесконечный выбор.
+## Evidence
+
+- Smart Adjacent: approximately 126K subscribers / 24 videos; public examples include phone addiction around 933K, body transformation around 1.6M, twenties around 208K, habits around 120K and productivity around 74K views.
+- Smart Adjacent integrated Jomo with a trackable code and trial.
+- Learning demand is supported by Justin Sung, Amy Wang, Gohar Khan, Elizabeth Filips and someunfilteredguy.
+- Social navigation demand is supported by Charisma on Command, Vinh Giang and Vanessa Van Edwards.
+- Pursuit of Wonder received approximately 2.2–2.5M views on an actionable game-theory video.
+- Educated Wonder demonstrates that generic psychology can produce hits, but results are uneven and the format has high template/AI-slop risk.
+
+All public counts must be rechecked before external citation.
+
+## Decision
+
+The launch channel combines:
+
+1. Attention & Digital Behavior.
+2. Learning & Action Systems.
+3. Social Navigation.
+4. Decisions & Money Behavior later.
+
+Visual Curiosity and Animated Fitness remain potential separate channels.
+
+Generic psychology and practical philosophy are not standalone launch strategies.
