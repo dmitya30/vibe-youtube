@@ -1,0 +1,41 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+cookies*
+tokens*
+
+# Local/private data
+private/
+local/
+downloads/
+temp/
+tmp/
+
+# Generated media
+output/
+renders/
+cache/
+*.mp4
+*.mov
+*.wav
+*.mp3
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
