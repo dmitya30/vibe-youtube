@@ -20,136 +20,101 @@ Updated: 2026-07-31
 
 # VIDEO-001 — Attention Span
 
-Status: research / packaging  
+Status: visual feasibility  
 Publication: not approved
 
 ## Hypothesis
 
-Контринтуитивный angle `your attention span is not necessarily broken` даст более сильную дифференциацию, чем generic `how to fix your attention span`.
+A task-switching and environment-design explanation will differentiate the video from generic `fix your attention span` content.
 
-## Problem
+## Viewer problem
 
-Зритель:
-
-- начинает одну задачу;
-- быстро переключается;
-- уходит в сообщения, tabs и short-form feeds;
-- считает, что его мозг необратимо испорчен.
+The viewer starts one task, switches to messages, tabs or short-form feeds, and concludes that their brain is permanently damaged.
 
 ## Promise
 
-Объяснить роль task switching и environment design, затем дать простой эксперимент без medical claims и fake dopamine reset.
+Explain external and self-created task exits, then provide a practical experiment without medical claims, fake dopamine resets or guaranteed results.
 
-## Working title
+## Packaging
 
-`Your Attention Span Isn’t Broken. Here’s What’s Actually Happening`
+Default title:
+
+`You Don’t Need More Focus — You Need Fewer Exits`
 
 Alternatives:
 
-1. `Why You Can’t Focus Anymore — And It’s Not Brain Rot`
-2. `The 47-Second Trap: Why You Keep Switching Tasks`
+1. `Why You Keep Switching Tasks — Even With Notifications Off`
+2. `Your Attention Span Isn’t the Problem — Your Setup Is`
 
-Вариант с 47 seconds допустим только при корректном объяснении: это наблюдаемое среднее время на одном экране в исследованиях Gloria Mark, а не биологический предел внимания.
+Thumbnail concepts:
 
-## Thumbnail concepts
+1. `47 SEC` — NOD surrounded by open orange doors.
+2. `STILL CHECKING` — notifications are off, but NOD reaches for the phone.
+3. No text — one task surrounded by visual exits.
 
-### A — 47 SEC
+## Claim limits
 
-- NOD перед одной задачей;
-- множество дверей/уведомлений;
-- таймер `00:47`.
+- 47 seconds is an observed average time on one screen before switching, not a biological attention limit.
+- Interruptions create resumption costs and can increase stress and workload.
+- Notification sounds may impair performance, but observed effects can be small.
+- Disabling notifications alone did not reduce checking frequency or screen time in a one-week randomized intervention.
+- `One Door Protocol` is an evidence-informed editorial synthesis, not a clinically validated method.
+- Do not claim irreversible brain damage, universal recovery times or a literal dopamine reset.
 
-### B — YOUR BRAIN IS FINE
+Supporting research belongs to [`SOURCES.md`](SOURCES.md).
 
-- NOD держит предполагаемый «сломанный» мозг;
-- отвлечения физически растаскивают персонажа.
+## One Door Protocol
 
-### C — no text
+1. Name one observable outcome.
+2. Close visible exits.
+3. Park unrelated impulses.
+4. Leave a concrete return cue.
+5. Stop at a natural breakpoint.
 
-- NOD пытается читать;
-- orange phone hook утаскивает его от страницы.
+## Approved outline
 
-## Outline
+1. Cold open: one task turns into repeated switching.
+2. Correctly explain the 47-second observation.
+3. Introduce external and self-created exits.
+4. Explain resumption cost without exaggeration.
+5. Present the One Door Protocol.
+6. Run a 25-minute single-task experiment.
+7. End with one CTA about the viewer’s most common exit.
 
-### 0:00–0:25 — Cold open
+Target: 8–10 minutes / approximately 1,300–1,450 English words.
 
-Задача → notification → email → phone → short video → потеря исходной цели.
+## Evaluation after publication
 
-Основная реплика:
-
-`You opened your laptop to do one thing... It probably isn’t your broken brain.`
-
-### 0:25–1:25 — Reframe
-
-- не диагностировать повреждение;
-- различить sustained attention и частоту переключений;
-- корректно объяснить 47-second observation;
-- отвергнуть literal dopamine reset.
-
-### 1:25–3:00 — Mechanism
-
-1. External interruptions.
-2. Self-interruptions.
-3. Too many available exits.
-4. Low energy or wrong task timing.
-
-### 3:00–7:30 — One Door Protocol
-
-Рабочая мнемоника, не медицинский метод:
-
-1. One outcome.
-2. Close the exits.
-3. Move the trigger.
-4. Park impulses.
-5. Stop at a breakpoint.
-
-### 7:30–8:40 — Experiment
-
-Один 25-minute test:
-
-- одна задача;
-- телефон вне комнаты или досягаемости;
-- notifications off;
-- distraction parking sheet;
-- break at a natural breakpoint.
-
-Не утверждать, что 25 минут оптимальны для всех.
-
-### 8:40–9:10 — Ending
-
-`Your attention doesn’t need punishment. It needs fewer exits.`
-
-CTA: попросить назвать первый «выход», который отвлёк зрителя.
-
-## Initial evaluation
-
-После публикации анализировать:
+Monitor:
 
 - impressions;
-- CTR в контексте источника трафика;
+- CTR by traffic source;
 - first 30-second retention;
 - average percentage viewed;
-- dips and spikes;
-- watch-time share packaging variants;
+- retention dips and spikes;
+- packaging watch-time share;
 - geography and language;
 - meaningful comments;
-- Shorts → Related Video traffic.
+- Shorts to Related Video traffic.
 
-Рабочие ориентиры:
+Provisional reference points:
 
-- 30-second retention: ≥65%;
-- average percentage viewed: ≥40%.
+- 30-second retention: 65% or higher;
+- average percentage viewed: 40% or higher.
 
-Они не являются pass/fail без достаточной выборки.
+These are planning references, not pass/fail rules without sufficient data.
 
-## Required before script
+## Current feasibility gate
 
-- source-backed claim table;
-- competitor packaging board;
-- три rough thumbnails;
-- NOD asset feasibility check;
-- English title QA;
-- final angle approval.
+Before the full script:
+
+1. write a 30-second English cold-open;
+2. create a timed shot list;
+3. define the minimum reusable NOD asset pack;
+4. produce or simulate the scene;
+5. evaluate clarity, originality, reuse and production cost.
+
+Pass condition: the cold open is understandable, visually coherent and reproducible without depending on random generative-video output.
 
 ---
 
@@ -192,34 +157,3 @@ The launch channel combines:
 Visual Curiosity and Animated Fitness remain potential separate channels.
 
 Generic psychology and practical philosophy are not standalone launch strategies.
-
-## VIDEO-001 — validated direction
-
-Default title: **You Don’t Need More Focus — You Need Fewer Exits**
-
-Alternatives:
-- Why You Keep Switching Tasks — Even With Notifications Off
-- Your Attention Span Isn’t the Problem — Your Setup Is
-
-Core thesis: focus failure is often an environment and task-switching problem. Work has too many external and self-created exits.
-
-Claim limits:
-- 47 seconds = average time on one screen before switching, not a biological attention limit.
-- Interruptions create resumption costs and can increase stress and workload.
-- Notification sounds can impair performance, but observed effects may be small.
-- Disabling notifications alone did not reduce checking frequency or screen time in a one-week RCT.
-- One Door Protocol is an evidence-informed synthesis, not a validated clinical protocol.
-
-One Door Protocol:
-1. name one observable outcome;
-2. close visible exits;
-3. park unrelated impulses;
-4. leave a concrete return cue;
-5. stop at a natural breakpoint.
-
-Packaging:
-- A/default: 47 SEC + NOD surrounded by open doors.
-- B: NOTIFICATIONS OFF / STILL CHECKING.
-- C: no text; one task surrounded by exits.
-
-Before full production: build a 30-second cold-open proof using reusable NOD assets.
