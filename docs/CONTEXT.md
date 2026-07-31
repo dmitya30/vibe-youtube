@@ -1,7 +1,7 @@
 # Project Context
 
 Updated: 2026-07-31  
-Status: pre-production / visual feasibility  
+Status: pre-production / stack feasibility  
 Source of truth for project-level context
 
 ## 1. Goal
@@ -64,6 +64,8 @@ AI и автоматизация могут помогать с исследов
 
 AdSense не является единственной моделью.
 
+Способ получения выплат выбирается отдельно для каждого контрагента с учётом закона, налогов, KYC/AML, доступности payout provider и условий договора. Crypto является возможным способом расчёта, но не считается единственным заранее. Обход ограничений платформ и платёжных систем запрещён.
+
 ## 6. Current stage
 
 Выбран один англоязычный пилотный канал.
@@ -74,14 +76,15 @@ AdSense не является единственной моделью.
 
 Текущая задача:
 
-1. создать спецификацию 30-секундного cold-open proof;
-2. определить минимальный набор ассетов NOD;
-3. проверить визуальную выразительность и производимость;
-4. при успешном результате перейти к полному сценарию и раскадровке.
+1. провести микротесты production stack;
+2. проверить character consistency, Kling motion, deterministic compositing и narration;
+3. по результатам выбрать Kling-heavy, balanced hybrid или deterministic-heavy pipeline;
+4. собрать 30-секундный cold-open proof;
+5. при успешном результате перейти к полному сценарию и раскадровке.
 
 ## 7. Current restrictions
 
-До прохождения visual feasibility gate запрещены:
+До прохождения stack и visual feasibility gates запрещены:
 
 - регистрация и финальный брендинг канала;
 - публикация контента;

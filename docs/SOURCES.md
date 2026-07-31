@@ -109,3 +109,54 @@ Eligibility and payout route must be checked separately before use.
 8. Guru claims only as hypotheses.
 
 SocialBlade, vidIQ and similar estimates do not prove actual revenue.
+
+## 8. Production stack services
+
+Genspark:
+
+- Membership, unlimited-use limits and commercial-use information:
+  https://www.genspark.ai/helpcenter/membership-plans
+
+OpenRouter:
+
+- FAQ and pricing model:
+  https://openrouter.ai/docs/faq
+- Provider routing and fallbacks:
+  https://openrouter.ai/docs/guides/routing/provider-selection
+- Provider logging and privacy:
+  https://openrouter.ai/docs/guides/privacy/provider-logging
+
+Kie.ai:
+
+- API overview, pricing behavior, storage and reliability notes:
+  https://docs.kie.ai/
+- Kling 3.0 API:
+  https://kie.ai/kling-3-0
+- ElevenLabs TTS:
+  https://kie.ai/elevenlabs-tts
+- Privacy policy:
+  https://kie.ai/privacy-policy
+
+Kling:
+
+- Official VIDEO 3.0 user guide:
+  https://kling.ai/quickstart/klingai-video-3-model-user-guide
+
+Postmypost:
+
+- Product overview:
+  https://postmypost.io/
+- REST API:
+  https://help.postmypost.io/docs/api/postmypost-rest-api
+- API access tokens:
+  https://help.postmypost.io/docs/cookbook/api
+- Threads integration:
+  https://postmypost.io/threads
+
+YouTube:
+
+- API developer policies:
+  https://developers.google.com/youtube/terms/developer-policies
+
+Provider features, prices, terms, model availability and commercial rights must be rechecked before production use.
+

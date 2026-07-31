@@ -222,3 +222,206 @@ Cross-platform performance измеряется, а не предполагае�
 - CTA не соответствует аудитории;
 - используются неясные права на музыку, изображения или видео;
 - synthetic content требует disclosure, но он не подготовлен.
+
+## 11. Technology architecture
+
+### Principles
+
+- Формат канала не должен зависеть от одного provider или одной модели.
+- Ручная creative development отделяется от автоматического production pipeline.
+- Модели выбираются через конфигурацию, а не зашиваются в workflow.
+- Все media outputs скачиваются и сохраняются вне provider storage.
+- Human approval обязателен перед публикацией пилотных материалов.
+- Generative и deterministic production могут сочетаться в одной сцене.
+
+Внутренние операции pipeline:
+
+- `generate_text`;
+- `generate_image`;
+- `generate_video`;
+- `generate_voice`;
+- `render_scene`;
+- `assemble_video`;
+- `publish_draft`.
+
+Конкретные providers подключаются через заменяемые adapters.
+
+### Manual creative layer
+
+Genspark используется для:
+
+- ручных LLM-итераций;
+- исследования;
+- style exploration;
+- character sheets;
+- keyframes;
+- thumbnail ideation;
+- сравнения моделей.
+
+Genspark не используется как автоматический backend или для массового программного извлечения результатов.
+
+### Automated text layer
+
+OpenRouter является основным LLM gateway для автоматизации.
+
+Маршруты:
+
+- `QUALITY` — сложная редактура и финальный QA;
+- `FAST` — интерактивные операции;
+- `CHEAP` — массовые черновые задачи;
+- `FALLBACK` — резервная модель или provider.
+
+Конкретные model slugs хранятся в конфигурации. Pipeline должен поддерживать timeout, retry, fallback, budget limits и выбор privacy-compatible providers.
+
+### Media generation layer
+
+Kie.ai является основным media API для пилотного pipeline.
+
+Основные задачи:
+
+- image generation;
+- keyframe generation;
+- Kling video generation;
+- text-to-speech;
+- API-driven media experiments.
+
+Kling 3.0 является первым кандидатом для character motion и expressive scenes с использованием start/end frames и Element references.
+
+Kie.ai не является незаменимым dependency. Интеграция должна допускать замену на официальный API или другого provider.
+
+Для каждой генерации сохраняются:
+
+- provider;
+- model;
+- parameters;
+- prompt;
+- input asset hashes;
+- task ID;
+- generation date;
+- cost;
+- output path;
+- rights/terms snapshot when material.
+
+Результаты скачиваются сразу после генерации и не полагаются на временное provider storage.
+
+### Deterministic production layer
+
+Remotion используется для программируемых:
+
+- compositions;
+- typography;
+- UI;
+- diagrams;
+- doors, tabs and notifications;
+- captions;
+- transitions;
+- exact timing;
+- reusable scene templates.
+
+FFmpeg используется для:
+
+- assembly;
+- conversion;
+- audio mixing;
+- normalization;
+- proxy generation;
+- final encoding.
+
+DaVinci Resolve допускается как необязательный ручной finishing layer. Pipeline не должен зависеть от него.
+
+### Voice architecture
+
+Master narration создаётся отдельно от video generation.
+
+Первый кандидат — ElevenLabs через Kie.ai.
+
+Narration и visual generation хранятся отдельными дорожками, чтобы менять текст, голос и монтаж независимо.
+
+Kling native audio допускается для ambient sound, reactions и отдельных синхронных сцен, но не является master narration по умолчанию.
+
+### Orchestration and storage
+
+- n8n — orchestration;
+- GitHub — documentation, prompts, manifests, schemas and code;
+- local storage — editable assets, generation outputs, audio and video;
+- FFmpeg/Remotion — render workers.
+
+Большие media files, API keys, voice samples и приватные документы не хранятся в публичном GitHub.
+
+S3-compatible storage рассматривается только после появления реальной потребности в масштабировании.
+
+### Distribution
+
+На пилотном этапе:
+
+- YouTube long-form master загружается и проверяется вручную через YouTube Studio;
+- Postmypost используется для подготовки и дистрибуции Shorts, Reels, TikTok и Threads;
+- автоматическая публикация без human approval запрещена;
+- автоматизация long-form upload рассматривается после 3–5 эталонных публикаций.
+
+### Production modes
+
+До завершения stack feasibility test не выбирается единственный production mode.
+
+Кандидаты:
+
+1. `Kling-heavy` — большая часть character motion создаётся генеративно.
+2. `Balanced hybrid` — generative character motion сочетается с deterministic UI, typography и compositing.
+3. `Deterministic-heavy` — основной ролик собирается в Remotion, а generative video используется выборочно.
+
+Выбор выполняется по результатам микротестов, а не заранее.
+
+## 12. Stack feasibility gate
+
+До полного 30-секундного proof выполняются четыре микротеста.
+
+### Test A — character and keyframes
+
+Создать canonical NOD, основные ракурсы, выражения, room style frame и кадр с несколькими дверями.
+
+Проверить ручную разработку через Genspark и воспроизводимость через API-compatible media provider.
+
+### Test B — Kling consistency
+
+Создать две версии одной 5-секундной сцены с одинаковыми входными материалами:
+
+- NOD работает за ноутбуком;
+- появляется notification;
+- рука тянется к телефону.
+
+Проверить лицо, руки, пропорции, палитру, окружение, движение и вариативность между runs.
+
+### Test C — deterministic layer
+
+Собрать в Remotion 5-секундную сцену:
+
+- notification;
+- превращение notification в дверь;
+- camera movement;
+- orange accent;
+- точный timing.
+
+### Test D — narration
+
+Сгенерировать первые строки cold-open в 2–3 voice variants.
+
+Проверить:
+
+- neutral international English;
+- calm non-guru delivery;
+- естественные паузы;
+- повторяемость;
+- пригодность для независимого монтажа.
+
+После тестов фиксируются:
+
+- hands-on time;
+- generation cost;
+- successful runs;
+- failed runs;
+- consistency;
+- editability;
+- reusability;
+- main bottleneck;
+- recommended production mode.
+
