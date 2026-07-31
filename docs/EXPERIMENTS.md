@@ -192,3 +192,34 @@ The launch channel combines:
 Visual Curiosity and Animated Fitness remain potential separate channels.
 
 Generic psychology and practical philosophy are not standalone launch strategies.
+
+## VIDEO-001 — validated direction
+
+Default title: **You Don’t Need More Focus — You Need Fewer Exits**
+
+Alternatives:
+- Why You Keep Switching Tasks — Even With Notifications Off
+- Your Attention Span Isn’t the Problem — Your Setup Is
+
+Core thesis: focus failure is often an environment and task-switching problem. Work has too many external and self-created exits.
+
+Claim limits:
+- 47 seconds = average time on one screen before switching, not a biological attention limit.
+- Interruptions create resumption costs and can increase stress and workload.
+- Notification sounds can impair performance, but observed effects may be small.
+- Disabling notifications alone did not reduce checking frequency or screen time in a one-week RCT.
+- One Door Protocol is an evidence-informed synthesis, not a validated clinical protocol.
+
+One Door Protocol:
+1. name one observable outcome;
+2. close visible exits;
+3. park unrelated impulses;
+4. leave a concrete return cue;
+5. stop at a natural breakpoint.
+
+Packaging:
+- A/default: 47 SEC + NOD surrounded by open doors.
+- B: NOTIFICATIONS OFF / STILL CHECKING.
+- C: no text; one task surrounded by exits.
+
+Before full production: build a 30-second cold-open proof using reusable NOD assets.

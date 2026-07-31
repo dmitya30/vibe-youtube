@@ -182,3 +182,20 @@ URL: https://www.youtube.com/@EducatedWonder/videos
 8. Guru claims only as hypotheses.
 
 SocialBlade, vidIQ и аналогичные оценки не доказывают реальный доход.
+
+## VIDEO-001 research
+
+- Gloria Mark / APA — screen switching, 47-second average, switch costs and breakpoints:
+  https://www.apa.org/news/podcasts/speaking-of-psychology/attention-spans
+- Mark et al. — interrupted work, workload and stress:
+  https://www.ics.uci.edu/~gmark/chi08-mark.pdf
+- Trafton et al. — interruption lag, return cues and task resumption:
+  https://www.interruptions.net/literature/Trafton-IJHCS03.pdf
+- Upshaw et al. — notification sounds and cognitive control:
+  https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0277220
+- Dekker et al. — notification-disabling randomized intervention:
+  https://refubium.fu-berlin.de/bitstream/handle/fub188/43549/Beyond%20the%20Buzz%20Investigating%20the%20Effects%20of%20a%20Notification-Disabling%20Intervention%20on%20Smartphone%20Behavior%20and%20Digital%20Well-Being.pdf
+- YouTube A/B testing:
+  https://support.google.com/youtube/answer/16391400?hl=en
+- YouTube audience retention:
+  https://support.google.com/youtube/answer/9314415?hl=en-GB
