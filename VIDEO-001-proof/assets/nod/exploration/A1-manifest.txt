@@ -1,0 +1,9 @@
+Test: A1 silhouette exploration
+Service: Genspark
+Model: gpt-image-2 / fal-ai/nano-banana / Nano Banana Pro / Nano Banana 2 Flash Lite
+Date: 31.07.2026
+Prompt version: A1
+Resolution: 1693x929 / 1024x1024 / 2048x2048 / 1024x1024
+Generation count: 3
+Manual edits: none
+Notes:
