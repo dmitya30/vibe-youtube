@@ -1,6 +1,6 @@
 # Source Register
 
-Updated: 2026-07-31  
+Updated: 2026-08-01
 Source of truth for external references
 
 Перед использованием изменяемых данных источник необходимо открыть повторно.
@@ -132,10 +132,24 @@ Kie.ai:
   https://docs.kie.ai/
 - Kling 3.0 API:
   https://kie.ai/kling-3-0
+- Kling 3.0 parameter reference:
+  https://kie.ai/model/kling-3.0/video.md
 - ElevenLabs TTS:
   https://kie.ai/elevenlabs-tts
 - Privacy policy:
   https://kie.ai/privacy-policy
+
+
+Remotion:
+
+- Documentation:
+  https://www.remotion.dev/docs/
+- Static assets:
+  https://www.remotion.dev/docs/staticfile
+- Frame interpolation:
+  https://www.remotion.dev/docs/interpolate
+- CLI rendering:
+  https://www.remotion.dev/docs/cli/render
 
 Kling:
 
@@ -159,5 +173,3 @@ YouTube:
   https://developers.google.com/youtube/terms/developer-policies
 
 Provider features, prices, terms, model availability and commercial rights must be rechecked before production use.
-
-- Kling 3.0 API parameter reference: https://kie.ai/model/kling-3.0/video.md

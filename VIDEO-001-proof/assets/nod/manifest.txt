@@ -2,7 +2,8 @@ PROJECT: VIDEO-001 cold-open proof
 ASSET SET: NOD visual development
 SERVICE: Genspark
 PRIMARY MODEL: gpt-image-2
-STATUS: TEST A APPROVED
+FINAL IMAGE EXPORT: JPEG quality 85, minimum 1920x1080
+STATUS: TESTS A-C APPROVED / TEST D NEXT
 
 ==================================================
 A1 — SILHOUETTE EXPLORATION
@@ -144,8 +145,11 @@ Style and composition references:
 Generative elements:
 NOD poses and expressive character motion.
 
-Deterministic elements:
+Candidate deterministic overlays:
 Notifications, doors, document UI, typography and transitions.
+
+These elements are rendered and composited outside Kling unless direct
+character interaction requires them to be baked into the input frame.
 
 ==================================================
 WORKFLOW RULE
@@ -155,6 +159,82 @@ Generate one initial result.
 If the concept is correct, make targeted edits.
 Use no more than two edit iterations before reconsidering the prompt
 or production method.
+
+==================================================
+B1 — KLING CHARACTER MOTION
+==================================================
+
+Service:
+Kie.ai
+
+Model:
+Kling 3.0
+
+Exact model identifier:
+not recorded
+
+Mode:
+std
+
+Resolution:
+1280x720
+
+Duration:
+5 seconds
+
+Aspect ratio:
+16:9
+
+Input:
+styleframe-desk-notification-v1.jpg
+
+Configuration:
+- image_urls: one input image
+- multi_shots: false
+- sound: false
+- shots: B1 motion prompt
+- mode: std
+- aspect_ratio: 16:9
+
+Manual generation runs:
+1
+
+Task ID:
+not recorded
+
+Generation cost:
+not recorded
+
+Output file:
+renders/test-b-kling3-v1.mp4
+
+Output committed to Git:
+No
+
+Source URL:
+https://www.genspark.ai/api/files/s/yAMyVhdm
+
+Result status:
+PASS
+
+Temporal QA:
+10/10
+
+Observed issues:
+- minor variation in eye geometry;
+- oversized motion of the baked notification;
+- small generative changes in hands.
+
+Production decision:
+Use Kling for subtle NOD motion. Prefer clean plates without UI and add
+notifications, typography and simple symbolic objects in Remotion.
+
+Known limitation:
+Run-to-run reproducibility was not tested. A repeat run is required only
+if it becomes a separate production question.
+
+Conclusion:
+Kling 3.0 std is sufficient for motion feasibility.
 
 ==================================================
 C1 — REMOTION DETERMINISTIC OVERLAY

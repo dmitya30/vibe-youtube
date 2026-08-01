@@ -1,7 +1,7 @@
 # Project Context
 
-Updated: 2026-07-31  
-Status: pre-production / stack feasibility  
+Updated: 2026-08-01
+Status: pre-production / narration feasibility
 Source of truth for project-level context
 
 ## 1. Goal
@@ -74,13 +74,15 @@ AdSense не является единственной моделью.
 
 Активный эксперимент — `VIDEO-001`. Его тема, titles, thumbnails, claims, outline и метрики принадлежат [`EXPERIMENTS.md`](EXPERIMENTS.md).
 
-Текущая задача:
+Stack feasibility status:
 
-1. провести микротесты production stack;
-2. проверить character consistency, Kling motion, deterministic compositing и narration;
-3. по результатам выбрать Kling-heavy, balanced hybrid или deterministic-heavy pipeline;
-4. собрать 30-секундный cold-open proof;
-5. при успешном результате перейти к полному сценарию и раскадровке.
+1. Test A / NOD visual development — PASS.
+2. Test B1 / Kling character motion — PASS; один 5-секундный run, temporal QA 10/10.
+3. Test C1 / Remotion deterministic overlay — PASS.
+4. Balanced hybrid Kling + Remotion pipeline — предварительно подтверждён.
+5. Test D / narration — следующий тест.
+
+После Test D необходимо собрать 30-секундный cold-open proof. При успешном proof проект переходит к полному сценарию и раскадровке VIDEO-001.
 
 ## 7. Current restrictions
 

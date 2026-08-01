@@ -1,6 +1,6 @@
 # Operating Playbook
 
-Updated: 2026-07-31  
+Updated: 2026-08-01
 Status: draft v0.1
 
 ## 1. Editorial promise
@@ -373,35 +373,69 @@ S3-compatible storage рассматривается только после п�
 
 ## 12. Stack feasibility gate
 
-До полного 30-секундного proof выполняются четыре микротеста.
+### Test A — NOD visual development
 
-### Test A — character and keyframes
+Status: PASS.
 
-Создать canonical NOD, основные ракурсы, выражения, room style frame и кадр с несколькими дверями.
+Подтверждены:
 
-Проверить ручную разработку через Genspark и воспроизводимость через API-compatible media provider.
+- canonical NOD v1.0;
+- expression vocabulary с ограниченным reference use;
+- desk-notification style frame;
+- multiple-exits style frame;
+- one-generation-first workflow.
 
-### Test B — Kling consistency
+Canonical reference и результаты принадлежат `VIDEO-001-proof/assets/nod/manifest.txt`.
 
-Создать две версии одной 5-секундной сцены с одинаковыми входными материалами:
+### Test B — Kling character motion
 
-- NOD работает за ноутбуком;
-- появляется notification;
-- рука тянется к телефону.
+Status: PASS.
 
-Проверить лицо, руки, пропорции, палитру, окружение, движение и вариативность между runs.
+Минимальный тест:
 
-### Test C — deterministic layer
+- один image-to-video run;
+- продолжительность не менее 5 секунд;
+- `std` для feasibility и `pro` для production;
+- `multi_shots: false`;
+- `sound: false`;
+- один целостный JPG/PNG input;
+- точные параметры и prompt сохраняются в manifest.
 
-Собрать в Remotion 5-секундную сцену:
+Повторный run выполняется только при неоднозначном результате или когда run-to-run reproducibility становится отдельной production-задачей.
 
-- notification;
-- превращение notification в дверь;
-- camera movement;
-- orange accent;
-- точный timing.
+Проверяются:
+
+- character identity;
+- rear paper layer;
+- face and limbs;
+- scene stability;
+- outline flicker;
+- editability;
+- temporal quality.
+
+### Test C — deterministic compositing
+
+Status: PASS.
+
+Минимальный тест проверяет:
+
+- импорт Kling MP4 в Remotion;
+- SVG/shape overlay поверх видео;
+- точное позиционирование;
+- frame-based timing;
+- render и playback;
+- изменение UI без повторной генерации Kling.
+
+Notification-to-door morph, camera movement и сложное occlusion проверяются уже в 30-секундном cold-open proof, а не отдельным искусственным микротестом.
+
+SVG не передаётся в Kling напрямую. Он:
+
+1. встраивается в flattened keyframe до Kling, если нужен direct interaction;
+2. либо композится после Kling как deterministic overlay.
 
 ### Test D — narration
+
+Status: NEXT.
 
 Сгенерировать первые строки cold-open в 2–3 voice variants.
 
@@ -410,18 +444,22 @@ S3-compatible storage рассматривается только после п�
 - neutral international English;
 - calm non-guru delivery;
 - естественные паузы;
-- повторяемость;
-- пригодность для независимого монтажа.
+- повторяемость голоса;
+- пригодность для независимого монтажа;
+- отсутствие зависимости от native Kling audio.
 
-После тестов фиксируются:
+Для каждого теста сохраняются:
 
+- provider and exact model;
+- parameters and prompt;
+- task ID, если доступен;
+- generation cost, если доступна;
 - hands-on time;
-- generation cost;
-- successful runs;
-- failed runs;
+- successful and failed runs;
 - consistency;
 - editability;
 - reusability;
 - main bottleneck;
 - recommended production mode.
 
+Если историческая метрика не была записана, используется `not recorded`; значения не восстанавливаются догадками.

@@ -1,6 +1,6 @@
 # Experiments
 
-Updated: 2026-07-31
+Updated: 2026-08-01
 
 ## Experiment format
 
@@ -106,15 +106,17 @@ These are planning references, not pass/fail rules without sufficient data.
 
 ## Current feasibility gate
 
+Stack microtests A–C are complete. Test D / narration is next.
+
 Before the full script:
 
-1. write a 30-second English cold-open;
-2. create a timed shot list;
-3. define the minimum reusable NOD asset pack;
-4. produce or simulate the scene;
+1. complete narration feasibility;
+2. assemble the approved 30-second English cold-open;
+3. create or refine the timed shot list;
+4. reuse the approved NOD assets and hybrid pipeline;
 5. evaluate clarity, originality, reuse and production cost.
 
-Pass condition: the cold open is understandable, visually coherent and reproducible without depending on random generative-video output.
+Pass condition: the cold open is understandable, visually coherent and reproducible without depending on an irreplaceable random generation. Critical UI, timing and symbolic elements must remain editable without regenerating the whole scene.
 
 ## Cold-open proof specification v0.1
 
@@ -175,7 +177,7 @@ Props:
 - 48 kHz audio;
 - editable vector masters;
 - separated voice and SFX;
-- no generative-video dependency;
+- no irreplaceable generative-video dependency;
 - mobile-readable composition.
 
 ### Pass criteria

@@ -1,54 +1,51 @@
-# Remotion video
+# VIDEO-001 Remotion proof
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+Deterministic compositing proof for the hybrid Kling + Remotion pipeline.
 
-Welcome to your Remotion project!
+## Environment
 
-## Commands
+- shell: Git Bash;
+- Node.js: 20.x;
+- generated MP4 files are not committed;
+- ignore rules are stored only in the repository root `.gitignore`.
 
-**Install Dependencies**
+## Install
 
-```console
+From the repository root:
+
+```bash
+cd ~/projects/vibe-youtube/VIDEO-001-proof/remotion
 npm i
 ```
 
-**Start Preview**
+## Add the local Kling source
 
-```console
+```bash
+cp ../renders/test-b-kling3-v1.mp4 public/
+```
+
+## Preview
+
+```bash
 npm run dev
 ```
 
-**Render video**
+Composition:
 
-```console
-npx remotion render
+```text
+TestCNotificationOverlay
 ```
 
-**Upgrade Remotion**
+## Render
 
-```console
-npx remotion upgrade
+```bash
+npx remotion render \
+  TestCNotificationOverlay \
+  out/test-c-notification-overlay-v1.mp4 \
+  --codec=h264 \
+  --crf=18 \
+  --pixel-format=yuv420p \
+  --muted
 ```
 
-## Docs
-
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+The source MP4, `out/`, `dist/` and dependency directories remain outside Git.
