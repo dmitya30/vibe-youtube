@@ -89,8 +89,19 @@ Stack feasibility status:
 Последовательность раскадровки v1 и production plan зафиксированы:
 [`STORYBOARD.md`](STORYBOARD.md).
 
-Следующий gate — утверждение первого full-video styleframe
-`screen-switching-observation-v1.jpg`, затем генерация полного VO.
+Первый full-video styleframe
+`VIDEO-001-proof/assets/nod/screen-switching-observation-v1.jpg`
+утверждён.
+
+Полная narration v1 утверждена:
+- Gemini 3.1 Flash TTS;
+- Aoede / Empathetic / Natural;
+- 8:21.40;
+- PCM 24 kHz mono;
+- consistency и стыки: PASS.
+
+Следующий gate — первая full-video Remotion-сцена для секции
+`47 seconds`.
 
 ## 7. Current restrictions
 

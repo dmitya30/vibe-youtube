@@ -20,7 +20,7 @@ Updated: 2026-08-01
 
 # VIDEO-001 — Attention Span
 
-Status: script v2 locked / storyboard sequence v1 locked / production assets next
+Status: script and narration locked / first production styleframe approved
 Publication: not approved
 
 ## Hypothesis
@@ -88,7 +88,18 @@ Production documents:
 - locked script v2: [`SCRIPT.md`](SCRIPT.md);
 - storyboard and asset plan v1: [`STORYBOARD.md`](STORYBOARD.md).
 
-Точный хронометраж раскадровки определяется после генерации полного VO.
+Полная narration v1:
+- duration: 501.400 seconds / 8:21.40;
+- codec: PCM signed 16-bit little-endian;
+- sample rate: 24 kHz;
+- channels: mono;
+- voice consistency: PASS;
+- volume consistency: PASS;
+- section boundaries: PASS;
+- unnatural pronunciation detected by owner: No.
+
+Утверждён первый production styleframe:
+`VIDEO-001-proof/assets/nod/screen-switching-observation-v1.jpg`.
 
 ## Evaluation after publication
 

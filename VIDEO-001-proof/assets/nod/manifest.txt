@@ -429,3 +429,44 @@ styleframe-multiple-exits-v1.jpg
 Kling для ограниченного движения NOD, Remotion для UI, timing и
 compositing, утверждённые styleframes для сложных metaphor reveals.
 
+
+
+==================================================
+F — FULL VIDEO NARRATION AND FIRST STYLEFRAME
+==================================================
+
+Full narration:
+audio/video001-narration-v1.wav
+
+Narration status:
+APPROVED
+
+Parameters:
+- model: google/gemini-3-1-flash-tts
+- voice: Aoede
+- style: Empathetic
+- pace: Natural
+- duration: 501.400 seconds / 8:21.40
+- codec: PCM signed 16-bit little-endian
+- sample rate: 24000 Hz
+- channels: mono
+- voice consistency: PASS
+- volume consistency: PASS
+- section boundaries: PASS
+- unnatural pronunciation detected by owner: No
+- generation cost: not recorded
+
+First full-video styleframe:
+screen-switching-observation-v1.jpg
+
+Styleframe status:
+APPROVED
+
+Styleframe QA:
+- NOD identity: PASS
+- double-layer paper head: PASS
+- consistency with cold open: PASS
+- screen-state sequence readability: PASS
+- palette: PASS
+- deterministic animation method: Remotion
+- Kling required: No

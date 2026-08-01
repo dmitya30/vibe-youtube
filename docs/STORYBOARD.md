@@ -2,11 +2,37 @@
 
 Updated: 2026-08-01
 Version: v1
-Status: SEQUENCE LOCKED / TIMING PROVISIONAL
+Status: SEQUENCE LOCKED / SECTION TIMING LOCKED
 Script: [SCRIPT.md](SCRIPT.md)
 
-Точные секунды и кадры определяются только после генерации полного VO.
-Предварительный диапазон: 8–10 минут.
+Полная narration утверждена.
+
+Файл:
+`VIDEO-001-proof/audio/video001-narration-v1.wav`
+
+Параметры:
+- длительность: 501.400 секунды / 8:21.40;
+- PCM signed 16-bit little-endian;
+- 24 kHz;
+- mono;
+- голос, громкость, интонация и стыки секций: PASS;
+- неестественное произношение на слух не обнаружено.
+
+Точный тайминг секций:
+
+| Секция | Начало | Конец |
+|---|---:|---:|
+| Cold open | 00:00.00 | 00:34.60 |
+| 47 seconds | 00:34.60 | 01:49.00 |
+| Two kinds of exits | 01:49.00 | 02:31.48 |
+| Switch cost | 02:31.48 | 04:22.92 |
+| One Door Protocol | 04:22.92 | 06:37.20 |
+| 25-minute experiment | 06:37.20 | 07:41.88 |
+| Ending | 07:41.88 | 08:21.40 |
+
+Ранее указанная оценка 9:38 отменена. Немая вставка для достижения
+этой длительности не требуется. Итоговый ролик должен соответствовать
+длительности narration с коротким финальным хвостом.
 
 ## Production mode
 
@@ -185,11 +211,22 @@ Kling используется только после утверждения с
 7. Один initial result, затем максимум две targeted edit iterations.
 8. Перед Kling обязательно проверить NOD identity, rear paper layer, hands, composition и mobile readability.
 
-## First production asset
+## First production asset — APPROVED
 
 Output:
 
 `VIDEO-001-proof/assets/nod/screen-switching-observation-v1.jpg`
+
+Статус: APPROVED.
+
+QA:
+- NOD identity: PASS;
+- double-layer paper head: PASS;
+- visual consistency with cold open: PASS;
+- screen-switching sequence readability: PASS;
+- palette and orange-accent discipline: PASS;
+- Kling не требуется;
+- движение карточек, оранжевой точки и typography выполняется в Remotion.
 
 Configuration:
 
@@ -239,9 +276,10 @@ orange background, or changes to NOD’s identity.
 
 ## Next gates
 
-1. Commit script and storyboard.
-2. Generate and approve `screen-switching-observation-v1.jpg`.
-3. Generate full narration with locked Script v2.
-4. Measure exact VO duration and pause boundaries.
-5. Replace provisional sequence timing with exact seconds and frames.
-6. Produce assets one scene family at a time.
+1. Разметить точный внутри-секционный timing для `47 seconds`.
+2. Создать первую full-video Remotion composition.
+3. Использовать утверждённый `screen-switching-observation-v1.jpg`.
+4. Реализовать deterministic overlays: `47 SEC`, active-card highlight,
+   orange timeline marker и correction of the attention-limit claim.
+5. Проверить сцену вместе с narration от 00:34.60 до 01:49.00.
+6. Производить следующие scene families по одной.
