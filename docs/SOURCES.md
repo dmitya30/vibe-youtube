@@ -160,3 +160,4 @@ YouTube:
 
 Provider features, prices, terms, model availability and commercial rights must be rechecked before production use.
 
+- Kling 3.0 API parameter reference: https://kie.ai/model/kling-3.0/video.md

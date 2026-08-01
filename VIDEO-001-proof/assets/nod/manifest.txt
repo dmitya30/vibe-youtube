@@ -32,7 +32,7 @@ A2 — CANONICAL TURNAROUND
 ==================================================
 
 Final file:
-nod-canonical-v1.png
+nod-canonical-v1.jpg
 
 Canonical version:
 NOD v1.0
@@ -59,7 +59,7 @@ A3 — EXPRESSION VOCABULARY
 ==================================================
 
 Final file:
-nod-expressions-v1.png
+nod-expressions-v1.jpg
 
 Model:
 gpt-image-2
@@ -78,14 +78,14 @@ Non-canonical head, rear-layer and body contours.
 
 Usage:
 Do not provide this image to image or video generators.
-Use nod-canonical-v1.png and describe the required expression in text.
+Use nod-canonical-v1.jpg and describe the required expression in text.
 
 ==================================================
 A4 — DESK NOTIFICATION STYLE FRAME
 ==================================================
 
 Final file:
-styleframe-desk-notification-v1.png
+styleframe-desk-notification-v1.jpg
 
 Model:
 gpt-image-2
@@ -110,7 +110,7 @@ A5 — MULTIPLE EXITS STYLE FRAME
 ==================================================
 
 Final file:
-styleframe-multiple-exits-v1.png
+styleframe-multiple-exits-v1.jpg
 
 Model:
 gpt-image-2
@@ -132,14 +132,14 @@ REFERENCE RULES
 ==================================================
 
 Character identity reference:
-nod-canonical-v1.png
+nod-canonical-v1.jpg
 
 Expression guidance:
-Describe expressions in text. Do not attach nod-expressions-v1.png.
+Describe expressions in text. Do not attach nod-expressions-v1.jpg.
 
 Style and composition references:
-- styleframe-desk-notification-v1.png
-- styleframe-multiple-exits-v1.png
+- styleframe-desk-notification-v1.jpg
+- styleframe-multiple-exits-v1.jpg
 
 Generative elements:
 NOD poses and expressive character motion.
@@ -155,3 +155,61 @@ Generate one initial result.
 If the concept is correct, make targeted edits.
 Use no more than two edit iterations before reconsidering the prompt
 or production method.
+
+==================================================
+C1 — REMOTION DETERMINISTIC OVERLAY
+==================================================
+
+Source component:
+remotion/src/TestCNotificationOverlay.tsx
+
+Input video:
+renders/test-b-kling3-v1.mp4
+
+Output video:
+remotion/out/test-c-notification-overlay-v1.mp4
+
+Output committed to Git:
+No
+
+Framework:
+Remotion
+
+Composition:
+TestCNotificationOverlay
+
+Resolution:
+1280x720
+
+Duration:
+5 seconds
+
+Frame rate:
+30 fps
+
+Overlay:
+Deterministic orange SVG pulse
+
+Detected notification center:
+X=615, Y=319
+
+Result status:
+PASS
+
+Render:
+OK
+
+Playback:
+OK
+
+Observed limitation:
+The notification baked into the Kling source video grows and moves
+from frame 118. This is acceptable for the feasibility test.
+
+Production decision:
+Generate a clean character plate without notifications whenever
+possible. Add notifications, UI, typography and simple symbolic
+objects as deterministic Remotion overlays.
+
+Conclusion:
+Balanced hybrid Kling + Remotion production mode is technically viable.

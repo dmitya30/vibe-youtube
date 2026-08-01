@@ -39,3 +39,9 @@ node_modules/
 .idea/
 .DS_Store
 Thumbs.db
+VIDEO-001-proof/remotion/node_modules/
+VIDEO-001-proof/remotion/out/
+VIDEO-001-proof/remotion/public/*.mp4
+VIDEO-001-proof/remotion/dist/
+VIDEO-001-proof/remotion/.env
+VIDEO-001-proof/remotion/.DS_Store
