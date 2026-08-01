@@ -21,7 +21,8 @@
 - shell: Git Bash;
 - repository: `~/projects/vibe-youtube`;
 - общение и инструкции: русский;
-- channel-facing content: английский;
+- внутренняя документация и описания тестов: русский;
+- channel-facing content, scripts и generation prompts: английский;
 - создание файлов: `cat > file <<'EOF'`;
 - изменение существующих файлов: Python scripts;
 - ignore rules: только корневой `.gitignore`;

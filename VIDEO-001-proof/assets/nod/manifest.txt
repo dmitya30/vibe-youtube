@@ -3,7 +3,7 @@ ASSET SET: NOD visual development
 SERVICE: Genspark
 PRIMARY MODEL: gpt-image-2
 FINAL IMAGE EXPORT: JPEG quality 85, minimum 1920x1080
-STATUS: TESTS A-D APPROVED / COLD-OPEN PROOF NEXT
+STATUS: TESTS A-D AND COLD-OPEN PROOF APPROVED
 
 ==================================================
 A1 — SILHOUETTE EXPLORATION
@@ -359,4 +359,73 @@ Known limitation:
 Pronunciation has not received native-listener QA. The English script
 itself passed language review. Perform transcript and language QA before
 publication of the final video.
+
+==================================================
+E — COLD-OPEN PROOF
+==================================================
+
+Статус:
+PASS
+
+Итоговая композиция:
+remotion/src/ColdOpenProof.tsx
+
+Итоговый локальный рендер:
+remotion/out/cold-open-proof-v3.mp4
+
+Clean plate:
+coldopen-desk-clean-v1.jpg
+
+Kling source:
+renders/coldopen-desk-clean-kling3-pro-v1.mp4
+
+Ping-pong source:
+renders/coldopen-desk-clean-kling3-pro-v1-pingpong.mp4
+
+Multiple-exits reveal:
+styleframe-multiple-exits-v1.jpg
+
+Параметры Kling:
+- provider: Kie.ai
+- model: Kling 3.0
+- mode: pro
+- duration: 5 seconds
+- resolution: 1920x1080
+- frame rate: 24 fps
+- sound: false
+- multi_shots: false
+- cost: 90 credits
+- generation time: 251 seconds
+
+Параметры итогового proof:
+- duration: 34.645 seconds
+- resolution: 1920x1080
+- frame rate: 30 fps
+- video codec: H.264
+- audio codec: AAC
+- audio sample rate: 48 kHz
+- Remotion duration: 1038 frames
+
+Результаты QA:
+- playback: PASS
+- audio continuity: PASS
+- transitions: PASS
+- NOD identity: PASS
+- pressure-lines: PASS
+- multiple-exits metaphor: PASS через A5 styleframe
+
+Отклонённые решения:
+Два SVG-варианта дверей воспринимались как смартфоны, телевизоры или
+раскрытые книги. Они удалены из итоговой композиции.
+
+Допустимые ограничения:
+- небольшой overlap во время перехода на A5;
+- небольшая тень на голове NOD при наклоне;
+- небольшое размытие пальцев во время печати;
+- native-listener QA произношения ещё не выполнен.
+
+Производственное решение:
+Для VIDEO-001 использовать balanced hybrid pipeline:
+Kling для ограниченного движения NOD, Remotion для UI, timing и
+compositing, утверждённые styleframes для сложных metaphor reveals.
 

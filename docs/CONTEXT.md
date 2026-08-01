@@ -1,7 +1,7 @@
 # Project Context
 
 Updated: 2026-08-01
-Status: pre-production / cold-open proof
+Status: pre-production / full script and storyboard
 Source of truth for project-level context
 
 ## 1. Goal
@@ -77,12 +77,13 @@ AdSense не является единственной моделью.
 Stack feasibility status:
 
 1. Test A / NOD visual development — PASS.
-2. Test B1 / Kling character motion — PASS; один 5-секундный run, temporal QA 10/10.
+2. Test B1 / Kling character motion — PASS.
 3. Test C1 / Remotion deterministic overlay — PASS.
-4. Test D / narration — PASS; selected preset: Gemini 3.1 Flash TTS, Aoede, Empathetic, Natural.
-5. Balanced hybrid Kling + Remotion pipeline — предварительно подтверждён.
+4. Test D / narration — PASS; выбран Gemini 3.1 Flash TTS, Aoede, Empathetic, Natural.
+5. Cold-open proof v3 — PASS; 34.645 секунды, 1920×1080, 30 fps.
+6. Для VIDEO-001 подтверждён balanced hybrid pipeline: Kling + Remotion + утверждённые styleframes.
 
-Следующий этап — собрать approximately 34-second cold-open proof. При успешном proof проект переходит к полному сценарию и раскадровке VIDEO-001.
+Следующий этап — полный английский сценарий и раскадровка VIDEO-001.
 
 ## 7. Current restrictions
 

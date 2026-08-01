@@ -20,7 +20,7 @@ Updated: 2026-08-01
 
 # VIDEO-001 — Attention Span
 
-Status: cold-open proof  
+Status: full script and storyboard  
 Publication: not approved
 
 ## Hypothesis
@@ -106,18 +106,19 @@ These are planning references, not pass/fail rules without sufficient data.
 
 ## Current feasibility gate
 
-Stack microtests A–D are complete. The selected narration preset is Gemini 3.1 Flash TTS / Aoede / Empathetic / Natural.
+Stack microtests A–D и cold-open proof завершены со статусом PASS.
 
-Before the full script:
+Подтверждено:
 
-1. create or refine the timed shot list around the selected 34-second narration;
-2. assemble the English cold-open proof;
-3. reuse the approved NOD assets and hybrid pipeline;
-4. evaluate clarity, originality, reuse and production cost.
+1. NOD сохраняет идентичность в коротком Kling motion.
+2. Narration, generative motion и deterministic graphics можно менять независимо.
+3. UI, уведомления, вкладки, телефон, мысль, timing и pressure-lines редактируются без повторной генерации Kling.
+4. Для сложной метафоры дверей допустимо использовать утверждённый generated styleframe.
+5. Для VIDEO-001 выбран balanced hybrid production mode.
 
-Pass condition: the cold open is understandable, visually coherent and reproducible without depending on an irreplaceable random generation. Critical UI, timing and symbolic elements must remain editable without regenerating the whole scene.
+Следующий этап — полный английский сценарий и раскадровка.
 
-## Cold-open proof specification v0.1
+## Cold-open proof specification v1.0
 
 ### Voice-over
 
@@ -190,6 +191,44 @@ Props:
 - hands-on production time and bottlenecks are recorded.
 
 Heavy media and editable production files remain outside the public repository.
+
+### Результат cold-open proof
+
+Статус: PASS.
+
+Итоговая версия:
+
+`VIDEO-001-proof/remotion/out/cold-open-proof-v3.mp4`
+
+Параметры:
+
+- длительность: 34.645 секунды;
+- видео: H.264, 1920×1080, 30 fps;
+- аудио: AAC, 48 kHz, stereo;
+- narration: Gemini 3.1 Flash TTS / Aoede / Empathetic / Natural;
+- character motion: Kling 3.0 Pro;
+- стоимость production Kling run: 90 credits;
+- время Kling generation: 251 секунда;
+- Remotion composition: 1038 кадров при 30 fps;
+- воспроизведение: PASS;
+- непрерывность звука: PASS;
+- плавность переходов: PASS.
+
+Производственное решение:
+
+- Kling используется для ограниченного движения NOD;
+- Remotion используется для UI, timing, compositing и pressure-lines;
+- утверждённый A5 styleframe используется для multiple-exits reveal;
+- SVG-варианты дверей отклонены из-за слабой читаемости;
+- повторная генерация Kling для правок UI не требуется.
+
+Допустимые ограничения:
+
+- небольшой визуальный overlap во время перехода на A5;
+- небольшая тень на голове NOD при наклоне;
+- небольшое размытие пальцев во время печати;
+- native-listener QA английского произношения остаётся обязательным перед публикацией.
+
 
 ---
 

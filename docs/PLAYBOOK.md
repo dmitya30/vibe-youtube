@@ -361,7 +361,7 @@ S3-compatible storage рассматривается только после п�
 
 ### Production modes
 
-До завершения stack feasibility test не выбирается единственный production mode.
+По результатам stack feasibility test для VIDEO-001 выбран `Balanced hybrid`: generative character motion сочетается с deterministic UI, timing и compositing.
 
 Кандидаты:
 
@@ -447,6 +447,22 @@ Status: PASS.
 - повторяемость голоса;
 - пригодность для независимого монтажа;
 - отсутствие зависимости от native Kling audio.
+
+### Cold-open proof
+
+Status: PASS.
+
+Подтверждены:
+
+- 34.645-секундная композиция 1920×1080 при 30 fps;
+- раздельные narration, Kling motion и Remotion graphics;
+- редактирование UI и timing без повторной генерации Kling;
+- использование утверждённого styleframe для сложной метафоры;
+- balanced hybrid production mode для VIDEO-001.
+
+Ограничение: сложные символические объекты не считаются автоматически
+подходящими для SVG. Их читаемость проверяется на mobile-size кадре;
+при неудаче используется утверждённый styleframe или иной контролируемый asset.
 
 Для каждого теста сохраняются:
 
