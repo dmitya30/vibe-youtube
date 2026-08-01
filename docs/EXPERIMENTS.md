@@ -85,8 +85,8 @@ Target: 8–10 minutes / approximately 1,300–1,450 English words.
 
 Production documents:
 
-- locked script v2: [`video-001/SCRIPT.md`](video-001/SCRIPT.md);
-- storyboard and asset plan v1: [`video-001/STORYBOARD.md`](video-001/STORYBOARD.md).
+- locked script v2: [`SCRIPT.md`](SCRIPT.md);
+- storyboard and asset plan v1: [`STORYBOARD.md`](STORYBOARD.md).
 
 Точный хронометраж раскадровки определяется после генерации полного VO.
 

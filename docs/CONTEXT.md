@@ -84,10 +84,10 @@ Stack feasibility status:
 6. Для VIDEO-001 подтверждён balanced hybrid pipeline: Kling + Remotion + утверждённые styleframes.
 
 Сценарий VIDEO-001 v2 зафиксирован для полного TTS и timing QA:
-[`video-001/SCRIPT.md`](video-001/SCRIPT.md).
+[`SCRIPT.md`](SCRIPT.md).
 
 Последовательность раскадровки v1 и production plan зафиксированы:
-[`video-001/STORYBOARD.md`](video-001/STORYBOARD.md).
+[`STORYBOARD.md`](STORYBOARD.md).
 
 Следующий gate — утверждение первого full-video styleframe
 `screen-switching-observation-v1.jpg`, затем генерация полного VO.

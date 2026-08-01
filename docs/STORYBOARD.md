@@ -156,7 +156,7 @@ Hero reveal:
 
 Расположение:
 
-`VIDEO-001-proof/assets/nod/video001/`
+`VIDEO-001-proof/assets/nod/`
 
 Каждый styleframe проходит отдельное утверждение. Не генерировать пакет целиком заранее.
 
@@ -189,7 +189,7 @@ Kling используется только после утверждения с
 
 Output:
 
-`VIDEO-001-proof/assets/nod/video001/screen-switching-observation-v1.jpg`
+`VIDEO-001-proof/assets/nod/screen-switching-observation-v1.jpg`
 
 Configuration:
 
