@@ -83,7 +83,14 @@ Stack feasibility status:
 5. Cold-open proof v3 — PASS; 34.645 секунды, 1920×1080, 30 fps.
 6. Для VIDEO-001 подтверждён balanced hybrid pipeline: Kling + Remotion + утверждённые styleframes.
 
-Следующий этап — полный английский сценарий и раскадровка VIDEO-001.
+Сценарий VIDEO-001 v2 зафиксирован для полного TTS и timing QA:
+[`video-001/SCRIPT.md`](video-001/SCRIPT.md).
+
+Последовательность раскадровки v1 и production plan зафиксированы:
+[`video-001/STORYBOARD.md`](video-001/STORYBOARD.md).
+
+Следующий gate — утверждение первого full-video styleframe
+`screen-switching-observation-v1.jpg`, затем генерация полного VO.
 
 ## 7. Current restrictions
 

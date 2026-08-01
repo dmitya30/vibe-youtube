@@ -20,7 +20,7 @@ Updated: 2026-08-01
 
 # VIDEO-001 — Attention Span
 
-Status: full script and storyboard  
+Status: script v2 locked / storyboard sequence v1 locked / production assets next
 Publication: not approved
 
 ## Hypothesis
@@ -82,6 +82,13 @@ Supporting research belongs to [`SOURCES.md`](SOURCES.md).
 7. End with one CTA about the viewer’s most common exit.
 
 Target: 8–10 minutes / approximately 1,300–1,450 English words.
+
+Production documents:
+
+- locked script v2: [`video-001/SCRIPT.md`](video-001/SCRIPT.md);
+- storyboard and asset plan v1: [`video-001/STORYBOARD.md`](video-001/STORYBOARD.md).
+
+Точный хронометраж раскадровки определяется после генерации полного VO.
 
 ## Evaluation after publication
 
