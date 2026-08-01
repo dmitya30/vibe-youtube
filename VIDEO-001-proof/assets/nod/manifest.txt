@@ -1,0 +1,157 @@
+PROJECT: VIDEO-001 cold-open proof
+ASSET SET: NOD visual development
+SERVICE: Genspark
+PRIMARY MODEL: gpt-image-2
+STATUS: TEST A APPROVED
+
+==================================================
+A1 — SILHOUETTE EXPLORATION
+==================================================
+
+Purpose:
+Explore possible visual identities for NOD.
+
+Models tested:
+- gpt-image-2
+- fal-ai/nano-banana
+- Nano Banana Pro
+- Nano Banana 2 Flash Lite
+
+Generation count: 4
+Selected result:
+GPT Image 2.0, concept 3 — double-layer paper head
+
+Result status:
+COMPLETE — intermediate files removed from current tree
+
+Notes:
+Original exploration assets remain available in Git history.
+
+==================================================
+A2 — CANONICAL TURNAROUND
+==================================================
+
+Final file:
+nod-canonical-v1.png
+
+Canonical version:
+NOD v1.0
+
+Model:
+gpt-image-2
+
+Result status:
+APPROVED
+
+Purpose:
+Canonical visual identity and turnaround reference.
+
+Known tolerances:
+Minor variation in hands, legs, rear-layer offset and line geometry
+between views.
+
+Usage:
+This is the only approved character-identity reference for future
+image and video generation.
+
+==================================================
+A3 — EXPRESSION VOCABULARY
+==================================================
+
+Final file:
+nod-expressions-v1.png
+
+Model:
+gpt-image-2
+
+Result status:
+APPROVED_WITH_LIMITATION
+
+Purpose:
+Internal facial-expression vocabulary only.
+
+Approved as character reference:
+No
+
+Known issues:
+Non-canonical head, rear-layer and body contours.
+
+Usage:
+Do not provide this image to image or video generators.
+Use nod-canonical-v1.png and describe the required expression in text.
+
+==================================================
+A4 — DESK NOTIFICATION STYLE FRAME
+==================================================
+
+Final file:
+styleframe-desk-notification-v1.png
+
+Model:
+gpt-image-2
+
+Source URL:
+https://www.genspark.ai/api/files/s/reFXRHzN
+
+Result status:
+APPROVED
+
+Purpose:
+Close/medium composition showing one specific distraction.
+
+Known issue:
+Notification appears physically attached to the laptop.
+
+Production decision:
+Recreate the notification as a separate deterministic SVG layer.
+
+==================================================
+A5 — MULTIPLE EXITS STYLE FRAME
+==================================================
+
+Final file:
+styleframe-multiple-exits-v1.png
+
+Model:
+gpt-image-2
+
+Source URL:
+https://www.genspark.ai/api/files/s/8bCiPStL
+
+Result status:
+APPROVED
+
+Purpose:
+Wide reveal frame showing multiple exits from the active task.
+
+Production decision:
+Recreate the doors as separate deterministic SVG layers.
+
+==================================================
+REFERENCE RULES
+==================================================
+
+Character identity reference:
+nod-canonical-v1.png
+
+Expression guidance:
+Describe expressions in text. Do not attach nod-expressions-v1.png.
+
+Style and composition references:
+- styleframe-desk-notification-v1.png
+- styleframe-multiple-exits-v1.png
+
+Generative elements:
+NOD poses and expressive character motion.
+
+Deterministic elements:
+Notifications, doors, document UI, typography and transitions.
+
+==================================================
+WORKFLOW RULE
+==================================================
+
+Generate one initial result.
+If the concept is correct, make targeted edits.
+Use no more than two edit iterations before reconsidering the prompt
+or production method.
