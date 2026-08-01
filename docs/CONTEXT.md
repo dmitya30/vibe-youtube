@@ -1,7 +1,7 @@
 # Project Context
 
 Updated: 2026-08-01
-Status: pre-production / narration feasibility
+Status: pre-production / cold-open proof
 Source of truth for project-level context
 
 ## 1. Goal
@@ -79,10 +79,10 @@ Stack feasibility status:
 1. Test A / NOD visual development — PASS.
 2. Test B1 / Kling character motion — PASS; один 5-секундный run, temporal QA 10/10.
 3. Test C1 / Remotion deterministic overlay — PASS.
-4. Balanced hybrid Kling + Remotion pipeline — предварительно подтверждён.
-5. Test D / narration — следующий тест.
+4. Test D / narration — PASS; selected preset: Gemini 3.1 Flash TTS, Aoede, Empathetic, Natural.
+5. Balanced hybrid Kling + Remotion pipeline — предварительно подтверждён.
 
-После Test D необходимо собрать 30-секундный cold-open proof. При успешном proof проект переходит к полному сценарию и раскадровке VIDEO-001.
+Следующий этап — собрать approximately 34-second cold-open proof. При успешном proof проект переходит к полному сценарию и раскадровке VIDEO-001.
 
 ## 7. Current restrictions
 

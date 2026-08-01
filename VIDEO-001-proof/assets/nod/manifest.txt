@@ -3,7 +3,7 @@ ASSET SET: NOD visual development
 SERVICE: Genspark
 PRIMARY MODEL: gpt-image-2
 FINAL IMAGE EXPORT: JPEG quality 85, minimum 1920x1080
-STATUS: TESTS A-C APPROVED / TEST D NEXT
+STATUS: TESTS A-D APPROVED / COLD-OPEN PROOF NEXT
 
 ==================================================
 A1 — SILHOUETTE EXPLORATION
@@ -293,3 +293,70 @@ objects as deterministic Remotion overlays.
 
 Conclusion:
 Balanced hybrid Kling + Remotion production mode is technically viable.
+
+==================================================
+D — NARRATION FEASIBILITY
+==================================================
+
+Provider:
+Kie.ai
+
+D1 — ElevenLabs baseline:
+- model: elevenlabs/text-to-speech-multilingual-v2
+- selected voice in UI: Rachel M - Pro British Radio Presenter
+- attempts: 10
+- result: BLOCKED
+- reason: provider reported approximately 0% success rate / overload
+- successful output: No
+- cost: not recorded
+
+D2 — Gemini baseline:
+- model: google/gemini-3-1-flash-tts
+- voice: Aoede
+- speaker ID: Speaker 1
+- accent: American (General)
+- style: Newscaster
+- pace: Natural
+- temperature: 0.7
+- duration: 32 seconds
+- generation time: 13 seconds
+- generation cost: 4.62 credits
+- subjective delivery score: 9/10
+- output: audio/test-d2-gemini-3.1-flash-aoede-newscaster.wav
+- result: PASS
+
+D3 — selected narration preset:
+- model: google/gemini-3-1-flash-tts
+- voice: Aoede
+- speaker ID: Speaker 1
+- accent: American (General)
+- style: Empathetic
+- pace: Natural
+- temperature: 0.7
+- duration: 34 seconds
+- generation time: not recorded
+- generation cost: not recorded
+- output: audio/test-d3-gemini-3.1-flash-aoede.wav
+- result: SELECTED
+
+Selected sample context:
+A calm, thoughtful YouTube essay about attention and distraction. The
+narrator sounds like a perceptive friend explaining an everyday
+experience—not a guru, salesperson, therapist, or radio announcer.
+Clear conversational English, restrained emotion, natural pauses,
+and quiet confidence.
+
+Decision:
+Use Gemini 3.1 Flash TTS with Aoede, Empathetic style and Natural pace
+for the cold-open proof. D3 was slightly calmer and less announcer-like
+than D2. Do not test Gemini 2.5 Pro unless a later production issue
+creates a specific need.
+
+Result status:
+PASS
+
+Known limitation:
+Pronunciation has not received native-listener QA. The English script
+itself passed language review. Perform transcript and language QA before
+publication of the final video.
+

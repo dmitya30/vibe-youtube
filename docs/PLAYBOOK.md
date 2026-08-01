@@ -333,7 +333,7 @@ DaVinci Resolve допускается как необязательный ру�
 
 Master narration создаётся отдельно от video generation.
 
-Первый кандидат — ElevenLabs через Kie.ai.
+Production narration candidate — Gemini 3.1 Flash TTS through Kie.ai with the Aoede voice. ElevenLabs remains a replaceable fallback.
 
 Narration и visual generation хранятся отдельными дорожками, чтобы менять текст, голос и монтаж независимо.
 
@@ -435,9 +435,9 @@ SVG не передаётся в Kling напрямую. Он:
 
 ### Test D — narration
 
-Status: NEXT.
+Status: PASS.
 
-Сгенерировать первые строки cold-open в 2–3 voice variants.
+Проверены ElevenLabs и две Gemini 3.1 Flash TTS deliveries. Выбран Aoede / Empathetic / Natural.
 
 Проверить:
 

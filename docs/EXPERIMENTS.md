@@ -20,7 +20,7 @@ Updated: 2026-08-01
 
 # VIDEO-001 — Attention Span
 
-Status: visual feasibility  
+Status: cold-open proof  
 Publication: not approved
 
 ## Hypothesis
@@ -106,15 +106,14 @@ These are planning references, not pass/fail rules without sufficient data.
 
 ## Current feasibility gate
 
-Stack microtests A–C are complete. Test D / narration is next.
+Stack microtests A–D are complete. The selected narration preset is Gemini 3.1 Flash TTS / Aoede / Empathetic / Natural.
 
 Before the full script:
 
-1. complete narration feasibility;
-2. assemble the approved 30-second English cold-open;
-3. create or refine the timed shot list;
-4. reuse the approved NOD assets and hybrid pipeline;
-5. evaluate clarity, originality, reuse and production cost.
+1. create or refine the timed shot list around the selected 34-second narration;
+2. assemble the English cold-open proof;
+3. reuse the approved NOD assets and hybrid pipeline;
+4. evaluate clarity, originality, reuse and production cost.
 
 Pass condition: the cold open is understandable, visually coherent and reproducible without depending on an irreplaceable random generation. Critical UI, timing and symbolic elements must remain editable without regenerating the whole scene.
 
@@ -131,7 +130,7 @@ Pass condition: the cold open is understandable, visually coherent and reproduci
 > Maybe your task just has too many exits.
 > And if that’s the problem, forcing yourself to focus harder may be the wrong fix.
 
-Target: 29–32 seconds at a natural 140–150 WPM.
+Original target: 29–32 seconds. Selected feasibility narration: 34 seconds with calmer delivery; accepted for the proof.
 
 ### Shot sequence
 
