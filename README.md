@@ -12,7 +12,8 @@
 4. [`docs/SOURCES.md`](docs/SOURCES.md) — источники и область их применения.
 5. [`docs/SCRIPT.md`](docs/SCRIPT.md) — зафиксированный публичный сценарий VIDEO-001.
 6. [`docs/STORYBOARD.md`](docs/STORYBOARD.md) — раскадровка, asset plan и production gates VIDEO-001.
-7. [`archive/`](archive/) — исторические материалы, не являющиеся текущим контекстом.
+7. [`docs/REPOSITORY_STRUCTURE.md`](docs/REPOSITORY_STRUCTURE.md) — каноническое дерево, media roots, output lifecycle и правила локальных файлов.
+8. [`archive/`](archive/) — исторические материалы, не являющиеся текущим контекстом.
 
 Информация подробно хранится только в файле-владельце. В остальных файлах допустимы только ссылки без пересказа.
 
