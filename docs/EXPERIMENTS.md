@@ -20,7 +20,7 @@ Updated: 2026-08-02
 
 # VIDEO-001 — Attention Span
 
-Status: narration v2 locked / Sections 01–03 locked / Section 04 in production
+Status: narration v2 locked / Sections 01–05 PASS / LOCKED / Section 06 next
 Publication: not approved
 
 ## Hypothesis
@@ -114,7 +114,7 @@ Production status:
 | 02 47 seconds | PASS / LOCKED |
 | 03 Two kinds of exits | PASS / LOCKED |
 | 04 Switch cost | PASS / LOCKED |
-| 05 One Door Protocol | Narration ready |
+| 05 One Door Protocol | PASS / LOCKED |
 | 06 25-minute experiment | Narration ready |
 | 07 Ending | Narration ready |
 
@@ -127,6 +127,42 @@ Current production styleframes:
 
 Text transcripts and silence maps are version-controlled.
 Generated WAV, MP4 and raster-image files remain local.
+
+## VIDEO-001 production lessons
+
+Фактический production mode:
+
+`Deterministic-heavy with selective Kling motion`.
+
+Решение:
+
+- Kling остаётся инструментом для сцен, где естественное движение
+  заметно улучшает результат;
+- candidate Kling clips в storyboard не являются обязательным shot
+  contract;
+- UI, diagrams, typography, timing и controlled motion выполняются в
+  Remotion, когда это точнее и легче исправлять;
+- VIDEO-001 не должен получать дополнительные generative clips только
+  ради формального соответствия первоначальному asset plan.
+
+Наблюдения для будущей автоматизации:
+
+1. Текущий TSX-per-section pipeline является способом создания первого
+   эталона, а не финальной архитектурой.
+2. Silence detection полезен для пауз, но недостаточен для смысловой
+   синхронизации.
+3. Следующие версии должны использовать word-level timestamps или
+   forced alignment.
+4. Повторяемые сцены должны перейти в reusable Remotion components.
+5. Видео должно описываться scene manifest с timing events, а не
+   уникальным большим TSX-файлом для каждой секции.
+6. Automated QA должен проверять duration, missing scenes, empty
+   transitions, text overflow, overlaps, safe areas и sampled frames.
+7. Массовая orchestration откладывается до 3–5 эталонных роликов и
+   появления viewer retention data.
+8. Цель автоматизации — не гарантированный идеальный first take, а
+   автоматические проверки, ограниченные retries и один human approval
+   pass.
 
 ## Evaluation after publication
 
@@ -279,7 +315,7 @@ Heavy media and editable production files remain outside the public repository.
 
 # Adjacency Scan
 
-Status: completed  
+Status: completed
 Decision: expand internal positioning to `visual life skills for navigating modern life`.
 
 ## Comparative result

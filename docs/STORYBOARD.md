@@ -286,7 +286,8 @@ orange background, or changes to NOD’s identity.
 - Section 02 — PASS / LOCKED.
 - Section 03 — PASS / LOCKED.
 - Section 04 — PASS / LOCKED.
-- Sections 05–07 — narration ready / visual production pending.
+- Section 05 — PASS / LOCKED.
+- Sections 06–07 — narration ready / visual production pending.
 
 Section 04 source:
 
@@ -300,10 +301,43 @@ Local approved render:
 Финальный граф mental model реализован детерминированно в Remotion
 поверх `coldopen-desk-clean-v1.jpg`.
 
+## Section 05 locked implementation
+
+Source:
+
+`VIDEO-001-proof/remotion/src/Section05OneDoorProtocol.tsx`
+
+Local approved render:
+
+`VIDEO-001-proof/remotion/out/section-05-one-door-protocol-v2.mp4`
+
+Duration:
+
+`203.650958 seconds / 6110 frames / 30 fps`
+
+Implementation:
+
+- clean NOD desk frame;
+- deterministic Remotion cards and diagrams;
+- fixed-hinge door animation;
+- five-step One Door Protocol;
+- accepted minor Step 4 → Step 5 timing tolerance;
+- final visual and narration QA: PASS.
+
+## Actual production mode
+
+VIDEO-001 currently uses:
+
+`Deterministic-heavy with selective Kling motion`.
+
+Kling is retained for shots where natural character movement materially
+improves the scene. Candidate Kling shots are not mandatory when
+deterministic Remotion produces a clearer and more editable result.
+
 ## Next gates
 
-1. Получить silence map Section 05.
-2. Разметить One Door Protocol по narration длительностью 203.650958 секунды.
-3. Создать `Section05OneDoorProtocol.tsx`.
-4. Использовать clean NOD frames и deterministic Remotion graphics.
-5. Проверить Section 05 вместе с narration.
+1. Extract and commit the Section 06 silence map.
+2. Map Section 06 using narration and word-level meaning.
+3. Create the Section 06 Remotion composition.
+4. Preserve visual variation without adding unnecessary Kling shots.
+5. Render and review Section 06.

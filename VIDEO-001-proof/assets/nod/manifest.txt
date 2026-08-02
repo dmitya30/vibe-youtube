@@ -519,3 +519,38 @@ Version-controlled text artifacts:
 - audio/segments/05-one-door-protocol.txt
 - audio/segments/06-25-minute-experiment.txt
 - audio/segments/07-ending.txt
+
+H — SECTION 05 / ONE DOOR PROTOCOL LOCK
+
+Status: PASS / LOCKED
+Date: 2026-08-02
+
+Source:
+VIDEO-001-proof/remotion/src/Section05OneDoorProtocol.tsx
+
+Narration:
+VIDEO-001-proof/audio/segments/05-one-door-protocol.wav
+
+Timing map:
+VIDEO-001-proof/audio/segments/05-silences.txt
+
+Approved local render:
+VIDEO-001-proof/remotion/out/section-05-one-door-protocol-v2.mp4
+
+Parameters:
+- duration: 203.650958 seconds
+- frames: 6110
+- fps: 30
+- resolution: 1920x1080
+- codec: H.264
+- audio: AAC 192 kbps
+
+Production mode:
+- deterministic Remotion graphics
+- clean NOD desk asset
+- no additional Kling generation
+- fixed-hinge door animation
+- accepted minor Step 4 to Step 5 timing tolerance
+
+Commit:
+ec6f200c33688d672193dc4346fcdadb7d94d492

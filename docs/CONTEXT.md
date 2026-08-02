@@ -1,7 +1,7 @@
 # Project Context
 
 Updated: 2026-08-02
-Status: pre-production / full script and storyboard
+Status: production / Sections 01–05 PASS / LOCKED
 Source of truth for project-level context
 
 ## 1. Goal
@@ -112,10 +112,11 @@ Production status:
 2. Section 02 / 47 seconds — PASS / LOCKED.
 3. Section 03 / two kinds of exits — PASS / LOCKED.
 4. Section 04 / switch cost — PASS / LOCKED.
-5. Sections 05–07 — narration ready; visual production pending.
+5. Section 05 / One Door Protocol — PASS / LOCKED.
+6. Sections 06–07 — narration ready; visual production pending.
 
 Текущий gate — точная разметка и Remotion-композиция
-Section 05 / One Door Protocol.
+Section 06 / 25-minute experiment.
 
 Repository policy:
 
