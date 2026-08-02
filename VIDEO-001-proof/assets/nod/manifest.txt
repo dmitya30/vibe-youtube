@@ -586,3 +586,37 @@ QA:
 - empty transitions: PASS
 - accepted limitation: connector lines briefly disappear near 59 seconds
 - overall: PASS / LOCKED
+
+J — SECTION 07 / ENDING LOCK
+
+Status: PASS / LOCKED
+Date: 2026-08-02
+
+Source:
+VIDEO-001-proof/remotion/src/Section07Ending.tsx
+
+Narration:
+VIDEO-001-proof/audio/segments/07-ending.wav
+
+Timing map:
+VIDEO-001-proof/audio/segments/07-silences.txt
+
+Approved local render:
+VIDEO-001-proof/remotion/out/section-07-ending-v2.mp4
+
+Parameters:
+- narration duration: 39.520 seconds
+- frames: 1186
+- composition duration: 39.533333 seconds
+- approved MP4 mux duration: 39.594667 seconds
+- fps: 30
+- resolution: 1920x1080
+- deterministic Remotion
+- no additional Kling generation
+
+QA:
+- semantic synchronization: PASS
+- empty transitions: PASS
+- readability: PASS
+- final slogan position: PASS
+- overall: PASS / LOCKED

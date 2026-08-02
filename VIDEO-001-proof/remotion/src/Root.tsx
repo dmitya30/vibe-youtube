@@ -1,3 +1,4 @@
+import {Section07Ending} from './Section07Ending';
 import {Section06TwentyFiveMinuteExperiment} from './Section06TwentyFiveMinuteExperiment';
 import {Section05OneDoorProtocol} from './Section05OneDoorProtocol';
 import {Section04SwitchCost} from './Section04SwitchCost';
@@ -66,6 +67,14 @@ export const RemotionRoot: React.FC = () => (
       id="Section06TwentyFiveMinuteExperiment"
       component={Section06TwentyFiveMinuteExperiment}
       durationInFrames={1941}
+      fps={30}
+      width={1920}
+      height={1080}
+    />
+    <Composition
+      id="Section07Ending"
+      component={Section07Ending}
+      durationInFrames={1186}
       fps={30}
       width={1920}
       height={1080}

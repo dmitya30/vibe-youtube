@@ -20,7 +20,7 @@ Updated: 2026-08-02
 
 # VIDEO-001 — Attention Span
 
-Status: narration v2 locked / Sections 01–06 PASS / LOCKED / Section 07 next
+Status: narration v2 locked / Sections 01–07 PASS / LOCKED / master assembly next
 Publication: not approved
 
 ## Hypothesis
@@ -116,7 +116,7 @@ Production status:
 | 04 Switch cost | PASS / LOCKED |
 | 05 One Door Protocol | PASS / LOCKED |
 | 06 25-minute experiment | PASS / LOCKED |
-| 07 Ending | Narration ready |
+| 07 Ending | PASS / LOCKED |
 
 Current production styleframes:
 

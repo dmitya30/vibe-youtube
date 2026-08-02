@@ -1,7 +1,7 @@
 # Project Context
 
 Updated: 2026-08-02
-Status: production / Sections 01–06 PASS / LOCKED
+Status: production / Sections 01–07 PASS / LOCKED
 Source of truth for project-level context
 
 ## 1. Goal
@@ -114,10 +114,9 @@ Production status:
 4. Section 04 / switch cost — PASS / LOCKED.
 5. Section 05 / One Door Protocol — PASS / LOCKED.
 6. Section 06 / 25-minute experiment — PASS / LOCKED.
-7. Section 07 — narration ready; visual production pending.
+7. Section 07 / ending — PASS / LOCKED.
 
-Текущий gate — точная разметка и Remotion-композиция
-Section 07 / ending.
+Текущий gate — сборка и сквозной QA полного master VIDEO-001.
 
 Repository policy:
 

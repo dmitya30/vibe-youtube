@@ -2,7 +2,7 @@
 
 Updated: 2026-08-02
 Version: v1
-Status: SEQUENCE LOCKED / SECTION TIMING LOCKED
+Status: SEQUENCE LOCKED / SECTIONS 01–07 PASS / LOCKED
 Script: [SCRIPT.md](SCRIPT.md)
 
 Полная narration v2 утверждена.
@@ -374,10 +374,47 @@ QA:
   disappear near 59 seconds;
 - overall decision: PASS / LOCKED.
 
+## Section 07 locked implementation
+
+Source:
+
+`VIDEO-001-proof/remotion/src/Section07Ending.tsx`
+
+Local approved render:
+
+`VIDEO-001-proof/remotion/out/section-07-ending-v2.mp4`
+
+Parameters:
+
+- narration duration: 39.520 seconds;
+- composition frames: 1186;
+- composition duration: 39.533333 seconds;
+- approved MP4 mux duration: 39.594667 seconds;
+- fps: 30;
+- resolution: 1920x1080;
+- production mode: deterministic Remotion.
+
+Visual sequence:
+
+1. NOD remains with one task;
+2. messages, tabs, phone and another exit appear as choices;
+3. the viewer is asked which exit they still take;
+4. exits become visible one by one;
+5. final line: `NOTICE IT · NAME IT · CHOOSE`.
+
+QA:
+
+- semantic synchronization: PASS;
+- empty transitions: PASS;
+- readability: PASS;
+- final composition: PASS;
+- final slogan position: PASS after targeted 55 px correction;
+- overall decision: PASS / LOCKED.
+
 ## Next gates
 
-1. Extract the Section 07 silence map.
-2. Map the ending using narration and word-level meaning.
-3. Create the Section 07 Remotion composition.
-4. Render and review Section 07.
-5. Assemble and QA the full VIDEO-001 master.
+1. Assemble Sections 01–07 into the full VIDEO-001 master.
+2. Verify section boundaries and narration continuity.
+3. Run full-video visual, audio and claim QA.
+4. Complete publication-readiness review.
+5. Prepare packaging and upload only after explicit approval.

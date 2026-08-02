@@ -93,6 +93,16 @@ audio/segments/   section narration and timing artifacts
 `remotion/public/` не используется и не должен содержать дубликаты
 production media.
 
+### Known Remotion bundling bottleneck
+
+The current `Config.setPublicDir("..")` setting exposes the entire
+`VIDEO-001-proof/` directory to the Remotion bundler. A CLI render can
+therefore copy unrelated media and local render outputs while building.
+
+Before repeated master renders, replace this with a dedicated lightweight
+public root containing only runtime assets. The migration must validate every
+`staticFile()` path and must not create manually maintained media duplicates.
+
 ## 5. Remotion output lifecycle
 
 `VIDEO-001-proof/remotion/out/` — единственный локальный каталог
