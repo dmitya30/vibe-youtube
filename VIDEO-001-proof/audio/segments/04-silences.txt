@@ -86,4 +86,4 @@ Output #0, null, to 'pipe:':
 [Parsed_silencedetect_0 @ 00000228721768c0] silence_start: 111.12725
 [Parsed_silencedetect_0 @ 00000228721768c0] silence_end: 111.44 | silence_duration: 0.31275
 [out#0/null @ 00000228721776c0] video:0KiB audio:5224KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
-size=N/A time=00:01:51.44 bitrate=N/A speed=1.59e+03x elapsed=0:00:00.07    
+size=N/A time=00:01:51.44 bitrate=N/A speed=1.59e+03x elapsed=0:00:00.07
