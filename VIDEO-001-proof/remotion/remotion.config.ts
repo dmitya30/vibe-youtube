@@ -8,5 +8,6 @@
 import {Config} from "@remotion/cli/config";
 
 Config.setRspack(true);
+Config.setPublicDir("..");
 Config.setVideoImageFormat("jpeg");
 Config.setOverwriteOutput(true);

@@ -263,7 +263,7 @@ const ExitReveal: React.FC<{frame: number}> = ({frame}) => {
   return (
     <AbsoluteFill style={{opacity, backgroundColor: CREAM}}>
       <Img
-        src={staticFile('styleframe-multiple-exits-v1.jpg')}
+        src={staticFile('assets/nod/styleframe-multiple-exits-v1.jpg')}
         style={{
           width: '100%',
           height: '100%',
@@ -345,7 +345,7 @@ export const ColdOpenProof: React.FC = () => {
     <AbsoluteFill style={{backgroundColor: CREAM, overflow: 'hidden'}}>
       <Loop durationInFrames={302}>
         <OffthreadVideo
-          src={staticFile('coldopen-desk-clean-kling3-pro-v1-pingpong.mp4')}
+          src={staticFile('assets/video/coldopen-desk-clean-kling3-pro-v1-pingpong.mp4')}
           muted
           style={{
             width: '100%',
@@ -364,7 +364,7 @@ export const ColdOpenProof: React.FC = () => {
       <ExitReveal frame={frame} />
       <PressureLines frame={frame} />
 
-      <Audio src={staticFile('test-d3-gemini-3.1-flash-aoede.wav')} />
+      <Audio src={staticFile('audio/test-d3-gemini-3.1-flash-aoede.wav')} />
 
       <AbsoluteFill
         style={{

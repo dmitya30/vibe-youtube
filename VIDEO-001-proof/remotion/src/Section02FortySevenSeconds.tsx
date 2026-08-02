@@ -92,7 +92,7 @@ export const Section02FortySevenSeconds: React.FC = () => {
   return (
     <AbsoluteFill style={{backgroundColor: CREAM}}>
       <Img
-        src={staticFile('screen-switching-observation-v1.jpg')}
+        src={staticFile('assets/nod/screen-switching-observation-v1.jpg')}
         style={{
           width: '100%',
           height: '100%',
@@ -100,7 +100,7 @@ export const Section02FortySevenSeconds: React.FC = () => {
         }}
       />
 
-      <Audio src={staticFile('02-47-seconds.wav')} />
+      <Audio src={staticFile('audio/segments/02-47-seconds.wav')} />
 
       {/* 47 SEC */}
       <div

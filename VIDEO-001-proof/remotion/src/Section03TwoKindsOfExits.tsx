@@ -90,7 +90,7 @@ export const Section03TwoKindsOfExits: React.FC = () => {
   return (
     <AbsoluteFill style={{backgroundColor: CREAM}}>
       <Img
-        src={staticFile('external-exits-clean-v1.jpg')}
+        src={staticFile('assets/nod/external-exits-clean-v1.jpg')}
         style={{
           position: 'absolute',
           inset: 0,
@@ -101,7 +101,7 @@ export const Section03TwoKindsOfExits: React.FC = () => {
       />
 
       <Img
-        src={staticFile('self-interruption-phone-v1.jpg')}
+        src={staticFile('assets/nod/self-interruption-phone-v1.jpg')}
         style={{
           position: 'absolute',
           inset: 0,
@@ -112,7 +112,7 @@ export const Section03TwoKindsOfExits: React.FC = () => {
         }}
       />
 
-      <Audio src={staticFile('03-two-kinds-of-exits.wav')} />
+      <Audio src={staticFile('audio/segments/03-two-kinds-of-exits.wav')} />
 
       {/* Внешние exits */}
       <div

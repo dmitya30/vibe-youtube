@@ -31,7 +31,7 @@ export const TestCNotificationOverlay: React.FC = () => {
   return (
     <AbsoluteFill>
       <OffthreadVideo
-        src={staticFile('test-b-kling3-v1.mp4')}
+        src={staticFile('assets/video/test-b-kling3-v1.mp4')}
         muted
         style={{width: '100%', height: '100%', objectFit: 'cover'}}
       />
