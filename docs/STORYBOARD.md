@@ -288,7 +288,7 @@ orange background, or changes to NOD’s identity.
 - Section 04 — PASS / LOCKED.
 - Section 05 — PASS / LOCKED.
 - Section 06 — PASS / LOCKED.
-- Section 07 — narration ready / visual production pending.
+- Section 07 — PASS / LOCKED.
 
 Section 04 source:
 

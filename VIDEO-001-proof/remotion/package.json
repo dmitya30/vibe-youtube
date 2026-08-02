@@ -20,6 +20,7 @@
     "typescript": "5.9.3"
   },
   "scripts": {
+    "sync-public": "python scripts/sync-public.py",
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",

@@ -39,6 +39,10 @@ vibe-youtube/
     └── remotion/
         ├── src/
         │   └── tracked compositions
+        ├── scripts/
+        │   └── sync-public.py
+        ├── public/
+        │   └── generated runtime-only asset staging
         ├── out/
         │   └── local renders and active QA contact sheets
         ├── package.json
@@ -79,29 +83,33 @@ vibe-youtube/
 VIDEO-001-proof/
 ```
 
-Remotion получает его через `Config.setPublicDir("..")`.
-
-Используемые пути:
+Канонические исходные media-файлы остаются в:
 
 ```text
-assets/nod/       NOD styleframes and scene images
-assets/video/     source video fragments
-audio/            master narration
-audio/segments/   section narration and timing artifacts
+VIDEO-001-proof/assets/
+VIDEO-001-proof/audio/
 ```
 
-`remotion/public/` не используется и не должен содержать дубликаты
-production media.
+Remotion использует отдельный generated runtime root:
 
-### Known Remotion bundling bottleneck
+```text
+VIDEO-001-proof/remotion/public/
+```
 
-The current `Config.setPublicDir("..")` setting exposes the entire
-`VIDEO-001-proof/` directory to the Remotion bundler. A CLI render can
-therefore copy unrelated media and local render outputs while building.
+Перед render выполняется:
 
-Before repeated master renders, replace this with a dedicated lightweight
-public root containing only runtime assets. The migration must validate every
-`staticFile()` path and must not create manually maintained media duplicates.
+```bash
+npm run sync-public
+```
+
+`sync-public.py` сканирует literal-вызовы `staticFile()`, проверяет наличие
+каждого исходника и создаёт в `remotion/public/` только необходимое подмножество
+media. На одном диске используются hard links; при невозможности применяется
+автоматический copy fallback.
+
+`remotion/public/` является generated local staging directory, исключён из Git
+и не считается вторым каноническим media root. Это предотвращает копирование
+всего `VIDEO-001-proof/`, включая `remotion/out/`, при каждом bundle.
 
 ## 5. Remotion output lifecycle
 
