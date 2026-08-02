@@ -554,3 +554,35 @@ Production mode:
 
 Commit:
 ec6f200c33688d672193dc4346fcdadb7d94d492
+
+I — SECTION 06 / 25-MINUTE EXPERIMENT LOCK
+
+Status: PASS / LOCKED
+Date: 2026-08-02
+
+Source:
+VIDEO-001-proof/remotion/src/Section06TwentyFiveMinuteExperiment.tsx
+
+Narration:
+VIDEO-001-proof/audio/segments/06-25-minute-experiment.wav
+
+Timing map:
+VIDEO-001-proof/audio/segments/06-silences.txt
+
+Approved local render:
+VIDEO-001-proof/remotion/out/section-06-25-minute-experiment-v1.mp4
+
+Parameters:
+- duration: 64.680 seconds
+- frames: 1941
+- fps: 30
+- resolution: 1920x1080
+- deterministic Remotion
+- no additional Kling generation
+
+QA:
+- semantic synchronization: PASS
+- readability: PASS
+- empty transitions: PASS
+- accepted limitation: connector lines briefly disappear near 59 seconds
+- overall: PASS / LOCKED

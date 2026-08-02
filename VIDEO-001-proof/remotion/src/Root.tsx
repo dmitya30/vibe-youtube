@@ -1,3 +1,4 @@
+import {Section06TwentyFiveMinuteExperiment} from './Section06TwentyFiveMinuteExperiment';
 import {Section05OneDoorProtocol} from './Section05OneDoorProtocol';
 import {Section04SwitchCost} from './Section04SwitchCost';
 import {Section03TwoKindsOfExits} from './Section03TwoKindsOfExits';
@@ -57,6 +58,14 @@ export const RemotionRoot: React.FC = () => (
       id="Section05OneDoorProtocol"
       component={Section05OneDoorProtocol}
       durationInFrames={6110}
+      fps={30}
+      width={1920}
+      height={1080}
+    />
+    <Composition
+      id="Section06TwentyFiveMinuteExperiment"
+      component={Section06TwentyFiveMinuteExperiment}
+      durationInFrames={1941}
       fps={30}
       width={1920}
       height={1080}

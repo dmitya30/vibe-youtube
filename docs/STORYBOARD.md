@@ -287,7 +287,8 @@ orange background, or changes to NOD’s identity.
 - Section 03 — PASS / LOCKED.
 - Section 04 — PASS / LOCKED.
 - Section 05 — PASS / LOCKED.
-- Sections 06–07 — narration ready / visual production pending.
+- Section 06 — PASS / LOCKED.
+- Section 07 — narration ready / visual production pending.
 
 Section 04 source:
 
@@ -334,10 +335,49 @@ Kling is retained for shots where natural character movement materially
 improves the scene. Candidate Kling shots are not mandatory when
 deterministic Remotion produces a clearer and more editable result.
 
+## Section 06 locked implementation
+
+Source:
+
+`VIDEO-001-proof/remotion/src/Section06TwentyFiveMinuteExperiment.tsx`
+
+Local approved render:
+
+`VIDEO-001-proof/remotion/out/section-06-25-minute-experiment-v1.mp4`
+
+Parameters:
+
+- duration: 64.680 seconds;
+- frames: 1941;
+- fps: 30;
+- resolution: 1920x1080;
+- production mode: deterministic Remotion.
+
+Visual sequence:
+
+1. test it once;
+2. choose an observable outcome;
+3. set a 25-minute timer;
+4. close exits and keep a parking list;
+5. mark impulses;
+6. classify exits;
+7. make exits visible;
+8. change the architecture.
+
+QA:
+
+- semantic synchronization: PASS;
+- empty transitions: PASS;
+- readability: PASS;
+- final message: PASS;
+- accepted limitation: final connector lines briefly appear and then
+  disappear near 59 seconds;
+- overall decision: PASS / LOCKED.
+
 ## Next gates
 
-1. Extract and commit the Section 06 silence map.
-2. Map Section 06 using narration and word-level meaning.
-3. Create the Section 06 Remotion composition.
-4. Preserve visual variation without adding unnecessary Kling shots.
-5. Render and review Section 06.
+1. Extract the Section 07 silence map.
+2. Map the ending using narration and word-level meaning.
+3. Create the Section 07 Remotion composition.
+4. Render and review Section 07.
+5. Assemble and QA the full VIDEO-001 master.
