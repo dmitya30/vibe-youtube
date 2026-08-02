@@ -11,19 +11,21 @@ PROJECT = REMOTION.parent
 SOURCE = REMOTION / "src"
 PUBLIC = REMOTION / "public"
 
+# Supports both one-line and multiline literal staticFile() calls.
 pattern = re.compile(
-    r"""staticFile\(\s*['"]([^'"]+)['"]\s*\)""",
-    re.MULTILINE,
+    r"""staticFile\s*\(\s*(['"])(.*?)\1""",
+    re.DOTALL,
 )
 
 references = set()
 
 for source_file in sorted(SOURCE.rglob("*.tsx")):
     text = source_file.read_text(encoding="utf-8")
-    references.update(pattern.findall(text))
+    for _, asset_path in pattern.findall(text):
+        references.add(asset_path)
 
 if not references:
-    print("SYNC FAILED: no staticFile() references found.")
+    print("SYNC FAILED: no literal staticFile() references found.")
     sys.exit(1)
 
 unsafe = [
