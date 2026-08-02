@@ -505,7 +505,7 @@ Section status:
 - Section 01: PASS / LOCKED
 - Section 02: PASS / LOCKED
 - Section 03: PASS / LOCKED
-- Section 04: audio and timing ready; visual production in progress
+- Section 04: PASS / LOCKED
 - Sections 05–07: narration ready
 
 Version-controlled text artifacts:

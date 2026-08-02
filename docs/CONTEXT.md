@@ -111,13 +111,11 @@ Production status:
 1. Section 01 / cold open — PASS / LOCKED.
 2. Section 02 / 47 seconds — PASS / LOCKED.
 3. Section 03 / two kinds of exits — PASS / LOCKED.
-4. Section 04 / switch cost — audio and silence map ready;
-   styleframe generated; visual QA and Remotion composition next.
+4. Section 04 / switch cost — PASS / LOCKED.
 5. Sections 05–07 — narration ready; visual production pending.
 
-Текущий gate — visual QA кадра
-`VIDEO-001-proof/assets/nod/mental-model-blocks-v1.jpg`,
-затем точная разметка и Remotion-композиция Section 04.
+Текущий gate — точная разметка и Remotion-композиция
+Section 05 / One Door Protocol.
 
 Repository policy:
 

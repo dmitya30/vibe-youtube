@@ -113,7 +113,7 @@ Production status:
 | 01 Cold open | PASS / LOCKED |
 | 02 47 seconds | PASS / LOCKED |
 | 03 Two kinds of exits | PASS / LOCKED |
-| 04 Switch cost | Audio and timing ready / styleframe visual QA next |
+| 04 Switch cost | PASS / LOCKED |
 | 05 One Door Protocol | Narration ready |
 | 06 25-minute experiment | Narration ready |
 | 07 Ending | Narration ready |
@@ -123,7 +123,7 @@ Current production styleframes:
 - `screen-switching-observation-v1.jpg` — approved;
 - `external-exits-clean-v1.jpg` — approved;
 - `self-interruption-phone-v1.jpg` — approved with accepted limitation;
-- `mental-model-blocks-v1.jpg` — pending visual QA.
+- `mental-model-blocks-v1.jpg` — approved as Section 04 layout/style reference.
 
 Text transcripts and silence maps are version-controlled.
 Generated WAV, MP4 and raster-image files remain local.

@@ -280,11 +280,30 @@ extra limbs, deformed hands, realistic UI logos, brand names, dense details,
 orange background, or changes to NOD’s identity.
 ```
 
+## Current production status
+
+- Section 01 — PASS / LOCKED.
+- Section 02 — PASS / LOCKED.
+- Section 03 — PASS / LOCKED.
+- Section 04 — PASS / LOCKED.
+- Sections 05–07 — narration ready / visual production pending.
+
+Section 04 source:
+
+`VIDEO-001-proof/remotion/src/Section04SwitchCost.tsx`
+
+Local approved render:
+
+`VIDEO-001-proof/remotion/out/section-04-switch-cost-v1.mp4`
+
+`mental-model-blocks-v1.jpg` используется как layout/style reference.
+Финальный граф mental model реализован детерминированно в Remotion
+поверх `coldopen-desk-clean-v1.jpg`.
+
 ## Next gates
 
-1. Выполнить visual QA `mental-model-blocks-v1.jpg`.
-2. Разметить Section 04 по narration длительностью 111.440 секунды.
-3. Создать `Section04SwitchCost.tsx`.
-4. Проверить Section 04 вместе с соответствующим audio segment.
-5. Зафиксировать Section 04 как PASS либо выполнить одну целевую коррекцию.
-6. Продолжить с Section 05.
+1. Получить silence map Section 05.
+2. Разметить One Door Protocol по narration длительностью 203.650958 секунды.
+3. Создать `Section05OneDoorProtocol.tsx`.
+4. Использовать clean NOD frames и deterministic Remotion graphics.
+5. Проверить Section 05 вместе с narration.

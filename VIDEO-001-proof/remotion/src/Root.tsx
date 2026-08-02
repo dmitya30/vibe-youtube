@@ -1,3 +1,4 @@
+import {Section04SwitchCost} from './Section04SwitchCost';
 import {Section03TwoKindsOfExits} from './Section03TwoKindsOfExits';
 import {Section02FortySevenSeconds} from './Section02FortySevenSeconds';
 import React from 'react';
@@ -41,5 +42,14 @@ export const RemotionRoot: React.FC = () => (
         width={1920}
         height={1080}
       />
+
+    <Composition
+      id="Section04SwitchCost"
+      component={Section04SwitchCost}
+      durationInFrames={3342}
+      fps={30}
+      width={1920}
+      height={1080}
+    />
 </>
 );
