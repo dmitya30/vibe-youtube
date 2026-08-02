@@ -1,0 +1,35 @@
+Some exits are external.
+
+A notification appears. Someone sends a message. A browser badge turns orange. A coworker asks a question.
+
+These interruptions are easy to blame because we can see them arrive.
+
+But many exits are self-created.
+
+You wonder whether someone replied, so you check.
+
+The current paragraph becomes difficult, so you open another tab.
+
+You remember a small unrelated task and decide to do it now, before you forget.
+
+Nothing interrupted you.
+
+You interrupted yourself.
+
+This explains why turning off notifications can help without solving the entire problem.
+
+In one randomized intervention, participants disabled smartphone notifications for a week. But this did not significantly reduce how often they checked their phones or their total screen time.
+
+Remove the alert, and the checking habit can remain.
+
+At the same time, we should not pretend that every notification destroys twenty minutes of productivity.
+
+In one laboratory task, smartphone notification sounds slowed responses by only a few milliseconds on average. The measured effect was small.
+
+One sound is not a cognitive meteor strike.
+
+The larger problem is the system around it: dozens of possible destinations, familiar checking habits, and difficult moments that make another screen feel more attractive.
+
+An exit does not have to drag you away.
+
+It only has to make leaving easier than continuing.

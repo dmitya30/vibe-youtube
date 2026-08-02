@@ -1,0 +1,7 @@
+file 'test-d3-gemini-3.1-flash-aoede.wav'
+file 'segments/02-47-seconds.wav'
+file 'segments/03-two-kinds-of-exits.wav'
+file 'segments/04-switch-cost.wav'
+file 'segments/05-one-door-protocol.wav'
+file 'segments/06-25-minute-experiment.wav'
+file 'segments/07-ending.wav'

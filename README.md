@@ -54,3 +54,21 @@
 ## Безопасность
 
 В публичный репозиторий запрещено коммитить ключи, токены, cookies, session data, платёжные реквизиты, KYC-документы, приватные договоры, персональные данные партнёров и credentials.
+
+
+## Repository contents
+
+Коммитятся:
+
+- source code и configuration;
+- Markdown documentation;
+- prompts, manifests и production notes;
+- narration transcripts;
+- silence maps и другие небольшие текстовые timing artifacts.
+
+Не коммитятся:
+
+- generated audio and video;
+- raster images;
+- render outputs and contact sheets;
+- caches, temporary files and secrets.

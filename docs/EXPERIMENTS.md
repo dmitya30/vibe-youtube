@@ -1,6 +1,6 @@
 # Experiments
 
-Updated: 2026-08-01
+Updated: 2026-08-02
 
 ## Experiment format
 
@@ -20,7 +20,7 @@ Updated: 2026-08-01
 
 # VIDEO-001 — Attention Span
 
-Status: script and narration locked / first production styleframe approved
+Status: narration v2 locked / Sections 01–03 locked / Section 04 in production
 Publication: not approved
 
 ## Hypothesis
@@ -85,21 +85,48 @@ Target: 8–10 minutes / approximately 1,300–1,450 English words.
 
 Production documents:
 
-- locked script v2: [`SCRIPT.md`](SCRIPT.md);
-- storyboard and asset plan v1: [`STORYBOARD.md`](STORYBOARD.md).
+- locked public script v2: [`SCRIPT.md`](SCRIPT.md);
+- storyboard, exact timing and asset plan:
+  [`STORYBOARD.md`](STORYBOARD.md).
 
-Полная narration v1:
-- duration: 501.400 seconds / 8:21.40;
+Актуальная narration v2:
+
+- файл: `VIDEO-001-proof/audio/video001-narration-v2.wav`;
+- duration: 631.570958 seconds / 10:31.57;
 - codec: PCM signed 16-bit little-endian;
 - sample rate: 24 kHz;
 - channels: mono;
+- Sections 01–04 and 06–07: Gemini 3.1 Flash TTS;
+- Section 05: Gemini 2.5 Pro TTS;
+- voice: Aoede;
+- style: Empathetic;
+- pace: Natural;
 - voice consistency: PASS;
 - volume consistency: PASS;
-- section boundaries: PASS;
-- unnatural pronunciation detected by owner: No.
+- pronunciation: PASS;
+- section completeness: PASS.
 
-Утверждён первый production styleframe:
-`VIDEO-001-proof/assets/nod/screen-switching-observation-v1.jpg`.
+Production status:
+
+| Section | Status |
+|---|---|
+| 01 Cold open | PASS / LOCKED |
+| 02 47 seconds | PASS / LOCKED |
+| 03 Two kinds of exits | PASS / LOCKED |
+| 04 Switch cost | Audio and timing ready / styleframe visual QA next |
+| 05 One Door Protocol | Narration ready |
+| 06 25-minute experiment | Narration ready |
+| 07 Ending | Narration ready |
+
+Current production styleframes:
+
+- `screen-switching-observation-v1.jpg` — approved;
+- `external-exits-clean-v1.jpg` — approved;
+- `self-interruption-phone-v1.jpg` — approved with accepted limitation;
+- `mental-model-blocks-v1.jpg` — pending visual QA.
+
+Text transcripts and silence maps are version-controlled.
+Generated WAV, MP4 and raster-image files remain local.
 
 ## Evaluation after publication
 
@@ -134,7 +161,7 @@ Stack microtests A–D и cold-open proof завершены со статусо
 4. Для сложной метафоры дверей допустимо использовать утверждённый generated styleframe.
 5. Для VIDEO-001 выбран balanced hybrid production mode.
 
-Следующий этап — полный английский сценарий и раскадровка.
+Текущий production gate — visual QA и Remotion-композиция Section 04.
 
 ## Cold-open proof specification v1.0
 

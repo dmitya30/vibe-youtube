@@ -1,6 +1,6 @@
 # Project Context
 
-Updated: 2026-08-01
+Updated: 2026-08-02
 Status: pre-production / full script and storyboard
 Source of truth for project-level context
 
@@ -70,38 +70,61 @@ AdSense не является единственной моделью.
 
 Выбран один англоязычный пилотный канал.
 
-Позиционирование, аудитория, content pillars, визуальная система NOD и pipeline принадлежат [`PLAYBOOK.md`](PLAYBOOK.md).
+Позиционирование, аудитория, content pillars, визуальная система NOD и
+pipeline принадлежат [`PLAYBOOK.md`](PLAYBOOK.md).
 
-Активный эксперимент — `VIDEO-001`. Его тема, titles, thumbnails, claims, outline и метрики принадлежат [`EXPERIMENTS.md`](EXPERIMENTS.md).
+Активный эксперимент — `VIDEO-001`. Его тема, packaging, claims, метрики
+и production status принадлежат [`EXPERIMENTS.md`](EXPERIMENTS.md).
 
 Stack feasibility status:
 
 1. Test A / NOD visual development — PASS.
 2. Test B1 / Kling character motion — PASS.
 3. Test C1 / Remotion deterministic overlay — PASS.
-4. Test D / narration — PASS; выбран Gemini 3.1 Flash TTS, Aoede, Empathetic, Natural.
-5. Cold-open proof v3 — PASS; 34.645 секунды, 1920×1080, 30 fps.
-6. Для VIDEO-001 подтверждён balanced hybrid pipeline: Kling + Remotion + утверждённые styleframes.
+4. Test D / narration — PASS.
+5. Cold-open proof v3 — PASS / LOCKED.
+6. Для VIDEO-001 подтверждён balanced hybrid pipeline:
+   Kling + Remotion + approved styleframes.
 
-Сценарий VIDEO-001 v2 зафиксирован для полного TTS и timing QA:
+Полный публичный сценарий VIDEO-001 v2:
 [`SCRIPT.md`](SCRIPT.md).
 
-Последовательность раскадровки v1 и production plan зафиксированы:
+Production sequence, asset plan и точные тайминги:
 [`STORYBOARD.md`](STORYBOARD.md).
 
-Первый full-video styleframe
-`VIDEO-001-proof/assets/nod/screen-switching-observation-v1.jpg`
-утверждён.
+Актуальная full narration:
 
-Полная narration v1 утверждена:
-- Gemini 3.1 Flash TTS;
-- Aoede / Empathetic / Natural;
-- 8:21.40;
-- PCM 24 kHz mono;
-- consistency и стыки: PASS.
+- файл: `VIDEO-001-proof/audio/video001-narration-v2.wav`;
+- длительность: 631.570958 секунды / 10:31.57;
+- PCM signed 16-bit little-endian;
+- 24 kHz;
+- mono;
+- Sections 01–04 и 06–07: Gemini 3.1 Flash TTS;
+- Section 05: Gemini 2.5 Pro TTS;
+- voice: Aoede;
+- style: Empathetic;
+- pace: Natural;
+- voice, volume, pronunciation и completeness: PASS.
 
-Следующий gate — первая full-video Remotion-сцена для секции
-`47 seconds`.
+Production status:
+
+1. Section 01 / cold open — PASS / LOCKED.
+2. Section 02 / 47 seconds — PASS / LOCKED.
+3. Section 03 / two kinds of exits — PASS / LOCKED.
+4. Section 04 / switch cost — audio and silence map ready;
+   styleframe generated; visual QA and Remotion composition next.
+5. Sections 05–07 — narration ready; visual production pending.
+
+Текущий gate — visual QA кадра
+`VIDEO-001-proof/assets/nod/mental-model-blocks-v1.jpg`,
+затем точная разметка и Remotion-композиция Section 04.
+
+Repository policy:
+
+- source code, Markdown, manifests, prompts, transcripts, timing maps
+  и другие небольшие текстовые production artifacts коммитятся;
+- generated audio, video, raster images и render outputs остаются
+  локальными и исключаются через `.gitignore`.
 
 ## 7. Current restrictions
 

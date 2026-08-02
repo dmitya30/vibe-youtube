@@ -41,3 +41,12 @@ node_modules/
 Thumbs.db
 VIDEO-001-proof/remotion/out/
 VIDEO-001-proof/remotion/dist/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.flac
+*.aac
+*.m4a
+*.mkv

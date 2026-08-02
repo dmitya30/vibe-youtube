@@ -1,0 +1,37 @@
+Imagine that you are assembling a small model in your head.
+
+You know what the paragraph is trying to say, which sentence feels wrong, and what should come next.
+
+Then you switch to a message.
+
+The model may not disappear, but it becomes harder to access. When you return, you have to reconstruct your position:
+
+What was I doing?
+
+What had I already decided?
+
+What was the next move?
+
+Researchers call the delay before continuing an interrupted task a resumption lag.
+
+In experiments, people resumed faster when they had a brief opportunity to prepare for the interruption or when useful cues from the original task remained available.
+
+This is why a document can be open directly in front of you while your mental position inside it is missing.
+
+You may also have heard that it takes around 25 minutes to recover from an interruption.
+
+That wording is misleading.
+
+The field research measured how long it took people to return to the original project after moving through other activities. It does not mean every notification leaves every person unable to focus for exactly 25 minutes.
+
+Sometimes you return quickly.
+
+Sometimes one switch creates a chain:
+
+Message. Email. Calendar. Search. Another message. Then the original document.
+
+Interrupted work can even look productive because people compensate by working faster. In one experiment, participants completed interrupted tasks faster without a measured drop in quality—but reported more stress, frustration, effort, and time pressure.
+
+The cost is not always visible in the finished document.
+
+Sometimes it appears in the person finishing it.

@@ -439,7 +439,7 @@ Full narration:
 audio/video001-narration-v1.wav
 
 Narration status:
-APPROVED
+SUPERSEDED BY NARRATION V2
 
 Parameters:
 - model: google/gemini-3-1-flash-tts
@@ -470,3 +470,52 @@ Styleframe QA:
 - palette: PASS
 - deterministic animation method: Remotion
 - Kling required: No
+
+
+==================================================
+G — FULL NARRATION V2 AND SECTIONS 02–04
+==================================================
+
+Updated:
+2026-08-02
+
+Current narration master:
+audio/video001-narration-v2.wav
+
+Status:
+APPROVED
+
+Parameters:
+- duration: 631.570958 seconds / 10:31.57
+- codec: PCM signed 16-bit little-endian
+- sample rate: 24000 Hz
+- channels: mono
+- voice: Aoede
+- style: Empathetic
+- pace: Natural
+- Sections 01–04 and 06–07: Gemini 3.1 Flash TTS
+- Section 05: Gemini 2.5 Pro TTS
+- voice consistency: PASS
+- volume consistency: PASS
+- pronunciation: PASS
+- completeness: PASS
+- generation cost: not recorded
+
+Section status:
+- Section 01: PASS / LOCKED
+- Section 02: PASS / LOCKED
+- Section 03: PASS / LOCKED
+- Section 04: audio and timing ready; visual production in progress
+- Sections 05–07: narration ready
+
+Version-controlled text artifacts:
+- audio/full-voice-list.txt
+- audio/segments/02-47-seconds.txt
+- audio/segments/02-silences.txt
+- audio/segments/03-two-kinds-of-exits.txt
+- audio/segments/03-silences.txt
+- audio/segments/04-switch-cost.txt
+- audio/segments/04-silences.txt
+- audio/segments/05-one-door-protocol.txt
+- audio/segments/06-25-minute-experiment.txt
+- audio/segments/07-ending.txt

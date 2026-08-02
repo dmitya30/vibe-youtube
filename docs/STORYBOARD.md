@@ -1,38 +1,44 @@
 # VIDEO-001 — Storyboard and production plan
 
-Updated: 2026-08-01
+Updated: 2026-08-02
 Version: v1
 Status: SEQUENCE LOCKED / SECTION TIMING LOCKED
 Script: [SCRIPT.md](SCRIPT.md)
 
-Полная narration утверждена.
+Полная narration v2 утверждена.
 
 Файл:
-`VIDEO-001-proof/audio/video001-narration-v1.wav`
+
+`VIDEO-001-proof/audio/video001-narration-v2.wav`
 
 Параметры:
-- длительность: 501.400 секунды / 8:21.40;
+
+- длительность: 631.570958 секунды / 10:31.57;
 - PCM signed 16-bit little-endian;
 - 24 kHz;
 - mono;
-- голос, громкость, интонация и стыки секций: PASS;
-- неестественное произношение на слух не обнаружено.
+- Aoede / Empathetic / Natural;
+- Sections 01–04 и 06–07: Gemini 3.1 Flash TTS;
+- Section 05: Gemini 2.5 Pro TTS;
+- voice consistency: PASS;
+- volume consistency: PASS;
+- pronunciation: PASS;
+- completeness: PASS.
 
 Точный тайминг секций:
 
-| Секция | Начало | Конец |
-|---|---:|---:|
-| Cold open | 00:00.00 | 00:34.60 |
-| 47 seconds | 00:34.60 | 01:49.00 |
-| Two kinds of exits | 01:49.00 | 02:31.48 |
-| Switch cost | 02:31.48 | 04:22.92 |
-| One Door Protocol | 04:22.92 | 06:37.20 |
-| 25-minute experiment | 06:37.20 | 07:41.88 |
-| Ending | 07:41.88 | 08:21.40 |
+| Секция | Начало | Конец | Длительность |
+|---|---:|---:|---:|
+| Cold open | 00:00.000 | 00:34.600 | 34.600 |
+| 47 seconds | 00:34.600 | 01:49.000 | 74.400 |
+| Two kinds of exits | 01:49.000 | 03:32.280 | 103.280 |
+| Switch cost | 03:32.280 | 05:23.720 | 111.440 |
+| One Door Protocol | 05:23.720 | 08:47.371 | 203.651 |
+| 25-minute experiment | 08:47.371 | 09:52.051 | 64.680 |
+| Ending | 09:52.051 | 10:31.571 | 39.520 |
 
-Ранее указанная оценка 9:38 отменена. Немая вставка для достижения
-этой длительности не требуется. Итоговый ролик должен соответствовать
-длительности narration с коротким финальным хвостом.
+Narration v1 длительностью 501.400 секунды является устаревшей и
+не должна использоваться для дальнейшего монтажа.
 
 ## Production mode
 
@@ -276,10 +282,9 @@ orange background, or changes to NOD’s identity.
 
 ## Next gates
 
-1. Разметить точный внутри-секционный timing для `47 seconds`.
-2. Создать первую full-video Remotion composition.
-3. Использовать утверждённый `screen-switching-observation-v1.jpg`.
-4. Реализовать deterministic overlays: `47 SEC`, active-card highlight,
-   orange timeline marker и correction of the attention-limit claim.
-5. Проверить сцену вместе с narration от 00:34.60 до 01:49.00.
-6. Производить следующие scene families по одной.
+1. Выполнить visual QA `mental-model-blocks-v1.jpg`.
+2. Разметить Section 04 по narration длительностью 111.440 секунды.
+3. Создать `Section04SwitchCost.tsx`.
+4. Проверить Section 04 вместе с соответствующим audio segment.
+5. Зафиксировать Section 04 как PASS либо выполнить одну целевую коррекцию.
+6. Продолжить с Section 05.
