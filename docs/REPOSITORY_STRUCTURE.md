@@ -111,6 +111,24 @@ media. На одном диске используются hard links; при н
 и не считается вторым каноническим media root. Это предотвращает копирование
 всего `VIDEO-001-proof/`, включая `remotion/out/`, при каждом bundle.
 
+### Master assembly strategy
+
+The first complete VIDEO-001 master is rendered in Remotion as an integration
+reference. This validates all source components, runtime assets, section
+boundaries and audio tracks together.
+
+For later revisions:
+
+1. render only changed sections;
+2. retain approved locked section renders locally;
+3. use FFmpeg concat with stream copy when codecs, resolution, fps, pixel
+   format and audio parameters match;
+4. use a full Remotion master render only after composition-level changes or
+   when a new integration reference is required.
+
+This avoids repeating an approximately one-hour full render when unchanged
+locked sections already exist.
+
 ## 5. Remotion output lifecycle
 
 `VIDEO-001-proof/remotion/out/` — единственный локальный каталог

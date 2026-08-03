@@ -20,7 +20,7 @@ Updated: 2026-08-02
 
 # VIDEO-001 — Attention Span
 
-Status: narration v2 locked / Sections 01–07 PASS / LOCKED / master assembly next
+Status: VIDEO-001 master PASS / LOCKED / publication not approved
 Publication: not approved
 
 ## Hypothesis
@@ -117,6 +117,7 @@ Production status:
 | 05 One Door Protocol | PASS / LOCKED |
 | 06 25-minute experiment | PASS / LOCKED |
 | 07 Ending | PASS / LOCKED |
+| Master | PASS / LOCKED |
 
 Current production styleframes:
 
@@ -197,7 +198,7 @@ Stack microtests A–D и cold-open proof завершены со статусо
 4. Для сложной метафоры дверей допустимо использовать утверждённый generated styleframe.
 5. Для VIDEO-001 выбран balanced hybrid production mode.
 
-Текущий production gate — visual QA и Remotion-композиция Section 04.
+Текущий production gate — packaging, final claims review и publication readiness.
 
 ## Cold-open proof specification v1.0
 

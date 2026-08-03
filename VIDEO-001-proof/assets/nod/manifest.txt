@@ -620,3 +620,43 @@ QA:
 - readability: PASS
 - final slogan position: PASS
 - overall: PASS / LOCKED
+
+K — VIDEO-001 MASTER LOCK
+
+Status: PASS / LOCKED
+Publication: not approved
+Date: 2026-08-02
+
+Source:
+VIDEO-001-proof/remotion/src/Video001Master.tsx
+
+Root registration:
+VIDEO-001-proof/remotion/src/Root.tsx
+
+Approved local render:
+VIDEO-001-proof/remotion/out/video-001-master-v1.mp4
+
+Local automated QA:
+VIDEO-001-proof/remotion/out/video-001-master-v1-qa.json
+
+Parameters:
+- frames: 18948
+- composition duration: 631.600 seconds
+- mux duration: 631.658667 seconds
+- fps: 30
+- resolution: 1920x1080
+- video codec: H.264
+- audio codec: AAC
+- audio sample rate: 48 kHz
+- file size: approximately 45.4 MB
+
+QA:
+- Sections 01–07 complete: PASS
+- visual continuity: PASS
+- audio continuity: PASS
+- section boundaries: PASS
+- black-frame check: PASS
+- human full-video review: PASS
+- accepted limitation: slightly lower perceived expressiveness in
+  Section 05 narration
+- overall: PASS / LOCKED

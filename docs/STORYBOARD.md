@@ -411,10 +411,53 @@ QA:
 - final slogan position: PASS after targeted 55 px correction;
 - overall decision: PASS / LOCKED.
 
+## VIDEO-001 master locked implementation
+
+Source:
+
+`VIDEO-001-proof/remotion/src/Video001Master.tsx`
+
+Approved local render:
+
+`VIDEO-001-proof/remotion/out/video-001-master-v1.mp4`
+
+Parameters:
+
+- frames: 18,948;
+- composition duration: 631.600 seconds;
+- mux duration: 631.658667 seconds;
+- fps: 30;
+- resolution: 1920x1080;
+- codec: H.264;
+- audio: AAC, 48 kHz stereo, 192 kbps target;
+- file size: approximately 45.4 MB.
+
+QA:
+
+- all Sections 01–07 present: PASS;
+- section boundaries: PASS;
+- visible discontinuities: none;
+- audible discontinuities: none;
+- black intervals of 0.15 seconds or longer: none;
+- technical stream validation: PASS;
+- contact-sheet overview: PASS;
+- contact-sheet boundary review: PASS;
+- accepted limitation: Section 05 narration from Gemini 2.5 Pro has
+  slightly lower perceived expressiveness than the Gemini 3.1 sections;
+- overall: PASS / LOCKED.
+
+Assembly decision:
+
+- this full Remotion render is the integration reference;
+- future unchanged masters should prefer FFmpeg concat of locked section
+  renders when codec, resolution, frame rate and audio parameters match;
+- full Remotion rerender is reserved for source-level or composition-level
+  changes.
+
 ## Next gates
 
-1. Assemble Sections 01–07 into the full VIDEO-001 master.
-2. Verify section boundaries and narration continuity.
-3. Run full-video visual, audio and claim QA.
-4. Complete publication-readiness review.
-5. Prepare packaging and upload only after explicit approval.
+1. Run final claim/source verification.
+2. Select title and thumbnail package.
+3. Prepare description, chapters, disclosure and metadata.
+4. Perform publication-readiness review.
+5. Upload only after explicit publication approval.

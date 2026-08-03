@@ -1,7 +1,7 @@
 # Project Context
 
 Updated: 2026-08-02
-Status: production / Sections 01–07 PASS / LOCKED
+Status: production / VIDEO-001 master PASS / LOCKED
 Source of truth for project-level context
 
 ## 1. Goal
@@ -116,7 +116,20 @@ Production status:
 6. Section 06 / 25-minute experiment — PASS / LOCKED.
 7. Section 07 / ending — PASS / LOCKED.
 
-Текущий gate — сборка и сквозной QA полного master VIDEO-001.
+
+Master status:
+
+- source: `VIDEO-001-proof/remotion/src/Video001Master.tsx`;
+- approved local render:
+  `VIDEO-001-proof/remotion/out/video-001-master-v1.mp4`;
+- duration: 631.600 seconds / 18,948 frames;
+- mux duration: 631.658667 seconds;
+- resolution: 1920x1080;
+- fps: 30;
+- automated technical QA: PASS;
+- human boundary/audio/visual QA: PASS;
+- overall: PASS / LOCKED.
+Текущий gate — packaging и publication-readiness review для VIDEO-001.
 
 Repository policy:
 

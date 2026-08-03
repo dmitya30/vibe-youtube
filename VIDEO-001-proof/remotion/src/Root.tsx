@@ -1,12 +1,16 @@
-import {Section07Ending} from './Section07Ending';
-import {Section06TwentyFiveMinuteExperiment} from './Section06TwentyFiveMinuteExperiment';
-import {Section05OneDoorProtocol} from './Section05OneDoorProtocol';
-import {Section04SwitchCost} from './Section04SwitchCost';
-import {Section03TwoKindsOfExits} from './Section03TwoKindsOfExits';
-import {Section02FortySevenSeconds} from './Section02FortySevenSeconds';
 import React from 'react';
 import {Composition} from 'remotion';
 import {ColdOpenProof} from './ColdOpenProof';
+import {Section02FortySevenSeconds} from './Section02FortySevenSeconds';
+import {Section03TwoKindsOfExits} from './Section03TwoKindsOfExits';
+import {Section04SwitchCost} from './Section04SwitchCost';
+import {Section05OneDoorProtocol} from './Section05OneDoorProtocol';
+import {Section06TwentyFiveMinuteExperiment} from './Section06TwentyFiveMinuteExperiment';
+import {Section07Ending} from './Section07Ending';
+import {
+  Video001Master,
+  VIDEO_001_MASTER_FRAMES,
+} from './Video001Master';
 import {TestCNotificationOverlay} from './TestCNotificationOverlay';
 
 export const RemotionRoot: React.FC = () => (
@@ -19,6 +23,7 @@ export const RemotionRoot: React.FC = () => (
       width={1920}
       height={1080}
     />
+
     <Composition
       id="TestCNotificationOverlay"
       component={TestCNotificationOverlay}
@@ -28,23 +33,23 @@ export const RemotionRoot: React.FC = () => (
       height={720}
     />
 
-      <Composition
-        id="Section02FortySevenSeconds"
-        component={Section02FortySevenSeconds}
-        durationInFrames={2232}
-        fps={30}
-        width={1920}
-        height={1080}
-      />
+    <Composition
+      id="Section02FortySevenSeconds"
+      component={Section02FortySevenSeconds}
+      durationInFrames={2232}
+      fps={30}
+      width={1920}
+      height={1080}
+    />
 
-      <Composition
-        id="Section03TwoKindsOfExits"
-        component={Section03TwoKindsOfExits}
-        durationInFrames={3099}
-        fps={30}
-        width={1920}
-        height={1080}
-      />
+    <Composition
+      id="Section03TwoKindsOfExits"
+      component={Section03TwoKindsOfExits}
+      durationInFrames={3099}
+      fps={30}
+      width={1920}
+      height={1080}
+    />
 
     <Composition
       id="Section04SwitchCost"
@@ -63,6 +68,7 @@ export const RemotionRoot: React.FC = () => (
       width={1920}
       height={1080}
     />
+
     <Composition
       id="Section06TwentyFiveMinuteExperiment"
       component={Section06TwentyFiveMinuteExperiment}
@@ -71,6 +77,7 @@ export const RemotionRoot: React.FC = () => (
       width={1920}
       height={1080}
     />
+
     <Composition
       id="Section07Ending"
       component={Section07Ending}
@@ -79,5 +86,14 @@ export const RemotionRoot: React.FC = () => (
       width={1920}
       height={1080}
     />
-</>
+
+    <Composition
+      id="Video001Master"
+      component={Video001Master}
+      durationInFrames={VIDEO_001_MASTER_FRAMES}
+      fps={30}
+      width={1920}
+      height={1080}
+    />
+  </>
 );
