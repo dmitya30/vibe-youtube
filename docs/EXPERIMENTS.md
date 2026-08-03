@@ -37,20 +37,33 @@ Explain external and self-created task exits, then provide a practical experimen
 
 ## Packaging
 
-Default title:
+Test title held constant across all three thumbnail candidates:
 
-`You Don’t Need More Focus — You Need Fewer Exits`
+`You Don't Need More Focus — You Need Fewer Exits`
 
-Alternatives:
+Thumbnail test set:
 
-1. `Why You Keep Switching Tasks — Even With Notifications Off`
-2. `Your Attention Span Isn’t the Problem — Your Setup Is`
+1. A — Phone Portal v2; no text; visual-conflict hypothesis.
+2. B — Three Exits v2; `NOT YOUR BRAIN`; diagnostic-reframe hypothesis.
+3. C — Timer v2; `00:47`; data-curiosity hypothesis.
 
-Thumbnail concepts:
+Visual QA:
 
-1. `47 SEC` — NOD surrounded by open orange doors.
-2. `STILL CHECKING` — notifications are off, but NOD reaches for the phone.
-3. No text — one task surrounded by visual exits.
+- full-size readability: PASS;
+- 160x90 mobile readability: PASS;
+- grayscale hierarchy: PASS;
+- mild-blur hierarchy: PASS;
+- candidate differentiation: PASS;
+- title and opening promise match: PASS.
+
+Status:
+
+`A/B/C VISUAL QA PASS / TEST SET LOCKED / WINNER NOT SELECTED`
+
+The first platform test keeps the title constant to isolate the thumbnail
+variable. YouTube Test & Compare results must be evaluated using watch-time
+share, with CTR, early retention and viewer satisfaction treated as supporting
+signals.
 
 ## Claim limits
 

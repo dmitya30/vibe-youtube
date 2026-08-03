@@ -11,6 +11,11 @@ import {
   Video001Master,
   VIDEO_001_MASTER_FRAMES,
 } from './Video001Master';
+import {
+  Video001ThumbnailA,
+  Video001ThumbnailB,
+  Video001ThumbnailC,
+} from './Video001Thumbnails';
 import {TestCNotificationOverlay} from './TestCNotificationOverlay';
 
 export const RemotionRoot: React.FC = () => (
@@ -94,6 +99,33 @@ export const RemotionRoot: React.FC = () => (
       fps={30}
       width={1920}
       height={1080}
+    />
+
+    <Composition
+      id="Video001ThumbnailA"
+      component={Video001ThumbnailA}
+      durationInFrames={1}
+      fps={30}
+      width={1280}
+      height={720}
+    />
+
+    <Composition
+      id="Video001ThumbnailB"
+      component={Video001ThumbnailB}
+      durationInFrames={1}
+      fps={30}
+      width={1280}
+      height={720}
+    />
+
+    <Composition
+      id="Video001ThumbnailC"
+      component={Video001ThumbnailC}
+      durationInFrames={1}
+      fps={30}
+      width={1280}
+      height={720}
     />
   </>
 );

@@ -660,3 +660,56 @@ QA:
 - accepted limitation: slightly lower perceived expressiveness in
   Section 05 narration
 - overall: PASS / LOCKED
+
+==================================================
+THUMBNAIL TEST SET — VIDEO-001 — V2
+==================================================
+
+Updated:
+2026-08-03
+
+Primary generation model:
+GPT Image 2.0
+
+Local-only hero-art files:
+
+1. thumbnail-a-phone-portal-v2.jpg
+   - dimensions: 2048x1152
+   - overlay: none
+   - hypothesis: visual conflict
+
+2. thumbnail-b-not-your-brain-v2.jpg
+   - dimensions: 2048x1152
+   - overlay: NOT YOUR BRAIN
+   - hypothesis: diagnostic reframe
+
+3. thumbnail-c-47-seconds-v2.jpg
+   - dimensions: 2048x1152
+   - overlay: 00:47
+   - hypothesis: data curiosity
+
+Remotion compositions:
+
+- Video001ThumbnailA
+- Video001ThumbnailB
+- Video001ThumbnailC
+
+QA:
+
+- full-size readability: PASS
+- mobile readability at 160x90: PASS
+- grayscale hierarchy: PASS
+- mild-blur hierarchy: PASS
+- visual differentiation: PASS
+- promise match: PASS
+
+Decision:
+
+A/B/C VISUAL QA PASS / TEST SET LOCKED
+PUBLICATION WINNER NOT SELECTED
+
+Notes:
+
+Raster source assets and rendered JPEG files remain local-only according to
+docs/REPOSITORY_STRUCTURE.md. Source code, documentation and this manifest
+record are version-controlled.
