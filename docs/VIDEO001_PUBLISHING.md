@@ -1,7 +1,7 @@
 # VIDEO-001 — Publishing package
 
-Updated: 2026-08-03
-Status: thumbnail test set visual QA PASS / publication not approved
+Updated: 2026-08-04
+Status: thumbnail test set and English captions PASS / publication not approved
 
 ## 1. Current packaging test
 
@@ -212,10 +212,37 @@ Final claims decision: PASS.
 ## 9. Remaining publication gates
 
 1. Thumbnail A/B/C visual QA: PASS.
-2. Generate and review English captions.
-3. Optional independent VLM review with timestamps.
+2. English captions: PASS / LOCKED.
+3. Run optional independent VLM review through an accessible provider.
 4. Upload as Private.
 5. Start YouTube Test & Compare using one constant title.
 6. Verify transcode, chapters, captions and loudness.
 7. Evaluate watch-time share; do not select by CTR alone.
 8. Approve Public or Scheduled visibility separately.
+
+## 10. Independent VLM review
+
+Status:
+
+`PENDING ACCESSIBLE PROVIDER / OPTIONAL GATE`
+
+Google AI Studio is unavailable from the current region. The current
+Kazakhstan VPS/VPN route does not provide access, and platform restrictions
+will not be bypassed through fake identity or prohibited account methods.
+
+Next action:
+
+Evaluate an accessible VLM provider capable of reviewing a 44 MiB,
+10:31 MP4 with audio and returning timestamped observations.
+
+The VLM review supplements rather than replaces completed checks:
+
+- FFmpeg technical QA: PASS;
+- black-frame detection: PASS;
+- loudness review: PASS with accepted warning;
+- human full-video review: PASS;
+- human caption playback review: PASS.
+
+Publication is still not approved. If no suitable provider is available,
+the optional VLM gate may be explicitly waived based on completed automated
+and human QA.

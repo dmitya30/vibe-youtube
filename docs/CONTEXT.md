@@ -1,7 +1,7 @@
 # Project Context
 
-Updated: 2026-08-02
-Status: production / VIDEO-001 master PASS / LOCKED
+Updated: 2026-08-04
+Status: production / VIDEO-001 master and captions PASS / LOCKED
 Source of truth for project-level context
 
 ## 1. Goal
@@ -129,7 +129,20 @@ Master status:
 - automated technical QA: PASS;
 - human boundary/audio/visual QA: PASS;
 - overall: PASS / LOCKED.
-Текущий gate — packaging и publication-readiness review для VIDEO-001.
+English captions:
+
+- canonical SRT:
+  `VIDEO-001-proof/captions/video001-en-v1.srt`;
+- canonical VTT:
+  `VIDEO-001-proof/captions/video001-en-v1.vtt`;
+- 201 cues;
+- timing range: 00:00:00.000–00:10:31.500;
+- semantic corrections: PASS;
+- human playback review: PASS;
+- overall: PASS / LOCKED.
+
+Текущий gate — optional independent VLM review через доступного провайдера,
+затем Private upload и проверка YouTube transcode/captions/chapters.
 
 Repository policy:
 

@@ -1,6 +1,6 @@
 # Repository Structure
 
-Updated: 2026-08-02
+Updated: 2026-08-04
 Status: active
 
 Этот файл фиксирует каноническую структуру репозитория, назначение
@@ -36,6 +36,10 @@ vibe-youtube/
     │   └── segments/
     │       ├── tracked transcripts and silence maps
     │       └── local WAV segments
+    ├── captions/
+    │   ├── README.md
+    │   ├── video001-en-v1.srt
+    │   └── video001-en-v1.vtt
     └── remotion/
         ├── src/
         │   └── tracked compositions
@@ -59,6 +63,7 @@ vibe-youtube/
 - Markdown documentation;
 - manifests и production notes;
 - narration transcripts;
+- reviewed SRT/VTT captions;
 - silence maps и другие текстовые timing artifacts;
 - lock/status information.
 

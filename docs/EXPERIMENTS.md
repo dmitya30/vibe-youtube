@@ -1,6 +1,6 @@
 # Experiments
 
-Updated: 2026-08-02
+Updated: 2026-08-04
 
 ## Experiment format
 
@@ -20,7 +20,7 @@ Updated: 2026-08-02
 
 # VIDEO-001 — Attention Span
 
-Status: VIDEO-001 master PASS / LOCKED / publication not approved
+Status: VIDEO-001 master and captions PASS / LOCKED / publication not approved
 Publication: not approved
 
 ## Hypothesis
@@ -131,6 +131,7 @@ Production status:
 | 06 25-minute experiment | PASS / LOCKED |
 | 07 Ending | PASS / LOCKED |
 | Master | PASS / LOCKED |
+| English captions | PASS / LOCKED |
 
 Current production styleframes:
 
@@ -141,6 +142,44 @@ Current production styleframes:
 
 Text transcripts and silence maps are version-controlled.
 Generated WAV, MP4 and raster-image files remain local.
+
+## VIDEO-001 CAPTIONS LOCK
+
+Status:
+
+`PASS / LOCKED`
+
+Canonical artifacts:
+
+- `VIDEO-001-proof/captions/video001-en-v1.srt`;
+- `VIDEO-001-proof/captions/video001-en-v1.vtt`;
+- `VIDEO-001-proof/captions/README.md`.
+
+Parameters:
+
+- language: English;
+- cue count: 201;
+- first cue: 00:00:00.000;
+- final cue end: 00:10:31.500;
+- maximum line length: 42 characters;
+- maximum lines per cue: 2;
+- zero-duration cues: none;
+- overlaps: none.
+
+QA:
+
+- Whisper transcript comparison: PASS after targeted corrections;
+- human caption playback review: PASS;
+- overall: PASS / LOCKED.
+
+Operational decision:
+
+The CPU-only `small.en` transcription took several hours on the current
+machine. Do not rerun Whisper unless narration changes. Reuse the locked
+timings and authoritative script text.
+
+Independent VLM review is optional and pending an accessible provider.
+Google AI Studio is unavailable from the current region.
 
 ## VIDEO-001 production lessons
 

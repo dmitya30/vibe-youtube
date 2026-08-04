@@ -1,6 +1,6 @@
 # VIDEO-001 — Storyboard and production plan
 
-Updated: 2026-08-02
+Updated: 2026-08-04
 Version: v1
 Status: SEQUENCE LOCKED / SECTIONS 01–07 PASS / LOCKED
 Script: [SCRIPT.md](SCRIPT.md)
@@ -454,10 +454,35 @@ Assembly decision:
 - full Remotion rerender is reserved for source-level or composition-level
   changes.
 
+## VIDEO-001 English captions
+
+Canonical files:
+
+- `VIDEO-001-proof/captions/video001-en-v1.srt`;
+- `VIDEO-001-proof/captions/video001-en-v1.vtt`.
+
+Parameters:
+
+- language: English;
+- cues: 201;
+- timing range: 00:00:00.000–00:10:31.500;
+- maximum line length: 42 characters;
+- maximum lines per cue: 2;
+- zero-duration cues: none;
+- overlaps: none.
+
+QA:
+
+- automated structure and timing validation: PASS;
+- comparison against locked script: PASS after targeted corrections;
+- human playback review: PASS;
+- overall: PASS / LOCKED.
+
 ## Next gates
 
-1. Run final claim/source verification.
-2. Select title and thumbnail package.
-3. Prepare description, chapters, disclosure and metadata.
-4. Perform publication-readiness review.
-5. Upload only after explicit publication approval.
+1. Claims and sources: PASS.
+2. Thumbnail A/B/C test set: PASS / LOCKED.
+3. English captions: PASS / LOCKED.
+4. Run optional independent VLM review through an accessible provider.
+5. Upload as Private and verify transcode, chapters and captions.
+6. Publish only after explicit publication approval.
