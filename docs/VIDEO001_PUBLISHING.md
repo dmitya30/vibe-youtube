@@ -1,7 +1,7 @@
 # VIDEO-001 — Publishing package
 
 Updated: 2026-08-05
-Status: uploaded Unlisted / platform QA in progress / public launch not approved
+Status: uploaded Unlisted / platform QA PASS / public launch not approved
 
 ## Platform upload record
 
@@ -11,13 +11,14 @@ Status: uploaded Unlisted / platform QA in progress / public launch not approved
 - Video ID: `ow_eUmvptuM`
 - Review URL: `https://youtu.be/ow_eUmvptuM`
 - Visibility: Unlisted / `Доступ по ссылке`
-- Upload/processing: complete; owner reports playback PASS.
+- Upload, processing and playback: PASS reported by owner.
 - Current thumbnail: C — `00:47`.
 - Reviewed English captions: local SRT/VTT remain PASS / LOCKED.
-- YouTube caption state: automatic recognition track currently visible with
-  errors; reviewed SRT publication/playback verification pending.
-- Description links: present but non-clickable pending channel feature
-  eligibility/history.
+- YouTube caption state: reviewed English SRT published, active by default
+  and playback verified; automatic captions are not accepted as the
+  publication track.
+- Description research links: present but temporarily non-clickable pending
+  advanced feature eligibility/history on the new channel.
 - Public or Scheduled publication: not approved.
 
 ## 1. Current packaging test
@@ -231,12 +232,13 @@ Final claims decision: PASS.
 1. Thumbnail A/B/C visual QA: PASS.
 2. English local captions package: PASS / LOCKED.
 3. Optional independent video-VLM review: WAIVED.
-4. YouTube upload and processing: COMPLETE.
+4. YouTube upload and processing: PASS.
 5. Initial visibility: UNLISTED.
-6. Thumbnail C installation: COMPLETE.
-7. Reviewed English SRT publication and YouTube playback QA: PENDING.
-8. Copyright/checks confirmation in Studio: PENDING FINAL RECORD.
-9. Chapter rendering and description-link eligibility: PENDING FINAL RECORD.
+6. Thumbnail C installation: PASS.
+7. Reviewed English SRT publication and YouTube playback QA: PASS.
+8. Unlisted platform playback QA: PASS reported by owner.
+9. Description research links: temporarily non-clickable pending advanced
+   feature eligibility on the new channel.
 10. Test & Compare: deferred until advanced feature access is available.
 11. Public or Scheduled visibility: requires a separate approval decision.
 
@@ -260,7 +262,6 @@ checks were completed instead:
 - human caption playback review: PASS;
 - protected publication packet SHA-256 verification: PASS.
 
-The waiver does not replace YouTube platform QA. Reviewed SRT activation,
-caption playback and final publication settings must still pass before the
-video becomes Public or Scheduled.
-
+The waiver does not replace YouTube platform QA. The reviewed English SRT is
+now published, active by default and playback verified on the Unlisted upload.
+Public or Scheduled visibility still requires a separate publication decision.

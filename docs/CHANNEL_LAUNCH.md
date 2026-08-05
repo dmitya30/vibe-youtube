@@ -1,7 +1,7 @@
 # Brand & Channel Launch
 
 Updated: 2026-08-05
-Status: channel created / identity live / VIDEO-001 uploaded Unlisted
+Status: channel created / identity live / VIDEO-001 Unlisted platform QA PASS
 Owner: channel strategy, identity, account setup, launch configuration and platform QA
 
 ## Current launch record
@@ -30,8 +30,8 @@ Owner: channel strategy, identity, account setup, launch configuration and platf
 - VIDEO-001 review URL: `https://youtu.be/ow_eUmvptuM`
 - Current visibility: Unlisted / `Доступ по ссылке`.
 - Public publication: not approved.
-- Reviewed English SRT activation: pending; YouTube automatic captions are
-  currently visible and contain recognition errors.
+- Reviewed English SRT: published, active by default and playback verified.
+- YouTube automatic captions are not accepted as publication captions.
 - Description research links: present but not yet clickable because the new
   channel has not received the required feature eligibility.
 
@@ -226,16 +226,13 @@ is possible without starting the public launch.
 
 Current platform gate:
 
-- upload and processing: PASS reported by owner;
+- upload, processing and playback: PASS reported by owner;
 - title, description and thumbnail C: installed;
 - channel avatar/banner presentation: PASS;
-- video/audio playback: PASS reported by owner;
-- reviewed English SRT: activation and playback verification pending;
-- YouTube automatic caption track: present but not accepted as publication
-  captions because it contains recognition errors;
-- description links: currently non-clickable due new-channel feature
-  eligibility;
-- copyright/checks result: confirm in Studio before public publication;
+- reviewed English SRT: published, active by default and playback verified;
+- YouTube automatic captions: not accepted as publication captions;
+- description research links: present but temporarily non-clickable because
+  advanced feature eligibility is not yet available on the new channel;
 - Public or Scheduled visibility requires a separate launch decision.
 
 Unlisted visibility is a review state, not the public launch.
@@ -308,9 +305,10 @@ Sprint завершён только при наличии:
 - Human full-video and caption playback QA before upload: PASS.
 - Optional video-VLM gate: WAIVED after unavailable Google AI Studio and
   two authenticated Qwen `VIDEO_ACCESS: NO` results.
-- YouTube automatic captions: NOT ACCEPTED.
-- Reviewed English SRT on YouTube: PENDING ACTIVATION/VERIFICATION.
+- Reviewed English SRT on YouTube: PASS / ACTIVE BY DEFAULT.
+- YouTube automatic captions: NOT ACCEPTED as publication captions.
+- Unlisted upload platform QA: PASS.
+- Description research links: temporarily non-clickable because advanced
+  feature eligibility is not yet available on the new channel.
 - Public publication: NOT APPROVED.
-- Next action: publish and verify the reviewed English SRT, finish platform
-  QA, then make the separate Public/Scheduled launch decision.
-
+- Next action: make the separate Public/Scheduled launch decision.
