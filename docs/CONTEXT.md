@@ -1,7 +1,7 @@
 # Project Context
 
-Updated: 2026-08-04
-Status: production / VIDEO-001 master and captions PASS / LOCKED
+Updated: 2026-08-05
+Status: Brand & Channel Launch Sprint / VIDEO-001 master and captions PASS / LOCKED
 Source of truth for project-level context
 
 ## 1. Goal
@@ -141,8 +141,14 @@ English captions:
 - human playback review: PASS;
 - overall: PASS / LOCKED.
 
-Текущий gate — optional independent VLM review через доступного провайдера,
-затем Private upload и проверка YouTube transcode/captions/chapters.
+Optional independent video-VLM review waived: Google AI Studio недоступен
+из текущего региона, а авторизованный Qwen Chat дважды подтвердил
+`VIDEO_ACCESS: NO`. Выполнены FFmpeg technical QA, human full-video review
+и human caption playback review.
+
+Текущий gate — Brand & Channel Launch Sprint согласно
+[`CHANNEL_LAUNCH.md`](CHANNEL_LAUNCH.md), затем Private upload рабочего
+VIDEO-001 и проверка YouTube transcode/captions/chapters.
 
 Repository policy:
 
@@ -153,10 +159,20 @@ Repository policy:
 
 ## 7. Current restrictions
 
-До прохождения stack и visual feasibility gates запрещены:
+Stack, visual feasibility, VIDEO-001 master, thumbnail и caption gates
+пройдены. Предыдущий запрет на регистрацию канала снят.
 
-- регистрация и финальный брендинг канала;
-- публикация контента;
-- массовая генерация сценариев;
-- автоматизация полного производства;
-- покупка дорогих дополнительных сервисов без отдельного эксперимента.
+Разрешено:
+
+- исследовать и создать один рабочий англоязычный launch channel;
+- выполнить его минимально полный брендинг и техническую настройку;
+- загрузить VIDEO-001 как Private для platform QA;
+- после прохождения launch checklist принять отдельное решение о публикации.
+
+По-прежнему запрещены:
+
+- массовая генерация и публикация до получения данных первых роликов;
+- запуск нескольких языковых каналов одновременно;
+- покупка engagement, fake identity, fake documents и KYC evasion;
+- дорогие сервисы без отдельного эксперимента;
+- бесконечное исследование брендинга без проверяемого launch deliverable.
