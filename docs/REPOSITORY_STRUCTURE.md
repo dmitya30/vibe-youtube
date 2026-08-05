@@ -57,9 +57,9 @@ vibe-youtube/
         ├── scripts/
         │   └── sync-public.py
         ├── public/
-        │   └── generated runtime-only asset staging
+        │   └── generated runtime-only staging, created on demand
         ├── out/
-        │   └── transient renders and active QA artifacts
+        │   └── locked section renders and compact QA evidence
         ├── package.json
         ├── package-lock.json
         ├── remotion.config.ts
@@ -179,6 +179,32 @@ VIDEO-001-proof/publish/<video-id>/local/
 
 Не создавать дополнительные `temp-verify/`, `renders/`, `output/` или
 параллельные publication roots без отдельного обоснования.
+
+### VIDEO-001 cleanup state
+
+После создания и двойной SHA-256-проверки publication packet для VIDEO-001:
+
+- `remotion/public/` очищен и создаётся заново через `npm run sync-public`;
+- старый параллельный `VIDEO-001-proof/renders/` удалён;
+- уникальный Kling source перенесён в канонический `assets/video/`;
+- superseded paid generations перенесены во внешний локальный архив;
+- Whisper intermediates, Qwen fragments, loudness previews, contact sheets,
+  comparison images и duplicate upload copies удалены;
+- в `remotion/out/` оставлены locked section renders и компактные текстовые
+  QA artifacts;
+- transient master удалён: upload master хранится в проверенном
+  `publish/video-001/local/` и во внешнем staging bundle;
+- `remotion/node_modules/` оставлен локально и не инспектировался.
+
+Локальный cleanup archive:
+
+```text
+~/vibe-youtube-local-archive/VIDEO-001/cleanup-2026-08-05-v1/
+```
+
+Его `cleanup-manifest.tsv` содержит SHA-256 и выполненное действие для
+каждого архивированного, перемещённого или удалённого файла. Архив не является
+частью Git-репозитория.
 
 ## 6. Naming
 

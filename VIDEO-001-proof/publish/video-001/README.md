@@ -17,4 +17,11 @@ The packet was copied from the independently verified external staging bundle
 and must match `manifest.txt`.
 
 Do not commit media from `local/`.
-Do not delete the external staging bundle or render sources during this step.
+
+Local cleanup completed on 2026-08-05 after this packet and the external
+staging bundle passed SHA-256 verification. The transient master, duplicate
+upload copies and temporary QA media were removed. Locked section renders and
+compact textual QA evidence remain under `remotion/out/`.
+
+Do not delete this packet or the external staging bundle before successful
+Private upload and platform QA.

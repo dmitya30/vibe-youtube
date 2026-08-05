@@ -122,8 +122,8 @@ Master status:
 - source: `VIDEO-001-proof/remotion/src/Video001Master.tsx`;
 - approved publication master:
   `VIDEO-001-proof/publish/video-001/local/video-001-master-v1.mp4`;
-- original locked render source:
-  `VIDEO-001-proof/remotion/out/video-001-master-v1.mp4`;
+- original transient master render was removed after the verified
+  publication packet and external backup passed SHA-256 checks;
 - duration: 631.600 seconds / 18,948 frames;
 - mux duration: 631.658667 seconds;
 - resolution: 1920x1080;

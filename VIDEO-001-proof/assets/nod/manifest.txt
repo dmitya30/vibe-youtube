@@ -206,7 +206,7 @@ Generation cost:
 not recorded
 
 Output file:
-renders/test-b-kling3-v1.mp4
+assets/video/test-b-kling3-v1.mp4
 
 Output committed to Git:
 No
@@ -244,7 +244,7 @@ Source component:
 remotion/src/TestCNotificationOverlay.tsx
 
 Input video:
-renders/test-b-kling3-v1.mp4
+assets/video/test-b-kling3-v1.mp4
 
 Output video:
 remotion/out/test-c-notification-overlay-v1.mp4
@@ -377,10 +377,10 @@ Clean plate:
 coldopen-desk-clean-v1.jpg
 
 Kling source:
-renders/coldopen-desk-clean-kling3-pro-v1.mp4
+assets/video/coldopen-desk-clean-kling3-pro-v1.mp4
 
 Ping-pong source:
-renders/coldopen-desk-clean-kling3-pro-v1-pingpong.mp4
+assets/video/coldopen-desk-clean-kling3-pro-v1-pingpong.mp4
 
 Multiple-exits reveal:
 styleframe-multiple-exits-v1.jpg
@@ -435,11 +435,14 @@ compositing, утверждённые styleframes для сложных metaphor
 F — FULL VIDEO NARRATION AND FIRST STYLEFRAME
 ==================================================
 
-Full narration:
+Superseded narration archive:
+~/vibe-youtube-local-archive/VIDEO-001/cleanup-2026-08-05-v1/superseded/VIDEO-001-proof/audio/video001-narration-v1.wav
+
+Original project path:
 audio/video001-narration-v1.wav
 
 Narration status:
-SUPERSEDED BY NARRATION V2
+SUPERSEDED BY NARRATION V2 / ARCHIVED LOCALLY
 
 Parameters:
 - model: google/gemini-3-1-flash-tts
@@ -633,8 +636,11 @@ VIDEO-001-proof/remotion/src/Video001Master.tsx
 Root registration:
 VIDEO-001-proof/remotion/src/Root.tsx
 
-Approved local render:
-VIDEO-001-proof/remotion/out/video-001-master-v1.mp4
+Approved publication master:
+VIDEO-001-proof/publish/video-001/local/video-001-master-v1.mp4
+
+Original transient master render:
+REMOVED AFTER VERIFIED PUBLICATION PACKET AND EXTERNAL BACKUP
 
 Local automated QA:
 VIDEO-001-proof/remotion/out/video-001-master-v1-qa.json

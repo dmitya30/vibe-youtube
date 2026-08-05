@@ -1,6 +1,6 @@
 # VIDEO-001 — Storyboard and production plan
 
-Updated: 2026-08-04
+Updated: 2026-08-05
 Version: v1
 Status: SEQUENCE LOCKED / SECTIONS 01–07 PASS / LOCKED
 Script: [SCRIPT.md](SCRIPT.md)
@@ -421,9 +421,10 @@ Approved publication master:
 
 `VIDEO-001-proof/publish/video-001/local/video-001-master-v1.mp4`
 
-Original locked render source:
+Original transient master render:
 
-`VIDEO-001-proof/remotion/out/video-001-master-v1.mp4`
+Removed after the verified publication packet and external backup passed
+SHA-256 checks. Locked section renders and compact QA evidence remain local.
 
 Parameters:
 
