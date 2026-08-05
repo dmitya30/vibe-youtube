@@ -1,8 +1,39 @@
 # Brand & Channel Launch
 
 Updated: 2026-08-05
-Status: active sprint / channel not created
+Status: channel created / identity live / VIDEO-001 uploaded Unlisted
 Owner: channel strategy, identity, account setup, launch configuration and platform QA
+
+## Current launch record
+
+- Channel name: `Fewer Exits`
+- Handle: `@fewerexits`
+- Channel ID: `UC4q9s9wwv1cx8e1mMeI0ABw`
+- Handle URL: `https://www.youtube.com/@fewerexits`
+- Canonical URL:
+  `https://www.youtube.com/channel/UC4q9s9wwv1cx8e1mMeI0ABw`
+- Account: established owner-controlled Google account with phone verification.
+- Basic features: enabled.
+- Intermediate features: enabled.
+- Advanced features: unavailable pending sufficient channel history/content.
+- YouTube Test & Compare: currently unavailable.
+- About: installed in English.
+- Avatar: `VIDEO-001-proof/assets/nod/yt-avatar-v2.jpg`
+  (1536x1536, 313833 bytes,
+  SHA-256 `38eb534e5f77b61a4317c96563fc52b54a7f15a0883c5e6c9e26af38861f6698`).
+- Banner: `VIDEO-001-proof/assets/nod/yt-banner-v3.jpg`
+  (2560x1440, 482592 bytes,
+  SHA-256 `8064ffc32e9a4d4d5670981240ffc47b11da9ac7cc4341dfde43cd5db9785196`).
+- Banner promise: `MAKE ATTENTION EASIER TO KEEP`.
+- Avatar and banner rendering/crop: owner-reviewed and PASS.
+- VIDEO-001 ID: `ow_eUmvptuM`
+- VIDEO-001 review URL: `https://youtu.be/ow_eUmvptuM`
+- Current visibility: Unlisted / `Доступ по ссылке`.
+- Public publication: not approved.
+- Reviewed English SRT activation: pending; YouTube automatic captions are
+  currently visible and contain recognition errors.
+- Description research links: present but not yet clickable because the new
+  channel has not received the required feature eligibility.
 
 ## 1. Purpose
 
@@ -190,23 +221,24 @@ Channel trailer, сложные shelves и подробная homepage architect
 
 ## 10. VIDEO-001 platform gate
 
-Первоначально загрузить VIDEO-001 как Private.
+VIDEO-001 has been uploaded as Unlisted rather than Public so external review
+is possible without starting the public launch.
 
-Проверить после обработки 1080p:
+Current platform gate:
 
-- video and audio playback;
-- YouTube transcode;
-- captions;
-- language;
-- title and description;
-- thumbnail rendering;
-- chapters;
-- copyright checks;
-- disclosure field;
-- visibility remains Private;
-- desktop/mobile channel appearance.
+- upload and processing: PASS reported by owner;
+- title, description and thumbnail C: installed;
+- channel avatar/banner presentation: PASS;
+- video/audio playback: PASS reported by owner;
+- reviewed English SRT: activation and playback verification pending;
+- YouTube automatic caption track: present but not accepted as publication
+  captions because it contains recognition errors;
+- description links: currently non-clickable due new-channel feature
+  eligibility;
+- copyright/checks result: confirm in Studio before public publication;
+- Public or Scheduled visibility requires a separate launch decision.
 
-Публичная публикация требует отдельного решения после этого QA.
+Unlisted visibility is a review state, not the public launch.
 
 ## 11. Anti-overresearch stop rule
 
@@ -264,12 +296,21 @@ Sprint завершён только при наличии:
 
 ## 14. Current status
 
+- Working launch channel: CREATED / LIVE.
+- Channel identity: APPROVED / INSTALLED.
+- About: INSTALLED.
 - VIDEO-001 master: PASS / LOCKED.
-- VIDEO-001 captions: PASS / LOCKED.
-- Thumbnail A/B/C set: PASS / TEST SET LOCKED.
+- VIDEO-001 captions package: PASS / LOCKED.
+- VIDEO-001 YouTube upload: COMPLETE / UNLISTED.
+- Video ID: `ow_eUmvptuM`.
+- Thumbnail C: current operational default.
 - FFmpeg technical QA: PASS.
-- Human full-video and caption playback QA: PASS.
+- Human full-video and caption playback QA before upload: PASS.
 - Optional video-VLM gate: WAIVED after unavailable Google AI Studio and
   two authenticated Qwen `VIDEO_ACCESS: NO` results.
-- Working launch channel: not created.
-- Next action: repository maintenance, then focused channel research.
+- YouTube automatic captions: NOT ACCEPTED.
+- Reviewed English SRT on YouTube: PENDING ACTIVATION/VERIFICATION.
+- Public publication: NOT APPROVED.
+- Next action: publish and verify the reviewed English SRT, finish platform
+  QA, then make the separate Public/Scheduled launch decision.
+

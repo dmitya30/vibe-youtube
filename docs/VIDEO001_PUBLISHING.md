@@ -1,7 +1,24 @@
 # VIDEO-001 — Publishing package
 
-Updated: 2026-08-04
-Status: thumbnail test set and English captions PASS / publication not approved
+Updated: 2026-08-05
+Status: uploaded Unlisted / platform QA in progress / public launch not approved
+
+## Platform upload record
+
+- YouTube channel: `Fewer Exits`
+- Handle: `@fewerexits`
+- Channel ID: `UC4q9s9wwv1cx8e1mMeI0ABw`
+- Video ID: `ow_eUmvptuM`
+- Review URL: `https://youtu.be/ow_eUmvptuM`
+- Visibility: Unlisted / `Доступ по ссылке`
+- Upload/processing: complete; owner reports playback PASS.
+- Current thumbnail: C — `00:47`.
+- Reviewed English captions: local SRT/VTT remain PASS / LOCKED.
+- YouTube caption state: automatic recognition track currently visible with
+  errors; reviewed SRT publication/playback verification pending.
+- Description links: present but non-clickable pending channel feature
+  eligibility/history.
+- Public or Scheduled publication: not approved.
 
 ## 1. Current packaging test
 
@@ -18,9 +35,9 @@ Current thumbnail status:
 - B — `Three Exits v2`, overlay: `NOT YOUR BRAIN`;
 - C — `Timer v2`, overlay: `00:47`.
 
-No default winner is selected before mobile readability QA and the platform
-test. Thumbnail C is the current internal visual leader, not the approved
-publication default.
+Thumbnail C is the current operational default for the initial Unlisted
+upload because YouTube Test & Compare is not yet available on the new
+channel. A/B/C remain the locked future test set.
 
 ## 2. YouTube thumbnail hypotheses
 
@@ -158,7 +175,7 @@ Try one 25-minute session with a parking list and tell me what you notice.
 
 ## 6. Upload settings
 
-- Visibility on first upload: Private.
+- Actual first-upload visibility: Unlisted for external review; not Public.
 - Audience: No, it is not made for kids.
 - Age restriction: No.
 - Original language: English.
@@ -212,37 +229,38 @@ Final claims decision: PASS.
 ## 9. Remaining publication gates
 
 1. Thumbnail A/B/C visual QA: PASS.
-2. English captions: PASS / LOCKED.
-3. Run optional independent VLM review through an accessible provider.
-4. Upload as Private.
-5. Start YouTube Test & Compare using one constant title.
-6. Verify transcode, chapters, captions and loudness.
-7. Evaluate watch-time share; do not select by CTR alone.
-8. Approve Public or Scheduled visibility separately.
+2. English local captions package: PASS / LOCKED.
+3. Optional independent video-VLM review: WAIVED.
+4. YouTube upload and processing: COMPLETE.
+5. Initial visibility: UNLISTED.
+6. Thumbnail C installation: COMPLETE.
+7. Reviewed English SRT publication and YouTube playback QA: PENDING.
+8. Copyright/checks confirmation in Studio: PENDING FINAL RECORD.
+9. Chapter rendering and description-link eligibility: PENDING FINAL RECORD.
+10. Test & Compare: deferred until advanced feature access is available.
+11. Public or Scheduled visibility: requires a separate approval decision.
 
 ## 10. Independent VLM review
 
 Status:
 
-`PENDING ACCESSIBLE PROVIDER / OPTIONAL GATE`
+`WAIVED`
 
-Google AI Studio is unavailable from the current region. The current
-Kazakhstan VPS/VPN route does not provide access, and platform restrictions
-will not be bypassed through fake identity or prohibited account methods.
+Google AI Studio was unavailable from the current region. Two authenticated
+Qwen Chat attempts returned `VIDEO_ACCESS: NO`, so no valid video-level review
+was performed through that provider.
 
-Next action:
-
-Evaluate an accessible VLM provider capable of reviewing a 44 MiB,
-10:31 MP4 with audio and returning timestamped observations.
-
-The VLM review supplements rather than replaces completed checks:
+The gate was explicitly waived because it was optional and the following
+checks were completed instead:
 
 - FFmpeg technical QA: PASS;
 - black-frame detection: PASS;
 - loudness review: PASS with accepted warning;
-- human full-video review: PASS;
-- human caption playback review: PASS.
+- full-video human review: PASS;
+- human caption playback review: PASS;
+- protected publication packet SHA-256 verification: PASS.
 
-Publication is still not approved. If no suitable provider is available,
-the optional VLM gate may be explicitly waived based on completed automated
-and human QA.
+The waiver does not replace YouTube platform QA. Reviewed SRT activation,
+caption playback and final publication settings must still pass before the
+video becomes Public or Scheduled.
+

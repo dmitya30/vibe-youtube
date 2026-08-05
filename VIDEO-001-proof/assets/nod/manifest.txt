@@ -719,3 +719,59 @@ Notes:
 Raster source assets and rendered JPEG files remain local-only according to
 docs/REPOSITORY_STRUCTURE.md. Source code, documentation and this manifest
 record are version-controlled.
+
+==================================================
+YOUTUBE CHANNEL IDENTITY
+==================================================
+
+Channel:
+Fewer Exits
+
+Handle:
+@fewerexits
+
+Channel ID:
+UC4q9s9wwv1cx8e1mMeI0ABw
+
+Avatar:
+yt-avatar-v2.jpg
+
+Avatar dimensions:
+1536x1536
+
+Avatar size:
+313833 bytes
+
+Avatar SHA-256:
+38eb534e5f77b61a4317c96563fc52b54a7f15a0883c5e6c9e26af38861f6698
+
+Avatar status:
+APPROVED / INSTALLED
+
+Banner:
+yt-banner-v3.jpg
+
+Banner dimensions:
+2560x1440
+
+Banner size:
+482592 bytes
+
+Banner SHA-256:
+8064ffc32e9a4d4d5670981240ffc47b11da9ac7cc4341dfde43cd5db9785196
+
+Banner text:
+MAKE ATTENTION EASIER TO KEEP
+
+Banner status:
+APPROVED / INSTALLED
+
+Visual decision:
+Use the cinematic pseudo-3D material and lighting system derived from
+thumbnail C while preserving the canonical rounded double-layer NOD head.
+The avatar is the compact identity mark; the banner communicates the channel
+promise through the many-paths-to-one-path metaphor.
+
+Repository policy:
+JPEG files remain local and ignored. This manifest stores their selected
+filenames, dimensions, hashes and lifecycle status.
