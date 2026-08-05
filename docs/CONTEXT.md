@@ -120,7 +120,9 @@ Production status:
 Master status:
 
 - source: `VIDEO-001-proof/remotion/src/Video001Master.tsx`;
-- approved local render:
+- approved publication master:
+  `VIDEO-001-proof/publish/video-001/local/video-001-master-v1.mp4`;
+- original locked render source:
   `VIDEO-001-proof/remotion/out/video-001-master-v1.mp4`;
 - duration: 631.600 seconds / 18,948 frames;
 - mux duration: 631.658667 seconds;

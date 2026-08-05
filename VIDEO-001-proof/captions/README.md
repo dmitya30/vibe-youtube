@@ -1,9 +1,9 @@
 # VIDEO-001 English captions
 
-Updated: 2026-08-04
+Updated: 2026-08-05
 Status: PASS / LOCKED
 Language: English
-Master: `remotion/out/video-001-master-v1.mp4`
+Publication master: `../publish/video-001/local/video-001-master-v1.mp4`
 
 ## Canonical files
 
@@ -67,10 +67,15 @@ were not semantic errors.
 
 ## Publication use
 
-Upload the SRT or VTT as reviewed English captions. Do not use the raw
-Whisper TXT, JSON, SRT or VTT files from `remotion/out/` as publication
-artifacts.
+The canonical reviewed text artifacts remain in this directory. The upload
+copies are stored in `../publish/video-001/local/` alongside the approved
+publication master.
 
-Independent VLM review remains optional and pending an accessible provider.
-Google AI Studio is unavailable from the current region; no attempt to bypass
+Upload the SRT or VTT from that packet. Do not use raw Whisper TXT, JSON,
+SRT or VTT files from `remotion/out/` as publication artifacts.
+
+Independent video-VLM review was waived for VIDEO-001. Google AI Studio
+is unavailable from the current region, and authorized Qwen Chat twice
+reported `VIDEO_ACCESS: NO`. FFmpeg technical QA, human full-video review and
+human caption playback review were completed instead. No attempt to bypass
 platform restrictions is part of this workflow.

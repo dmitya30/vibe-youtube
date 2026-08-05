@@ -417,7 +417,11 @@ Source:
 
 `VIDEO-001-proof/remotion/src/Video001Master.tsx`
 
-Approved local render:
+Approved publication master:
+
+`VIDEO-001-proof/publish/video-001/local/video-001-master-v1.mp4`
+
+Original locked render source:
 
 `VIDEO-001-proof/remotion/out/video-001-master-v1.mp4`
 

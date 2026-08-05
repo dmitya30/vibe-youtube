@@ -1,6 +1,6 @@
 # Repository Structure
 
-Updated: 2026-08-04
+Updated: 2026-08-05
 Status: active
 
 Этот файл фиксирует каноническую структуру репозитория, назначение
@@ -40,6 +40,17 @@ vibe-youtube/
     │   ├── README.md
     │   ├── video001-en-v1.srt
     │   └── video001-en-v1.vtt
+    ├── publish/
+    │   ├── README.md
+    │   └── video-001/
+    │       ├── README.md
+    │       ├── manifest.txt
+    │       └── local/
+    │           ├── video-001-master-v1.mp4
+    │           ├── video001-en-v1.srt
+    │           ├── video001-en-v1.vtt
+    │           └── thumbnails/
+    │               └── final A/B/C JPEG files
     └── remotion/
         ├── src/
         │   └── tracked compositions
@@ -48,7 +59,7 @@ vibe-youtube/
         ├── public/
         │   └── generated runtime-only asset staging
         ├── out/
-        │   └── local renders and active QA contact sheets
+        │   └── transient renders and active QA artifacts
         ├── package.json
         ├── package-lock.json
         ├── remotion.config.ts
@@ -134,25 +145,40 @@ For later revisions:
 This avoids repeating an approximately one-hour full render when unchanged
 locked sections already exist.
 
-## 5. Remotion output lifecycle
+## 5. Render and publication lifecycle
 
-`VIDEO-001-proof/remotion/out/` — единственный локальный каталог
-рендеров.
+`VIDEO-001-proof/remotion/out/` — локальный transient render/QA root.
 
-Во время активного QA в нём могут находиться:
+Во время production и активного QA в нём могут находиться:
 
-- текущий section render;
-- текущий contact sheet.
+- section renders;
+- integration master renders;
+- contact sheets;
+- FFmpeg/ffprobe reports;
+- другие regenerable QA artifacts.
 
-После PASS / LOCKED:
+`remotion/out/` не является источником файлов для загрузки на платформу.
+После PASS / LOCKED публикационные артефакты копируются в:
 
-1. оставить утверждённый MP4;
-2. удалить contact sheet;
-3. удалить устаревшие итерации;
-4. не переносить render в другие временные каталоги.
+```text
+VIDEO-001-proof/publish/<video-id>/local/
+```
 
-Не создавать `temp-verify/`, `renders/`, `output/` и другие параллельные
-каталоги без отдельного обоснования.
+Для каждого publication packet:
+
+- `README.md` и `manifest.txt` коммитятся;
+- `local/` исключён из Git;
+- master, captions и thumbnails проверяются по SHA-256;
+- `local/` является единственным внутренним источником upload-файлов;
+- внешний staging bundle является проверенной резервной копией, но не
+  каноническим project path.
+
+После успешного копирования и проверки publication packet содержимое
+`remotion/out/` классифицируется отдельно. Удаление или архивирование
+разрешено только после подтверждения manifest и резервной копии.
+
+Не создавать дополнительные `temp-verify/`, `renders/`, `output/` или
+параллельные publication roots без отдельного обоснования.
 
 ## 6. Naming
 

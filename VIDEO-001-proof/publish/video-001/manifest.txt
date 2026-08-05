@@ -1,0 +1,35 @@
+VIDEO-001 PUBLICATION PACKET
+Status: VERIFIED / NOT YET UPLOADED
+Created: 2026-08-05
+Repository base commit: 93861dfc91dc8a7579c0b1ae2cf2ed7e3248413b
+External backup: ~/vibe-youtube-publish-staging/VIDEO-001
+
+SHA256  BYTES  RELATIVE PATH
+d8e4c0ba5ad01bb8795482ff76f68f99be0ad7aa0158e96ac8dedace60128d2f  45376734  local/video-001-master-v1.mp4
+df680926d6da5f832e62b4425d299fc60f66972145323200162615f9c19c676f  144212  local/thumbnails/thumbnail-a-phone-portal-v2.jpg
+2524db2310d993918f762bdb36fee003c9447080d084c56d237314f84b369712  132217  local/thumbnails/thumbnail-b-not-your-brain-v2.jpg
+4a8565748a59862ddfeaeebcb019545fd9d1a281b10c0319e2e818ae1146d954  173144  local/thumbnails/thumbnail-c-47-seconds-v2.jpg
+6e6c4de85546c1b51867d6ec7c48be5b9162914154b80ea4543370077543ebf0  15324  local/video001-en-v1.srt
+babc79ad122f2596f60230c6bbc596d4241e32a3ca269b8c3ccf3ac001ed89f5  15332  local/video001-en-v1.vtt
+
+Master:
+- codec: H.264
+- resolution: 1920x1080
+- fps: 30
+- mux duration: approximately 631.66 seconds
+- audio: AAC, 48 kHz, stereo
+
+Thumbnails:
+- codec: MJPEG/JPEG
+- resolution: 1280x720
+- A/B/C visual QA: PASS / TEST SET LOCKED
+- mobile 160x90 QA: PASS
+
+Captions:
+- language: English
+- SRT and VTT: PASS / LOCKED
+- cues: 201
+
+Publication:
+- approval: pending Brand & Channel Launch Sprint
+- visibility for first platform upload: Private
