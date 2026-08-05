@@ -1,7 +1,7 @@
 # VIDEO-001 — Publishing package
 
 Updated: 2026-08-05
-Status: uploaded Unlisted / platform QA PASS / public launch not approved
+Status: Public / live / platform QA PASS
 
 ## Platform upload record
 
@@ -9,17 +9,19 @@ Status: uploaded Unlisted / platform QA PASS / public launch not approved
 - Handle: `@fewerexits`
 - Channel ID: `UC4q9s9wwv1cx8e1mMeI0ABw`
 - Video ID: `ow_eUmvptuM`
-- Review URL: `https://youtu.be/ow_eUmvptuM`
-- Visibility: Unlisted / `Доступ по ссылке`
-- Upload, processing and playback: PASS reported by owner.
+- Public URL: `https://youtu.be/ow_eUmvptuM`
+- Visibility: Public / `Открытый доступ`
+- Public launch date: 2026-08-05.
+- Upload, processing, 1080p and public incognito playback: PASS.
 - Current thumbnail: C — `00:47`.
-- Reviewed English captions: local SRT/VTT remain PASS / LOCKED.
-- YouTube caption state: reviewed English SRT published, active by default
-  and playback verified; automatic captions are not accepted as the
-  publication track.
-- Description research links: present but temporarily non-clickable pending
-  advanced feature eligibility/history on the new channel.
-- Public or Scheduled publication: not approved.
+- Reviewed English SRT: published, active by default and playback verified.
+- Automatic captions: not accepted as the publication track.
+- Manual timestamps: present and clickable in the description.
+- Timeline chapter segmentation: unavailable pending Advanced features.
+- Launch comment: published.
+- Comment pinning: unavailable pending Advanced features.
+- Research links: present but temporarily non-clickable pending channel
+  eligibility/history.
 
 ## 1. Current packaging test
 
@@ -123,6 +125,16 @@ Try it once:
 Then test the setup for 25 minutes and notice which exit you still try to
 take.
 
+Chapters:
+
+00:00 Your task has too many exits
+00:35 What “47 seconds” actually means
+01:49 Two kinds of exits
+03:32 What switching costs
+05:24 The One Door Protocol
+08:47 The 25-minute experiment
+09:52 Notice which exit you take
+
 This is an educational video, not medical advice. The One Door Protocol is
 an editorial synthesis of interruption research, not a clinically validated
 treatment.
@@ -155,6 +167,8 @@ decisions, assembly and final review were human-directed.
 
 ## 4. Manual chapters
 
+The following timestamps are installed in the actual YouTube description:
+
 00:00 Your task has too many exits
 00:35 What “47 seconds” actually means
 01:49 Two kinds of exits
@@ -163,10 +177,18 @@ decisions, assembly and final review were human-directed.
 08:47 The 25-minute experiment
 09:52 Notice which exit you take
 
-These satisfy YouTube’s requirements: first timestamp at 00:00, at least
-three ascending timestamps, and chapters longer than ten seconds.
+Result:
 
-## 5. Suggested pinned comment
+- timestamp links in the description: PASS;
+- ordering and minimum duration requirements: PASS;
+- segmented timeline chapters: DEFERRED / ADVANCED FEATURE UNAVAILABLE.
+
+YouTube lists `Add chapters` as an Advanced feature. No further metadata
+changes are required; recheck after the channel gains Advanced access.
+
+## 5. Launch comment
+
+Published comment:
 
 Which exit do you take most often when work becomes difficult?
 
@@ -174,9 +196,14 @@ Messages, another tab, your phone — or something else?
 
 Try one 25-minute session with a parking list and tell me what you notice.
 
+Status:
+
+- comment publication: PASS;
+- pinning: unavailable pending Advanced feature eligibility.
+
 ## 6. Upload settings
 
-- Actual first-upload visibility: Unlisted for external review; not Public.
+- Initial review visibility: Unlisted; current visibility: Public.
 - Audience: No, it is not made for kids.
 - Age restriction: No.
 - Original language: English.
@@ -187,8 +214,8 @@ Try one 25-minute session with a parking list and tell me what you notice.
 - Automatic chapters: optional; manual chapters override them.
 - Comments: On, with channel moderation enabled.
 - Embedding: On.
-- Notify subscribers: only when publication is approved.
-- Captions: upload reviewed English captions before publication.
+- Public publication: approved and completed on 2026-08-05.
+- Captions: reviewed English SRT published and playback verified.
 - End screen: defer until another relevant public video exists.
 - Cards: none for the first upload.
 - Tags: minimal; tags have little discovery impact except misspellings.
@@ -227,20 +254,20 @@ Recheck the policy in YouTube Studio on upload day.
 
 Final claims decision: PASS.
 
-## 9. Remaining publication gates
+## 9. Publication result
 
 1. Thumbnail A/B/C visual QA: PASS.
 2. English local captions package: PASS / LOCKED.
 3. Optional independent video-VLM review: WAIVED.
-4. YouTube upload and processing: PASS.
-5. Initial visibility: UNLISTED.
+4. YouTube upload, processing and 1080p playback: PASS.
+5. Reviewed English SRT publication/playback: PASS.
 6. Thumbnail C installation: PASS.
-7. Reviewed English SRT publication and YouTube playback QA: PASS.
-8. Unlisted platform playback QA: PASS reported by owner.
-9. Description research links: temporarily non-clickable pending advanced
-   feature eligibility on the new channel.
-10. Test & Compare: deferred until advanced feature access is available.
-11. Public or Scheduled visibility: requires a separate approval decision.
+7. Public incognito playback QA: PASS.
+8. Manual timestamp links: PASS.
+9. Timeline chapter segmentation: DEFERRED / ADVANCED FEATURE UNAVAILABLE.
+10. Launch comment: PUBLISHED / PINNING UNAVAILABLE.
+11. Research links: PRESENT / TEMPORARILY NON-CLICKABLE.
+12. Public visibility: APPROVED / LIVE.
 
 ## 10. Independent VLM review
 
@@ -262,6 +289,6 @@ checks were completed instead:
 - human caption playback review: PASS;
 - protected publication packet SHA-256 verification: PASS.
 
-The waiver does not replace YouTube platform QA. The reviewed English SRT is
-now published, active by default and playback verified on the Unlisted upload.
-Public or Scheduled visibility still requires a separate publication decision.
+The waiver did not replace YouTube platform QA. The reviewed English SRT,
+public playback and final publication settings passed. VIDEO-001 is now
+Public on the Fewer Exits channel.

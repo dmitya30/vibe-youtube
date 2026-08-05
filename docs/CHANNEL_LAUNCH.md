@@ -1,7 +1,7 @@
 # Brand & Channel Launch
 
 Updated: 2026-08-05
-Status: channel created / identity live / VIDEO-001 Unlisted platform QA PASS
+Status: launch complete / VIDEO-001 Public / platform QA PASS
 Owner: channel strategy, identity, account setup, launch configuration and platform QA
 
 ## Current launch record
@@ -27,13 +27,19 @@ Owner: channel strategy, identity, account setup, launch configuration and platf
 - Banner promise: `MAKE ATTENTION EASIER TO KEEP`.
 - Avatar and banner rendering/crop: owner-reviewed and PASS.
 - VIDEO-001 ID: `ow_eUmvptuM`
-- VIDEO-001 review URL: `https://youtu.be/ow_eUmvptuM`
-- Current visibility: Unlisted / `Доступ по ссылке`.
-- Public publication: not approved.
+- VIDEO-001 public URL: `https://youtu.be/ow_eUmvptuM`
+- Visibility: Public / `Открытый доступ`.
+- Public launch date: 2026-08-05.
+- Public incognito playback QA: PASS.
 - Reviewed English SRT: published, active by default and playback verified.
-- YouTube automatic captions are not accepted as publication captions.
-- Description research links: present but not yet clickable because the new
-  channel has not received the required feature eligibility.
+- Thumbnail C, title, description and channel presentation: PASS.
+- Manual timestamps: present and clickable in the description.
+- Timeline chapter segmentation: unavailable because `Add chapters` requires
+  Advanced features, which the new channel has not yet unlocked.
+- Launch comment: published.
+- Comment pinning: unavailable pending Advanced feature eligibility.
+- Description research links: present but temporarily non-clickable pending
+  channel eligibility/history.
 
 ## 1. Purpose
 
@@ -221,21 +227,22 @@ Channel trailer, сложные shelves и подробная homepage architect
 
 ## 10. VIDEO-001 platform gate
 
-VIDEO-001 has been uploaded as Unlisted rather than Public so external review
-is possible without starting the public launch.
+VIDEO-001 passed the Unlisted review gate and was switched to Public on
+2026-08-05.
 
-Current platform gate:
+Final platform result:
 
-- upload, processing and playback: PASS reported by owner;
-- title, description and thumbnail C: installed;
-- channel avatar/banner presentation: PASS;
+- upload, processing, public playback and 1080p playback: PASS;
+- title, description and thumbnail C: PASS;
+- channel avatar/banner/About presentation: PASS;
 - reviewed English SRT: published, active by default and playback verified;
-- YouTube automatic captions: not accepted as publication captions;
-- description research links: present but temporarily non-clickable because
-  advanced feature eligibility is not yet available on the new channel;
-- Public or Scheduled visibility requires a separate launch decision.
+- manual timestamps: present and clickable;
+- timeline chapter segmentation: deferred until Advanced features unlock;
+- launch comment: published but cannot yet be pinned;
+- research links: temporarily non-clickable pending channel eligibility;
+- visibility: Public.
 
-Unlisted visibility is a review state, not the public launch.
+The unavailable advanced features do not invalidate the publication.
 
 ## 11. Anti-overresearch stop rule
 
@@ -298,17 +305,18 @@ Sprint завершён только при наличии:
 - About: INSTALLED.
 - VIDEO-001 master: PASS / LOCKED.
 - VIDEO-001 captions package: PASS / LOCKED.
-- VIDEO-001 YouTube upload: COMPLETE / UNLISTED.
+- VIDEO-001 YouTube publication: PUBLIC / LIVE.
+- Public launch date: 2026-08-05.
 - Video ID: `ow_eUmvptuM`.
-- Thumbnail C: current operational default.
-- FFmpeg technical QA: PASS.
-- Human full-video and caption playback QA before upload: PASS.
-- Optional video-VLM gate: WAIVED after unavailable Google AI Studio and
-  two authenticated Qwen `VIDEO_ACCESS: NO` results.
-- Reviewed English SRT on YouTube: PASS / ACTIVE BY DEFAULT.
-- YouTube automatic captions: NOT ACCEPTED as publication captions.
-- Unlisted upload platform QA: PASS.
-- Description research links: temporarily non-clickable because advanced
-  feature eligibility is not yet available on the new channel.
-- Public publication: NOT APPROVED.
-- Next action: make the separate Public/Scheduled launch decision.
+- Public URL: `https://youtu.be/ow_eUmvptuM`.
+- Thumbnail C: operational default.
+- Reviewed English SRT: PASS / ACTIVE BY DEFAULT.
+- Public incognito playback QA: PASS.
+- Manual timestamp links: PASS.
+- Timeline chapters: DEFERRED / ADVANCED FEATURE UNAVAILABLE.
+- Launch comment: PUBLISHED / PINNING UNAVAILABLE.
+- Research links: PRESENT / TEMPORARILY NON-CLICKABLE.
+- Optional video-VLM gate: WAIVED.
+- Brand & Channel Launch Sprint: COMPLETE.
+- Next stage: post-launch monitoring without immediate title, thumbnail or
+  description changes.
