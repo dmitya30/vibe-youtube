@@ -429,34 +429,42 @@ seeded, so it must not be treated as clean organic evidence.
 
 ---
 
-# VIDEO-002 — Topic and pipeline benchmark
+# VIDEO-002 — Phone Checking Exit
 
-Status: TOPIC RESEARCH / NOT LOCKED
+Status: TOPIC LOCKED / CLAIM TABLE v0.1 ACCEPTED / SCRIPT NEXT
 
-## Hypothesis
+## Locked hypothesis
 
-A second high-quality long-form video can test channel repeatability while
-measuring which VIDEO-001 production operations should be reused, assisted or
-automated.
+Turning off notifications can remove incoming interruptions without necessarily
+reducing self-initiated checking. A practical friction-based experiment may
+help viewers make checking intentional during one work session.
 
-## Deliverables
+## Locked viewer problem
 
-1. Demand and competitor scan.
-2. Three to five candidate angles.
-3. Recommended viewer problem and promise.
-4. Source and claim-risk assessment.
-5. Packaging directions.
-6. Production plan.
-7. Shadow Automation record.
-8. Publication-ready benchmark if all gates pass.
+The viewer has silenced the phone but still reaches for it when work becomes
+difficult, uncertain or briefly boring.
 
-## Boundary
+## Promise
 
-The phone/distraction continuation is a candidate, not an approved topic.
-Topic, promise, title, thumbnail and script require separate evidence and
-approval.
+Explain why silence and closure are different, then provide one bounded
+25-minute Silent Door Test without addiction diagnoses, dopamine reductionism
+or guaranteed outcomes.
 
-## References
+## Working packaging
 
-- execution plan: [`ROADMAP_30D.md`](ROADMAP_30D.md);
-- pipeline measurement: [`SHADOW_AUTOMATION.md`](SHADOW_AUTOMATION.md).
+- title: `Turning Off Notifications Won't Fix Your Phone Habit`
+- thumbnail: `STILL CHECKING?`
+- target duration: 8–10 minutes.
+
+Packaging remains working until script and promise-match review.
+
+## Research record
+
+Canonical sources, claim boundaries, cold open, outline and protocol:
+
+[`VIDEO002_RESEARCH.md`](VIDEO002_RESEARCH.md)
+
+## Pipeline objective
+
+VIDEO-002 remains the second manual benchmark and the active Shadow Automation
+test. The next gate is the complete script v0.1.

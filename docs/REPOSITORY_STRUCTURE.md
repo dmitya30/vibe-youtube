@@ -19,6 +19,7 @@ vibe-youtube/
 │   ├── EXPERIMENTS.md
 │   ├── ROADMAP_30D.md
 │   ├── SHADOW_AUTOMATION.md
+│   ├── VIDEO002_RESEARCH.md
 │   ├── SOURCES.md
 │   ├── SCRIPT.md
 │   ├── STORYBOARD.md
@@ -250,5 +251,7 @@ Production work и repository maintenance по возможности комми
 - `SHADOW_AUTOMATION.md` defines production-time, cost, retry, defect and
   automation measurement for VIDEO-002 and later benchmarks.
 - `EXPERIMENTS.md` owns individual content hypotheses and results.
+- `VIDEO002_RESEARCH.md` owns the locked VIDEO-002 direction, claim boundaries,
+  sources, cold open and research-stage outline.
 - `CONTEXT.md` links the current project stage without duplicating full
   operational plans.

@@ -121,3 +121,18 @@ Classify each pipeline operation as:
 - `REMOVE`.
 
 No mass production or unattended publication is approved by this document.
+
+
+## 8. VIDEO-002 active benchmark status
+
+| Stage | Status |
+|---|---|
+| Topic and demand research | PASS |
+| Angle and promise selection | PASS / LOCKED |
+| Sources and claim table | v0.1 ACCEPTED |
+| Cold open and outline | v0.1 ACCEPTED |
+| Full script | NEXT |
+| Human time and direct cost | OWNER RECORD PENDING |
+
+No elapsed-time or cost values are inferred retroactively. Unknown owner-side
+measurements remain explicitly pending.

@@ -83,18 +83,20 @@ separate decision after more long-form production evidence exists.
 
 ## 5. VIDEO-002 decision gate
 
-The previously discussed phone/distraction continuation is only a candidate
-hypothesis. No VIDEO-002 topic, promise, title or thumbnail is locked yet.
+Status:
 
-Topic research must produce:
+`TOPIC LOCKED / CLAIM TABLE v0.1 ACCEPTED / SCRIPT NEXT`
 
-1. three to five concrete angles;
-2. observable audience demand;
-3. competitor and packaging evidence;
-4. a distinct viewer problem and promise;
-5. claim and sourcing risks;
-6. fit with the Fewer Exits channel;
-7. a recommendation with rejected alternatives.
+Locked direction:
+
+- notifications off does not necessarily close the checking exit;
+- working title: `Turning Off Notifications Won't Fix Your Phone Habit`;
+- working thumbnail: `STILL CHECKING?`;
+- practical deliverable: one 25-minute Silent Door Test.
+
+The title and thumbnail remain subject to promise-match review after the full
+script. Canonical research belongs to
+[`VIDEO002_RESEARCH.md`](VIDEO002_RESEARCH.md).
 
 ## 6. Quality stop conditions
 
