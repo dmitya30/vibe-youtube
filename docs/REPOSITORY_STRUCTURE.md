@@ -1,6 +1,6 @@
 # Repository Structure
 
-Updated: 2026-08-05
+Updated: 2026-08-07
 Status: active
 
 Этот файл фиксирует каноническую структуру репозитория, назначение
@@ -17,6 +17,8 @@ vibe-youtube/
 │   ├── CONTEXT.md
 │   ├── PLAYBOOK.md
 │   ├── EXPERIMENTS.md
+│   ├── ROADMAP_30D.md
+│   ├── SHADOW_AUTOMATION.md
 │   ├── SOURCES.md
 │   ├── SCRIPT.md
 │   ├── STORYBOARD.md
@@ -239,3 +241,14 @@ Production work и repository maintenance по возможности комми
 При documentation-only commit явно добавляются только требуемые пути.
 Незаконченные Remotion compositions, media и timing-файлы активной
 секции не должны случайно попадать в такой commit.
+
+
+## 9. Operational planning documents
+
+- `ROADMAP_30D.md` is the canonical source for the active execution horizon,
+  cadence, Day-30 targets, backlog and stop conditions.
+- `SHADOW_AUTOMATION.md` defines production-time, cost, retry, defect and
+  automation measurement for VIDEO-002 and later benchmarks.
+- `EXPERIMENTS.md` owns individual content hypotheses and results.
+- `CONTEXT.md` links the current project stage without duplicating full
+  operational plans.

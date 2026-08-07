@@ -1,6 +1,6 @@
 # VIDEO-001 — Publishing package
 
-Updated: 2026-08-05
+Updated: 2026-08-07
 Status: Public / live / platform QA PASS
 
 ## Platform upload record
@@ -22,6 +22,10 @@ Status: Public / live / platform QA PASS
 - Comment pinning: unavailable pending Advanced features.
 - Research links: present but temporarily non-clickable pending channel
   eligibility/history.
+- Channel automatic dubbing: disabled.
+- Experimental auto-dub audio tracks: deleted.
+- Experimental translated title/description metadata: deleted.
+- Canonical metadata and reviewed captions: English.
 
 ## 1. Current packaging test
 
@@ -292,3 +296,32 @@ checks were completed instead:
 The waiver did not replace YouTube platform QA. The reviewed English SRT,
 public playback and final publication settings passed. VIDEO-001 is now
 Public on the Fewer Exits channel.
+
+
+## 11. Post-launch monitoring
+
+Status:
+
+`72H SNAPSHOT PENDING / 2026-08-08`
+
+Early public observations include owner-associated and personally seeded
+traffic. The exact number of those views cannot be separated reliably from
+organic traffic.
+
+Interpretation flags:
+
+- `KNOWN_SEEDED_TRAFFIC_PRESENT=YES`
+- `KNOWN_OWNER_ASSOCIATED_VIEWS=NOT_QUANTIFIABLE`
+- `EARLY_SAMPLE=CONTAMINATED_FOR_ORGANIC_INFERENCE`
+
+The snapshot should record impressions, CTR, views, watch time, average view
+duration, average percentage viewed, retention, subscribers, traffic sources,
+geography and available search terms. No packaging change should be justified
+from the small seeded sample alone.
+
+Automatic dubbing cleanup completed on 2026-08-07:
+
+- channel-level automatic dubbing disabled;
+- all experimental auto-dub audio tracks deleted;
+- all experimental translated titles/descriptions deleted;
+- reviewed English SRT retained.

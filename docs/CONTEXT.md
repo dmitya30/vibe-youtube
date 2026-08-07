@@ -1,7 +1,7 @@
 # Project Context
 
-Updated: 2026-08-05
-Status: Brand & Channel Launch Sprint / VIDEO-001 master and captions PASS / LOCKED
+Updated: 2026-08-07
+Status: VIDEO-001 Public / VIDEO-002 research and Shadow Automation active
 Source of truth for project-level context
 
 ## 1. Goal
@@ -68,113 +68,52 @@ AdSense не является единственной моделью.
 
 ## 6. Current stage
 
-Выбран один англоязычный пилотный канал.
+The Fewer Exits channel and VIDEO-001 are Public. Launch and platform QA are
+complete. Canonical launch details belong to
+[`CHANNEL_LAUNCH.md`](CHANNEL_LAUNCH.md) and
+[`VIDEO001_PUBLISHING.md`](VIDEO001_PUBLISHING.md).
 
-Позиционирование, аудитория, content pillars, визуальная система NOD и
-pipeline принадлежат [`PLAYBOOK.md`](PLAYBOOK.md).
+The active workstream is:
 
-Активный эксперимент — `VIDEO-001`. Его тема, packaging, claims, метрики
-и production status принадлежат [`EXPERIMENTS.md`](EXPERIMENTS.md).
+1. VIDEO-001 post-launch monitoring;
+2. VIDEO-002 topic research and production;
+3. Shadow Automation measurement;
+4. preparation for the Day-30 checkpoint on 2026-08-27.
 
-Stack feasibility status:
+The output target, cadence, growth milestones, backlog and stop conditions
+belong to [`ROADMAP_30D.md`](ROADMAP_30D.md).
 
-1. Test A / NOD visual development — PASS.
-2. Test B1 / Kling character motion — PASS.
-3. Test C1 / Remotion deterministic overlay — PASS.
-4. Test D / narration — PASS.
-5. Cold-open proof v3 — PASS / LOCKED.
-6. Для VIDEO-001 подтверждён balanced hybrid pipeline:
-   Kling + Remotion + approved styleframes.
+Pipeline timing, cost, retries, defects and automation candidates for
+VIDEO-002 belong to
+[`SHADOW_AUTOMATION.md`](SHADOW_AUTOMATION.md).
 
-Полный публичный сценарий VIDEO-001 v2:
-[`SCRIPT.md`](SCRIPT.md).
+VIDEO-001 remains the first manual benchmark. Its locked source, master,
+caption and production records remain valid historical evidence and should
+not be rewritten as the current production gate.
 
-Production sequence, asset plan и точные тайминги:
-[`STORYBOARD.md`](STORYBOARD.md).
-
-Актуальная full narration:
-
-- файл: `VIDEO-001-proof/audio/video001-narration-v2.wav`;
-- длительность: 631.570958 секунды / 10:31.57;
-- PCM signed 16-bit little-endian;
-- 24 kHz;
-- mono;
-- Sections 01–04 и 06–07: Gemini 3.1 Flash TTS;
-- Section 05: Gemini 2.5 Pro TTS;
-- voice: Aoede;
-- style: Empathetic;
-- pace: Natural;
-- voice, volume, pronunciation и completeness: PASS.
-
-Production status:
-
-1. Section 01 / cold open — PASS / LOCKED.
-2. Section 02 / 47 seconds — PASS / LOCKED.
-3. Section 03 / two kinds of exits — PASS / LOCKED.
-4. Section 04 / switch cost — PASS / LOCKED.
-5. Section 05 / One Door Protocol — PASS / LOCKED.
-6. Section 06 / 25-minute experiment — PASS / LOCKED.
-7. Section 07 / ending — PASS / LOCKED.
-
-
-Master status:
-
-- source: `VIDEO-001-proof/remotion/src/Video001Master.tsx`;
-- approved publication master:
-  `VIDEO-001-proof/publish/video-001/local/video-001-master-v1.mp4`;
-- original transient master render was removed after the verified
-  publication packet and external backup passed SHA-256 checks;
-- duration: 631.600 seconds / 18,948 frames;
-- mux duration: 631.658667 seconds;
-- resolution: 1920x1080;
-- fps: 30;
-- automated technical QA: PASS;
-- human boundary/audio/visual QA: PASS;
-- overall: PASS / LOCKED.
-English captions:
-
-- canonical SRT:
-  `VIDEO-001-proof/captions/video001-en-v1.srt`;
-- canonical VTT:
-  `VIDEO-001-proof/captions/video001-en-v1.vtt`;
-- 201 cues;
-- timing range: 00:00:00.000–00:10:31.500;
-- semantic corrections: PASS;
-- human playback review: PASS;
-- overall: PASS / LOCKED.
-
-Optional independent video-VLM review waived: Google AI Studio недоступен
-из текущего региона, а авторизованный Qwen Chat дважды подтвердил
-`VIDEO_ACCESS: NO`. Выполнены FFmpeg technical QA, human full-video review
-и human caption playback review.
-
-Текущий gate — Brand & Channel Launch Sprint согласно
-[`CHANNEL_LAUNCH.md`](CHANNEL_LAUNCH.md), затем Private upload рабочего
-VIDEO-001 и проверка YouTube transcode/captions/chapters.
-
-Repository policy:
-
-- source code, Markdown, manifests, prompts, transcripts, timing maps
-  и другие небольшие текстовые production artifacts коммитятся;
-- generated audio, video, raster images и render outputs остаются
-  локальными и исключаются через `.gitignore`.
+Repository policy remains unchanged: source code, Markdown, manifests,
+prompts, transcripts and timing maps are version-controlled; generated media
+and render outputs remain local unless an explicit repository rule says
+otherwise.
 
 ## 7. Current restrictions
 
-Stack, visual feasibility, VIDEO-001 master, thumbnail и caption gates
-пройдены. Предыдущий запрет на регистрацию канала снят.
-
 Разрешено:
 
-- исследовать и создать один рабочий англоязычный launch channel;
-- выполнить его минимально полный брендинг и техническую настройку;
-- загрузить VIDEO-001 как Private для platform QA;
-- после прохождения launch checklist принять отдельное решение о публикации.
+- производить VIDEO-002 и последующие ручные benchmark-видео;
+- постепенно автоматизировать повторяемые механические операции;
+- анализировать VIDEO-001 без немедленной смены нескольких packaging variables;
+- ускорять cadence при сохранении quality gates.
 
 По-прежнему запрещены:
 
-- массовая генерация и публикация до получения данных первых роликов;
-- запуск нескольких языковых каналов одновременно;
-- покупка engagement, fake identity, fake documents и KYC evasion;
-- дорогие сервисы без отдельного эксперимента;
-- бесконечное исследование брендинга без проверяемого launch deliverable.
+- массовая шаблонная генерация;
+- unattended publication;
+- запуск второго или отдельного языкового канала без нового решения;
+- публикация непроверенных автоматических переводов или дубляжей;
+- покупка engagement;
+- fake identity, fake documents, KYC evasion и обход региональных ограничений;
+- дорогие сервисы без отдельного эксперимента.
+
+Automatic dubbing is disabled. All experimental auto-dub tracks and translated
+titles/descriptions created before this checkpoint were deleted.

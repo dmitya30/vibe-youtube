@@ -1,6 +1,6 @@
 # Brand & Channel Launch
 
-Updated: 2026-08-05
+Updated: 2026-08-07
 Status: launch complete / VIDEO-001 Public / platform QA PASS
 Owner: channel strategy, identity, account setup, launch configuration and platform QA
 
@@ -40,6 +40,10 @@ Owner: channel strategy, identity, account setup, launch configuration and platf
 - Comment pinning: unavailable pending Advanced feature eligibility.
 - Description research links: present but temporarily non-clickable pending
   channel eligibility/history.
+- Channel automatic dubbing: disabled.
+- Existing experimental auto-dub audio tracks: deleted.
+- Experimental translated titles and descriptions: deleted.
+- Canonical public metadata language: English.
 
 ## 1. Purpose
 
@@ -320,3 +324,18 @@ Sprint завершён только при наличии:
 - Brand & Channel Launch Sprint: COMPLETE.
 - Next stage: post-launch monitoring without immediate title, thumbnail or
   description changes.
+
+
+## Post-launch configuration cleanup — 2026-08-07
+
+Automatic dubbing was disabled at channel level. All experimental automatically
+generated audio tracks and all experimental translated title/description
+metadata were deleted. Reviewed English captions and canonical English
+metadata remain active.
+
+Localization remains a deferred hypothesis. Any future translated metadata,
+captions or audio require human review before publication.
+
+Execution moved from the completed launch sprint to VIDEO-001 monitoring and
+VIDEO-002 production. The active plan is
+[`ROADMAP_30D.md`](ROADMAP_30D.md).

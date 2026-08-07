@@ -1,6 +1,6 @@
 # Experiments
 
-Updated: 2026-08-04
+Updated: 2026-08-07
 
 ## Experiment format
 
@@ -20,8 +20,8 @@ Updated: 2026-08-04
 
 # VIDEO-001 — Attention Span
 
-Status: VIDEO-001 master and captions PASS / LOCKED / publication not approved
-Publication: not approved
+Status: Public / live / post-launch monitoring
+Publication: completed 2026-08-05
 
 ## Hypothesis
 
@@ -250,7 +250,7 @@ Stack microtests A–D и cold-open proof завершены со статусо
 4. Для сложной метафоры дверей допустимо использовать утверждённый generated styleframe.
 5. Для VIDEO-001 выбран balanced hybrid production mode.
 
-Текущий production gate — packaging, final claims review и publication readiness.
+This historical production gate is closed; VIDEO-001 is Public and now in post-launch monitoring.
 
 ## Cold-open proof specification v1.0
 
@@ -405,3 +405,58 @@ The launch channel combines:
 Visual Curiosity and Animated Fitness remain potential separate channels.
 
 Generic psychology and practical philosophy are not standalone launch strategies.
+
+
+---
+
+# VIDEO-001 — Post-launch monitoring
+
+Status: active
+
+- Public URL: https://youtu.be/ow_eUmvptuM
+- Public launch: 2026-08-05
+- 72-hour analytics snapshot: pending 2026-08-08
+- Known seeded traffic: present
+- Owner-associated views: not quantifiable
+- Timeline chapters: deferred pending Advanced features
+- Comment: published; pinning unavailable
+- Automatic dubbing: disabled
+- Experimental auto-dub tracks: deleted
+- Experimental translated titles/descriptions: deleted
+
+The 72-hour snapshot is descriptive. The early sample is too small and partly
+seeded, so it must not be treated as clean organic evidence.
+
+---
+
+# VIDEO-002 — Topic and pipeline benchmark
+
+Status: TOPIC RESEARCH / NOT LOCKED
+
+## Hypothesis
+
+A second high-quality long-form video can test channel repeatability while
+measuring which VIDEO-001 production operations should be reused, assisted or
+automated.
+
+## Deliverables
+
+1. Demand and competitor scan.
+2. Three to five candidate angles.
+3. Recommended viewer problem and promise.
+4. Source and claim-risk assessment.
+5. Packaging directions.
+6. Production plan.
+7. Shadow Automation record.
+8. Publication-ready benchmark if all gates pass.
+
+## Boundary
+
+The phone/distraction continuation is a candidate, not an approved topic.
+Topic, promise, title, thumbnail and script require separate evidence and
+approval.
+
+## References
+
+- execution plan: [`ROADMAP_30D.md`](ROADMAP_30D.md);
+- pipeline measurement: [`SHADOW_AUTOMATION.md`](SHADOW_AUTOMATION.md).
