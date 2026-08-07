@@ -1,0 +1,373 @@
+# VIDEO-002 — Narration Script
+
+Updated: 2026-08-07
+Version: v0.2
+Status: LOCKED FOR ONE-PIECE NARRATION DRAFT
+
+Working title:
+
+`Turning Off Notifications Won't Fix Your Phone Habit`
+
+Working thumbnail:
+
+`STILL CHECKING?`
+
+Target narration duration: approximately 9–10 minutes.
+
+## Editorial QA record
+
+Pipeline completed:
+
+1. research draft;
+2. claim-to-source validation;
+3. script-strengthening editor pass;
+4. owner semantic review through translation;
+5. narration-text lock.
+
+The editor pass:
+
+- strengthened causal boundaries;
+- distinguished statistical non-significance from proof of no effect;
+- separated objective attention measures from self-reported outcomes;
+- changed the friction mechanism from a proven causal claim to a bounded
+  explanatory possibility.
+
+Future script-strengthening editors must propose a reviewable diff. They do not
+receive publication authority.
+
+---
+
+## 01 — Silent, but still checking
+
+You turned off every notification.
+
+No banners. No vibrations. No little red numbers asking to be opened.
+
+Your phone is silent, face down — exactly where you left it.
+
+And then, without hearing anything, you reach for it anyway.
+
+That matters, because notifications and checking are not the same problem.
+
+In a randomized one-week study, researchers found no significant reduction in
+how often people checked their phones — or their total screen time — after
+turning notifications off.
+
+Silence removed the interruption.
+
+It didn't close the exit.
+
+So what does?
+
+## 02 — Notifications are still interruptions
+
+First, turning off unnecessary notifications is not bad advice.
+
+A message can appear at exactly the wrong moment. Even if you do not open it,
+part of your attention has already been redirected.
+
+Now you know that something happened.
+
+Someone may be waiting.
+
+There may be new information behind the screen.
+
+In one laboratory experiment, receiving phone notifications disrupted
+performance on a sustained-attention task — even when participants did not
+interact with their phones.
+
+So yes: notifications can interrupt you.
+
+But that only explains the moments when your phone asks for attention.
+
+It does not explain the moments when your phone is silent and you check it
+anyway.
+
+And those moments are easy to miss because they do not feel like
+interruptions.
+
+There is no buzz to blame.
+
+You simply find yourself holding the phone.
+
+## 03 — The experiment that didn't behave as expected
+
+Researchers tested what happened when people disabled their smartphone
+notifications for one week.
+
+The study was preregistered, included 205 participants, and used objective
+phone logs rather than relying only on estimates of screen time.
+
+The expected result seems obvious.
+
+Fewer notifications should mean fewer reasons to pick up the phone.
+
+But researchers found no significant reduction in how often participants
+checked their phones.
+
+They found no significant reduction in total screen time either.
+
+The intervention also did not produce clear improvements in reported
+productivity or smartphone-related distraction.
+
+That does not mean nothing changed.
+
+Participants reported that their checking felt less habitual — more
+intentional — even though the objective number of checks did not decline.
+
+They also reported more fear of missing out during the notification-free week.
+
+The study does not prove that disabling notifications is useless. It examined
+one intervention, over one week, in one group of people.
+
+But it challenges a simple story:
+
+Notification appears.
+
+Person checks phone.
+
+Remove notification.
+
+Checking disappears.
+
+Real behavior was more complicated.
+
+Remove the notification, and the phone becomes quieter.
+
+But the person can still wonder whether something has arrived.
+
+They can still unlock the screen during a difficult paragraph.
+
+They can still reach for novelty when a task becomes briefly boring.
+
+They can still check without identifying any specific reason at all.
+
+## 04 — Two different doors
+
+Think of phone distraction as two different doors.
+
+The first is a prompted exit.
+
+Your phone makes a sound. The screen lights up. A badge appears. The device
+opens the door for you.
+
+Disabling unnecessary notifications helps close this door.
+
+The second is a self-created exit.
+
+Nothing happens on the phone.
+
+Instead, something happens inside the task.
+
+You reach a confusing sentence.
+
+You wait for a file to load.
+
+You are not sure what to do next.
+
+Or the work simply stops being interesting for five seconds.
+
+The phone is nearby, familiar and easy to open. So you create the exit
+yourself.
+
+This distinction is an explanatory model, not a diagnosis. The notification
+study did not establish the precise reason behind every check.
+
+And not every check is a problem. Phones are useful. Some messages are
+important. Sometimes checking the device is exactly what the task requires.
+
+The problem is not that the phone can be opened.
+
+The problem is when opening it becomes easier than noticing why you are
+leaving.
+
+## 05 — What stronger friction changes
+
+Another randomized trial tested a much stronger intervention.
+
+Instead of making the phone silent, participants blocked mobile internet
+access on their smartphones for two weeks.
+
+They could still receive calls and text messages. They could still use the
+internet on computers. But the phone was no longer a constantly available
+portal to the online world.
+
+The intervention improved objectively measured sustained attention, along with
+self-reported well-being and mental health.
+
+But it was also difficult to follow. Many people who entered the study did not
+maintain the full intervention as required.
+
+So the lesson is not that everyone should remove mobile internet for two
+weeks.
+
+The more useful lesson is this:
+
+A stronger intervention changed what happened after someone reached for the
+phone.
+
+Silent mode removed a signal.
+
+Blocking mobile internet added friction between the impulse and the reward.
+
+That friction can create a moment in which a different decision becomes
+possible.
+
+For an ordinary work session, we do not need to reproduce a two-week research
+intervention.
+
+We need a smaller test.
+
+## 06 — The Silent Door Test
+
+Choose one task and one 25-minute block.
+
+Not your entire morning.
+
+Not a complete digital detox.
+
+Just one task with a clear finish line.
+
+Before you begin, decide what counts as necessary contact.
+
+If you are responsible for a child, waiting for an urgent call, managing a
+medical need or using the phone for accessibility, keep that route available.
+
+The goal is not to make the phone dangerous or unusable.
+
+The goal is to separate necessary access from automatic access.
+
+Then prepare the phone in four layers.
+
+Layer one: silence the prompted exits.
+
+Disable non-essential notifications for the duration of the block.
+
+Keep only the channel that genuinely needs to reach you.
+
+This closes the door your phone opens.
+
+Layer two: move it outside automatic reach.
+
+Do not place the phone beside your hand with the screen facing down.
+
+That is still beside your hand.
+
+Place it somewhere that requires a visible action: standing up, turning around
+or reaching into a bag.
+
+You are not trying to make checking impossible.
+
+You are making it noticeable.
+
+Layer three: add digital friction.
+
+Temporarily disable mobile internet, activate a focus mode, or block only the
+applications that usually become exits.
+
+Choose the smallest restriction that changes what happens when you unlock the
+phone.
+
+If you need an authenticator, calculator, timer or work application, preserve
+that function.
+
+The target is not the whole device.
+
+The target is the path you usually take without deciding.
+
+Layer four: schedule the next check.
+
+Write down when you are allowed to check again.
+
+Not “later.”
+
+Write the actual time.
+
+This matters because uncertainty creates its own reason to check.
+
+You are not promising to ignore the phone forever.
+
+You are deciding when the door will open.
+
+Now start the 25-minute block.
+
+Keep a small piece of paper beside the task.
+
+Every time you feel the impulse to reach for the phone, make one mark.
+
+Do not argue with the impulse.
+
+Do not diagnose it.
+
+Do not congratulate yourself for resisting it.
+
+Just mark it and return to the next visible action in the task.
+
+When the timer ends, check the phone if you still want to.
+
+Then count the marks.
+
+The result is not a score for discipline.
+
+It is a map of the exits that were previously invisible.
+
+## 07 — What the result can tell you
+
+If you made no marks, good.
+
+Maybe notifications were your main problem. Maybe this task held your
+attention. Or maybe the phone was not an important exit during this particular
+session.
+
+If you made several marks, that is useful too.
+
+The phone may have been silent, but the checking path was still available.
+
+If you ignored the setup and opened an app anyway, do not restart the
+experiment to protect a perfect result.
+
+Record what happened.
+
+Which moment in the task came immediately before the check?
+
+Was the next action unclear?
+
+Were you waiting?
+
+Did the task become uncomfortable?
+
+Were you looking for information you genuinely needed?
+
+The experiment is not asking, “How addicted am I?”
+
+It is asking:
+
+What made leaving easier than continuing?
+
+That question gives you something you can redesign.
+
+## 08 — Close the exit, not the whole phone
+
+Turning off notifications is useful.
+
+It closes the door your phone opens for you.
+
+But if you keep reaching for the device in silence, there is another door —
+the one you open yourself.
+
+You do not need to throw away your phone.
+
+You do not need to transform your life for two weeks.
+
+For one 25-minute session, make checking require a decision again.
+
+Then notice the reach before you follow it.
+
+Because sometimes the most distracting notification is the one that never
+arrived.
+
+## End CTA
+
+Try the Silent Door Test once.
+
+Count the reaches you notice before you count the minutes you save.

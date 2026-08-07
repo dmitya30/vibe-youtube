@@ -131,8 +131,47 @@ No mass production or unattended publication is approved by this document.
 | Angle and promise selection | PASS / LOCKED |
 | Sources and claim table | v0.1 ACCEPTED |
 | Cold open and outline | v0.1 ACCEPTED |
-| Full script | NEXT |
+| Full script | v0.2 LOCKED |
+| Script-strengthening editor | MANUAL PASS / FUTURE ASSIST AGENT |
+| Preliminary scene architecture | v0.1 ACCEPTED |
+| One-piece narration | NEXT |
+| AI STT alignment | PLANNED / PROVIDER TEST PENDING |
 | Human time and direct cost | OWNER RECORD PENDING |
 
 No elapsed-time or cost values are inferred retroactively. Unknown owner-side
 measurements remain explicitly pending.
+
+
+## 9. New automation candidates
+
+### Script-strengthening editor
+
+Classification:
+
+`ASSIST`
+
+The agent may identify weak transitions, overclaims, unsupported mechanisms,
+promise mismatches and opportunities for stronger phrasing. It must output a
+reviewable diff and may not lock or publish a script.
+
+### Anchor-based narration alignment
+
+Classification:
+
+`AUTOMATE_NOW AFTER PROVIDER TEST`
+
+Inputs:
+
+- locked script;
+- one-piece narration audio;
+- verbatim timestamped STT output;
+- stable narration anchors.
+
+Outputs:
+
+- sentence or word alignment;
+- scene `startSec` and `endSec`;
+- mismatch report;
+- unaligned or low-confidence spans.
+
+Silence detection is not the source of semantic boundaries.

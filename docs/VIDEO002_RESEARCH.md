@@ -1,7 +1,7 @@
 # VIDEO-002 — Research and Claims
 
 Updated: 2026-08-07
-Status: TOPIC LOCKED / CLAIM TABLE v0.1 ACCEPTED / SCRIPT NEXT
+Status: TOPIC LOCKED / SCRIPT v0.2 LOCKED / STORYBOARD v0.1 ACCEPTED
 
 ## 1. Locked direction
 
@@ -116,12 +116,22 @@ For one 25-minute task block:
 The protocol measures noticed checking impulses. It does not diagnose addiction
 or promise a clinical outcome.
 
-## 9. Next gate
+## 9. Completed script gate
 
-Create a complete research-backed script v0.1, then run:
+- claim-to-source validation: PASS;
+- script-strengthening editor pass: PASS;
+- owner semantic review: PASS;
+- title/promise match: PASS / working lock;
+- thumbnail/promise match: PASS / primary concept;
+- narration-length estimate: approximately 9–10 minutes;
+- script v0.2: LOCKED FOR ONE-PIECE NARRATION DRAFT;
+- storyboard v0.1: ACCEPTED.
 
-1. claim-to-source validation;
-2. title/promise match review;
-3. thumbnail/promise match review;
-4. narration-length estimate;
-5. scene and reusable-component planning.
+Canonical files:
+
+- [`VIDEO002_SCRIPT.md`](VIDEO002_SCRIPT.md)
+- [`VIDEO002_STORYBOARD.md`](VIDEO002_STORYBOARD.md)
+
+Next gate:
+
+`ONE-PIECE NARRATION GENERATION`

@@ -431,7 +431,7 @@ seeded, so it must not be treated as clean organic evidence.
 
 # VIDEO-002 — Phone Checking Exit
 
-Status: TOPIC LOCKED / CLAIM TABLE v0.1 ACCEPTED / SCRIPT NEXT
+Status: SCRIPT v0.2 LOCKED / STORYBOARD v0.1 ACCEPTED / NARRATION NEXT
 
 ## Locked hypothesis
 
@@ -460,11 +460,17 @@ Packaging remains working until script and promise-match review.
 
 ## Research record
 
-Canonical sources, claim boundaries, cold open, outline and protocol:
+Canonical production documents:
 
-[`VIDEO002_RESEARCH.md`](VIDEO002_RESEARCH.md)
+- research and claim boundaries:
+  [`VIDEO002_RESEARCH.md`](VIDEO002_RESEARCH.md);
+- locked narration text:
+  [`VIDEO002_SCRIPT.md`](VIDEO002_SCRIPT.md);
+- preliminary scene architecture:
+  [`VIDEO002_STORYBOARD.md`](VIDEO002_STORYBOARD.md).
 
 ## Pipeline objective
 
 VIDEO-002 remains the second manual benchmark and the active Shadow Automation
-test. The next gate is the complete script v0.1.
+test. The next gate is one-piece narration generation followed by AI STT
+alignment.
