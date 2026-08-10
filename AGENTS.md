@@ -66,3 +66,12 @@ This file is the first operational source of truth after any dialogue compressio
 5. Read the current video storyboard, narration checkpoint, captions, timing manifest, and local production README.
 6. Verify current Git HEAD and working-tree state.
 7. Continue from the recorded gate without reconstructing the workflow from memory.
+
+## Production compiler preflight
+
+- Read `docs/VIDEO_PIPELINE_COMPILER.md` before VIDEO-003 production architecture or automation work.
+- Never infer composition scene ownership. Derive it from the locked timing manifest and validate the exact scene list before writing code.
+- After removing a scene block, check for unused variables, components and imports before delivering a patch.
+- Never combine failure and success reporting in shell control flow that can print PASS after an exception.
+- Production compositions must not contain debug progress indicators or other non-editorial diagnostic UI.
+- Full render is forbidden until schema, ownership, asset, lint and sampled-still gates pass.

@@ -234,3 +234,7 @@ Validation should distinguish intentional blank-line paragraph boundaries from w
 ## Persistent patch-execution contract
 
 The root `AGENTS.md` file records mandatory execution behavior that must survive dialogue compression. It requires one-block patches, explicit working-directory changes, no heredocs, no shell-closing commands, schema inspection before patch generation, literal Remotion asset references, validation before rendering and immediate execution of the next actionable gate.
+
+## Video pipeline compiler
+
+The failure catalog, compiler input contract, validation gates, agent-role design and VIDEO-003 shadow-compilation strategy are maintained in [VIDEO_PIPELINE_COMPILER.md](VIDEO_PIPELINE_COMPILER.md). Repeated production defects must become regression controls there.

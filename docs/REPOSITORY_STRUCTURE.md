@@ -19,6 +19,7 @@ vibe-youtube/
 │   ├── EXPERIMENTS.md
 │   ├── ROADMAP_30D.md
 │   ├── SHADOW_AUTOMATION.md
+│   ├── VIDEO_PIPELINE_COMPILER.md
 │   ├── VIDEO002_RESEARCH.md
 │   ├── VIDEO002_SCRIPT.md
 │   ├── VIDEO002_NARRATION.md
