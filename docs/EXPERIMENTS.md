@@ -431,7 +431,7 @@ seeded, so it must not be treated as clean organic evidence.
 
 # VIDEO-002 — Phone Checking Exit
 
-Status: SCRIPT v0.2 LOCKED / STORYBOARD v0.1 ACCEPTED / NARRATION NEXT
+Status: NARRATION MASTER PASS / CAPTIONS PASS / SCENE TIMING NEXT
 
 ## Locked hypothesis
 
@@ -471,6 +471,6 @@ Canonical production documents:
 
 ## Pipeline objective
 
-VIDEO-002 remains the second manual benchmark and the active Shadow Automation
-test. The next gate is one-piece narration generation followed by AI STT
-alignment.
+VIDEO-002 remains the second manual benchmark and the active Shadow Automation test. Narration and caption timing passed after detection and correction of a Gemini TTS omission. The next gate is correction of remaining script/timing artifacts followed by mapping the accepted audio to the S01-S53 scene manifest.
+
+Canonical narration, TTS-risk and caption records belong to [`VIDEO002_NARRATION.md`](VIDEO002_NARRATION.md).

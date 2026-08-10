@@ -1,8 +1,8 @@
 # VIDEO-002 — Preliminary Storyboard
 
-Updated: 2026-08-07
+Updated: 2026-08-10
 Version: v0.1
-Status: SCENE ARCHITECTURE ACCEPTED / TIMINGS PENDING NARRATION AND STT
+Status: SCENE ARCHITECTURE ACCEPTED / NARRATION AND CAPTION TIMINGS PASS
 Script: [VIDEO002_SCRIPT.md](VIDEO002_SCRIPT.md)
 
 ## 1. Production model
@@ -34,42 +34,31 @@ Estimated structure:
 
 ## 2. Narration and timing architecture
 
-Narration plan:
+Accepted narration:
 
-- one TTS request;
-- one continuous narration file;
-- one voice and performance profile;
-- section regeneration is emergency fallback only.
+- one-piece generation: failed after multiple attempts;
+- fallback: two large Gemini 2.5 Pro TTS blocks through Kie.ai;
+- corrective generation: required after a complete middle passage was omitted by the model;
+- accepted master duration: 617.037042 seconds;
+- accepted master SHA-256: `4557d844256756897d803abce538d431670f603353946252cf2ddb70dc435860`;
+- voice consistency: PASS with mild accepted variation;
+- complete narration playback: PASS.
 
-Timing plan:
+Accepted timing path:
 
-1. lock narration text;
-2. generate the full narration WAV;
-3. transcribe the complete audio with an AI STT model;
-4. preserve verbatim transcript and sentence or word timestamps;
-5. align STT output to the locked script;
-6. map narration anchors to `startSec` and `endSec`;
-7. generate the final Remotion timing manifest.
+1. CapCut Windows generated local auto captions from the accepted narration master.
+2. Real cue timestamps were extracted from CapCut project JSON.
+3. CapCut text was aligned with the authoritative narration script.
+4. Known ASR spelling and normalization errors were corrected without replacing the acoustic timestamps.
+5. Final SRT and VTT passed structural and human review.
 
-Qwen is the first manual STT candidate because it accepts audio. Its previous
-failure as a full-video VLM does not disqualify it for audio transcription.
+Qwen recognized the spoken text accurately but generated interpolated timestamps that drifted by approximately ten seconds by the seventh minute. Qwen timestamps are rejected for scene timing and captions.
 
-Required STT evaluation:
+The final caption set contains 210 cues, zero overlaps and zero invalid-duration cues. The final cue ends 0.030 seconds after the reported WAV duration, which is accepted as container and cue-boundary rounding.
 
-- verbatim completeness;
-- no summarization;
-- no invented phrases;
-- sentence-level timestamps required;
-- word-level timestamps preferred;
-- stable ordering;
-- explicit uncertainty instead of guessing.
+Canonical narration and caption details belong to [VIDEO002_NARRATION.md](VIDEO002_NARRATION.md).
 
-If Qwen produces accurate text without reliable timestamps, it may pass
-completeness QA but fail the Remotion timing requirement. Alternative cloud STT
-providers must then be tested.
-
-FFmpeg remains responsible for inspection, loudness, conversion, muxing and
-technical QA. Silence detection is not the primary semantic timing method.
+FFmpeg remains responsible for inspection, loudness, conversion, muxing and technical QA. Silence detection is not the primary semantic timing method.
 
 ## 3. Scene manifest
 
@@ -226,16 +215,20 @@ Anti-template options for future tests:
 
 For VIDEO-002, Remotion remains the primary visual system.
 
-## 7. Stop point
+## 7. Current gate
 
-Do not generate assets or implement Remotion until:
+Completed:
 
-1. documentation checkpoint is committed;
-2. one-piece TTS provider, voice and prompt are selected;
-3. the full narration draft is generated and reviewed;
-4. STT feasibility is evaluated;
-5. anchor timestamps are available.
+1. documentation checkpoint before narration: PASS;
+2. narration provider and voice selection: PASS;
+3. accepted narration master: PASS;
+4. full-script completeness comparison: PASS after one detected TTS omission was corrected;
+5. real caption timestamps: PASS;
+6. final SRT/VTT structural QA: PASS;
+7. owner caption review: PASS.
+
+Do not begin broad asset generation until the remaining script/timing artifact correction and scene-anchor mapping are complete.
 
 Next gate:
 
-`ONE-PIECE NARRATION GENERATION`
+`MAP S01-S53 TO ACCEPTED AUDIO TIMESTAMPS / LOCK PRODUCTION COMPOSITIONS / START CONTROLLED ASSET WORK`

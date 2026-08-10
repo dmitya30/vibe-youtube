@@ -1,7 +1,7 @@
 # Project Context
 
-Updated: 2026-08-07
-Status: VIDEO-001 Public / VIDEO-002 research and Shadow Automation active
+Updated: 2026-08-10
+Status: VIDEO-001 Public / VIDEO-002 narration and captions passed / scene timing active
 Source of truth for project-level context
 
 ## 1. Goal
@@ -76,7 +76,7 @@ complete. Canonical launch details belong to
 The active workstream is:
 
 1. VIDEO-001 post-launch monitoring;
-2. VIDEO-002 topic research and production;
+2. VIDEO-002 scene timing, assets and Remotion production after narration/caption PASS;
 3. Shadow Automation measurement;
 4. preparation for the Day-30 checkpoint on 2026-08-27.
 

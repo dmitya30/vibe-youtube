@@ -1,6 +1,6 @@
 # Shadow Automation Log
 
-Updated: 2026-08-07
+Updated: 2026-08-10
 Status: active for VIDEO-002
 Purpose: measure the production pipeline before scaling automation
 
@@ -134,12 +134,18 @@ No mass production or unattended publication is approved by this document.
 | Full script | v0.2 LOCKED |
 | Script-strengthening editor | MANUAL PASS / FUTURE ASSIST AGENT |
 | Preliminary scene architecture | v0.1 ACCEPTED |
-| One-piece narration | NEXT |
-| AI STT alignment | PLANNED / PROVIDER TEST PENDING |
-| Human time and direct cost | OWNER RECORD PENDING |
+| One-piece narration | FAIL / FALLBACK TO TWO LARGE BLOCKS |
+| Narration master | PASS / COMPLETENESS RESTORED |
+| Qwen timestamp test | FAIL / INTERPOLATED TIMESTAMPS |
+| CapCut timestamp extraction | PASS |
+| Script-to-caption alignment | PASS |
+| English SRT/VTT | PASS / OWNER REVIEW PASS |
+| Scene-anchor timing map | NEXT |
+| Human time | UNKNOWN |
+| Accepted TTS direct cost | 43.63 KIE.AI CREDITS |
+| Accepted TTS machine time | 440 SECONDS |
 
-No elapsed-time or cost values are inferred retroactively. Unknown owner-side
-measurements remain explicitly pending.
+Failed-attempt cost, failed-attempt machine time and total human time remain `UNKNOWN`. They are not inferred retroactively.
 
 
 ## 9. New automation candidates
@@ -175,3 +181,52 @@ Outputs:
 - unaligned or low-confidence spans.
 
 Silence detection is not the source of semantic boundaries.
+
+
+## 10. Narration benchmark result
+
+The accepted narration used two large Gemini 2.5 Pro TTS blocks through Kie.ai. One-piece generation was not reliable across the tested Gemini 2.5 Pro and Gemini 3.1 routes.
+
+Gemini 2.5 Pro TTS omitted a complete middle passage even though the passage was present in the input. The output sounded complete and retained its ending, so endpoint-only QA would not have detected the defect.
+
+Automation decision:
+
+`AUTOMATE_NOW: FULL TRANSCRIPT-TO-SCRIPT COMPLETENESS CHECK`
+
+Required checks:
+
+- authoritative input text preserved;
+- transcription of every candidate;
+- complete lexical alignment;
+- explicit missing-span report;
+- special validation of numbered steps and repeated structures;
+- human review of every mismatch;
+- narration lock blocked when substantive omissions remain.
+
+A possible relationship between omissions and generations near or above five minutes is an unverified hypothesis. Duration, word count, token count, provider and repeated attempts must be tested separately before setting a hard chunk-size rule.
+
+## 11. Caption timing benchmark result
+
+Qwen text recognition passed, but its generated timestamps drifted because they were interpolated rather than acoustically aligned.
+
+CapCut local auto captions plus deterministic JSON extraction produced usable real timestamps in seconds rather than hours on the current machine.
+
+Classification:
+
+- Qwen for transcript completeness: `ASSIST`;
+- Qwen for generated subtitle timestamps: `REMOVE`;
+- CapCut local timing extraction: `KEEP_MANUAL / AUTOMATE EXTRACTION`;
+- script-to-caption lexical alignment: `AUTOMATE_NOW`;
+- paid cloud STT: `AUTOMATE_AFTER PROVIDER AND COST TEST`.
+
+The authoritative timing source must be tied to audio events. Reading-speed interpolation is prohibited.
+
+## 12. Model-input formatting control
+
+Classification:
+
+`AUTOMATE_NOW`
+
+Prompt and narration builders must reject artificial line breaks inside sentences or intentional spoken phrases. Display-oriented prose wrapping can alter TTS phrasing, stress, pacing and pronunciation.
+
+Validation should distinguish intentional blank-line paragraph boundaries from width-based line wrapping.

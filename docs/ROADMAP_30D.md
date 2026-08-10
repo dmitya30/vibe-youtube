@@ -85,7 +85,7 @@ separate decision after more long-form production evidence exists.
 
 Status:
 
-`TOPIC LOCKED / CLAIM TABLE v0.1 ACCEPTED / SCRIPT NEXT`
+`NARRATION MASTER PASS / CAPTIONS PASS / SCENE TIMING NEXT`
 
 Locked direction:
 
@@ -94,9 +94,7 @@ Locked direction:
 - working thumbnail: `STILL CHECKING?`;
 - practical deliverable: one 25-minute Silent Door Test.
 
-The title and thumbnail remain subject to promise-match review after the full
-script. Canonical research belongs to
-[`VIDEO002_RESEARCH.md`](VIDEO002_RESEARCH.md).
+The script promise-match review passed. The title and thumbnail remain working locks until final packaging review. Canonical research belongs to [`VIDEO002_RESEARCH.md`](VIDEO002_RESEARCH.md), and narration/caption QA belongs to [`VIDEO002_NARRATION.md`](VIDEO002_NARRATION.md).
 
 ## 6. Quality stop conditions
 

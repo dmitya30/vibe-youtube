@@ -1,6 +1,6 @@
 # Repository Structure
 
-Updated: 2026-08-07
+Updated: 2026-08-10
 Status: active
 
 Этот файл фиксирует каноническую структуру репозитория, назначение
@@ -21,6 +21,7 @@ vibe-youtube/
 │   ├── SHADOW_AUTOMATION.md
 │   ├── VIDEO002_RESEARCH.md
 │   ├── VIDEO002_SCRIPT.md
+│   ├── VIDEO002_NARRATION.md
 │   ├── VIDEO002_STORYBOARD.md
 │   ├── SOURCES.md
 │   ├── SCRIPT.md
@@ -28,6 +29,15 @@ vibe-youtube/
 │   └── REPOSITORY_STRUCTURE.md
 ├── archive/
 │   └── historical documents
+├── VIDEO-002-proof/
+│   ├── audio/
+│   │   ├── video002-narration-input-v1.txt
+│   │   └── local narration WAV/MP3 and diagnostics
+│   └── captions/
+│       ├── video002-en-v1.srt
+│       ├── video002-en-v1.vtt
+│       ├── video002-caption-alignment-v1.txt
+│       └── local CapCut raw extraction
 └── VIDEO-001-proof/
     ├── assets/
     │   ├── nod/
@@ -255,7 +265,8 @@ Production work и repository maintenance по возможности комми
 - `EXPERIMENTS.md` owns individual content hypotheses and results.
 - `VIDEO002_RESEARCH.md` owns the VIDEO-002 direction, claim boundaries and
   sources.
-- `VIDEO002_SCRIPT.md` owns the locked narration text.
+- `VIDEO002_SCRIPT.md` owns the locked editorial narration text.
+- `VIDEO002_NARRATION.md` owns accepted narration parameters, TTS defects, timing-provider evaluation and caption QA.
 - `VIDEO002_STORYBOARD.md` owns preliminary scene architecture, narration/STT
   timing design, reuse planning and controlled visual variation.
 - `CONTEXT.md` links the current project stage without duplicating full

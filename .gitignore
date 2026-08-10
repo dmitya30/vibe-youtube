@@ -52,3 +52,11 @@ VIDEO-001-proof/remotion/dist/
 *.mkv
 VIDEO-001-proof/remotion/public/
 VIDEO-001-proof/publish/video-001/local/
+
+# VIDEO-002 local narration and CapCut intermediates
+VIDEO-002-proof/audio/*-report.txt
+VIDEO-002-proof/audio/*-silences.txt
+VIDEO-002-proof/audio/*.srt
+VIDEO-002-proof/audio/*.json
+VIDEO-002-proof/captions/video002-capcut-raw-*.srt
+VIDEO-002-proof/captions/video002-capcut-raw-*.json

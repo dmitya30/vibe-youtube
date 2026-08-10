@@ -1,0 +1,907 @@
+1
+00:00:00,167 --> 00:00:02,867
+You turned off every notification.
+
+2
+00:00:03,133 --> 00:00:05,267
+No banners. No vibrations.
+
+3
+00:00:05,533 --> 00:00:08,433
+No little red numbers asking to be opened.
+
+4
+00:00:08,600 --> 00:00:10,267
+Your phone is silent,
+
+5
+00:00:10,367 --> 00:00:13,433
+face down — exactly where you left it.
+
+6
+00:00:13,500 --> 00:00:15,833
+And then, without hearing anything,
+
+7
+00:00:16,067 --> 00:00:17,833
+you reach for it anyway.
+
+8
+00:00:18,167 --> 00:00:21,700
+That matters, because notifications and checking
+
+9
+00:00:21,900 --> 00:00:26,600
+are not the same problem.
+
+In a randomized one-week study,
+
+10
+00:00:26,600 --> 00:00:29,467
+researchers found no significant reduction
+
+11
+00:00:29,467 --> 00:00:32,200
+in how often people checked their phones —
+
+12
+00:00:32,200 --> 00:00:35,900
+or their total screen time — after turning notifications
+
+13
+00:00:35,900 --> 00:00:39,200
+off.
+
+Silence removed the interruption.
+
+14
+00:00:39,267 --> 00:00:43,100
+It didn't close the exit.
+
+So what does?
+
+15
+00:00:43,333 --> 00:00:46,567
+First, turning off unnecessary notifications
+
+16
+00:00:46,567 --> 00:00:48,467
+is not bad advice.
+
+17
+00:00:48,767 --> 00:00:52,367
+A message can appear at exactly the wrong moment.
+
+18
+00:00:52,400 --> 00:00:54,533
+Even if you do not open it,
+
+19
+00:00:54,533 --> 00:00:57,900
+part of your attention has already been redirected.
+
+20
+00:00:58,367 --> 00:01:00,767
+Now you know that something happened.
+
+21
+00:01:00,900 --> 00:01:02,467
+Someone may be waiting.
+
+22
+00:01:02,600 --> 00:01:05,900
+There may be new information behind the screen.
+
+23
+00:01:06,167 --> 00:01:08,433
+In one laboratory experiment,
+
+24
+00:01:08,700 --> 00:01:10,367
+receiving phone notifications
+
+25
+00:01:10,467 --> 00:01:14,100
+disrupted performance on a sustained-attention task —
+
+26
+00:01:14,133 --> 00:01:15,567
+even when participants
+
+27
+00:01:15,567 --> 00:01:20,033
+did not interact with their phones.
+
+So yes: notifications
+
+28
+00:01:20,100 --> 00:01:24,000
+can interrupt you.
+
+But that only explains the moments
+
+29
+00:01:24,000 --> 00:01:26,400
+when your phone asks for attention.
+
+30
+00:01:26,567 --> 00:01:28,467
+It does not explain the moments
+
+31
+00:01:28,467 --> 00:01:32,000
+when your phone is silent and you check it anyway.
+
+32
+00:01:32,100 --> 00:01:34,700
+And those moments are easy to miss
+
+33
+00:01:34,733 --> 00:01:37,467
+because they do not feel like interruptions.
+
+34
+00:01:37,700 --> 00:01:41,433
+There is no buzz to blame.
+
+You simply find yourself
+
+35
+00:01:41,600 --> 00:01:45,400
+holding the phone.
+
+Researchers tested what happened
+
+36
+00:01:45,400 --> 00:01:48,467
+when people disabled their smartphone notifications
+
+37
+00:01:48,500 --> 00:01:51,700
+for one week.
+
+The study was preregistered,
+
+38
+00:01:51,900 --> 00:01:54,367
+included 205 participants,
+
+39
+00:01:54,367 --> 00:01:56,767
+and used objective phone logs
+
+40
+00:01:56,767 --> 00:02:00,400
+rather than relying only on estimates of screen time.
+
+41
+00:02:00,533 --> 00:02:04,800
+The expected result seems obvious.
+
+Fewer notifications
+
+42
+00:02:04,900 --> 00:02:08,000
+should mean fewer reasons to pick up the phone.
+
+43
+00:02:08,100 --> 00:02:11,400
+But researchers found no significant reduction
+
+44
+00:02:11,400 --> 00:02:14,433
+in how often participants checked their phones.
+
+45
+00:02:14,533 --> 00:02:15,267
+They found
+
+46
+00:02:15,267 --> 00:02:18,867
+no significant reduction in total screen time either.
+
+47
+00:02:19,200 --> 00:02:21,667
+The intervention also did not produce
+
+48
+00:02:21,667 --> 00:02:24,900
+clear improvements in reported productivity
+
+49
+00:02:24,900 --> 00:02:27,267
+or smartphone-related distraction.
+
+50
+00:02:27,500 --> 00:02:30,000
+That does not mean nothing changed.
+
+51
+00:02:30,067 --> 00:02:32,367
+Participants reported that their checking
+
+52
+00:02:32,367 --> 00:02:35,700
+felt less habitual — more intentional —
+
+53
+00:02:35,733 --> 00:02:38,200
+even though the objective number of checks
+
+54
+00:02:38,200 --> 00:02:39,467
+did not decline.
+
+55
+00:02:39,600 --> 00:02:43,000
+They also reported more fear of missing out
+
+56
+00:02:43,000 --> 00:02:45,400
+during the notification-free week.
+
+57
+00:02:45,600 --> 00:02:49,067
+The study does not prove that disabling notifications
+
+58
+00:02:49,067 --> 00:02:52,400
+is useless. It examined one intervention,
+
+59
+00:02:52,400 --> 00:02:55,567
+over one week, in one group of people.
+
+60
+00:02:55,600 --> 00:03:00,167
+But it challenges a simple story:
+
+Notification appears.
+
+61
+00:03:00,267 --> 00:03:03,633
+Person checks phone.
+
+Remove notification.
+
+62
+00:03:03,733 --> 00:03:08,300
+Checking disappears.
+
+Real behavior was more complicated.
+
+63
+00:03:08,500 --> 00:03:12,467
+Remove the notification, and the phone becomes quieter.
+
+64
+00:03:12,633 --> 00:03:13,500
+But the person
+
+65
+00:03:13,500 --> 00:03:16,500
+can still wonder whether something has arrived.
+
+66
+00:03:16,567 --> 00:03:19,000
+They can still unlock the screen
+
+67
+00:03:19,000 --> 00:03:20,967
+during a difficult paragraph.
+
+68
+00:03:21,100 --> 00:03:23,667
+They can still reach for novelty
+
+69
+00:03:23,667 --> 00:03:26,233
+when a task becomes briefly boring.
+
+70
+00:03:26,300 --> 00:03:29,133
+They can still check without identifying
+
+71
+00:03:29,133 --> 00:03:31,433
+any specific reason at all.
+
+72
+00:03:31,767 --> 00:03:35,433
+Think of phone distraction as two different doors.
+
+73
+00:03:35,600 --> 00:03:38,000
+The first is a prompted exit.
+
+74
+00:03:38,067 --> 00:03:41,200
+Your phone makes a sound. The screen lights up.
+
+75
+00:03:41,200 --> 00:03:44,967
+A badge appears. The device opens the door for you.
+
+76
+00:03:45,067 --> 00:03:47,667
+Disabling unnecessary notifications
+
+77
+00:03:47,800 --> 00:03:53,033
+helps close this door.
+
+The second is a self-created exit.
+
+78
+00:03:53,200 --> 00:03:55,100
+Nothing happens on the phone.
+
+79
+00:03:55,300 --> 00:03:58,633
+Instead, something happens inside the task.
+
+80
+00:03:58,733 --> 00:04:00,967
+You reach a confusing sentence.
+
+81
+00:04:01,000 --> 00:04:02,967
+You wait for a file to load.
+
+82
+00:04:03,000 --> 00:04:05,300
+You're not sure what to do next.
+
+83
+00:04:05,300 --> 00:04:07,867
+Or the work simply stops being
+
+84
+00:04:07,867 --> 00:04:11,567
+interesting for five seconds.
+
+The phone is nearby,
+
+85
+00:04:11,567 --> 00:04:13,767
+familiar and easy to open.
+
+86
+00:04:13,767 --> 00:04:16,367
+So you create the exit yourself.
+
+87
+00:04:17,067 --> 00:04:20,067
+This distinction is an explanatory model,
+
+88
+00:04:20,067 --> 00:04:21,700
+not a diagnosis.
+
+89
+00:04:21,867 --> 00:04:25,267
+The notification study did not establish the precise
+
+90
+00:04:25,267 --> 00:04:27,367
+reason behind every check.
+
+91
+00:04:27,467 --> 00:04:30,100
+And not every check is a problem.
+
+92
+00:04:30,133 --> 00:04:33,433
+Phones are useful. Some messages are important.
+
+93
+00:04:33,533 --> 00:04:36,467
+Sometimes checking the device is exactly
+
+94
+00:04:36,467 --> 00:04:38,067
+what the task requires.
+
+95
+00:04:38,267 --> 00:04:41,467
+The problem is not that the phone can be opened.
+
+96
+00:04:41,567 --> 00:04:44,300
+It's when opening it becomes easier
+
+97
+00:04:44,300 --> 00:04:46,600
+than noticing why you're leaving.
+
+98
+00:04:46,800 --> 00:04:48,733
+Another randomized trial tested
+
+99
+00:04:48,733 --> 00:04:50,867
+a much stronger intervention.
+
+100
+00:04:51,200 --> 00:04:54,067
+Instead of making the phone silent, participants
+
+101
+00:04:54,067 --> 00:04:57,167
+blocked mobile internet access on their smartphones
+
+102
+00:04:57,167 --> 00:04:58,400
+for two weeks.
+
+103
+00:04:58,567 --> 00:05:01,400
+They could still receive calls and text messages.
+
+104
+00:05:01,500 --> 00:05:04,100
+They could still use the internet on computers.
+
+105
+00:05:04,267 --> 00:05:05,967
+But the phone was no longer
+
+106
+00:05:05,967 --> 00:05:09,400
+a constantly available portal to the online world.
+
+107
+00:05:09,533 --> 00:05:11,933
+The intervention improved objectively
+
+108
+00:05:11,933 --> 00:05:13,900
+measured sustained attention,
+
+109
+00:05:14,067 --> 00:05:17,233
+along with self-reported well-being and mental health.
+
+110
+00:05:17,300 --> 00:05:20,000
+But it was also difficult to follow.
+
+111
+00:05:20,100 --> 00:05:23,167
+Many people who entered the study did not maintain
+
+112
+00:05:23,167 --> 00:05:26,567
+the full intervention as required.
+
+So the lesson
+
+113
+00:05:26,567 --> 00:05:29,067
+is not that everyone should remove mobile
+
+114
+00:05:29,067 --> 00:05:33,167
+internet for two weeks.
+
+The more useful lesson is this:
+
+115
+00:05:33,300 --> 00:05:35,500
+A stronger intervention changed
+
+116
+00:05:35,500 --> 00:05:38,267
+what happened after someone reached for the phone.
+
+117
+00:05:38,567 --> 00:05:42,600
+Silent mode removed a signal.
+
+Blocking mobile internet
+
+118
+00:05:42,600 --> 00:05:45,900
+added friction between the impulse and the reward.
+
+119
+00:05:46,200 --> 00:05:47,100
+That friction
+
+120
+00:05:47,100 --> 00:05:50,067
+can create a moment in which a different decision
+
+121
+00:05:50,067 --> 00:05:53,200
+becomes possible.
+
+For an ordinary work session,
+
+122
+00:05:53,200 --> 00:05:56,567
+we do not need to reproduce a two-week research
+
+123
+00:05:56,567 --> 00:05:59,467
+intervention.
+
+We need a smaller test.
+
+124
+00:05:59,700 --> 00:06:03,300
+Choose one task and one 25-minute block.
+
+125
+00:06:03,400 --> 00:06:07,467
+Not your entire morning.
+
+Not a complete digital detox.
+
+126
+00:06:07,533 --> 00:06:12,467
+Just one task with a clear finish line.
+
+Before you begin,
+
+127
+00:06:12,533 --> 00:06:15,500
+decide what counts as necessary contact.
+
+128
+00:06:15,667 --> 00:06:17,967
+If you are responsible for a child,
+
+129
+00:06:17,967 --> 00:06:21,400
+waiting for an urgent call, managing a medical need
+
+130
+00:06:21,400 --> 00:06:23,867
+or using the phone for accessibility,
+
+131
+00:06:23,967 --> 00:06:25,833
+keep that route available.
+
+132
+00:06:25,933 --> 00:06:29,700
+The goal is not to make the phone dangerous or unusable.
+
+133
+00:06:29,767 --> 00:06:32,700
+The goal is to separate necessary access
+
+134
+00:06:32,700 --> 00:06:34,433
+from automatic access.
+
+135
+00:06:34,767 --> 00:06:37,667
+Then prepare the phone in four layers.
+
+136
+00:06:37,933 --> 00:06:41,100
+Layer one: silence the prompted exits.
+
+137
+00:06:41,267 --> 00:06:43,867
+Disable non-essential notifications
+
+138
+00:06:43,900 --> 00:06:47,200
+for the duration of the block.
+
+Keep only the channel
+
+139
+00:06:47,200 --> 00:06:49,567
+that genuinely needs to reach you.
+
+140
+00:06:49,600 --> 00:06:53,267
+This closes the door your phone opens for you.
+
+141
+00:06:53,800 --> 00:06:58,367
+Layer two: move it outside automatic reach.
+
+Do not place
+
+142
+00:06:58,367 --> 00:07:01,800
+the phone beside your hand with the screen facing down.
+
+143
+00:07:01,800 --> 00:07:04,100
+That is still beside your hand.
+
+144
+00:07:04,133 --> 00:07:07,467
+Place it somewhere that requires a visible action:
+
+145
+00:07:07,600 --> 00:07:11,267
+standing up, turning around or reaching into a bag.
+
+146
+00:07:11,267 --> 00:07:14,067
+You are not trying to make checking impossible.
+
+147
+00:07:14,267 --> 00:07:16,367
+You are making it noticeable.
+
+148
+00:07:16,867 --> 00:07:19,667
+Layer three: add digital friction.
+
+149
+00:07:19,800 --> 00:07:22,467
+Temporarily disable mobile internet,
+
+150
+00:07:22,467 --> 00:07:26,333
+activate a focus mode, or block only the applications
+
+151
+00:07:26,333 --> 00:07:28,433
+that usually become exits.
+
+152
+00:07:28,700 --> 00:07:30,600
+Choose the smallest restriction
+
+153
+00:07:30,600 --> 00:07:33,833
+that changes what happens when you unlock the phone.
+
+154
+00:07:33,933 --> 00:07:35,767
+If you need an authenticator,
+
+155
+00:07:35,767 --> 00:07:38,767
+calculator, timer or work application,
+
+156
+00:07:38,767 --> 00:07:40,367
+preserve that function.
+
+157
+00:07:40,400 --> 00:07:42,800
+The target is not the whole device.
+
+158
+00:07:42,900 --> 00:07:46,100
+The target is the path you usually take without
+
+159
+00:07:46,100 --> 00:07:49,867
+deciding.
+
+Layer four: schedule the next check.
+
+160
+00:07:50,167 --> 00:07:53,400
+Write down when you are allowed to check again.
+
+161
+00:07:53,400 --> 00:07:57,333
+Not “later.”
+
+Write the actual time.
+
+This matters
+
+162
+00:07:57,333 --> 00:08:01,067
+because uncertainty creates its own reason to check.
+
+163
+00:08:01,300 --> 00:08:04,567
+You are not promising to ignore the phone forever.
+
+164
+00:08:04,600 --> 00:08:07,567
+You are deciding when the door will open.
+
+165
+00:08:07,700 --> 00:08:10,467
+Now start the 25-minute block.
+
+166
+00:08:10,600 --> 00:08:13,667
+Keep a small piece of paper beside the task.
+
+167
+00:08:13,867 --> 00:08:17,000
+Every time you feel the impulse to reach for the phone,
+
+168
+00:08:17,000 --> 00:08:20,467
+make one mark.
+
+Do not argue with the impulse.
+
+169
+00:08:20,467 --> 00:08:23,467
+Do not diagnose it.
+
+Do not congratulate yourself
+
+170
+00:08:23,533 --> 00:08:25,767
+for resisting it.
+
+Just mark it
+
+171
+00:08:25,767 --> 00:08:29,200
+and return to the next visible action in the task.
+
+172
+00:08:29,500 --> 00:08:30,867
+When the timer ends,
+
+173
+00:08:30,867 --> 00:08:33,300
+check the phone if you still want to.
+
+174
+00:08:33,300 --> 00:08:35,000
+Then count the marks.
+
+175
+00:08:35,100 --> 00:08:37,833
+The result is not a score for discipline.
+
+176
+00:08:37,900 --> 00:08:41,767
+It's a map of the exits that were previously invisible.
+
+177
+00:08:41,800 --> 00:08:45,600
+If you made no marks, good.
+
+Maybe notifications
+
+178
+00:08:45,600 --> 00:08:47,033
+were your main problem.
+
+179
+00:08:47,067 --> 00:08:49,367
+Maybe this task held your attention.
+
+180
+00:08:49,400 --> 00:08:51,400
+Or maybe the phone was not an
+
+181
+00:08:51,400 --> 00:08:54,400
+important exit during this particular session.
+
+182
+00:08:54,667 --> 00:08:57,867
+If you made several marks, that's useful too.
+
+183
+00:08:57,900 --> 00:08:59,767
+The phone may have been silent,
+
+184
+00:08:59,767 --> 00:09:02,433
+but the checking path was still available.
+
+185
+00:09:02,567 --> 00:09:05,767
+If you ignored the setup and opened an app anyway,
+
+186
+00:09:05,767 --> 00:09:08,000
+do not restart the experiment to
+
+187
+00:09:08,000 --> 00:09:11,433
+protect a perfect result.
+
+Record what happened.
+
+188
+00:09:11,500 --> 00:09:13,133
+Which moment in the task
+
+189
+00:09:13,133 --> 00:09:15,467
+came immediately before the check?
+
+190
+00:09:15,533 --> 00:09:17,767
+Was the next action unclear?
+
+191
+00:09:17,800 --> 00:09:21,300
+Were you waiting?
+
+Did the task become uncomfortable?
+
+192
+00:09:21,433 --> 00:09:24,767
+Were you looking for information you genuinely needed?
+
+193
+00:09:24,933 --> 00:09:26,967
+The experiment is not asking, “
+
+194
+00:09:26,967 --> 00:09:29,600
+How addicted am I?”
+
+It is asking:
+
+195
+00:09:29,667 --> 00:09:32,833
+What made leaving easier than continuing?
+
+196
+00:09:32,933 --> 00:09:36,367
+That question gives you something you can redesign.
+
+197
+00:09:36,667 --> 00:09:38,167
+Turning off notifications
+
+198
+00:09:38,167 --> 00:09:42,067
+is useful.
+
+It closes the door your phone opens for you.
+
+199
+00:09:42,067 --> 00:09:45,233
+But if you keep reaching for the device in silence,
+
+200
+00:09:45,300 --> 00:09:48,033
+there's another door — the one you open yourself.
+
+201
+00:09:48,667 --> 00:09:51,333
+You do not need to throw away your phone.
+
+202
+00:09:51,333 --> 00:09:54,867
+You do not need to transform your life for two weeks.
+
+203
+00:09:54,933 --> 00:09:57,300
+For one 25-minute session,
+
+204
+00:09:57,333 --> 00:10:00,500
+make checking require a decision again.
+
+205
+00:10:00,600 --> 00:10:04,000
+Then notice the reach before you follow it.
+
+206
+00:10:04,000 --> 00:10:07,367
+Because sometimes the most distracting notification
+
+207
+00:10:07,367 --> 00:10:09,600
+is the one that never arrived.
+
+208
+00:10:09,733 --> 00:10:12,700
+Try the Silent Door Test once.
+
+209
+00:10:12,800 --> 00:10:14,567
+Count the reaches you notice
+
+210
+00:10:14,567 --> 00:10:17,067
+before you count the minutes you save.
