@@ -68,7 +68,6 @@ export const CompositionC02: React.FC = () => {
           <Door label="CHECKING" openness={1} />
         </div>
       </div>
-      <div style={{position: "absolute", left: 85, right: 85, bottom: 42, height: 7, borderRadius: 4, backgroundColor: "rgba(38,50,56,0.14)"}}><div style={{height: "100%", width: `${frame / 754 * 100}%`, borderRadius: 4, backgroundColor: ORANGE}} /></div>
     </AbsoluteFill>
   );
 };

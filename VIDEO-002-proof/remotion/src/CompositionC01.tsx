@@ -62,9 +62,6 @@ export const CompositionC01: React.FC = () => {
         <div style={{fontSize: 96, lineHeight: 0.96, fontWeight: 900}}>YOU REACH<br /><span style={{color: ORANGE}}>ANYWAY.</span></div>
       </div>
       <AbsoluteFill style={{backgroundColor: CREAM, opacity: lightMask, pointerEvents: "none"}} />
-      <div style={{position: "absolute", left: 86, right: 86, bottom: 42, height: 7, borderRadius: 4, backgroundColor: "rgba(38,50,56,0.14)"}}>
-        <div style={{height: "100%", width: `${frame / 544 * 100}%`, borderRadius: 4, backgroundColor: ORANGE}} />
-      </div>
     </AbsoluteFill>
   );
 };

@@ -103,9 +103,6 @@ export const CompositionC03: React.FC = () => {
         <div style={{position: "absolute", right: 103, top: 735, width: 580, textAlign: "center", color: GREEN, fontSize: 24, fontWeight: 900, letterSpacing: 4}}>NO EXTERNAL SIGNAL</div>
       </div>
 
-      <div style={{position: "absolute", left: 85, right: 85, bottom: 42, height: 7, borderRadius: 4, backgroundColor: "rgba(38,50,56,0.14)"}}>
-        <div style={{height: "100%", width: `${frame / 684 * 100}%`, borderRadius: 4, backgroundColor: ORANGE}} />
-      </div>
     </AbsoluteFill>
   );
 };
