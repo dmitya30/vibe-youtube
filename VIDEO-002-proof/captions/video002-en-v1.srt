@@ -32,9 +32,7 @@ That matters, because notifications and checking
 
 9
 00:00:21,900 --> 00:00:26,600
-are not the same problem.
-
-In a randomized one-week study,
+are not the same problem. In a randomized one-week study,
 
 10
 00:00:26,600 --> 00:00:29,467
@@ -50,15 +48,11 @@ or their total screen time — after turning notifications
 
 13
 00:00:35,900 --> 00:00:39,200
-off.
-
-Silence removed the interruption.
+off. Silence removed the interruption.
 
 14
 00:00:39,267 --> 00:00:43,100
-It didn't close the exit.
-
-So what does?
+It didn't close the exit. So what does?
 
 15
 00:00:43,333 --> 00:00:46,567
@@ -110,15 +104,11 @@ even when participants
 
 27
 00:01:15,567 --> 00:01:20,033
-did not interact with their phones.
-
-So yes: notifications
+did not interact with their phones. So yes: notifications
 
 28
 00:01:20,100 --> 00:01:24,000
-can interrupt you.
-
-But that only explains the moments
+can interrupt you. But that only explains the moments
 
 29
 00:01:24,000 --> 00:01:26,400
@@ -142,15 +132,11 @@ because they do not feel like interruptions.
 
 34
 00:01:37,700 --> 00:01:41,433
-There is no buzz to blame.
-
-You simply find yourself
+There is no buzz to blame. You simply find yourself
 
 35
 00:01:41,600 --> 00:01:45,400
-holding the phone.
-
-Researchers tested what happened
+holding the phone. Researchers tested what happened
 
 36
 00:01:45,400 --> 00:01:48,467
@@ -158,9 +144,7 @@ when people disabled their smartphone notifications
 
 37
 00:01:48,500 --> 00:01:51,700
-for one week.
-
-The study was preregistered,
+for one week. The study was preregistered,
 
 38
 00:01:51,900 --> 00:01:54,367
@@ -176,9 +160,7 @@ rather than relying only on estimates of screen time.
 
 41
 00:02:00,533 --> 00:02:04,800
-The expected result seems obvious.
-
-Fewer notifications
+The expected result seems obvious. Fewer notifications
 
 42
 00:02:04,900 --> 00:02:08,000
@@ -254,21 +236,15 @@ over one week, in one group of people.
 
 60
 00:02:55,600 --> 00:03:00,167
-But it challenges a simple story:
-
-Notification appears.
+But it challenges a simple story: Notification appears.
 
 61
 00:03:00,267 --> 00:03:03,633
-Person checks phone.
-
-Remove notification.
+Person checks phone. Remove notification.
 
 62
 00:03:03,733 --> 00:03:08,300
-Checking disappears.
-
-Real behavior was more complicated.
+Checking disappears. Real behavior was more complicated.
 
 63
 00:03:08,500 --> 00:03:12,467
@@ -328,9 +304,7 @@ Disabling unnecessary notifications
 
 77
 00:03:47,800 --> 00:03:53,033
-helps close this door.
-
-The second is a self-created exit.
+helps close this door. The second is a self-created exit.
 
 78
 00:03:53,200 --> 00:03:55,100
@@ -358,9 +332,7 @@ Or the work simply stops being
 
 84
 00:04:07,867 --> 00:04:11,567
-interesting for five seconds.
-
-The phone is nearby,
+interesting for five seconds. The phone is nearby,
 
 85
 00:04:11,567 --> 00:04:13,767
@@ -472,9 +444,7 @@ Many people who entered the study did not maintain
 
 112
 00:05:23,167 --> 00:05:26,567
-the full intervention as required.
-
-So the lesson
+the full intervention as required. So the lesson
 
 113
 00:05:26,567 --> 00:05:29,067
@@ -482,9 +452,7 @@ is not that everyone should remove mobile
 
 114
 00:05:29,067 --> 00:05:33,167
-internet for two weeks.
-
-The more useful lesson is this:
+internet for two weeks. The more useful lesson is this:
 
 115
 00:05:33,300 --> 00:05:35,500
@@ -496,9 +464,7 @@ what happened after someone reached for the phone.
 
 117
 00:05:38,567 --> 00:05:42,600
-Silent mode removed a signal.
-
-Blocking mobile internet
+Silent mode removed a signal. Blocking mobile internet
 
 118
 00:05:42,600 --> 00:05:45,900
@@ -514,9 +480,7 @@ can create a moment in which a different decision
 
 121
 00:05:50,067 --> 00:05:53,200
-becomes possible.
-
-For an ordinary work session,
+becomes possible. For an ordinary work session,
 
 122
 00:05:53,200 --> 00:05:56,567
@@ -524,9 +488,7 @@ we do not need to reproduce a two-week research
 
 123
 00:05:56,567 --> 00:05:59,467
-intervention.
-
-We need a smaller test.
+intervention. We need a smaller test.
 
 124
 00:05:59,700 --> 00:06:03,300
@@ -534,15 +496,11 @@ Choose one task and one 25-minute block.
 
 125
 00:06:03,400 --> 00:06:07,467
-Not your entire morning.
-
-Not a complete digital detox.
+Not your entire morning. Not a complete digital detox.
 
 126
 00:06:07,533 --> 00:06:12,467
-Just one task with a clear finish line.
-
-Before you begin,
+Just one task with a clear finish line. Before you begin,
 
 127
 00:06:12,533 --> 00:06:15,500
@@ -590,9 +548,7 @@ Disable non-essential notifications
 
 138
 00:06:43,900 --> 00:06:47,200
-for the duration of the block.
-
-Keep only the channel
+for the duration of the block. Keep only the channel
 
 139
 00:06:47,200 --> 00:06:49,567
@@ -604,9 +560,7 @@ This closes the door your phone opens for you.
 
 141
 00:06:53,800 --> 00:06:58,367
-Layer two: move it outside automatic reach.
-
-Do not place
+Layer two: move it outside automatic reach. Do not place
 
 142
 00:06:58,367 --> 00:07:01,800
@@ -678,9 +632,7 @@ The target is the path you usually take without
 
 159
 00:07:46,100 --> 00:07:49,867
-deciding.
-
-Layer four: schedule the next check.
+deciding. Layer four: schedule the next check.
 
 160
 00:07:50,167 --> 00:07:53,400
@@ -688,11 +640,7 @@ Write down when you are allowed to check again.
 
 161
 00:07:53,400 --> 00:07:57,333
-Not “later.”
-
-Write the actual time.
-
-This matters
+Not “later.” Write the actual time. This matters
 
 162
 00:07:57,333 --> 00:08:01,067
@@ -720,21 +668,15 @@ Every time you feel the impulse to reach for the phone,
 
 168
 00:08:17,000 --> 00:08:20,467
-make one mark.
-
-Do not argue with the impulse.
+make one mark. Do not argue with the impulse.
 
 169
 00:08:20,467 --> 00:08:23,467
-Do not diagnose it.
-
-Do not congratulate yourself
+Do not diagnose it. Do not congratulate yourself
 
 170
 00:08:23,533 --> 00:08:25,767
-for resisting it.
-
-Just mark it
+for resisting it. Just mark it
 
 171
 00:08:25,767 --> 00:08:29,200
@@ -762,9 +704,7 @@ It's a map of the exits that were previously invisible.
 
 177
 00:08:41,800 --> 00:08:45,600
-If you made no marks, good.
-
-Maybe notifications
+If you made no marks, good. Maybe notifications
 
 178
 00:08:45,600 --> 00:08:47,033
@@ -804,9 +744,7 @@ do not restart the experiment to
 
 187
 00:09:08,000 --> 00:09:11,433
-protect a perfect result.
-
-Record what happened.
+protect a perfect result. Record what happened.
 
 188
 00:09:11,500 --> 00:09:13,133
@@ -822,9 +760,7 @@ Was the next action unclear?
 
 191
 00:09:17,800 --> 00:09:21,300
-Were you waiting?
-
-Did the task become uncomfortable?
+Were you waiting? Did the task become uncomfortable?
 
 192
 00:09:21,433 --> 00:09:24,767
@@ -836,9 +772,7 @@ The experiment is not asking, “
 
 194
 00:09:26,967 --> 00:09:29,600
-How addicted am I?”
-
-It is asking:
+How addicted am I?” It is asking:
 
 195
 00:09:29,667 --> 00:09:32,833
@@ -854,9 +788,7 @@ Turning off notifications
 
 198
 00:09:38,167 --> 00:09:42,067
-is useful.
-
-It closes the door your phone opens for you.
+is useful. It closes the door your phone opens for you.
 
 199
 00:09:42,067 --> 00:09:45,233
