@@ -2,6 +2,7 @@ import React from "react";
 import {AbsoluteFill, Audio, interpolate, Sequence, staticFile, useCurrentFrame} from "remotion";
 import {timing} from "./timing";
 import {CompositionC01} from "./CompositionC01";
+import {CompositionC02} from "./CompositionC02";
 
 const CREAM = "#f8eddd";
 const GRAPHITE = "#263238";
@@ -50,6 +51,14 @@ export const Video002Segment: React.FC<SegmentProps> = ({compositionId}) => {
       <AbsoluteFill>
         <Audio src={staticFile("audio/video002-narration-combined-repaired-v2.wav")} trimBefore={composition.startFrame} trimAfter={composition.endFrame} />
         <CompositionC01 />
+      </AbsoluteFill>
+    );
+  }
+  if (compositionId === "C02") {
+    return (
+      <AbsoluteFill>
+        <Audio src={staticFile("audio/video002-narration-combined-repaired-v2.wav")} trimBefore={composition.startFrame} trimAfter={composition.endFrame} />
+        <CompositionC02 />
       </AbsoluteFill>
     );
   }
