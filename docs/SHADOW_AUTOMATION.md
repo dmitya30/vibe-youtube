@@ -230,3 +230,7 @@ Classification:
 Prompt and narration builders must reject artificial line breaks inside sentences or intentional spoken phrases. Display-oriented prose wrapping can alter TTS phrasing, stress, pacing and pronunciation.
 
 Validation should distinguish intentional blank-line paragraph boundaries from width-based line wrapping.
+
+## Persistent patch-execution contract
+
+The root `AGENTS.md` file records mandatory execution behavior that must survive dialogue compression. It requires one-block patches, explicit working-directory changes, no heredocs, no shell-closing commands, schema inspection before patch generation, literal Remotion asset references, validation before rendering and immediate execution of the next actionable gate.

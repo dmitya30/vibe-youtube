@@ -271,3 +271,7 @@ Production work и repository maintenance по возможности комми
   timing design, reuse planning and controlled visual variation.
 - `CONTEXT.md` links the current project stage without duplicating full
   operational plans.
+
+## Assistant execution contract
+
+`AGENTS.md` at the repository root is the mandatory first-read operational contract for Git Bash patch delivery, context restoration, validation and Remotion asset handling.

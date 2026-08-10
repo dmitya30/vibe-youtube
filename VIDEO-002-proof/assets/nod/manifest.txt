@@ -1,0 +1,37 @@
+PROJECT: VIDEO-002
+ASSET SET: NOD production source frames
+SERVICE: Genspark
+MODEL: gpt-image-2
+STYLE: cinematic pseudo-3D paper-and-clay editorial frame
+IDENTITY REFERENCE: VIDEO-001-proof/assets/nod/nod-canonical-v1.jpg
+STYLE REFERENCE: VIDEO-001-proof/assets/nod/styleframe-desk-notification-v1.jpg
+
+C01 CLEAN DESK FRAME
+FILE: video002-c01-silent-desk-clean-v1.jpg
+STATUS: ACCEPTED
+PURPOSE: S03 silent face-down phone state
+RESOLUTION: 2048x1152
+CODEC: MJPEG
+PIXEL FORMAT: yuvj420p
+SHA256: bf8ed0c5e68a06ff833c363fbb1e3eb28708e6a30154b075965e67dd5da24b3e
+NOTES: NOD identity, face-down phone, left negative space, lighting, materials and composition accepted.
+
+C01 REACH FRAME V1
+FILE: video002-c01-silent-desk-reach-v1.jpg
+STATUS: REJECTED_POSE_DELTA_TOO_SMALL
+PURPOSE: attempted S04 reach state
+SHA256: f4c28398e60acc72ad3ea2300bb116f5efd35f34dc262d273ea88519e8d30438
+NOTES: Identity and environment continuity passed, but the hand movement is too small to communicate an intentional reach.
+
+STYLE DECISION
+STATUS: ACCEPTED
+DECISION: VIDEO-002 uses the deeper cinematic pseudo-3D visual system shown in the accepted clean frame.
+CONTINUITY: Compatible with the approved VIDEO-001 cinematic material, lighting and NOD identity system.
+POLICY: Local JPG source frames remain ignored by Git; this manifest preserves filenames, hashes, lifecycle state and production decisions.
+
+C01 REACH FRAME V2
+FILE: video002-c01-silent-desk-reach-v2.jpg
+STATUS: ACCEPTED_WITH_MASKED_TRANSITION
+PURPOSE: S04 intentional silent reach
+SHA256: 1997202eaa98d764d9e5bb825e19a1e2cfc30d51b167a9d6a7d465eba7b7f7e0
+NOTES: Reach direction and action readability passed. Minor generated-frame pose drift will be hidden by a short Remotion transition.

@@ -232,3 +232,14 @@ Do not begin broad asset generation until the remaining script/timing artifact c
 Next gate:
 
 `MAP S01-S53 TO ACCEPTED AUDIO TIMESTAMPS / LOCK PRODUCTION COMPOSITIONS / START CONTROLLED ASSET WORK`
+
+## C01 production source-art checkpoint
+
+- The geometric C01 render is classified as a layout animatic only and is not accepted production artwork.
+- The accepted production direction is cinematic pseudo-3D with warm cream, graphite, muted green and restrained orange, using tactile paper-and-clay materials and soft directional lighting.
+- `video002-c01-silent-desk-clean-v1.jpg` is accepted for S03 at 2048×1152. NOD identity, face-down phone, negative space and environment passed QA.
+- `video002-c01-silent-desk-reach-v1.jpg` is rejected because the pose delta is too small to communicate the S04 reach.
+- The deeper and more colorful frame remains compatible with the approved VIDEO-001 NOD identity and cinematic material system.
+- Production JPG files remain local and ignored; hashes and lifecycle states are recorded in `VIDEO-002-proof/assets/nod/manifest.txt`.
+
+- C01 reach edit v2 is accepted for S04. The reach is readable and the phone remains face down. Minor pose drift from the clean frame must be hidden with a short deterministic transition rather than a long crossfade.

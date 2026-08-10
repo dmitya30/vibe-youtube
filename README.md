@@ -74,3 +74,7 @@
 - raster images;
 - render outputs and contact sheets;
 - caches, temporary files and secrets.
+
+## Automation execution contract
+
+All assistant-generated operational patches must follow [AGENTS.md](AGENTS.md). This file must be read first after any context restoration or dialogue compression.

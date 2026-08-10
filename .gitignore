@@ -60,3 +60,9 @@ VIDEO-002-proof/audio/*.srt
 VIDEO-002-proof/audio/*.json
 VIDEO-002-proof/captions/video002-capcut-raw-*.srt
 VIDEO-002-proof/captions/video002-capcut-raw-*.json
+
+# VIDEO-002 Remotion generated directories
+VIDEO-002-proof/remotion/node_modules/
+VIDEO-002-proof/remotion/public/
+VIDEO-002-proof/remotion/out/
+VIDEO-002-proof/remotion/dist/
