@@ -81,3 +81,9 @@ This file is the first operational source of truth after any dialogue compressio
 - If the exact content of an uncommitted local file is missing after dialogue compression and cannot be recovered from the repository, ask the user to attach or paste the current file before generating a patch.
 - Never reconstruct or modify an unavailable local file by guessing its JSX structure, identifiers, displayed text, or previous assistant output.
 - Repository synchronization does not replace inspection of newer uncommitted local work.
+
+## Production visual-QA artifacts
+
+- Standalone preflight PNG frames must not be generated for production compositions.
+- Production visual QA uses the rendered MP4 and its contact sheet.
+- The normal gate sequence is lint, runtime-asset validation, MP4 render, contact-sheet generation and human visual QA.
