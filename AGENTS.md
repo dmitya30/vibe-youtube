@@ -75,3 +75,9 @@ This file is the first operational source of truth after any dialogue compressio
 - Never combine failure and success reporting in shell control flow that can print PASS after an exception.
 - Production compositions must not contain debug progress indicators or other non-editorial diagnostic UI.
 - Full render is forbidden until schema, ownership, asset, lint and sampled-still gates pass.
+
+## Uncommitted local-file recovery after context compression
+
+- If the exact content of an uncommitted local file is missing after dialogue compression and cannot be recovered from the repository, ask the user to attach or paste the current file before generating a patch.
+- Never reconstruct or modify an unavailable local file by guessing its JSX structure, identifiers, displayed text, or previous assistant output.
+- Repository synchronization does not replace inspection of newer uncommitted local work.
