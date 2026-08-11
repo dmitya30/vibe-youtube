@@ -9,6 +9,7 @@ import {CompositionC05} from "./CompositionC05";
 import {CompositionC06} from "./CompositionC06";
 import {CompositionC07} from "./CompositionC07";
 import {CompositionC08} from "./CompositionC08";
+import {CompositionC09} from "./CompositionC09";
 
 const CREAM = "#f8eddd";
 const GRAPHITE = "#263238";
@@ -113,6 +114,14 @@ export const Video002Segment: React.FC<SegmentProps> = ({compositionId}) => {
       <AbsoluteFill>
         <Audio src={staticFile("audio/video002-narration-combined-repaired-v2.wav")} trimBefore={composition.startFrame} trimAfter={composition.endFrame} />
         <CompositionC08 />
+      </AbsoluteFill>
+    );
+  }
+  if (compositionId === "C09") {
+    return (
+      <AbsoluteFill>
+        <Audio src={staticFile("audio/video002-narration-combined-repaired-v2.wav")} trimBefore={composition.startFrame} trimAfter={composition.endFrame} />
+        <CompositionC09 />
       </AbsoluteFill>
     );
   }
