@@ -16,6 +16,9 @@ import {CompositionC12} from "./CompositionC12";
 import {CompositionC13} from "./CompositionC13";
 import {CompositionC14} from "./CompositionC14";
 import {CompositionC15} from "./CompositionC15";
+import {CompositionC16} from "./CompositionC16";
+import {CompositionC17} from "./CompositionC17";
+import {CompositionC18} from "./CompositionC18";
 
 const CREAM = "#f8eddd";
 const GRAPHITE = "#263238";
@@ -176,6 +179,30 @@ export const Video002Segment: React.FC<SegmentProps> = ({compositionId}) => {
       <AbsoluteFill>
         <Audio src={staticFile("audio/video002-narration-combined-repaired-v2.wav")} trimBefore={composition.startFrame} trimAfter={composition.endFrame} />
         <CompositionC15 />
+      </AbsoluteFill>
+    );
+  }
+  if (compositionId === "C16") {
+    return (
+      <AbsoluteFill>
+        <Audio src={staticFile("audio/video002-narration-combined-repaired-v2.wav")} trimBefore={composition.startFrame} trimAfter={composition.endFrame} />
+        <CompositionC16 />
+      </AbsoluteFill>
+    );
+  }
+  if (compositionId === "C17") {
+    return (
+      <AbsoluteFill>
+        <Audio src={staticFile("audio/video002-narration-combined-repaired-v2.wav")} trimBefore={composition.startFrame} trimAfter={composition.endFrame} />
+        <CompositionC17 />
+      </AbsoluteFill>
+    );
+  }
+  if (compositionId === "C18") {
+    return (
+      <AbsoluteFill>
+        <Audio src={staticFile("audio/video002-narration-combined-repaired-v2.wav")} trimBefore={composition.startFrame} trimAfter={composition.endFrame} />
+        <CompositionC18 />
       </AbsoluteFill>
     );
   }
