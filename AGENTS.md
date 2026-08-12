@@ -87,3 +87,10 @@ This file is the first operational source of truth after any dialogue compressio
 - Standalone preflight PNG frames must not be generated for production compositions.
 - Production visual QA uses the rendered MP4 and its contact sheet.
 - The normal gate sequence is lint, runtime-asset validation, MP4 render, contact-sheet generation and human visual QA.
+
+## Composition grouping and batch production
+
+- Prefer fewer production compositions by grouping multiple adjacent semantic scenes when timing, visual continuity and implementation complexity allow it.
+- Do not default to one production composition per semantic scene.
+- Batch the source validation, lint and sequential rendering of multiple compositions before one shared visual-QA stop-point when this does not weaken defect isolation.
+- Do not change an already locked timing manifest merely to reduce the number of compositions.
