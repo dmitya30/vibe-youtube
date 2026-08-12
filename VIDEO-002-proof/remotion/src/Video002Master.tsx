@@ -19,6 +19,8 @@ import {CompositionC15} from "./CompositionC15";
 import {CompositionC16} from "./CompositionC16";
 import {CompositionC17} from "./CompositionC17";
 import {CompositionC18} from "./CompositionC18";
+import {CompositionC19} from "./CompositionC19";
+import {CompositionC20} from "./CompositionC20";
 
 const CREAM = "#f8eddd";
 const GRAPHITE = "#263238";
@@ -203,6 +205,22 @@ export const Video002Segment: React.FC<SegmentProps> = ({compositionId}) => {
       <AbsoluteFill>
         <Audio src={staticFile("audio/video002-narration-combined-repaired-v2.wav")} trimBefore={composition.startFrame} trimAfter={composition.endFrame} />
         <CompositionC18 />
+      </AbsoluteFill>
+    );
+  }
+  if (compositionId === "C19") {
+    return (
+      <AbsoluteFill>
+        <Audio src={staticFile("audio/video002-narration-combined-repaired-v2.wav")} trimBefore={composition.startFrame} trimAfter={composition.endFrame} />
+        <CompositionC19 />
+      </AbsoluteFill>
+    );
+  }
+  if (compositionId === "C20") {
+    return (
+      <AbsoluteFill>
+        <Audio src={staticFile("audio/video002-narration-combined-repaired-v2.wav")} trimBefore={composition.startFrame} trimAfter={composition.endFrame} />
+        <CompositionC20 />
       </AbsoluteFill>
     );
   }
