@@ -1,6 +1,6 @@
 # VIDEO-002 — Production Implementation Plan
 
-Status: CONTROLLED IMPLEMENTATION STARTED
+Status: PRODUCTION MASTER ACCEPTED / PACKAGING NEXT
 
 ## Rendering strategy
 
@@ -77,3 +77,15 @@ No Kling generation begins until the static Remotion implementation passes scene
 - Clean frame and reach v2 integration: PASS.
 - Remaining visual correction: remove visible heading overlap during the S01 to S02 transition.
 - Current C01 status: PRODUCTION DIRECTION PASS / TRANSITION POLISH REQUIRED.
+## Accepted production master
+
+- Source compositions: C01-C20 complete and accepted.
+- Canonical segment versions: `video002-accepted-segment-map-v1.txt`.
+- Assembly: FFmpeg concat with video stream copy; segment audio discarded.
+- Audio: original continuous `video002-narration-combined-repaired-v2.wav`, encoded once to AAC.
+- Master: local `out/video002-master-production-v1.mp4`.
+- Contact sheet: local `out/video002-master-contact-sheet-v1.jpg`.
+- Technical QA: 18513 frames, 1920x1080, 30 fps, H.264 video, AAC 24 kHz mono audio.
+- Playback and contact-sheet QA: PASS.
+- Frames 11938-11940: accepted intentional C11-to-C12 fade, not a missing-frame defect.
+- Production master status: ACCEPTED.
