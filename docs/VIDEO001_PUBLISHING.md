@@ -302,22 +302,30 @@ Public on the Fewer Exits channel.
 
 Status:
 
-`72H SNAPSHOT PENDING / 2026-08-08`
+`DELAYED 8–9 DAY SNAPSHOT RECORDED / BASELINE LOCKED`
 
-Early public observations include owner-associated and personally seeded
-traffic. The exact number of those views cannot be separated reliably from
-organic traffic.
+The planned 72-hour checkpoint was missed. The recovered snapshot covers 2026-08-05 through 2026-08-13 and was captured on 2026-08-14 from two CSV exports and eight YouTube Studio screenshots.
 
-Interpretation flags:
+Key observations:
 
-- `KNOWN_SEEDED_TRAFFIC_PRESENT=YES`
-- `KNOWN_OWNER_ASSOCIATED_VIEWS=NOT_QUANTIFIABLE`
-- `EARLY_SAMPLE=CONTAMINATED_FOR_ORGANIC_INFERENCE`
+- 26 views;
+- 19 unique viewers;
+- 581 impressions;
+- 2.6% impressions CTR;
+- 1.0 hours watch time, rounded;
+- average view duration 2:14;
+- average percentage viewed 21.3%;
+- retention at 0:31: 38%;
+- subscribers gained: +1;
+- 98.1% of impressions appeared in YouTube recommendation surfaces;
+- 15 views and 0.4 watch hours resulted from thumbnail impressions;
+- impressions-derived average view duration: 1:35.
 
-The snapshot should record impressions, CTR, views, watch time, average view
-duration, average percentage viewed, retention, subscribers, traffic sources,
-geography and available search terms. No packaging change should be justified
-from the small seeded sample alone.
+The initial recommendation test was small and stopped expanding after the first several days. Packaging is a weak signal and the first-31-second retention is classified as a failed first benchmark. The sample remains too small and partially seeded for stable channel-level inference.
+
+Canonical evidence, interpretation boundaries and next actions belong to [`VIDEO001_ANALYTICS.md`](VIDEO001_ANALYTICS.md).
+
+No packaging change was included in the baseline documentation commit. Any later intervention must change one variable at a time.
 
 Automatic dubbing cleanup completed on 2026-08-07:
 
@@ -325,3 +333,7 @@ Automatic dubbing cleanup completed on 2026-08-07:
 - all experimental auto-dub audio tracks deleted;
 - all experimental translated titles/descriptions deleted;
 - reviewed English SRT retained.
+
+Record ID:
+
+`VIDEO001_ANALYTICS_RECOVERY_2026_08_14`

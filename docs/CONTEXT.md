@@ -121,3 +121,25 @@ otherwise.
 
 Automatic dubbing is disabled. All experimental auto-dub tracks and translated
 titles/descriptions created before this checkpoint were deleted.
+
+
+## 8. Analytics and cadence correction — 2026-08-14
+
+Record ID:
+
+`VIDEO001_ANALYTICS_RECOVERY_2026_08_14`
+
+The delayed VIDEO-001 snapshot is now recorded in [`VIDEO001_ANALYTICS.md`](VIDEO001_ANALYTICS.md). The planned 72-hour checkpoint was missed; the recovered range covers 2026-08-05 through 2026-08-13.
+
+The initial benchmark produced 26 views from 581 impressions, 2.6% CTR, 2:14 average view duration, 21.3% average percentage viewed and 38% retention at 0:31. These are weak early signals, not proof that the channel can never work. They do establish that the current topic-packaging-opening combination did not earn broader distribution in its first small recommendation test.
+
+The active operating correction is:
+
+1. increase validated hypothesis throughput;
+2. design packaging before full production;
+3. gate the first 30 seconds separately;
+4. automate repeatable technical work;
+5. preserve human editorial and publication decisions;
+6. avoid another nine-day cycle before the next analytics checkpoint.
+
+VIDEO-002 used a deterministic-heavy Remotion implementation with a small number of bespoke generated cinematic assets. Its visual-watchability risk is real but unproven and must be evaluated from VIDEO-002 retention rather than asset count alone.

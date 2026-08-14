@@ -259,6 +259,7 @@ Production work и repository maintenance по возможности комми
 
 ## 9. Operational planning documents
 
+- `VIDEO001_ANALYTICS.md` is the canonical source for the recovered VIDEO-001 analytics baseline, evidence limits, diagnosis and intervention boundary.
 - `ROADMAP_30D.md` is the canonical source for the active execution horizon,
   cadence, Day-30 targets, backlog and stop conditions.
 - `SHADOW_AUTOMATION.md` defines production-time, cost, retry, defect and

@@ -411,21 +411,46 @@ Generic psychology and practical philosophy are not standalone launch strategies
 
 # VIDEO-001 — Post-launch monitoring
 
-Status: active
+Status: delayed 8–9 day snapshot recorded
 
 - Public URL: https://youtu.be/ow_eUmvptuM
 - Public launch: 2026-08-05
-- 72-hour analytics snapshot: pending 2026-08-08
+- Planned 72-hour checkpoint: missed
+- Recovered range: 2026-08-05 through 2026-08-13
+- Capture date: 2026-08-14
+- Evidence: two CSV exports and eight YouTube Studio screenshots
+- Views: 26
+- Unique viewers: 19
+- Impressions: 581
+- CTR: 2.6%
+- Watch time: 1.0 hours, rounded
+- Average view duration: 2:14
+- Average percentage viewed: 21.3%
+- Retention at 0:31: 38%
+- Subscribers gained: +1
+- Impressions shown in recommendation surfaces: 98.1%
+- Views from thumbnail impressions: 15
+- Average view duration from impressions: 1:35
+- Watch time from impressions: 0.4 hours
 - Known seeded traffic: present
 - Owner-associated views: not quantifiable
-- Timeline chapters: deferred pending Advanced features
-- Comment: published; pinning unavailable
-- Automatic dubbing: disabled
-- Experimental auto-dub tracks: deleted
-- Experimental translated titles/descriptions: deleted
 
-The 72-hour snapshot is descriptive. The early sample is too small and partly
-seeded, so it must not be treated as clean organic evidence.
+Result:
+
+- distribution: `FAIL_LOW_IMPRESSIONS`;
+- packaging: `WEAK_SIGNAL`;
+- first-31-second retention: `FAIL`;
+- organic demand: `NOT_ESTABLISHED`;
+- monetization trajectory: far below the stretch milestone;
+- baseline: locked before any packaging intervention.
+
+The platform provided a small recommendation test, but the combination of 2.6% CTR and weak impressions-derived watch duration did not support wider distribution. The largest negative signal is the fall to 38% by 0:31.
+
+Canonical record: [`VIDEO001_ANALYTICS.md`](VIDEO001_ANALYTICS.md).
+
+Record ID:
+
+`VIDEO001_ANALYTICS_RECOVERY_2026_08_14`
 
 ---
 

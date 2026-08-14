@@ -238,3 +238,64 @@ The root `AGENTS.md` file records mandatory execution behavior that must survive
 ## Video pipeline compiler
 
 The failure catalog, compiler input contract, validation gates, agent-role design and VIDEO-003 shadow-compilation strategy are maintained in [VIDEO_PIPELINE_COMPILER.md](VIDEO_PIPELINE_COMPILER.md). Repeated production defects must become regression controls there.
+
+
+## 13. VIDEO-002 production-form assessment
+
+Record ID:
+
+`VIDEO001_ANALYTICS_RECOVERY_2026_08_14`
+
+VIDEO-002 completed 53 timed semantic scenes through 20 Remotion production compositions. A small number of bespoke generated cinematic assets were combined with deterministic diagrams, typography, layouts and controlled motion.
+
+This is not classified as a production failure based on asset count. Remotion scenes can provide meaningful visual progression without continuous generative footage. The unresolved risk is insufficient emotional, spatial or textural variation across longer explanatory passages.
+
+Classification:
+
+`VIDEO002_VISUAL_WATCHABILITY_RISK=REAL_BUT_UNPROVEN`
+
+Required evaluation:
+
+- first-30-second retention;
+- retention around major visual transitions;
+- dips during typography-heavy or diagram-heavy sections;
+- average percentage viewed;
+- comparison between direct and recommendation-derived viewing where available.
+
+Do not add generative clips merely to increase the number of unique assets. Add them only when they improve narrative clarity, emotion, physical action, spatial change or pattern interruption.
+
+## 14. Acceleration decision for VIDEO-003
+
+The nine-day interval between VIDEO-001 and VIDEO-002 is too slow for the active Day-30 output objective.
+
+Pipeline priority:
+
+`FASTER_VALIDATED_HYPOTHESIS_THROUGHPUT`
+
+Automation should immediately target:
+
+1. project scaffolding;
+2. structured research and claim-table checks;
+3. script-to-narration completeness;
+4. timing and scene-manifest validation;
+5. asset existence and synchronization;
+6. lint and TypeScript orchestration;
+7. deterministic sequential rendering;
+8. contact-sheet generation;
+9. FFmpeg and ffprobe reports;
+10. captions and publication manifests;
+11. analytics checkpoint reminders and snapshot templates.
+
+Human approval remains mandatory for:
+
+- topic demand and strategic fit;
+- promise and title;
+- thumbnail direction;
+- claims and script meaning;
+- cold-open effectiveness;
+- visual watchability;
+- final playback;
+- publication;
+- interpretation of analytics.
+
+The objective is not unattended mass generation. The objective is to compress repeated technical work so that VIDEO-003 can be completed in approximately two to three working days without lowering the editorial and technical gates.

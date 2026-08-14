@@ -144,3 +144,34 @@ traffic sources, geography and available search terms.
 - localization: deferred backlog.
 
 No automatic translation or dubbing should be published without human review.
+
+
+## 9. Analytics recovery and cadence correction
+
+Record ID:
+
+`VIDEO001_ANALYTICS_RECOVERY_2026_08_14`
+
+The VIDEO-001 72-hour checkpoint was missed. A delayed snapshot covering 2026-08-05 through 2026-08-13 has now been recorded in [`VIDEO001_ANALYTICS.md`](VIDEO001_ANALYTICS.md).
+
+The recovered evidence shows 26 views, 581 impressions, 2.6% CTR, 2:14 average view duration, 21.3% average percentage viewed and 38% retention at 0:31. Distribution, packaging and opening retention did not meet the working expectations for the first benchmark.
+
+Revised Day-30 feasibility:
+
+- 4 public long-form videos: feasible but at risk;
+- 6 public long-form videos: high risk;
+- 8 public long-form videos: not realistic with the current production cycle;
+- 1,000 subscribers and 4,000 public watch hours: stretch milestone only, not a Day-30 forecast.
+
+Execution correction:
+
+1. VIDEO-003 must begin with demand, promise, title and thumbnail direction.
+2. Target runtime is 6–8 minutes unless the topic requires more.
+3. The first 10–15 seconds must establish conflict and promise.
+4. The first 30 seconds require a separate human editorial and visual QA gate.
+5. Reusable technical operations should be automated now.
+6. Maximum production complexity is not a goal.
+7. The next analytics checkpoint must not be delayed by production work.
+8. At least two additional public benchmark videos remain the minimum Day-30 objective.
+
+Production speed may increase only by reducing rework and automating mechanical tasks. Research integrity, claim review, originality, playback QA, packaging judgment and human publication approval remain mandatory.
