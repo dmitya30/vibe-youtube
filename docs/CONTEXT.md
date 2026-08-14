@@ -1,7 +1,7 @@
 # Project Context
 
-Updated: 2026-08-10
-Status: VIDEO-001 Public / VIDEO-002 narration and captions passed / scene timing active
+Updated: 2026-08-14
+Status: VIDEO-001 and VIDEO-002 Public / VIDEO-003 planning next
 Source of truth for project-level context
 
 ## 1. Goal
@@ -68,17 +68,21 @@ AdSense не является единственной моделью.
 
 ## 6. Current stage
 
-The Fewer Exits channel and VIDEO-001 are Public. Launch and platform QA are
-complete. Canonical launch details belong to
-[`CHANNEL_LAUNCH.md`](CHANNEL_LAUNCH.md) and
-[`VIDEO001_PUBLISHING.md`](VIDEO001_PUBLISHING.md).
+The Fewer Exits channel, VIDEO-001 and VIDEO-002 are Public. Launch and platform QA are complete for both videos. Canonical VIDEO-001 launch details belong to [`CHANNEL_LAUNCH.md`](CHANNEL_LAUNCH.md) and [`VIDEO001_PUBLISHING.md`](VIDEO001_PUBLISHING.md). Canonical VIDEO-002 launch details belong to [`VIDEO002_PUBLISHING.md`](VIDEO002_PUBLISHING.md).
+
+VIDEO-002 publication record:
+
+- Video ID: `C63q7i5GDI8`;
+- Public URL: `https://youtu.be/C63q7i5GDI8`;
+- public launch: 2026-08-14;
+- platform QA: PASS.
 
 The active workstream is:
 
-1. VIDEO-001 post-launch monitoring;
-2. VIDEO-002 scene timing, assets and Remotion production after narration/caption PASS;
-3. Shadow Automation measurement;
-4. preparation for the Day-30 checkpoint on 2026-08-27.
+1. VIDEO-001 and VIDEO-002 post-launch monitoring;
+2. complete the VIDEO-002 Shadow Automation summary;
+3. begin VIDEO-003 topic and production planning;
+4. prepare for the Day-30 checkpoint on 2026-08-27.
 
 The output target, cadence, growth milestones, backlog and stop conditions
 belong to [`ROADMAP_30D.md`](ROADMAP_30D.md).

@@ -1,6 +1,6 @@
 # Experiments
 
-Updated: 2026-08-07
+Updated: 2026-08-14
 
 ## Experiment format
 
@@ -431,7 +431,7 @@ seeded, so it must not be treated as clean organic evidence.
 
 # VIDEO-002 — Phone Checking Exit
 
-Status: NARRATION MASTER PASS / CAPTIONS PASS / SCENE TIMING NEXT
+Status: PUBLIC / LIVE / PLATFORM QA PASS
 
 ## Locked hypothesis
 
@@ -450,13 +450,16 @@ Explain why silence and closure are different, then provide one bounded
 25-minute Silent Door Test without addiction diagnoses, dopamine reductionism
 or guaranteed outcomes.
 
-## Working packaging
+## Published packaging
 
-- title: `Turning Off Notifications Won't Fix Your Phone Habit`
-- thumbnail: `STILL CHECKING?`
-- target duration: 8–10 minutes.
+- title: `Turning Off Notifications Won't Fix Your Phone Habit`;
+- launch thumbnail: B / `STILL CHECKING?`;
+- Video ID: `C63q7i5GDI8`;
+- Public URL: `https://youtu.be/C63q7i5GDI8`;
+- public launch: 2026-08-14;
+- platform QA: PASS.
 
-Packaging remains working until script and promise-match review.
+The title, description and launch thumbnail are locked for the initial observation window. A/B/C platform thumbnail testing is deferred until channel eligibility becomes available.
 
 ## Research record
 
@@ -471,6 +474,6 @@ Canonical production documents:
 
 ## Pipeline objective
 
-VIDEO-002 remains the second manual benchmark and the active Shadow Automation test. Narration and caption timing passed after detection and correction of a Gemini TTS omission. The next gate is correction of remaining script/timing artifacts followed by mapping the accepted audio to the S01-S53 scene manifest.
+VIDEO-002 is the second completed manual benchmark and Shadow Automation test. Narration, captions, locked S01–S53 timing, production master, packaging and YouTube platform QA passed. The next pipeline task is to complete the automation summary and apply the measured lessons to VIDEO-003 without removing human editorial and publication gates.
 
 Canonical narration, TTS-risk and caption records belong to [`VIDEO002_NARRATION.md`](VIDEO002_NARRATION.md).

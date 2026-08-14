@@ -1,6 +1,6 @@
 # VIDEO-002 publication packet
 
-Status: VERIFIED / NOT YET UPLOADED
+Status: VERIFIED / PUBLISHED
 Created: 2026-08-14
 
 Initial YouTube thumbnail: B — `thumbnail-b-still-checking-v1.jpg`.
@@ -19,4 +19,12 @@ Ignored local payload:
 
 External backup: `~/vibe-youtube-publish-staging/VIDEO-002`.
 
-Next gate: manual Private upload and YouTube platform QA.
+Publication record:
+
+- Video ID: `C63q7i5GDI8`.
+- Public URL: `https://youtu.be/C63q7i5GDI8`.
+- Public launch: 2026-08-14.
+- Thumbnail B, 1080p playback, captions, timestamps, metadata and incognito playback: PASS.
+- Launch comment: published; pinning unavailable and accepted.
+
+Next gate: post-launch monitoring without changing multiple packaging variables on a small sample.

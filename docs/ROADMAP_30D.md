@@ -1,6 +1,6 @@
 # 30-Day Execution Roadmap
 
-Updated: 2026-08-07
+Updated: 2026-08-14
 Status: active
 Owner: project strategy and production cadence
 
@@ -9,7 +9,8 @@ Owner: project strategy and production cadence
 - Project research start: 2026-07-29.
 - Day-30 checkpoint: 2026-08-27.
 - VIDEO-001 public launch: 2026-08-05.
-- Current execution priority: VIDEO-002 plus Shadow Automation.
+- VIDEO-002 public launch: 2026-08-14.
+- Current execution priority: VIDEO-002 post-launch record, Shadow Automation summary and VIDEO-003.
 - VIDEO-001 72-hour analytics checkpoint: 2026-08-08.
 
 The Day-30 checkpoint evaluates output, audience evidence, production cost and
@@ -57,10 +58,10 @@ Official references:
 
 ### P0
 
-1. Produce VIDEO-002 as the second manual benchmark.
-2. Run Shadow Automation during the entire VIDEO-002 cycle.
-3. Capture the VIDEO-001 72-hour analytics snapshot.
-4. Preserve editorial and QA gates while shortening the production cycle.
+1. Preserve VIDEO-002 as the second completed manual benchmark.
+2. Complete the VIDEO-002 Shadow Automation summary.
+3. Capture the pending VIDEO-001 analytics snapshot and begin VIDEO-002 monitoring.
+4. Start VIDEO-003 while preserving editorial and QA gates.
 
 ### P1
 
@@ -85,16 +86,19 @@ separate decision after more long-form production evidence exists.
 
 Status:
 
-`NARRATION MASTER PASS / CAPTIONS PASS / SCENE TIMING NEXT`
+`PUBLIC / LIVE / PLATFORM QA PASS`
 
 Locked direction:
 
 - notifications off does not necessarily close the checking exit;
-- working title: `Turning Off Notifications Won't Fix Your Phone Habit`;
-- working thumbnail: `STILL CHECKING?`;
-- practical deliverable: one 25-minute Silent Door Test.
+- published title: `Turning Off Notifications Won't Fix Your Phone Habit`;
+- launch thumbnail: B / `STILL CHECKING?`;
+- practical deliverable: one 25-minute Silent Door Test;
+- Public URL: `https://youtu.be/C63q7i5GDI8`;
+- public launch: 2026-08-14;
+- platform QA: PASS.
 
-The script promise-match review passed. The title and thumbnail remain working locks until final packaging review. Canonical research belongs to [`VIDEO002_RESEARCH.md`](VIDEO002_RESEARCH.md), and narration/caption QA belongs to [`VIDEO002_NARRATION.md`](VIDEO002_NARRATION.md).
+VIDEO-002 production and publication are complete. Canonical publication details belong to [`VIDEO002_PUBLISHING.md`](VIDEO002_PUBLISHING.md). Do not change multiple packaging variables from a small initial sample.
 
 ## 6. Quality stop conditions
 

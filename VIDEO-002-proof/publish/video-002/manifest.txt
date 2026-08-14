@@ -1,5 +1,5 @@
 VIDEO-002 PUBLICATION PACKET
-Status: VERIFIED / NOT YET UPLOADED
+Status: VERIFIED / PUBLISHED
 Created: 2026-08-14
 Repository base commit: 6cfad07dbb8ae537006cdc36a9b41abb5315bee5
 External backup: ~/vibe-youtube-publish-staging/VIDEO-002
@@ -35,5 +35,16 @@ Metadata:
 - title, description and launch comment: LOCKED
 
 Publication:
-- first upload visibility: Private
-- platform QA: PENDING
+- YouTube channel: Fewer Exits / @fewerexits
+- Video ID: C63q7i5GDI8
+- Public URL: https://youtu.be/C63q7i5GDI8
+- public launch date: 2026-08-14
+- visibility: Public
+- launch thumbnail: B / thumbnail-b-still-checking-v1.jpg
+- processing and 1080p playback: PASS
+- public incognito playback: PASS
+- reviewed English captions: PASS
+- description and timestamps: PASS
+- launch comment: PUBLISHED
+- comment pinning: UNAVAILABLE_ACCEPTED
+- platform QA: PASS

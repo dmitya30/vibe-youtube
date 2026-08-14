@@ -1,8 +1,27 @@
 # VIDEO-002 — Publishing package
 
 Updated: 2026-08-14
-Status: PACKAGING LOCKED / SINGLE THUMBNAIL B SELECTED / PRIVATE UPLOAD NEXT
+Status: PUBLIC / LIVE / PLATFORM QA PASS
 Repository base commit: 6cfad07dbb8ae537006cdc36a9b41abb5315bee5
+
+## Platform publication record
+
+- YouTube channel: `Fewer Exits`.
+- Handle: `@fewerexits`.
+- Video ID: `C63q7i5GDI8`.
+- Public URL: `https://youtu.be/C63q7i5GDI8`.
+- Visibility: Public.
+- Public launch date: 2026-08-14.
+- Processing and 1080p playback: PASS.
+- Public incognito playback: PASS.
+- Launch thumbnail: B — `thumbnail-b-still-checking-v1.jpg` / `STILL CHECKING?`.
+- Reviewed English SRT: published and playback verified.
+- Description, research links and timestamps: PASS.
+- Launch comment: published.
+- Comment pinning: unavailable pending channel eligibility.
+- Channel page: VIDEO-001 and VIDEO-002 both visible.
+- YouTube Checks: PASS / no blocking restrictions reported.
+- A/B/C platform thumbnail testing: deferred pending channel eligibility.
 
 ## 1. Working title
 
@@ -100,6 +119,8 @@ If you try the 25-minute Silent Door Test, count the reaches you notice — not 
 - Tracked manifest: `VIDEO-002-proof/publish/video-002/manifest.txt`.
 - External backup: `~/vibe-youtube-publish-staging/VIDEO-002`.
 
-## 7. Next gate
+## 7. Post-launch monitoring
 
-Upload VIDEO-002 manually through YouTube Studio with visibility set to Private. Use candidate B as the thumbnail. Verify processing, 1080p playback, audio, reviewed English captions, timestamps, links and metadata before public release.
+VIDEO-002 is Public and platform QA is complete. Preserve the launch title, description and thumbnail B during the initial observation window unless a material defect appears.
+
+Record impressions, CTR by traffic source, views, watch time, average view duration, average percentage viewed, first-30-second retention, retention dips and spikes, subscribers, traffic sources, geography, available search terms and meaningful comments. Do not infer packaging performance from a very small or owner-seeded sample.
