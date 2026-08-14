@@ -1,0 +1,39 @@
+VIDEO-002 PUBLICATION PACKET
+Status: VERIFIED / NOT YET UPLOADED
+Created: 2026-08-14
+Repository base commit: 6cfad07dbb8ae537006cdc36a9b41abb5315bee5
+External backup: ~/vibe-youtube-publish-staging/VIDEO-002
+
+SHA256  BYTES  RELATIVE PATH
+1adedab54ccae0e4f996bbd5993f03e12ed8cc87cb361dfa672c4cbb1872a75f  49259863  local/video-002-master-v1.mp4
+43d217cc0531774b507fb4f01446539735f827c872aed0af0943e3d9ae09b8a3  89149  local/thumbnails/thumbnail-a-silent-reach-v1.jpg
+99a80c7e94ec5dbf81f0018bd7ff819c89e45c0a002b3fddb34ea0956104c169  90241  local/thumbnails/thumbnail-b-still-checking-v1.jpg
+6629e2892809c2530568eb3d781cf527681067572e86d928214fcb232df4682c  94346  local/thumbnails/thumbnail-c-still-open-v1.jpg
+534ca0bb17b7b32ca1e389cdd301f1a24b4dcfeae0e45eece09c816b3e496ff0  15824  local/video002-en-v1.srt
+b9146c65f1f1d19737343dd5f89c7dbf2de2857d13502d4f926cf0622074f38b  15100  local/video002-en-v1.vtt
+
+Master:
+- codec: H.264
+- resolution: 1920x1080
+- fps: 30
+- frames: 18513
+- audio: AAC, 24 kHz, mono
+
+Thumbnails:
+- codec: JPEG
+- resolution: 1280x720
+- A/B/C visual QA: PASS / CANDIDATE SET LOCKED
+- initial YouTube selection: B / thumbnail-b-still-checking-v1.jpg
+- platform A/B/C test: deferred pending channel eligibility
+
+Captions:
+- language: English
+- SRT and VTT: PASS / LOCKED
+- cues: 210
+
+Metadata:
+- title, description and launch comment: LOCKED
+
+Publication:
+- first upload visibility: Private
+- platform QA: PENDING

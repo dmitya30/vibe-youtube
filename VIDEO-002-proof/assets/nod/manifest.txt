@@ -35,3 +35,69 @@ STATUS: ACCEPTED_WITH_MASKED_TRANSITION
 PURPOSE: S04 intentional silent reach
 SHA256: 1997202eaa98d764d9e5bb825e19a1e2cfc30d51b167a9d6a7d465eba7b7f7e0
 NOTES: Reach direction and action readability passed. Minor generated-frame pose drift will be hidden by a short Remotion transition.
+
+==================================================
+VIDEO-002 THUMBNAIL GENERATION SET
+==================================================
+
+Service: Genspark
+Model: gpt-image-2
+Generation count: 6
+Status: A/B/C HERO ART SELECTED / REMOTION TEST SET LOCKED
+
+THUMBNAIL A V1
+FILE: video002-thumbnail-a-silent-reach-v1.jpg
+STATUS: SELECTED
+PURPOSE: Text-free automatic-reach visual-conflict hypothesis.
+RESOLUTION: 2048x1152
+SHA256: ce622af7456bbd4e33847e10e3ffee03c3c5d144a05beac24da815cca534778e
+NOTES: Strongest reach direction, subject scale and emotional readability.
+
+THUMBNAIL A V2
+FILE: video002-thumbnail-a-silent-reach-v2.jpg
+STATUS: REJECTED_WEAKER_ACTION_AND_EMOTION
+RESOLUTION: 2048x1152
+SHA256: 7a6bd32006079fcb50f654d46311d8e330b1dae933f6ef2fc7c29ea968180560
+
+THUMBNAIL B V1
+FILE: video002-thumbnail-b-still-checking-hero-v1.jpg
+STATUS: REJECTED_WEAKER_CAUGHT_IN_THE_ACT_EMOTION
+RESOLUTION: 2048x1152
+SHA256: 7b560a1bb762a26e9400dd2c974c9a52f39e58b9389b8c0e707b7e2fecf426d4
+
+THUMBNAIL B V2
+FILE: video002-thumbnail-b-still-checking-hero-v2.jpg
+STATUS: SELECTED
+PURPOSE: Direct-problem hypothesis with deterministic STILL CHECKING? overlay.
+RESOLUTION: 2048x1152
+SHA256: 75761199af3723c5b5a113802d02535a728d9fb878c23fbc639f1331529d621b
+NOTES: Strongest phone visibility, expression and left-side text space.
+
+THUMBNAIL C V1
+FILE: video002-thumbnail-c-open-door-hero-v1.jpg
+STATUS: SELECTED
+PURPOSE: Conceptual open-exit hypothesis with deterministic STILL OPEN overlay.
+RESOLUTION: 2048x1152
+SHA256: e9c41ba477499849742692ed3b854694063850058cfa04325768a6ee08736f77
+NOTES: Strongest dynamics, mobile silhouette and candidate differentiation.
+
+THUMBNAIL C V2
+FILE: video002-thumbnail-c-open-door-hero-v2.jpg
+STATUS: REJECTED_SMALL_SUBJECT_AND_WEAKER_CONFLICT
+RESOLUTION: 2048x1152
+SHA256: e4c31f9f7390b153c1c4eaaee1b5bc45d9455c1239b55ebf3d9b96ff739077e4
+
+FINAL REMOTION QA
+FULL_SIZE: PASS
+MOBILE_160X90: PASS
+GRAYSCALE: PASS
+MILD_BLUR: PASS
+CANDIDATE_DIFFERENTIATION: PASS
+TITLE_PROMISE_MATCH: PASS
+SINGLE THUMBNAIL LAUNCH SELECTION
+FILE: thumbnail-b-still-checking-v1.jpg
+CANDIDATE: B
+OVERLAY: STILL CHECKING?
+STATUS: LOCKED_FOR_INITIAL_YOUTUBE_PUBLICATION
+REASON: Clearest problem-first title pair under current single-thumbnail channel limitation.
+A_B_C_PLATFORM_TEST: DEFERRED_UNTIL_CHANNEL_ELIGIBILITY
