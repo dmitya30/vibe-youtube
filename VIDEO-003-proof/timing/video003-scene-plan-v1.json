@@ -1,0 +1,353 @@
+{
+  "video": "VIDEO-003",
+  "version": "v1",
+  "fps": 30,
+  "audioDurationSec": 389.341917,
+  "captionCueCount": 143,
+  "timingSource": "CapCut acoustic cue boundaries aligned to authoritative narration",
+  "productionMode": "FAST_VALIDATED_DETERMINISTIC_HEAVY",
+  "scenes": [
+    {
+      "id": "S01",
+      "composition": "C01",
+      "section": "Cold open",
+      "cueStart": 1,
+      "cueEndExclusive": 4,
+      "anchor": "Your eyes hurt",
+      "visualState": "Tired NOD in a dark bedroom; phone glow and continuing thumb motion",
+      "component": "character_keyframe",
+      "assetMode": "NEW_KEYFRAME_PRIORITY",
+      "review": "face, hand and phone"
+    },
+    {
+      "id": "S02",
+      "composition": "C01",
+      "section": "Cold open",
+      "cueStart": 4,
+      "cueEndExclusive": 7,
+      "anchor": "Tonight",
+      "visualState": "The same bedroom state reframes into THE SCROLL NEEDS AN END",
+      "component": "title",
+      "assetMode": "REUSE_OPENING_KEYFRAME",
+      "review": "cold-open promise"
+    },
+    {
+      "id": "S03",
+      "composition": "C01",
+      "section": "Cold open",
+      "cueStart": 7,
+      "cueEndExclusive": 13,
+      "anchor": "Researchers call one version",
+      "visualState": "Two paths separate: NOT IN BED and IN BED / NOT ASLEEP",
+      "component": "phone_state",
+      "assetMode": "DETERMINISTIC",
+      "review": "terminology clarity"
+    },
+    {
+      "id": "S04",
+      "composition": "C02",
+      "section": "Two kinds of delay",
+      "cueStart": 13,
+      "cueEndExclusive": 20,
+      "anchor": "That distinction matters",
+      "visualState": "Sofa and bed states occupy two parallel lanes",
+      "component": "character_keyframe",
+      "assetMode": "REUSE_OR_CROP",
+      "review": "identity continuity"
+    },
+    {
+      "id": "S05",
+      "composition": "C02",
+      "section": "Two kinds of delay",
+      "cueStart": 20,
+      "cueEndExclusive": 31,
+      "anchor": "first scientific studies",
+      "visualState": "Study card: 177 adults; association and correlation caveat remain visible",
+      "component": "study_card",
+      "assetMode": "DETERMINISTIC",
+      "review": "claim accuracy"
+    },
+    {
+      "id": "S06",
+      "composition": "C02",
+      "section": "Two kinds of delay",
+      "cueStart": 31,
+      "cueEndExclusive": 39,
+      "anchor": "later exploratory study",
+      "visualState": "Two delay lanes separate with 400-teenager evidence and weak-link marker",
+      "component": "metric_comparison",
+      "assetMode": "DETERMINISTIC",
+      "review": "no causal implication"
+    },
+    {
+      "id": "S07",
+      "composition": "C03",
+      "section": "Why the feed continues",
+      "cueStart": 39,
+      "cueEndExclusive": 47,
+      "anchor": "look at the feed itself",
+      "visualState": "Finite chapter, movie and conversation end; feed stack continues below frame",
+      "component": "phone_state",
+      "assetMode": "DETERMINISTIC",
+      "review": "watchability"
+    },
+    {
+      "id": "S08",
+      "composition": "C03",
+      "section": "Why the feed continues",
+      "cueStart": 47,
+      "cueEndExclusive": 53,
+      "anchor": "scrolling may not even feel good",
+      "visualState": "Day closes while unfinished cards and tomorrow move closer",
+      "component": "character_keyframe",
+      "assetMode": "REUSE_OPENING_KEYFRAME",
+      "review": "emotional tone"
+    },
+    {
+      "id": "S09",
+      "composition": "C03",
+      "section": "Why the feed continues",
+      "cueStart": 53,
+      "cueEndExclusive": 64,
+      "anchor": "revenge bedtime procrastination",
+      "visualState": "Day blocks belong to obligations; a small night block becomes personally owned",
+      "component": "metric_comparison",
+      "assetMode": "DETERMINISTIC",
+      "review": "possible motive only"
+    },
+    {
+      "id": "S10",
+      "composition": "C03",
+      "section": "Why the feed continues",
+      "cueStart": 64,
+      "cueEndExclusive": 73,
+      "anchor": "possible is the important word",
+      "visualState": "Possible explanations appear as neutral uncertainty cards; diagnosis labels stay absent",
+      "component": "uncertainty_card",
+      "assetMode": "DETERMINISTIC",
+      "review": "medical boundary"
+    },
+    {
+      "id": "S11",
+      "composition": "C04",
+      "section": "Evidence boundary",
+      "cueStart": 73,
+      "cueEndExclusive": 79,
+      "anchor": "systematic review",
+      "visualState": "Study card: 55 papers and 41,000-plus participants; association highlighted",
+      "component": "study_card",
+      "assetMode": "DETERMINISTIC",
+      "review": "claim accuracy"
+    },
+    {
+      "id": "S12",
+      "composition": "C04",
+      "section": "Evidence boundary",
+      "cueStart": 79,
+      "cueEndExclusive": 88,
+      "anchor": "honest conclusion",
+      "visualState": "Timing, content, displacement, arousal and habit orbit the phone; blue light is only one factor",
+      "component": "uncertainty_card",
+      "assetMode": "DETERMINISTIC",
+      "review": "correlation caveat"
+    },
+    {
+      "id": "S13",
+      "composition": "C04",
+      "section": "Evidence boundary",
+      "cueStart": 88,
+      "cueEndExclusive": 90,
+      "anchor": "one bounded experiment",
+      "visualState": "Evidence field collapses into a finite THREE EVENINGS experiment card",
+      "component": "section_label",
+      "assetMode": "DETERMINISTIC",
+      "review": "experiment framing"
+    },
+    {
+      "id": "S14",
+      "composition": "C05",
+      "section": "Step one",
+      "cueStart": 90,
+      "cueEndExclusive": 93,
+      "anchor": "First, name the delay",
+      "visualState": "Step 1 asks NOT IN BED? or IN BED / NOT ASLEEP?",
+      "component": "phone_state",
+      "assetMode": "DETERMINISTIC",
+      "review": "question clarity"
+    },
+    {
+      "id": "S15",
+      "composition": "C05",
+      "section": "Step one",
+      "cueStart": 93,
+      "cueEndExclusive": 98,
+      "anchor": "location of the decision",
+      "visualState": "One-sentence nightly observation enters a simple objective log",
+      "component": "objective_log",
+      "assetMode": "DETERMINISTIC",
+      "review": "non-judgmental tone"
+    },
+    {
+      "id": "S16",
+      "composition": "C06",
+      "section": "Step two",
+      "cueStart": 98,
+      "cueEndExclusive": 101,
+      "anchor": "Second, create an ending",
+      "visualState": "Step 2 creates a finite owned-time block before the tired decision",
+      "component": "section_label",
+      "assetMode": "DETERMINISTIC",
+      "review": "step clarity"
+    },
+    {
+      "id": "S17",
+      "composition": "C06",
+      "section": "Step two",
+      "cueStart": 101,
+      "cueEndExclusive": 107,
+      "anchor": "visible boundary",
+      "visualState": "Saved video, ten pages, one episode, one round and one call become bounded cards",
+      "component": "objective_log",
+      "assetMode": "DETERMINISTIC",
+      "review": "text density"
+    },
+    {
+      "id": "S18",
+      "composition": "C06",
+      "section": "Step two",
+      "cueStart": 107,
+      "cueEndExclusive": 114,
+      "anchor": "physical next action",
+      "visualState": "Phone leaves automatic reach and lands at one visible physical destination",
+      "component": "character_keyframe",
+      "assetMode": "NEW_KEYFRAME_PRIORITY",
+      "review": "hand, phone and landing place"
+    },
+    {
+      "id": "S19",
+      "composition": "C07",
+      "section": "Step three",
+      "cueStart": 114,
+      "cueEndExclusive": 118,
+      "anchor": "Third, write one if-then sentence",
+      "visualState": "Step 3 assembles one if-then sentence from two locked clauses",
+      "component": "title",
+      "assetMode": "DETERMINISTIC",
+      "review": "readability"
+    },
+    {
+      "id": "S20",
+      "composition": "C07",
+      "section": "Step three",
+      "cueStart": 118,
+      "cueEndExclusive": 122,
+      "anchor": "moves the decision earlier",
+      "visualState": "Decision marker moves from dark-bed negotiation to the earlier owned-time block",
+      "component": "phone_state",
+      "assetMode": "DETERMINISTIC",
+      "review": "mechanism clarity"
+    },
+    {
+      "id": "S21",
+      "composition": "C07",
+      "section": "Step three",
+      "cueStart": 122,
+      "cueEndExclusive": 127,
+      "anchor": "not treatment and not a guarantee",
+      "visualState": "Small-trial evidence card keeps EXPERIMENT, NOT TREATMENT visible",
+      "component": "study_card",
+      "assetMode": "DETERMINISTIC",
+      "review": "safety boundary"
+    },
+    {
+      "id": "S22",
+      "composition": "C08",
+      "section": "Review and ending",
+      "cueStart": 127,
+      "cueEndExclusive": 132,
+      "anchor": "three narrower questions",
+      "visualState": "Three morning questions populate a clean objective log",
+      "component": "objective_log",
+      "assetMode": "DETERMINISTIC",
+      "review": "question readability"
+    },
+    {
+      "id": "S23",
+      "composition": "C08",
+      "section": "Review and ending",
+      "cueStart": 132,
+      "cueEndExclusive": 139,
+      "anchor": "change the design",
+      "visualState": "Failure stamp disappears; timing, ownership and distance become adjustable design branches",
+      "component": "uncertainty_card",
+      "assetMode": "DETERMINISTIC",
+      "review": "non-judgmental tone"
+    },
+    {
+      "id": "S24",
+      "composition": "C08",
+      "section": "Review and ending",
+      "cueStart": 139,
+      "cueEndExclusive": 143,
+      "anchor": "point is not to make every evening efficient",
+      "visualState": "Endless feed lane loses energy while a finite ending becomes calm and visible",
+      "component": "phone_state",
+      "assetMode": "DETERMINISTIC_OR_OPTIONAL_KEYFRAME",
+      "review": "emotional resolution"
+    },
+    {
+      "id": "S25",
+      "composition": "C08",
+      "section": "Review and ending",
+      "cueStart": 143,
+      "cueEndExclusive": 144,
+      "anchor": "before the next scroll begins",
+      "visualState": "Phone is parked; final CTA: DECIDE WHERE IT ENDS",
+      "component": "title",
+      "assetMode": "REUSE_LANDING_KEYFRAME",
+      "review": "final CTA"
+    }
+  ],
+  "compositionPlan": [
+    {
+      "id": "C01",
+      "purpose": "Night conflict, promise and two-delay setup",
+      "scenes": "S01–S03"
+    },
+    {
+      "id": "C02",
+      "purpose": "Two-delay model and foundational evidence",
+      "scenes": "S04–S06"
+    },
+    {
+      "id": "C03",
+      "purpose": "Feed structure, end-of-day emotion and motive caveats",
+      "scenes": "S07–S10"
+    },
+    {
+      "id": "C04",
+      "purpose": "Media-sleep evidence boundary and experiment pivot",
+      "scenes": "S11–S13"
+    },
+    {
+      "id": "C05",
+      "purpose": "Experiment step one",
+      "scenes": "S14–S15"
+    },
+    {
+      "id": "C06",
+      "purpose": "Experiment step two and physical landing place",
+      "scenes": "S16–S18"
+    },
+    {
+      "id": "C07",
+      "purpose": "Experiment step three and safety caveat",
+      "scenes": "S19–S21"
+    },
+    {
+      "id": "C08",
+      "purpose": "Morning review, troubleshooting and final CTA",
+      "scenes": "S22–S25"
+    }
+  ]
+}
