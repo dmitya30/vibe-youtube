@@ -1,7 +1,7 @@
 # VIDEO-001 Analytics record
 
-Updated: 2026-08-14
-Status: DELAYED 8–9 DAY SNAPSHOT RECORDED / 72-HOUR CHECKPOINT MISSED
+Updated: 2026-08-15
+Status: BASELINE RECORDED / THUMBNAIL-ONLY INTERVENTION ACTIVE
 Video ID: `ow_eUmvptuM`
 Public URL: `https://youtu.be/ow_eUmvptuM`
 Snapshot range shown by YouTube Studio: 2026-08-05 through 2026-08-13
@@ -200,4 +200,56 @@ PIPELINE_PRIORITY=FASTER_VALIDATED_HYPOTHESIS_THROUGHPUT
 DAY30_MINIMUM_4=FEASIBLE_BUT_AT_RISK
 DAY30_TARGET_6=HIGH_RISK
 DAY30_STRETCH_8=NOT_REALISTIC_WITH_CURRENT_CYCLE
+```
+
+
+## 12. Thumbnail-only intervention
+
+Record ID:
+
+`VIDEO001_THUMBNAIL_INTERVENTION_2026_08_15`
+
+The baseline was preserved before the intervention.
+
+Intervention start:
+
+- local date: 2026-08-15;
+- local time: 08:30;
+- local timezone: UTC+7;
+- UTC time: 2026-08-15 01:30Z;
+- previous thumbnail: C / `00:47`;
+- intervention thumbnail: B / `NOT YOUR BRAIN`;
+- title: unchanged;
+- description: unchanged;
+- visibility: unchanged;
+- incognito thumbnail QA: PASS.
+
+The intervention changes only the thumbnail. It does not establish that B is a winner. The purpose is to observe whether a clearer diagnostic reframe produces a different click response from any additional impressions.
+
+Planned checkpoints:
+
+- approximately 72 hours: 2026-08-18 at 08:30 UTC+7;
+- approximately 7 days: 2026-08-22 at 08:30 UTC+7.
+
+At each checkpoint record cumulative views, impressions, CTR, traffic sources, watch time and average view duration. Calculate incremental impressions and views relative to the baseline where the interface permits it.
+
+Interpretation:
+
+- if additional impressions are too low, record `INSUFFICIENT_SAMPLE`;
+- do not infer a winner from a small CTR movement;
+- do not change the title during this intervention;
+- VIDEO-003 production continues while this observation runs.
+
+```text
+VIDEO001_THUMBNAIL_B_APPLIED=YES
+VIDEO001_INTERVENTION_LOCAL_TIME=08:30_UTC_PLUS_7
+VIDEO001_INTERVENTION_DATE=2026-08-15
+VIDEO001_INTERVENTION_UTC=2026-08-15T01:30:00Z
+VIDEO001_INTERVENTION_VARIABLE=THUMBNAIL_ONLY
+VIDEO001_INTERVENTION_FROM=C_00_47
+VIDEO001_INTERVENTION_TO=B_NOT_YOUR_BRAIN
+VIDEO001_TITLE_DURING_INTERVENTION=UNCHANGED
+VIDEO001_INCOGNITO_THUMBNAIL_QA=PASS
+VIDEO001_72H_INTERVENTION_CHECKPOINT=2026-08-18T08:30:00_PLUS_07
+VIDEO001_7D_INTERVENTION_CHECKPOINT=2026-08-22T08:30:00_PLUS_07
 ```

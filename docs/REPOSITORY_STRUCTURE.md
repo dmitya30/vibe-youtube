@@ -265,6 +265,7 @@ Production work и repository maintenance по возможности комми
 - `SHADOW_AUTOMATION.md` defines production-time, cost, retry, defect and
   automation measurement for VIDEO-002 and later benchmarks.
 - `EXPERIMENTS.md` owns individual content hypotheses and results.
+- `VIDEO003_RESEARCH.md` owns the VIDEO-003 demand scan, selected direction, claim boundaries, source record and packaging hypotheses.
 - `VIDEO002_RESEARCH.md` owns the VIDEO-002 direction, claim boundaries and
   sources.
 - `VIDEO002_SCRIPT.md` owns the locked editorial narration text.

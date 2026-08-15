@@ -502,3 +502,69 @@ Canonical production documents:
 VIDEO-002 is the second completed manual benchmark and Shadow Automation test. Narration, captions, locked S01–S53 timing, production master, packaging and YouTube platform QA passed. The next pipeline task is to complete the automation summary and apply the measured lessons to VIDEO-003 without removing human editorial and publication gates.
 
 Canonical narration, TTS-risk and caption records belong to [`VIDEO002_NARRATION.md`](VIDEO002_NARRATION.md).
+
+
+---
+
+# VIDEO-001 — Thumbnail intervention B
+
+Status: ACTIVE
+Start: 2026-08-15 at 08:30 UTC+7
+Record ID: `VIDEO001_THUMBNAIL_INTERVENTION_2026_08_15`
+
+Controlled change:
+
+- title: unchanged;
+- old thumbnail: C / `00:47`;
+- new thumbnail: B / `NOT YOUR BRAIN`;
+- incognito QA: PASS.
+
+Hypothesis:
+
+The diagnostic reframe `NOT YOUR BRAIN` will communicate the video premise more directly than the unexplained `00:47` data-curiosity thumbnail.
+
+Evaluation:
+
+- first checkpoint: approximately 2026-08-18 at 08:30 UTC+7;
+- second checkpoint: approximately 2026-08-22 at 08:30 UTC+7;
+- compare additional impressions, CTR and views;
+- record `INSUFFICIENT_SAMPLE` if distribution remains too small;
+- do not change the title during the intervention.
+
+---
+
+# VIDEO-003 — Bedtime scrolling
+
+Status: RESEARCH GATE PASS / PACKAGING LOCK NEXT
+Record ID: `VIDEO003_RESEARCH_GATE_2026_08_15`
+
+Selected direction:
+
+`Why You Keep Scrolling Even When You’re Tired`
+
+Leading thumbnail:
+
+`B — STILL AWAKE?`
+
+Demand:
+
+`PASS_WITH_LIMITATIONS`
+
+The category shows repeat public demand across bedtime procrastination, late-night scrolling and phone-before-bed videos. The evidence validates further testing, not guaranteed performance.
+
+Claim decision:
+
+- use bedtime procrastination as a defined research construct;
+- distinguish bedtime from while-in-bed delay with an exploratory-evidence caveat;
+- describe media-and-sleep findings as associations unless stronger evidence applies;
+- present autonomy, compensation and emotional regulation as possible motives;
+- prohibit addiction, insomnia, ADHD and dopamine-reset diagnoses;
+- prohibit universal claims that the viewer is scrolling because the day did not belong to them.
+
+Canonical research and packaging brief:
+
+[`VIDEO003_RESEARCH.md`](VIDEO003_RESEARCH.md)
+
+Next gate:
+
+`VIDEO003_TITLE_THUMBNAIL_AND_COLD_OPEN_LOCK`

@@ -143,3 +143,33 @@ The active operating correction is:
 6. avoid another nine-day cycle before the next analytics checkpoint.
 
 VIDEO-002 used a deterministic-heavy Remotion implementation with a small number of bespoke generated cinematic assets. Its visual-watchability risk is real but unproven and must be evaluated from VIDEO-002 retention rather than asset count alone.
+
+
+## 9. VIDEO-003 research start — 2026-08-15
+
+Record ID:
+
+`VIDEO003_RESEARCH_GATE_2026_08_15`
+
+VIDEO-001 thumbnail-only intervention began on 2026-08-15 at 08:30 UTC+7. Thumbnail C / `00:47` was replaced by B / `NOT YOUR BRAIN`; title, description and visibility remained unchanged.
+
+VIDEO-003 selected direction:
+
+`Why You Keep Scrolling Even When You’re Tired`
+
+Demand and claims status:
+
+- demand signal: `PASS_WITH_LIMITATIONS`;
+- editorial direction: approved;
+- claims gate: PASS;
+- leading thumbnail: B / `STILL AWAKE?`;
+- target runtime: 6–8 minutes;
+- production authorization: not yet granted.
+
+Canonical VIDEO-003 research record:
+
+[`VIDEO003_RESEARCH.md`](VIDEO003_RESEARCH.md)
+
+Next required gate:
+
+`VIDEO003_TITLE_THUMBNAIL_AND_COLD_OPEN_LOCK`
