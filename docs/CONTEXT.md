@@ -1,7 +1,7 @@
 # Project Context
 
 Updated: 2026-08-15
-Status: VIDEO-001 and VIDEO-002 Public / VIDEO-003 planning next
+Status: VIDEO-001 and VIDEO-002 Public / VIDEO-003 narration and captions accepted
 Source of truth for project-level context
 
 ## 1. Goal
@@ -197,9 +197,9 @@ Next required gate:
 `VIDEO003_TTS_GENERATION_AND_COMPLETENESS_QA`
 
 
-## 11. VIDEO-003 narration preparation — 2026-08-15
+## 11. VIDEO-003 narration and captions — 2026-08-15
 
-The accepted script was split into two tracked TTS inputs. This mitigates the long-generation omission defect observed during VIDEO-002.
+The accepted script was split into two tracked TTS inputs. This mitigated the long-generation omission defect observed during VIDEO-002.
 
 Canonical record:
 
@@ -209,7 +209,17 @@ Status:
 
 - TTS text: locked;
 - target voice: Aoede;
-- audio generation: next;
-- narration master: not created;
-- captions: not created;
-- broad asset production: not authorized.
+- narration master: PASS;
+- duration: 06:29.342;
+- completeness QA: PASS;
+- physical join QA: PASS;
+- voice continuity: PASS WITH ACCEPTED VARIATION;
+- captions: PASS, 143 cues;
+- acoustic timing source: CapCut Desktop 9.2.8;
+- caption text: exact reconstruction of the authoritative narration;
+- reusable CapCut export and caption-alignment tools: created and validated;
+- broad asset production: not yet authorized.
+
+Next required gate:
+
+`VIDEO003_STORYBOARD_AND_TIMING_MANIFEST`

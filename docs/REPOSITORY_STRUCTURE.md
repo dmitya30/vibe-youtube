@@ -1,6 +1,6 @@
 # Repository Structure
 
-Updated: 2026-08-10
+Updated: 2026-08-15
 Status: active
 
 Этот файл фиксирует каноническую структуру репозитория, назначение
@@ -30,6 +30,19 @@ vibe-youtube/
 │   └── REPOSITORY_STRUCTURE.md
 ├── archive/
 │   └── historical documents
+├── tools/
+│   ├── capcut_export_captions.py
+│   ├── verify_caption_completeness.py
+│   └── align_captions_to_script.py
+├── VIDEO-003-proof/
+│   ├── audio/
+│   │   ├── tracked locked TTS inputs
+│   │   └── local generated narration WAV files
+│   └── captions/
+│       ├── video003-en-v1.srt
+│       ├── video003-en-v1.vtt
+│       ├── video003-caption-alignment-v1.txt
+│       └── local raw CapCut extraction and QA diagnostics
 ├── VIDEO-002-proof/
 │   ├── audio/
 │   │   ├── video002-narration-input-v1.txt
@@ -267,7 +280,7 @@ Production work и repository maintenance по возможности комми
 - `EXPERIMENTS.md` owns individual content hypotheses and results.
 - `VIDEO003_RESEARCH.md` owns the VIDEO-003 demand scan, selected direction, claim boundaries, source record and packaging hypotheses.
 - `VIDEO003_SCRIPT.md` owns the VIDEO-003 full narration draft, claim annotations, sources and human editorial QA gate.
-- `VIDEO003_NARRATION.md` owns the VIDEO-003 TTS inputs, voice target, local output directory and completeness-QA gate.
+- `VIDEO003_NARRATION.md` owns the VIDEO-003 TTS inputs, generation cost, accepted audio master, completeness QA, caption timing source and accepted caption artifacts.
 - `VIDEO002_RESEARCH.md` owns the VIDEO-002 direction, claim boundaries and
   sources.
 - `VIDEO002_SCRIPT.md` owns the locked editorial narration text.
