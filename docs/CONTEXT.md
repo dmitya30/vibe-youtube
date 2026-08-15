@@ -1,6 +1,6 @@
 # Project Context
 
-Updated: 2026-08-14
+Updated: 2026-08-15
 Status: VIDEO-001 and VIDEO-002 Public / VIDEO-003 planning next
 Source of truth for project-level context
 
@@ -173,3 +173,43 @@ Canonical VIDEO-003 research record:
 Next required gate:
 
 `VIDEO003_TITLE_THUMBNAIL_AND_COLD_OPEN_LOCK`
+
+
+## 10. VIDEO-003 script draft — 2026-08-15
+
+The title, leading thumbnail direction, first 30 seconds and argument outline passed human editorial lock.
+
+Full script draft:
+
+[`VIDEO003_SCRIPT.md`](VIDEO003_SCRIPT.md)
+
+Status:
+
+- script authorization: granted;
+- full draft: accepted;
+- AI English-language QA: PASS;
+- native-speaker QA: not performed and accepted for this benchmark;
+- narration authorization: granted;
+- asset production: not granted.
+
+Next required gate:
+
+`VIDEO003_TTS_GENERATION_AND_COMPLETENESS_QA`
+
+
+## 11. VIDEO-003 narration preparation — 2026-08-15
+
+The accepted script was split into two tracked TTS inputs. This mitigates the long-generation omission defect observed during VIDEO-002.
+
+Canonical record:
+
+[`VIDEO003_NARRATION.md`](VIDEO003_NARRATION.md)
+
+Status:
+
+- TTS text: locked;
+- target voice: Aoede;
+- audio generation: next;
+- narration master: not created;
+- captions: not created;
+- broad asset production: not authorized.
