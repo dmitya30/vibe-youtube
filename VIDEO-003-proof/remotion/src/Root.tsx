@@ -2,6 +2,7 @@ import React from "react";
 import {Composition} from "remotion";
 import {timing} from "./timing";
 import {Video003Master, Video003Segment} from "./Video003";
+import {Video003ThumbnailB} from "./Thumbnail003";
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -12,6 +13,14 @@ export const RemotionRoot: React.FC = () => (
       fps={timing.fps}
       width={1920}
       height={1080}
+    />
+    <Composition
+      id="Video003ThumbnailB"
+      component={Video003ThumbnailB}
+      durationInFrames={1}
+      fps={30}
+      width={1280}
+      height={720}
     />
     {timing.compositions.map((composition) => (
       <Composition

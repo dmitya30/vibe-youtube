@@ -1,0 +1,50 @@
+VIDEO-003 PUBLICATION PACKET
+Status: VERIFIED / UPLOAD AUTHORIZED / PLATFORM QA PENDING
+Created: 2026-08-17
+Repository base commit: ffe2e13c91e28cdf734fff1e6052b7c73f400e07
+External backup: ~/vibe-youtube-publish-staging/VIDEO-003
+
+SHA256  BYTES  RELATIVE PATH
+eea99f513ab0af9307a7b6a6c3174067b43f70fb284fd5fa40013251084919d8  84191407  local/video-003-master-v1.mp4
+46f2463fb21070651b1fd3b774e212491dea3d953854715069308d508b164178  138887  local/thumbnails/thumbnail-b-still-awake-v1.jpg
+c0f4fcc34df60f67681df9a2aec3ead039958d12144090e4eea95dcd2f6db437  10398  local/video003-en-v1.srt
+6e5dd7ec5f3bd8542deb8e7b5eeb66f09c261dc38314d34fda234fd30a2081d8  9942  local/video003-en-v1.vtt
+f339e3e11516d589c74374a2abe0391012d823285a17c7c89708d6208ad159d2  1978  local/video003-metadata-v1.txt
+9d825a5ab0cdd90f1c265eec2b2a01f81855f5c9816ca18152a4bb2744096874  459  local/SHA256SUMS.txt
+
+Master:
+- codec: H.264
+- resolution: 1920x1080
+- fps: 30
+- frames: 11681
+- audio: AAC, 24 kHz, mono
+- accepted SHA-256: eea99f513ab0af9307a7b6a6c3174067b43f70fb284fd5fa40013251084919d8
+
+Thumbnail:
+- source art: GPT Image 2.0 accepted S01 hero frame
+- deterministic overlay: Remotion
+- codec: JPEG
+- resolution: 1280x720
+- direction: B / STILL AWAKE?
+- full-size QA: PASS
+- mobile 160x90 QA: PASS
+- grayscale QA: PASS
+- blur QA: PASS
+- human visual QA: PASS
+- initial YouTube selection: B / thumbnail-b-still-awake-v1.jpg
+
+Captions:
+- language: English
+- SRT and VTT: PASS / LOCKED
+- cues: 143
+
+Metadata:
+- title: LOCKED
+- description: LOCKED
+- chapters: LOCKED
+- launch comment: LOCKED
+
+Publication:
+- upload: AUTHORIZED
+- initial visibility: PRIVATE
+- next required gate: VIDEO003_PRIVATE_UPLOAD_AND_PLATFORM_QA
