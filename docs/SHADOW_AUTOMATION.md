@@ -1,7 +1,7 @@
 # Shadow Automation Log
 
 Updated: 2026-08-10
-Status: active for VIDEO-002
+Status: active for VIDEO-002 and VIDEO-003 benchmarks
 Purpose: measure the production pipeline before scaling automation
 
 ## 1. Principle
@@ -299,3 +299,45 @@ Human approval remains mandatory for:
 - interpretation of analytics.
 
 The objective is not unattended mass generation. The objective is to compress repeated technical work so that VIDEO-003 can be completed in approximately two to three working days without lowering the editorial and technical gates.
+
+## 15. VIDEO-003 batch-production benchmark
+
+VIDEO-003 changed the production unit from many separately reviewed compositions to one locked timeline containing 25 semantic scenes grouped into 8 production compositions.
+
+Result so far:
+
+`VIDEO003_BATCH_PRODUCTION_DIRECTION=SUPPORTED`
+
+Observed advantages:
+
+- faster end-to-end implementation;
+- fewer conversational handoffs;
+- stronger whole-video visual consistency;
+- earlier discovery of global pacing problems;
+- generated media purchased only after the complete layout was visible;
+- one bounded critical-fix list instead of scene-by-scene redesign.
+
+Observed defects and controls:
+
+| Defect | Control |
+|---|---|
+| S22 anchor fell outside its assigned cue range | Validate every scene anchor against its owned cues before artifact generation and report the expected cue context |
+| Nonessential formatting patch reopened a passed gate | Do not patch cosmetic output after mechanical PASS unless it blocks a downstream consumer |
+| Placeholder character escaped into S08 | Require asset coverage for every character-component scene, not only priority keyframes |
+| Generated S01 motion ended inside a longer scene | Require an explicit loop, ping-pong, matched-still or transition policy |
+| Deterministic scenes felt presentation-like | Add motion-density review to the complete proof; do not rely on token animation alone |
+| Timeline bars entered proof renders | Keep diagnostic UI separate and reject forbidden production elements |
+| Contact-sheet sampling suggested a false empty ending | Treat contact sheets as sampling evidence only; retain full playback QA |
+| Proof audio became 48 kHz stereo | Final mux must use the locked narration master and explicit delivery parameters |
+| Dynamic motion did not shorten rendering | Estimate render time from total frames, resolution and component cost, not visible motion amount |
+
+Classification:
+
+- batch timing and scene compilation: `AUTOMATE_NOW`;
+- declarative coverage: `AUTOMATE_NOW`;
+- asset lifecycle and hash manifest: `AUTOMATE_NOW`;
+- media seam policy validation: `AUTOMATE_NOW`;
+- forbidden debug-element validation: `AUTOMATE_NOW`;
+- motion-density suggestions: `ASSIST`;
+- NOD identity, anatomy and visual rhythm: `KEEP_MANUAL`;
+- choice of additional GPT Image or Kling scenes: `KEEP_MANUAL`.

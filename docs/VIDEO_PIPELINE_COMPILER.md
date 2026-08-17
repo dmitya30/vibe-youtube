@@ -164,3 +164,28 @@ The compiler baseline is useful when:
 Human approval remains mandatory for narrative meaning, visual taste, character identity, generated anatomy, misleading charts, emotional tone and final publication.
 
 Automation reduces preventable production errors. It does not receive editorial authority.
+
+## 12. VIDEO-003 production regression controls
+
+The VIDEO-003 benchmark adds these failures and controls:
+
+| ID | Failure | Root cause | Required permanent control |
+|---|---|---|---|
+| F-011 | S22 anchor validation failed after scene planning | Cue 127 containing the anchor was assigned to S21 instead of S22 | Validate all anchors against owned cue text before writing generated artifacts; report cue-local context |
+| F-012 | A cosmetic builder patch failed after timing already passed | The patch assumed an exact local source literal without rereading the uncommitted file | Do not reopen a passed gate for nonblocking cosmetics; local uncommitted source remains authoritative |
+| F-013 | S08 used a generic placeholder instead of NOD | Priority assets were checked, but all character-component scenes were not covered | Asset-coverage gate must inspect every scene whose component or review flags require character identity |
+| F-014 | S01 generated motion cut abruptly to a nonmatching still | Generated asset duration was shorter than the semantic scene span | Every generated-video asset must declare and validate an end policy |
+| F-015 | Deterministic screens passed structural QA but felt presentation-like | Motion existed technically but lacked perceptual strength and spatial change | Complete-proof motion-density review remains an assisted human gate |
+| F-016 | Contact-sheet sampling implied an empty final frame | A sampled sheet was treated as complete timeline evidence | Contact sheets supplement but never replace full playback |
+| F-017 | Proof output used 48 kHz stereo instead of locked narration parameters | Renderer audio defaults were accepted as delivery settings | Final assembly must mux the locked narration master with explicit sample rate and channel count |
+
+Additional compiler requirements:
+
+1. separate `debug` and `production` visual feature sets;
+2. reject progress bars, scene IDs and diagnostic overlays in production mode;
+3. verify declarative coverage for every timing-manifest scene;
+4. verify asset lifecycle state and SHA-256 before runtime synchronization;
+5. validate generated-media duration against scene duration and transition policy;
+6. emit a motion-density report, but leave watchability authority to the human reviewer;
+7. create final audio from the locked narration source, not proof-render defaults;
+8. keep full playback as a mandatory human release gate.

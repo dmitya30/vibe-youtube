@@ -1,0 +1,87 @@
+PROJECT: VIDEO-003
+ASSET SET: accepted NOD and motion production sources
+UPDATED: 2026-08-17
+STATUS: PRODUCTION VISUAL QA PASS / FINAL PLAYBACK PENDING
+
+IDENTITY REFERENCE: VIDEO-001-proof/assets/nod/nod-canonical-v1.jpg
+STYLE REFERENCE: VIDEO-001-proof/assets/nod/styleframe-desk-notification-v1.jpg
+IMAGE SERVICE: Genspark
+IMAGE MODEL: GPT Image 2.0
+VIDEO PROVIDER AND MODEL: NOT_RECORDED
+GENERATION COSTS AND MACHINE TIMES: NOT_RECORDED
+
+S01_IMAGE
+FILE: video003-s01-bedroom-scroll-v1.jpg
+REPOSITORY_PATH: VIDEO-003-proof/assets/nod/video003-s01-bedroom-scroll-v1.jpg
+STATUS: ACCEPTED
+PROVIDER: Genspark
+MODEL: GPT Image 2.0
+CODEC: mjpeg
+RESOLUTION: 2048x1152
+FRAME_RATE: 25/1
+DURATION: 0.040000
+SIZE_BYTES: 154702
+SHA256: eb8b77ede1cadac110cffdaddd2eb738f32986febc2c31e8253f2f8683046541
+
+S08_IMAGE
+FILE: video003-s08-not-fun-anymore-v1.jpg
+REPOSITORY_PATH: VIDEO-003-proof/assets/nod/video003-s08-not-fun-anymore-v1.jpg
+STATUS: ACCEPTED
+PROVIDER: Genspark
+MODEL: GPT Image 2.0
+CODEC: mjpeg
+RESOLUTION: 2048x1152
+FRAME_RATE: 25/1
+DURATION: 0.040000
+SIZE_BYTES: 155818
+SHA256: 1278c442eaee31b53e5d64a8498a5555f6b3308432b85131aeb0137fd63e29a5
+
+S18_IMAGE
+FILE: video003-s18-phone-landing-v1.jpg
+REPOSITORY_PATH: VIDEO-003-proof/assets/nod/video003-s18-phone-landing-v1.jpg
+STATUS: ACCEPTED
+PROVIDER: Genspark
+MODEL: GPT Image 2.0
+CODEC: mjpeg
+RESOLUTION: 2048x1152
+FRAME_RATE: 25/1
+DURATION: 0.040000
+SIZE_BYTES: 189086
+SHA256: 2aba2daf5fa48f983f41ada1b1523caa68eed3d52189692625c4ce41d0db9896
+
+S01_KLING_SOURCE
+FILE: video003-s01-bedroom-scroll-kling-v1.mp4
+REPOSITORY_PATH: VIDEO-003-proof/assets/video/video003-s01-bedroom-scroll-kling-v1.mp4
+STATUS: PRESERVED_SOURCE
+PROVIDER: Kling
+MODEL: NOT_RECORDED
+CODEC: h264
+RESOLUTION: 1280x720
+FRAME_RATE: 24/1
+DURATION: 5.041667
+SIZE_BYTES: 2975199
+SHA256: 24d2baf3fedc5971ea9bb7cff515a4347ee991e4662d91f350f5c05b3e258f6b
+
+S01_KLING_PINGPONG
+FILE: video003-s01-bedroom-scroll-kling-pingpong-v1.mp4
+REPOSITORY_PATH: VIDEO-003-proof/assets/video/video003-s01-bedroom-scroll-kling-pingpong-v1.mp4
+STATUS: ACCEPTED_RUNTIME_ASSET
+PROVIDER: FFmpeg from accepted Kling source
+MODEL: DETERMINISTIC
+CODEC: h264
+RESOLUTION: 1280x720
+FRAME_RATE: 30/1
+DURATION: 15.000000
+SIZE_BYTES: 3790213
+SHA256: 4d2921602f8430f7fd05ac942db0a6ef245674bbbffc7b26e7c7c9f471295353
+
+VISUAL DECISIONS
+S01: accepted tired NOD bedroom state with phone glow and left negative space.
+S08: accepted tired low-enjoyment state; replaces the deterministic placeholder character.
+S18: accepted physical landing-place action and reused for ending continuity.
+S01_S02: accepted continuous ping-pong motion strategy to remove the video-to-still seam.
+HANDS: canonical mitten-style NOD hands are required; realistic human fingers are not part of the character system.
+
+REPOSITORY POLICY
+Raster images and generated video remain local and ignored by Git.
+This manifest is the tracked source of filenames, hashes and lifecycle decisions.

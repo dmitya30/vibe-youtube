@@ -1,7 +1,7 @@
 # Project Context
 
 Updated: 2026-08-15
-Status: VIDEO-001 and VIDEO-002 Public / VIDEO-003 narration and captions accepted
+Status: VIDEO-001 and VIDEO-002 Public / VIDEO-003 production master accepted
 Source of truth for project-level context
 
 ## 1. Goal
@@ -223,3 +223,34 @@ Status:
 Next required gate:
 
 `VIDEO003_STORYBOARD_AND_TIMING_MANIFEST`
+
+## 12. VIDEO-003 production implementation — 2026-08-17
+
+Canonical production record:
+
+[`VIDEO003_PRODUCTION.md`](VIDEO003_PRODUCTION.md)
+
+Current status:
+
+- storyboard and timing manifest: LOCKED;
+- semantic scenes: 25;
+- production compositions: 8;
+- declarative scene coverage: PASS;
+- layout proof: PASS WITH REQUIRED UPGRADES;
+- NOD source-frame QA: PASS;
+- production motion proof: PASS;
+- production visual QA: PASS;
+- final full-size render: IN PROGRESS;
+- final playback QA: PENDING.
+
+VIDEO-003 validated the faster batch-production direction. Mechanical gates are grouped, and human visual review happens on complete proofs rather than after every composition.
+
+Next required gate:
+
+`VIDEO003_FINAL_PLAYBACK_QA`
+
+## VIDEO-003 final production acceptance — 2026-08-17
+
+VIDEO-003 completed final technical render, decode validation, contact-sheet review and human full-playback QA. The accepted local master contains 11,681 frames at 1920x1080 and 30 fps, with 24 kHz mono AAC narration. Its SHA-256 is `eea99f513ab0af9307a7b6a6c3174067b43f70fb284fd5fa40013251084919d8`. Generated media remains local and ignored; production source, manifests, prompts and documentation are version-controlled.
+
+Next workstream: thumbnail and publication packet.

@@ -24,6 +24,7 @@ vibe-youtube/
 │   ├── VIDEO002_SCRIPT.md
 │   ├── VIDEO002_NARRATION.md
 │   ├── VIDEO002_STORYBOARD.md
+│   ├── VIDEO003_PRODUCTION.md
 │   ├── SOURCES.md
 │   ├── SCRIPT.md
 │   ├── STORYBOARD.md
@@ -33,16 +34,38 @@ vibe-youtube/
 ├── tools/
 │   ├── capcut_export_captions.py
 │   ├── verify_caption_completeness.py
-│   └── align_captions_to_script.py
+│   ├── align_captions_to_script.py
+│   └── build_video003_timing.py
 ├── VIDEO-003-proof/
+│   ├── assets/
+│   │   ├── manifest.txt
+│   │   ├── video003-generation-prompts-v1.md
+│   │   ├── nod/
+│   │   │   └── local accepted NOD source frames
+│   │   └── video/
+│   │       └── local generated and deterministic motion assets
 │   ├── audio/
 │   │   ├── tracked locked TTS inputs
 │   │   └── local generated narration WAV files
-│   └── captions/
-│       ├── video003-en-v1.srt
-│       ├── video003-en-v1.vtt
-│       ├── video003-caption-alignment-v1.txt
-│       └── local raw CapCut extraction and QA diagnostics
+│   ├── captions/
+│   │   ├── video003-en-v1.srt
+│   │   ├── video003-en-v1.vtt
+│   │   ├── video003-caption-alignment-v1.txt
+│   │   └── local raw CapCut extraction and QA diagnostics
+│   ├── timing/
+│   │   ├── video003-scene-plan-v1.json
+│   │   ├── video003-scene-timing-v1.json
+│   │   └── video003-scene-timing-v1.md
+│   └── remotion/
+│       ├── src/
+│       │   └── tracked declarative and production components
+│       ├── scripts/
+│       │   └── sync-public.py
+│       ├── public/
+│       │   └── generated runtime-only staging
+│       ├── out/
+│       │   └── local proofs, contact sheets and final renders
+│       └── package and Remotion configuration
 ├── VIDEO-002-proof/
 │   ├── audio/
 │   │   ├── video002-narration-input-v1.txt

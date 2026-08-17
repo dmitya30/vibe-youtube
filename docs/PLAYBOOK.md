@@ -507,3 +507,51 @@ Status: PASS.
     его актуальное содержимое.
 14. Contact sheets создаются в `remotion/out/` и удаляются после lock.
 15. Новые временные каталоги не создаются без необходимости.
+
+## 13. Fast validated batch production
+
+VIDEO-003 established the preferred benchmark model for future long-form production.
+
+Workflow:
+
+1. lock narration and acoustic captions;
+2. compile one deterministic timing manifest;
+3. group semantic scenes into a smaller number of production compositions;
+4. author declarative scene content;
+5. implement reusable component families;
+6. render one complete low-resolution layout proof;
+7. perform one human watchability review;
+8. generate only the bespoke source media justified by that review;
+9. render one complete production-motion proof;
+10. apply a bounded critical-fix set;
+11. render the full-size master;
+12. perform final human playback and publication QA.
+
+Do not default to one composition per semantic scene.
+
+Do not confuse layout-proof animation with final production motion.
+
+Generated stills are not restricted by a numeric quota when they materially improve character identity, emotion, physical action or visual variety. Generated video remains selective because temporal instability and continuity cost are higher.
+
+Diagnostic UI, progress bars, scene labels and debugging overlays are prohibited in production renders.
+
+Generated-video scenes must declare one of these end policies:
+
+- loop;
+- ping-pong;
+- crossfade to a matched still;
+- hold the final frame;
+- transition to a different composition.
+
+A raw generated clip may not silently end inside a longer scene.
+
+The normal human stops are:
+
+- topic and packaging;
+- script meaning and claims;
+- complete layout proof;
+- complete production-motion proof;
+- final playback;
+- publication.
+
+Mechanical validation failures may block the pipeline, but they are not additional editorial approval meetings.

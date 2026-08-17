@@ -66,3 +66,11 @@ VIDEO-002-proof/remotion/node_modules/
 VIDEO-002-proof/remotion/public/
 VIDEO-002-proof/remotion/out/
 VIDEO-002-proof/remotion/dist/
+
+VIDEO-003-proof\remotion\dist
+
+# VIDEO-003 Remotion generated directories
+VIDEO-003-proof/remotion/node_modules/
+VIDEO-003-proof/remotion/public/
+VIDEO-003-proof/remotion/out/
+VIDEO-003-proof/remotion/dist/
