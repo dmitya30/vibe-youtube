@@ -1,8 +1,29 @@
 # VIDEO-003 — Publishing package
 
 Updated: 2026-08-17
-Status: PACKAGING LOCKED / UPLOAD AUTHORIZED / PLATFORM QA PENDING
+Status: PUBLIC / LIVE / PLATFORM QA PASS
 Repository base commit: ffe2e13c91e28cdf734fff1e6052b7c73f400e07
+
+## Platform publication record
+
+- YouTube channel: `Fewer Exits`;
+- handle: `@fewerexits`;
+- Video ID: `st3uCBzCXNw`;
+- public URL: `https://youtu.be/st3uCBzCXNw`;
+- visibility: Public;
+- public launch: 2026-08-17 22:09 UTC+7 / 2026-08-17 15:09 UTC;
+- 1080p processing: PASS;
+- YouTube Checks: PASS;
+- public incognito playback: PASS;
+- channel-page visibility: PASS;
+- launch thumbnail: B — `thumbnail-b-still-awake-v1.jpg` / `STILL AWAKE?`;
+- reviewed English captions: published and playback verified;
+- description timestamps: present and clickable;
+- visual chapter segmentation: unavailable at launch and accepted;
+- first comment: published;
+- title, description and thumbnail remain locked for the initial observation window.
+
+Publication-time note: the exact launch time is retained for comparison, but YouTube states that publish time is not known to affect long-term performance. It may affect immediate viewership when an established audience is online. This channel does not yet have enough audience history to infer an optimal hour.
 
 ## 1. Locked title
 
@@ -76,9 +97,10 @@ If you try the three-evening experiment, what visible boundary did you choose �
 ```text
 VIDEO003_THUMBNAIL_VISUAL_QA=PASS
 VIDEO003_THUMBNAIL_B=ACCEPTED
-VIDEO003_PUBLICATION_PACKET=TECHNICALLY_VERIFIED
+VIDEO003_PUBLICATION_PACKET=VERIFIED
 VIDEO003_EXTERNAL_BACKUP=VERIFIED
 VIDEO003_METADATA=LOCKED
-VIDEO003_UPLOAD=AUTHORIZED
-NEXT_REQUIRED_GATE=VIDEO003_PRIVATE_UPLOAD_AND_PLATFORM_QA
+VIDEO003_PUBLIC_PLATFORM_QA=PASS
+VIDEO003_STATUS=PUBLIC
+NEXT_REQUIRED_GATE=VIDEO003_POST_LAUNCH_ANALYTICS_BASELINE
 ```

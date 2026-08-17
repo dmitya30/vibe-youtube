@@ -1,6 +1,6 @@
 # VIDEO-003 publication packet
 
-Status: VERIFIED / UPLOAD AUTHORIZED / PLATFORM QA PENDING
+Status: VERIFIED / PUBLISHED / PLATFORM QA PASS
 Created: 2026-08-17
 
 Initial YouTube thumbnail: B — `thumbnail-b-still-awake-v1.jpg` / `STILL AWAKE?`.
@@ -20,6 +20,6 @@ Ignored local payload:
 
 External backup: `~/vibe-youtube-publish-staging/VIDEO-003`.
 
-Title, description, chapters, launch comment and thumbnail B are owner-approved. Upload is authorized with initial visibility set to Private.
+VIDEO-003 is Public at `https://youtu.be/st3uCBzCXNw`. Title, description, timestamp links, reviewed English captions, thumbnail B, first comment, 1080p playback, channel-page visibility and public incognito playback passed platform QA. Visual chapter segmentation was unavailable at launch and is accepted.
 
-Next gate: `VIDEO003_PRIVATE_UPLOAD_AND_PLATFORM_QA`.
+Next gate: `VIDEO003_POST_LAUNCH_ANALYTICS_BASELINE`.

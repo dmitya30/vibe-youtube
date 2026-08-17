@@ -1,6 +1,6 @@
 # Repository Structure
 
-Updated: 2026-08-15
+Updated: 2026-08-17
 Status: active
 
 Этот файл фиксирует каноническую структуру репозитория, назначение
@@ -25,6 +25,7 @@ vibe-youtube/
 │   ├── VIDEO002_NARRATION.md
 │   ├── VIDEO002_STORYBOARD.md
 │   ├── VIDEO003_PRODUCTION.md
+│   ├── VIDEO003_PUBLISHING.md
 │   ├── SOURCES.md
 │   ├── SCRIPT.md
 │   ├── STORYBOARD.md
@@ -316,3 +317,21 @@ Production work и repository maintenance по возможности комми
 ## Assistant execution contract
 
 `AGENTS.md` at the repository root is the mandatory first-read operational contract for Git Bash patch delivery, context restoration, validation and Remotion asset handling.
+
+## VIDEO-003 publication lifecycle
+
+Tracked publication lifecycle records:
+
+- `docs/VIDEO003_PUBLISHING.md` — title, description, thumbnail decision, launch record and platform QA;
+- `VIDEO-003-proof/publish/video-003/README.md` — packet handling and lifecycle status;
+- `VIDEO-003-proof/publish/video-003/manifest.txt` — payload hashes and publication status.
+
+Ignored local payload:
+
+- `VIDEO-003-proof/publish/video-003/local/` — master, thumbnail, captions, metadata and checksum list.
+
+External verified backup:
+
+- `~/vibe-youtube-publish-staging/VIDEO-003`.
+
+Public record: `https://youtu.be/st3uCBzCXNw` / `st3uCBzCXNw`.

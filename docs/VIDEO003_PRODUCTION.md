@@ -205,4 +205,4 @@ VIDEO003_FINAL_PLAYBACK_QA=PASS
 VIDEO003_PRODUCTION_MASTER=ACCEPTED
 ```
 
-Next workstream: thumbnail and publication packet.
+Production, packaging and publication are complete. VIDEO-003 is Public at `https://youtu.be/st3uCBzCXNw`. Canonical launch details belong to [`VIDEO003_PUBLISHING.md`](VIDEO003_PUBLISHING.md).

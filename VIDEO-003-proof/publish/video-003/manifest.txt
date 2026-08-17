@@ -1,5 +1,5 @@
 VIDEO-003 PUBLICATION PACKET
-Status: VERIFIED / UPLOAD AUTHORIZED / PLATFORM QA PENDING
+Status: VERIFIED / PUBLISHED / PLATFORM QA PASS
 Created: 2026-08-17
 Repository base commit: ffe2e13c91e28cdf734fff1e6052b7c73f400e07
 External backup: ~/vibe-youtube-publish-staging/VIDEO-003
@@ -45,6 +45,18 @@ Metadata:
 - launch comment: LOCKED
 
 Publication:
-- upload: AUTHORIZED
-- initial visibility: PRIVATE
-- next required gate: VIDEO003_PRIVATE_UPLOAD_AND_PLATFORM_QA
+- YouTube channel: Fewer Exits / @fewerexits
+- Video ID: st3uCBzCXNw
+- public URL: https://youtu.be/st3uCBzCXNw
+- public launch: 2026-08-17 22:09 UTC+7 / 2026-08-17 15:09 UTC
+- visibility: Public
+- processing and 1080p playback: PASS
+- public incognito playback: PASS
+- channel-page visibility: PASS
+- reviewed English captions: PASS
+- description timestamps: PASS
+- visual chapter segmentation: UNAVAILABLE_ACCEPTED
+- first comment: PUBLISHED
+- YouTube Checks: PASS
+- platform QA: PASS
+- next required gate: VIDEO003_POST_LAUNCH_ANALYTICS_BASELINE

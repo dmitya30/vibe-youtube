@@ -1,7 +1,7 @@
 # Project Context
 
-Updated: 2026-08-15
-Status: VIDEO-001 and VIDEO-002 Public / VIDEO-003 production master accepted
+Updated: 2026-08-17
+Status: VIDEO-001, VIDEO-002 and VIDEO-003 Public / platform QA complete
 Source of truth for project-level context
 
 ## 1. Goal
@@ -240,17 +240,42 @@ Current status:
 - NOD source-frame QA: PASS;
 - production motion proof: PASS;
 - production visual QA: PASS;
-- final full-size render: IN PROGRESS;
-- final playback QA: PENDING.
+- final full-size render: PASS;
+- final playback QA: PASS.
 
 VIDEO-003 validated the faster batch-production direction. Mechanical gates are grouped, and human visual review happens on complete proofs rather than after every composition.
 
 Next required gate:
 
-`VIDEO003_FINAL_PLAYBACK_QA`
+`VIDEO003_PUBLIC_PLATFORM_QA`
 
 ## VIDEO-003 final production acceptance — 2026-08-17
 
 VIDEO-003 completed final technical render, decode validation, contact-sheet review and human full-playback QA. The accepted local master contains 11,681 frames at 1920x1080 and 30 fps, with 24 kHz mono AAC narration. Its SHA-256 is `eea99f513ab0af9307a7b6a6c3174067b43f70fb284fd5fa40013251084919d8`. Generated media remains local and ignored; production source, manifests, prompts and documentation are version-controlled.
 
-Next workstream: thumbnail and publication packet.
+Thumbnail, publication packet and public platform QA are complete.
+
+## VIDEO-003 public launch — 2026-08-17
+
+VIDEO-003 is Public.
+
+- Video ID: `st3uCBzCXNw`;
+- public URL: `https://youtu.be/st3uCBzCXNw`;
+- launch: 2026-08-17 22:09 UTC+7 / 2026-08-17 15:09 UTC;
+- visibility: Public;
+- 1080p processing and public playback: PASS;
+- channel-page visibility: PASS;
+- thumbnail B: PASS;
+- reviewed English captions: PASS;
+- description timestamp links: PASS;
+- visual chapter segmentation: unavailable and accepted;
+- first comment: published;
+- YouTube Checks: PASS.
+
+Canonical publication record:
+
+[`VIDEO003_PUBLISHING.md`](VIDEO003_PUBLISHING.md)
+
+The exact launch time is retained as an experimental parameter. YouTube states that publication time may affect immediate viewership when an audience is active, but is not known to affect long-term video performance. No channel-specific timing conclusion is permitted until sufficient audience-history data exists.
+
+Next workstream: compare VIDEO-001 and VIDEO-002 analytics, then establish the VIDEO-003 post-launch baseline after enough impressions accumulate.
