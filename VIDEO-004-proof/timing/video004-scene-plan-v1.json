@@ -1,0 +1,405 @@
+{
+  "video": "VIDEO-004",
+  "version": "v1",
+  "status": "LOCKED",
+  "fps": 30,
+  "audioDurationSec": 395.061917,
+  "captionCueCount": 147,
+  "timingSource": "CapCut acoustic cue boundaries aligned to authoritative narration",
+  "productionMode": "FAST_VALIDATED_DETERMINISTIC_HEAVY_WITH_HERO_COLD_OPEN",
+  "coldOpenVisualHypothesis": "ESCALATING_SUBSTITUTION_MACHINE_V1",
+  "coldOpenRetentionWindow": {
+    "startSec": 0.0,
+    "spokenEndSec": 33.4,
+    "compositionEndSec": 33.833
+  },
+  "coldOpenBeats": [
+    {
+      "id": "B01",
+      "startSec": 0.0,
+      "event": "Project and NOD are already visible before the first spoken word"
+    },
+    {
+      "id": "B02",
+      "startSec": 3.233,
+      "event": "The except-it contradiction begins"
+    },
+    {
+      "id": "B03",
+      "startSec": 6.467,
+      "event": "Email and filename substitutions enter"
+    },
+    {
+      "id": "B04",
+      "startSec": 9.4,
+      "event": "Tutorial state completes the escalating substitution chain"
+    },
+    {
+      "id": "B05",
+      "startSec": 12.433,
+      "event": "Substitute actions reorganize into a comfortable relief corridor"
+    },
+    {
+      "id": "B06",
+      "startSec": 17.633,
+      "event": "RELIEF receives a synchronized visual payoff"
+    },
+    {
+      "id": "B07",
+      "startSec": 18.867,
+      "event": "NOW and LATER trade begins"
+    },
+    {
+      "id": "B08",
+      "startSec": 22.833,
+      "event": "Present relief expands while future outcome recedes"
+    },
+    {
+      "id": "B09",
+      "startSec": 27.6,
+      "event": "Motivation path fails and the frame compresses"
+    },
+    {
+      "id": "B10",
+      "startSec": 30.567,
+      "event": "Camera enters the interval before escape"
+    },
+    {
+      "id": "B11",
+      "startSec": 33.833,
+      "event": "Hero composition hands off to definition space"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "composition": "C01",
+      "section": "Cold open",
+      "cueStart": 1,
+      "cueEndExclusive": 2,
+      "anchor": "There is a task you genuinely care about",
+      "component": "character_keyframe",
+      "assetMode": "NEW_KEYFRAME_PRIORITY",
+      "visualState": "NOD faces one large unfinished project in a quiet workspace",
+      "review": "project importance readable without labels"
+    },
+    {
+      "id": "S02",
+      "composition": "C01",
+      "section": "Cold open",
+      "cueStart": 2,
+      "cueEndExclusive": 5,
+      "anchor": "you do everything except it",
+      "component": "substitution_sequence",
+      "assetMode": "DETERMINISTIC",
+      "visualState": "Email, filename and tutorial states progressively insert themselves between NOD and the project",
+      "review": "continuous escalating substitution, not disconnected cards"
+    },
+    {
+      "id": "S03",
+      "composition": "C01",
+      "section": "Cold open",
+      "cueStart": 5,
+      "cueEndExclusive": 13,
+      "anchor": "relief",
+      "component": "state_transition",
+      "assetMode": "REUSE_OPENING_KEYFRAME",
+      "visualState": "Substitute tasks form a temporary relief corridor while the project transfers toward LATER; the camera enters the first-moment interval",
+      "review": "relief payoff and solution promise before 34 seconds"
+    },
+    {
+      "id": "S04",
+      "composition": "C02",
+      "section": "Definition boundary",
+      "cueStart": 13,
+      "cueEndExclusive": 16,
+      "anchor": "voluntarily delaying an intended action",
+      "component": "definition_card",
+      "assetMode": "DETERMINISTIC",
+      "visualState": "INTEND TO DO and DELAY ANYWAY lanes separate from reasonable delay",
+      "review": "avoid dictionary-style stagnation"
+    },
+    {
+      "id": "S05",
+      "composition": "C02",
+      "section": "Definition boundary",
+      "cueStart": 16,
+      "cueEndExclusive": 20,
+      "anchor": "not every delay is procrastination",
+      "component": "decision_examples",
+      "assetMode": "DETERMINISTIC",
+      "visualState": "Waiting for information, resting and dropping an obsolete goal receive NOT THE SAME treatment",
+      "review": "boundary clarity"
+    },
+    {
+      "id": "S06",
+      "composition": "C02",
+      "section": "Return to intended task",
+      "cueStart": 20,
+      "cueEndExclusive": 23,
+      "anchor": "The strange case is the task you still intend to do",
+      "component": "project_return",
+      "assetMode": "REUSE_OR_CROP",
+      "visualState": "The original project returns unchanged and the first real step becomes visible",
+      "review": "visual continuity with opening project"
+    },
+    {
+      "id": "S07",
+      "composition": "C03",
+      "section": "Aversive first step",
+      "cueStart": 23,
+      "cueEndExclusive": 26,
+      "anchor": "boredom uncertainty",
+      "component": "pressure_layers",
+      "assetMode": "DETERMINISTIC",
+      "visualState": "Boredom, uncertainty, effort and evaluation pressure gather around the first real action",
+      "review": "avoid clinical or brain imagery"
+    },
+    {
+      "id": "S08",
+      "composition": "C03",
+      "section": "Substitution",
+      "cueStart": 26,
+      "cueEndExclusive": 34,
+      "anchor": "a smaller task appears",
+      "component": "substitute_task",
+      "assetMode": "DETERMINISTIC",
+      "visualState": "Clear substitute tasks light up while the important project becomes visually heavier",
+      "review": "substitution logic"
+    },
+    {
+      "id": "S09",
+      "composition": "C03",
+      "section": "Mood-repair loop",
+      "cueStart": 34,
+      "cueEndExclusive": 47,
+      "anchor": "short term mood repair",
+      "component": "loop_diagram",
+      "assetMode": "DETERMINISTIC",
+      "visualState": "TASK CUE to DISCOMFORT to SMALL ESCAPE to RELIEF NOW to TASK RETURNS LATER forms one animated loop",
+      "review": "research boundary and readable causal sequence"
+    },
+    {
+      "id": "S10",
+      "composition": "C04",
+      "section": "Meaning and stakes",
+      "cueStart": 47,
+      "cueEndExclusive": 55,
+      "anchor": "work that matters most",
+      "component": "character_project_scale",
+      "assetMode": "NEW_KEYFRAME_PRIORITY",
+      "visualState": "The project carries coherent stakes through evaluation, identity, money and responsibility",
+      "review": "one coherent image, not icon clutter"
+    },
+    {
+      "id": "S11",
+      "composition": "C04",
+      "section": "Emotional weight",
+      "cueStart": 55,
+      "cueEndExclusive": 61,
+      "anchor": "importance does not automatically make initiation easy",
+      "component": "weight_comparison",
+      "assetMode": "DETERMINISTIC",
+      "visualState": "A trivial task remains light while the meaningful first step gains visible weight",
+      "review": "do not imply that caring causes procrastination"
+    },
+    {
+      "id": "S12",
+      "composition": "C04",
+      "section": "Future-self transfer",
+      "cueStart": 61,
+      "cueEndExclusive": 69,
+      "anchor": "The work did not disappear It changed owners",
+      "component": "future_self_transfer",
+      "assetMode": "REUSE_PRIORITY_KEYFRAME",
+      "visualState": "Present NOD pushes the same project across NOW and LATER to future NOD",
+      "review": "thumbnail motif continuity"
+    },
+    {
+      "id": "S13",
+      "composition": "C05",
+      "section": "First-moment interval",
+      "cueStart": 69,
+      "cueEndExclusive": 72,
+      "anchor": "The failure happens in the small interval",
+      "component": "micro_timeline",
+      "assetMode": "DETERMINISTIC",
+      "visualState": "The five-second interval between TASK APPEARS and ESCAPE expands across the frame",
+      "review": "curiosity reset"
+    },
+    {
+      "id": "S14",
+      "composition": "C05",
+      "section": "Identify first escape",
+      "cueStart": 72,
+      "cueEndExclusive": 78,
+      "anchor": "identify your first escape",
+      "component": "escape_selector",
+      "assetMode": "DETERMINISTIC",
+      "visualState": "Email, reference, layout, coffee and better-plan states appear; the first turn is selected",
+      "review": "distinguish first escape from lost evening"
+    },
+    {
+      "id": "S15",
+      "composition": "C05",
+      "section": "Describe the difficulty",
+      "cueStart": 78,
+      "cueEndExclusive": 87,
+      "anchor": "What felt difficult",
+      "component": "question_card",
+      "assetMode": "DETERMINISTIC",
+      "visualState": "One clean question occupies the frame while unclear, tedious and not-good-enough answers remain secondary",
+      "review": "non-diagnostic framing"
+    },
+    {
+      "id": "S16",
+      "composition": "C06",
+      "section": "Visible first action",
+      "cueStart": 87,
+      "cueEndExclusive": 90,
+      "anchor": "replace the project with one visible action",
+      "component": "abstract_to_visible",
+      "assetMode": "DETERMINISTIC",
+      "visualState": "WORK ON PRESENTATION transforms into OPEN SLIDE 3 and WRITE ROUGH HEADING",
+      "review": "physical action specificity"
+    },
+    {
+      "id": "S17",
+      "composition": "C06",
+      "section": "Cross-domain examples",
+      "cueStart": 90,
+      "cueEndExclusive": 95,
+      "anchor": "Not finish the report",
+      "component": "example_carousel",
+      "assetMode": "DETERMINISTIC",
+      "visualState": "Report and chemistry examples demonstrate transfer across domains",
+      "review": "pace without list overload"
+    },
+    {
+      "id": "S18",
+      "composition": "C06",
+      "section": "Real work boundary",
+      "cueStart": 95,
+      "cueEndExclusive": 102,
+      "anchor": "The action should touch the real task",
+      "component": "false_progress_split",
+      "assetMode": "DETERMINISTIC",
+      "visualState": "Folder color-coding moves into ESCAPE while rough heading remains in REAL WORK",
+      "review": "humorous but non-shaming"
+    },
+    {
+      "id": "S19",
+      "composition": "C07",
+      "section": "If-then builder",
+      "cueStart": 102,
+      "cueEndExclusive": 108,
+      "anchor": "attach that action to the cue",
+      "component": "if_then_builder",
+      "assetMode": "DETERMINISTIC",
+      "visualState": "IF cue and THEN response lock together as two large blocks",
+      "review": "exact conditional structure"
+    },
+    {
+      "id": "S20",
+      "composition": "C07",
+      "section": "If-then examples",
+      "cueStart": 108,
+      "cueEndExclusive": 111,
+      "anchor": "If I feel the urge to find another tutorial",
+      "component": "if_then_examples",
+      "assetMode": "DETERMINISTIC",
+      "visualState": "Email and tutorial plans animate once each with cue before response",
+      "review": "avoid guaranteed-automation implication"
+    },
+    {
+      "id": "S21",
+      "composition": "C07",
+      "section": "Evidence boundary",
+      "cueStart": 111,
+      "cueEndExclusive": 118,
+      "anchor": "implementation intentions",
+      "component": "evidence_card",
+      "assetMode": "DETERMINISTIC",
+      "visualState": "Research card separates GOAL INTENTION from IF-THEN SUPPORT",
+      "review": "scientific boundary visible"
+    },
+    {
+      "id": "S22",
+      "composition": "C08",
+      "section": "Bounded experiment",
+      "cueStart": 118,
+      "cueEndExclusive": 130,
+      "anchor": "Run it once",
+      "component": "experiment_protocol",
+      "assetMode": "DETERMINISTIC",
+      "visualState": "TASK, FIRST ESCAPE, REAL ACTION and IF-THEN form one bounded four-step experiment",
+      "review": "not another elaborate system"
+    },
+    {
+      "id": "S23",
+      "composition": "C08",
+      "section": "Limits",
+      "cueStart": 130,
+      "cueEndExclusive": 137,
+      "anchor": "If the task is impossible",
+      "component": "boundary_card",
+      "assetMode": "DETERMINISTIC",
+      "visualState": "Information, time, safety, support and qualified-help boundaries sit outside the behavioral loop",
+      "review": "caveat without derailing ending"
+    },
+    {
+      "id": "S24",
+      "composition": "C08",
+      "section": "Closing handoff",
+      "cueStart": 137,
+      "cueEndExclusive": 148,
+      "anchor": "But sometimes the task is possible",
+      "component": "closing_character_state",
+      "assetMode": "REUSE_PRIORITY_KEYFRAME",
+      "visualState": "Present NOD catches the transfer, opens the recognizable project and completes one rough first action",
+      "review": "payoff without miracle transformation"
+    }
+  ],
+  "compositionPlan": [
+    {
+      "id": "C01",
+      "purpose": "Hero cold open and relief reveal",
+      "scenes": "S01–S03"
+    },
+    {
+      "id": "C02",
+      "purpose": "Definition boundary and intended-task return",
+      "scenes": "S04–S06"
+    },
+    {
+      "id": "C03",
+      "purpose": "Aversiveness, substitution and mood-repair loop",
+      "scenes": "S07–S09"
+    },
+    {
+      "id": "C04",
+      "purpose": "Meaning, emotional weight and future-self transfer",
+      "scenes": "S10–S12"
+    },
+    {
+      "id": "C05",
+      "purpose": "First-moment interval and escape diagnosis",
+      "scenes": "S13–S15"
+    },
+    {
+      "id": "C06",
+      "purpose": "Visible-action transformations and real-work boundary",
+      "scenes": "S16–S18"
+    },
+    {
+      "id": "C07",
+      "purpose": "If-then construction, examples and evidence boundary",
+      "scenes": "S19–S21"
+    },
+    {
+      "id": "C08",
+      "purpose": "Bounded experiment, limits and closing handoff",
+      "scenes": "S22–S24"
+    }
+  ]
+}

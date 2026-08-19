@@ -364,3 +364,12 @@ Future records `docs/VIDEO004_SCRIPT.md` and `docs/VIDEO004_STORYBOARD.md` may b
 - `VIDEO-004-proof/audio/video004-narration-input-block-b-v1.txt` — tracked TTS block B.
 
 Generated audio remains local and ignored. Visual production directories and assets remain blocked until narration and exact timing pass.
+
+## VIDEO-004 timing artifacts — 2026-08-19
+
+- `VIDEO-004-proof/timing/video004-scene-plan-v1.json` — declarative scene ownership and hero cold-open beats;
+- `VIDEO-004-proof/timing/video004-scene-timing-v1.json` — compiled 30-fps timing source of truth;
+- `VIDEO-004-proof/timing/video004-scene-timing-v1.md` — human-readable timing manifest;
+- `tools/build_scene_timing.py` — reusable deterministic caption-to-scene compiler.
+
+Generated media remains local and ignored. Controlled asset and Remotion implementation may begin from the locked manifest.

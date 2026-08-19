@@ -217,3 +217,11 @@ Next: generate both TTS blocks, perform independent completeness and listening Q
 Visual asset generation begins only after timing acceptance.
 
 `NEXT_REQUIRED_GATE=VIDEO004_TTS_GENERATION_AND_COMPLETENESS_QA`
+
+## VIDEO-004 locked production timing — 2026-08-19
+
+Completed: audio master acceptance, authoritative captions, cue-to-scene ownership and 30-fps timing compilation. The locked runtime is 11852 frames across 24 semantic scenes and eight production compositions.
+
+Next: controlled asset plan and batched Remotion implementation, with C01 treated as the hero retention composition.
+
+`NEXT_REQUIRED_GATE=VIDEO004_ASSET_PLAN_AND_REMOTION_BATCH_IMPLEMENTATION`

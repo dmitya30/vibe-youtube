@@ -310,3 +310,9 @@ The owner reviewed the Russian semantic translation and accepted the English nar
 Authoritative narration was split mechanically into two tracked TTS inputs. Narration generation is authorized. Visual asset generation remains blocked until audio completeness QA and exact timing pass.
 
 `NEXT_WORKSTREAM=VIDEO004_TTS_GENERATION_AND_COMPLETENESS_QA`
+
+## VIDEO-004 timing lock — 2026-08-19
+
+Accepted narration and captions were compiled into a locked 24-scene, eight-composition timing manifest at 30 fps. C01 is the highest-priority hero composition and implements the owner-approved escalating-substitution visual hypothesis across the first 33.833 seconds.
+
+`NEXT_WORKSTREAM=VIDEO004_ASSET_PLAN_AND_REMOTION_BATCH_IMPLEMENTATION`
