@@ -156,7 +156,7 @@ def main():
     output_vtt.write_text(render_vtt(cues), encoding="utf-8", newline="\n")
     max_chars = max(len(cue["text"]) for cue in cues)
     report_lines = [
-        "VIDEO003_CAPTION_ALIGNMENT=PASS",
+        "CAPTION_ALIGNMENT=PASS",
         "ALIGNMENT_METHOD=CAPCUT_ACOUSTIC_TIMINGS_PLUS_AUTHORITATIVE_TEXT",
         "CUE_COUNT=" + str(len(cues)),
         "SOURCE_WORDS=" + str(source_words),
