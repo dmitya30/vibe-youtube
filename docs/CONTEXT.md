@@ -279,3 +279,13 @@ Canonical publication record:
 The exact launch time is retained as an experimental parameter. YouTube states that publication time may affect immediate viewership when an audience is active, but is not known to affect long-term video performance. No channel-specific timing conclusion is permitted until sufficient audience-history data exists.
 
 Next workstream: compare VIDEO-001 and VIDEO-002 analytics, then establish the VIDEO-003 post-launch baseline after enough impressions accumulate.
+
+## VIDEO-001 / VIDEO-002 analytics and VIDEO-004 direction — 2026-08-19
+
+The VIDEO-001 thumbnail-B 72-hour checkpoint produced only one additional impression and is classified as insufficient sample. YouTube also reconciled the displayed view count from the earlier 26-view snapshot to 24. The historical snapshot is preserved, and the later platform reconciliation is documented in [`VIDEO001_ANALYTICS.md`](VIDEO001_ANALYTICS.md).
+
+The initial VIDEO-002 snapshot contains 46 impressions, four views and insufficient retention data. It is documented in [`VIDEO002_ANALYTICS.md`](VIDEO002_ANALYTICS.md). No VIDEO-002 packaging conclusion is permitted from this sample.
+
+VIDEO-004 moves from the three-video phone and digital-behavior sequence into the broader procrastination and task-initiation demand cluster. The accepted direction, public demand evidence, claims boundary and provisional expanded channel core are documented in [`VIDEO004_RESEARCH.md`](VIDEO004_RESEARCH.md).
+
+Next workstream: claims research, competitor-package review and cold-open development for VIDEO-004. Title and thumbnail remain leading candidates rather than locked publication metadata.

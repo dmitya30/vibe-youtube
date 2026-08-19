@@ -175,3 +175,18 @@ Execution correction:
 8. At least two additional public benchmark videos remain the minimum Day-30 objective.
 
 Production speed may increase only by reducing rework and automating mechanical tasks. Research integrity, claim review, originality, playback QA, packaging judgment and human publication approval remain mandatory.
+
+## VIDEO-004 direction update — 2026-08-19
+
+VIDEO-003 is public. The first VIDEO-001 and VIDEO-002 comparison shows weak or insufficient distribution evidence rather than a stable channel benchmark.
+
+Execution continues without waiting for statistically mature analytics:
+
+- VIDEO-001 seven-day thumbnail checkpoint: 2026-08-22 at 08:30 UTC+7;
+- VIDEO-002 seven-day checkpoint: 2026-08-21;
+- VIDEO-003 72-hour checkpoint: 2026-08-20 at 22:09 UTC+7;
+- VIDEO-003 seven-day checkpoint: 2026-08-24 at 22:09 UTC+7;
+- VIDEO-004 direction: procrastination and task initiation;
+- VIDEO-004 next gate: competitor package, claims and cold-open lock.
+
+The Day-30 minimum remains four public long-form videos. Production speed may increase through reduced rework and mechanical automation, but demand research, claims review, visual QA and owner publication approval remain mandatory.

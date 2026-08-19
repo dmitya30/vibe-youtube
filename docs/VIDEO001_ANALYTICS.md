@@ -253,3 +253,46 @@ VIDEO001_INCOGNITO_THUMBNAIL_QA=PASS
 VIDEO001_72H_INTERVENTION_CHECKPOINT=2026-08-18T08:30:00_PLUS_07
 VIDEO001_7D_INTERVENTION_CHECKPOINT=2026-08-22T08:30:00_PLUS_07
 ```
+
+## 9. Thumbnail-B 72-hour checkpoint and platform reconciliation — 2026-08-18
+
+Evidence: six owner-supplied YouTube Studio screenshots covering Overview, Reach, Engagement, retention and Audience.
+
+Current platform values:
+
+| Metric | Value |
+|---|---:|
+| Views | 24 |
+| Impressions | 582 |
+| Impressions CTR | 2.6% |
+| Unique viewers | 19 |
+| Watch time | 0.8 hours |
+| Average view duration shown on Engagement | 2:01 |
+| Average view duration shown on retention card | 2:16 |
+| Average percentage viewed | 21.7% |
+| Subscribers | +1 |
+| Views from registered impressions | 15 |
+| Average view duration from registered impressions | 1:35 |
+| Watch time from registered impressions | 0.4 hours |
+
+YouTube reconciled the earlier displayed total from 26 views to 24 and the rounded watch-time total from 1.0 hours to 0.8 hours. The historical snapshot remains unchanged because it accurately records what the platform displayed at capture time. The current record documents the later platform reconciliation.
+
+Only one additional impression appeared after thumbnail B, `NOT YOUR BRAIN`, replaced thumbnail C on 2026-08-15 at 08:30 UTC+7. CTR remained 2.6%, and views from registered impressions remained 15. Thumbnail B therefore received no measurable retest.
+
+Decision:
+
+- keep thumbnail B through the seven-day checkpoint on 2026-08-22 at 08:30 UTC+7;
+- keep title, description and visibility unchanged;
+- do not declare B a winner or loser;
+- classify the 72-hour intervention result as insufficient sample;
+- retain the opening-retention diagnosis: steep initial loss, approximately 38% at 0:31 and weak overall retention.
+
+```text
+VIDEO001_PLATFORM_RECONCILIATION=RECORDED
+VIDEO001_CURRENT_VIEWS=24
+VIDEO001_CURRENT_IMPRESSIONS=582
+VIDEO001_THUMBNAIL_B_ADDITIONAL_IMPRESSIONS=1
+VIDEO001_THUMBNAIL_B_72H_RESULT=INSUFFICIENT_SAMPLE
+VIDEO001_OPENING_RETENTION=FAIL
+VIDEO001_7D_INTERVENTION_CHECKPOINT=2026-08-22T08:30:00+07:00
+```

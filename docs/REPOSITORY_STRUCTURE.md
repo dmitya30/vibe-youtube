@@ -335,3 +335,13 @@ External verified backup:
 - `~/vibe-youtube-publish-staging/VIDEO-003`.
 
 Public record: `https://youtu.be/st3uCBzCXNw` / `st3uCBzCXNw`.
+
+## VIDEO-004 and analytics records — 2026-08-19
+
+Current analytical and editorial records:
+
+- `docs/VIDEO001_ANALYTICS.md` — VIDEO-001 baseline, thumbnail intervention and platform reconciliation;
+- `docs/VIDEO002_ANALYTICS.md` — VIDEO-002 initial post-launch baseline;
+- `docs/VIDEO004_RESEARCH.md` — VIDEO-004 demand direction, working package, channel-core correction and claims boundary.
+
+VIDEO-004 production directories must not be created until the title, thumbnail direction and cold open pass their editorial gate. When implementation begins, its directory structure must follow the established tracked-source versus ignored-generated-media policy.

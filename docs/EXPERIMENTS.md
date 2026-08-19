@@ -568,3 +568,36 @@ Canonical research and packaging brief:
 Next gate:
 
 `VIDEO003_TITLE_THUMBNAIL_AND_COLD_OPEN_LOCK`
+
+# VIDEO-004 — Task initiation
+
+Status: DIRECTION ACCEPTED / PACKAGE AND COLD OPEN NOT LOCKED
+Decision date: 2026-08-19
+
+## Hypothesis
+
+A broad and emotionally recognizable task-initiation problem will provide a stronger demand test than a fourth consecutive phone-centered video or a narrower learning-method topic.
+
+## Viewer problem
+
+The viewer wants to complete an important task and understands its value, but repeatedly avoids the first meaningful action.
+
+## Leading package
+
+- working title: `Why You Can’t Start — Even When You Want To`;
+- working thumbnail: `NOT NOW.`;
+- package status: leading direction, not locked.
+
+## Experiment purpose
+
+Test whether a proven evergreen demand cluster can earn a larger initial audience test while preserving the channel standard of visual explanation, evidence discipline and one bounded practical experiment.
+
+The experiment must not infer competitor retention from public view counts. Public competitor signals are demand proxies only.
+
+Canonical direction and claims brief:
+
+[`VIDEO004_RESEARCH.md`](VIDEO004_RESEARCH.md)
+
+Next gate:
+
+`VIDEO004_COMPETITOR_PACKAGE_AND_COLD_OPEN_LOCK`
