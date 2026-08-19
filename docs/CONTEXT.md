@@ -302,3 +302,11 @@ Owner QA accepted the differentiated procrastination package:
 The package and cold open are locked. Script, narration, assets, production and publication remain unauthorized until their respective gates pass.
 
 `NEXT_WORKSTREAM=VIDEO004_SCRIPT_AND_STORYBOARD_QA`
+
+## VIDEO-004 production acceptance — 2026-08-19
+
+The owner reviewed the Russian semantic translation and accepted the English narration script and the 24-scene, 8-composition storyboard for production.
+
+Authoritative narration was split mechanically into two tracked TTS inputs. Narration generation is authorized. Visual asset generation remains blocked until audio completeness QA and exact timing pass.
+
+`NEXT_WORKSTREAM=VIDEO004_TTS_GENERATION_AND_COMPLETENESS_QA`

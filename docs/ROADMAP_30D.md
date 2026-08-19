@@ -207,3 +207,13 @@ Locked package: `Why You Avoid the Work That Matters Most` / `NOT NOW.` / `RELIE
 Next workstream: prepare the complete English script, claim annotations and fast-production storyboard for owner QA. Narration and production remain unauthorized.
 
 `NEXT_REQUIRED_GATE=VIDEO004_SCRIPT_AND_STORYBOARD_QA`
+
+## VIDEO-004 production entry — 2026-08-19
+
+Completed: owner script QA, owner storyboard QA, claims review, narration-input extraction and exact two-block reconstruction.
+
+Next: generate both TTS blocks, perform independent completeness and listening QA, concatenate the accepted sources, create authoritative captions and compile exact scene timing.
+
+Visual asset generation begins only after timing acceptance.
+
+`NEXT_REQUIRED_GATE=VIDEO004_TTS_GENERATION_AND_COMPLETENESS_QA`

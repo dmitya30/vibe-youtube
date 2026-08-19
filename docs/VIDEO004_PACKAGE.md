@@ -6,7 +6,7 @@ Owner: title, thumbnail, cold open and editorial promise
 
 ## 1. Gate boundary
 
-This document presents the package recommendation for human review. It does not lock publication metadata and does not authorize script, narration, asset production or publication.
+This document records the package review and accepted publication package. The title, thumbnail direction and cold open are locked unless the editorial gate is explicitly reopened. Publication remains separately gated.
 
 Public competitor retention is unavailable. Views, recurrence, channel-relative performance, visible packaging and opening structure are demand proxies rather than direct retention evidence.
 
@@ -204,8 +204,8 @@ VIDEO004_RECOMMENDED_COLD_OPEN=RELIEF_NOW_A
 VIDEO004_TARGET_RUNTIME=06_30_TO_07_30
 VIDEO004_OWNER_PACKAGE_QA=PASS
 VIDEO004_TITLE_THUMBNAIL_LOCK=PASS
-VIDEO004_SCRIPT_AUTHORIZATION=NOT_GRANTED
-NEXT_REQUIRED_GATE=VIDEO004_SCRIPT_AND_STORYBOARD_QA
+VIDEO004_SCRIPT_AUTHORIZATION=GRANTED
+NEXT_REQUIRED_GATE=VIDEO004_TTS_GENERATION_AND_COMPLETENESS_QA
 ```
 
 ## 12. Owner acceptance record
@@ -228,8 +228,8 @@ VIDEO004_LOCKED_TITLE=WHY_YOU_AVOID_THE_WORK_THAT_MATTERS_MOST
 VIDEO004_LOCKED_THUMBNAIL=NOT_NOW
 VIDEO004_LOCKED_COLD_OPEN=RELIEF_NOW_A
 VIDEO004_PACKAGE_AND_COLD_OPEN_LOCK=PASS
-VIDEO004_SCRIPT_AUTHORIZATION=NOT_GRANTED
-VIDEO004_NARRATION_AUTHORIZATION=NOT_GRANTED
-VIDEO004_PRODUCTION_AUTHORIZATION=NOT_GRANTED
-NEXT_REQUIRED_GATE=VIDEO004_SCRIPT_AND_STORYBOARD_QA
+VIDEO004_SCRIPT_AUTHORIZATION=GRANTED
+VIDEO004_NARRATION_AUTHORIZATION=GRANTED
+VIDEO004_PRODUCTION_AUTHORIZATION=GRANTED
+NEXT_REQUIRED_GATE=VIDEO004_TTS_GENERATION_AND_COMPLETENESS_QA
 ```

@@ -354,3 +354,13 @@ VIDEO-004 production directories must not be created until the title, thumbnail 
 Future records `docs/VIDEO004_SCRIPT.md` and `docs/VIDEO004_STORYBOARD.md` may be created during the next editorial workstream. VIDEO-004 production directories must not be created before script and storyboard authorization.
 
 `VIDEO004_PACKAGE_AND_COLD_OPEN_LOCK=PASS`
+
+## VIDEO-004 production entry
+
+- `docs/VIDEO004_SCRIPT.md` — accepted authoritative narration and claims audit;
+- `docs/VIDEO004_STORYBOARD.md` — accepted semantic scene and composition architecture;
+- `docs/VIDEO004_NARRATION.md` — TTS input, voice target and completeness-QA record;
+- `VIDEO-004-proof/audio/video004-narration-input-block-a-v1.txt` — tracked TTS block A;
+- `VIDEO-004-proof/audio/video004-narration-input-block-b-v1.txt` — tracked TTS block B.
+
+Generated audio remains local and ignored. Visual production directories and assets remain blocked until narration and exact timing pass.
