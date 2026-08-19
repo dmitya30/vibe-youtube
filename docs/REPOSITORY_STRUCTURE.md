@@ -373,3 +373,12 @@ Generated audio remains local and ignored. Visual production directories and ass
 - `tools/build_scene_timing.py` — reusable deterministic caption-to-scene compiler.
 
 Generated media remains local and ignored. Controlled asset and Remotion implementation may begin from the locked manifest.
+
+## VIDEO-004 asset and Remotion scaffold — 2026-08-19
+
+- `VIDEO-004-proof/assets/manifest.txt` — planned and accepted source lifecycle;
+- `VIDEO-004-proof/assets/video004-generation-prompts-v1.md` — controlled generation prompts;
+- `VIDEO-004-proof/remotion/` — VIDEO-004 Remotion source and local runtime workspace;
+- `docs/VIDEO004_PRODUCTION.md` — canonical VIDEO-004 production checkpoint.
+
+Generated raster, video, audio, public staging and render outputs remain local and ignored.
