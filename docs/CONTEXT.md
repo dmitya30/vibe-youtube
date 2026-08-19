@@ -289,3 +289,16 @@ The initial VIDEO-002 snapshot contains 46 impressions, four views and insuffici
 VIDEO-004 moves from the three-video phone and digital-behavior sequence into the broader procrastination and task-initiation demand cluster. The accepted direction, public demand evidence, claims boundary and provisional expanded channel core are documented in [`VIDEO004_RESEARCH.md`](VIDEO004_RESEARCH.md).
 
 Next workstream: claims research, competitor-package review and cold-open development for VIDEO-004. Title and thumbnail remain leading candidates rather than locked publication metadata.
+
+## VIDEO-004 package lock — 2026-08-19
+
+Owner QA accepted the differentiated procrastination package:
+
+- title: `Why You Avoid the Work That Matters Most`;
+- thumbnail: `NOT NOW.`;
+- cold open: `RELIEF_NOW_A`;
+- target runtime: approximately 6:30–7:30.
+
+The package and cold open are locked. Script, narration, assets, production and publication remain unauthorized until their respective gates pass.
+
+`NEXT_WORKSTREAM=VIDEO004_SCRIPT_AND_STORYBOARD_QA`

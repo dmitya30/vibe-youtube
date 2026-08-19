@@ -190,3 +190,20 @@ Execution continues without waiting for statistically mature analytics:
 - VIDEO-004 next gate: competitor package, claims and cold-open lock.
 
 The Day-30 minimum remains four public long-form videos. Production speed may increase through reduced rework and mechanical automation, but demand research, claims review, visual QA and owner publication approval remain mandatory.
+
+## VIDEO-004 package checkpoint — 2026-08-19
+
+Completed:
+
+- competitor-package review;
+- source-link reconciliation;
+- owner title and thumbnail QA;
+- cold-open lock;
+- target-runtime decision;
+- scientific claims boundary.
+
+Locked package: `Why You Avoid the Work That Matters Most` / `NOT NOW.` / `RELIEF_NOW_A`.
+
+Next workstream: prepare the complete English script, claim annotations and fast-production storyboard for owner QA. Narration and production remain unauthorized.
+
+`NEXT_REQUIRED_GATE=VIDEO004_SCRIPT_AND_STORYBOARD_QA`

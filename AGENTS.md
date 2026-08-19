@@ -5,6 +5,7 @@ This file is the first operational source of truth after any dialogue compressio
 ## User environment
 
 - Shell: Git Bash MINGW64 on Windows.
+- Canonical local repository path: `~/projects/vibe-youtube`.
 - The assistant writes commands and patches; the user applies them.
 - Every executable patch must begin with an explicit cd to the required directory.
 - Never use exit, exit 1, or commands that close the active Git Bash session.

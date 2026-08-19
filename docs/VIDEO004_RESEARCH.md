@@ -1,7 +1,7 @@
 # VIDEO-004 — Demand direction and research brief
 
 Updated: 2026-08-19
-Status: DIRECTION ACCEPTED / PACKAGE AND COLD OPEN NOT LOCKED
+Status: PACKAGE AND COLD OPEN LOCKED / SCRIPT NOT AUTHORIZED
 Owner: topic demand, claims boundary and packaging gate
 
 ## 1. Strategic correction
@@ -140,10 +140,10 @@ This channel-core wording remains provisional until evidence from approximately 
 Public examples and demand anchors:
 
 - TED-Ed, `Why you procrastinate even when it feels bad`: https://www.youtube.com/watch?v=FWTNMzK9vG4
-- Justin Sung, `How To Force Your Brain To Get Stuff Done`: https://www.youtube.com/watch?v=HtTIt7ch2z8
-- Leon Hendrix, `How To Stop Wasting Your Life`: https://www.youtube.com/watch?v=RqGnkfDhmtQ
-- Charisma on Command, `If You Run Out Of Things To Say, Play This Simple Game`: https://www.youtube.com/watch?v=rVJ5z_BrRCE
-- Therapy in a Nutshell, `4 Types of Overthinking and How to Stop Them`: https://www.youtube.com/watch?v=1vx8iUvfyCY
+- Justin Sung, `How To Force Your Brain To Get Stuff Done`: https://www.youtube.com/watch?v=FvqFlu9vjN0
+- Leon Hendrix, `How To Stop Wasting Your Life`: https://www.youtube.com/watch?v=YucXxma_-ko
+- Charisma on Command, `If You Run Out Of Things To Say, Play This Simple Game`: https://www.youtube.com/watch?v=QXiAPiw7vfc
+- Therapy in a Nutshell, `4 Types of Overthinking and How to Stop Them`: https://www.youtube.com/watch?v=28BkdLXQA-c
 - YouTube recommendation-system guidance: https://support.google.com/youtube/answer/16533387
 - YouTube search and discovery guidance: https://support.google.com/youtube/answer/141805
 
@@ -158,7 +158,24 @@ VIDEO004_REREADING=DEFERRED_TO_BACKLOG
 VIDEO004_DIRECTION=PROCRASTINATION_AND_TASK_INITIATION
 VIDEO004_LEADING_TITLE=WHY_YOU_CANT_START_EVEN_WHEN_YOU_WANT_TO
 VIDEO004_LEADING_THUMBNAIL=NOT_NOW
-VIDEO004_TITLE_THUMBNAIL_LOCK=NOT_YET
+VIDEO004_TITLE_THUMBNAIL_LOCK=PASS
 CHANNEL_CORE=PROVISIONAL_KNOW_WHAT_TO_DO_BUT_DO_SOMETHING_ELSE
-NEXT_REQUIRED_GATE=VIDEO004_COMPETITOR_PACKAGE_AND_COLD_OPEN_LOCK
+VIDEO004_LOCKED_TITLE=WHY_YOU_AVOID_THE_WORK_THAT_MATTERS_MOST
+VIDEO004_LOCKED_THUMBNAIL=NOT_NOW
+VIDEO004_LOCKED_COLD_OPEN=RELIEF_NOW_A
+VIDEO004_PACKAGE_AND_COLD_OPEN_LOCK=PASS
+VIDEO004_SCRIPT_AUTHORIZATION=NOT_GRANTED
+NEXT_REQUIRED_GATE=VIDEO004_SCRIPT_AND_STORYBOARD_QA
+```
+
+## 9. Package decision
+
+The competitor-package review and owner QA selected candidate A. The exact-title collision affecting the original working title was treated as a packaging differentiation risk, not as evidence against the procrastination and task-initiation demand cluster.
+
+Canonical package details are recorded in [`VIDEO004_PACKAGE.md`](VIDEO004_PACKAGE.md).
+
+```text
+VIDEO004_PACKAGE_AND_COLD_OPEN_LOCK=PASS
+VIDEO004_SCRIPT_AUTHORIZATION=NOT_GRANTED
+NEXT_REQUIRED_GATE=VIDEO004_SCRIPT_AND_STORYBOARD_QA
 ```

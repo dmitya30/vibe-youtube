@@ -345,3 +345,12 @@ Current analytical and editorial records:
 - `docs/VIDEO004_RESEARCH.md` — VIDEO-004 demand direction, working package, channel-core correction and claims boundary.
 
 VIDEO-004 production directories must not be created until the title, thumbnail direction and cold open pass their editorial gate. When implementation begins, its directory structure must follow the established tracked-source versus ignored-generated-media policy.
+
+## VIDEO-004 editorial records
+
+- `docs/VIDEO004_RESEARCH.md` — demand direction, evidence and claims boundary;
+- `docs/VIDEO004_PACKAGE.md` — accepted title, thumbnail direction, cold open and retention architecture.
+
+Future records `docs/VIDEO004_SCRIPT.md` and `docs/VIDEO004_STORYBOARD.md` may be created during the next editorial workstream. VIDEO-004 production directories must not be created before script and storyboard authorization.
+
+`VIDEO004_PACKAGE_AND_COLD_OPEN_LOCK=PASS`

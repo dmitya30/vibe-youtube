@@ -601,3 +601,22 @@ Canonical direction and claims brief:
 Next gate:
 
 `VIDEO004_COMPETITOR_PACKAGE_AND_COLD_OPEN_LOCK`
+
+## VIDEO-004 — Package acceptance
+
+Status: PACKAGE AND COLD OPEN LOCKED / SCRIPT NOT AUTHORIZED
+
+Accepted package:
+
+- title: `Why You Avoid the Work That Matters Most`;
+- thumbnail: `NOT NOW.`;
+- cold open: `RELIEF_NOW_A`;
+- target runtime: approximately 6:30–7:30.
+
+Primary hypothesis: an emotionally recognizable procrastination package can earn a larger valid audience test than the previous digital-behavior packages, while the relief-now cold open can improve early promise delivery.
+
+```text
+VIDEO004_PACKAGE_AND_COLD_OPEN_LOCK=PASS
+VIDEO004_SCRIPT_AUTHORIZATION=NOT_GRANTED
+NEXT_REQUIRED_GATE=VIDEO004_SCRIPT_AND_STORYBOARD_QA
+```
