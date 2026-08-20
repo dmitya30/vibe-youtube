@@ -1,7 +1,7 @@
 # VIDEO-004 production record
 
-Updated: 2026-08-19
-Status: TIMING LOCKED / ASSET PLAN COMPLETE / REMOTION SCAFFOLD READY
+Updated: 2026-08-20
+Status: TIMING LOCKED / LAYOUT RECOVERY CHECKPOINT / REDESIGN RESEARCH REVALIDATED
 
 ## 1. Locked production architecture
 
@@ -121,4 +121,52 @@ VIDEO004_VISUAL_GRAMMAR=REJECTED
 VIDEO004_ACCEPTED_NARRATION_MASTER=UNCHANGED
 VIDEO004_LAYOUT_SOURCE_STATUS=RECOVERY_CHECKPOINT
 NEXT_REQUIRED_GATE=VIDEO004_RESEARCH_REVALIDATION_AND_CANONICAL_DOCUMENTATION_SYNC
+```
+
+## 8. Research revalidation and canonical redesign boundary — 2026-08-20
+
+The committed Remotion source was compared with the locked timing manifest and the reviewed technical proof. `src/timing.ts` preserves 24 scenes, eight compositions, 11852 frames and the exact C01 boundary at frame 1015. `src/Video004.tsx` preserves the rejected beige, graphite and orange grammar, the deterministic placeholder NOD and the shared C02 through C08 presentation system. It remains reproducible recovery evidence and is not an accepted production design.
+
+Revalidated evidence and limits:
+
+- Speaker gender is not a supported primary voice-selection rule. A study of 95 university students found no speaker-gender or speaker-learner-gender effect on learning gain, situational interest or cognitive load in its instructional-video context. A separate study of 85 American participants using contemporary TTS tutor voices also found no voice-gender effect on recall or social ratings. These bounded studies do not prove that gender can never affect audience response; they reject a universal gender-first rule. Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC8194702/ and https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2024.1436341/full
+- In two experiments using a 22-minute undergraduate voiceover lecture, higher vocal enthusiasm increased self-reported attentional engagement; the second experiment also found greater motivation to watch another lecture. Neither experiment found improved quiz performance. Production implication: expressive delivery may be tested for engagement, but it must not be described as a learning or retention guarantee. Source: https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1339815/full
+- Educational-video literature supports signaling important information, semantic segmenting, removal of extraneous material and complementary use of auditory and visual channels. It does not establish that arbitrary motion, constant novelty or generated footage automatically improves retention. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5132380/
+- Background-music findings are heterogeneous. In one experiment with 81 college students, music did not affect recall, while comprehension was lower with music overall and interacted with working-memory capacity. This does not prove that all music is harmful, but it supports retaining the owner decision against an automatic continuous music bed. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5671572/
+- Controlled serif-only experiments found no systematic serif effect on RSVP or continuous reading speed; letter spacing produced a clearer legibility effect. Therefore the VIDEO-004 sans-serif direction is an owner visual-identity and layout-QA decision, not a claim that sans-serif is universally more readable. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC4612630/
+- A review of explainer-video research identifies narrative structure, informal delivery and coordinated voiceover and visualization as common features, while emphasizing limited direct evidence for broad persuasive effects. Processing fluency and engagement must not be converted into guaranteed retention claims. Source: https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2022.1034199/full
+
+## 9. Locked redesign decisions
+
+The following decisions supersede the rejected visual treatment without modifying narration, captions, timing or scene ownership:
+
+- preserve C01 spatial continuity, causal progression and object-motion logic;
+- preserve the recognizable project, substitute-task escalation, relief event and NOW to LATER transfer;
+- replace the serif system with a sans-serif family consistent with the earlier channel videos;
+- define bounded one-line, two-line and three-line text presets instead of relying on uncontrolled central-box wrapping;
+- keep orange as the primary identity accent while adding semantic accent roles plus stronger light, dark and depth contrast;
+- give adjacent compositions distinguishable semantic visual modes rather than applying one universal card layout;
+- treat the current deterministic NOD as a structural placeholder only;
+- require canonical NOD keyframes for character states and controlled generated NOD motion for the C01 hero treatment;
+- require an explicit end policy for every generated video asset;
+- use signaling, contrast and spatial change to clarify semantic turns; do not add random motion as a retention substitute;
+- permit a sparse semantic-SFX experiment for declared events, but retain narration intelligibility and reject an automatic continuous music bed.
+
+Candidate SFX events remain hypotheses: substitute appearances, relief payoff, NOW to LATER transfer, interval expansion, IF to THEN connection and final handoff. Every accepted cue must declare provenance and license, frame ownership, literal runtime path, gain, fades and end policy. Acceptance requires peak and clipping validation plus full-playback human QA.
+
+The existing asset plan is reopened only where the rejected placeholder treatment or the new C01 motion requirement changes source needs. No accepted generated asset exists yet.
+
+```text
+VIDEO004_RESEARCH_REVALIDATION=PASS
+VIDEO004_CANONICAL_RESEARCH_BOUNDARY=PASS
+VIDEO004_LAYOUT_SOURCE_STATUS=RECOVERY_CHECKPOINT
+VIDEO004_CAUSAL_STRUCTURE=ACCEPTED
+VIDEO004_OBJECT_MOTION_LOGIC=ACCEPTED
+VIDEO004_VISUAL_GRAMMAR=REDESIGN_REQUIRED
+VIDEO004_PRIMARY_TYPE_DIRECTION=SANS_SERIF_OWNER_QA
+VIDEO004_CONTINUOUS_MUSIC_BED=NOT_AUTHORIZED
+VIDEO004_SPARSE_SEMANTIC_SFX=CONTROLLED_HYPOTHESIS
+VIDEO004_ACCEPTED_NARRATION_MASTER=UNCHANGED
+VIDEO004_CAPTIONS_AND_TIMING=LOCKED
+NEXT_REQUIRED_GATE=VIDEO004_VISUAL_GRAMMAR_REDESIGN_SPEC_AND_C01_ASSET_PLAN
 ```

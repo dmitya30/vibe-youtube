@@ -316,3 +316,13 @@ Authoritative narration was split mechanically into two tracked TTS inputs. Narr
 Accepted narration and captions were compiled into a locked 24-scene, eight-composition timing manifest at 30 fps. C01 is the highest-priority hero composition and implements the owner-approved escalating-substitution visual hypothesis across the first 33.833 seconds.
 
 `NEXT_WORKSTREAM=VIDEO004_ASSET_PLAN_AND_REMOTION_BATCH_IMPLEMENTATION`
+
+## VIDEO-004 layout recovery and redesign research — 2026-08-20
+
+The complete 395-second VIDEO-004 low-resolution layout proof passed technical validation and failed human visual QA. C01 continuity, causal progression, scene ownership and object-motion logic remain accepted. The serif typography, beige-graphite-orange grammar, shared presentation-like treatment across C02 through C08, central text wrapping and placeholder character treatment were rejected.
+
+The accepted narration master, 147 captions, 24-scene timing and eight-composition ownership remain locked. The committed Remotion source is a recovery checkpoint, not an accepted final visual design.
+
+External audio and visual claims were revalidated and transferred to canonical production, narration and automation records. The temporary recovery journal was retired after transfer.
+
+`NEXT_WORKSTREAM=VIDEO004_VISUAL_GRAMMAR_REDESIGN_SPEC_AND_C01_ASSET_PLAN`

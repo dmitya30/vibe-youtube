@@ -1,6 +1,6 @@
 # VIDEO-004 — Narration record
 
-Updated: 2026-08-19
+Updated: 2026-08-20
 Status: NARRATION MASTER PASS / CAPTIONS PASS / TIMING SOURCE ACCEPTED
 Script: [VIDEO004_SCRIPT.md](VIDEO004_SCRIPT.md)
 
@@ -198,4 +198,24 @@ VIDEO004_TIMING_STATUS=LOCKED
 VIDEO004_COMPOSITION_FRAMES=11852
 VIDEO004_VISUAL_ASSET_GENERATION=AUTHORIZED_CONTROLLED
 NEXT_REQUIRED_GATE=VIDEO004_ASSET_PLAN_AND_REMOTION_BATCH_IMPLEMENTATION
+```
+
+## 11. Post-layout narration boundary — 2026-08-20
+
+During complete layout-proof playback, the owner reported that the accepted Aoede performance becomes subjectively sleepy after approximately two to three minutes. This is a retrospective creative observation, not a completeness, seam, codec or text defect. It does not reopen the accepted VIDEO-004 master.
+
+For VIDEO-004:
+
+- do not regenerate, replace, split or process the authoritative narration master;
+- do not alter the accepted caption text, timing manifest or hashes;
+- visual redesign and optional sparse semantic effects must be layered around the unchanged master;
+- every audio addition must preserve speech intelligibility and pass peak, clipping and full-playback QA.
+
+For VIDEO-005 and later, voice selection may test controlled delivery differences across neutral explanation, tension, turn, relief and finalization. Narrator gender is not a primary selection rule, Aoede is not an automatic default, and changing voices between videos is allowed as an observational production experiment. Two-speaker narration is permitted only when designed at script and storyboard stage; a completed monologue must not be split mechanically.
+
+```text
+VIDEO004_AUDIO_MASTER=PASS_UNCHANGED
+VIDEO004_NARRATION_RETROSPECTIVE=SUBJECTIVE_LOW_ENERGY_AFTER_2_TO_3_MINUTES
+VIDEO004_NARRATION_REGENERATION=NOT_AUTHORIZED
+VIDEO005_PLUS_VOICE_TESTING=AUTHORIZED_AT_SCRIPT_STAGE
 ```

@@ -22,6 +22,7 @@ This file is the first operational source of truth after any dialogue compressio
 - Read the actual local or repository schema before writing a patch.
 - Do not provide placeholder code when an executable patch is required.
 - Validate syntax and quoting before sending every command.
+- Generated or modified tracked text files must end with exactly one newline and no additional blank line at EOF; `git diff --check` must pass before a patch reports PASS.
 - Use command chaining only when later commands must not run after a failed validation.
 
 ## Workflow behavior

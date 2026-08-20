@@ -1,6 +1,6 @@
 # Repository Structure
 
-Updated: 2026-08-17
+Updated: 2026-08-20
 Status: active
 
 Этот файл фиксирует каноническую структуру репозитория, назначение
@@ -382,3 +382,11 @@ Generated media remains local and ignored. Controlled asset and Remotion impleme
 - `docs/VIDEO004_PRODUCTION.md` — canonical VIDEO-004 production checkpoint.
 
 Generated raster, video, audio, public staging and render outputs remain local and ignored.
+
+## VIDEO-004 layout-recovery documentation ownership — 2026-08-20
+
+- `docs/VIDEO004_PRODUCTION.md` owns layout-proof QA, research boundaries, accepted structural decisions, rejected visual grammar and the active redesign gate.
+- `docs/VIDEO004_NARRATION.md` owns the unchanged accepted master and its post-layout retrospective boundary.
+- `docs/SHADOW_AUTOMATION.md` owns provider-independent future TTS controls and VIDEO-005-plus voice experiments.
+- `docs/drafts/VIDEO004_AUDIO_VISUAL_RESEARCH_RECOVERY.md` was a temporary compression-recovery journal and is removed after canonical transfer.
+- `VIDEO-004-proof/remotion/src/` remains tracked recovery source until a separately reviewed redesign replaces it.

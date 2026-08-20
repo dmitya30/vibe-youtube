@@ -1,6 +1,6 @@
 # Shadow Automation Log
 
-Updated: 2026-08-10
+Updated: 2026-08-20
 Status: active for VIDEO-002 and VIDEO-003 benchmarks
 Purpose: measure the production pipeline before scaling automation
 
@@ -341,3 +341,31 @@ Classification:
 - motion-density suggestions: `ASSIST`;
 - NOD identity, anatomy and visual rhythm: `KEEP_MANUAL`;
 - choice of additional GPT Image or Kling scenes: `KEEP_MANUAL`.
+
+## 16. TTS control revalidation for VIDEO-005 and later
+
+Current Kie.ai documentation for `google/gemini-2-5-pro-tts` shows provider input fields `temperature`, `scene`, `sample_context`, `speakers`, `speaker_id`, `voice_name`, `audio_profile`, `accent`, `style`, `pace` and `dialogue_turns`. Its examples also place inline audio tags inside dialogue text. The retrieved page provides an example with `temperature: 1`; it does not establish a safe range or deterministic relation between temperature and emotional delivery. Source: https://docs.kie.ai/google/gemini-2-5-pro-tts
+
+Current Google Gemini TTS documentation confirms:
+
+- single-speaker and multi-speaker synthesis;
+- up to two configured speakers in the Gemini API example contract;
+- natural-language control of style, tone, accent and pace;
+- audio-profile, scene, director-notes, sample-context and transcript prompting concepts;
+- inline tags such as `[whispers]`, `[shouting]`, `[tired]` and `[excited]`;
+- no exhaustive list of tags and an explicit recommendation to experiment;
+- voice and long-output consistency limitations, so generated speech still requires complete transcription, lexical comparison and listening QA.
+
+Google API schemas and Kie.ai provider schemas are related but not interchangeable. Future integrations must record the exact provider, route, model, request schema and values used rather than converting documentation concepts into invented fields. Sources: https://ai.google.dev/gemini-api/docs/speech-generation and https://docs.cloud.google.com/text-to-speech/docs/gemini-tts
+
+Classification:
+
+- exact TTS request and result logging: `AUTOMATE_NOW`;
+- complete transcript-to-script verification: `AUTOMATE_NOW`;
+- chunk duration and end-policy validation: `AUTOMATE_NOW`;
+- narrator and prompt shortlist generation: `ASSIST`;
+- final voice, emotional arc and acceptability: `KEEP_MANUAL`;
+- two-speaker design: `KEEP_MANUAL_AT_SCRIPT_AND_STORYBOARD_STAGE`;
+- cross-video performance comparison: `OBSERVATIONAL_EXPERIMENT`.
+
+A future voice test must hold the text constant where practical and record voice, model, provider, prompt, tags, temperature when supported, duration, cost, generation time, omissions, artifacts and human ratings for clarity, energy, trust, fatigue and fit. Topic and visual differences prevent causal conclusions from ordinary cross-video analytics.
