@@ -326,3 +326,11 @@ The accepted narration master, 147 captions, 24-scene timing and eight-compositi
 External audio and visual claims were revalidated and transferred to canonical production, narration and automation records. The temporary recovery journal was retired after transfer.
 
 `NEXT_WORKSTREAM=VIDEO004_VISUAL_GRAMMAR_REDESIGN_SPEC_AND_C01_ASSET_PLAN`
+
+## VIDEO-004 visual grammar and C01 source plan — 2026-08-20
+
+The redesigned visual system is specified in `docs/VIDEO004_PRODUCTION.md`. It preserves canonical NOD and the accepted causal architecture while introducing composition-owned visual modes, bounded typography presets, explicit semantic color roles and stronger light-dark-depth contrast.
+
+Only the redesigned A01 opening-workspace still is authorized for the next generation unit. Dependent relief, motion and NOW-to-LATER sources remain blocked until A01 passes human identity, anatomy, project-readability and composition QA. Locked narration, captions, timing and composition ownership remain unchanged.
+
+`NEXT_WORKSTREAM=VIDEO004_C01_A01_SOURCE_GENERATION_AND_HUMAN_QA`

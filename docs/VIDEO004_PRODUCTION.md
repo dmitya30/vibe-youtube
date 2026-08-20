@@ -170,3 +170,89 @@ VIDEO004_ACCEPTED_NARRATION_MASTER=UNCHANGED
 VIDEO004_CAPTIONS_AND_TIMING=LOCKED
 NEXT_REQUIRED_GATE=VIDEO004_VISUAL_GRAMMAR_REDESIGN_SPEC_AND_C01_ASSET_PLAN
 ```
+
+## 10. Visual grammar redesign specification and C01 source plan — 2026-08-20
+
+### 10.1 Canonical continuity
+
+The redesign preserves the accepted Fewer Exits identity without copying the rejected flat layout. The implementation baseline is the actual VIDEO-001 through VIDEO-003 production system: `Arial, Helvetica, sans-serif`; canonical double-layer paper-head NOD; mitten-style hands; pseudo-3D paper-and-clay character environments; controlled negative space; deterministic explanatory objects; and generated character media only where identity, emotion or physical action requires it.
+
+The redesign must not reproduce the single cream presentation surface across the full runtime. Orange remains the channel identity accent, but each composition receives one dominant semantic mode and no frame should display the complete palette merely for variety.
+
+### 10.2 Palette roles
+
+- `INK #17212B`: primary dark text, outlines and structural geometry;
+- `MIDNIGHT #101827`: depth field for cinematic, pressure and construction states;
+- `CREAM #FFF8ED`: high-key explanatory background;
+- `PAPER #F5ECDD`: tactile panels and project material;
+- `ORANGE #F28A3A`: channel identity, unresolved transfer and primary attention cue;
+- `CORAL #FF795F`: discomfort, escape and caution only;
+- `BLUE #67B7C9`: evidence, timing, boundaries and neutral explanatory cues;
+- `GREEN #74A68B`: real action, connection, relief resolution and bounded progress;
+- `MUTED #8D98A3`: secondary information only.
+
+Dark modes require cream primary text and visibly lighter secondary text. Light modes require ink primary text. Muted text may not carry a required claim, cue or action.
+
+### 10.3 Typography and wrapping contract
+
+Typography uses `Arial, Helvetica, sans-serif` until a separately packaged font passes runtime and license validation. Font substitution must not occur implicitly.
+
+At 1920 by 1080:
+
+- eyebrow: 24 to 28 px, weight 900, tracked uppercase, one line;
+- display XL: 96 to 112 px, line height 0.92 to 0.98, one line, maximum 20 visible characters;
+- display L: 78 to 92 px, line height 0.96 to 1.00, maximum two declared lines;
+- display M: 62 to 72 px, line height 1.00 to 1.06, maximum three declared lines;
+- supporting sentence: 29 to 34 px, line height 1.20 to 1.30, maximum three declared lines;
+- card label: 26 to 34 px, line height 1.05 to 1.15, maximum three declared lines.
+
+Production titles must use an explicit line-array or explicit preset selected from measured text length. CSS balancing, automatic central-box wrapping and runtime font shrinking are forbidden as the primary layout strategy. Required text remains inside 88-pixel outer margins. A title and its supporting sentence must not compete for the same central box.
+
+### 10.4 Composition modes
+
+| Composition | Dominant mode | Required contrast and transition |
+|---|---|---|
+| C01 | cinematic workspace depth | midnight and tactile project materials; orange substitution pressure; relief introduces a controlled warm expansion and green only at the first real-action implication |
+| C02 | high-key definition split | cream field, ink lanes and blue boundary logic; original project returns as continuity evidence rather than a generic character card |
+| C03 | pressure and loop field | deep ink or midnight environment; coral discomfort layers, orange escape, green relief and a visibly returning project |
+| C04 | cinematic NOW to LATER transfer | dark depth state; orange marks unresolved present pressure and blue defines the future boundary; generated NOD source replaces placeholder geometry |
+| C05 | macro decision interval | high-key field with an expanded blue timeline; scale change from whole project to first five seconds must be unmistakable |
+| C06 | action workshop | paper and cream construction surface; vague actions break apart and green real actions physically contact the project |
+| C07 | conditional blueprint | midnight construction field; blue IF cue and green THEN response lock together; evidence boundary remains visually distinct from the examples |
+| C08 | bounded protocol to cinematic payoff | high-key protocol uses restrained semantic colors, then returns to the C01 workspace where NOD catches the handoff and performs one rough action |
+
+Adjacent compositions may share identity primitives but may not share the same background, header, card grid and entrance behavior as one universal template.
+
+### 10.5 C01 continuity and asset sequence
+
+C01 retains the accepted `ESCALATING_SUBSTITUTION_MACHINE_V1` object-motion architecture. Generated character media must not bake in email, rename, tutorial, RELIEF, NOW, LATER or final typography. Remotion owns those objects, their timing and the project transfer.
+
+Source sequence:
+
+1. generate `A01_OPENING_WORKSPACE_V2`, a clean canonical opening still with NOD, one recognizable unfinished project, depth and overlay lanes;
+2. stop for human source QA of NOD identity, anatomy, project readability, palette, negative space and crop safety;
+3. only after A01 acceptance, create `A01R_RELIEF_RESPONSE_V1` as a targeted matched edit with a restrained posture and expression delta;
+4. only after accepted still continuity, decide whether `A03_HERO_MOTION_V2` materially improves S01 and S02;
+5. generated motion must use a locked camera, preserve project and character geometry and end through ping-pong or crossfade to the accepted matched still;
+6. A02 NOW to LATER source production remains deferred until the C01 source and grammar prove the character treatment.
+
+The A01 still is the next paid-generation unit. No batch generation of A01R, A02, A03 or additional NOD states is authorized before A01 human QA.
+
+### 10.6 Implementation boundary
+
+The current `src/Video004.tsx` remains the reproducible rejected recovery checkpoint. This gate does not authorize piecemeal edits to its colors or typography. After A01 source QA, the redesign must replace the universal `Generic` treatment with composition-owned visual families while preserving `src/timing.ts`, S01 through S24 ownership and the accepted narration master.
+
+```text
+VIDEO004_VISUAL_GRAMMAR_REDESIGN_SPEC=PASS
+VIDEO004_TYPOGRAPHY_CONTRACT=PASS
+VIDEO004_COMPOSITION_MODE_PLAN=PASS
+VIDEO004_C01_ASSET_PLAN=PASS
+VIDEO004_A01_OPENING_WORKSPACE_V2=AUTHORIZED_SINGLE_SOURCE
+VIDEO004_A01R_RELIEF_RESPONSE_V1=BLOCKED_PENDING_A01_QA
+VIDEO004_A03_HERO_MOTION_V2=BLOCKED_PENDING_ACCEPTED_STILL_CONTINUITY
+VIDEO004_A02_NOW_LATER_TRANSFER_V2=DEFERRED_UNTIL_C01_SOURCE_QA
+VIDEO004_REMOTION_REDESIGN_IMPLEMENTATION=BLOCKED_PENDING_A01_SOURCE_QA
+VIDEO004_ACCEPTED_NARRATION_MASTER=UNCHANGED
+VIDEO004_CAPTIONS_AND_TIMING=LOCKED
+NEXT_REQUIRED_GATE=VIDEO004_C01_A01_SOURCE_GENERATION_AND_HUMAN_QA
+```

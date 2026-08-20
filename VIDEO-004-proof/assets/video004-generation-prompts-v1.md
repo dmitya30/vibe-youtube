@@ -1,7 +1,7 @@
 # VIDEO-004 generation prompts
 
-Updated: 2026-08-19
-Status: PLANNED / GENERATION NOT STARTED
+Updated: 2026-08-20
+Status: REDESIGN V2 / A01 SINGLE-SOURCE GENERATION AUTHORIZED
 
 ## Shared references
 
@@ -54,4 +54,51 @@ VIDEO004_PRIORITY_SOURCE_A02=PLANNED
 VIDEO004_CONDITIONAL_MOTION_A03=BLOCKED_PENDING_LAYOUT_PROOF
 VIDEO004_ADDITIONAL_SOURCE_QUOTA=NONE
 VIDEO004_ASSET_GENERATION=NOT_STARTED
+```
+
+## Redesign v2 generation authority
+
+This section supersedes the earlier A01, A02 and A03 generation instructions wherever they conflict. The locked visual grammar is `docs/VIDEO004_PRODUCTION.md` section 10. Only A01 v2 is authorized now. Do not batch-generate A01R, A02, A03 or conditional sources.
+
+### A01 v2 — canonical opening workspace
+
+Purpose: clean source state for S01 through S03 and continuity return in S06. Remotion owns substitute objects, labels, relief geometry, NOW to LATER logic and all typography.
+
+Prompt: Create one cinematic 16:9 production source frame for the Fewer Exits channel using the attached canonical NOD identity reference and the approved pseudo-3D paper-and-clay style reference. Show canonical NOD in the left third facing one large, recognizable, unfinished project in the right-center of a deep workspace. The project must feel personally meaningful and incomplete through physical construction, layered material, one missing or rough central element and one clearly visible first physical action, without embedded writing, logos or generic productivity icons. Preserve the rounded double-layer paper head, established facial geometry, compact body proportions and canonical mitten-style hands. NOD shows focused tension and hesitation rather than sadness. Use cinematic directional lighting and depth with ink and midnight shadows, tactile cream and paper project materials and restrained orange pressure accents; avoid a flat beige presentation-card appearance. Leave three clean spatial lanes between NOD and the project for deterministic substitute objects and preserve negative space for later Remotion overlays. Keep the camera locked at a medium-wide perspective with enough image area for a subtle crop and push. Do not include email cards, browser UI, tutorial screens, RELIEF, NOW, LATER, readable text, phones, brains, logos, watermarks, realistic fingers or extra characters.
+
+Planned output: `video004-a01-opening-workspace-v2.jpg`.
+
+Required source QA before any dependent generation:
+
+- canonical NOD identity and double-layer head;
+- mitten hands and plausible anatomy;
+- one readable unfinished project rather than office clutter;
+- deep cinematic hierarchy rather than a flat three-color field;
+- clean overlay lanes and crop-safe negative space;
+- no embedded text, UI, phone, logo or watermark;
+- 16:9 source at a minimum of 1920 by 1080;
+- exact provider, model, dimensions, byte size and SHA-256 recorded after acceptance.
+
+### A01R v1 — blocked matched relief response
+
+After A01 passes human source QA, create a targeted matched edit rather than an independent regeneration. Preserve camera, environment, project, materials, lighting, clothing and character identity. Change only NOD posture and expression enough to show a restrained short-term release while the important project remains unresolved. Do not generate this state before A01 acceptance.
+
+Planned output: `video004-a01r-relief-response-v1.jpg`.
+
+### A03 v2 — blocked controlled motion
+
+After still continuity passes, motion may be tested from the accepted A01 source. Use one locked-camera shot. Preserve NOD identity, project geometry, hands, lighting and overlay lanes. Permit subtle breathing, one blink, a small hesitation and restrained environmental parallax. Do not bake substitute objects or typography into the clip. Runtime use requires a ping-pong treatment or a crossfade to an accepted matched still; a raw clip endpoint is forbidden.
+
+Planned output: `video004-a03-opening-motion-v2.mp4`.
+
+### A02 v2 — deferred NOW to LATER source
+
+A02 remains deferred until C01 source QA proves the redesigned character and material treatment. Its later prompt must use the same recognizable project and the accepted A01 identity, depth and palette. It must not be generated in the current batch.
+
+```text
+VIDEO004_A01_OPENING_WORKSPACE_V2=AUTHORIZED_SINGLE_SOURCE
+VIDEO004_A01R_RELIEF_RESPONSE_V1=BLOCKED_PENDING_A01_QA
+VIDEO004_A03_HERO_MOTION_V2=BLOCKED_PENDING_ACCEPTED_STILL_CONTINUITY
+VIDEO004_A02_NOW_LATER_TRANSFER_V2=DEFERRED_UNTIL_C01_SOURCE_QA
+NEXT_REQUIRED_GATE=VIDEO004_C01_A01_SOURCE_GENERATION_AND_HUMAN_QA
 ```
