@@ -67,3 +67,58 @@ VIDEO004_LAYOUT_IMPLEMENTATION=NOT_STARTED
 VIDEO004_FULL_RENDER_AUTHORIZATION=BLOCKED_PENDING_LAYOUT_AND_ASSET_QA
 NEXT_REQUIRED_GATE=VIDEO004_REMOTION_LAYOUT_BATCH_IMPLEMENTATION
 ```
+
+## 6. Complete layout proof candidate — 2026-08-19
+
+A complete deterministic low-resolution layout proof was rendered from the locked 11852-frame timeline. The proof contains all 24 semantic scenes and eight composition ownership groups. C01 implements the escalating-substitution hero system. Generated NOD source media is intentionally absent at this gate; deterministic NOD geometry is a layout proxy and is forbidden in final production.
+
+Local QA artifacts:
+
+- `VIDEO-004-proof/remotion/out/video004-layout-proof-v1.mp4`;
+- `VIDEO-004-proof/remotion/out/video004-layout-proof-contact-sheet-v1.jpg`;
+- `VIDEO-004-proof/remotion/out/video004-layout-proof-technical-v1.json`.
+
+```text
+VIDEO004_LAYOUT_IMPLEMENTATION=COMPLETE
+VIDEO004_DECLARATIVE_COVERAGE=PASS
+VIDEO004_COMPOSITION_OWNERSHIP=PASS
+VIDEO004_RUNTIME_ASSET_VALIDATION=PASS
+VIDEO004_LINT_TYPESCRIPT=PASS
+VIDEO004_LAYOUT_PROOF_TECHNICAL_QA=PASS
+VIDEO004_LAYOUT_PROOF_HUMAN_QA=REQUIRED
+VIDEO004_ASSET_GENERATION=BLOCKED_PENDING_LAYOUT_PROOF_QA
+NEXT_REQUIRED_GATE=VIDEO004_COMPLETE_LAYOUT_PROOF_HUMAN_QA
+```
+
+## 7. Complete layout proof human QA — 2026-08-20
+
+The complete low-resolution layout proof rendered successfully and provides valid structural evidence. Human visual QA did not accept the candidate as the production visual design.
+
+Accepted from the candidate:
+
+- C01 spatial continuity;
+- causal progression from important project through substitutes and relief to NOW and LATER;
+- scene ownership and locked timing;
+- useful object-motion architecture.
+
+Rejected or reopened:
+
+- serif typography;
+- flat beige, graphite and orange visual grammar;
+- insufficient visual-mode contrast across C02 through C08;
+- central-box text wrapping at increased scale;
+- placeholder character treatment as a final asset;
+- the assumption that motion alone provides sufficient retention.
+
+The accepted narration master, captions and timing manifest remain unchanged. Existing Remotion source is preserved as a recovery checkpoint and must not be interpreted as production visual acceptance.
+
+```text
+VIDEO004_LAYOUT_PROOF_RENDER=PASS
+VIDEO004_LAYOUT_PROOF_HUMAN_QA=FAIL_REDESIGN_REQUIRED
+VIDEO004_CAUSAL_STRUCTURE=ACCEPTED
+VIDEO004_OBJECT_MOTION_LOGIC=ACCEPTED
+VIDEO004_VISUAL_GRAMMAR=REJECTED
+VIDEO004_ACCEPTED_NARRATION_MASTER=UNCHANGED
+VIDEO004_LAYOUT_SOURCE_STATUS=RECOVERY_CHECKPOINT
+NEXT_REQUIRED_GATE=VIDEO004_RESEARCH_REVALIDATION_AND_CANONICAL_DOCUMENTATION_SYNC
+```
