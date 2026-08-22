@@ -1,7 +1,7 @@
 # VIDEO-004 — Publishing package
 
 Updated: 2026-08-22
-Status: PUBLIC / 1080P PASS / FINAL PLATFORM QA PENDING
+Status: PUBLIC / LIVE / PLATFORM QA PASS
 Repository base commit before checkpoint: 56f58648a228e75d783a6739e463d5f277d47e53
 
 ## 1. Accepted production state
@@ -118,7 +118,17 @@ Updated: 2026-08-22
 - public title: externally verified;
 - channel identity: externally verified.
 
-The exact launch time was not supplied and is not inferred. YouTube Checks, reviewed-caption playback, timestamp links, launch-thumbnail display, public incognito playback and channel-page visibility remain pending explicit confirmation.
+The exact launch time was not supplied and is not inferred.
+
+Final platform QA:
+
+- YouTube Checks: PASS / no restrictions;
+- reviewed English captions: published, synchronized and playback verified;
+- description timestamps: present and clickable;
+- launch thumbnail B v1 / `RELIEF IS THE TRAP`: publicly displayed;
+- public incognito playback at 1080p: PASS;
+- channel-page visibility: PASS;
+- final platform QA: PASS.
 
 ```text
 VIDEO004_STATUS=PUBLIC
@@ -127,6 +137,12 @@ VIDEO004_PUBLIC_URL=https://youtu.be/J0kKV_bic_M
 VIDEO004_1080P_PROCESSING=PASS
 VIDEO004_FIRST_COMMENT=PUBLISHED
 VIDEO004_PUBLIC_PAGE=PASS
-VIDEO004_FINAL_PLATFORM_QA=PENDING
-NEXT_REQUIRED_GATE=VIDEO004_FINAL_PUBLIC_PLATFORM_QA
+VIDEO004_YOUTUBE_CHECKS=PASS
+VIDEO004_CAPTIONS_PLAYBACK=PASS
+VIDEO004_TIMESTAMPS=PASS
+VIDEO004_PUBLIC_THUMBNAIL=B_V1_RELIEF_IS_THE_TRAP
+VIDEO004_INCOGNITO_1080P_PLAYBACK=PASS
+VIDEO004_CHANNEL_PAGE_VISIBILITY=PASS
+VIDEO004_FINAL_PLATFORM_QA=PASS
+NEXT_REQUIRED_GATE=VIDEO004_POST_LAUNCH_ANALYTICS_BASELINE
 ```

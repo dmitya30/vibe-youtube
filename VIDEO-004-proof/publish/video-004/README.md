@@ -1,6 +1,6 @@
 # VIDEO-004 publication packet
 
-Status: PUBLISHED / PUBLIC / FINAL PLATFORM QA PENDING
+Status: VERIFIED / PUBLISHED / PLATFORM QA PASS
 Completed: 2026-08-22
 
 Initial YouTube thumbnail: B v1 — `thumbnail-b-relief-is-the-trap-v1.jpg` / `RELIEF IS THE TRAP`.
@@ -32,6 +32,12 @@ Publication checkpoint:
 - 1080p processing: PASS;
 - first comment: published;
 - public page, title and channel identity: externally verified;
-- final platform QA: pending explicit confirmation.
+- YouTube Checks: PASS / no restrictions;
+- reviewed English captions: published, synchronized and playback verified;
+- description timestamps: present and clickable;
+- launch thumbnail B v1: publicly displayed;
+- public incognito 1080p playback: PASS;
+- channel-page visibility: PASS;
+- final platform QA: PASS.
 
-Next gate: `VIDEO004_FINAL_PUBLIC_PLATFORM_QA`.
+Next gate: `VIDEO004_POST_LAUNCH_ANALYTICS_BASELINE`.
