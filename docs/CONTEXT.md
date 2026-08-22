@@ -387,3 +387,20 @@ Canonical documents:
 - `docs/PRODUCTION_LIBRARY.md`.
 
 `NEXT_WORKSTREAM=OPPORTUNITY_DISCOVERY_RESEARCH`
+
+
+## Opportunity discovery workspace - 2026-08-22
+
+The OPPORTUNITY_DISCOVERY_RESEARCH workstream uses the tracked root workspace `opportunity-discovery/`, which is separate from the Fewer Exits production directories.
+
+Canonical documents:
+
+- `opportunity-discovery/README.md` current status and gate;
+- `opportunity-discovery/RESEARCH_PROTOCOL.md` case verification method;
+- `opportunity-discovery/CREATOR_TACTICS_LEDGER.md` registry of discovered practices;
+- `opportunity-discovery/OPPORTUNITY_MAP.md` comparative map of directions;
+- `opportunity-discovery/candidates/RU_NUMEROLOGY.md` candidate dossier.
+
+Research and cheap probe design are authorized. A new channel, production and publication are not authorized.
+
+`NEXT_WORKSTREAM=OPPORTUNITY_DISCOVERY_RESEARCH`

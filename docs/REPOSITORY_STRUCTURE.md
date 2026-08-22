@@ -414,3 +414,20 @@ VIDEO-004-proof/
 Canonical publishing record: `docs/VIDEO004_PUBLISHING.md`.
 
 Generated media remains ignored and must be represented by tracked hashes before publication.
+
+
+## 9. Opportunity discovery workspace
+
+Updated: 2026-08-22
+
+```text
+opportunity-discovery/
+  README.md                    tracked status and gate
+  RESEARCH_PROTOCOL.md         tracked verification method
+  CREATOR_TACTICS_LEDGER.md    tracked registry of creator mechanics
+  OPPORTUNITY_MAP.md           tracked comparative map
+  candidates/
+    RU_NUMEROLOGY.md           tracked candidate dossier
+```
+
+The workspace is Markdown only. Image and media evidence stays ignored by the root `.gitignore`, so every record stores the primary URL, the capture date and numbers transcribed as text.
