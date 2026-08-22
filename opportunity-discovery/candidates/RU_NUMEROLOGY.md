@@ -74,3 +74,27 @@ First, the case is now verifiable rather than anonymous. The Telegram channel ht
 Second, the case is not a cold start. The expert is described as an established author of books and courses on the Matrix of Destiny, and the author of the case states she was first his student and then his partner. A pre existing course and student ecosystem is a competing explanation for the subscriber growth that was previously invisible. The calculators cannot be credited with the result on this evidence.
 
 The working revision from section 2 is therefore still a hypothesis, and its status is lowered from highest priority verification to independence failed until an unrelated operator using the same architecture is found.
+
+## 12. Scope inversion confirmed by the owner, 2026-08-22
+
+The channel is the primary object. The existing esoteric products are an additional monetization layer available to that channel, not a business whose promotion the channel serves.
+
+This inverts the reading taken from CTL-0005 and CTL-0012, where a searchable calculator surface was the entrance and video was reported as weakly effective. That case is not a counter argument to a channel first design, because it never attempted one. In the channel first form this candidate currently has zero supporting cases, and locating channel led esoteric cases becomes the priority.
+
+What remains usable from that case is the monetization instrument set rather than the acquisition claim: a gated free personalized result, a recurring daily calculation as a reason not to unsubscribe, a low priced tripwire, and automatic generation of the personalized document.
+
+## 13. Monetization exclusion that constrains the format, from CTL-0021
+
+Official policy states that channels using AI generated personas to deliver information on sensitive topics, including content presenting itself as a human expert advising on health, legal issues, finances or politics, are not allowed to monetize. Numerology content about money, health and relationships sits close to that line.
+
+Consequences to carry into any format design:
+
+- decide explicitly whether a synthetic presenter is used at all, and if so, never frame it as a human expert;
+- keep the framing entertainment and self reflection rather than advice;
+- avoid health, legal, financial and political guidance entirely, which was already a content boundary in section 6 and is now also a monetization requirement.
+
+## 14. Revenue reality from CTL-0022
+
+Ads are paused for viewers located in Russia, new YPP sign ups from Russia are unavailable, channels linked to AdSense accounts based in Russia cannot monetize, and platform fan funding is paused for viewers in Russia.
+
+Therefore platform revenue from an audience inside Russia is not available, and external monetization is not a preference but the only path. Any scale target for this candidate must be expressed in audience and funnel terms rather than in advertising revenue. It also raises a question that must be answered before any format work: which Russian speaking geographies outside Russia are realistically reachable, since ad serving and fan funding follow viewer location rather than content language.

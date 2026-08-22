@@ -1,7 +1,7 @@
 # Creator tactics ledger
 
 Updated: 2026-08-22
-Status: third pass complete / C3 independence still unmet
+Status: fourth pass complete / official policy constraints recorded
 Method: RESEARCH_PROTOCOL.md
 Note: apostrophes in quoted titles are normalized in this file. Verify exact strings at the primary URL.
 
@@ -311,12 +311,105 @@ From this correction onward the sample is restricted to cold start channels as d
 - confidence: high that the claim is unsupported;
 - next verification step: none required.
 
+### CTL-0018 Outlier replication against same size channels
+
+- mechanic: instead of guessing a topic, locate small channels whose individual videos massively outperform their own baseline, verify the pattern across several such channels, then produce the same topic with independent packaging;
+- classification: CREATOR CLAIM for the outcome, INFERENCE for the mechanism;
+- primary URL: https://www.reddit.com/r/PartneredYoutube/comments/1mkqrev/how_i_got_monetized_in_40_days_instead_of_1_year/ , dated 2025-08-08;
+- author: reddit user EmergencyCrayon11, self described accountant, states over 600 videos uploaded across multiple channels;
+- capture date: 2026-08-22;
+- claimed result: first channel took a year to monetize, newest channel monetized in 40 days;
+- stated procedure: ignore mega creators because their resources are not comparable; pick a niche tolerable long term rather than a passion; find channels under 50000 subscribers pulling 30000 or more views per day; require multiple independent examples before believing a topic, because one channel could be luck; sort search by view count and then by recent uploads so the demand is current rather than historical;
+- worked example given: an 800 subscriber channel producing over 50000 views weekly; the author recreated its topics with his own thumbnails and editing at under 300 subscribers and reports several thousand views per video, while stating he does not always match the source numbers;
+- observable confirmation: none. The author explicitly refuses to name the channel, so every figure is self reported and unverifiable;
+- recurrence: one commenter, Mayhem230, independently states that finding outliers and mimicking a channel is how they got monetized twice; another reports two people copied their channel verbatim and both now earn. This is weak recurrence inside one thread;
+- alternative explanations: 600 videos of prior experience is a large unstated advantage that no beginner shares; the niche may have been rising independently; survivorship bias;
+- paid traffic risk: none disclosed;
+- conflict of interest: present. The author recommends a specific commercial tool and separately references a plugin of his own requiring a YouTube API key;
+- integrity note: the same author links a separate post he titles an unethical strategy to reach 4000 watch hours. That post was deliberately not opened and is out of scope under our boundaries. Its existence lowers confidence in the author rather than raising curiosity. See CTL-0023;
+- policy check: replicating a topic is not the same as reusing content. The reused content policy targets republishing another creator material with minimal change, not producing an independent video on a popular subject. Independent script, voice, visuals and packaging are required for this to stay inside policy;
+- applicability: high. It replaces topic guessing with demand evidence, and it is compatible with C7 because it makes each cheap swing informed rather than random;
+- confidence: medium for the method, low for the 40 day figure;
+- next verification step: attempt the procedure read only, in a chosen vertical, and record whether small channels with disproportionate outliers can actually be located without paid tooling.
+
+### CTL-0019 Shorts and long form close different YPP thresholds
+
+- mechanic: the two YPP entry requirements are served by different formats, so a mixed upload strategy closes both in parallel instead of forcing one format to do both jobs;
+- classification: CREATOR CLAIM;
+- primary URL: https://www.reddit.com/r/PartneredYoutube/comments/1mkqrev/how_i_got_monetized_in_40_days_instead_of_1_year/ ;
+- author: reddit user EmergencyCrayon11, in reply to a direct question from Dangerous_Exit_9464;
+- capture date: 2026-08-22;
+- claimed detail: around 20 to 22 uploads during the 40 days, mostly long form with relevant Shorts scattered through, and the explicit statement that Shorts help gain subscribers fast while long form gains watch time fast;
+- why this matters: CTL-0007 showed watch hours are easy and subscribers are hard for long videos, while CTL-0008 showed the inverse for a shorter format channel. This entry reconciles both by assigning each threshold to the format that satisfies it cheaply;
+- supporting mechanic in the same thread: reddit user ShadowfangKeep describes cutting long form into short clips to feed multiple surfaces and reports new long form viewers arriving from clips that visibly came from the long video;
+- contradicting evidence already on file: CTL-0008 records a creator who found Shorts suppressed the views of a high performing long form video and moved Shorts to other platforms. CTL-0010 records the same dispute unresolved;
+- observable confirmation: none, channels not identified;
+- alternative explanations: the upload volume of 20 to 22 videos in 40 days may be doing the work rather than the format mix;
+- conflict of interest: same as CTL-0018;
+- applicability: high, and it must be read together with CTL-0010, where Shorts revenue is being decoupled from small channels. Shorts here are a subscriber instrument, not a revenue instrument;
+- confidence: medium;
+- next verification step: find a cold start channel that reached 1000 subscribers primarily through Shorts while reaching watch hours through long form, with both figures visible.
+
+### CTL-0020 Official inauthentic content policy, current wording
+
+- mechanic: the platform rule set that bounds every AI assisted format decision we can make;
+- classification: OBSERVED FACT;
+- primary URL: https://support.google.com/youtube/answer/1311392 ;
+- author: YouTube official documentation;
+- capture date: 2026-08-22;
+- documented change: on 2025-07-15 the repetitious content policy was updated to explicitly include repetitive or mass produced content and renamed to inauthentic content. The reused content policy was not changed;
+- what reviewers examine: channel main theme, most viewed videos, newest videos, the largest proportion of watch time, video metadata including titles thumbnails and descriptions, and the About section;
+- explicitly not monetizable: AI generated content made with generic or unoriginal templates giving the impression of mass production without the original insight or perspective of the creator; image slideshows or scrolling text with minimal narrative or educational value; content where each video feels interchangeable; content stitching unrelated or inconsistent AI clips to shock or surprise;
+- explicitly allowed: the same intro and outro while the bulk of content differs; a series across episodes where each video has a distinct storyline or concept; using AI to visualize a unique character and narrative the creator invented; using AI to edit scripts or generate background visuals in service of a well researched or creative narrative;
+- decisive distinction: the policy does not penalize the use of AI. It penalizes output that reads as templated mass production without an original perspective. Our transferable Remotion pipeline is therefore compatible only while each video carries genuinely distinct substance;
+- creator integrity clause: artificial inflation of views, subscribers, likes, watch time or ad impressions can result in removal from YPP or channel termination. This confirms that no engagement manipulation is available to us even in principle;
+- applicability: binding on every subsequent decision in this workstream;
+- confidence: high;
+- next verification step: re-read before any format is locked, because this policy has already changed once in the recent past.
+
+### CTL-0021 AI personas giving advice on sensitive topics cannot monetize
+
+- mechanic: a hard monetization exclusion that lands directly on the esoteric channel concept;
+- classification: OBSERVED FACT;
+- primary URL: https://support.google.com/youtube/answer/1311392 , section titled AI Personas Related to Sensitive Topics;
+- author: YouTube official documentation;
+- capture date: 2026-08-22;
+- exact scope as written: channels using AI generated personas to deliver information on sensitive topics, including any content presenting itself as a human expert giving advice on health, legal issues, finances or politics, are not allowed to monetize. Listed examples include an AI doctor giving health advice or wellness remedies, AI generated podcast hosts offering financial guidance or investment tips, and AI personas giving legal advice;
+- why this is decisive for the Russian esoteric candidate: numerology content routinely addresses money, health and relationships. A synthetic presenter framed as an expert advising on a money channel or on health would sit inside the described pattern. This converts an existing content boundary in the dossier from an ethical preference into a monetization requirement;
+- what appears to remain outside the exclusion: content that does not present a synthetic persona as a human expert, that is framed as entertainment and self reflection rather than advice, and that avoids health, legal, financial and political guidance. This reading is INFERENCE and not an official interpretation;
+- interaction with CTL-0009 and CTL-0022: for a Russian language audience the monetization consequence may be moot, but the same policy signals how the platform classifies such content generally, which can affect distribution and trust beyond ad revenue;
+- conflict of interest: none, this is the platform describing its own rules;
+- applicability: binding on the esoteric candidate design;
+- confidence: high for the text, medium for our reading of the boundary;
+- next verification step: before any esoteric format is designed, decide explicitly whether a synthetic presenter is used at all, and document how the format stays outside the advice framing.
+
+### CTL-0022 Russia related monetization restrictions confirmed at source
+
+- mechanic: a structural constraint on the Russian language direction, previously recorded in project context and now confirmed in the official policy page;
+- classification: OBSERVED FACT;
+- primary URL: https://support.google.com/youtube/answer/1311392 , Limited Availability section, referencing the change log entry dated 2022-03-03;
+- capture date: 2026-08-22;
+- documented restrictions: creators cannot monetize YouTube channels linked to AdSense for YouTube accounts based in Russia; creators in Russia cannot complete new YPP sign ups at this time; monetization features including Channel Memberships, Super Chat, Super Stickers and Merch are paused for viewers in Russia; Google and YouTube ads are paused from serving to users located in Russia;
+- consequence: for a Russian language channel, revenue does not merely have a low CPM as CTL-0009 suggested. Advertising to viewers inside Russia is paused outright, and platform native fan funding is unavailable to those viewers. External monetization is the only available path, which matches the owner scope statement that products are an additional monetization layer on top of the channel;
+- applicability: binding;
+- confidence: high;
+- next verification step: confirm which viewer geographies outside Russia are realistically reachable in Russian, since audience location rather than language determines both ad serving and fan funding availability.
+
+### CTL-0023 Excluded by boundary, not evaluated
+
+- mechanic: none. This entry records a deliberate non investigation so that the omission is visible rather than silent;
+- classification: OBSERVED FACT that the material exists;
+- context: the author of CTL-0018 links a separate post of his own describing what he himself labels an unethical strategy to reach 4000 watch hours;
+- action taken: the post was not opened and its content is not recorded. Engagement manipulation, artificial watch time and similar tactics are outside the permitted scope of this workstream and are additionally covered by the creator integrity clause in CTL-0020, which allows removal from YPP or channel termination;
+- effect on other entries: it lowers confidence in CTL-0018 and CTL-0019, because an author willing to publish such a strategy may have used unstated methods in the 40 day result;
+- confidence: high;
+- next verification step: none.
+
 ## 4. Pending harvest queue
 
 1. An operator unrelated to Tatyana Geyner using the calculator to bot architecture, required before C3 can be promoted.
-2. Observation of https://t.me/matrixsudby subscriber count and of search visibility for the matrix-profi.ru calculator pages.
-3. A cold start channel that began with 45 minute or longer videos and still reached scale, which would falsify CTL-0013.
-4. At least five comparable first month reports, to turn CTL-0014 into a usable baseline instead of one anecdote.
-5. The current official policy wording on inauthentic and mass produced content, with URL, for CTL-0016.
-6. Identifiable cold start channels where duration, upload count and watch hour accumulation are all observable.
-7. Russian esoteric authors disclosing acquisition sources in public Telegram channels.
+2. A cold start channel that reached 1000 subscribers mainly through Shorts while reaching watch hours through long form, with both figures visible.
+3. Read only attempt at the CTL-0018 outlier location procedure, to test whether it works without paid tooling.
+4. Identifiable Russian language esoteric channels younger than 12 months, with upload cadence and view distribution observable.
+5. At least five comparable first month reports, to turn CTL-0014 into a usable baseline.
+6. A cold start channel that began with 45 minute or longer videos and still reached scale, which would falsify CTL-0013.

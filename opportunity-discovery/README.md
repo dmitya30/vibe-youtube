@@ -1,7 +1,7 @@
 # Opportunity discovery workspace
 
 Updated: 2026-08-22
-Status: THIRD RESEARCH PASS COMPLETE / NO CLUSTER CLEARED FOR PROBE
+Status: FOURTH RESEARCH PASS COMPLETE / SCOPE NARROWED TO NEW CHANNEL LAUNCH
 Workstream: OPPORTUNITY_DISCOVERY_RESEARCH
 Baseline commit at creation: d200acca7ccc4114cf3c610b179611c6bd1f4746
 
@@ -61,24 +61,34 @@ This workstream authorizes research and cheap probe design only. No new channel,
 
 The first pass drew mechanics from a mature channel and was corrected. Evidence is now restricted to cold start channels no older than 12 months, preferably 6, that reached monetization scale from zero. See RESEARCH_PROTOCOL.md sections 11 to 13.
 
-## 8. Dated constraint
+## 8. Scope confirmed by the owner, 2026-08-22
+
+This workstream is about launching and accelerating new channels to monetization scale. Improving the statistics of mature channels is out of scope.
+
+The existing esoteric products are not the object being promoted. They are an additional monetization layer available to a new esoteric channel. The channel is primary and the products are supplementary.
+
+## 9. Dated constraint
 
 YPP entry thresholds for new applicants double on 2027-02-01 to 8000 qualified watch hours in 365 days or 20 million qualified Shorts views in 90 days. Current thresholds are 1000 subscribers with 4000 qualified watch hours in 12 months, or 1000 subscribers with 10 million qualified Shorts views in 90 days. Any scale target must name the version it refers to. See CTL-0006.
 
 ```text
 OPPORTUNITY_DISCOVERY_WORKSPACE=CREATED
-BROAD_OPPORTUNITY_MAP=THIRD_PASS_COMPLETE
-CREATOR_TACTICS_LEDGER=17_ENTRIES
+WORKSTREAM_SCOPE=NEW_CHANNEL_LAUNCH_TO_MONETIZATION_SCALE
+MATURE_CHANNEL_OPTIMIZATION=OUT_OF_SCOPE
+ESOTERIC_PRODUCTS=SUPPLEMENTARY_MONETIZATION_LAYER_NOT_THE_OBJECT
+BROAD_OPPORTUNITY_MAP=FOURTH_PASS_COMPLETE
+CREATOR_TACTICS_LEDGER=23_ENTRIES
 SAMPLE_SCOPE=COLD_START_CHANNELS_ONLY
-MATURITY_BIAS_CORRECTION=APPLIED_TO_CTL_0002_AND_CTL_0003
 YPP_THRESHOLD_CHANGE=2027_02_01_DOUBLES_FOR_NEW_APPLICANTS
-RU_NUMEROLOGY_CANDIDATE=RESEARCH_ONLY
-RU_CALCULATOR_CASE=INDEPENDENCE_FAILED_AND_NOT_COLD_START
-RU_ADSENSE_AS_BUSINESS_MODEL=REJECTED_BY_CTL_0009
+INAUTHENTIC_CONTENT_POLICY=RECORDED_FROM_OFFICIAL_SOURCE
+AI_PERSONA_SENSITIVE_TOPICS=MONETIZATION_EXCLUDED
+RU_VIEWER_AD_SERVING=PAUSED_BY_PLATFORM
+RU_CALCULATOR_CASE=SITE_LED_AND_INVERTED_BY_OWNER_SCOPE
+RU_CHANNEL_FIRST_EVIDENCE=ZERO_CASES_SO_FAR
 LONG_FORM_AS_LAUNCH_TACTIC=REJECTED_BY_CTL_0013
-STRONGEST_COLD_START_CLUSTER=C7_MANY_CHEAP_DISTINCT_SWINGS
+STRONGEST_COLD_START_CLUSTERS=C7_CHEAP_SWINGS_AND_C11_OUTLIER_REPLICATION
 CLUSTERS_CLEARED_FOR_PROBE=NONE
 NEW_CHANNEL_AUTHORIZATION=NOT_GRANTED
 PRODUCTION_AUTHORIZATION=NOT_GRANTED
-NEXT_REQUIRED_GATE=UNRELATED_OPERATOR_FOR_C3_AND_OFFICIAL_AUTHENTICITY_POLICY
+NEXT_REQUIRED_GATE=READ_ONLY_OUTLIER_TEST_AND_CHANNEL_LED_ESOTERIC_CASES
 ```
