@@ -390,3 +390,27 @@ Generated raster, video, audio, public staging and render outputs remain local a
 - `docs/SHADOW_AUTOMATION.md` owns provider-independent future TTS controls and VIDEO-005-plus voice experiments.
 - `docs/drafts/VIDEO004_AUDIO_VISUAL_RESEARCH_RECOVERY.md` was a temporary compression-recovery journal and is removed after canonical transfer.
 - `VIDEO-004-proof/remotion/src/` remains tracked recovery source until a separately reviewed redesign replaces it.
+
+## 8. VIDEO-004 accepted production and publication structure
+
+Updated: 2026-08-22
+
+```text
+VIDEO-004-proof/
+├── assets/                         tracked manifests/prompts; accepted images local and ignored
+├── audio/                          tracked narration inputs/reports; generated WAV local and ignored
+├── captions/                       reviewed SRT/VTT tracked; extraction diagnostics local
+├── timing/                         locked scene plan and timing tracked
+├── remotion/
+│   ├── src/                        production and thumbnail source tracked
+│   └── out/                        generated media ignored
+└── publish/
+    └── video-004/
+        ├── README.md               tracked packet lifecycle
+        ├── manifest.txt            tracked hashes and technical record
+        └── local/                  ignored upload payload, assembled after checkpoint
+```
+
+Canonical publishing record: `docs/VIDEO004_PUBLISHING.md`.
+
+Generated media remains ignored and must be represented by tracked hashes before publication.

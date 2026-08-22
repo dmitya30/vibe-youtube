@@ -334,3 +334,13 @@ The redesigned visual system is specified in `docs/VIDEO004_PRODUCTION.md`. It p
 Only the redesigned A01 opening-workspace still is authorized for the next generation unit. Dependent relief, motion and NOW-to-LATER sources remain blocked until A01 passes human identity, anatomy, project-readability and composition QA. Locked narration, captions, timing and composition ownership remain unchanged.
 
 `NEXT_WORKSTREAM=VIDEO004_C01_A01_SOURCE_GENERATION_AND_HUMAN_QA`
+
+## VIDEO-004 accepted production checkpoint — 2026-08-22
+
+VIDEO-004 production and full audio-visual playback QA passed after the redesign. The accepted final master is local at `VIDEO-004-proof/remotion/out/video004-master-final-v1.mp4`; its SHA-256 is `fd96e10960e1950340388cd7bcd3085199ac8fce75d611ba436d2bcc2524eca3`.
+
+The thumbnail gate was reopened after the original `NOT NOW.` package lock. Launch thumbnail B v1, `RELIEF IS THE TRAP`, was accepted. B v2 was rejected as too smooth; A remains an alternative.
+
+Canonical continuation is `docs/VIDEO004_PUBLISHING.md`.
+
+`NEXT_WORKSTREAM=VIDEO004_PUBLICATION_PACKET_COMPLETION`

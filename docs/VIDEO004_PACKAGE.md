@@ -233,3 +233,19 @@ VIDEO004_NARRATION_AUTHORIZATION=GRANTED
 VIDEO004_PRODUCTION_AUTHORIZATION=GRANTED
 NEXT_REQUIRED_GATE=VIDEO004_TTS_GENERATION_AND_COMPLETENESS_QA
 ```
+
+## 9. Post-production thumbnail override
+
+Updated: 2026-08-22
+
+After completion of the video, the owner explicitly reopened the thumbnail gate for two deterministic variants.
+
+- launch selection: B v1 / `RELIEF IS THE TRAP`;
+- retained treatment: luminous orange ring and lower supporting caption;
+- alternative: A / `NOT NOW.`;
+- B v2: rejected because the smoother treatment reduced visual stickiness;
+- title: unchanged.
+
+This override supersedes the earlier launch-thumbnail selection but does not change the accepted title, script or cold-open promise.
+
+`VIDEO004_LAUNCH_THUMBNAIL=B_V1_RELIEF_IS_THE_TRAP`

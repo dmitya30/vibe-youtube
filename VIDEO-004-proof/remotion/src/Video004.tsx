@@ -1,119 +1,791 @@
 import React from "react";
-import {AbsoluteFill, Audio, interpolate, staticFile, useCurrentFrame} from "remotion";
-import {sceneSpecs, SceneId} from "./scenes";
+import {
+  AbsoluteFill,
+  Audio,
+  Img,
+  interpolate,
+  staticFile,
+  useCurrentFrame,
+} from "remotion";
+import {sceneSpecs, type SceneId} from "./scenes";
 import {timing} from "./timing";
 
-const CREAM = "#f4eddf";
-const PAPER = "#fffaf0";
-const GRAPHITE = "#252525";
-const ORANGE = "#ff6b2c";
-const MUTED = "#8d8578";
-const clamp = {extrapolateLeft: "clamp", extrapolateRight: "clamp"} as const;
-const progress = (frame: number, start: number, end: number) => interpolate(frame, [start, end], [0, 1], clamp);
+const COLORS = {
+  ink: "#17212b",
+  midnight: "#101827",
+  cream: "#fff8ed",
+  paper: "#f5ecdd",
+  orange: "#f28a3a",
+  coral: "#ff795f",
+  blue: "#67b7c9",
+  green: "#74a68b",
+  muted: "#8d98a3",
+};
 
-const Nod: React.FC<{x?: number; y?: number; scale?: number; lean?: number}> = ({x = 220, y = 400, scale = 1, lean = 0}) => (
-  <div style={{position: "absolute", left: x, top: y, width: 250, height: 430, transform: `scale(${scale}) rotate(${lean}deg)`, transformOrigin: "bottom center"}}>
-    <div style={{position: "absolute", left: 58, top: 0, width: 142, height: 142, borderRadius: "48% 52% 45% 55%", background: PAPER, border: `12px solid ${GRAPHITE}`, boxShadow: `10px 12px 0 ${GRAPHITE}22`}}>
-      <div style={{position: "absolute", left: 34, top: 58, width: 14, height: 18, borderRadius: 20, background: GRAPHITE}} />
-      <div style={{position: "absolute", right: 34, top: 58, width: 14, height: 18, borderRadius: 20, background: GRAPHITE}} />
-      <div style={{position: "absolute", left: 55, top: 94, width: 32, height: 8, borderRadius: 10, background: GRAPHITE}} />
+const FONT = "Arial, Helvetica, sans-serif";
+const clamp = {
+  extrapolateLeft: "clamp",
+  extrapolateRight: "clamp",
+} as const;
+
+const A01 = staticFile("assets/nod/video004-a01-opening-workspace-v3.jpg");
+const A02 = staticFile("assets/nod/video004-a02-now-later-transfer-v2.jpg");
+const A04 = staticFile("assets/nod/video004-a04-final-visible-action-v1.jpg");
+
+const progress = (frame: number, start: number, end: number) =>
+  interpolate(frame, [start, end], [0, 1], clamp);
+
+const TITLE_LINES: Partial<Record<SceneId, readonly string[]>> = {
+  S04: ["INTEND TO DO", "DELAY ANYWAY"],
+  S06: ["YOU STILL INTEND", "TO DO IT"],
+  S09: ["RELIEF", "REINFORCES ESCAPE"],
+  S11: ["EASY", "INITIATION"],
+  S14: ["NAME THE", "FIRST ESCAPE"],
+  S15: ["WHAT FELT", "DIFFICULT?"],
+  S16: ["MAKE THE ACTION", "VISIBLE"],
+  S18: ["REAL WORK OR", "FALSE PROGRESS?"],
+  S19: ["ATTACH ACTION", "TO CUE"],
+  S21: ["CAN HELP", "NOT GUARANTEE"],
+  S22: ["ONE BOUNDED", "EXPERIMENT"],
+  S23: ["NOT EVERY BLOCK", "IS BEHAVIORAL"],
+  S24: ["MAKE THE REAL", "ACTION VISIBLE"],
+};
+
+const modeFor = (composition: string) => {
+  if (composition === "C03") {
+    return {
+      background: COLORS.midnight,
+      foreground: COLORS.cream,
+      secondary: "#c7d0d8",
+      accent: COLORS.coral,
+      panel: "#1c2938",
+    };
+  }
+  if (composition === "C04") {
+    return {
+      background: COLORS.midnight,
+      foreground: COLORS.cream,
+      secondary: "#c7d0d8",
+      accent: COLORS.orange,
+      panel: "#1c2938",
+    };
+  }
+  if (composition === "C05") {
+    return {
+      background: "#eef4f4",
+      foreground: COLORS.ink,
+      secondary: "#536270",
+      accent: COLORS.blue,
+      panel: "#ffffff",
+    };
+  }
+  if (composition === "C06") {
+    return {
+      background: COLORS.paper,
+      foreground: COLORS.ink,
+      secondary: "#59646d",
+      accent: COLORS.green,
+      panel: COLORS.cream,
+    };
+  }
+  if (composition === "C07") {
+    return {
+      background: "#0d1d2a",
+      foreground: COLORS.cream,
+      secondary: "#b8c8d2",
+      accent: COLORS.blue,
+      panel: "#162c3b",
+    };
+  }
+  if (composition === "C08") {
+    return {
+      background: COLORS.cream,
+      foreground: COLORS.ink,
+      secondary: "#59646d",
+      accent: COLORS.green,
+      panel: "#ffffff",
+    };
+  }
+  return {
+    background: COLORS.cream,
+    foreground: COLORS.ink,
+    secondary: "#59646d",
+    accent: COLORS.blue,
+    panel: "#ffffff",
+  };
+};
+
+const Header: React.FC<{
+  sceneId: SceneId;
+  foreground: string;
+  secondary: string;
+  accent: string;
+  compact?: boolean;
+}> = ({sceneId, foreground, secondary, accent, compact = false}) => {
+  const spec = sceneSpecs[sceneId];
+  const lines = TITLE_LINES[sceneId] ?? [spec.title];
+  return (
+    <div
+      style={{
+        position: "absolute",
+        left: 112,
+        top: compact ? 70 : 86,
+        width: compact ? 940 : 1540,
+        fontFamily: FONT,
+      }}
+    >
+      <div
+        style={{
+          color: accent,
+          fontSize: 26,
+          fontWeight: 900,
+          letterSpacing: 6,
+        }}
+      >
+        {spec.eyebrow}
+      </div>
+      <div
+        style={{
+          marginTop: 18,
+          color: foreground,
+          fontSize: compact ? 66 : lines.length > 1 ? 76 : 84,
+          lineHeight: 0.96,
+          letterSpacing: -2.5,
+          fontWeight: 900,
+        }}
+      >
+        {lines.map((line) => (
+          <div key={line}>{line}</div>
+        ))}
+      </div>
+      <div
+        style={{
+          marginTop: 22,
+          width: compact ? 850 : 1260,
+          color: secondary,
+          fontSize: 31,
+          lineHeight: 1.24,
+          fontWeight: 600,
+        }}
+      >
+        {spec.detail}
+      </div>
     </div>
-    <div style={{position: "absolute", left: 70, top: 142, width: 120, height: 205, borderRadius: "58px 58px 30px 30px", background: GRAPHITE}} />
-    <div style={{position: "absolute", left: 20, top: 170, width: 76, height: 170, borderRadius: 45, background: GRAPHITE, transform: "rotate(12deg)"}} />
-    <div style={{position: "absolute", right: 20, top: 170, width: 76, height: 170, borderRadius: 45, background: GRAPHITE, transform: "rotate(-12deg)"}} />
-    <div style={{position: "absolute", left: 53, top: 325, width: 62, height: 105, borderRadius: 35, background: GRAPHITE}} />
-    <div style={{position: "absolute", right: 53, top: 325, width: 62, height: 105, borderRadius: 35, background: GRAPHITE}} />
-  </div>
+  );
+};
+
+const ImageLayer: React.FC<{
+  src: string;
+  zoom?: number;
+  position?: string;
+  shade?: number;
+}> = ({src, zoom = 1, position = "center", shade = 0.18}) => (
+  <AbsoluteFill style={{overflow: "hidden", background: COLORS.midnight}}>
+    <Img
+      src={src}
+      style={{
+        width: "100%",
+        height: "100%",
+        objectFit: "cover",
+        objectPosition: position,
+        transform: `scale(${zoom})`,
+      }}
+    />
+    <AbsoluteFill style={{background: `rgba(8, 14, 22, ${shade})`}} />
+  </AbsoluteFill>
 );
 
-const Project: React.FC<{x?: number; y?: number; scale?: number; weight?: number}> = ({x = 1040, y = 260, scale = 1, weight = 0}) => (
-  <div style={{position: "absolute", left: x, top: y + weight * 70, width: 600, height: 520, transform: `scale(${scale})`, transformOrigin: "center"}}>
-    {[0, 1, 2].map((layer) => <div key={layer} style={{position: "absolute", left: layer * 34, top: layer * 30, width: 510, height: 390, borderRadius: 34, background: layer === 2 ? PAPER : "#d9d0c1", border: `8px solid ${GRAPHITE}`, boxShadow: "0 28px 60px #25252522"}} />)}
-    <div style={{position: "absolute", left: 115, top: 105, width: 330, height: 34, borderRadius: 18, background: GRAPHITE}} />
-    <div style={{position: "absolute", left: 115, top: 175, width: 240, height: 24, borderRadius: 14, background: MUTED}} />
-    <div style={{position: "absolute", left: 115, top: 230, width: 300, height: 24, borderRadius: 14, background: MUTED}} />
-    <div style={{position: "absolute", left: 115, top: 295, width: 170, height: 56, borderRadius: 18, border: `6px dashed ${ORANGE}`}} />
+const Chip: React.FC<{
+  text: string;
+  x: number;
+  y: number;
+  opacity: number;
+  accent?: boolean;
+}> = ({text, x, y, opacity, accent = false}) => (
+  <div
+    style={{
+      position: "absolute",
+      left: x,
+      top: y,
+      padding: "10px 20px",
+      borderRadius: 10,
+      color: accent ? COLORS.ink : COLORS.cream,
+      background: accent ? COLORS.orange : "rgba(16, 24, 39, 0.78)",
+      border: `2px solid ${accent ? COLORS.orange : "rgba(255,248,237,0.46)"}`,
+      borderLeft: `8px solid ${COLORS.orange}`,
+      boxShadow: "0 12px 30px rgba(0,0,0,0.28)",
+      fontFamily: FONT,
+      fontSize: 25,
+      fontWeight: 900,
+      letterSpacing: 1.5,
+      opacity,
+    }}
+  >
+    {text}
   </div>
-);
-
-const Pill: React.FC<{text: string; x: number; y: number; active?: boolean; rotate?: number}> = ({text, x, y, active = false, rotate = 0}) => (
-  <div style={{position: "absolute", left: x, top: y, padding: "22px 34px", borderRadius: 28, background: active ? ORANGE : PAPER, color: active ? PAPER : GRAPHITE, border: `6px solid ${GRAPHITE}`, fontSize: 34, fontWeight: 900, letterSpacing: 1, transform: `rotate(${rotate}deg)`, boxShadow: "0 18px 34px #25252520"}}>{text}</div>
 );
 
 const Hero: React.FC<{frame: number}> = ({frame}) => {
-  const email = progress(frame, 194, 250);
-  const rename = progress(frame, 250, 318);
-  const tutorial = progress(frame, 282, 373);
-  const relief = progress(frame, 500, 550);
-  const transfer = progress(frame, 566, 828);
-  const compress = progress(frame, 828, 1015);
-  const camera = 1 + progress(frame, 0, 1015) * 0.08 + compress * 0.25;
+  const email = progress(frame, 100, 170);
+  const rename = progress(frame, 185, 255);
+  const tutorial = progress(frame, 270, 355);
+  const relief = progress(frame, 390, 500);
+  const transfer = progress(frame, 535, 760);
+  const interval = progress(frame, 820, 1000);
+  const exitHandoff = progress(frame, 700, 730);
+  const exitMove = progress(frame, 730, 910);
+  const zoom = 1.02 + progress(frame, 0, 1015) * 0.08 + interval * 0.12;
+
   return (
-    <AbsoluteFill style={{background: `radial-gradient(circle at ${70 - transfer * 25}% 48%, #fff8e9 0%, ${CREAM} 55%, #d9d0c1 100%)`, overflow: "hidden"}}>
-      <div style={{position: "absolute", inset: -120, transform: `scale(${camera}) translateX(${-compress * 130}px)`, transformOrigin: "center"}}>
-        <Nod x={170} y={390} lean={-2 + relief * 3} />
-        <Project x={1080 + transfer * 250} y={250} weight={transfer} />
-        <Pill text="EMAIL" x={interpolate(email, [0, 1], [1920, 680], clamp)} y={280} rotate={-4} />
-        <Pill text="RENAME" x={interpolate(rename, [0, 1], [1920, 760], clamp)} y={470} rotate={3} />
-        <Pill text="TUTORIAL" x={interpolate(tutorial, [0, 1], [1920, 650], clamp)} y={660} rotate={-2} />
+    <AbsoluteFill style={{fontFamily: FONT}}>
+      <AbsoluteFill style={{opacity: 1 - exitHandoff}}>
+        <ImageLayer src={A01} zoom={zoom} position="center" shade={0.1 + transfer * 0.2} />
+      </AbsoluteFill>
+      <AbsoluteFill
+        style={{
+          overflow: "hidden",
+          clipPath: "polygon(0% 8%, 39% 8%, 39% 100%, 0% 100%)",
+          opacity: exitHandoff * (1 - exitMove),
+          transform: `translateX(${-1200 * exitMove}px)`,
+        }}
+      >
+        <ImageLayer src={A01} zoom={zoom} position="center" shade={0.1 + transfer * 0.2} />
+      </AbsoluteFill>
+      <AbsoluteFill
+        style={{
+          overflow: "hidden",
+          clipPath: "polygon(47% 6%, 100% 6%, 100% 100%, 47% 100%)",
+          opacity: exitHandoff * (1 - exitMove),
+          transform: `translateX(${1200 * exitMove}px)`,
+        }}
+      >
+        <ImageLayer src={A01} zoom={zoom} position="center" shade={0.1 + transfer * 0.2} />
+      </AbsoluteFill>
+      <AbsoluteFill
+        style={{
+          background: `linear-gradient(90deg, rgba(7,12,19,0.12), rgba(7,12,19,${0.08 + transfer * 0.42}))`,
+        }}
+      />
+      <div
+        style={{
+          position: "absolute",
+          left: 94,
+          top: 70,
+          color: COLORS.cream,
+          fontSize: 26,
+          fontWeight: 900,
+          letterSpacing: 6,
+        }}
+      >
+        IMPORTANT WORK
       </div>
-      <div style={{position: "absolute", left: 0, top: 0, width: `${transfer * 52}%`, height: "100%", background: `${ORANGE}${Math.round(relief * 28).toString(16).padStart(2, "0")}`}} />
-      <div style={{position: "absolute", left: "50%", top: 90, width: 8, height: 900, background: GRAPHITE, opacity: transfer}} />
-      <div style={{position: "absolute", left: 120, top: 90, fontSize: 38, fontWeight: 900, letterSpacing: 8, opacity: transfer}}>NOW</div>
-      <div style={{position: "absolute", right: 120, top: 90, fontSize: 38, fontWeight: 900, letterSpacing: 8, opacity: transfer}}>LATER</div>
-      <div style={{position: "absolute", left: "50%", top: "50%", transform: `translate(-50%, -50%) scale(${0.7 + relief * 0.3})`, width: 330 + relief * 260, height: 330 + relief * 260, borderRadius: "50%", border: `${10 + relief * 16}px solid ${ORANGE}`, opacity: relief * (1 - compress), boxShadow: `0 0 ${120 * relief}px ${ORANGE}66`}} />
-      <div style={{position: "absolute", left: "50%", top: "50%", transform: `translate(-50%, -50%) scale(${relief})`, color: GRAPHITE, fontSize: 82, fontWeight: 1000, letterSpacing: 10, opacity: relief * (1 - transfer)}}>RELIEF</div>
-      <div style={{position: "absolute", left: "50%", top: "50%", transform: `translate(-50%, -50%) scale(${0.8 + compress * 0.2})`, width: 520 - compress * 250, height: 250, borderRadius: 42, background: GRAPHITE, color: PAPER, display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center", fontSize: 54, lineHeight: 1.05, fontWeight: 1000, letterSpacing: 4, opacity: compress}}>CHANGE THE<br />FIRST MOMENT</div>
+      <Chip
+        text="EMAIL"
+        x={interpolate(email, [0, 1], [1930, 760], clamp)}
+        y={320}
+        opacity={email * (1 - relief * 0.82) * (1 - exitHandoff)}
+      />
+      <Chip
+        text="RENAME FILE"
+        x={interpolate(rename, [0, 1], [1980, 735], clamp)}
+        y={477}
+        opacity={rename * (1 - relief * 0.82) * (1 - exitHandoff)}
+      />
+      <Chip
+        text="ONE MORE VIDEO"
+        x={interpolate(tutorial, [0, 1], [2020, 690], clamp)}
+        y={637}
+        opacity={tutorial * (1 - relief * 0.82) * (1 - exitHandoff)}
+      />
+      <div
+        style={{
+          position: "absolute",
+          left: "50%",
+          top: "50%",
+          width: 420,
+          height: 420,
+          borderRadius: "50%",
+          border: `9px solid ${COLORS.orange}`,
+          boxShadow: `0 0 ${90 * relief}px rgba(242,138,58,0.42)`,
+          opacity: relief * (1 - transfer),
+          transform: `translate(-50%, -50%) scale(${0.82 + relief * 0.18})`,
+        }}
+      />
+      <div
+        style={{
+          position: "absolute",
+          left: "50%",
+          top: "50%",
+          color: COLORS.cream,
+          fontSize: 58,
+          fontWeight: 900,
+          letterSpacing: 7,
+          opacity: relief * (1 - transfer),
+          transform: "translate(-50%, -50%)",
+        }}
+      >
+        RELIEF
+      </div>
+      <div
+        style={{
+          position: "absolute",
+          left: "50%",
+          top: 0,
+          width: 5,
+          height: "100%",
+          background: COLORS.blue,
+          opacity: transfer,
+        }}
+      />
+      <div
+        style={{
+          position: "absolute",
+          left: 120,
+          top: 82,
+          color: COLORS.orange,
+          fontSize: 32,
+          fontWeight: 900,
+          letterSpacing: 7,
+          opacity: transfer,
+        }}
+      >
+        NOW
+      </div>
+      <div
+        style={{
+          position: "absolute",
+          right: 120,
+          top: 82,
+          color: COLORS.blue,
+          fontSize: 32,
+          fontWeight: 900,
+          letterSpacing: 7,
+          opacity: transfer,
+        }}
+      >
+        LATER
+      </div>
+      <div
+        style={{
+          position: "absolute",
+          left: "50%",
+          bottom: 92,
+          transform: `translateX(-50%) scale(${0.86 + interval * 0.14})`,
+          padding: "25px 38px",
+          borderRadius: 24,
+          color: COLORS.cream,
+          background: COLORS.ink,
+          border: `3px solid ${COLORS.green}`,
+          fontSize: 48,
+          lineHeight: 1,
+          fontWeight: 900,
+          letterSpacing: 2,
+          opacity: interval,
+        }}
+      >
+        CHANGE THE FIRST MOMENT
+      </div>
     </AbsoluteFill>
   );
 };
 
-const Header: React.FC<{eyebrow: string; title: string; detail: string}> = ({eyebrow, title, detail}) => (
-  <div style={{position: "absolute", left: 120, top: 95, width: 1680}}>
-    <div style={{fontSize: 30, letterSpacing: 7, fontWeight: 900, color: ORANGE}}>{eyebrow}</div>
-    <div style={{marginTop: 26, maxWidth: 1500, fontSize: 88, lineHeight: 0.96, letterSpacing: -3, fontWeight: 1000, color: GRAPHITE}}>{title}</div>
-    <div style={{marginTop: 28, maxWidth: 1260, fontSize: 35, lineHeight: 1.3, color: MUTED, fontWeight: 650}}>{detail}</div>
-  </div>
-);
+const CharacterScene: React.FC<{
+  sceneId: SceneId;
+  localFrame: number;
+  duration: number;
+}> = ({sceneId, localFrame, duration}) => {
+  const isTransfer = sceneId === "S10" || sceneId === "S12";
+  const isFinal = sceneId === "S24";
+  const src = isTransfer ? A02 : isFinal ? A04 : A01;
+  const appear = progress(localFrame, 0, Math.min(24, duration * 0.2));
+  const move = progress(localFrame, 0, duration);
+  const accent = isFinal ? COLORS.green : isTransfer ? COLORS.blue : COLORS.orange;
 
-const Generic: React.FC<{sceneId: SceneId; localFrame: number; duration: number}> = ({sceneId, localFrame, duration}) => {
+  return (
+    <AbsoluteFill style={{fontFamily: FONT, opacity: appear}}>
+      <ImageLayer
+        src={src}
+        zoom={1.02 + move * 0.07}
+        position={isFinal ? "center" : "center"}
+        shade={isFinal ? 0.22 : 0.3}
+      />
+      <AbsoluteFill
+        style={{
+          background: "linear-gradient(90deg, rgba(7,12,19,0.72) 0%, rgba(7,12,19,0.22) 62%, rgba(7,12,19,0.08) 100%)",
+        }}
+      />
+      <Header
+        sceneId={sceneId}
+        foreground={COLORS.cream}
+        secondary="#d3d9dd"
+        accent={accent}
+        compact
+      />
+      {sceneId === "S12" && (
+        <>
+          <div
+            style={{
+              position: "absolute",
+              left: 430,
+              right: 410,
+              bottom: 132,
+              height: 6,
+              background: `linear-gradient(90deg, ${COLORS.orange}, ${COLORS.blue})`,
+            }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              left: 420,
+              bottom: 78,
+              color: COLORS.orange,
+              fontSize: 28,
+              fontWeight: 900,
+              letterSpacing: 5,
+            }}
+          >
+            NOW
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              right: 390,
+              bottom: 78,
+              color: COLORS.blue,
+              fontSize: 28,
+              fontWeight: 900,
+              letterSpacing: 5,
+            }}
+          >
+            LATER
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              left: interpolate(move, [0, 1], [430, 1350], clamp),
+              bottom: 110,
+              width: 42,
+              height: 42,
+              borderRadius: "50%",
+              background: COLORS.orange,
+              boxShadow: "0 0 35px rgba(242,138,58,0.7)",
+            }}
+          />
+        </>
+      )}
+      {isFinal && (
+        <div
+          style={{
+            position: "absolute",
+            left: 104,
+            bottom: 80,
+            display: "flex",
+            gap: 16,
+          }}
+        >
+          {["NAME ESCAPE", "SHOW ACTION", "TIE TO CUE"].map((item, index) => (
+            <div
+              key={item}
+              style={{
+                padding: "15px 20px",
+                borderRadius: 16,
+                color: index === 1 ? COLORS.ink : COLORS.cream,
+                background: index === 1 ? COLORS.green : "rgba(16,24,39,0.88)",
+                border: `2px solid ${index === 1 ? COLORS.green : "#64727e"}`,
+                fontSize: 23,
+                fontWeight: 900,
+              }}
+            >
+              {item}
+            </div>
+          ))}
+        </div>
+      )}
+    </AbsoluteFill>
+  );
+};
+
+const DiagramScene: React.FC<{
+  sceneId: SceneId;
+  composition: string;
+  localFrame: number;
+  duration: number;
+}> = ({sceneId, composition, localFrame, duration}) => {
   const spec = sceneSpecs[sceneId];
-  const appear = progress(localFrame, 0, Math.min(30, duration * 0.18));
-  const drift = Math.sin(localFrame / 35) * 8;
-  const itemWidth = spec.items.length > 4 ? 285 : spec.items.length > 2 ? 390 : 620;
-  const isCharacter = spec.kind === "character";
+  const mode = modeFor(composition);
+  const appear = progress(localFrame, 0, Math.min(24, duration * 0.18));
   const isLoop = spec.kind === "loop";
   const isTimeline = spec.kind === "timeline";
   const isScale = spec.kind === "scale";
+  const isBuilder = spec.kind === "builder";
+  const isSplit = spec.kind === "split";
+  const isProtocol = spec.kind === "protocol";
+  const bottom = 112;
+  const panelBorder = composition === "C03" || composition === "C07"
+    ? "#405466"
+    : "#c7d0d5";
+
+  const itemCard = (item: string, index: number, count: number) => {
+    const active = isBuilder
+      ? index === Math.min(count - 1, Math.floor(progress(localFrame, 0, duration) * count))
+      : isSplit
+        ? index === 1
+        : isProtocol
+          ? index <= Math.floor(progress(localFrame, 0, duration) * count)
+          : false;
+    return (
+      <div
+        key={item}
+        style={{
+          minHeight: isProtocol ? 145 : 170,
+          padding: "24px",
+          borderRadius: 26,
+          color: active ? COLORS.ink : mode.foreground,
+          background: active ? mode.accent : mode.panel,
+          border: `3px solid ${active ? mode.accent : panelBorder}`,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          textAlign: "center",
+          fontSize: item.length > 22 ? 27 : 31,
+          lineHeight: 1.08,
+          fontWeight: 900,
+          boxShadow: "0 18px 45px rgba(15,25,35,0.13)",
+        }}
+      >
+        {item}
+      </div>
+    );
+  };
+
   return (
-    <AbsoluteFill style={{background: `linear-gradient(135deg, ${CREAM}, #e6ddce)`, overflow: "hidden", opacity: appear}}>
-      <div style={{position: "absolute", right: -180 + drift, top: -240, width: 700, height: 700, borderRadius: "50%", background: `${ORANGE}15`}} />
-      <Header eyebrow={spec.eyebrow} title={spec.title} detail={spec.detail} />
-      {isCharacter && <><Nod x={170} y={520} scale={0.82} lean={drift / 12} /><Project x={1050} y={520} scale={0.72} weight={sceneId === "S12" ? progress(localFrame, 0, duration) : 0} /></>}
-      {isScale && <div style={{position: "absolute", left: 180, right: 180, bottom: 165, height: 250, display: "flex", alignItems: "end", justifyContent: "space-between"}}>{spec.items.map((item, index) => <div key={item} style={{width: 650, height: index === 0 ? 110 : 235, background: index === 0 ? PAPER : ORANGE, border: `8px solid ${GRAPHITE}`, borderRadius: 36, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 40, fontWeight: 1000}}>{item}</div>)}</div>}
-      {isTimeline && <div style={{position: "absolute", left: 170, right: 170, bottom: 245, height: 18, borderRadius: 20, background: GRAPHITE}}><div style={{position: "absolute", left: `${progress(localFrame, 0, duration) * 88}%`, top: -70, width: 74, height: 160, borderRadius: 28, background: ORANGE, transform: "translateX(-50%)"}} />{spec.items.map((item, index) => <div key={item} style={{position: "absolute", left: index === 0 ? 0 : "100%", top: 50, transform: index === 0 ? "none" : "translateX(-100%)", fontSize: 32, fontWeight: 900}}>{item}</div>)}</div>}
-      {isLoop && <div style={{position: "absolute", left: 120, right: 120, bottom: 150, display: "flex", gap: 24, alignItems: "center"}}>{spec.items.map((item, index) => <React.Fragment key={item}><div style={{flex: 1, minHeight: 170, borderRadius: 34, background: index === 3 ? ORANGE : PAPER, border: `7px solid ${GRAPHITE}`, display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center", padding: 20, fontSize: 30, fontWeight: 1000, transform: `translateY(${Math.sin(localFrame / 28 + index) * 10}px)`}}>{item}</div>{index < spec.items.length - 1 && <div style={{fontSize: 52, fontWeight: 1000}}>→</div>}</React.Fragment>)}</div>}
-      {!isCharacter && !isLoop && !isTimeline && !isScale && <div style={{position: "absolute", left: 120, right: 120, bottom: 120, display: "flex", flexWrap: "wrap", gap: 30, justifyContent: "center"}}>{spec.items.map((item, index) => {const delay = index * 12; const lift = progress(localFrame, delay, delay + 26); return <div key={item} style={{width: itemWidth, minHeight: 145, borderRadius: 34, background: index === spec.items.length - 1 && (spec.kind === "builder" || spec.kind === "protocol") ? ORANGE : PAPER, border: `7px solid ${GRAPHITE}`, boxShadow: "0 20px 45px #25252518", padding: "30px 34px", display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center", fontSize: 31, lineHeight: 1.1, fontWeight: 950, opacity: lift, transform: `translateY(${(1 - lift) * 55 + Math.sin(localFrame / 32 + index) * 6}px)`}}>{item}</div>})}</div>}
+    <AbsoluteFill
+      style={{
+        background: mode.background,
+        color: mode.foreground,
+        fontFamily: FONT,
+        opacity: appear,
+        overflow: "hidden",
+      }}
+    >
+      <div
+        style={{
+          position: "absolute",
+          right: -180,
+          top: -240,
+          width: 720,
+          height: 720,
+          borderRadius: "50%",
+          background: mode.accent,
+          opacity: 0.1,
+        }}
+      />
+      <Header
+        sceneId={sceneId}
+        foreground={mode.foreground}
+        secondary={mode.secondary}
+        accent={mode.accent}
+      />
+      {isTimeline ? (
+        <div
+          style={{
+            position: "absolute",
+            left: 150,
+            right: 150,
+            bottom: 230,
+            height: 18,
+            borderRadius: 20,
+            background: mode.foreground,
+          }}
+        >
+          <div
+            style={{
+              position: "absolute",
+              left: `${progress(localFrame, 0, duration) * 94}%`,
+              top: -57,
+              width: 38,
+              height: 132,
+              borderRadius: 20,
+              background: mode.accent,
+              boxShadow: `0 0 40px ${mode.accent}`,
+            }}
+          />
+          {spec.items.map((item, index) => (
+            <div
+              key={item}
+              style={{
+                position: "absolute",
+                left: index === 0 ? 0 : "100%",
+                top: 48,
+                transform: index === 0 ? "none" : "translateX(-100%)",
+                color: mode.foreground,
+                fontSize: 28,
+                fontWeight: 900,
+              }}
+            >
+              {item}
+            </div>
+          ))}
+        </div>
+      ) : isScale ? (
+        <div
+          style={{
+            position: "absolute",
+            left: 170,
+            right: 170,
+            bottom,
+            height: 300,
+            display: "flex",
+            gap: 70,
+            alignItems: "end",
+          }}
+        >
+          {spec.items.map((item, index) => (
+            <div
+              key={item}
+              style={{
+                flex: 1,
+                height: index === 0 ? 120 : 270,
+                borderRadius: 28,
+                background: index === 0 ? mode.panel : mode.accent,
+                color: index === 0 ? mode.foreground : COLORS.ink,
+                border: `3px solid ${index === 0 ? panelBorder : mode.accent}`,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontSize: 34,
+                fontWeight: 900,
+              }}
+            >
+              {item}
+            </div>
+          ))}
+        </div>
+      ) : isLoop ? (
+        <div
+          style={{
+            position: "absolute",
+            left: 80,
+            right: 80,
+            bottom: 130,
+            display: "grid",
+            gridTemplateColumns: `repeat(${spec.items.length}, 1fr)`,
+            gap: 14,
+          }}
+        >
+          {spec.items.map((item, index) => (
+            <div
+              key={item}
+              style={{
+                minHeight: 165,
+                borderRadius: 24,
+                padding: "18px",
+                background: index === 3 ? COLORS.green : mode.panel,
+                color: index === 3 ? COLORS.ink : mode.foreground,
+                border: `3px solid ${index === 3 ? COLORS.green : panelBorder}`,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                textAlign: "center",
+                fontSize: 25,
+                lineHeight: 1.08,
+                fontWeight: 900,
+                transform: `translateY(${Math.sin(localFrame / 28 + index) * 8}px)`,
+              }}
+            >
+              {item}
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div
+          style={{
+            position: "absolute",
+            left: isProtocol ? 86 : 120,
+            right: isProtocol ? 86 : 120,
+            bottom,
+            display: "grid",
+            gridTemplateColumns: isBuilder
+              ? "1fr 1fr 1fr"
+              : `repeat(${Math.min(spec.items.length, 4)}, 1fr)`,
+            gap: 22,
+          }}
+        >
+          {spec.items.map((item, index) => itemCard(item, index, spec.items.length))}
+        </div>
+      )}
     </AbsoluteFill>
+  );
+};
+
+const Scene: React.FC<{
+  sceneId: SceneId;
+  composition: string;
+  localFrame: number;
+  duration: number;
+}> = ({sceneId, composition, localFrame, duration}) => {
+  if (composition === "C01") {
+    return <Hero frame={localFrame} />;
+  }
+  if (["S06", "S10", "S12", "S24"].includes(sceneId)) {
+    return (
+      <CharacterScene
+        sceneId={sceneId}
+        localFrame={localFrame}
+        duration={duration}
+      />
+    );
+  }
+  return (
+    <DiagramScene
+      sceneId={sceneId}
+      composition={composition}
+      localFrame={localFrame}
+      duration={duration}
+    />
   );
 };
 
 const Canvas: React.FC<{timelineOffset?: number}> = ({timelineOffset = 0}) => {
   const frame = useCurrentFrame() + timelineOffset;
-  const scene = timing.scenes.find((item) => frame >= item.startFrame && frame < item.endFrame) ?? timing.scenes[timing.scenes.length - 1];
-  if (frame < timing.compositions[0].endFrame) return <Hero frame={frame} />;
-  return <Generic sceneId={scene.id as SceneId} localFrame={frame - scene.startFrame} duration={scene.durationFrames} />;
+  const active =
+    timing.scenes.find(
+      (scene) => frame >= scene.startFrame && frame < scene.endFrame,
+    ) ?? timing.scenes[timing.scenes.length - 1];
+  const sceneId = active.id as SceneId;
+  const activeComposition = timing.compositions.find(
+    (composition) => composition.id === active.composition,
+  );
+  const localFrame =
+    active.composition === "C01" && activeComposition
+      ? frame - activeComposition.startFrame
+      : frame - active.startFrame;
+
+  return (
+    <Scene
+      sceneId={sceneId}
+      composition={active.composition}
+      localFrame={localFrame}
+      duration={active.durationFrames}
+    />
+  );
 };
 
 export const Video004Master: React.FC = () => (
-  <AbsoluteFill>
+  <AbsoluteFill style={{background: COLORS.midnight}}>
     <Canvas />
     <Audio src={staticFile("audio/video004-narration-master-v1.wav")} />
   </AbsoluteFill>
 );
 
-export const Video004Segment: React.FC<{compositionId: string}> = ({compositionId}) => {
-  const composition = timing.compositions.find((item) => item.id === compositionId);
-  if (!composition) throw new Error(`Unknown composition ${compositionId}`);
+export const Video004Segment: React.FC<{compositionId: string}> = ({
+  compositionId,
+}) => {
+  const composition = timing.compositions.find(
+    (item) => item.id === compositionId,
+  );
+  if (!composition) {
+    throw new Error(`Unknown composition ${compositionId}`);
+  }
   return <Canvas timelineOffset={composition.startFrame} />;
 };

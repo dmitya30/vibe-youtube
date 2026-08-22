@@ -256,3 +256,20 @@ VIDEO004_ACCEPTED_NARRATION_MASTER=UNCHANGED
 VIDEO004_CAPTIONS_AND_TIMING=LOCKED
 NEXT_REQUIRED_GATE=VIDEO004_C01_A01_SOURCE_GENERATION_AND_HUMAN_QA
 ```
+
+## 13. Accepted final production checkpoint
+
+Updated: 2026-08-22
+
+The local Remotion redesign source, final master and deterministic thumbnail source passed human QA.
+
+- full audio-visual playback: PASS;
+- C01 continuity and repaired exit: PASS;
+- accepted final master: `remotion/out/video004-master-final-v1.mp4`;
+- accepted master SHA-256: `fd96e10960e1950340388cd7bcd3085199ac8fce75d611ba436d2bcc2524eca3`;
+- launch thumbnail: B v1 / `RELIEF IS THE TRAP`;
+- final render must not be repeated during packet assembly.
+
+The earlier source-generation gates in this document are historical and are superseded by this checkpoint.
+
+`NEXT_REQUIRED_GATE=VIDEO004_PUBLICATION_PACKET_COMPLETION`
