@@ -6,36 +6,49 @@ Method: RESEARCH_PROTOCOL.md
 
 ## 1. Why this candidate is investigated separately
 
-The owner can judge Russian language and culture directly, and existing Telegram bots, a website and other products may support an external monetization chain that does not depend on AdSense:
+The owner can judge Russian language and culture directly, and existing Telegram bots, a website and other products may support an external monetization chain that does not depend on AdSense. The capabilities of those products are not documented here and must not be assumed.
 
-YouTube to Telegram or site or bot to a useful personalized result to a product, subscription or service.
+## 2. Primary finding of the first research pass
 
-The capabilities of those existing products are not documented here and must not be assumed.
+The original working chain was stated as YouTube to Telegram or site or bot to a personalized result to a product.
 
-## 2. Falsification questions
+The only detailed Russian case located so far, CTL-0005, reports the opposite ordering. Video, Reels, Shorts and VK clips are described as weakly effective, while a searchable site of personalized calculators is described as the automatic subscriber source. The financial claims in that case are vendor published and unverified, but the negative statement about video works against the commercial interest of the publisher and therefore carries more weight than the revenue figure.
 
-- size, shape and seasonality of observable demand in Russian;
-- dominant viewer segments and the language conventions they actually use;
-- repeatable formats rather than isolated viral hits;
+Working revision to be tested, not adopted:
+
+`searchable personalized calculator surface -> Telegram bot -> gated free interpretation -> tripwire -> personalized document or subscription`, with YouTube evaluated as an amplifier and trust layer rather than as the entrance.
+
+## 3. Mechanics extracted for testing
+
+- gating the free personalized result behind a channel subscription check;
+- a recurring daily calculation as an anti churn reason to stay subscribed;
+- a low priced tripwire before any larger offer;
+- automatic generation of the personalized document to remove manual fulfillment;
+- widening the keyword surface by adding more distinct calculators rather than more content.
+
+## 4. Falsification questions
+
+- is there any identifiable Russian esoteric channel where YouTube is demonstrably the acquisition source;
+- what is the observable size, shape and seasonality of demand in Russian;
 - competition density and incumbent packaging quality;
-- production cost per video and per probe;
+- production cost per probe;
 - whether a personalized result can be delivered without guaranteed predictions;
-- conversion compatibility with the existing products;
+- conversion compatibility with the existing owner products;
 - trust, disclosure and reputational risk;
 - payment and platform constraints for this audience.
 
-## 3. Funnel metrics to instrument later
+## 5. Funnel metrics to instrument later
 
-outbound clicks from the video and description; bot starts; completion of the personalized result; conversion to a product; revenue per one thousand views; repeat purchase rate; audience retention across videos.
+outbound clicks; bot starts; completion of the personalized result; conversion to a product; revenue per one thousand views; repeat purchase rate; retention across videos. A reference point from CTL-0005 is a reported conversion of 5 to 7 percent, described by its own author as insufficient.
 
-## 4. Content boundaries
+## 6. Content boundaries
 
 No guaranteed predictions. No fear based pressure. No medical claims. No financial promises. Personalization is framed as entertainment and self reflection.
 
-## 5. Data required from the owner later
+## 7. Data required from the owner later
 
-Requested only when research reaches product fit and conversion path: links to specific files and folders in the separate product repository that describe the existing bots, the website and the product surface, plus any audience or conversion data that already exists.
+Links to specific files and folders in the separate product repository that describe the existing bots, the website and the product surface, plus any audience or conversion data that already exists. Requested only when research reaches product fit and conversion path.
 
-## 6. Current status
+## 8. Current status
 
 No channel, no format and no production is authorized. This dossier holds research only.
