@@ -52,3 +52,13 @@ Links to specific files and folders in the separate product repository that desc
 ## 8. Current status
 
 No channel, no format and no production is authorized. This dossier holds research only.
+
+## 9. Monetization structure constraint added 2026-08-22
+
+CTL-0009 records two opposed self reports: a creator with a predominantly United Kingdom audience reporting CPM about 15 USD and RPM about 8.50 USD, and a creator outside high value advertising markets reporting effectively no revenue at about 20000 long form views per month.
+
+Consequence for this candidate: advertising revenue cannot be modelled as income for a Russian language channel. External monetization is a structural requirement. YPP status, if pursued at all, is only a scale and legitimacy indicator, and even then the threshold version and date must be stated because entry requirements for new applicants change on 2027-02-01.
+
+## 10. Demographic overlap noted
+
+CTL-0005 describes the audience as predominantly women aged 35 and over seeking guidance about purpose, finances, relationships and health. CTL-0011 describes an unrelated niche where a faceless and voiceless channel served an audience predominantly female and over 55. The overlap is suggestive only and is not treated as evidence of transferability.

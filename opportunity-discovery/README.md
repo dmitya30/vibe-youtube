@@ -1,7 +1,7 @@
 # Opportunity discovery workspace
 
 Updated: 2026-08-22
-Status: FIRST RESEARCH PASS COMPLETE / PROBES NOT YET DESIGNED
+Status: SECOND RESEARCH PASS COMPLETE / PROBES NOT YET DESIGNED
 Workstream: OPPORTUNITY_DISCOVERY_RESEARCH
 Baseline commit at creation: d200acca7ccc4114cf3c610b179611c6bd1f4746
 
@@ -57,13 +57,25 @@ The root .gitignore ignores image and media files at every level, so screenshots
 This workstream authorizes research and cheap probe design only. No new channel, no production and no publication is authorized. Any such decision requires a separate owner decision.
 
 ```text
+## 7. Sample selection correction, 2026-08-22
+
+The first pass drew mechanics from a mature channel and was corrected. Evidence is now restricted to cold start channels no older than 12 months, preferably 6, that reached monetization scale from zero. See RESEARCH_PROTOCOL.md sections 11 to 13.
+
+## 8. Dated constraint
+
+YPP entry thresholds for new applicants double on 2027-02-01 to 8000 qualified watch hours in 365 days or 20 million qualified Shorts views in 90 days. Current thresholds are 1000 subscribers with 4000 qualified watch hours in 12 months, or 1000 subscribers with 10 million qualified Shorts views in 90 days. Any scale target must name the version it refers to. See CTL-0006.
+
+```text
 OPPORTUNITY_DISCOVERY_WORKSPACE=CREATED
-BROAD_OPPORTUNITY_MAP=FIRST_PASS_COMPLETE
-CREATOR_TACTICS_LEDGER=5_ENTRIES
+BROAD_OPPORTUNITY_MAP=SECOND_PASS_COMPLETE
+CREATOR_TACTICS_LEDGER=11_ENTRIES
+SAMPLE_SCOPE=COLD_START_CHANNELS_ONLY
+MATURITY_BIAS_CORRECTION=APPLIED_TO_CTL_0002_AND_CTL_0003
+YPP_THRESHOLD_CHANGE=2027_02_01_DOUBLES_FOR_NEW_APPLICANTS
 RU_NUMEROLOGY_CANDIDATE=RESEARCH_ONLY
-RU_NUMEROLOGY_VIDEO_FIRST_ASSUMPTION=CHALLENGED_BY_CTL_0005
-PRIORITY_CLUSTERS=C1_DORMANT_REPACKAGING_AND_C3_CALCULATOR_FUNNEL
+RU_ADSENSE_AS_BUSINESS_MODEL=REJECTED_BY_CTL_0009
+PRIORITY_CLUSTERS=C3_CALCULATOR_FUNNEL_AND_C6_DURATION_ARBITRAGE_AND_C7_CHEAP_SWINGS
 NEW_CHANNEL_AUTHORIZATION=NOT_GRANTED
 PRODUCTION_AUTHORIZATION=NOT_GRANTED
-NEXT_REQUIRED_GATE=CLUSTER_INDEPENDENCE_CHECK_AND_PROBE_DESIGN
+NEXT_REQUIRED_GATE=IDENTIFIABLE_COLD_START_CASES_AND_PROBE_DESIGN
 ```
