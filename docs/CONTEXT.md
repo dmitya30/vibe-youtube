@@ -351,3 +351,11 @@ Canonical continuation is `docs/VIDEO004_PUBLISHING.md`.
 The VIDEO-004 publication packet and external backup are verified. The accepted master was copied without rerendering and remains preserved under `remotion/out/`. Locked upload metadata, reviewed captions, launch thumbnail B v1 and checksums are present in the ignored local payload and represented by the tracked packet manifest.
 
 `NEXT_WORKSTREAM=VIDEO004_YOUTUBE_UPLOAD_PROCESSING_AND_PLATFORM_QA`
+
+## VIDEO-004 public publication checkpoint — 2026-08-22
+
+VIDEO-004 is Public at `https://youtu.be/J0kKV_bic_M`. Public page availability, accepted title, channel identity and 1080p processing passed. The first comment was published.
+
+Final explicit verification remains open for YouTube Checks, reviewed English captions, timestamp links, launch thumbnail, public incognito playback and channel-page visibility.
+
+`NEXT_WORKSTREAM=VIDEO004_FINAL_PUBLIC_PLATFORM_QA`

@@ -1,7 +1,7 @@
 # VIDEO-004 — Publishing package
 
 Updated: 2026-08-22
-Status: PUBLICATION PACKET VERIFIED / READY FOR YOUTUBE UPLOAD
+Status: PUBLIC / 1080P PASS / FINAL PLATFORM QA PENDING
 Repository base commit before checkpoint: 56f58648a228e75d783a6739e463d5f277d47e53
 
 ## 1. Accepted production state
@@ -101,4 +101,32 @@ VIDEO004_PUBLICATION_PACKET=VERIFIED
 VIDEO004_EXTERNAL_BACKUP=VERIFIED
 VIDEO004_YOUTUBE_STATUS=NOT_UPLOADED
 NEXT_REQUIRED_GATE=VIDEO004_YOUTUBE_UPLOAD_PROCESSING_AND_PLATFORM_QA
+```
+
+## 6. Public publication checkpoint
+
+Updated: 2026-08-22
+
+- YouTube channel: `Fewer Exits`;
+- handle: `@fewerexits`;
+- Video ID: `J0kKV_bic_M`;
+- public URL: `https://youtu.be/J0kKV_bic_M`;
+- visibility: Public;
+- 1080p processing: PASS;
+- first comment: published;
+- public page availability: externally verified;
+- public title: externally verified;
+- channel identity: externally verified.
+
+The exact launch time was not supplied and is not inferred. YouTube Checks, reviewed-caption playback, timestamp links, launch-thumbnail display, public incognito playback and channel-page visibility remain pending explicit confirmation.
+
+```text
+VIDEO004_STATUS=PUBLIC
+VIDEO004_VIDEO_ID=J0kKV_bic_M
+VIDEO004_PUBLIC_URL=https://youtu.be/J0kKV_bic_M
+VIDEO004_1080P_PROCESSING=PASS
+VIDEO004_FIRST_COMMENT=PUBLISHED
+VIDEO004_PUBLIC_PAGE=PASS
+VIDEO004_FINAL_PLATFORM_QA=PENDING
+NEXT_REQUIRED_GATE=VIDEO004_FINAL_PUBLIC_PLATFORM_QA
 ```

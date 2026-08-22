@@ -1,6 +1,6 @@
 # VIDEO-004 publication packet
 
-Status: VERIFIED / READY FOR YOUTUBE UPLOAD
+Status: PUBLISHED / PUBLIC / FINAL PLATFORM QA PENDING
 Completed: 2026-08-22
 
 Initial YouTube thumbnail: B v1 — `thumbnail-b-relief-is-the-trap-v1.jpg` / `RELIEF IS THE TRAP`.
@@ -24,4 +24,14 @@ External backup:
 
 The publication packet was assembled by copying the accepted master. No rerender was performed. The original accepted master under `remotion/out/` remains preserved.
 
-Next gate: `VIDEO004_YOUTUBE_UPLOAD_PROCESSING_AND_PLATFORM_QA`.
+Publication checkpoint:
+
+- Video ID: `J0kKV_bic_M`;
+- public URL: `https://youtu.be/J0kKV_bic_M`;
+- visibility: Public;
+- 1080p processing: PASS;
+- first comment: published;
+- public page, title and channel identity: externally verified;
+- final platform QA: pending explicit confirmation.
+
+Next gate: `VIDEO004_FINAL_PUBLIC_PLATFORM_QA`.
