@@ -1,7 +1,7 @@
 # Creator tactics ledger
 
 Updated: 2026-08-22
-Status: fourth pass complete / official policy constraints recorded
+Status: fifth pass complete / measurement frame corrected away from YPP
 Method: RESEARCH_PROTOCOL.md
 Note: apostrophes in quoted titles are normalized in this file. Verify exact strings at the primary URL.
 
@@ -405,11 +405,61 @@ From this correction onward the sample is restricted to cold start channels as d
 - confidence: high;
 - next verification step: none.
 
+### CTL-0024 Monetization from the first views, before any platform program
+
+- mechanic: sell an own small digital product on the channel from the first videos, so revenue starts before and independently of any platform monetization program;
+- classification: CREATOR CLAIM for the amounts, OBSERVED FACT for the named channels existing, INFERENCE for transferability;
+- primary URLs: https://t.me/ArtEarn/480 and the following post in the same channel, captured from https://t.me/s/ArtEarn ;
+- author: Artem Slabun, Telegram channel ArtEarn, YouTube https://www.youtube.com/@ArtSlabun with about 36900 subscribers;
+- capture date: 2026-08-22;
+- claimed result: in the period before platform monetization a channel can earn 100 to 1000 USD; over distance an own product adds about 30 percent on top of platform revenue; he states his network is approaching those figures;
+- stated preconditions, which function as a niche filter rather than a growth tactic: the niche should be useful, meaning the viewer can apply something, including hobbies such as gardening, fishing, yachting, golf, home skills and farming; the audience should be adult and from paying countries; the topic should be narrow so the pain is legible and competitors are fewer; the niche must still have enough volume, judged by looking at existing view levels and the mix of growing, old and new channels; and trust is required, where he notes a character helps and explicitly says a hyper realistic AI avatar is not necessary, even a cartoon character is often enough;
+- named examples with claimed figures: https://www.youtube.com/@nickinvestsUS finance, private community at 49 USD per month, claimed 4000 USD platform and about 8000 USD from the product with 165 members; https://www.youtube.com/@SilasMercerYT survival skills, guide at 39 USD, claimed 12000 USD platform and about 2500 USD additional; a third channel he labels Otis Granger while linking https://www.youtube.com/@goulddunlap9864 , guide at 47 USD, claimed 4000 USD platform and about 800 USD additional;
+- observable confirmation: the first two channels were confirmed to exist and to operate in the described niches. No revenue figure is verifiable, and no method of estimation is disclosed. The third example has a mismatch between the stated name and the linked handle, which lowers confidence in the accuracy of his labelling;
+- recurrence: not yet independent. This is one operator describing his own network plus three third party channels he did not run;
+- alternative explanations: revenue figures for other people channels are almost certainly estimated from public view counts using RPM assumptions, which is guesswork presented as fact;
+- conflict of interest: high. He sells a paid programme called Razgon YouTube, recruits from it into his own team, and his YouTube titles are of the form copied a channel making 300000 USD per month;
+- applicability: direct and central. This is the first located material describing the exact objective of this workstream, taking a channel from zero to the point where monetization starts, without depending on a platform programme;
+- confidence: medium for the mechanic, low for every number;
+- next verification step: examine the two confirmed channels for the actual product offer, its price, and whether the product link appears from the earliest videos or was added later.
+
+### CTL-0025 Niche entry windows have compressed to one to three months
+
+- mechanic: the period during which a niche remains favourable for a new entrant has shortened, which changes how long a hypothesis may be tested before it stops being informative;
+- classification: CREATOR CLAIM;
+- primary URL: https://t.me/ArtEarn/472 captured from https://t.me/s/ArtEarn ;
+- author: Artem Slabun;
+- capture date: 2026-08-22;
+- claim: a couple of years ago the entry point into a long term niche could stay favourable for about half a year, and now it is literally one to three months; he states his team rebuilt their niche selection framework because of this;
+- observable confirmation: none. No dataset, no channel examples and no measurement are given;
+- why it is recorded despite that: it argues against his own commercial interest in selling long structured courses, and it aligns with the observed behaviour of a platform that re tests topics rapidly;
+- alternative explanations: this may be marketing framing to create urgency around a paid framework, since the same post ends by asking for reactions to release it;
+- conflict of interest: high, the post directly precedes a lead capture offer collecting user data through a form before delivering the framework via a bot;
+- applicability: high if true, because it sets an expiry date on any research finding. A niche validated three months ago may no longer be entrable;
+- confidence: low;
+- next verification step: test the claim by taking any topic identified through the CTL-0018 procedure and checking whether the outlier pattern that defined it is still present some weeks later.
+
+### CTL-0026 Russian YouTube market size after throttling, measured
+
+- mechanic: not a tactic but the actual scale the Russian language direction would operate at;
+- classification: OBSERVED FACT from a published study, with methodology not inspected;
+- primary URLs: https://ppc.world/news/youtube-v-rossii-poteryal-tret-prosmotrov-video-a-shorts-vernulis-k-dokrizisnomu-urovnyu-bolshoe-issledovanie/ reporting https://whoisblogger.com/research/youtube2026 ;
+- author: WhoIsBlogger study, reported by ppc.world;
+- capture date: 2026-08-22;
+- reported findings: horizontal video lost up to 30 percent of views over eighteen months of throttling, progressing from 6 percent in the first months to 20 percent in the first half of 2025 and 30 percent in the second half; median reach by December 2025 was 2300 views per video; Shorts fell to minus 43 percent then recovered to roughly 4000 views per video by the second half of 2025; about 10 percent of authors stopped publishing, while remaining active authors kept about 15 videos per month each; December 2025 saw 556493 uploads, the highest in eighteen months; the share of horizontal videos containing paid integrations fell from 12 percent in July 2024 to 9 percent in December 2025, and for Shorts from 3 percent to 2 percent;
+- stated causes for the horizontal decline: authors cross posting into VK Video and Telegram and thereby redirecting their own audience, plus VK Video investing in shows and exclusives;
+- stated cause for the Shorts recovery: migration of Instagram audience after advertising was banned there in autumn 2025;
+- verification status: the underlying methodology, sample and definition of median reach were not inspected. The figures are reported second hand through an industry outlet;
+- consequences for the Russian esoteric candidate: a median of 2300 views per horizontal video sets the realistic economic scale, and at that scale selling advertising integrations is not viable, which is consistent with the falling share of videos carrying integrations. It makes an own product from the first views the only credible revenue path. It also inverts a conclusion drawn from English language sources, because in this market Shorts are currently the stronger surface rather than the weaker one;
+- confidence: medium, pending direct inspection of the study;
+- next verification step: open the WhoIsBlogger study directly and record its sample definition and whether median reach refers to all channels or to a filtered subset.
+
 ## 4. Pending harvest queue
 
-1. An operator unrelated to Tatyana Geyner using the calculator to bot architecture, required before C3 can be promoted.
-2. A cold start channel that reached 1000 subscribers mainly through Shorts while reaching watch hours through long form, with both figures visible.
-3. Read only attempt at the CTL-0018 outlier location procedure, to test whether it works without paid tooling.
+1. Inspect https://www.youtube.com/@nickinvestsUS and https://www.youtube.com/@SilasMercerYT for the actual product offer, price and when the product link first appeared.
+2. Open the WhoIsBlogger study directly and record its sample definition and median methodology.
+3. Read only attempt at the CTL-0018 outlier location procedure without paid tooling.
 4. Identifiable Russian language esoteric channels younger than 12 months, with upload cadence and view distribution observable.
-5. At least five comparable first month reports, to turn CTL-0014 into a usable baseline.
-6. A cold start channel that began with 45 minute or longer videos and still reached scale, which would falsify CTL-0013.
+5. Daniil Gruzinov material, pending owner supplied export of the private Telegram channel.
+6. Which Russian speaking geographies outside Russia are realistically reachable, since ad serving and payment follow viewer location.
+7. At least five comparable first month reports, to turn CTL-0014 into a usable baseline.

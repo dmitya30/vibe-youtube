@@ -1,7 +1,7 @@
-# Candidate dossier: Russian language numerology and esotericism
+# Candidate dossier: esoteric channel
 
 Updated: 2026-08-22
-Status: RESEARCH CANDIDATE / NOT AUTHORIZED FOR PRODUCTION
+Status: RESEARCH RESET 2026-08-22 / NOT AUTHORIZED FOR PRODUCTION
 Method: RESEARCH_PROTOCOL.md
 
 ## 1. Why this candidate is investigated separately
@@ -98,3 +98,27 @@ Consequences to carry into any format design:
 Ads are paused for viewers located in Russia, new YPP sign ups from Russia are unavailable, channels linked to AdSense accounts based in Russia cannot monetize, and platform fan funding is paused for viewers in Russia.
 
 Therefore platform revenue from an audience inside Russia is not available, and external monetization is not a preference but the only path. Any scale target for this candidate must be expressed in audience and funnel terms rather than in advertising revenue. It also raises a question that must be answered before any format work: which Russian speaking geographies outside Russia are realistically reachable, since ad serving and fan funding follow viewer location rather than content language.
+
+## 15. Research reset, 2026-08-22
+
+At the owner request the candidate is renamed and its research status is reset. It is defined as an esoteric channel. The prior investigation, which followed a site led calculator funnel, does not carry forward as supporting evidence, because that architecture treated the channel as an accessory to an existing product business. The channel is the primary object and the existing products are a supplementary monetization layer.
+
+Prior entries CTL-0005 and CTL-0012 are retained in the ledger as records but no longer count as support for this candidate.
+
+## 16. Production reality, stated by the owner
+
+The pipeline is not generative AI end to end. Rendering is Remotion. AI use is limited to voice through Gemini 2.5 Pro, frame generation, and possibly short five to fifteen second intro or loop segments intended to increase stickiness. Presenting an AI persona as a real human was rejected long ago and is not under consideration.
+
+This materially reduces exposure to the inauthentic content policy in CTL-0020, which targets templated mass production without an original perspective rather than the use of AI tools. It does not remove the constraint in CTL-0021, because that rule is about a persona presenting as a human expert advising on sensitive topics, so the framing of any presenter and the avoidance of health, legal and financial advice remain requirements.
+
+## 17. Market scale for this candidate, from CTL-0026
+
+A published study reports that by December 2025 the median reach of a horizontal video in the Russian segment was about 2300 views, after horizontal content lost up to 30 percent of views over eighteen months of throttling, while Shorts recovered to roughly 4000 views per video.
+
+Three consequences.
+
+Advertising integration sales are implausible at that median, and the study also reports the share of videos carrying integrations falling from 12 percent to 9 percent. An own product monetized from the first views is therefore the only credible path, which matches C13 and matches the owner framing of products as a supplementary layer.
+
+Shorts are currently the stronger surface in this market, which inverts the conclusion drawn from English language sources and must be tested rather than assumed.
+
+Any scale target for this candidate must be expressed against a median of roughly 2300 views per horizontal video, not against figures observed in English language markets.

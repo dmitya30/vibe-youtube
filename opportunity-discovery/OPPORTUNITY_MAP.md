@@ -1,7 +1,7 @@
 # Opportunity map
 
 Updated: 2026-08-22
-Status: fourth pass / scope narrowed to cold start channel launch
+Status: fifth pass / measurement frame corrected, C13 leading
 Method: RESEARCH_PROTOCOL.md
 
 ## 1. Purpose
@@ -28,6 +28,14 @@ AI generated personas presenting as human experts advising on health, legal issu
 
 For Russia, ads are paused for viewers located there, new YPP sign ups from Russia are unavailable, AdSense accounts based in Russia cannot monetize, and platform fan funding is paused for viewers there. A Russian language channel therefore has no realistic platform revenue from that audience, and external monetization is structural.
 
+## 2c. Measurement frame correction, 2026-08-22
+
+Earlier passes used YPP entry thresholds as the unit for expressing the target. That was a category error and is withdrawn. The Partner Program is neither the goal nor the business model here.
+
+The objective is taking a channel from zero to the point where monetization can start at all, where monetization means direct advertising sales, affiliate arrangements, or the owner own products. Platform programme thresholds are retained only as an external calibration of scale and as a dated fact about the environment, never as the target itself.
+
+Consequence: CTL-0024 describes revenue beginning from the first views with no platform programme involved, which matches this objective directly, while CTL-0006 remains only background about the environment.
+
 ## 3. Asymmetry types tracked
 
 underserved demand; weak competitor packaging; new or underrated format; demand transfer between platforms; search or recommendation arbitrage; production cost advantage; serial content construction; unusual funnel; external monetization; regulatory timing; contested topic engagement.
@@ -42,7 +50,9 @@ observable demand volume and shape; competition density and incumbent packaging 
 |---|---|---|---|---|---|
 | C1 dormant catalog repackaging | packaging arbitrage | CTL-0002, CTL-0003 | no | 2 | NOT_APPLICABLE_AT_OUR_MATURITY |
 | C2 serial construction channel | serial content construction | CTL-0003 | unproven | 1 | NEEDS_PRE_GROWTH_EVIDENCE |
-| C3 channel first esoteric funnel | external monetization layered on a channel | CTL-0005, CTL-0012 inverted by owner scope | not yet evidenced | 0 for the channel first form | REFRAMED_NEEDS_CHANNEL_LED_CASES |
+| C3 esoteric channel | channel first, products as an added monetization layer | CTL-0005 and CTL-0012 are site led and do not apply | not yet evidenced | 0 | RESEARCH_RESET_2026_08_22 |
+| C13 own product from the first views | unusual funnel, revenue before any platform programme | CTL-0024 | yes, this is its whole point | 1 operator, 2 channels confirmed to exist | LEADING_CANDIDATE |
+| C14 russian market scale constraint | market structure | CTL-0026 | yes | 1 study | ACCEPTED_AS_CONSTRAINT |
 | C11 outlier replication against same size channels | recommendation and demand arbitrage | CTL-0018, CTL-0019 | yes | 2 weak, same thread | READY_FOR_READ_ONLY_TEST |
 | C12 format division of labour for the two thresholds | regulatory timing and format asymmetry | CTL-0019, bounded by CTL-0010 | yes | 1 | PROMISING_UNRESOLVED |
 | C4 search intent capture | search arbitrage | CTL-0004 | plausible | 1 thread | WEAK_EVIDENCE |
@@ -52,6 +62,18 @@ observable demand volume and shape; competition density and incumbent packaging 
 | C8 language and geography revenue mismatch | monetization structure | CTL-0009 | yes | 2 | ACCEPTED_AS_CONSTRAINT |
 | C9 underserved older demographic | underserved demand | CTL-0011, CTL-0005 | yes | 2 weak | NEEDS_INDEPENDENT_CASES |
 | C10 contested topic with two opposed audiences | engagement structure | CTL-0015 | yes | 1 | INTERESTING_UNVERIFIED |
+
+## 6b. Reading of the fifth pass
+
+The measurement frame was wrong and has been corrected. Once the target is stated as the point where monetization can start rather than as a platform threshold, C13 becomes the leading cluster, because it is the only located mechanic that produces revenue before any programme exists.
+
+C13 also changes what a probe must measure. Under a platform threshold frame a probe would chase watch hours and subscribers. Under this frame a probe measures whether a small audience will buy anything at all, which is answerable at a far smaller scale and therefore far faster and cheaper.
+
+The niche filter attached to C13 is more useful than its revenue claims. Useful and applicable topic, adult audience in paying countries, narrow theme with sufficient volume, and enough trust to buy. That filter is testable before any production.
+
+C14 sets the scale for the Russian direction at a median of about 2300 views per horizontal video, which makes advertising sales implausible there and makes an own product structurally necessary rather than optional. It also reverses the format conclusion drawn from English sources, since Shorts recovered in that market while horizontal did not.
+
+C3 has been reset to zero research at the owner request and is now defined as an esoteric channel where products are a supplementary monetization layer.
 
 ## 7. Reading of the fourth pass
 
@@ -77,7 +99,7 @@ C8 remains a constraint rather than an opportunity. C10 is new and unverified.
 
 ## 7. Selection rule
 
-A cluster qualifies for deeper research when it has at least two independent supporting cases, a plausible funnel to a measurable outcome, a probe producible quickly with existing tooling, and validity at zero channel maturity. Only C7 currently satisfies all four, and it is a method rather than a market. C11 satisfies three and its remaining gap can be closed by a read only test rather than by production.
+A cluster qualifies for deeper research when it has at least two independent supporting cases, a plausible funnel to a measurable outcome, a probe producible quickly with existing tooling, and validity at zero channel maturity. Only C7 currently satisfies all four, and it is a method rather than a market. C11 satisfies three and its remaining gap can be closed by a read only test rather than by production. C13 satisfies three and its gap is independence, which requires locating an operator unconnected to the one who described it.
 
 ## 8. Data required from the owner later
 
