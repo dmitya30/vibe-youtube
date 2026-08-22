@@ -370,3 +370,20 @@ YouTube Checks, reviewed English-caption playback and synchronization, clickable
 Preserve the launch title, thumbnail and description during the initial observation window unless a material defect appears.
 
 `NEXT_WORKSTREAM=VIDEO004_POST_LAUNCH_ANALYTICS_BASELINE`
+
+
+## Portfolio and discovery reset — 2026-08-22
+
+The first three analytics funnels do not establish market fit for `Fewer Exits`. Regular production is paused after VIDEO-004 while the channel remains Public under periodic monitoring.
+
+The production pipeline created through VIDEO-001–004 is retained as a transferable asset. The missing discovery layer must be redesigned around fast, inexpensive and numerous probes before further expensive long-form production.
+
+A controlled multi-channel portfolio is open for research. One new channel per individual video is rejected. A Russian numerology/esotericism channel with possible integration into existing owner products is a research candidate, not an authorized production decision.
+
+Canonical documents:
+
+- `docs/FUNNEL_SNAPSHOT_2026_08_22.md`;
+- `docs/PORTFOLIO_STRATEGY.md`;
+- `docs/PRODUCTION_LIBRARY.md`.
+
+`NEXT_WORKSTREAM=OPPORTUNITY_DISCOVERY_RESEARCH`
