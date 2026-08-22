@@ -463,3 +463,79 @@ From this correction onward the sample is restricted to cold start channels as d
 5. Daniil Gruzinov material, pending owner supplied export of the private Telegram channel.
 6. Which Russian speaking geographies outside Russia are realistically reachable, since ad serving and payment follow viewer location.
 7. At least five comparable first month reports, to turn CTL-0014 into a usable baseline.
+
+### CTL-0027 Both example channels cited by Slabun failed verification
+
+- mechanic: an operator cites third party channels as proof of a monetization model; direct inspection contradicts the description;
+- classification: OBSERVED FACT;
+- primary URLs: https://www.youtube.com/@nickinvestsUS and https://www.skool.com/nick-invests-community/about ;
+- capture date: 2026-08-22;
+- observable confirmation: the channel shows 192K subscribers and 345 videos, which is not a cold start; the paid product is not a finance product but a course on producing faceless channels, with modules named Script Engine, Visual System, The Edit and Thumbnail Lab; an external listing shows a price of 588 USD rather than the 49 USD per month that was claimed;
+- alternative explanations: the operator estimated third party revenue from RPM assumptions rather than from data;
+- conflict of interest: high, the operator sells a program;
+- applicability: the case cannot support C13 and must not be cited as cold start evidence;
+- confidence: high for the refutation;
+- next verification step: none, entry closed.
+
+### CTL-0028 Observed view distribution and cadence on a two channel network
+
+- mechanic: a small number of videos produces large subscriber counts because one outlier carries the channel, while cadence buys attempts;
+- classification: OBSERVED FACT;
+- primary URLs: https://www.youtube.com/@SilasMercerYT and https://www.youtube.com/channel/UCgF9qb15iTzT7O1MtnOwLxQ ;
+- capture date: 2026-08-22;
+- observable confirmation: main channel 104K subscribers and 46 videos, second channel 23.8K subscribers and 29 videos, every video credited to both names; fifteen uploads observed within seven days; observed views 2.6K, 2.8K, 3.3K, 4.5K, 4.7K, 8.4K, 9.1K, 15K, 15K, 19K, 20K, 21K, 29K with one outlier at 186K, giving a median near 9K and a maximum near twenty times the median;
+- recurrence: this is the first direct measurement of the shape that CTL-0008 previously carried only as author testimony;
+- applicability: high, cadence is the transferable variable and the Remotion pipeline is a cadence machine;
+- confidence: high for the measurement;
+- next verification step: measure the same distribution on two further dense cadence channels to test whether the twenty times ratio recurs.
+
+### CTL-0029 Audience detection of a synthetic persona in a sensitive advice niche
+
+- mechanic: a channel presents an invented biography as a living person while giving food storage and gardening advice;
+- classification: OBSERVED FACT for the detection, INFERENCE for the risk;
+- primary URL: https://www.reddit.com/r/isthisAI/comments/1vqyv73/silas_mercer_youtube_channel_represents_self_as_a/ ;
+- capture date: 2026-08-22, thread dated 2026-08-17;
+- observable confirmation: viewers cite the absence of any internet footprint, printed text rendered unreadably in frame, minimal facial variation, a channel registered in 2019 with only recent content, and a book sold at 37 USD; a practising commenter states that some food preservation advice is unsafe and that killing weeds with salt damages soil for years;
+- alternative explanations: none needed, detection is observable regardless of whether the persona is synthetic;
+- applicability: the narrative frame is transferable, the invented biography is the detectable component and is the part that engages CTL-0021;
+- confidence: medium high;
+- next verification step: locate channels using an equally strong frame with an openly non human or openly authored narrator, to measure whether the invented biography contributes anything.
+
+### CTL-0030 Methodology correction to the Russian market median
+
+- mechanic: the widely quoted median of about 2300 views describes surviving mature channels, not the market and not new channels;
+- classification: OBSERVED FACT;
+- primary URL: https://whoisblogger.com/research/youtube2026 ;
+- capture date: 2026-08-22;
+- observable confirmation: the sample covers roughly 50 thousand channels active for at least a year before the slowdown; views are counted on the ninth day after the end of the month of publication; the median is per unit of content; December 2025 recorded 556493 publications, the highest volume in eighteen months, while reach fell;
+- inference: for a new channel the figure is a ceiling of the segment rather than a baseline, and rising publication volume against falling reach makes the many cheap attempts strategy more expensive in this market than in English language markets;
+- applicability: any Russian language scale target must be stated against this corrected reading;
+- confidence: high;
+- next verification step: none, supersedes the secondary retelling used earlier.
+
+### CTL-0031 Videos without speech are excluded from platform localization
+
+- mechanic: removing narration to make a video language independent also removes it from automatic dubbing;
+- classification: OBSERVED FACT from official documentation;
+- primary URL: https://support.google.com/youtube/answer/15569972 ;
+- capture date: 2026-08-22;
+- observable confirmation: a video is ineligible for automatic dubbing when it contains no speech, only music, or very little spoken content; automatic dubbing is enabled by default for eligible creators; an English source is dubbed into twenty languages including Russian, and a Russian source is dubbed into English with expressive speech; dubs are also generated for previously published videos over time;
+- inference: language carried in on screen text, diagrams and captions sits in the only layer the platform cannot localize, and would require one render and one upload per language, whereas narration requires one upload; a low density spoken track combined with heavy visual carriage keeps both dubbing eligibility and production economy;
+- applicability: direct, this constrains any Remotion format decision;
+- confidence: high;
+- next verification step: none for eligibility, open question is dub quality on a low density technical track.
+
+### CTL-0032 The silent format precedent was not designed and is not general
+
+- mechanic: the best known narration free channel adopted the format by accident, not by strategy;
+- classification: CREATOR CLAIM confirmed by the author himself;
+- primary URL: https://www.reddit.com/r/IAmA/comments/dq0zec/im_john_plant_and_i_run_the_primitive_technology/ ;
+- author: John Plant, Primitive Technology;
+- capture date: 2026-08-22, AMA dated 2019-11-01;
+- claimed result: the silent format became a defining feature of a channel at very large scale;
+- observable confirmation: the author states that the format began out of laziness in not putting narration in the videos and that he kept it once it became popular; he also states he posts only when he has new material rather than on a schedule;
+- alternative explanations: the format works because the subject matter is self evident physical action; conceptual or advisory content carries meaning in propositions that must be written;
+- survivorship: severe, one channel, retrospective rationalization;
+- applicability: low as a template, useful as a boundary condition;
+- confidence: high for the quotation, low for transferability;
+- next verification step: none, entry closed.

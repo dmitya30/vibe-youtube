@@ -104,3 +104,13 @@ A cluster qualifies for deeper research when it has at least two independent sup
 ## 8. Data required from the owner later
 
 Requested only when research reaches product fit, conversion path or integration: links to specific files and folders in the separate product repository describing the existing Telegram bots, the website and the product surface, plus any existing traffic, subscriber or conversion data. Nothing about those products is assumed here.
+
+## 9. Sixth pass additions, 2026-08-22
+
+C13 is downgraded from leading to structurally argued but unevidenced. Its supporting case, CTL-0024, rested on three example channels; two are now refuted by direct inspection in CTL-0027 and CTL-0028, and the third had a name and handle mismatch. The reason to keep C13 is arithmetic rather than testimony: product revenue begins at view counts an order of magnitude below the point where advertising revenue becomes meaningful, and advertising is unavailable for Russian audiences under CTL-0022.
+
+C15, distinctive packaging and narrative frame, is opened for research by owner decision on 2026-08-22, replacing the earlier exclusion. The cluster separates two components that CTL-0029 shows are usually bundled: a narrative frame, visual code and consistent voice, which carry no detection or policy exposure; and an invented biography presented as a living person, which is detectable by audiences and engages CTL-0021 when the topic is health, food safety, finance or law. The research question is how much of the observed effect the second component actually contributes.
+
+C16, language independent visual format, is recorded and immediately weakened. See CTL-0031 and CTL-0032. Narration free video is excluded from automatic dubbing, and burned in text is the only layer the platform cannot localize. The surviving variant is low density narration with heavy visual carriage, which keeps dubbing eligibility while retaining production economy.
+
+Cadence is promoted to a first class variable on the strength of CTL-0028, where a two channel network produced fifteen uploads in seven days and derived its subscriber base from a single outlier roughly twenty times the median. Number of attempts, not polish per attempt, is the measured driver.
