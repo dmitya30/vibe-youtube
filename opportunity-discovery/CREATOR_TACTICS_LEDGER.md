@@ -539,3 +539,79 @@ From this correction onward the sample is restricted to cold start channels as d
 - applicability: low as a template, useful as a boundary condition;
 - confidence: high for the quotation, low for transferability;
 - next verification step: none, entry closed.
+
+### CTL-0033 The outlier to median ratio is not a stable planning constant
+
+- mechanic: a hypothesis that dense cadence channels show a repeatable ratio between their outlier and their median view count;
+- classification: OBSERVED FACT, hypothesis refuted;
+- primary URLs: https://www.youtube.com/@SilasMercerYT and https://www.youtube.com/channel/UCgF9qb15iTzT7O1MtnOwLxQ ;
+- capture date: 2026-08-22;
+- observable confirmation: the second channel of the same network shows views of 1.3K, 3.5K, 3.5K, 3.8K, 4K, 4K, 4.5K, 5.8K, 6.6K, 9.4K, 9.7K, 13K, 14K, 15K, 30K and an outlier at 425K, giving a median near 5.8K and a ratio near 73, against a ratio near 20 measured on the first channel in CTL-0028;
+- inference: one operator, one pipeline, one niche and one week produce ratios that differ threefold, so the ratio is a random variable with a heavy tail rather than a mechanic constant; planning must use the median and must treat the outlier as a bonus that cannot be budgeted;
+- applicability: direct, this removes an intended planning input before it entered any probe design;
+- confidence: high;
+- next verification step: none for the ratio, superseded by median based planning.
+
+### CTL-0034 First observable cold start case with a dated channel opening
+
+- mechanic: a narrow repeatable premise plus a fixed recurring character produces very large Shorts reach from a standing start;
+- classification: OBSERVED FACT for the channel metrics, INFERENCE for the cause;
+- primary URLs: https://www.youtube.com/@Bernard_Films and https://passiveshorts.com/blog/bernard-films-channel-breakdown/ ;
+- capture date: 2026-08-22;
+- claimed result: channel opened 2026-01-24, and six months later shows 31 videos, 245000 subscribers and 174 million views at roughly weekly cadence;
+- observable confirmation: the reported per video figures are itemized, including 36M, 12M, 12M, 10M, 9.4M, 8.5M, 8.3M, 8.2M, 6.9M, 2.7M, 1.8M, 1.5M, 1.4M and weak videos at 412K, 438K and 641K;
+- alternative explanations: Shorts feed distribution rather than channel quality; the breakdown is published by a vendor selling a generator, so selection of a favourable case is likely;
+- conflict of interest: high, the source sells an automation product;
+- applicability: the cadence is weekly rather than industrial, which fits our capacity;
+- confidence: medium high for the metrics, low for the causal account;
+- next verification step: confirm the channel opening date and subscriber count from a second non vendor source.
+
+### CTL-0035 The unit of repetition is a sentence shape, not a topic
+
+- mechanic: a channel reuses roughly four title templates and substitutes nouns, rather than inventing distinct ideas;
+- classification: INFERENCE supported by observable title series;
+- primary URL: https://passiveshorts.com/blog/bernard-films-channel-breakdown/ ;
+- capture date: 2026-08-22;
+- observable confirmation: the smartphone premise runs three times across Ancient Rome at 1.8M, Ancient Greece at 8.2M and Medieval Europe at 1.5M; a second template runs four times across different settings; titles are second person questions;
+- counter observation recorded by the same source: the weakest videos are those that drop the framing, at 412K, 438K and 641K, while a video far outside the nominal topic reaches 36M, indicating that the format rather than the subject is the constraint;
+- applicability: very high, template substitution is exactly what a Remotion pipeline executes cheaply;
+- confidence: medium high;
+- next verification step: test whether the same template density appears on a channel with no vendor writing about it.
+
+### CTL-0036 Recurring character delivers recognition without an invented biography
+
+- mechanic: a consistent non human mascot supplies in frame recognition in a feed where channel branding is invisible;
+- classification: OBSERVED FACT for the design, INFERENCE for the effect;
+- primary URL: https://passiveshorts.com/blog/bernard-films-channel-breakdown/ ;
+- capture date: 2026-08-22;
+- observable confirmation: a translucent glass skeleton appears in the avatar, banner and most thumbnails, functioning as the viewer stand in for the second person question; the visual grammar is fixed with a corner context label, one burned in caption word and a handle watermark;
+- inference: this achieves the packaging effect sought in C15 while remaining outside CTL-0021, because the character is not presented as a living person and makes no personal claim of expertise;
+- comparison: the Silas Mercer network in CTL-0029 bundles the same packaging with an invented human biography and is detected by audiences, while this case reaches far larger scale without it;
+- applicability: high, and it resolves the open question asked of the owner on 2026-08-22;
+- confidence: medium high;
+- next verification step: locate a third channel using a non human recurring character to confirm the pattern is not single case.
+
+### CTL-0037 Shorts convert views to subscribers about an order of magnitude worse than long form
+
+- mechanic: Shorts reach is cheap while Shorts subscribers are expensive, because the feed hides channel identity;
+- classification: OBSERVED FACT from two independent reports;
+- primary URLs: https://passiveshorts.com/blog/bernard-films-channel-breakdown/ and https://www.reddit.com/r/ReelFarmer/comments/1rveed8/i_ranked_every_faceless_youtube_niche_using_real/ ;
+- capture date: 2026-08-22;
+- observable confirmation: 174 million views correspond to 245000 subscribers, a rate near 0.14 percent; the same channel shows roughly 474000 views in a trailing 30 day window with effectively zero net new subscribers; Shorts advertising RPM is reported at 0.01 to 0.30 USD per thousand views, and a channel with 119 million views is reported to have earned about 30000 USD from advertising;
+- inference: this confirms CTL-0007 from the opposite direction and qualifies the Shorts plus long form pairing, since Shorts supply reach but do not by themselves supply subscribers;
+- applicability: high, it means Shorts cannot be the subscriber engine and must feed something that captures identity;
+- confidence: medium high;
+- next verification step: verify the Bernard Films 30 day figures against a tracking service directly rather than through a vendor blog.
+
+### CTL-0038 Direct verification of three channels cited in a vendor tier list
+
+- mechanic: a vendor published channel metrics that can be checked against the channel pages themselves;
+- classification: OBSERVED FACT;
+- primary URLs: https://www.youtube.com/@H3lixSquar3d and https://www.youtube.com/@SleeplessHistorian ;
+- capture date: 2026-08-22;
+- observable confirmation: Helix squared shows 231000 subscribers and 53 videos against a claimed 238000 and 54, indicating the channel has lost subscribers since the claim; Sleepless Historian shows 711000 subscribers and 339 videos;
+- inference: the verifiable portion of vendor material is broadly accurate on public counts while the revenue and causal portions remain unverified, so such sources are usable as pointers to channels and never as evidence of mechanism;
+- conflict of interest: the tier list author is the founder of an AI video generator and closes with a product pitch; a commenter disputes the monetization status of one cited channel and claims broad demonetization of AI channels, which is unverified but consistent with CTL-0020;
+- applicability: procedural, this is the read only method C11 required and it needs no paid tooling;
+- confidence: high for the counts;
+- next verification step: none, method confirmed.

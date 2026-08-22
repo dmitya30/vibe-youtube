@@ -114,3 +114,15 @@ C15, distinctive packaging and narrative frame, is opened for research by owner 
 C16, language independent visual format, is recorded and immediately weakened. See CTL-0031 and CTL-0032. Narration free video is excluded from automatic dubbing, and burned in text is the only layer the platform cannot localize. The surviving variant is low density narration with heavy visual carriage, which keeps dubbing eligibility while retaining production economy.
 
 Cadence is promoted to a first class variable on the strength of CTL-0028, where a two channel network produced fifteen uploads in seven days and derived its subscriber base from a single outlier roughly twenty times the median. Number of attempts, not polish per attempt, is the measured driver.
+
+## 10. Seventh pass additions, 2026-08-22
+
+The planned measurement of the outlier to median ratio was carried out and refuted its own premise. See CTL-0033. Two channels of one network, same operator and same week, returned ratios near 20 and near 73. Attempt counts must therefore be planned against the median, and the outlier must be excluded from any forecast rather than treated as an expected event.
+
+C15 is resolved in favour of packaging without an invented biography. See CTL-0036. A recurring non human character supplies the recognition that a feed otherwise denies, reaches far larger scale than the invented human persona case, and stays clear of CTL-0021 because it makes no claim to be a person and gives no personal expertise. The narrative frame is retained, the fabricated biography is discarded as the component that adds detection risk without adding measured effect.
+
+C17, template substitution, is opened as a cluster on the strength of CTL-0035. The reusable asset is a sentence shape rather than a subject, and the observed failure mode is drifting off the format rather than off the topic. This maps onto the Remotion pipeline more directly than any mechanic recorded so far, because a fixed frame grammar with substituted nouns is exactly what a composition system renders cheaply.
+
+C16 gains support from an unexpected direction. The largest cold start case measured in this pass carries meaning through a fixed visual grammar with a thin spoken line, which is the low density narration variant that remains eligible for automatic dubbing under CTL-0031.
+
+The Shorts route is qualified rather than endorsed. Per CTL-0037, Shorts supply reach at roughly a tenth of the subscriber conversion of long form and at advertising rates that cannot fund a channel. Shorts are therefore admissible only as a reach surface feeding something that captures identity, which strengthens rather than weakens C13.
