@@ -1,7 +1,7 @@
 # Creator tactics ledger
 
 Updated: 2026-08-22
-Status: second pass complete / sample corrected to cold start channels
+Status: third pass complete / C3 independence still unmet
 Method: RESEARCH_PROTOCOL.md
 Note: apostrophes in quoted titles are normalized in this file. Verify exact strings at the primary URL.
 
@@ -214,11 +214,109 @@ Those two entries are therefore retained as records but are marked NOT_APPLICABL
 
 From this correction onward the sample is restricted to cold start channels as defined in RESEARCH_PROTOCOL.md section 11.
 
+### CTL-0012 CTL-0005 becomes identifiable but fails independence and fails cold start
+
+- mechanic: correction and upgrade of CTL-0005 after locating a second publication of the same case;
+- classification: OBSERVED FACT for the identifiers, INFERENCE for the independence failure;
+- primary URL: https://dzen.ru/a/Z12sS0_qQwFmyFWI ; original at https://bothelp.io/ru/blog/keys-bot-numerologa ;
+- author: Tatyana Geyner, the same author as CTL-0005, republishing on her own project channel Psychology and Technology;
+- capture date: 2026-08-22;
+- independence verdict: FAILED. This is the same case by the same author, not a second witness. C3 still rests on one source;
+- new identifiers now available for verification: Telegram channel https://t.me/matrixsudby ; site https://matrix-profi.ru ; a live calculator at https://matrix-profi.ru/calculator-prednaznachenie ; the client is named as Vladimir Fey;
+- decisive alternative explanation newly disclosed: Vladimir Fey is described as an experienced expert and the author of books and courses on the Matrix of Destiny, and the author of the case states she took his courses and then became his partner. A pre existing course and student ecosystem is therefore a competing source of the subscriber growth, and the case is not a cold start;
+- consistency defect repeated: revenue is stated as 1219120 in one place and 1210000 in another within the same article, as in CTL-0005;
+- technical detail confirmed in both versions: date of birth is passed from the site calculator into the bot so the user does not re enter it; calculations run on external hosting via an outbound request; interpretations were later moved into a MySQL database; the paid interpretation is generated automatically as a personalized PDF;
+- conflict of interest: high and unchanged, both publications end in an offer to obtain a free masterclass on building such bots;
+- applicability: the architecture remains interesting, the evidence remains single sourced, and the growth cannot be attributed to the calculators alone;
+- confidence: raised to medium for the existence and structure of the funnel, lowered for the causal attribution of growth;
+- next verification step: observe the current subscriber count of the Telegram channel and the search visibility of the calculator pages, and search for an unrelated operator using the same architecture.
+
+### CTL-0013 Long duration does not create distribution at zero maturity
+
+- mechanic: boundary condition on CTL-0007. Video length determines which YPP threshold binds, but it does not generate impressions on a channel the system has no data about;
+- classification: OBSERVED FACT for the reported metrics, CREATOR CLAIM for the explanations, INFERENCE for the boundary;
+- primary URL: https://www.reddit.com/r/NewTubers/comments/1szw7ql/new_youtube_channel_making_long_form_videos_20/ , dated 2026-04-30;
+- authors: reddit users kael3301, TruculentTurtIe, Ishidori85, Tetrahedron_Head, Miniburner, FeedTheCurse;
+- capture date: 2026-08-22;
+- negative case: kael3301 published one 60 minute and one 25 minute video on a new channel with zero subscribers and reports fewer than 10 impressions on each;
+- stated mechanism from independent commenters: an hour is a large commitment to ask of strangers from an unknown channel, and a failed hook forfeits the remaining runtime; the recommended cold start range given was roughly 8 to 12 minutes, increasing length only after an audience exists;
+- positive counter cases in the same thread: Tetrahedron_Head reports growing with 20 to 40 minute videos, first video 167 views in the first week, second and third lower, about 1000 subscribers around video 34, one upload per week and no external promotion; Miniburner reports monetization in 4 months with no Shorts; FeedTheCurse reports 1000 subscribers from only 3 long videos over a year, attributed to a large creator sharing the channel;
+- resulting boundary: the separating variable across these cases is the number of attempts and the presence of a hook, not the runtime. Long duration converts existing distribution into watch hours efficiently and does not manufacture distribution;
+- alternative explanations: kael3301 may have failed on packaging or topic rather than length; two videos is too small a sample to attribute anything;
+- conflict of interest: none apparent;
+- applicability: high. It prevents a naive reading of CTL-0007 as an instruction to publish very long videos immediately;
+- confidence: medium high for the boundary, medium for the 8 to 12 minute figure which is opinion not measurement;
+- next verification step: find a cold start channel that began directly with 45 minute or longer videos and still reached scale, which would falsify this boundary.
+
+### CTL-0014 Observed baseline for a cold start first month
+
+- mechanic: not a tactic but a reference distribution, needed so that a probe can be stopped on evidence rather than on feeling;
+- classification: CREATOR CLAIM with self reported numbers;
+- primary URL: https://www.reddit.com/r/NewTubers/comments/1szw7ql/new_youtube_channel_making_long_form_videos_20/ ;
+- author: reddit user mrbump34;
+- capture date: 2026-08-22;
+- reported sequence: about 1 impression per day for the first 6 days; then roughly 50 impressions per day for about a week arriving through suggested videos; then a slowdown; cumulative 380 impressions producing 13 views at an average view duration of 5:34, described as 33 percent;
+- comparison to our own data: VIDEO-001 recorded 587 impressions with 2.7 percent click through and average view duration of 1:30 against a 10:32 runtime, roughly 14 percent. Relative to this baseline our impression volume is not the anomaly. The depth of viewing is;
+- observable confirmation: none, channel not identified;
+- recurrence: single source, and it must not be treated as a distribution until more cases are collected;
+- alternative explanations: one anecdote cannot define a base rate; niche and topic dominate impression volume;
+- conflict of interest: none apparent;
+- applicability: high as a working reference, low as a standard;
+- confidence: low;
+- next verification step: collect at least five comparable first month reports before treating any figure as a baseline.
+
+### CTL-0015 A niche defined by two opposed audiences generates its own engagement
+
+- mechanic: choose a narrow topic that two hostile groups both care about, so the comment section produces argument between them rather than passive consumption;
+- classification: CREATOR CLAIM;
+- primary URL: https://www.reddit.com/r/NewTubers/comments/1szw7ql/new_youtube_channel_making_long_form_videos_20/ ;
+- author: reddit user Soundkey-AI;
+- capture date: 2026-08-22;
+- claimed result: first video posted about two months earlier reached about 30 views, was abandoned, then reached 700 views two weeks later; now 6 videos, about 85000 views, monetized;
+- described construction: the topic is AI music, covering detection of AI music, tool tutorials, how to content and legal aspects, deliberately addressing both long term musicians opposed to AI music and musicians using it as a tool, with the creator stating that the comment sections fill with discussion between the two groups;
+- observable confirmation: none, channel not identified;
+- recurrence: not established, single source;
+- alternative explanations: a rising topic with fast growing search demand explains the result without any audience engineering; survivorship bias;
+- risk note: engineered conflict can degrade into rage bait, which conflicts with the satisfaction requirement in PORTFOLIO_STRATEGY.md and carries platform risk. Only the structural insight is retained, not the provocation;
+- conflict of interest: none apparent;
+- applicability: medium. The transferable idea is selecting a topic where two identifiable groups disagree and both search for it;
+- confidence: low;
+- next verification step: look for identifiable channels built on a genuinely contested topic and check whether engagement is unusually high relative to views.
+
+### CTL-0016 AI generated presentation is a stated credibility and monetization risk
+
+- mechanic: audiences and commenters actively penalize recognizable AI voice, AI visuals and AI written scripts, independently of content quality;
+- classification: OBSERVED FACT for the reactions, UNVERIFIED HYPOTHESIS for the demonetization claim;
+- primary URL: https://www.reddit.com/r/NewTubers/comments/1szw7ql/new_youtube_channel_making_long_form_videos_20/ ;
+- authors: reddit users Ok_Lack_8021, Doug_Shoe, Cat-astrophe68, minus-Addendum;
+- capture date: 2026-08-22;
+- observed reactions: unsolicited reviewers identified the AI thumbnail, AI voice and AI script and rejected the channel on that basis; one commenter asserted that many channels are being demonetized specifically for AI visuals; another argued that low credibility content in a saturated space cannot build trust;
+- claim status: the demonetization assertion is unverified and no case was cited. It is recorded because it points at real platform policy on inauthentic and mass produced content, which must be read from the official policy rather than from forum claims;
+- alternative explanations: forum audiences are more hostile to AI production than general viewers; the specific channel may have been criticized for quality rather than for method;
+- conflict of interest: none apparent;
+- applicability: direct. Our pipeline is AI assisted and faceless. The distinction that matters is between AI as a production tool with human editorial control and content that reads as machine generated;
+- confidence: high that the reaction exists, low for the demonetization claim;
+- next verification step: read the current official policy on inauthentic content and repetitious content and record the exact wording and URL before any format decision.
+
+### CTL-0017 Folklore detection example, the hundred video rule
+
+- mechanic: a widely repeated numeric rule circulating as fact with no traceable source, useful as a template for spotting community folklore;
+- classification: MARKETING CLAIM and folklore, explicitly disputed in the same thread;
+- primary URL: https://www.reddit.com/r/NewTubers/comments/1szw7ql/new_youtube_channel_making_long_form_videos_20/ ;
+- authors: reddit users Adorable-Fill-7954 asserting it, bainmack questioning the source, mannysirskiii replying that it is made up;
+- capture date: 2026-08-22;
+- claim: YouTube starts showing content to a broad public around the hundredth video, and the algorithm needs between 10 and 100 videos to learn who to show a channel to;
+- verification outcome: when asked for a source the proponent attributed it to a remark by a large creator and then reframed it as a motivational device rather than a measurement;
+- consequence for the protocol: any numeric rule stated without a channel, a dataset or a measurement is recorded as folklore. This entry exists as a calibration reference so that similar claims are not absorbed silently;
+- confidence: high that the claim is unsupported;
+- next verification step: none required.
+
 ## 4. Pending harvest queue
 
-1. Identifiable cold start channels where duration and watch hour accumulation are both observable.
-2. Cold start channels that reached YPP thresholds without a single breakout video, to test the base rate behind CTL-0008.
-3. Russian esoteric authors disclosing acquisition sources in public Telegram channels.
-4. Cases where YouTube is the proven entry point of an external monetization funnel.
-5. Independent, non vendor sources for personalized result funnels.
-6. Evidence on what a first month looks like on channels that later succeeded, expressed as impressions, CTR, average view duration and subscriber slope.
+1. An operator unrelated to Tatyana Geyner using the calculator to bot architecture, required before C3 can be promoted.
+2. Observation of https://t.me/matrixsudby subscriber count and of search visibility for the matrix-profi.ru calculator pages.
+3. A cold start channel that began with 45 minute or longer videos and still reached scale, which would falsify CTL-0013.
+4. At least five comparable first month reports, to turn CTL-0014 into a usable baseline instead of one anecdote.
+5. The current official policy wording on inauthentic and mass produced content, with URL, for CTL-0016.
+6. Identifiable cold start channels where duration, upload count and watch hour accumulation are all observable.
+7. Russian esoteric authors disclosing acquisition sources in public Telegram channels.

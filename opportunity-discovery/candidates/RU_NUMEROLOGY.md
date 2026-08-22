@@ -62,3 +62,15 @@ Consequence for this candidate: advertising revenue cannot be modelled as income
 ## 10. Demographic overlap noted
 
 CTL-0005 describes the audience as predominantly women aged 35 and over seeking guidance about purpose, finances, relationships and health. CTL-0011 describes an unrelated niche where a faceless and voiceless channel served an audience predominantly female and over 55. The overlap is suggestive only and is not treated as evidence of transferability.
+
+## 11. Correction, 2026-08-22
+
+A second publication of the funnel case was located at https://dzen.ru/a/Z12sS0_qQwFmyFWI . It is the same author republishing the same project and therefore does not provide independent confirmation. See CTL-0012.
+
+Two consequences.
+
+First, the case is now verifiable rather than anonymous. The Telegram channel https://t.me/matrixsudby , the site https://matrix-profi.ru and a live calculator at https://matrix-profi.ru/calculator-prednaznachenie are identified, so the funnel can be inspected directly instead of being taken on trust.
+
+Second, the case is not a cold start. The expert is described as an established author of books and courses on the Matrix of Destiny, and the author of the case states she was first his student and then his partner. A pre existing course and student ecosystem is a competing explanation for the subscriber growth that was previously invisible. The calculators cannot be credited with the result on this evidence.
+
+The working revision from section 2 is therefore still a hypothesis, and its status is lowered from highest priority verification to independence failed until an unrelated operator using the same architecture is found.
