@@ -1,47 +1,53 @@
-VIDEO-004 PUBLICATION CONTEXT MANIFEST
-Status: STRUCTURE CHECKPOINT / SOURCE ARTIFACTS VERIFIED
-Created: 2026-08-22
-Repository base commit before checkpoint: 56f58648a228e75d783a6739e463d5f277d47e53
-Planned external backup: ~/vibe-youtube-publish-staging/VIDEO-004
+VIDEO-004 PUBLICATION PACKET
+Status: VERIFIED / READY FOR YOUTUBE UPLOAD
+Completed: 2026-08-22
+Repository base commit before packet completion: 73d400468305814bd3adc330b901816ed0028ff4
+External backup: ~/vibe-youtube-publish-staging/VIDEO-004
 
-SHA256  BYTES  CURRENT SOURCE PATH
-fd96e10960e1950340388cd7bcd3085199ac8fce75d611ba436d2bcc2524eca3  79241893  VIDEO-004-proof/remotion/out/video004-master-final-v1.mp4  # Accepted final master
-4200341fa6207711c047dfe163b39e03b842204bad3ad838290e2e1a3cf88466  157246  VIDEO-004-proof/remotion/out/thumbnail-b-relief-is-the-trap-v1.jpg  # Accepted launch thumbnail JPEG
-a8ed2d76a85a8c1a47848e92ec07d8d2e89d0226e14c0a7a1a03c2f2880dd3d6  2601885  VIDEO-004-proof/remotion/out/video004-thumbnail-b-relief-trap-v1.png  # Accepted launch thumbnail PNG source export
-137a0e529f343bb889e7c4b2208316ddecbd5d797f2f03aab7d523a6aaf89801  2400133  VIDEO-004-proof/remotion/out/video004-thumbnail-a-not-now-v1.png  # Alternative thumbnail A PNG
-cff3ea5ba6dc050b1d329a9e4d41622363fa082a140c87172a1481534207cf40  18963050  VIDEO-004-proof/audio/video004-narration-master-v1.wav  # Accepted narration master
-792b7394d0a33b5babc0057631a76e04d13b1e4e79258864d3cb08d3a4a52859  194739  VIDEO-004-proof/assets/nod/video004-a01-opening-workspace-v3.jpg  # Accepted A01 visual source
-a26254e81e836374e99c8740436b76e668dcbd2100fba3edf7264e10041112b5  206274  VIDEO-004-proof/assets/nod/video004-a02-now-later-transfer-v2.jpg  # Accepted A02 visual source
-8bd0a86231cd8e7516fce0c641395fdb9d28e37f3c0ddee39cd2c52accbb23ff  308633  VIDEO-004-proof/assets/nod/video004-a04-final-visible-action-v1.jpg  # Accepted A04 visual source
-7df12378f853cafe10e5589d2231fe6a88498b95ea5a36bc907e14d50aa6e8de  10654  VIDEO-004-proof/captions/video004-en-v1.srt  # Reviewed English SRT
-fd8d1eb2b7ca75e96be932dbbd44bc5ed43f80285cb038809cb123be6830f004  10182  VIDEO-004-proof/captions/video004-en-v1.vtt  # Reviewed English VTT
+SHA256  BYTES  RELATIVE PATH
+fd96e10960e1950340388cd7bcd3085199ac8fce75d611ba436d2bcc2524eca3  79241893  local/video-004-master-v1.mp4  # Accepted production master
+4200341fa6207711c047dfe163b39e03b842204bad3ad838290e2e1a3cf88466  157246  local/thumbnails/thumbnail-b-relief-is-the-trap-v1.jpg  # Accepted launch thumbnail
+7df12378f853cafe10e5589d2231fe6a88498b95ea5a36bc907e14d50aa6e8de  10654  local/video004-en-v1.srt  # Reviewed English SRT
+fd8d1eb2b7ca75e96be932dbbd44bc5ed43f80285cb038809cb123be6830f004  10182  local/video004-en-v1.vtt  # Reviewed English VTT
+52235bdeff54b12c88ec37b1a517dd2bc40fd3868e584b9d0a9ad2bf09f87b4f  2816  local/video004-metadata-v1.txt  # Locked YouTube metadata
+d2d5c0fd6fa9f1aa8643ce97a718845af703ae5e407281e037e5004fbe5299e5  466  local/SHA256SUMS.txt  # Local packet checksum list
 
 Master:
-- accepted source: VIDEO-004-proof/remotion/out/video004-master-final-v1.mp4
+- file: local/video-004-master-v1.mp4
 - codec: H.264
 - resolution: 1920x1080
 - fps: 30
 - duration: 395.114667 seconds
 - audio: AAC, 48 kHz, stereo
+- accepted SHA-256: fd96e10960e1950340388cd7bcd3085199ac8fce75d611ba436d2bcc2524eca3
 - human audio-visual QA: PASS
 - C01 QA: PASS
 
 Thumbnail:
-- accepted direction: B v1 / RELIEF IS THE TRAP
-- accepted upload source: VIDEO-004-proof/remotion/out/thumbnail-b-relief-is-the-trap-v1.jpg
+- direction: B v1 / RELIEF IS THE TRAP
+- file: local/thumbnails/thumbnail-b-relief-is-the-trap-v1.jpg
 - codec: JPEG
 - resolution: 1280x720
+- accepted SHA-256: 4200341fa6207711c047dfe163b39e03b842204bad3ad838290e2e1a3cf88466
 - human visual QA: PASS
 - B v2: REJECTED_TOO_SMOOTH
-- A / NOT NOW: RETAINED_AS_ALTERNATIVE
+- A / NOT NOW: RETAINED_AS_ALTERNATIVE_SOURCE
 
 Captions:
 - language: English
-- reviewed SRT and VTT: PASS / LOCKED
+- SRT and VTT: PASS / LOCKED
 - cues: 147
 
+Metadata:
+- title: Why You Avoid the Work That Matters Most
+- description: LOCKED
+- chapters: LOCKED
+- research links: LOCKED
+- launch comment: LOCKED
+- upload settings: RECORDED
+
 Publication:
-- packet local payload: NOT_YET_ASSEMBLED
-- external backup: NOT_YET_ASSEMBLED
+- local packet: VERIFIED
+- external backup: VERIFIED
 - YouTube upload: NOT_STARTED
-- next required gate: VIDEO004_PUBLICATION_PACKET_COMPLETION
+- next required gate: VIDEO004_YOUTUBE_UPLOAD_PROCESSING_AND_PLATFORM_QA

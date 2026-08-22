@@ -1,7 +1,7 @@
 # VIDEO-004 — Publishing package
 
 Updated: 2026-08-22
-Status: PRODUCTION MASTER ACCEPTED / LAUNCH THUMBNAIL ACCEPTED / PRE-PUBLICATION CONTEXT CHECKPOINT
+Status: PUBLICATION PACKET VERIFIED / READY FOR YOUTUBE UPLOAD
 Repository base commit before checkpoint: 56f58648a228e75d783a6739e463d5f277d47e53
 
 ## 1. Accepted production state
@@ -69,26 +69,36 @@ Ignored local payload:
 
 The ignored payload is preserved by path and SHA-256 in the tracked manifest. It must not be deleted after packaging.
 
-## 5. Remaining pre-publication work
+## 5. Publication packet completion
 
-1. Build the ignored `publish/video-004/local/` payload by copying, not rerendering, the accepted master and thumbnail.
-2. Create and review the VIDEO-004 metadata file from the accepted script, research and timing sources.
-3. Generate and verify local packet checksums.
-4. Create and verify the external backup.
-5. Commit the completed tracked packet manifest and documentation.
-6. Upload to YouTube as Unlisted.
-7. Wait for 1080p processing and YouTube Checks.
-8. Upload reviewed English captions and verify playback.
-9. Set thumbnail B v1 and accepted metadata.
-10. Switch to Public only after platform QA.
+Completed: 2026-08-22
+
+- accepted master copied without rerender: PASS;
+- reviewed SRT and VTT copied: PASS;
+- launch thumbnail B v1 copied: PASS;
+- metadata file created from accepted script, research and timing: PASS;
+- local SHA-256 verification: PASS;
+- external backup verification: PASS;
+- original accepted master preserved: PASS.
+
+Packet paths:
+
+- master: `VIDEO-004-proof/publish/video-004/local/video-004-master-v1.mp4`;
+- thumbnail: `VIDEO-004-proof/publish/video-004/local/thumbnails/thumbnail-b-relief-is-the-trap-v1.jpg`;
+- captions: `VIDEO-004-proof/publish/video-004/local/video004-en-v1.srt`;
+- metadata: `VIDEO-004-proof/publish/video-004/local/video004-metadata-v1.txt`;
+- checksums: `VIDEO-004-proof/publish/video-004/local/SHA256SUMS.txt`;
+- external backup: `~/vibe-youtube-publish-staging/VIDEO-004`.
 
 ```text
 VIDEO004_AUDIOVISUAL_QA=PASS
 VIDEO004_C01_QA=PASS
-VIDEO004_FINAL_MASTER=ACCEPTED
+VIDEO004_FINAL_MASTER=VERIFIED
 VIDEO004_LAUNCH_THUMBNAIL=B_V1_RELIEF_IS_THE_TRAP
 VIDEO004_CAPTIONS=LOCKED
-VIDEO004_PUBLICATION_PACKET=STRUCTURE_CHECKPOINT
+VIDEO004_METADATA=LOCKED
+VIDEO004_PUBLICATION_PACKET=VERIFIED
+VIDEO004_EXTERNAL_BACKUP=VERIFIED
 VIDEO004_YOUTUBE_STATUS=NOT_UPLOADED
-NEXT_REQUIRED_GATE=VIDEO004_PUBLICATION_PACKET_COMPLETION
+NEXT_REQUIRED_GATE=VIDEO004_YOUTUBE_UPLOAD_PROCESSING_AND_PLATFORM_QA
 ```

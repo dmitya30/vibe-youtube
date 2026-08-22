@@ -344,3 +344,10 @@ The thumbnail gate was reopened after the original `NOT NOW.` package lock. Laun
 Canonical continuation is `docs/VIDEO004_PUBLISHING.md`.
 
 `NEXT_WORKSTREAM=VIDEO004_PUBLICATION_PACKET_COMPLETION`
+
+
+## VIDEO-004 publication packet completion — 2026-08-22
+
+The VIDEO-004 publication packet and external backup are verified. The accepted master was copied without rerendering and remains preserved under `remotion/out/`. Locked upload metadata, reviewed captions, launch thumbnail B v1 and checksums are present in the ignored local payload and represented by the tracked packet manifest.
+
+`NEXT_WORKSTREAM=VIDEO004_YOUTUBE_UPLOAD_PROCESSING_AND_PLATFORM_QA`
