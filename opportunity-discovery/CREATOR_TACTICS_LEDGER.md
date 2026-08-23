@@ -824,3 +824,87 @@ From this correction onward the sample is restricted to cold start channels as d
 - applicability: high, this is a production language decision rather than a market decision;
 - confidence: medium;
 - next verification step: inspect an auto dubbed instructional video in this register to judge whether the dubbed track is usable.
+
+### CTL-0054 The public channel feed is a measurement instrument that bypasses the sign in wall
+
+- mechanic: the public feed endpoint returns channel creation date, per video publication dates and per video view counts as structured data without authentication;
+- classification: OBSERVED FACT, methodological;
+- primary URL pattern: https://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID ;
+- capture date: 2026-08-23;
+- observable confirmation: applied to four channels in this pass and returned creation dates and view counts in every case, including channels whose video grid pages returned only a cookie notice;
+- inference: the blocker recorded in CTL-0040 was a tooling limitation rather than an absence of evidence; every prior channel level claim in this ledger can now be re measured against dated per video data;
+- limitation: the feed returns only the most recent entries, so it gives cadence and creation date reliably but not a full catalogue;
+- applicability: very high, this is the primary observation method for the rest of the workstream;
+- confidence: high;
+- next verification step: none, adopt as standard procedure.
+
+### CTL-0055 Correction to CTL-0051, subscribers per video is a time blind metric and is withdrawn
+
+- mechanic: dividing lifetime subscribers by lifetime video count omits elapsed time and therefore compares channels of different ages as if they were comparable;
+- classification: CORRECTION of a previously recorded inference;
+- primary URL: https://www.youtube.com/feeds/videos.xml?channel_id=UCGcHeOUxsXrhjPj5vAmZcJg ;
+- capture date: 2026-08-23;
+- observable confirmation: the instructional channel measured in CTL-0051 was created on 2017-09-22 and holds 71 videos, which is 8 years and 11 months at about 0.66 videos per month, not the nine months of work that CTL-0051 inferred;
+- corrected figures: about 124 subscribers per month over 107 months, against about 400 per month for a 171 month channel with 878 videos and about 23000 per month for a 109 month channel with 13000 videos;
+- inference: the asymmetry claimed in CTL-0051 was substantially an artefact of the metric; the ordering of the three channels by monthly subscriber rate follows output volume, which is the opposite of what CTL-0051 concluded;
+- replacement metric adopted: subscribers gained per month at a stated cadence, reported together with median views per video and the age of the videos measured;
+- applicability: very high, this invalidates the headline number of the eleventh pass;
+- confidence: high, based on dated primary data;
+- next verification step: none, the correction is the finding.
+
+### CTL-0056 On an evergreen channel the catalogue is the subscriber engine, not the upload
+
+- mechanic: older instructional videos continue to accumulate views for years, so the standing catalogue rather than the publication schedule carries the audience;
+- classification: OBSERVED FACT;
+- primary URL: https://www.youtube.com/feeds/videos.xml?channel_id=UCGcHeOUxsXrhjPj5vAmZcJg ;
+- capture date: 2026-08-23;
+- observable confirmation: videos published between 2025-07 and 2026-01 hold 707, 849, 459, 714, 594, 377 and 798 views, a median near 700, while videos from earlier years on the same channel hold 1.7K, 1.8K, 2.3K, 2.4K, 2.9K, 3.1K, 4.2K, 5K, 6K and 9.5K; the most recent upload is dated 2026-01-21, so the channel has published nothing for seven months and retains 13300 subscribers;
+- inference: this is the first direct evidence in the ledger that evergreen material compounds rather than decays, and it supports the format constraint adopted in CTL-0048; it also bounds the effect honestly, since the compounding took nearly nine years to reach 13300 subscribers;
+- consequence for planning: an evergreen instructional channel is an asset that survives interruption, but it cannot be the instrument that reaches first monetization quickly on its own;
+- applicability: high;
+- confidence: medium high, the age view relationship is consistent across ten older videos but is not controlled for changes in the channel itself;
+- next verification step: re measure the same seven recent videos in about three months to convert the age view relationship into an accumulation rate.
+
+### CTL-0057 The industrial reference channel returns market median views despite a very large subscriber base
+
+- mechanic: a large subscriber count on a dated content feed does not lift per video reach above the market median;
+- classification: OBSERVED FACT, revises CTL-0041 and CTL-0043;
+- primary URL: https://www.youtube.com/feeds/videos.xml?channel_id=UC750ojNf94wjQoCKd8A1OSA ;
+- capture date: 2026-08-23;
+- observable confirmation: the handle recorded earlier resolves to channel id UC750ojNf94wjQoCKd8A1OSA, created 2017-07-14, so it is not a fast growth case; a long form video published 2026-08-22 held 2317 views about one day later against 2.52 million subscribers, which is 0.09 percent;
+- second observation: the figure sits almost exactly on the market median of about 2300 recorded in CTL-0030, so the subscriber base buys this operator nothing above the market baseline;
+- third observation: the video descriptions credit a company rather than a person, and the same topic is published as a long form and as a Short one hour apart on the same day, with cross posting to two messenger channels and one national blogging platform;
+- fourth observation: the description carries an explicit authenticity declaration addressed to algorithms, asserting no stock or AI video, a human authored script and AI used only for speech synthesis; this is a directly observable defensive artefact against the policy recorded in CTL-0020 and CTL-0021;
+- fifth observation: the subject matter is a named calendar day, which is dated material of exactly the kind excluded in CTL-0048, and the low view figure is consistent with that exclusion;
+- inference: the industrial pole is weaker than the eighth pass recorded; it is not a model to imitate even at unlimited cadence, and the reason is the format rather than the scale;
+- applicability: high, it removes the last reason to treat volume as a route;
+- confidence: high;
+- next verification step: none required, the channel is retained only as an architecture reference for the external payment chain.
+
+### CTL-0058 The dated cold start case is confirmed in counts and shown to be a decayed asset
+
+- mechanic: a channel can accumulate an enormous view total on short form and then settle at traffic and revenue that cannot sustain an operation;
+- classification: OBSERVED FACT from a third party tracker, partially closes CTL-0040;
+- primary URL: https://socialblade.com/youtube/handle/bernard_films ;
+- capture date: 2026-08-23;
+- observable confirmation: 245K subscribers, 174457366 lifetime views and 31 videos, matching the vendor published counts; between 2026-08-10 and 2026-08-23 the channel added 106177 views, about 8200 per day, with no measurable subscriber change and tracker estimated earnings between one and one hundred fourteen dollars per day;
+- derived figure: 174 million lifetime views against 245 thousand subscribers is a conversion of about 0.14 percent, which reproduces the short form conversion recorded in CTL-0037 at a far larger sample;
+- inference: the counts are real and the launch date remains unverified, but the case no longer supports the reading it was cited for; a channel with 174 million views is currently earning at a scale that would not fund production, which is the clearest available demonstration that short form reach does not convert into an income base;
+- applicability: high as a negative case;
+- confidence: medium high, tracker figures are estimates for revenue and observations for counts;
+- next verification step: none, the case is retired from planning weight.
+
+### CTL-0059 A full product ladder is observable on a mid sized channel in the target niche
+
+- mechanic: the channel operates as advertising for a service ladder rather than as an advertising property, exactly as the former operator in CTL-0047 advised;
+- classification: OBSERVED FACT;
+- primary URL: https://www.youtube.com/feeds/videos.xml?channel_id=UCO3TVUyNxIdMdR9RljTIzaQ ;
+- capture date: 2026-08-23;
+- observable confirmation: channel created 2012-05-02, 878 videos, 68.8K subscribers; every description carries paid readings, paid counselling and mentoring sessions, a membership tier and tickets to a paid live workshop, with prices held on an external storefront;
+- second observation: a long form instructional video published 2026-08-09 held 8238 views while a polemical commentary video published 2026-08-02 held 22150, a factor of 2.7 on the same audience in the same week;
+- inference: instruction alone underperforms instruction carrying a stated position, which qualifies the pure teaching format adopted under C18 without overturning it; the ladder itself is direct confirmation that C13 operates in this niche in English;
+- limiting observation: the products sold are personal services delivered by a named human, and that component does not transfer to a non personal production pipeline, so the ladder confirms the architecture and not its portability;
+- policy note: counselling and mentoring sit adjacent to the sensitive topic boundary of CTL-0021 and the exclusion adopted in CTL-0044 continues to apply to anything we would build;
+- applicability: high;
+- confidence: medium high;
+- next verification step: locate a channel in this niche selling a non personal product, since every monetized case observed so far sells access to a person.

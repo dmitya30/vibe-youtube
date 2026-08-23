@@ -1,7 +1,7 @@
 # Opportunity map
 
-Updated: 2026-08-22
-Status: fifth pass / measurement frame corrected, C13 leading
+Updated: 2026-08-23
+Status: twelfth pass / C18 corrected and time bounded, C13 confirmed in niche
 Method: RESEARCH_PROTOCOL.md
 
 ## 1. Purpose
@@ -168,3 +168,21 @@ The structural reason is that the content is a fixed grid rather than a stream. 
 The open question about reachable Russian speaking geographies is closed rather than answered. See CTL-0052. Program eligibility depends on operator residency and payment status, not on audience location, so no choice of Russian speaking market can restore the advertising route. Under external monetization the question dissolves, because payment is collected outside the platform from over 190 countries, and the operative question becomes which audience pays rather than which geography is reachable.
 
 A production language recommendation is recorded for owner decision. See CTL-0053. English as the source language yields the Russian speaking audience through automatic dubbing, while Russian as the source language does not yield the reverse. This supplies the demand side justification for localizing the existing bots that the owner requested, and it aligns with the observation that the underserved instructional segment was found in English language communities.
+
+## 15. Twelfth pass, the metric corrected and the time constant measured, 2026-08-23
+
+The headline result of the eleventh pass is corrected rather than confirmed. See CTL-0055. The instructional channel that appeared to reach 13300 subscribers in 71 videos has in fact been running since 2017-09-22 at about 0.66 videos per month. Subscribers per video is withdrawn as a metric because it omits elapsed time, and it is replaced by subscribers gained per month at a stated cadence, reported alongside median views per video and the age of the videos measured. Under the corrected metric the three observed channels rank by monthly subscriber rate in the order of their output volume, which is the opposite of the eleventh pass conclusion.
+
+C18 survives the correction and gains its first direct evidence, but it is now time bounded. See CTL-0056. Older videos on the instructional channel hold three to ten times the views of recent ones, and the channel has published nothing since 2026-01-21 while retaining its audience. Evergreen material therefore compounds and survives interruption, which is the asset property the owner asked for. The honest cost is that the compounding reached 13300 subscribers over nearly nine years, so C18 cannot be the instrument that reaches first monetization quickly. It is the asset, not the accelerant.
+
+The industrial pole is weaker than recorded and is closed as a route. See CTL-0057. The reference feed channel was created in 2017, is operated by a company rather than an author, and returns about 2317 views on a fresh long form against 2.52 million subscribers, which lands on the market median of CTL-0030. Scale bought that operator nothing above baseline because the material is dated. Volume is therefore not merely unreachable for us, as the ninth pass concluded, it is also not winning for the operator that has it.
+
+The short form reach route is closed at a much larger sample. See CTL-0058. The dated cold start case is confirmed at 245K subscribers, 174.4 million lifetime views and 31 videos by an independent tracker, and is simultaneously shown to be currently running at about 8200 views per day with tracker estimated revenue that would not fund production. Lifetime conversion of 0.14 percent reproduces CTL-0037. Short form remains admissible only as a reach surface feeding something that captures identity.
+
+C13 is confirmed in the target niche by observation rather than testimony, with one portability limit. See CTL-0059. A 68.8K subscriber channel in the same niche carries paid readings, paid sessions, a membership tier and paid live workshop tickets in every description, which is the ladder that CTL-0047 advised. The limit is that every monetized case observed so far sells access to a named person, and that component does not transfer to a non personal pipeline. Locating a non personal product in this niche is now the binding open question of the workstream.
+
+A qualification is recorded against pure instruction. On the same channel in the same week, a polemical commentary video outperformed an instructional video by a factor of 2.7. Instruction carrying a stated position outperforms neutral instruction, which does not overturn C18 but does argue against a purely neutral teaching register.
+
+A measurement method is adopted. See CTL-0054. The public channel feed supplies creation dates, publication dates and per video view counts without authentication, which removes the observation blocker that produced CTL-0040. Every channel level claim in this ledger is now re measurable against dated primary data, and future passes should measure before citing.
+
+Combined reading for the probe. The two poles are both rejected: dated volume returns market median reach even at 2.5 million subscribers, and short form returns reach that does not convert to income at 174 million views. What remains supported is a standing evergreen catalogue built at about two videos per week, carrying a stated position rather than neutral instruction, sold against a non personal product, produced in English for the dubbing reason in CTL-0053. The subscriber rate to plan against is on the order of one hundred per month at our cadence, not thousands, and the product economics must close at that rate or the direction fails.
