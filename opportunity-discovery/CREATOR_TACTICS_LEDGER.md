@@ -711,3 +711,75 @@ From this correction onward the sample is restricted to cold start channels as d
 - applicability: binding on all subsequent cluster evaluation;
 - confidence: high;
 - next verification step: none, this becomes a selection rule.
+
+### CTL-0046 Cold start at two uploads per week confirmed in the esoteric niche
+
+- mechanic: a small esoteric channel reaches its first thousand subscribers on a cadence identical to our own capacity;
+- classification: CREATOR CLAIM by a named account with no product to sell;
+- primary URL: https://www.reddit.com/r/tarot/comments/1e3j353/becoming_a_tarottuber/ ;
+- author: reddit user lonepinetarot, comment on a thread dated 2024-07-15;
+- capture date: 2026-08-22;
+- claimed result: channel started in November, moved from zero to one thousand subscribers within four to five months, and stood at about 1160 subscribers at the time of writing, publishing twice a week on fixed days;
+- observable confirmation: none, the channel is not named; the account is a small operator with nothing on sale, which lowers but does not remove the risk of overstatement;
+- author caveat recorded verbatim in substance: they cannot separate luck from quality from having started in a favourable season;
+- second finding from the same source: reach is pushed harder before the winter holidays for advertising reasons and collapses in January, and the author verified the drop against channels of similar and larger size to rule out their own quality as the cause;
+- inference: cold start on two videos per week is possible in this niche, and launch timing will confound any early read of format quality, so a probe started in one season cannot be compared against one started in another;
+- applicability: very high, this is the only observed case matching our stated capacity;
+- confidence: medium;
+- next verification step: identify the channel to convert the claim into observable metrics.
+
+### CTL-0047 Former operator discloses that advertising failed and the funnel worked
+
+- mechanic: an esoteric channel functions as advertising for a service, not as an advertising property;
+- classification: CREATOR CLAIM with unusually low conflict of interest, since the author has closed their channel and sells nothing;
+- primary URL: https://www.reddit.com/r/tarot/comments/1e3j353/becoming_a_tarottuber/ ;
+- author: reddit user Aplutoproblem, former tarot channel operator of about four years;
+- capture date: 2026-08-22;
+- claimed results: platform advertising revenue of roughly 500 USD per year; daily publication was required to build momentum toward a first viral video, and a week of illness cost that momentum; a large share of their regular paying client base came from channel subscribers, and their explicit advice is to treat the channel as advertising for a reading style and route viewers to a shop;
+- observable confirmation: none directly, but the advertising figure independently matches the arithmetic in COLD_START_ECONOMICS.md and the funnel statement matches the structure observed in CTL-0041;
+- tension with CTL-0046: one source reports growth at two uploads per week, this source reports daily publication as the requirement; the difference is reconciled by outcome type, since low cadence buys slow organic subscribers while high cadence buys exposure to an outlier, and we have already excluded outliers from planning;
+- cost disclosed: severe burnout is described as common among operators in this niche, most closing after about four years, which is corroborated by a former social media manager in a separate thread at https://www.reddit.com/r/tarot/comments/1g38onu/does_youtube_need_another_tarot_channel/ ;
+- inference: this is the strongest support recorded for C13, because it comes from an operator for whom the advertising model demonstrably failed while the funnel demonstrably worked, and who has no incentive to say so;
+- applicability: very high;
+- confidence: medium high;
+- next verification step: seek a second closed operator account describing the same asymmetry.
+
+### CTL-0048 Dated formats destroy evergreen accumulation and are unaffordable at low cadence
+
+- mechanic: monthly and sign based readings expire, while teaching and system content keeps drawing viewers;
+- classification: CREATOR CLAIM supported by a mechanism that is independently plausible;
+- primary URL: https://www.reddit.com/r/tarot/comments/1e3j353/becoming_a_tarottuber/ ;
+- author: reddit user Aplutoproblem;
+- capture date: 2026-08-22;
+- claimed result: monthly zodiac readings are popular but eliminate evergreen content, since they draw no new viewers months later; pick a card formats suffer a predictable viewer drop off because each viewer watches only their own segment, which pushes retention below half and reduces circulation;
+- inference: at two videos per week accumulation is only possible on evergreen material, because dated material must be continuously reproduced to stay alive; our capacity constraint and this format constraint therefore point the same way rather than conflicting;
+- applicability: binding on format selection for any esoteric candidate;
+- confidence: medium high;
+- next verification step: none, adopted as a design constraint.
+
+### CTL-0049 Underserved segments named by the audience rather than by vendors
+
+- mechanic: demand gaps stated directly by viewers inside a topic community;
+- classification: OBSERVED FACT that the statements were made, UNVERIFIED HYPOTHESIS that the demand is real;
+- primary URLs: https://www.reddit.com/r/tarot/comments/1e3j353/becoming_a_tarottuber/ and https://www.reddit.com/r/tarot/comments/1g38onu/does_youtube_need_another_tarot_channel/ ;
+- capture date: 2026-08-22;
+- observable confirmation: multiple independent commenters state that almost everything available is love readings, that there is very little material actually teaching a system or a reading method, and that content about work and everyday decisions rather than romance is missing; one commenter states plainly that there are lots of people showing decks and doing pick a card readings but not many really sharing knowledge;
+- counter statement in the same threads: love readings are what the majority of the audience wants, so non love material grows more slowly;
+- inference: the teaching segment is evergreen by nature and therefore compatible with two videos per week, while the money and career segment sits inside the sensitive area of CTL-0021 and would require a self understanding frame rather than any financial promise;
+- applicability: high, this is the first demand signal in this workstream that comes from an audience instead of a seller;
+- confidence: medium;
+- next verification step: check whether identifiable teaching oriented channels in this niche show slower but steadier accumulation than reading oriented ones.
+
+### CTL-0050 Organized content theft is polluting the niche
+
+- mechanic: third parties take existing readings, alter the voice and republish at volume;
+- classification: CREATOR CLAIM from a community member;
+- primary URL: https://www.reddit.com/r/tarot/comments/1g38onu/does_youtube_need_another_tarot_channel/ ;
+- author: reddit user og-crime-junkie;
+- capture date: 2026-08-22;
+- claimed result: operators buy or steal channels, pass real readers recordings through automated tools, shift voice pitch and release hundreds of videos within a day or two, saturating the niche; at least one affected reader is described as issuing takedowns with legal support;
+- observable confirmation: none obtained; the claim is consistent with the apparent saturation of the niche;
+- inference: two consequences for us, the visible saturation partly reflects duplicated rather than original supply, and our own output would be a theft target, which favours a distinctive rendered visual identity that is more expensive to copy than a voice track;
+- applicability: medium, relevant to format defensibility;
+- confidence: low to medium;
+- next verification step: none for now, recorded as a niche risk.

@@ -146,3 +146,15 @@ This changes the reading of automation. Automation is not the unlock, because th
 C3 is qualified by direct observation of its own funnel step. See CTL-0043. The architecture exists and monetizes outside the advertising system, but the observed transfer from a channel of 2.52 million subscribers into its Telegram destination shows minimal engagement, and no product, price or offer is present in that destination at all. The chain is therefore demonstrated to exist and not demonstrated to carry volume, which is a materially weaker statement than the eighth pass recorded.
 
 A design exclusion is adopted for any esoteric format we might build. See CTL-0044. Themes are restricted to fate, relationships and self definition. Health assertions, treatment claims and financial promises are excluded, because the observed reference channel makes them and they fall inside the sensitive topic area of CTL-0021.
+
+## 13. Tenth pass, low cadence viability established, 2026-08-22
+
+The question posed at the end of the ninth pass is answered. A cold start in the esoteric niche at two uploads per week is reported by a small operator with nothing to sell, reaching one thousand subscribers in four to five months. See CTL-0046. This is the first case in the ledger that matches our stated capacity rather than exceeding it by orders of magnitude.
+
+C13 receives its strongest support so far, and from the least compromised source yet recorded. A former operator who closed their channel reports platform advertising of roughly 500 USD per year against a paying client base substantially drawn from channel subscribers, and advises treating the channel as advertising for the service rather than as an advertising property. See CTL-0047. The same source discloses burnout as a systematic cost of the personal reader format, which is an argument for the non personal packaging already selected under C15.
+
+A format constraint is adopted that aligns with the cadence rule rather than fighting it. See CTL-0048. Dated material, including monthly and sign based readings, cannot accumulate, and choice based formats depress retention by construction. At two videos per week only evergreen material compounds, so the capacity limit and the format limit point the same way.
+
+C18, evergreen instruction in an esoteric frame, is opened on the strength of CTL-0049, which is the first demand signal in this workstream voiced by an audience rather than by a seller. The segment is evergreen by nature, is repeatedly described as missing, and grows more slowly than romance material, which is acceptable under a low cadence model and unacceptable under a volume model.
+
+A seasonality confound is recorded against all future probe design. Reach is reported to rise before the winter holidays and to collapse in January, verified by the reporting author against larger channels. Any probe must state its season, and probes run in different seasons are not comparable.
