@@ -69,7 +69,11 @@ The ad programme is unavailable to this operator and never was the target. Watch
 
 First revenue is observable at 318 subscribers. The mechanism is an artefact that falls out of the free content, sold while the content stays free, with email capture alongside. The funnel is view to click at 0.1 to 1 percent and click to purchase at 0.5 to 2 percent when the product is incidental and 6 to 15 percent when it is central, which puts views per sale between about 2000 and about 50000. Binding tightness dominates both niche and volume. See CTL-0084 and CTL-0085.
 
-Discovery is closing. It stops when the rewritten OQ-003, the OQ-013 procedure and OQ-014 are closed, and the cold start decision is taken on the evidence held at that moment. See CTL-0086.
+Niche selection is now filtered first by artefact and not by demand size. A product sells when it is the object the video demonstrates, when no free or prepaid substitute sits one search away, and when it removes work the video just made visible. Topical alignment is not sufficient and was present in full in the failure case of 140000 subscribers and 4 sales. Views per sale runs at about 400 with no substitute, about 5000 where free alternatives are abundant, and collapses entirely when the product also changes the consumption mode. See CTL-0087, CTL-0088 and CTL-0089.
+
+The esoteric candidate is held behind this filter. A reading is a service performed by a person rather than an artefact, which is why every monetized case measured in that niche sells access to a person. An artefact form has to be identified before the niche returns to consideration.
+
+Discovery is closing. Two items remain, the rewritten OQ-003 on whether the recommendation surface keeps feeding a channel built on one visual frame, and the OQ-013 lane procedure. The cold start decision is taken on the evidence held once those close. See CTL-0086.
 
 ## 5. Active clusters
 

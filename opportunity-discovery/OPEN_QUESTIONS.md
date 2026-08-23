@@ -16,7 +16,6 @@ The object of this workstream is a new channel taken from zero to the start of m
 - OQ-003 does the recommendation surface keep allocating impressions to a channel whose episodes share one visual frame, measured as views per video over time on channels that use a fixed frame, since the ad review reading of this question is inapplicable;
 - OQ-013 build and run a reusable feed procedure that classifies a candidate lane as still allocating or already closed, using channel creation dates and per video view counts of late entrants, because a lane answer decays faster than a production cycle while the procedure does not; see CTL-0078 and CTL-0082;
 - OQ-005 which topics pair a low views per sale figure with a production cost a two video per week pipeline can meet, measured as views per sale rather than as revenue per thousand views; see CTL-0085;
-- OQ-014 what makes a product a natural continuation of a video rather than an attachment to it, given that binding tightness moves views per sale by twenty five times; see CTL-0084 and CTL-0085.
 
 ## 4. Deferred
 
@@ -25,6 +24,7 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 5. Answered
 
+- OQ-014 what binds a product to a video; ANSWERED by CTL-0087, CTL-0088 and CTL-0089; binding requires the product to be the artefact shown, to have no free or prepaid substitute, and to remove work the video made visible; topical alignment alone produced 4 sales against 140000 subscribers while a tightly bound product runs at about 400 views per sale;
 - OQ-006 smallest channel reaching first revenue without ads; ANSWERED by CTL-0084; first revenue at 318 subscribers selling written notes derived from free tutorials, with email capture alongside, which is the load bearing route C13 seen at the smallest observed scale;
 - OQ-011 what separates a breakout channel from same format imitators; ANSWERED by CTL-0078 and CTL-0079; across six channels running one format the separator was arrival before lane saturation, while execution quality was shown not to be a filter at all, and the lane itself is now recorded as closed by CTL-0080;
 - OQ-009 runtime and the watch hour threshold; ANSWERED by CTL-0073 and CTL-0074; views needed for 4000 hours fall about six fold from an eight minute to a ninety minute runtime, but very long form suppresses engagement and revenue per view;

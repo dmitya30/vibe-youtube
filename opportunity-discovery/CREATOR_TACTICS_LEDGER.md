@@ -326,3 +326,39 @@ Entries are appended below in identifier order.
 - OQ-006 is answered by CTL-0084 and its successor question becomes what binds a product tightly to a video subject;
 - closure set is now OQ-003 rewritten, OQ-013 procedure, and OQ-014 binding tightness, with the 2027-02-01 date carrying no force;
 - confidence: high.
+### CTL-0087 Contrast pair, topical match does not sell and artefact match does
+
+- answers: OQ-014;
+- mechanic: two operators sold a product on the topic of their own channel and the outcomes differ by orders of magnitude, and what separates them is whether the product is the artefact shown in the video;
+- classification: OPERATOR SELF REPORTS, one failure with full detail and one benchmark with disputed figures;
+- failure URL: https://www.reddit.com/r/digital_marketing/comments/1oh89a5/i_launched_my_first_digital_as_a_youtuber_and/ ;
+- failure measured: 140000 subscribers, an audiobook at 17 dollars on a topic the operator confirms is the channel topic, months of warm up through videos, freebies, a promo video, a pinned comment and a weekly newsletter, and 4 sales;
+- benchmark URL: https://www.reddit.com/r/PartneredYoutube/comments/1hvva6g/how_does_thomas_frank_make_100k_with_a_notion/ ;
+- benchmark measured: about 400000 views per month against about 1000 sales per month of two templates priced 64.5 and 139 dollars, which is 0.25 percent view to purchase or about 400 views per sale;
+- inference: topical alignment is not the binding variable, since the failure case had it in full; the benchmark product is the object demonstrated on screen while the failure product required the viewer to switch from watching to listening;
+- limits: benchmark figures are self reported and contested in the same thread, the operator had a prior channel of about 2 million subscribers, and part of his traffic comes from search and a mailing list rather than from the channel;
+- confidence: medium.
+
+### CTL-0088 Substitute availability sets views per sale within a factor of twelve
+
+- answers: OQ-014;
+- mechanic: the same funnel shape produces very different yields depending on whether the viewer already has a free or prepaid alternative to the product;
+- classification: OPERATOR SELF REPORT with the operator naming the cause himself;
+- primary URL: https://www.reddit.com/r/PartneredYoutube/comments/1hvva6g/how_does_thomas_frank_make_100k_with_a_notion/ ;
+- measured middle case: a fitness operator at 170000 subscribers and 2.5 million views selling a 20 dollar book reports 10000 dollars of revenue, which is about 500 sales, 0.02 percent view to purchase, about 5000 views per sale;
+- the operator states the cause directly, that fitness material exists everywhere as video, books, podcasts and apps so viewers have little reason to buy, while the benchmark audience is already inside the tool and the product needs no introduction;
+- derived ladder of views per sale: about 400 with no substitute, about 5000 with abundant free substitutes, and effectively unbounded when the product also changes the consumption mode;
+- secondary constraint recorded by the same operator: about 30 percent of his audience sits in countries he cannot sell to, so geography reduces the sellable share of views independently of conversion;
+- confidence: medium.
+
+### CTL-0089 The three conditions of tight product to video binding
+
+- answers: OQ-014, closing it;
+- classification: DERIVED from CTL-0084, CTL-0085, CTL-0087 and CTL-0088;
+- condition one, same artefact: the product is the object the video demonstrates rather than a work about the same subject; the template on screen and the notes taken during the tutorial satisfy this and an audiobook about the topic does not;
+- condition two, no substitute: the product has no free or already prepaid alternative one search away, which is where the audiobook lost to existing audio subscriptions and the fitness book lost to the open internet;
+- condition three, friction the video created: the video makes visible an amount of work the product removes, so the purchase resolves a problem the viewer did not have before watching;
+- consequence for niche selection: a candidate niche is tested by asking what the viewer will want to carry away immediately after watching that cannot be downloaded free in a minute, and a niche with no such artefact is rejected regardless of its reach;
+- consequence for the esoteric candidate: a reading or an interpretation is a service performed by a person rather than an artefact, which is why every monetized case in that niche sold access to a person; an artefact form must be identified there before the niche can be reconsidered;
+- applicability: very high, this is now the first filter applied to any candidate niche;
+- confidence: medium high.
