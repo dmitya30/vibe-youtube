@@ -73,7 +73,11 @@ Niche selection is now filtered first by artefact and not by demand size. A prod
 
 The esoteric candidate is held behind this filter. A reading is a service performed by a person rather than an artefact, which is why every monetized case measured in that niche sells access to a person. An artefact form has to be identified before the niche returns to consideration.
 
-Discovery is closing. Two items remain, the rewritten OQ-003 on whether the recommendation surface keeps feeding a channel built on one visual frame, and the OQ-013 lane procedure. The cold start decision is taken on the evidence held once those close. See CTL-0086.
+A fixed visual frame is safe. A channel running one unchanged scene, camera and typography since 2013 still draws about 104000 views per day against roughly one upload per month, and the surface feeds its library rather than its newest upload. Inside that frame consecutive episodes differ by 5.3 times, so the subject carries the spread and the packaging does not. Variable effort belongs in subject selection and the frame is fixed infrastructure. See CTL-0090 and CTL-0091.
+
+The condition is replication cost. A framed format dies when a competitor can reproduce one episode in a click, which is what ended the bar chart race format while manual per episode construction kept the size comparison format alive. A candidate frame is admissible only if matching one episode still costs a competitor real labour. Remotion fits this rule, since it makes repetition cheap while the per episode substance stays expensive. See CTL-0092.
+
+Discovery is closing. One item remains, the OQ-013 lane procedure. The cold start decision is taken on the evidence held once it closes. See CTL-0086.
 
 ## 5. Active clusters
 
