@@ -671,3 +671,43 @@ From this correction onward the sample is restricted to cold start channels as d
 - applicability: high, this is cheaper than a calculator and needs no product surface to exist first;
 - confidence: medium;
 - next verification step: measure whether such titles outperform non personalized ones on the same channel once the video sheet is observable.
+
+### CTL-0043 Observed funnel from a very large channel into Telegram shows minimal throughput
+
+- mechanic: a large esoteric channel routes viewers to a Telegram channel, which allows the throughput of that step to be observed;
+- classification: OBSERVED FACT;
+- primary URLs: https://t.me/s/ezforyou8 and https://www.youtube.com/@ezforyou/videos ;
+- capture date: 2026-08-22;
+- observable confirmation: post reactions on the Telegram channel run at 5, 6, 6, 9, 10, 10, 10, 11, 12, 12, 12, 13, 14, 15 and 15, against 2520000 subscribers on the linked YouTube channel;
+- inference: reactions are not subscribers, yet a gap of roughly five orders of magnitude indicates either a very new Telegram channel or a transfer step with negligible throughput; the assumption that large YouTube reach converts into a Telegram base is not supported by this observation and is weakly contradicted by it;
+- second observation: no product, price or paid offer appears anywhere in the posts; monetization is visible only as a header link to t.me/tribute/app carrying a referral parameter, which raises the possibility that the operator earns referral revenue for routing users into Tribute rather than selling an own product;
+- applicability: high and cautionary, this is the step our candidate architecture depends on;
+- confidence: high for the observation, medium for the interpretation;
+- next verification step: obtain the Telegram subscriber count and creation date to separate a new channel from a failing transfer step.
+
+### CTL-0044 Content grid confirmed and a policy boundary identified in the same source
+
+- mechanic: the posting format is a combinatorial grid of short ritual templates with fixed internal structure;
+- classification: OBSERVED FACT;
+- primary URL: https://t.me/s/ezforyou8 ;
+- capture date: 2026-08-22;
+- observable confirmation: every post follows one shape, a titled rule or micro ritual, a what to do section, a spoken formula, a request to post an activation phrase in the comments and a request to forward; themes rotate across money, protection from envy, confidence, letting go and gratitude;
+- second observation: part of the material makes direct health assertions, including a formula stating that water heals the body, returns health and prolongs youth;
+- inference: the grid confirms C17 in esoteric form and is directly reproducible in a Remotion template; the health assertions fall into the sensitive topic area recorded in CTL-0021 and must be excluded by design from any channel we build, restricting themes to fate, relationships and self definition rather than health, treatment or financial promises;
+- applicability: high for the structure, binding for the exclusion;
+- confidence: high;
+- next verification step: none, the exclusion is adopted as a design constraint.
+
+### CTL-0045 Production capacity stated by the owner and its strategic consequence
+
+- mechanic: our own production rate determines which observed models are reachable at all;
+- classification: OBSERVED FACT for the capacity, INFERENCE for the consequence;
+- source: owner statement, 2026-08-22;
+- capture date: 2026-08-22;
+- observable confirmation: the pipeline is not automated and currently produces one video every two to four days, roughly two per week; the owner estimates up to ten per day after automation, and prefers to define format before automating so that automation does not constrain variability;
+- inference: the two measured models sit at opposite poles of efficiency per video, at roughly 194 subscribers per video for the industrial esoteric channel in CTL-0041 and roughly 7900 subscribers per video for the weekly cadence case in CTL-0034, a difference near fortyfold; our current rate matches the weekly pole exactly and is three orders of magnitude below the industrial pole;
+- second inference: even at ten per day the industrial route reaches about 3650 videos per year against an incumbent stock of 13000, so volume competition is not winnable and automation should not be treated as the unlock; the pipeline advantage lies in high value per video at low cadence, which is what a composition system renders cheaply;
+- consequence adopted: format selection must include cadence cost as a first class criterion, and a format qualifies only if its economics close at roughly two videos per week;
+- applicability: binding on all subsequent cluster evaluation;
+- confidence: high;
+- next verification step: none, this becomes a selection rule.

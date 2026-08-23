@@ -136,3 +136,13 @@ C3 is materially strengthened for the first time by an observation rather than b
 The same observation imposes a cost that must not be glossed. The channel carries 13000 videos for 2.52 million subscribers, roughly 194 subscribers per video. Combined with CTL-0037, where Shorts convert to subscribers about an order of magnitude worse than long form, this indicates that the Shorts plus long form pairing buys reach cheaply and subscribers expensively, and that the difference is paid for in volume. Whether the Remotion pipeline can sustain a cadence of that order is now the central capacity question of this workstream, and it is a question about our production system rather than about the market.
 
 CTL-0034 is downgraded pending direct observation. See CTL-0040. The only dated cold start case in the ledger remains supported by vendor publication alone and must not carry planning weight until its opening date and counts are observed directly.
+
+## 12. Ninth pass, selection rule adopted, 2026-08-22
+
+Cadence is reclassified from a variable to be optimized into a criterion for admitting a format at all. See CTL-0045. Our measured capacity is about two videos per week unautomated. The two observed models differ by roughly fortyfold in subscribers gained per video, and the industrial pole is unreachable even after automation because an incumbent stock of thousands of videos cannot be overtaken by thousands more. A format is therefore admissible only if its economics close at roughly two videos per week, which favours high value per video and disfavours volume.
+
+This changes the reading of automation. Automation is not the unlock, because the route it opens is the route we cannot win. It remains useful later for removing manual toil at a fixed cadence rather than for multiplying cadence.
+
+C3 is qualified by direct observation of its own funnel step. See CTL-0043. The architecture exists and monetizes outside the advertising system, but the observed transfer from a channel of 2.52 million subscribers into its Telegram destination shows minimal engagement, and no product, price or offer is present in that destination at all. The chain is therefore demonstrated to exist and not demonstrated to carry volume, which is a materially weaker statement than the eighth pass recorded.
+
+A design exclusion is adopted for any esoteric format we might build. See CTL-0044. Themes are restricted to fate, relationships and self definition. Health assertions, treatment claims and financial promises are excluded, because the observed reference channel makes them and they fall inside the sensitive topic area of CTL-0021.
