@@ -146,3 +146,59 @@ This index exists because the v1 to v2 transition lost the standing state. It li
 - consequence: lane liveness and lane accessibility are separate properties and both must be reported;
 - applicability: very high;
 - confidence: medium high.
+
+## CTL-0113 — DEFECT: filter is reject-only (observed, self-audit)
+Filter contained three rejection rules (CTL-0105/0108/0109) and zero acceptance rules.
+A reject-only filter returns the empty set on any input. All lane rejections issued
+before this entry are suspect and must be re-tested against the acceptance gate CTL-0118.
+
+## CTL-0114 — CTL-0105 FALSIFIED BY OWN MEASUREMENT
+Hundreds of free Notion worldbuilding templates exist; CTL-0105 predicts a dead lane.
+Measured contradiction: Quill&Steel sells $49.99 x ~30/mo at 851 subs (CTL-0097).
+Corrected hazard test: a free substitute disqualifies a lane ONLY IF it performs the
+IDENTICAL specific job. Generic free artefact + job-specific paid artefact = viable.
+Source: https://www.reddit.com/r/Notion/comments/1ud717g/ (2026-06-23)
+STATUS: CTL-0105 SUPERSEDED. RU-B and RU-C rejections VOIDED (wrong test applied).
+RU-A rejection UPHELD (MoySklad free artefact is job-identical).
+
+## CTL-0115 — PRICE FLOOR $40 FALSIFIED
+Gumroad tracker report (~3,600 fitness digital products): median price $15;
+one $25 workout plan with 330+ reviews ~ $120k estimated lifetime revenue.
+Sub-$8 attracts non-returning freebie seekers (reported boundary).
+CTL-0099 floor REPLACED BY: net_margin_per_sale x monthly_volume >= break-even.
+Source: https://www.reddit.com/r/digitalproductselling/comments/1q22kn5/
+
+## CTL-0116 — WHY BUYERS PAY WHEN FREE EXISTS (mechanism)
+Reported reasons, first-hand buyers: (1) free artefacts are bloated/half-built, audit
+costs an hour; (2) niche specificity — exact fields for one job; (3) finished solution
+to a problem already held, not a layout; (4) creator trust for first purchase.
+Design consequence: artefact must name the job, not the tool.
+
+## CTL-0117 — AFFILIATE ROUTE (removes artefact precondition)
+Typical commission, digital products/courses: 30-50% (Digistore24 cites 30-70%).
+$50 product at 40% = $20 net/sale. Post-automation cost ~13 h/mo (~$195, CTL-0101)
+=> break-even ~10 sales/mo. Pre-automation 70 h/mo (~$1050) => ~53 sales/mo.
+Secondary effect: affiliate network pays the operator, bypassing the unsolved
+foreign-payment intake. CTL-0103 precondition "own artefact before first video" RELAXED.
+
+## CTL-0118 — ACCEPTANCE GATE (the missing positive rule)
+A lane is ACCEPTED only if all four hold, each measured, none assumed:
+ A1 PAID PROOF: at least one seller with observable paid sales (reviews/sales count/
+    first-hand revenue report), not stated interest.
+ A2 SPECIFICITY GAP: free substitutes are generic; the paid artefact names a job.
+ A3 ARITHMETIC: net margin x observed volume >= break-even (CTL-0117), price free.
+ A4 ACCESSIBLE ENTRY: a channel <12 months old already selling in the lane exists
+    (operator rule: enter a working young lane, add one advantage).
+Lane is REJECTED only by a named failed condition, recorded with its evidence URL.
+
+## CTL-0119 — HEALTH LANE: REGULATION BINDS CLAIMS, NOT THE LANE
+Prior claim "health lane blocked by regulation" was overbroad and is withdrawn.
+Medical/therapeutic claims are regulated; general conditioning artefacts are ordinary
+digital products (fitness median $15-25 with volume, CTL-0115). Constraint moves to
+copy and disclaimer, not to lane eligibility. Relationships lane is regulation-lighter
+but artefact-harder: sold as process (community/reviews), rarely as a file.
+
+## CTL-0120 — SEARCH POSTURE CORRECTED
+Original mandate was opportunity discovery; executed posture was hazard discovery.
+Standing instruction: every lane run must terminate in an A1-A4 verdict, and a run
+that produces only hazards without testing A1 is an INCOMPLETE run, not a rejection.

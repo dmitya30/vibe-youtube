@@ -118,3 +118,9 @@ Correction recorded 2026-08-23. CTL-0096 step five ranked lane channels without 
 ## 8. What is not settled
 
 See OPEN_QUESTIONS.md. No research question remains open and the operator hours are supplied at CTL-0101. Two items stand before commitment. One, the candidate lanes must be named and run through the CTL-0096 procedure, which is the last cheap check and costs about forty to sixty fetches at five lanes, since CTL-0094 makes identifier recovery uneven. Two, the residual QA cost per video after automation is an estimate and should be measured on the first produced episode. The ledger was archived at CTL-0103 and version three is open from CTL-0104.
+
+## Correction — acceptance gate installed (CTL-0113..CTL-0120)
+Prior runs applied a reject-only filter and therefore could not return a lane.
+CTL-0105 and the $40 price floor are superseded. RU-B/RU-C return to the queue as
+untested. Segment priority is no longer RU-vs-EN but artefact-proof-vs-none.
+Open lanes to run under CTL-0118: RU-B, RU-C, health (RU/EN), relationships (RU/EN).
