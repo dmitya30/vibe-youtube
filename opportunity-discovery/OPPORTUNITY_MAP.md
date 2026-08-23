@@ -158,3 +158,13 @@ A format constraint is adopted that aligns with the cadence rule rather than fig
 C18, evergreen instruction in an esoteric frame, is opened on the strength of CTL-0049, which is the first demand signal in this workstream voiced by an audience rather than by a seller. The segment is evergreen by nature, is repeatedly described as missing, and grows more slowly than romance material, which is acceptable under a low cadence model and unacceptable under a volume model.
 
 A seasonality confound is recorded against all future probe design. Reach is reported to rise before the winter holidays and to collapse in January, verified by the reporting author against larger channels. Any probe must state its season, and probes run in different seasons are not comparable.
+
+## 14. Eleventh pass, the asymmetry located, 2026-08-22
+
+C18 is confirmed by measurement and becomes the leading cluster. See CTL-0051. An instructional channel in this niche shows about 187 subscribers per video against about 194 on the industrial feed channel, at 71 videos against 13000. Subscriber efficiency per video is comparable while output differs by a factor near 183. This is the first measured asymmetry in the workstream that our capacity can actually exploit, because 71 videos at two per week is roughly nine months rather than a decade.
+
+The structural reason is that the content is a fixed grid rather than a stream. A card by card treatment of a 78 item deck defines nine months of production in advance, every item remains valid indefinitely, and the format is exactly what a composition template renders cheaply. The cadence rule adopted in the ninth pass, the evergreen constraint adopted in the tenth, and the template substitution cluster opened in the seventh all converge on this single format.
+
+The open question about reachable Russian speaking geographies is closed rather than answered. See CTL-0052. Program eligibility depends on operator residency and payment status, not on audience location, so no choice of Russian speaking market can restore the advertising route. Under external monetization the question dissolves, because payment is collected outside the platform from over 190 countries, and the operative question becomes which audience pays rather than which geography is reachable.
+
+A production language recommendation is recorded for owner decision. See CTL-0053. English as the source language yields the Russian speaking audience through automatic dubbing, while Russian as the source language does not yield the reverse. This supplies the demand side justification for localizing the existing bots that the owner requested, and it aligns with the observation that the underserved instructional segment was found in English language communities.

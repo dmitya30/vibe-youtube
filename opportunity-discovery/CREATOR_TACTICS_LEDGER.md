@@ -783,3 +783,44 @@ From this correction onward the sample is restricted to cold start channels as d
 - applicability: medium, relevant to format defensibility;
 - confidence: low to medium;
 - next verification step: none for now, recorded as a niche risk.
+
+### CTL-0051 Teaching channel matches industrial subscriber efficiency at a fraction of the output
+
+- mechanic: evergreen instructional content accumulates subscribers per video at the same rate as a high volume feed channel while requiring hundreds of times fewer videos;
+- classification: OBSERVED FACT;
+- primary URL: https://www.youtube.com/@atypicaltarot ;
+- capture date: 2026-08-22;
+- observable confirmation: the channel shows 13300 subscribers against 71 videos, which is about 187 subscribers per video, against about 194 subscribers per video measured on the 13000 video channel in CTL-0041;
+- inference: subscriber efficiency per video is comparable while output differs by a factor near 183, which is the asymmetry this workstream has been looking for; at two uploads per week, 71 videos is roughly nine months of work, so the model matches our stated capacity rather than exceeding it;
+- audience confirmation of the mechanism: a commenter in the source community states that this channel has the best card by card breakdowns for learning on the platform, indicating that the structure is a fixed grid across the 78 card deck rather than a stream of new ideas;
+- second observation: a channel recommended in the same thread is described as old and no longer updated yet still worth recommending, which is direct evidence of evergreen material continuing to work without new publication;
+- applicability: very high, a 78 item grid at two videos per week defines about nine months of content in advance and maps directly onto a Remotion template;
+- confidence: medium high, based on channel level counts rather than per video views;
+- next verification step: obtain per video view counts and upload dates for this channel to confirm that older videos continue to accumulate.
+
+### CTL-0052 Program residency is tied to the operator location, not to audience geography
+
+- mechanic: eligibility for platform monetization depends on where the operator lives and banks, not on where the viewers are;
+- classification: OBSERVED FACT from official documentation;
+- primary URLs: https://support.google.com/youtube/answer/72851 and https://support.google.com/youtube/answer/1342206 ;
+- capture date: 2026-08-22;
+- observable confirmation: joining requires living in a country where the program is available and holding one active AdSense for YouTube account linked to the channel; the country list includes Kazakhstan, Armenia and Azerbaijan among others;
+- inference: the open question about reachable Russian speaking geographies outside Russia cannot be resolved by choosing an audience, because the binding constraint is the operator payment status; combined with CTL-0022 this closes the advertising route for us regardless of which Russian speaking market we address;
+- consequence: under an external monetization model the audience geography stops being a constraint at all, since payment is collected outside the platform and the payment layer observed in CTL-0041 accepts funds from over 190 countries; the question is therefore restated from which geographies are reachable to which audience pays for a product;
+- supporting scale figures, secondary sources: roughly 1.2 million Russian speakers in Germany and roughly 1 million in Israel;
+- applicability: high, this closes an open question rather than opening a direction;
+- confidence: high for the rule, medium for the population figures;
+- next verification step: none for eligibility; any future payment design must be checked against the payment provider terms rather than against platform rules.
+
+### CTL-0053 Case for producing in English rather than Russian
+
+- mechanic: language of production determines how far platform localization can carry the same asset;
+- classification: INFERENCE assembled from previously recorded facts;
+- primary URLs: https://support.google.com/youtube/answer/15569972 and https://www.youtube.com/@atypicaltarot ;
+- capture date: 2026-08-22;
+- observable basis: automatic dubbing renders an English source into twenty languages including Russian, while a Russian source is rendered into English only, per CTL-0031; the teaching segment described as underserved in CTL-0049 was observed in English language communities; the Russian market reach baseline is depressed per CTL-0030 and advertising is unavailable per CTL-0022;
+- inference: producing in English yields the Russian speaking audience as a free by product of platform localization, while producing in Russian does not yield the reverse; this supplies the demand side justification the owner asked for regarding localizing the existing bots, since an English first channel feeds an English first bot and the localized Russian audience arrives without additional production;
+- caution: dubbing quality on a low density instructional track is untested, and an esoteric register may dub poorly;
+- applicability: high, this is a production language decision rather than a market decision;
+- confidence: medium;
+- next verification step: inspect an auto dubbed instructional video in this register to judge whether the dubbed track is usable.
