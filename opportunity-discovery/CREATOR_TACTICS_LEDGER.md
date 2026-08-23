@@ -234,3 +234,25 @@ Entries are appended below in identifier order.
 - applicability: high;
 - confidence: high;
 - next verification step: none, the lane is closed.
+### CTL-0081 Correction, the July 2025 policy update was a clarification and not a tightening
+
+- answers: NO_OPEN_QUESTION, this entry corrects a drift introduced by the assistant on 2026-08-23;
+- SUPERSEDES: the policy risk clause inside CTL-0080, which is withdrawn;
+- classification: OBSERVED FACT, primary source read directly;
+- primary URL: https://support.google.com/youtube/answer/1311392 ;
+- what the source says: a minor update to the repetitious content policy to clarify that it includes content that is repetitive or mass produced, with the reused content policy unchanged;
+- corroboration: the platform creator liaison stated publicly that the update is not a crackdown on AI or on reaction content but a clarification of existing wording;
+- the error: CTL-0080 restated the same single source as a tightening explicitly targeting the sleep history lane and as active enforcement pressure, which the source does not support, and attached an unsupported demonetisation risk to it;
+- what survives from CTL-0080: the saturation measurement only, five late entrants between 10 and 900 views per video against an incumbent at about 45000 views per day; the lane is closed on saturation grounds alone;
+- standing rule reaffirmed: policy statements are recorded verbatim from the primary source and any consequence drawn from them is labelled DERIVED and never merged into the same sentence as the fact;
+- confidence: high.
+
+### CTL-0082 Research closure criterion agreed with the owner
+
+- answers: NO_OPEN_QUESTION, this entry fixes the stopping rule for the workstream;
+- classification: OWNER DECISION, 2026-08-23;
+- decision: discovery stops when OQ-003, OQ-005, OQ-006 and the OQ-013 procedure are closed, and the cold start decision is then taken on the evidence held at that moment regardless of what remains unmeasured;
+- rationale for each survivor: OQ-003 is go or no go for the recurring frame the pipeline is built on; OQ-006 is the only missing measurement under the load bearing route C13; OQ-005 converts niche choice from taste into arithmetic; OQ-013 is reduced from a question to a reusable feed procedure because any lane answer decays faster than a production cycle;
+- deadline that bounds the whole workstream: YPP entry thresholds for new applicants double on 2027-02-01 per CTL-0006, so a channel started in 2026 can qualify under the current threshold and one started in spring 2027 cannot;
+- applicability: governs every subsequent pass;
+- confidence: high.

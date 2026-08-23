@@ -14,8 +14,7 @@ The object of this workstream is a new channel taken from zero to the start of m
 ## 3. Open
 
 - OQ-003 does a recurring visual frame carrying materially different substance per episode actually survive monetization review, verified on a monetized channel rather than inferred from policy text; see the rejection case at CTL-0063;
-- OQ-013 how can a lane that the recommendation surface is still allocating to but that is not yet saturated be detected before entry, given that entry timing rather than execution separated the winner from its imitators; see CTL-0078;
-- OQ-012 does a two surface plan work, meaning very long form to bank watch hours and mid length to build audience, or does splitting attention halve the breakout attempts; see CTL-0073 and CTL-0074;
+- OQ-013 build and run a reusable feed procedure that classifies a candidate lane as still allocating or already closed, using channel creation dates and per video view counts of late entrants, because a lane answer decays faster than a production cycle while the procedure does not; see CTL-0078 and CTL-0082;
 - OQ-005 which niches pair an acceptable revenue per thousand views with a production cost that a two video per week manual pipeline can meet;
 - OQ-006 what is the smallest observable channel in any niche that reached first revenue through an external product rather than through advertising, since every monetized case observed so far in the esoteric niche sells access to a person.
 
@@ -38,4 +37,5 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 6. Withdrawn
 
+- OQ-012 the two surface plan; WITHDRAWN on 2026-08-23 because its premise dissolved; CTL-0077 shows the 20 to 40 minute band needs 20000 to 32400 views against 11000 for very long form, a gap under threefold, while the same band leads on median reach, so the threshold saving does not pay for a second format cycle and for halving the breakout attempts;
 - OQ-W01 which acquisition surface carries buyers of the owner products; WITHDRAWN on 2026-08-23 as out of scope, because it investigates the products rather than the channel and therefore violates the scope stated in section 2 and in README.md section 8.

@@ -63,7 +63,9 @@ The production default runtime is settled at 20 to 40 minutes. In a sample of 10
 
 Entry timing into a lane, not execution, is what separates a breakout from an imitator. Six channels running one sleep history format were measured on 2026-08-23 and only the earliest arrival succeeded, while a channel created in 2017 that pivoted into the format in mid 2025 collects between 10 and 871 views per video. Execution quality is not the filter either, since a two hour video with an audible narration defect at one hour fifteen still carries 2.3 million views. See CTL-0078 and CTL-0079.
 
-That lane is measured and rejected for entry. It is saturated, it is the explicit target of the mass produced content tightening announced on 2025-07-09, and it carries accuracy and reputational exposure that working historians have raised publicly. It is retained only as the reference example of a closed lane, and the open planning question becomes detection of a lane that is still being allocated but not yet crowded. See CTL-0080 and OQ-013.
+That lane is measured and rejected for entry on saturation grounds alone. Five late entrants sit between 10 and 900 views per video against an incumbent at about 45000 views per day. The policy risk asserted in the first version of this paragraph is withdrawn as unsupported, because the July 2025 update was a clarification of existing wording and no enforcement against this lane has been observed. The lane is retained as the reference example of a closed lane. See CTL-0080 as corrected by CTL-0081.
+
+Discovery is now closing. It stops when OQ-003, OQ-005, OQ-006 and the OQ-013 procedure are closed, and the cold start decision is taken on the evidence held at that moment. The binding deadline is 2027-02-01, when YPP entry thresholds for new applicants double. See CTL-0082.
 
 ## 5. Active clusters
 
