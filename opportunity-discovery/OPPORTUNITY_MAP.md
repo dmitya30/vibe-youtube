@@ -59,6 +59,12 @@ Dispersion narrows with channel age. A cold start channel holds 46 percent of it
 
 Runtime is the cheapest lever available to this pipeline. Reaching 4000 watch hours needs roughly 64000 views at an eight minute runtime, 18000 at forty five minutes and 11000 at ninety minutes. The counterweight is that background length formats suppress click through, subscriber activation and revenue per view, so very long form is a threshold instrument rather than an audience instrument. See CTL-0073 and CTL-0074.
 
+The production default runtime is settled at 20 to 40 minutes. In a sample of 1092 public faceless long form videos pulled on 2026-05-04 that band held the highest median views per day at 3194.6, and it held the lead again on the subset of channels under 100000 subscribers at 356.9 against 265.6 for 40 plus and 46.3 for 12 to 20. The same band needs roughly 20000 to 32400 views to bank 4000 watch hours, so reach and threshold cost point the same way and the extremes lose on both axes. Runtime is assigned after the script has an arc. See CTL-0076 and CTL-0077.
+
+Entry timing into a lane, not execution, is what separates a breakout from an imitator. Six channels running one sleep history format were measured on 2026-08-23 and only the earliest arrival succeeded, while a channel created in 2017 that pivoted into the format in mid 2025 collects between 10 and 871 views per video. Execution quality is not the filter either, since a two hour video with an audible narration defect at one hour fifteen still carries 2.3 million views. See CTL-0078 and CTL-0079.
+
+That lane is measured and rejected for entry. It is saturated, it is the explicit target of the mass produced content tightening announced on 2025-07-09, and it carries accuracy and reputational exposure that working historians have raised publicly. It is retained only as the reference example of a closed lane, and the open planning question becomes detection of a lane that is still being allocated but not yet crowded. See CTL-0080 and OQ-013.
+
 ## 5. Active clusters
 
 - C13 own product from the first views, leading, confirmed by observation in the esoteric niche at CTL-0059 and no longer limited by the personal service objection after the owner confirmation of 2026-08-23;

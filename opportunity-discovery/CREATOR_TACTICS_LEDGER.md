@@ -169,3 +169,68 @@ Entries are appended below in identifier order.
 - applicability: medium;
 - confidence: high;
 - next verification step: none.
+### CTL-0076 Optimal runtime band for faceless long form is twenty to forty minutes
+
+- answers: OQ-009 refinement;
+- SUPERSEDES: the thirty to forty minute read inside CTL-0073, which came from one operator library of camera facing talks and podcasts and was wrongly generalised to asset built video;
+- classification: OBSERVED FACT from a public API sample;
+- primary URL: https://echoetch.com/blog/how-long-should-faceless-youtube-videos-be ;
+- sample: 1092 public long form videos published since 2026-02-01 across 32 query families in eight faceless friendly lanes, pulled 2026-05-04;
+- measured median views per day: 4 to 8 minutes 1.5, 8 to 12 minutes 38.4, 12 to 20 minutes 2105.3, 20 to 40 minutes 3194.6, 40 plus minutes 2111.4;
+- measured on channels under 100000 subscribers only: 1.1, 7.0, 46.3, 356.9, 265.6, so the band holds and widens on small channels;
+- niche variation: history and psychology and mythology peak at 20 to 40, mystery at 12 to 20, business and AI and geopolitics at 40 plus;
+- limits: this measures views per day and not retention, revenue or impressions, and channel size is a confounder because larger channels publish longer;
+- confidence: medium high.
+
+### CTL-0077 The best reach band is also nearly the cheapest threshold band
+
+- answers: OQ-009;
+- mechanic: the runtime that maximises median reach and the runtime that minimises views needed for 4000 watch hours nearly coincide, so there is no trade off to manage in the middle of the range;
+- classification: DERIVED from CTL-0073 retention bands and CTL-0076 reach bands;
+- derived views needed for 4000 hours: about 32400 at 20 minutes, about 24200 at 30 minutes, about 20000 at 40 minutes, against about 64000 at 8 minutes;
+- the extremes lose on both axes at once: 4 to 8 minutes is the weakest reach bucket and the most expensive threshold, and 90 plus minutes is the cheapest threshold but suppresses click through and subscriber activation per CTL-0074;
+- planning rule: target 20 to 40 minutes as the default production band, use 12 to 20 when the idea is narrow, and treat 40 plus as a rare deep dive after audience trust exists;
+- sequencing rule: assign runtime after the script has an arc, never before, because a stretched thin idea underperforms an honest shorter one;
+- Shorts note: Shorts do not advance the 4000 hour threshold, which has a separate 10 million view counter, so a Shorts bundle is a discovery surface and not a threshold instrument; see OQ-004;
+- applicability: very high, this sets the production default;
+- confidence: medium high.
+
+### CTL-0078 Entry timing into a lane, not execution, separated the winner from its imitators
+
+- answers: OQ-011;
+- mechanic: six channels ran the same long form sleep history format and one succeeded, and the surviving explanation is arrival before the lane saturated rather than any difference in execution;
+- classification: OBSERVED FACT, feed and tracker measured;
+- capture date: 2026-08-23;
+- measured cohort: original 711000 subscribers and 43.6 million views; imitators at 48900 subscribers with 421 videos and 3.5 million views, 220000 subscribers with 1998 lifetime views, 29 subscribers with 2331 lifetime views;
+- per video feed measurement of two late entrants: a channel created 2025-04-24 uploading in November and December 2025 shows 13, 58 and 26 views per video; a channel created 2017-04-02 that pivoted into the format on 2025-06-16 shows 871, 10 and 14;
+- inference: channel age does not help, cadence does not help and copying the wording does not help, so what transfers between operators is lane timing and not format;
+- corroboration: the lane was already saturating the recommendation surface by 2025-09-03 per https://www.404media.co/ai-generated-boring-history-videos-are-flooding-youtube-and-drowning-out-real-history/ ;
+- limit: one winner only, and off platform seeding or paid promotion by the original cannot be excluded from public data;
+- confidence: medium.
+
+### CTL-0079 In background formats execution quality is not the selection filter
+
+- answers: OQ-011;
+- mechanic: an audible synthesis defect did not prevent mass distribution, because the format is consumed by sleeping viewers who never register it;
+- classification: OBSERVED FACT, reported by a named outlet with the artefact described;
+- primary URL: https://www.404media.co/ai-generated-boring-history-videos-are-flooding-youtube-and-drowning-out-real-history/ ;
+- publication date: 2025-09-03;
+- observed: a two hour video with 2.3 million views in which the narration voice breaks into a loud tone artefact at about one hour fifteen minutes;
+- inference: outproducing an incumbent on quality is not a viable entry strategy in background formats, which removes the main lever this pipeline would otherwise rely on;
+- consequence: the pipeline advantage of clean production converts into value only in formats where the viewer is awake and attentive, which argues for the attentive mid length band over background very long form;
+- applicability: high, it constrains where the production asset is actually worth anything;
+- confidence: medium high;
+- next verification step: none.
+
+### CTL-0080 The reachable sleep history lane is closed by saturation and by policy exposure
+
+- answers: OQ-011 as a negative conclusion;
+- mechanic: the lane this pipeline could execute best is simultaneously saturated and under active platform enforcement pressure, so entering it inherits the imitator outcome rather than the incumbent one;
+- classification: DERIVED from CTL-0078, CTL-0079 and the policy record at CTL-0061;
+- saturation evidence: five measured late entrants sit between 10 and 900 views per video against an incumbent at about 45000 views per day;
+- policy evidence: the mass produced content tightening announced 2025-07-09 targets exactly this phenomenon, and creators interviewed two months later reported no observable enforcement yet, so the risk is pending rather than resolved;
+- reputational and accuracy exposure: working historians publicly identify this lane as inaccurate automated output that displaces researched work, which is a demonetisation and brand risk on top of the ethical objection;
+- decision: this lane is recorded as measured and rejected for entry, and is retained only as the reference example of a closed lane;
+- applicability: high;
+- confidence: high;
+- next verification step: none, the lane is closed.
