@@ -13,7 +13,6 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 3. Open
 
-- OQ-013 build and run a reusable feed procedure that classifies a candidate lane as still allocating or already closed, using channel creation dates and per video view counts of late entrants, because a lane answer decays faster than a production cycle while the procedure does not; see CTL-0078 and CTL-0082;
 - OQ-005 which topics pair a low views per sale figure with a production cost a two video per week pipeline can meet, measured as views per sale rather than as revenue per thousand views; see CTL-0085;
 
 ## 4. Deferred
@@ -23,6 +22,7 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 5. Answered
 
+- OQ-013 lane allocation procedure; ANSWERED by CTL-0093, CTL-0094, CTL-0095 and CTL-0096; the instrument set is measured, the one blocking gap is the absence of any reliable handle to channel identifier path, and the reading point is the second channel rather than the incumbent;
 - OQ-003 does a fixed visual frame stop distribution; ANSWERED by CTL-0090, CTL-0091 and CTL-0092 as a no with one condition; a thirteen year old identical template still draws about 104000 views per day on about one upload per month, the subject and not the packaging drives the spread, and the real failure mode is one click replication rather than surface rejection;
 - OQ-014 what binds a product to a video; ANSWERED by CTL-0087, CTL-0088 and CTL-0089; binding requires the product to be the artefact shown, to have no free or prepaid substitute, and to remove work the video made visible; topical alignment alone produced 4 sales against 140000 subscribers while a tightly bound product runs at about 400 views per sale;
 - OQ-006 smallest channel reaching first revenue without ads; ANSWERED by CTL-0084; first revenue at 318 subscribers selling written notes derived from free tutorials, with email capture alongside, which is the load bearing route C13 seen at the smallest observed scale;

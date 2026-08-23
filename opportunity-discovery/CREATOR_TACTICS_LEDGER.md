@@ -256,28 +256,6 @@ Entries are appended below in identifier order.
 - deadline that bounds the whole workstream: YPP entry thresholds for new applicants double on 2027-02-01 per CTL-0006, so a channel started in 2026 can qualify under the current threshold and one started in spring 2027 cannot;
 - applicability: governs every subsequent pass;
 - confidence: high.
-### CTL-0081 Correction, the July 2025 policy update was a clarification and not a tightening
-
-- answers: NO_OPEN_QUESTION, this entry corrects a drift introduced by the assistant on 2026-08-23;
-- SUPERSEDES: the policy risk clause inside CTL-0080, which is withdrawn;
-- classification: OBSERVED FACT, primary source read directly;
-- primary URL: https://support.google.com/youtube/answer/1311392 ;
-- what the source says: a minor update to the repetitious content policy to clarify that it includes content that is repetitive or mass produced, with the reused content policy unchanged;
-- corroboration: the platform creator liaison stated publicly that the update is not a crackdown on AI or on reaction content but a clarification of existing wording;
-- the error: CTL-0080 restated the same single source as a tightening explicitly targeting the sleep history lane and as active enforcement pressure, which the source does not support, and attached an unsupported demonetisation risk to it;
-- what survives from CTL-0080: the saturation measurement only, five late entrants between 10 and 900 views per video against an incumbent at about 45000 views per day; the lane is closed on saturation grounds alone;
-- standing rule reaffirmed: policy statements are recorded verbatim from the primary source and any consequence drawn from them is labelled DERIVED and never merged into the same sentence as the fact;
-- confidence: high.
-
-### CTL-0082 Research closure criterion agreed with the owner
-
-- answers: NO_OPEN_QUESTION, this entry fixes the stopping rule for the workstream;
-- classification: OWNER DECISION, 2026-08-23;
-- decision: discovery stops when OQ-003, OQ-005, OQ-006 and the OQ-013 procedure are closed, and the cold start decision is then taken on the evidence held at that moment regardless of what remains unmeasured;
-- rationale for each survivor: OQ-003 is go or no go for the recurring frame the pipeline is built on; OQ-006 is the only missing measurement under the load bearing route C13; OQ-005 converts niche choice from taste into arithmetic; OQ-013 is reduced from a question to a reusable feed procedure because any lane answer decays faster than a production cycle;
-- deadline that bounds the whole workstream: YPP entry thresholds for new applicants double on 2027-02-01 per CTL-0006, so a channel started in 2026 can qualify under the current threshold and one started in spring 2027 cannot;
-- applicability: governs every subsequent pass;
-- confidence: high.
 ### CTL-0083 Frame correction, the ad programme is unavailable and was never the target
 
 - answers: NO_OPEN_QUESTION, this corrects an assistant drift across the last three passes;
@@ -399,3 +377,54 @@ Entries are appended below in identifier order.
 - consequence for the pipeline: Remotion is an advantage under this rule because it makes repetition cheap while the per episode substance stays expensive;
 - applicability: very high, this is the acceptance test for any format we build;
 - confidence: medium high.
+### CTL-0093 The lane procedure instrument set, measured capability and measured limits
+
+- answers: OQ-013;
+- classification: OBSERVED FACT, every endpoint below was called on 2026-08-23 and its behaviour recorded rather than assumed;
+- feed by channel id returns the channel creation date in the feed level published element, and for each of at most fifteen recent entries the video id, publication date, view count and rating count; verified against UCQwFuQLnLocj5F7ZcmcuWYQ and UCZp2fvblygOI9-fBNicOG5w;
+- the fifteen entry ceiling is the binding limit of the instrument, so per video history beyond the last fifteen uploads is not reachable this way;
+- feed by legacy user name returns 404 and is dead;
+- oembed at https://www.youtube.com/oembed returns the channel handle and title for any video id and never returns the channel id, verified on two videos;
+- channel pages, video watch pages and search result pages return only the first ten kilobytes of markup through this crawler, which excludes the externalId field, and javascript rendering does not lift that ceiling;
+- the tracker at https://socialblade.com/youtube/handle/metaballstudios returns a fourteen day table of subscribers, total views, video count and revenue estimate keyed by handle, in converted text mode only, since raw mode returns 403;
+- applicability: very high, this is the instrument definition every later pass depends on;
+- confidence: high.
+
+### CTL-0094 The one unresolved gap in the procedure is handle to channel id
+
+- answers: OQ-013, recording a limit rather than a mechanic;
+- the gap: four independent paths from a channel handle to its UC identifier were tried and all four failed, so the feed cannot be opened for a channel discovered by name alone;
+- paths tried: channel page markup, javascript rendered channel page markup, the legacy user feed, and the tracker page; the first two truncate before the field, the third is dead, the fourth never carries it;
+- what does work partially: a general web search for the channel name together with the literal channel path string sometimes surfaces the identifier in a snippet, which is how UCQwFuQLnLocj5F7ZcmcuWYQ was obtained;
+- reliability of that path is low and it failed for the handle UniverseUA in three attempts on 2026-08-23;
+- consequence: channel creation date is available only for channels whose identifier can be recovered, so the procedure has a full mode and a reduced mode, and the reduced mode drops the age test and keeps the traffic test;
+- a handle can also simply not exist, since the handle ReigarwComparisons returns 404 while the channel is widely cited, so a dead handle is not evidence about a lane;
+- applicability: high, it sets honest expectations for every later run;
+- confidence: high.
+
+### CTL-0095 An open lane and a closed lane differ at the second channel, not at the first
+
+- answers: OQ-013;
+- mechanic: lane health is read from what non incumbent channels collect, because the incumbent looks the same in both cases;
+- classification: OBSERVED FACT, tracker and feed measured, capture date 2026-08-23;
+- closed reference lane, sleep history: incumbent at about 45000 views per day, and five non incumbents between 10 and 900 views per video with no daily motion, per CTL-0078 and CTL-0080 as corrected by CTL-0081;
+- live lane, size comparison: incumbent MetaBallStudios at about 104000 views per day per CTL-0090, and a second channel at handle UniverseUA with 35700 subscribers, 907 videos, 16091250 lifetime views and about 5000 views per day averaged over the fourteen days to 2026-08-23;
+- primary URL: https://socialblade.com/youtube/handle/universeua ;
+- derived discriminator: in the closed lane the second channel runs at roughly two percent of incumbent daily traffic and falling, in the live lane at roughly five percent and steady across the whole window;
+- the steadiness matters more than the ratio, because a decaying second channel is the signature of a lane whose allocation has already been assigned;
+- limits: the creation date of the second channel could not be recovered per CTL-0094, so it is a non incumbent of unknown age rather than a confirmed late entrant, and this is one lane pair rather than a sample;
+- confidence: medium low, enough to define the procedure and not enough to trust a single run of it.
+
+### CTL-0096 The lane allocation procedure
+
+- answers: OQ-013, closing it;
+- classification: DERIVED from CTL-0093, CTL-0094 and CTL-0095, stated as an executable routine;
+- step one, name the lane by the artefact its viewers carry away rather than by its topic per CTL-0089, and reject it here if no artefact exists;
+- step two, collect at least four channels in the lane by searching the lane phrase, then resolve every video found to its channel handle through oembed;
+- step three, for every channel read the tracker table by handle and record subscribers, video count, lifetime views and daily views across the full fourteen day window;
+- step four, recover the channel identifier where possible and read the feed for the creation date and the last fifteen per video view counts;
+- step five, rank channels by daily views and look only below the top; the lane is still allocating when at least one non incumbent is stable across the fourteen days and above roughly one percent of incumbent daily traffic, and closed when every non incumbent is flat near zero or visibly decaying;
+- step six, where identifiers were recovered, check whether any channel created within the last twelve months sits above the bottom of the ranking, which upgrades the verdict to still allocating for newcomers specifically;
+- cost: about eight to twelve fetches per lane and no authentication;
+- decay: a verdict holds for roughly one quarter, which is why the procedure and not the verdict is the deliverable;
+- confidence: medium.

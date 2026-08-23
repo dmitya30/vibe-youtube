@@ -77,7 +77,9 @@ A fixed visual frame is safe. A channel running one unchanged scene, camera and 
 
 The condition is replication cost. A framed format dies when a competitor can reproduce one episode in a click, which is what ended the bar chart race format while manual per episode construction kept the size comparison format alive. A candidate frame is admissible only if matching one episode still costs a competitor real labour. Remotion fits this rule, since it makes repetition cheap while the per episode substance stays expensive. See CTL-0092.
 
-Discovery is closing. One item remains, the OQ-013 lane procedure. The cold start decision is taken on the evidence held once it closes. See CTL-0086.
+Lane health is read from the second channel and not from the leader, because the incumbent looks the same either way. In the closed reference lane every non incumbent sits between 10 and 900 views per video with no daily motion against an incumbent at about 45000 views per day, while in the size comparison lane a non incumbent holds about 5000 views per day steadily against an incumbent at about 104000. The procedure is recorded at CTL-0096, its instrument set at CTL-0093, and its one blocking gap, the absence of any reliable path from a channel handle to a channel identifier, at CTL-0094. A verdict holds for about one quarter, so the procedure and not any current verdict is the asset.
+
+Discovery is closing. One item remains, OQ-005, the views per sale figure set against production cost for specific candidate topics. The cold start decision is taken on the evidence held once it closes. See CTL-0086 and CTL-0082.
 
 ## 5. Active clusters
 
@@ -107,4 +109,4 @@ Thirteen passes ran before r/PartneredYoutube was sampled, although RESEARCH_PRO
 
 ## 8. What is not settled
 
-See OPEN_QUESTIONS.md. The primary open question is OQ-001, verified cold start cases drawn across niches rather than within one.
+See OPEN_QUESTIONS.md. One question remains, OQ-005, which prices candidate topics in views per sale against production cost.
