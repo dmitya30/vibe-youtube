@@ -109,6 +109,8 @@ Thirteen passes ran before r/PartneredYoutube was sampled, although RESEARCH_PRO
 
 Correction recorded 2026-08-23. CTL-0085 stated the revenue unit as views per sale. CTL-0099 narrows it, because views per sale omits artefact price and price varies enough across the measured cases to invert any ranking built on volume alone. The standing unit is revenue per thousand views, and the artefact price floor of about forty dollars is part of the filter.
 
+Cold start configuration recorded 2026-08-23 at CTL-0103. Artefact before video, twenty to forty minute fixed frame with variable subject, at most two videos per week, Russian language, artefact priced at forty dollars or more, searchable surface alongside the channel, automation built against the chosen format. Break even is about 750 views per video under tight binding and about 30000 under loose binding, against a measured Russian median of about 2300, so binding tightness rather than traffic decides viability. See CTL-0101.
+
 ## 8. What is not settled
 
-See OPEN_QUESTIONS.md. No research question remains open. What is not settled is an internal measurement, the operator hours per finished video, which converts the admitted topic filter into a go or no go on cadence.
+See OPEN_QUESTIONS.md. No research question remains open and the operator hours are supplied at CTL-0101. Three items stand before commitment. One, the candidate lane must be named and run through the CTL-0096 procedure, which is the last cheap check. Two, the residual QA cost per video after automation is an estimate and should be measured on the first produced episode. Three, the ledger has passed the forty kilobyte archive threshold stated in its own rules and version three is due.

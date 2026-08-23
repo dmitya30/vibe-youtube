@@ -479,3 +479,44 @@ Entries are appended below in identifier order.
 - consequence: research closes here, and the remaining unknown is an internal measurement rather than an external one;
 - applicability: very high, this is the gate into the cold start decision;
 - confidence: medium.
+### CTL-0101 The cost half of OQ-005 supplied from the internal record, and the break even it produces
+
+- answers: OQ-005, completing the arithmetic left open at CTL-0100;
+- classification: OBSERVED FACT for the hours, reported by the operator on 2026-08-23 from the VIDEO-001 to VIDEO-004 production record;
+- current cost: four to twelve operator hours per finished video, median about eight, the spread driven by LLM iteration rather than by runtime;
+- after the planned automation only QA of intermediate and final output plus publication and packaging remain with the operator, and that residual is not yet measured;
+- at the CTL-0045 ceiling of two videos per week the current load is about seventy operator hours per month;
+- break even at an assumed fifteen dollars per operator hour and tight binding of 161 dollars per thousand views is about 750 views per video;
+- the same break even at loose binding of 4 dollars per thousand views is about 30000 views per video;
+- against the measured Russian language median of about 2300 views per horizontal video this means tight binding clears the bar roughly threefold while loose binding misses it about thirteenfold and cannot be rescued by volume;
+- after automation the monthly load falls to roughly thirteen hours if QA costs about ninety minutes per video, which is an estimate and not a measurement, and the traffic requirement then stops binding altogether;
+- applicability: very high, this is the go or no go arithmetic;
+- confidence: medium high for the structure, medium for the residual QA figure.
+
+### CTL-0102 Two independent cases place the selling surface off YouTube
+
+- answers: NO_OPEN_QUESTION, recorded because it constrains channel design and because opening it as a question would investigate the products and repeat the withdrawal of OQ-W01;
+- classification: OBSERVED FACT, two first hand statements, both against the commercial interest of the speaker;
+- English language case, CTL-0097: the seller states the bulk of sales arrives at her own website through organic search rather than through her channel;
+- Russian language case, CTL-0005: video, Reels, Shorts and VK clips are described as weakly effective while a searchable calculator site is described as the automatic subscriber source;
+- convergence across two languages and two artefact classes makes this the strongest signal held about where a purchase actually originates;
+- what it does not show: that YouTube is worthless, since neither case ran without a channel and neither measured the counterfactual;
+- design constraint adopted: the artefact must carry a searchable surface alongside the channel, and the channel is treated as a trust and amplification layer rather than as the entrance;
+- consequence for planning: channel traffic forecasts must not be used as the sole revenue driver;
+- applicability: high;
+- confidence: medium high.
+### CTL-0103 The cold start configuration
+
+- answers: NO_OPEN_QUESTION, this is the assembled decision rather than new evidence;
+- classification: DERIVED from CTL-0045, CTL-0076, CTL-0089, CTL-0092, CTL-0096, CTL-0097, CTL-0099, CTL-0100, CTL-0101 and CTL-0102;
+- ordering: the artefact is built before the first video, because without an ad programme a view is worth nothing until an artefact exists to convert it;
+- format: the twenty to forty minute band with a fixed visual frame, where the frame is infrastructure and the episode subject is the variable, admissible under the replication test of CTL-0092;
+- binding: each episode is a worked example carried out with the artefact, so binding is structural rather than an advertisement appended to the end;
+- cadence: at most two videos per week and plausibly far less, since a monthly cadence sustains a mature channel per CTL-0090;
+- language: Russian, because the arithmetic of CTL-0101 clears on the measured Russian median under tight binding, because the operator can judge the language directly, and because delivery and payment surfaces already exist there; collection from English language markets is an operator constraint that research cannot settle;
+- price: the artefact prices at forty dollars or more per CTL-0099, otherwise the topic is rejected;
+- surface: a searchable entry point accompanies the channel per CTL-0102;
+- automation: built against the chosen format rather than before it, because the residual QA cost is what makes the arithmetic comfortable;
+- outstanding action before commitment: one run of the CTL-0096 procedure over two or three named candidate lanes, about thirty fetches, which is the last cheap check;
+- applicability: very high;
+- confidence: medium.
