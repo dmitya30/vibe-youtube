@@ -908,3 +908,74 @@ From this correction onward the sample is restricted to cold start channels as d
 - applicability: high;
 - confidence: medium high;
 - next verification step: locate a channel in this niche selling a non personal product, since every monetized case observed so far sells access to a person.
+
+### CTL-0060 A large non personal product exists in the target niche and was built without a YouTube channel
+
+- mechanic: a free learning resource and a free application act as the funnel to paid physical decks, with no host and no personal service in the offer;
+- classification: OBSERVED FACT, answers the open question left by CTL-0059;
+- primary URLs: https://labyrinthos.co/blogs/learn-tarot-with-labyrinthos-academy/labyrinthos-academy-tarot-app-free-update and https://play.google.com/store/apps/details?id=com.labyrinthos.app ;
+- capture date: 2026-08-23;
+- observable confirmation: the operator states two million users of the application, publishes free lessons and free card meanings on the site, sells illustrated decks and a premium tier, and describes itself as one person building tarot technology;
+- second observation: the operator has no YouTube channel; a targeted search returns only third party reviews of the decks, and the handle labyrinthos on YouTube belongs to an unrelated account with four subscribers;
+- inference: the non personal product form is confirmed viable at scale in this niche, which removes the portability objection recorded in CTL-0059; however the channel to non personal product chain remains unobserved, because the largest non personal product in the niche reached scale through search, application stores and image platforms rather than through video;
+- consequence for planning: the owner product form is supported by evidence, the assumption that YouTube is the correct acquisition surface for it is not;
+- applicability: high;
+- confidence: high for the product observation, high for the absence of a channel;
+- next verification step: identify which acquisition surface actually carries this operator, since if it is search and pinning rather than video, the same question applies to our own products.
+
+### CTL-0061 The monetization policy read in full is narrower than this ledger recorded
+
+- mechanic: the policy prohibits templates without substantive variation rather than templates as such, and restricts AI personas only on an enumerated list of sensitive topics;
+- classification: OBSERVED FACT from primary documentation, qualifies CTL-0020 and CTL-0021;
+- primary URL: https://support.google.com/youtube/answer/1311392 ;
+- capture date: 2026-08-23;
+- observable confirmation, dated change: on 2025-07-15 the repetitious content policy was renamed to inauthentic content and clarified to cover mass produced material;
+- observable confirmation, explicitly permitted: the same intro and outro across videos where the bulk of the content differs, and a series following a set of characters across episodes where each video has a distinct storyline, focus or concept;
+- observable confirmation, explicitly prohibited: similar content with minimal variation across videos, characters placed in the same situation repeatedly with the same outcome, image slideshows or scrolling text with minimal narrative, and AI generated content made with generic or unoriginal templates that gives the impression of mass production without the original perspective of the creator;
+- observable confirmation, AI persona scope: the prohibition names content presenting itself as a human expert advising on health, legal issues, finances or politics, with examples of an AI doctor, AI podcast hosts giving financial guidance and AI personas giving legal advice;
+- inference: the recurring visual frame planned under C17 and the 78 item grid planned under C18 fall inside the permitted region provided each episode varies in substance; the binding requirement is substantive variation, not visual variation;
+- second inference: CTL-0021 was recorded more broadly than the policy text supports, because the esoteric register is not on the enumerated sensitive list; the exclusion of health claims adopted in CTL-0044 remains correct and is now grounded in the enumerated list rather than in a general reading;
+- limitation: reviewers assess the channel as a whole including main theme, most viewed videos, newest videos and metadata, so compliance is judged at channel level and not per video;
+- applicability: very high, this defines the admissible design space;
+- confidence: high, primary documentation;
+- next verification step: none, adopt the policy text as the design constraint.
+
+### CTL-0062 Operator self reports with dates from a partner only forum, a source class not previously sampled
+
+- mechanic: a forum restricted to monetized creators produces dated self reports from channel operators rather than from instruction sellers, which inverts the source bias recorded in CTL-0001 and CTL-0024;
+- classification: CLAIM, unverifiable at the individual level, valuable as a distribution;
+- primary URL: https://www.reddit.com/r/PartneredYoutube/comments/1q4p5qo/any_success_with_faceless_channels/ ;
+- capture date: 2026-08-23, thread dated 2026-01-05, 157 comments, subreddit of 184725 members;
+- reported cases: a narration channel monetized within one month of a mid 2022 start and full time by late 2023; a long form channel monetized in under one month reaching 100000 subscribers in one year and 150000 in eighteen months while publishing about three videos per month; a fourteen month channel at 75000 subscribers with all long form and a stated 5 USD per 1000 views; a screen capture channel started in September and monetized in November at about 1800 subscribers; a cooking channel monetized at about 4000 subscribers after nine months;
+- counter cases in the same thread: a channel of 45 videos over seven months with 30000 views and 72 subscribers built mainly on Shorts; a 300000 subscriber channel now earning 500 to 1000 USD per month mainly from back catalogue after its topic declined;
+- inference: monetization within one to three months of a cold start is reported repeatedly by operators, which is far faster than the trajectory inferred in CTL-0055 and CTL-0056 from mature channel measurement; the three videos per month case matches our own capacity exactly and therefore cannot be dismissed on cadence grounds;
+- caution: none of these operators name their channel, so every figure here is testimony; the value is that the incentive to exaggerate is lower in a forum that gates on monetization and where no product is being sold;
+- applicability: high as a corrective to the pessimistic bound, low as a planning input;
+- confidence: low individually, medium as a distribution;
+- next verification step: none available, the claims are structurally unverifiable and are recorded as a bound rather than as a fact.
+
+### CTL-0063 A dated rejection case shows exactly where our planned format would fail review
+
+- mechanic: a channel using one visual template with varied surface parameters was refused monetization under the repetitive content policy despite meeting the numeric thresholds;
+- classification: CLAIM with high diagnostic value, read against the primary policy in CTL-0061;
+- primary URL: https://www.reddit.com/r/PartneredYoutube/comments/1q4p5qo/any_success_with_faceless_channels/ ;
+- capture date: 2026-08-23;
+- reported detail: the operator published three Shorts per day and one long form every three days using visualizers with the same pattern and logo in different colours, reached over 700 subscribers and about 3000 watch hours within two months, removed all copyrighted music before applying, and was still refused as not eligible for repetitive content;
+- inference: this is the closest observed analogue to a Remotion driven recurring visual frame and it failed; comparison with the policy text in CTL-0061 identifies the discriminator precisely, since the rejected channel varied only the parameters of the frame while the permitted examples vary the substance carried inside the frame;
+- design rule adopted: a recurring visual frame is admissible only when each episode carries materially different substance that would remain different if the frame were removed; if the substance survives only as a parameter change, the format is inadmissible;
+- applicability: very high, this is the sharpest available boundary for our production plan;
+- confidence: medium for the individual case, high for the rule when combined with the policy text;
+- next verification step: apply the rule as an acceptance test to any format proposed for the probe.
+
+### CTL-0064 A buyer side figure for sponsorship pricing of non personal channels
+
+- mechanic: advertisers price sponsorship on non personal channels below equivalent presenter led channels, and the discount is stated by a buyer rather than by a seller;
+- classification: CLAIM from a self identified brand buyer, rare source direction;
+- primary URL: https://www.reddit.com/r/PartneredYoutube/comments/1q4p5qo/any_success_with_faceless_channels/ ;
+- capture date: 2026-08-23;
+- reported detail: the buyer states that they usually do not sponsor non personal channels, that when they do the CPM they pay is about half of what they pay a presenter led channel, and that non personal finance channels ask far more than non personal gaming channels;
+- inference: the sponsorship layer is available to a non personal channel at roughly half price, which weakens sponsorship as a monetization route for our design and strengthens the own product route already prioritized as C13;
+- second inference: the niche spread the buyer describes reproduces the RPM ordering recorded earlier, so topic choice moves sponsorship value as much as it moves advertising value;
+- applicability: medium, sponsorship is not currently a planned layer;
+- confidence: low to medium, single anonymous buyer;
+- next verification step: none, recorded for completeness of the monetization layer comparison.

@@ -1,7 +1,7 @@
 # Opportunity map
 
 Updated: 2026-08-23
-Status: twelfth pass / C18 corrected and time bounded, C13 confirmed in niche
+Status: thirteenth pass / product form settled, acquisition surface now the open question
 Method: RESEARCH_PROTOCOL.md
 
 ## 1. Purpose
@@ -186,3 +186,19 @@ A qualification is recorded against pure instruction. On the same channel in the
 A measurement method is adopted. See CTL-0054. The public channel feed supplies creation dates, publication dates and per video view counts without authentication, which removes the observation blocker that produced CTL-0040. Every channel level claim in this ledger is now re measurable against dated primary data, and future passes should measure before citing.
 
 Combined reading for the probe. The two poles are both rejected: dated volume returns market median reach even at 2.5 million subscribers, and short form returns reach that does not convert to income at 174 million views. What remains supported is a standing evergreen catalogue built at about two videos per week, carrying a stated position rather than neutral instruction, sold against a non personal product, produced in English for the dubbing reason in CTL-0053. The subscriber rate to plan against is on the order of one hundred per month at our cadence, not thousands, and the product economics must close at that rate or the direction fails.
+
+## 16. Thirteenth pass, the product question answered and the design boundary located, 2026-08-23
+
+The owner has confirmed that all three existing products sell access to a result and that the human is excluded from the scheme entirely. This removes the portability limit recorded in CTL-0059 and it is now supported by an independent case. See CTL-0060. The largest non personal product in the target niche reports two million users of a free application funnelling to paid decks, operated by one person with no host and no personal service. The product form is therefore proven in this niche.
+
+The same case raises a question that the workstream has not yet asked. That operator has no YouTube channel at all. Every observed monetized channel in this niche sells a person, and the largest non personal product in the niche was built without video. The unresolved issue is no longer whether a non personal product can work, it is whether YouTube is the correct acquisition surface for one. This is now the leading open question and it must be answered before any probe is designed.
+
+The admissible design space is defined by primary documentation rather than by inference. See CTL-0061. Templates as such are permitted, including a shared intro and outro and a series following a set of characters across episodes, provided each episode differs in substance. Prohibited are minimal variation across videos, slideshows and scrolling text without narrative, and AI generated material on generic templates lacking an original perspective. The AI persona restriction is limited to an enumerated list of health, legal, financial and political advice, and the esoteric register does not appear on that list, so CTL-0021 was recorded more broadly than the text supports. The health claim exclusion adopted in CTL-0044 stands and is now grounded in the enumerated list.
+
+The boundary has an observed failure case on the exact side we were approaching. See CTL-0063. A channel publishing one visual template with varied colours and a fixed logo, at three Shorts per day and one long form every three days, met the numeric thresholds and was still refused for repetitive content. Read against the policy text this identifies the discriminator exactly. A recurring visual frame is admissible only when each episode carries materially different substance that would remain different if the frame were removed. If the substance survives only as a parameter change, the format is inadmissible. This rule is adopted as an acceptance test for any format proposed for the probe, and it applies directly to C17 and to the 78 item grid under C18.
+
+A new source class was sampled and it corrects the pessimistic bound. See CTL-0062. A forum gated on monetization produces dated self reports from operators rather than from instruction sellers, which inverts the bias recorded in CTL-0001. Several operators report monetization within one to three months of a cold start, and one reports monetization in under one month and 150000 subscribers in eighteen months while publishing about three videos per month, which is our exact capacity. None name their channel, so this is testimony and not evidence. It is recorded as a bound rather than as a plan, and it is enough to stop treating the multi year trajectory measured in CTL-0055 and CTL-0056 as the only possible shape.
+
+One buyer side figure is added to the monetization comparison. See CTL-0064. A self identified brand buyer states that sponsorship CPM paid to non personal channels is about half that paid to presenter led channels. This weakens the sponsorship layer for our design and further concentrates the case on the own product route.
+
+Standing position after this pass. The product form is settled, the policy boundary is settled and testable, and the acquisition surface is now the unsettled element. The next work is to establish where buyers of non personal esoteric products actually come from, because if the answer is search and image platforms rather than video, the entire channel premise of this workstream needs restating before capacity is committed.
