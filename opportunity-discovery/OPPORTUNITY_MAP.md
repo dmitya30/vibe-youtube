@@ -113,4 +113,4 @@ Cold start configuration recorded 2026-08-23 at CTL-0103. Artefact before video,
 
 ## 8. What is not settled
 
-See OPEN_QUESTIONS.md. No research question remains open and the operator hours are supplied at CTL-0101. Three items stand before commitment. One, the candidate lane must be named and run through the CTL-0096 procedure, which is the last cheap check. Two, the residual QA cost per video after automation is an estimate and should be measured on the first produced episode. Three, the ledger has passed the forty kilobyte archive threshold stated in its own rules and version three is due.
+See OPEN_QUESTIONS.md. No research question remains open and the operator hours are supplied at CTL-0101. Two items stand before commitment. One, the candidate lanes must be named and run through the CTL-0096 procedure, which is the last cheap check and costs about forty to sixty fetches at five lanes, since CTL-0094 makes identifier recovery uneven. Two, the residual QA cost per video after automation is an estimate and should be measured on the first produced episode. The ledger was archived at CTL-0103 and version three is open from CTL-0104.
