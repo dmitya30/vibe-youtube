@@ -103,3 +103,69 @@ Entries are appended below in identifier order.
 - applicability: medium, this constrains future sampling rather than design;
 - confidence: high;
 - next verification step: apply the same exclusion in every subsequent pass.
+### CTL-0071 Breakout dispersion inside one format measured on three same format channels
+
+- answers: OQ-010;
+- mechanic: three channels running the identical long form sleep history format diverge by four orders of magnitude in outcome, and output volume does not explain the divergence;
+- classification: OBSERVED FACT, machine measured;
+- primary URLs: https://socialblade.com/youtube/handle/historiansleeplessyt and https://socialblade.com/youtube/handle/boringhistory25 ;
+- capture date: 2026-08-23;
+- measured: original at 711000 subscribers, 340 videos, 43627095 views, about 45000 views per day; imitator at 48900 subscribers, 421 videos, 3503591 views, about 1000 views per day; second imitator at 220000 subscribers, 14 videos, 1998 lifetime views and zero daily motion;
+- inference: the imitator with more videos than the original holds 12.5 times fewer views, so breakout is a property of the channel inside the format and not of the format itself; cadence and format copying both fail to transfer it;
+- applicability: very high, this is the direct answer to the format selection question;
+- confidence: high;
+- next verification step: none, the format level question is closed.
+
+### CTL-0072 Breakout dispersion narrows as a channel matures
+
+- answers: OQ-010;
+- mechanic: on a mature animated essay channel adjacent uploads differ by a factor of about two, while on a cold start channel one upload carries almost the whole history;
+- classification: OBSERVED FACT, feed measured;
+- primary URL: https://www.youtube.com/feeds/videos.xml?channel_id=UC-tLyAaPbRZiYrOJxAGB7dQ ;
+- capture date: 2026-08-23;
+- measured: Pursuit of Wonder created 2017-02-13, 3400000 subscribers, 313 videos, 240000000 views; adjacent uploads at 97811 and 212262 views, a spread of 2.2 times;
+- contrast: the cold start case at CTL-0065 holds 46 percent of channel history in a single video;
+- inference: breakout is not a prize but an entry into a regime where later uploads no longer require an outlier; planning should treat the first breakout as a state change rather than as a revenue event;
+- applicability: high;
+- confidence: medium high, two points on a dispersion curve;
+- next verification step: none.
+
+### CTL-0073 Runtime is the cheapest available lever on the watch hour threshold
+
+- answers: OQ-009;
+- mechanic: watch hours banked per video rise faster with runtime than percentage retention falls, so the views required to reach 4000 hours drop sharply as runtime grows;
+- classification: DERIVED from two measured sources;
+- primary URLs: https://www.jasonscottmontoya.com/business/youtube/840-ideal-length-video and https://humbleandbrag.com/blog/youtube-audience-retention-benchmarks ;
+- capture date: 2026-08-23;
+- measured watch hours per video on a 353 video library: under 5 minutes 2.29, 5 to 10 minutes 6.76, 35 to 40 minutes 21.0, dominant band 30 to 40 minutes;
+- measured retention bands for 2026: under 5 minutes 50 to 70 percent, 5 to 15 minutes 40 to 55 percent, 15 to 30 minutes 30 to 45 percent, over 30 minutes 25 to 35 percent;
+- derived views needed for 4000 hours: about 64000 at 8 minutes, about 18000 at 45 minutes, about 11000 at 90 minutes, a six fold spread produced by runtime alone;
+- applicability: very high, runtime is nearly free in a Remotion and generation pipeline;
+- confidence: medium high, one operator library plus published benchmarks;
+- next verification step: confirm the retention band for asset built narration specifically.
+
+### CTL-0074 Very long form buys hours but not audience, which caps its use
+
+- answers: OQ-009;
+- mechanic: the sleep and background format reaches the hour threshold cheaply while showing very weak engagement per subscriber;
+- classification: OBSERVED FACT, machine measured;
+- primary URL: https://socialblade.com/youtube/handle/sleeplesshistorian ;
+- capture date: 2026-08-23;
+- measured: 711000 subscribers producing about 45000 views per day, which is roughly 0.06 percent of the base per day; tracker estimate 11 to 172 USD per day against 43600000 lifetime views;
+- inference: runtime lowers the threshold cost but background consumption suppresses click through, subscriber activation and revenue per view, so very long form suits threshold crossing and not audience building;
+- design consequence: consider very long form as a threshold instrument on a separate surface, not as the main format of a channel intended to carry a product;
+- applicability: high;
+- confidence: medium high;
+- next verification step: none.
+
+### CTL-0075 Format copying is directly observable and directly fails
+
+- answers: NO_OPEN_QUESTION, recorded because it settles a standing owner concern about imitation;
+- mechanic: two channels copied a successful format including its wording and one of them copied the channel name, and both failed while the original continued;
+- classification: OBSERVED FACT;
+- capture date: 2026-08-23;
+- observation: a third same named channel created 2017-09-23 carries uploads at 2 lifetime views each; the 220000 subscriber imitator carries 1998 lifetime views across 14 videos;
+- inference: imitation is cheap and visible but does not transfer outcome, which lowers the practical weight of the copying risk recorded earlier; the defensible asset is not the visual template;
+- applicability: medium;
+- confidence: high;
+- next verification step: none.

@@ -53,6 +53,12 @@ First monetization and first meaningful income are separated by roughly two orde
 
 Sampling rule agreed with the owner on 2026-08-23. Cases whose format the pipeline cannot physically produce, such as travel vlogging, physical reviews, live streaming and gameplay, are recorded as contrast and excluded from the main sample. The reachable set is animation, commentary, instruction and asset built video. See CTL-0070.
 
+Breakout is a property of the channel inside a format rather than of the format. Three channels running the identical long form sleep history format were measured on the same day at 43.6 million, 3.5 million and 1998 lifetime views, and the weakest of the three had published the most videos. Format selection therefore cannot raise breakout probability and imitation does not transfer outcome. See CTL-0071 and CTL-0075.
+
+Dispersion narrows with channel age. A cold start channel holds 46 percent of its history in one video while a mature animated essay channel varies about two fold between adjacent uploads. The first breakout should be planned as a state change rather than as a revenue event. See CTL-0072.
+
+Runtime is the cheapest lever available to this pipeline. Reaching 4000 watch hours needs roughly 64000 views at an eight minute runtime, 18000 at forty five minutes and 11000 at ninety minutes. The counterweight is that background length formats suppress click through, subscriber activation and revenue per view, so very long form is a threshold instrument rather than an audience instrument. See CTL-0073 and CTL-0074.
+
 ## 5. Active clusters
 
 - C13 own product from the first views, leading, confirmed by observation in the esoteric niche at CTL-0059 and no longer limited by the personal service objection after the owner confirmation of 2026-08-23;

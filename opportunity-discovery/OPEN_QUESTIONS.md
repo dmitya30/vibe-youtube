@@ -14,8 +14,8 @@ The object of this workstream is a new channel taken from zero to the start of m
 ## 3. Open
 
 - OQ-003 does a recurring visual frame carrying materially different substance per episode actually survive monetization review, verified on a monetized channel rather than inferred from policy text; see the rejection case at CTL-0063;
-- OQ-009 what runtime and substance density does a ten minute video require in a grid or instructional format, given that runtime rather than video count binds the watch hour threshold; see CTL-0067;
-- OQ-010 which of the reachable formats, meaning animation, commentary, instruction and asset built video, shows the highest rate of breakout per attempt, since the threshold is crossed by breakout and cadence only buys attempts; see CTL-0066;
+- OQ-011 what distinguishes the channel that broke out from same format imitators that did not, given that format, cadence and wording were copied and outcome was not; see CTL-0071;
+- OQ-012 does a two surface plan work, meaning very long form to bank watch hours and mid length to build audience, or does splitting attention halve the breakout attempts; see CTL-0073 and CTL-0074;
 - OQ-005 which niches pair an acceptable revenue per thousand views with a production cost that a two video per week manual pipeline can meet;
 - OQ-006 what is the smallest observable channel in any niche that reached first revenue through an external product rather than through advertising, since every monetized case observed so far in the esoteric niche sells access to a person.
 
@@ -26,6 +26,8 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 5. Answered
 
+- OQ-009 runtime and the watch hour threshold; ANSWERED by CTL-0073 and CTL-0074; views needed for 4000 hours fall about six fold from an eight minute to a ninety minute runtime, but very long form suppresses engagement and revenue per view;
+- OQ-010 breakout rate per format; ANSWERED by CTL-0071 and CTL-0072 as a reframing; dispersion inside one format spans four orders of magnitude and is not explained by output, so format choice does not set breakout probability and the question moves to OQ-011;
 - OQ-001 verified cold start cases across niches; ANSWERED by CTL-0065, CTL-0066 and CTL-0070; the threshold is reached in two weeks to four months and five to thirty long form videos by operators who crossed it on a breakout video, usually on a channel that was not their first attempt;
 - OQ-002 what the first month looks like; ANSWERED by CTL-0066 and CTL-0068; the first month either contains a breakout or it does not, and the income that follows the threshold is roughly two orders of magnitude below the milestone it implies;
 - OQ-004 verified cold start case for the Shorts plus long form pairing; ANSWERED by CTL-0067 as a qualified no; the failing tail is concentrated in Shorts and in very short long form, and runtime rather than count binds the watch hour threshold;
