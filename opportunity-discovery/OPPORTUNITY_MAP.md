@@ -45,6 +45,14 @@ Monetization within one to three months of a cold start is reported repeatedly b
 
 Eligibility for the partner programme follows operator residency and not viewer location, while external payment services accept payment from most countries, so audience geography constrains the payment layer rather than the audience layer. See CTL-0052.
 
+The monetization threshold is crossed by a single breakout video rather than by accumulation. Reported video counts at the threshold cluster between one and thirty long form videos over two weeks to four months, with a long tail that never arrives, and the fast cases usually occurred on an operator second or later channel. Cadence does not cause the breakout, it buys attempts. See CTL-0065 and CTL-0066.
+
+Runtime rather than video count binds the watch hour threshold. A two minute long form is functionally a Short for threshold purposes, and the failing tail in the operator sample is concentrated in short form and very short long form. Any format adopted must sustain roughly ten minutes of substance, which constrains the grid formats more than cadence does. See CTL-0067.
+
+First monetization and first meaningful income are separated by roughly two orders of magnitude. Measured and reported cases include 406700 views over eleven months yielding 1648 USD, and a verified channel at 143383 lifetime views estimated at 0 to 17 USD per day. This confirms from operator data that the advertising layer cannot be the objective and that C13 is the load bearing route. See CTL-0068.
+
+Sampling rule agreed with the owner on 2026-08-23. Cases whose format the pipeline cannot physically produce, such as travel vlogging, physical reviews, live streaming and gameplay, are recorded as contrast and excluded from the main sample. The reachable set is animation, commentary, instruction and asset built video. See CTL-0070.
+
 ## 5. Active clusters
 
 - C13 own product from the first views, leading, confirmed by observation in the esoteric niche at CTL-0059 and no longer limited by the personal service objection after the owner confirmation of 2026-08-23;

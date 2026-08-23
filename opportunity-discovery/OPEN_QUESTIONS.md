@@ -13,10 +13,9 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 3. Open
 
-- OQ-001 which cold start channels outside the esoteric niche reached the start of monetization within twelve months, preferably six, with a creation date and per video figures verifiable through the public channel feed; this is the primary question and the sample must be drawn across niches;
-- OQ-002 what does the first month look like on channels that later succeeded, in the terms listed in RESEARCH_PROTOCOL.md section 12, so that a probe can be stopped early on evidence;
 - OQ-003 does a recurring visual frame carrying materially different substance per episode actually survive monetization review, verified on a monetized channel rather than inferred from policy text; see the rejection case at CTL-0063;
-- OQ-004 is there a verified cold start case for the Shorts plus long form combination, where Shorts carry reach and long form carries watch time on the same channel;
+- OQ-009 what runtime and substance density does a ten minute video require in a grid or instructional format, given that runtime rather than video count binds the watch hour threshold; see CTL-0067;
+- OQ-010 which of the reachable formats, meaning animation, commentary, instruction and asset built video, shows the highest rate of breakout per attempt, since the threshold is crossed by breakout and cadence only buys attempts; see CTL-0066;
 - OQ-005 which niches pair an acceptable revenue per thousand views with a production cost that a two video per week manual pipeline can meet;
 - OQ-006 what is the smallest observable channel in any niche that reached first revenue through an external product rather than through advertising, since every monetized case observed so far in the esoteric niche sells access to a person.
 
@@ -26,6 +25,10 @@ The object of this workstream is a new channel taken from zero to the start of m
 - OQ-008 export and reading of the private Russian language creator channels; deferred because the two named creators are retained as a source of rare observations and not as a source of truth, and because access requires tooling that has not been justified by expected value.
 
 ## 5. Answered
+
+- OQ-001 verified cold start cases across niches; ANSWERED by CTL-0065, CTL-0066 and CTL-0070; the threshold is reached in two weeks to four months and five to thirty long form videos by operators who crossed it on a breakout video, usually on a channel that was not their first attempt;
+- OQ-002 what the first month looks like; ANSWERED by CTL-0066 and CTL-0068; the first month either contains a breakout or it does not, and the income that follows the threshold is roughly two orders of magnitude below the milestone it implies;
+- OQ-004 verified cold start case for the Shorts plus long form pairing; ANSWERED by CTL-0067 as a qualified no; the failing tail is concentrated in Shorts and in very short long form, and runtime rather than count binds the watch hour threshold;
 
 - OQ-A01 does the owner product sell access to a person or access to a result; ANSWERED by the owner on 2026-08-23, all three products sell access to a result and the human is excluded from the scheme; this closes the portability limit recorded at CTL-0059;
 - OQ-A02 can a non personal product reach scale in the esoteric niche; ANSWERED by CTL-0060.
