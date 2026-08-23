@@ -87,3 +87,27 @@ This index exists because the v1 to v2 transition lost the standing state. It li
 - expected cost of the full run over five lanes is about forty to sixty fetches, higher than the earlier estimate of thirty because identifier recovery is uneven under CTL-0094;
 - applicability: very high;
 - confidence: medium high.
+### CTL-0108 All three Russian business lanes fail the vendor hazard test
+
+- answers: NO_OPEN_QUESTION, this executes the CTL-0107 run order and records its outcome;
+- classification: OBSERVED FACT, search surface measured 2026-08-23, all three lanes rejected before the CTL-0096 traffic measurement because the cheaper test settled them;
+- RU-A marketplace seller operations: unit economics and ABC analysis templates are published free by at least six services, MoySklad, LikeStats, SellerMoon, Marpla, Selsup and Tochka, each funded by an unrelated business model per CTL-0105;
+- RU-B renovation and construction estimating: free supply arrives from two directions at once, contractors publishing estimates as lead bait and estimating software vendors publishing them as licence bait, while the professional segment already runs on priced software with maintained rate books, which is a paid substitute;
+- RU-C small practice operations: templates for car workshops exist but are sold as bespoke development per client rather than as a repeatable artefact, which breaks the CTL-0101 economics since every sale would carry fresh labour;
+- URLs: https://www.moysklad.ru/poleznoe/shablony/tablica-yunit-ekonomiki-wildberries/ and https://www.defsmeta.ru/support/sh/item.php?did=4 and https://excel-help.ru/portfolio/tablitsa-dlya-avtoservisa-stantsii-tekhnicheskogo-obsluzhivaniya/ ;
+- cost of this finding was three searches rather than the thirty fetches a traffic run would have taken, which validates the ordering set at CTL-0107;
+- applicability: high;
+- confidence: medium high.
+
+### CTL-0109 Russian business artefact lanes are structurally suppressed by service funded free supply
+
+- answers: NO_OPEN_QUESTION, recorded as a market property rather than as three separate failures;
+- classification: DERIVED from CTL-0108, with the sample limited to business tooling lanes;
+- mechanism: in Russian business niches a well capitalised service almost always exists that gives the artefact away to acquire traffic or licence sales, so the CTL-0099 price floor cannot be defended by the quality of the artefact alone;
+- this is distinct from ordinary competition because the free supply does not withdraw when it stops being profitable, and it is distinct from the English market where the comparable artefacts sell at fifty dollars and above per CTL-0097;
+- SUPERSEDES in part: the language preference stated at CTL-0103, which favoured Russian on the ground that the CTL-0101 arithmetic clears on the Russian median view count;
+- the arithmetic still clears, but it only clears when a priced artefact exists, and the ordering error was testing traffic before testing willingness to pay;
+- revised standing: the Russian segment is not closed, it requires a lane outside business tooling where no service has an incentive to give the artefact away, and the English segment moves ahead in priority since it holds a measured sale at 49.99 dollars;
+- limits: three lanes are not the whole market and they were the lanes where free supply is densest, so this is a directional finding;
+- applicability: high;
+- confidence: medium.
