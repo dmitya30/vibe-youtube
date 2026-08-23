@@ -126,3 +126,13 @@ C17, template substitution, is opened as a cluster on the strength of CTL-0035. 
 C16 gains support from an unexpected direction. The largest cold start case measured in this pass carries meaning through a fixed visual grammar with a thin spoken line, which is the low density narration variant that remains eligible for automatic dubbing under CTL-0031.
 
 The Shorts route is qualified rather than endorsed. Per CTL-0037, Shorts supply reach at roughly a tenth of the subscriber conversion of long form and at advertising rates that cannot fund a channel. Shorts are therefore admissible only as a reach surface feeding something that captures identity, which strengthens rather than weakens C13.
+
+## 11. Eighth pass additions, 2026-08-22
+
+C17 is confirmed as reproducible across unrelated operators and simultaneously marked as saturating in its current best known instance. See CTL-0039. The transferable asset is the structure, a fixed non human character plus noun substitution into a stable sentence shape. The specific skeleton execution is deprioritized because it is now sold as a packaged kit in at least three languages, which closes the asymmetry that made it an opportunity.
+
+C3 is materially strengthened for the first time by an observation rather than by an operator account. See CTL-0041. A Russian language esoteric channel at 2.52 million subscribers routes its audience to Telegram and monetizes through Tribute, a payment layer verified by Telegram that accepts payment from over 190 countries. This is the complete chain the candidate dossier posited, and it operates entirely outside the advertising system that CTL-0022 shows is closed to Russian audiences.
+
+The same observation imposes a cost that must not be glossed. The channel carries 13000 videos for 2.52 million subscribers, roughly 194 subscribers per video. Combined with CTL-0037, where Shorts convert to subscribers about an order of magnitude worse than long form, this indicates that the Shorts plus long form pairing buys reach cheaply and subscribers expensively, and that the difference is paid for in volume. Whether the Remotion pipeline can sustain a cadence of that order is now the central capacity question of this workstream, and it is a question about our production system rather than about the market.
+
+CTL-0034 is downgraded pending direct observation. See CTL-0040. The only dated cold start case in the ledger remains supported by vendor publication alone and must not carry planning weight until its opening date and counts are observed directly.

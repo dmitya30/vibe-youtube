@@ -615,3 +615,59 @@ From this correction onward the sample is restricted to cold start channels as d
 - applicability: procedural, this is the read only method C11 required and it needs no paid tooling;
 - confidence: high for the counts;
 - next verification step: none, method confirmed.
+
+### CTL-0039 The recurring character template is reproduced across operators and is now saturating
+
+- mechanic: a fixed non human character placed into what if scenarios, reproduced by several unrelated operators;
+- classification: OBSERVED FACT for the reproduction, INFERENCE for the saturation;
+- primary URL: https://www.reddit.com/r/AIContentAutomators/comments/1rnqv6j/1_month_53m_views_119k_subs_just_22_videos_how/ ;
+- author: Uni4Real, reporting on a channel named Mr. Know;
+- capture date: 2026-08-22, post dated 2026-03-08;
+- claimed result: 53 million views, 119000 subscribers and 22 videos in one month, with individual shorts at 7.4M, 7.2M, 6.7M and 6.3M;
+- observable confirmation: none obtained directly; the channel sheet was not reachable and no non vendor source was found;
+- recurrence: the same skeleton character and what if substitution now appears across at least three unrelated operators and has generated instructional material in Russian, Hindi and English;
+- inference: reproduction across operators confirms C17 as a real transferable structure, while the appearance of packaged asset kits indicates the arbitrage window is closing, since supply of the identical format grows faster than demand for it;
+- conflict of interest: high, the post ends with a link to a paid style guide and scores 5 at a 0.78 ratio, indicating community scepticism;
+- applicability: the specific skeleton format is not worth entering; the underlying principle of a fixed non human character plus noun substitution is retained;
+- confidence: low for the numbers, medium high for the saturation reading;
+- next verification step: none for this channel, the format is deprioritized.
+
+### CTL-0040 Bernard Films could not be confirmed outside vendor material
+
+- mechanic: verification attempt on the only dated cold start case in the ledger;
+- classification: OBSERVED FACT about the verification failure;
+- primary URL: https://www.youtube.com/@Bernard_Films/videos ;
+- capture date: 2026-08-22;
+- observable confirmation: the video sheet returned a consent interstitial rather than content, and no non vendor source reporting the channel metrics was located;
+- inference: CTL-0034 remains supported only by vendor publication and must not carry planning weight until the opening date and counts are observed directly;
+- applicability: procedural, this marks a known gap rather than a finding;
+- confidence: high for the failure itself;
+- next verification step: retry the channel sheet by an alternative route, or observe the counts from a logged in session by the owner.
+
+### CTL-0041 Russian language esoteric channel with a complete external monetization chain
+
+- mechanic: a Russian language esoteric channel routes audience to Telegram and monetizes through a verified payment layer rather than through the platform;
+- classification: OBSERVED FACT for the structure, UNVERIFIED HYPOTHESIS for the economics;
+- primary URLs: https://www.youtube.com/@ezforyou/videos and https://t.me/ezforyou8 and https://tribute.tg/ ;
+- capture date: 2026-08-22;
+- observable confirmation: the channel shows 2520000 subscribers and 13000 videos under the title Esoterics for You, horoscopes, rituals, tips; the channel header links to t.me/tribute/app with a referral parameter plus three further links; Tribute presents itself as the only monetization platform officially verified by Telegram, accepting payments from over 190 countries for paid subscriptions, donations and digital goods;
+- inference: this is the first observed instance of the exact chain the candidate dossier describes, and it resolves the constraint recorded in CTL-0022, because payment is taken entirely outside the advertising system that is unavailable for Russian audiences;
+- second inference: 13000 videos against 2520000 subscribers is roughly 194 subscribers per video, an industrial cadence far above anything measured earlier, which is the volume compensation implied by the weak Shorts subscriber conversion in CTL-0037;
+- third inference: the horoscope, ritual and tip format is a combinatorial grid of zodiac sign by period by theme, that is C17 template substitution in esoteric form, achieved with no invented human biography;
+- alternative explanations: the channel is old and large, so its scale reflects accumulation rather than launch speed, and nothing here demonstrates cold start velocity;
+- conflict of interest: none in the observation itself;
+- applicability: very high for architecture, unproven for start speed;
+- confidence: high for the observed structure, none for revenue;
+- next verification step: observe the video sheet for per video view counts and channel creation date, and identify what is actually sold in the Telegram channel and at what price.
+
+### CTL-0042 Personalization by a universally available attribute as the bridge to a product
+
+- mechanic: a title promises an individual outcome derived from an attribute every viewer already knows about themselves;
+- classification: OBSERVED FACT for the pattern, INFERENCE for the funnel role;
+- primary URL: https://www.youtube.com/@ezforyou/videos ;
+- capture date: 2026-08-22;
+- observable confirmation: an observed title states that if your name contains a particular letter, money arrives in July 2026, framed as numerology;
+- inference: the attribute requires no input from the viewer and no tooling, yet produces the feeling of a personal result, which is the same bridge that the calculator played in the case recorded in CTL-0005, but delivered inside the video itself rather than on an external site;
+- applicability: high, this is cheaper than a calculator and needs no product surface to exist first;
+- confidence: medium;
+- next verification step: measure whether such titles outperform non personalized ones on the same channel once the video sheet is observable.
