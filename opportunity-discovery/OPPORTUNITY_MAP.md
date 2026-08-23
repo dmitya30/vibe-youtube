@@ -65,7 +65,11 @@ Entry timing into a lane, not execution, is what separates a breakout from an im
 
 That lane is measured and rejected for entry on saturation grounds alone. Five late entrants sit between 10 and 900 views per video against an incumbent at about 45000 views per day. The policy risk asserted in the first version of this paragraph is withdrawn as unsupported, because the July 2025 update was a clarification of existing wording and no enforcement against this lane has been observed. The lane is retained as the reference example of a closed lane. See CTL-0080 as corrected by CTL-0081.
 
-Discovery is now closing. It stops when OQ-003, OQ-005, OQ-006 and the OQ-013 procedure are closed, and the cold start decision is taken on the evidence held at that moment. The binding deadline is 2027-02-01, when YPP entry thresholds for new applicants double. See CTL-0082.
+The ad programme is unavailable to this operator and never was the target. Watch hour and subscriber thresholds serve only as a calibration scale for whether an audience is large and attentive enough to buy something. The 2027-02-01 threshold change is a footnote on that scale and carries no deadline force. Revenue arithmetic is therefore expressed as views per sale, not as revenue per thousand views. See CTL-0083.
+
+First revenue is observable at 318 subscribers. The mechanism is an artefact that falls out of the free content, sold while the content stays free, with email capture alongside. The funnel is view to click at 0.1 to 1 percent and click to purchase at 0.5 to 2 percent when the product is incidental and 6 to 15 percent when it is central, which puts views per sale between about 2000 and about 50000. Binding tightness dominates both niche and volume. See CTL-0084 and CTL-0085.
+
+Discovery is closing. It stops when the rewritten OQ-003, the OQ-013 procedure and OQ-014 are closed, and the cold start decision is taken on the evidence held at that moment. See CTL-0086.
 
 ## 5. Active clusters
 

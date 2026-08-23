@@ -256,3 +256,73 @@ Entries are appended below in identifier order.
 - deadline that bounds the whole workstream: YPP entry thresholds for new applicants double on 2027-02-01 per CTL-0006, so a channel started in 2026 can qualify under the current threshold and one started in spring 2027 cannot;
 - applicability: governs every subsequent pass;
 - confidence: high.
+### CTL-0081 Correction, the July 2025 policy update was a clarification and not a tightening
+
+- answers: NO_OPEN_QUESTION, this entry corrects a drift introduced by the assistant on 2026-08-23;
+- SUPERSEDES: the policy risk clause inside CTL-0080, which is withdrawn;
+- classification: OBSERVED FACT, primary source read directly;
+- primary URL: https://support.google.com/youtube/answer/1311392 ;
+- what the source says: a minor update to the repetitious content policy to clarify that it includes content that is repetitive or mass produced, with the reused content policy unchanged;
+- corroboration: the platform creator liaison stated publicly that the update is not a crackdown on AI or on reaction content but a clarification of existing wording;
+- the error: CTL-0080 restated the same single source as a tightening explicitly targeting the sleep history lane and as active enforcement pressure, which the source does not support, and attached an unsupported demonetisation risk to it;
+- what survives from CTL-0080: the saturation measurement only, five late entrants between 10 and 900 views per video against an incumbent at about 45000 views per day; the lane is closed on saturation grounds alone;
+- standing rule reaffirmed: policy statements are recorded verbatim from the primary source and any consequence drawn from them is labelled DERIVED and never merged into the same sentence as the fact;
+- confidence: high.
+
+### CTL-0082 Research closure criterion agreed with the owner
+
+- answers: NO_OPEN_QUESTION, this entry fixes the stopping rule for the workstream;
+- classification: OWNER DECISION, 2026-08-23;
+- decision: discovery stops when OQ-003, OQ-005, OQ-006 and the OQ-013 procedure are closed, and the cold start decision is then taken on the evidence held at that moment regardless of what remains unmeasured;
+- rationale for each survivor: OQ-003 is go or no go for the recurring frame the pipeline is built on; OQ-006 is the only missing measurement under the load bearing route C13; OQ-005 converts niche choice from taste into arithmetic; OQ-013 is reduced from a question to a reusable feed procedure because any lane answer decays faster than a production cycle;
+- deadline that bounds the whole workstream: YPP entry thresholds for new applicants double on 2027-02-01 per CTL-0006, so a channel started in 2026 can qualify under the current threshold and one started in spring 2027 cannot;
+- applicability: governs every subsequent pass;
+- confidence: high.
+### CTL-0083 Frame correction, the ad programme is unavailable and was never the target
+
+- answers: NO_OPEN_QUESTION, this corrects an assistant drift across the last three passes;
+- SUPERSEDES: the deadline clause in CTL-0082 and the threshold cost framing in CTL-0077;
+- classification: OWNER CONSTRAINT, restated from README section 10 where it was already recorded as YPP_AS_TARGET=WITHDRAWN_USED_ONLY_AS_SCALE_CALIBRATION;
+- the constraint: the operator resides in Russia where the platform ad programme has been unavailable since 2022-03-03, so ad monetization, ad policy, review outcomes and demonetization risk are all outside this workstream;
+- what watch hour and subscriber thresholds are for: they are a calibration scale only, a public yardstick for whether an audience is large and attentive enough to buy a product or to justify a direct advertising placement;
+- the error: three passes treated the 4000 hour threshold as a planning target, promoted 2027-02-01 to a binding deadline, and derived a demonetization risk that cannot apply, which also produced the false policy claim corrected in CTL-0081;
+- consequence: the 2027-02-01 date is demoted to a calibration footnote and carries no deadline force; revenue arithmetic is rebuilt on views per sale rather than on revenue per thousand views;
+- confidence: high, owner stated and already present in the workspace record.
+
+### CTL-0084 Smallest observed channel reaching first revenue without ads
+
+- answers: OQ-006;
+- mechanic: the operator sells an artefact that falls out of the free content itself, keeps the content free, and asks directly for the purchase from the first videos;
+- classification: OPERATOR SELF REPORT, unverified numbers, mechanism plausible;
+- primary URL: https://www.reddit.com/r/NewTubers/comments/1j784r1/i_made_my_first_income_from_youtube_at_300/ ;
+- capture date: 2026-08-23, post dated 2025-03-09, 308 score and 177 comments in a 719000 member subreddit;
+- measured scale: first revenue at 318 subscribers, which is the smallest first revenue case observed in any niche across all passes;
+- the product: written notes for tutorials that remain free to watch, so the paid item is a by product of production and costs almost nothing extra to make;
+- secondary mechanic: email capture runs alongside the offer, which detaches the audience from the platform;
+- limit: revenue amount was asked for repeatedly in the thread and never disclosed, so this establishes that first revenue is possible at this scale and not how much;
+- applicability: very high, it is the load bearing route C13 observed at the smallest scale;
+- confidence: medium.
+
+### CTL-0085 Views per sale, the arithmetic that replaces revenue per thousand views
+
+- answers: OQ-005 reframed;
+- mechanic: the funnel is view to description click to purchase, and the binding variable is how tightly the product is bound to the video subject;
+- classification: OPERATOR SELF REPORTS, several independent operators in one thread;
+- primary URL: https://www.reddit.com/r/PartneredYoutube/comments/141mmao/can_anyone_provide_an_estimate_for_the_conversion/ ;
+- measured view to click: 0.1 to 1 percent, with one operator reporting 600 clicks against 100000 views which is 0.6 percent;
+- measured click to purchase: 0.5 to 2 percent when the product is incidental to the video, 6 to 15 percent when the product is central to it;
+- derived views per sale: about 2000 views per sale at a tight binding of 0.5 percent click and 10 percent purchase, against about 50000 views per sale at a loose binding of 0.2 percent click and 1 percent purchase, a spread of twenty five times;
+- inference: binding tightness dominates niche choice and dominates volume, and it is the same mechanism as the notes artefact in CTL-0084;
+- planning consequence: a topic is only viable if the product is the natural continuation of the video rather than an attachment to it;
+- limit: self reported, mostly affiliate rather than own product, and one outlier claim of 20 percent click to purchase in the automotive niche is not treated as typical;
+- confidence: medium.
+
+### CTL-0086 Open question set rewritten into the no ads frame
+
+- answers: NO_OPEN_QUESTION, bookkeeping entry;
+- classification: WORKSPACE DECISION, 2026-08-23;
+- OQ-003 is rewritten, the monetization review wording is dropped as inapplicable and the live remainder is whether the recommendation surface keeps allocating impressions to a channel whose videos all look alike, which is a distribution question; the rejection case at CTL-0063 loses evidential force here because it concerns review and not distribution;
+- OQ-005 is rewritten from revenue per thousand views to views per sale against production cost per video, per CTL-0085;
+- OQ-006 is answered by CTL-0084 and its successor question becomes what binds a product tightly to a video subject;
+- closure set is now OQ-003 rewritten, OQ-013 procedure, and OQ-014 binding tightness, with the 2027-02-01 date carrying no force;
+- confidence: high.
