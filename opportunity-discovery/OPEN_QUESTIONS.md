@@ -13,7 +13,6 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 3. Open
 
-- OQ-005 which topics pair a low views per sale figure with a production cost a two video per week pipeline can meet, measured as views per sale rather than as revenue per thousand views; see CTL-0085;
 
 ## 4. Deferred
 
@@ -22,6 +21,7 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 5. Answered
 
+- OQ-005 topic pricing against production cost; ANSWERED by CTL-0097, CTL-0098, CTL-0099 and CTL-0100; the unit is revenue per thousand views rather than views per sale, the artefact price floor is about forty dollars, and the cost half resolves against the internal production record rather than against any public source;
 - OQ-013 lane allocation procedure; ANSWERED by CTL-0093, CTL-0094, CTL-0095 and CTL-0096; the instrument set is measured, the one blocking gap is the absence of any reliable handle to channel identifier path, and the reading point is the second channel rather than the incumbent;
 - OQ-003 does a fixed visual frame stop distribution; ANSWERED by CTL-0090, CTL-0091 and CTL-0092 as a no with one condition; a thirteen year old identical template still draws about 104000 views per day on about one upload per month, the subject and not the packaging drives the spread, and the real failure mode is one click replication rather than surface rejection;
 - OQ-014 what binds a product to a video; ANSWERED by CTL-0087, CTL-0088 and CTL-0089; binding requires the product to be the artefact shown, to have no free or prepaid substitute, and to remove work the video made visible; topical alignment alone produced 4 sales against 140000 subscribers while a tightly bound product runs at about 400 views per sale;

@@ -428,3 +428,54 @@ Entries are appended below in identifier order.
 - cost: about eight to twelve fetches per lane and no authentication;
 - decay: a verdict holds for roughly one quarter, which is why the procedure and not the verdict is the deliverable;
 - confidence: medium.
+### CTL-0097 A channel of 851 subscribers carries a product earning about 1500 dollars a month
+
+- answers: OQ-005;
+- classification: OBSERVED FACT for the channel metrics, SELF REPORTED for the revenue, capture date 2026-08-23;
+- channel Rita from Quill and Steel, handle quillandsteel, measured by the CTL-0096 procedure: 851 subscribers, 70 videos, 52645 lifetime views, about 100 views per day steady across the fourteen day window;
+- artefact: a Notion worldbuilding and novel planning system for fantasy writers priced at 49.99 dollars, sold from an owned storefront and from the Notion marketplace;
+- seller states roughly 1500 dollars per month from this one product, of which 400 to 500 comes through the marketplace, which implies about thirty sales per month against about 3000 monthly views;
+- attribution caveat, load bearing: the seller states the bulk of sales arrives through her own website by organic search and that she works as a content marketer, so the channel is not demonstrated to be the selling surface;
+- what the case does demonstrate is that audience size is not the constraint, since 851 subscribers outearn the 140000 subscriber failure recorded at CTL-0087;
+- URLs: https://socialblade.com/youtube/handle/quillandsteel and https://www.quillandsteel.com/workbooks/p/notion-worldbuilding-template ;
+- applicability: high;
+- confidence: medium high for the metrics, medium for the revenue.
+
+### CTL-0098 A perfectly bound artefact still collapses when a free substitute exists
+
+- answers: OQ-005, and confirms the substitute condition of CTL-0089 with prices attached;
+- classification: OBSERVED FACT, two first hand seller reports, capture date 2026-08-23;
+- case: selling STL design files for 3D printing, where the artefact is the exact object shown and binding to the demonstration is as tight as it gets;
+- measured outcome: 4.53 dollars in one month for the first seller, and 37.86 dollars total across four months and fourteen designs for the second, at unit prices of two to three dollars;
+- cause named consistently by the market itself: the buyer already owns a printer, already knows the free libraries, and can often model the object himself;
+- this isolates the substitute condition, because binding and artefact existence are both satisfied and the outcome is still near zero;
+- secondary cause: a two to three dollar unit price cannot carry the design labour regardless of volume;
+- URL: https://www.reddit.com/r/3dprinter/comments/1h2d784/selling_stl_3d_printable_design_files_online_am_i/ ;
+- applicability: high, this is the rejection test that runs before any traffic estimate;
+- confidence: high.
+
+### CTL-0099 The decision unit is revenue per thousand views, not views per sale
+
+- answers: OQ-005;
+- SUPERSEDES: CTL-0085, which is narrowed rather than overturned;
+- classification: DERIVED from CTL-0084, CTL-0087, CTL-0088, CTL-0097 and CTL-0098;
+- reason: views per sale omits price, so a four hundred views per sale niche at five dollars and the same figure at fifty dollars differ tenfold in the only quantity that decides anything;
+- measured revenue per thousand views across the priced cases: about 161 dollars for the Notion template benchmark, between 150 and 500 dollars for CTL-0097 if attributed to the channel, about 4 dollars for the fitness operator, and near zero for the 140000 subscriber audiobook failure;
+- the spread is about fortyfold and it tracks the product of artefact price and binding tightness, not niche size;
+- price observation: the artefacts that carry a channel are priced between 50 and 65 dollars, and those that fail are priced between 17 and 20 dollars or below;
+- rule: an artefact priced under roughly forty dollars must be rejected unless the lane shows exceptional volume, because the arithmetic cannot recover;
+- applicability: very high, this replaces the unit used in every later estimate;
+- confidence: medium high.
+### CTL-0100 The topic filter for OQ-005 and the one number the web cannot supply
+
+- answers: OQ-005, closing it;
+- classification: DERIVED from CTL-0089, CTL-0096, CTL-0097, CTL-0098 and CTL-0099, stated as an executable filter;
+- a candidate topic passes only when all four hold: an artefact exists that the viewer carries away, no free or already paid substitute covers it, the artefact can be priced at forty dollars or more without absurdity, and the lane reads as still allocating under CTL-0096;
+- topics that pass on the evidence held: structured planning systems for a defined creative or professional practice, where the video shows the work and the artefact removes it;
+- topics that fail: anything whose artefact is one click reproducible per CTL-0092, anything with a mature free library, and anything person delivered such as readings or interpretations, which have no artefact at all;
+- the cost half of this question is not answerable from public sources, since published figures are agency rates of about 2500 dollars per finished minute and bear no relation to this pipeline;
+- the only valid cost source is the production record of VIDEO-001 through VIDEO-004 in this repository, expressed as operator hours per finished video;
+- decision arithmetic, to be completed with that one number: a topic is viable when expected monthly views multiplied by measured revenue per thousand views exceeds the operator hours per video multiplied by the cadence multiplied by the hour value the owner assigns;
+- consequence: research closes here, and the remaining unknown is an internal measurement rather than an external one;
+- applicability: very high, this is the gate into the cold start decision;
+- confidence: medium.

@@ -79,7 +79,7 @@ The condition is replication cost. A framed format dies when a competitor can re
 
 Lane health is read from the second channel and not from the leader, because the incumbent looks the same either way. In the closed reference lane every non incumbent sits between 10 and 900 views per video with no daily motion against an incumbent at about 45000 views per day, while in the size comparison lane a non incumbent holds about 5000 views per day steadily against an incumbent at about 104000. The procedure is recorded at CTL-0096, its instrument set at CTL-0093, and its one blocking gap, the absence of any reliable path from a channel handle to a channel identifier, at CTL-0094. A verdict holds for about one quarter, so the procedure and not any current verdict is the asset.
 
-Discovery is closing. One item remains, OQ-005, the views per sale figure set against production cost for specific candidate topics. The cold start decision is taken on the evidence held once it closes. See CTL-0086 and CTL-0082.
+Discovery is closed. A topic is admitted only when an artefact exists, no free or already paid substitute covers it, it prices at forty dollars or more, and the lane reads as still allocating. Measured revenue per thousand views spans about fortyfold across the priced cases, from near zero to several hundred dollars, and it tracks price multiplied by binding tightness rather than niche size. A channel of 851 subscribers carries a product earning about 1500 dollars a month, so audience size is not the constraint. See CTL-0097 through CTL-0100. The one remaining unknown is internal, the operator hours per finished video taken from the VIDEO-001 to VIDEO-004 record, and the cold start decision is taken once that number is supplied.
 
 ## 5. Active clusters
 
@@ -107,6 +107,8 @@ The full register of clusters from passes one to thirteen, including those close
 
 Thirteen passes ran before r/PartneredYoutube was sampled, although RESEARCH_PROTOCOL.md section 2 has listed it as a Tier 1 source since the first pass, and although the same section forbids Tier 3 material from being the sole support for an entry. Two related drifts occurred in the twelfth and thirteenth passes: the sample narrowed to a single niche although the niche is open, and the reasoning began to treat the owner products as the object of investigation although the channel is the object. The structural cause was that the ledger had become unreadable in one pass and no file held the queue of open questions, so after each compression the standing state was reconstructed from narrative rather than from state. The remedies are the archive boundary, the rewritten map and OPEN_QUESTIONS.md.
 
+Correction recorded 2026-08-23. CTL-0085 stated the revenue unit as views per sale. CTL-0099 narrows it, because views per sale omits artefact price and price varies enough across the measured cases to invert any ranking built on volume alone. The standing unit is revenue per thousand views, and the artefact price floor of about forty dollars is part of the filter.
+
 ## 8. What is not settled
 
-See OPEN_QUESTIONS.md. One question remains, OQ-005, which prices candidate topics in views per sale against production cost.
+See OPEN_QUESTIONS.md. No research question remains open. What is not settled is an internal measurement, the operator hours per finished video, which converts the admitted topic filter into a go or no go on cadence.
