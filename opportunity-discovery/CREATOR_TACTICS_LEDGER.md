@@ -111,3 +111,38 @@ This index exists because the v1 to v2 transition lost the standing state. It li
 - limits: three lanes are not the whole market and they were the lanes where free supply is densest, so this is a directional finding;
 - applicability: high;
 - confidence: medium.
+### CTL-0110 EN-B fails the vendor hazard test more heavily than the Russian lanes
+
+- answers: NO_OPEN_QUESTION, executes the CTL-0107 run order for EN-B;
+- classification: OBSERVED FACT, search surface measured 2026-08-23, rejected before traffic measurement;
+- free contractor estimating templates are published by Jobber, QuickBooks, Wave, JobNimbus and Smartsheet, each as acquisition bait for a subscription product;
+- the mechanism is the CTL-0105 hazard and it is denser here than in the Russian lanes, because contracting software is a well funded market with large customer acquisition budgets;
+- consequence: the artefact cannot hold the CTL-0099 price floor and the lane is rejected;
+- URLs: https://www.getjobber.com/free-tools/estimate-template/contractor/ and https://www.jobnimbus.com/tools/estimate-template ;
+- applicability: high, and it confirms that the hazard is a property of well capitalised verticals rather than of the Russian market specifically;
+- confidence: high.
+
+### CTL-0111 Subscriber count does not identify the incumbent, daily traffic does
+
+- answers: NO_OPEN_QUESTION, this corrects the reading rule of the lane procedure;
+- classification: OBSERVED FACT, tracker measured 2026-08-23 over a fourteen day window;
+- Terrible Writing Advice holds 468000 subscribers and 97 videos and collects about 4400 views per day;
+- Alyssa Matesic holds 184000 subscribers and 1162 videos and collects about 27000 views per day, roughly six times more traffic on under half the subscriber base;
+- the difference tracks publishing activity, since the larger channel is effectively dormant while the smaller one ships several videos per week;
+- this repeats the mechanism of CTL-0078 in an unrelated lane, that the recommendation surface serves current supply rather than accumulated audience;
+- procedural correction: when ranking a lane under CTL-0096 step five, rank by daily views and never by subscribers, because a dormant large channel will otherwise be mistaken for the incumbent and the whole lane will be misread;
+- applicability: very high, this changes how every future lane run is read;
+- confidence: high.
+
+### CTL-0112 EN-A is a live lane whose entry cost is measured in years of catalogue
+
+- answers: NO_OPEN_QUESTION, executes the CTL-0107 run order for EN-A;
+- classification: OBSERVED FACT, tracker measured 2026-08-23;
+- lane profile by daily views: Alyssa Matesic about 27000 on 1162 videos, Kate Cavanaugh about 1300 on 858 videos, Terrible Writing Advice about 4400 on 97 videos and dormant, Quill and Steel about 100 on 70 videos;
+- verdict: still allocating, because the lower layer holds steady traffic across the whole window with no decay, unlike the closed sleep history lane where non incumbents sat between 10 and 900 views and fell;
+- the entry cost is the finding: the two active channels carry 858 and 1162 videos, so presence in this lane is bought with years of catalogue rather than with a dozen episodes;
+- at the CTL-0045 ceiling of two videos per week a thousand video catalogue is about ten years, so competing for the lane on its own terms is not available to this pipeline;
+- the viable entry is the one already measured at CTL-0097, a narrow sector served with an artefact, where about 100 views per day supports roughly 1500 dollars per month;
+- consequence: lane liveness and lane accessibility are separate properties and both must be reported;
+- applicability: very high;
+- confidence: medium high.
