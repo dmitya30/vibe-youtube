@@ -1,7 +1,7 @@
 # Opportunity discovery workspace
 
 Updated: 2026-08-23
-Status: THIRTEENTH RESEARCH PASS COMPLETE / PRODUCT FORM SETTLED / ACQUISITION SURFACE OPEN
+Status: THIRTEENTH PASS COMPLETE / WORKSPACE RESTRUCTURED / LEDGER V2 OPEN
 Workstream: OPPORTUNITY_DISCOVERY_RESEARCH
 Baseline commit at creation: d200acca7ccc4114cf3c610b179611c6bd1f4746
 
@@ -42,11 +42,14 @@ The first substantive result must answer:
 
 - README.md current status and gate;
 - RESEARCH_PROTOCOL.md verification method for creator cases;
-- CREATOR_TACTICS_LEDGER.md registry of discovered practices;
-- OPPORTUNITY_MAP.md comparative map of directions;
+- CREATOR_TACTICS_LEDGER.md registry of discovered practices, version two, numbering continues from CTL-0065;
+- OPEN_QUESTIONS.md the queue that drives every pass, read directly after the map;
+- COLD_START_ECONOMICS.md arithmetic of the path from zero to first monetization;
+- archive/ the frozen version one ledger and the per pass narrative of the map, cited by identifier and never appended to;
+- OPPORTUNITY_MAP.md current state of directions, rewritten in place rather than appended to;
 - candidates/RU_NUMEROLOGY.md separate candidate dossier.
 
-Do not expand this workspace with additional documents before the ledger and the map contain verified entries.
+Do not expand this workspace beyond the files listed above. Any further document requires an explicit owner decision. Reading order after a context compression is AGENTS.md, README.md, OPPORTUNITY_MAP.md, OPEN_QUESTIONS.md, and the ledger last and only for the identifiers those files name.
 
 ## 5. Evidence storage constraint
 
@@ -79,9 +82,10 @@ ESOTERIC_PRODUCTS=SUPPLEMENTARY_MONETIZATION_LAYER_NOT_THE_OBJECT
 TARGET=ZERO_TO_START_OF_MONETIZATION
 MONETIZATION_MEANS=DIRECT_ADS_OR_AFFILIATE_OR_OWN_PRODUCTS
 YPP_AS_TARGET=WITHDRAWN_USED_ONLY_AS_SCALE_CALIBRATION
-BROAD_OPPORTUNITY_MAP=THIRTEENTH_PASS_COMPLETE
-CREATOR_TACTICS_LEDGER=64_ENTRIES
+BROAD_OPPORTUNITY_MAP=REWRITTEN_AS_CURRENT_STATE_2026_08_23
+CREATOR_TACTICS_LEDGER=V1_ARCHIVED_AT_CTL_0064_V2_OPEN_FROM_CTL_0065
 SAMPLE_SCOPE=COLD_START_CHANNELS_ONLY
+NICHE_SCOPE=OPEN_ESOTERIC_IS_ONE_CANDIDATE_AMONG_SEVERAL
 PIPELINE_AI_USE=VOICE_AND_FRAMES_AND_SHORT_LOOPS_ONLY
 AI_PERSONA_AS_HUMAN=REJECTED_BY_OWNER_LONG_AGO
 LEADING_CLUSTER=C13_OWN_PRODUCT_FROM_FIRST_VIEWS
@@ -91,5 +95,5 @@ RU_SHORTS_STRONGER_THAN_LONG_FORM=REPORTED_NEEDS_TESTING
 CLUSTERS_CLEARED_FOR_PROBE=NONE
 NEW_CHANNEL_AUTHORIZATION=NOT_GRANTED
 PRODUCTION_AUTHORIZATION=NOT_GRANTED
-NEXT_REQUIRED_GATE=ACQUISITION_SURFACE_FOR_NON_PERSONAL_PRODUCT
+NEXT_REQUIRED_GATE=VERIFIED_COLD_START_CASES_ACROSS_NICHES_OQ_001
 ```
