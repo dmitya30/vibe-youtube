@@ -165,3 +165,11 @@ opened in March 2026 and liability suspended only until the end of 2026 (CTL-014
 informing remain lawful; the purchase call does not (CTL-0141). The architecture already implied
 by three economic measurements is now also the compliant one: YouTube informs, a non-restricted
 surface transacts (CTL-0142). A4 in the broad everyday-money lane remains open (CTL-0143).
+
+## Pass 19 — A4 closed in the broad money lane
+Two live operators were measured. A young debt-lane operator runs YouTube as a clip dump for an
+Instagram-first presence and monetises through a paid club (CTL-0144). A service-backed channel
+in an adjacent lane runs the exact split architecture this workstream converged on, with its own
+site first in every description and the service demonstrated inside the content (CTL-0145).
+Neither sells a boxed artefact, so the RU broad-money lane monetises by membership or service
+(CTL-0146), and demonstration replaces promotion as the conversion mechanism (CTL-0147).

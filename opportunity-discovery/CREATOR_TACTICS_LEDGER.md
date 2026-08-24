@@ -396,3 +396,37 @@ Kat Hough covers US-resident finances for Russian speakers. SocialBlade does not
 handle and no channel ID was recoverable, so no feed age check was possible.
 No sub-12-month channel in the broad everyday-money lane has been identified. Recorded as an OPEN
 GAP, not as evidence that none exists.
+
+## CTL-0144 — A4 CLOSED: YOUNG-LANE OPERATOR FOUND, YOUTUBE IS NOT HER CHANNEL
+Danya Vollk (@DanyaVollk): video "Kak zakryt vse dolgi i kredity 2026" 31,000 views, 895 likes,
+8 months old, in the everyday-money/debt lane. SocialBlade does not resolve the handle, i.e. the
+channel is too small or too new to be tracked, while the same operator is heavily present on
+Instagram. Description routes to Telegram and to a PAID CLUB subscription.
+Third-party ad copy about her states she earns "without promotion" — organic only.
+Monetisation form: membership/club, NOT a boxed artefact. Confirms CTL-0121 prediction for RU.
+Positioning note: her framing is a stance ("we neither give nor take debts"), not financial
+advice, which sidesteps both regulation and the distrust problem.
+URL: https://www.youtube.com/watch?v=S5mQaI0SX8k
+
+## CTL-0145 — ACCIDENTAL CONTROL CASE: SERVICE-BACKED CHANNEL ARCHITECTURE
+CheckAuto (UC-Jsuo7RYG2o52d9_YTw0mA), created 2023-03-31, Belarus car-inspection service.
+Feed sample: 38,619 / 22,838 / 22,622 / 20,372 / 13,282 / 12,276 / 9,876 / 9,049 / 8,660 /
+7,830 / 5,747 / 4,896 / 4,748 / 4,585 / 2,276 views; cadence roughly 2-3 per month.
+EVERY description leads with the own site check-auto.by, then Telegram, Instagram, VK.
+Format "Ekspert na den" gives a FREE inspection inside the video; the content IS the service
+demonstration rather than an ad placed before it. Some videos are dealer-sponsored placements.
+This is the split architecture of CTL-0142 already running in production.
+
+## CTL-0146 — RU BROAD MONEY LANE MONETISES BY MEMBERSHIP OR SERVICE, NOT BY ARTEFACT
+Both live operators found in this lane monetise off-platform and without a low-price artefact:
+one by paid club, one by a geographically bound service. No 15-50 USD boxed artefact was observed
+in the RU everyday-money lane, in contrast to EN (CTL-0097) and to the RU marketplace debt guide
+(CTL-0130), which sells on a marketplace rather than through a channel.
+Both keep the purchase call off YouTube, independently matching the legal requirement of CTL-0140.
+
+## CTL-0147 — DEMONSTRATION BEATS PROMOTION (format rule)
+Observed in CheckAuto and consistent with CTL-0141: a video that performs the service for a real
+person is content, not advertising, and needs no purchase call to convert. Format candidate for
+cold start: recurring segment where the operator does the thing for one viewer, free, on camera.
+Cost note: this format requires a real deliverable service, which the automation pipeline alone
+does not supply. Recorded as a constraint, not as a solved design.
