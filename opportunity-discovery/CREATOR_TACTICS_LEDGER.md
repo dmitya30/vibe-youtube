@@ -430,3 +430,29 @@ person is content, not advertising, and needs no purchase call to convert. Forma
 cold start: recurring segment where the operator does the thing for one viewer, free, on camera.
 Cost note: this format requires a real deliverable service, which the automation pipeline alone
 does not supply. Recorded as a constraint, not as a solved design.
+
+## CTL-0148 — THE ASSET GAP, STATED AS A DESIGN CONSTRAINT
+Both live operators measured in the broad money lane monetise through an asset this workstream
+does not hold: Danya Vollk through a paid club, which requires a persona people join (CTL-0144);
+CheckAuto through a bound service demonstrated on camera, which requires something deliverable
+(CTL-0145). The owned asset is a Remotion and AI production pipeline, which yields scale but
+neither identity nor a service.
+Do not resolve this by inventing a persona: AI persona as human is rejected by the owner, and
+monetisation policy restricts AI personas specifically on health, legal, finance and politics
+(CTL-0061), which covers every money lane examined in passes 16 to 19.
+The only observed artefact form that is a byproduct of PRODUCTION rather than of IDENTITY or
+SERVICE is CTL-0084: first revenue at 318 subscribers from written notes derived from the free
+tutorials themselves. A pipeline that researches a subject to script it already produces the raw
+material of such an artefact.
+Recorded as OQ-015. The architecture gate does not open until this is resolved, because a split
+architecture with nothing to transact is a diagram, not a design.
+
+## CTL-0149 — SYNCHRONISATION DEFECTS FOUND AND FIXED 2026-08-24
+README carried seven conflicting values of CREATOR_TACTICS_LEDGER and two of SELLING_SURFACE;
+last-wins parsing hid the conflict while making the file unreadable, which is the same failure
+mode that caused the drift recorded in map section 7. One key one value is now enforced.
+OPPORTUNITY_MAP section 4 still asserted a closed discovery and a forty dollar price floor, both
+superseded by CTL-0113 and CTL-0115; section 8 asserted no open questions against a non-empty
+LANE_QUEUE. OPEN_QUESTIONS section 3 was empty while at least three questions were live.
+Standing rule: a pass that supersedes a rule must edit the map in place, not only append to the
+ledger, because the map is what is read after compression.

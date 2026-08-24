@@ -13,6 +13,9 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 3. Open
 
+- OQ-015 what artefact can this pipeline produce that neither requires a persona nor a deliverable service; raised by CTL-0148; the two live operators in the broad money lane monetise by club membership and by a bound service, and the workstream owns neither, while CTL-0084 records first revenue at 318 subscribers from written notes derived from free tutorials, which is the only observed artefact form that is a byproduct of production rather than of identity; OPEN and blocking the architecture gate;
+- OQ-016 which non-restricted Russian surface carries the transaction and what it costs to stand up; raised by CTL-0140 and CTL-0142; candidates are an own site, VK, Dzen, Rutube and a marketplace card, and the marketplace card is the only one measured so far as both searchable and payment-capable; OPEN;
+- OQ-017 what the residual QA cost per video is after automation; carried forward from the map section 8; the 1.5 hours per video figure behind the 195 dollar monthly cost is an estimate and has never been measured on a produced episode; OPEN and load bearing for every break-even number in the ledger;
 
 ## 4. Deferred
 
