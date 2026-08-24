@@ -13,7 +13,8 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 3. Open
 
-- OQ-018 which non-restricted Russian surface supplies its OWN search demand for digital artefacts, at what average order value, and whether a self-employed seller may list catalogue depth there under the authorship proof rule of CTL-0132; raised by CTL-0151 and CTL-0152; the Etsy shape is measured only in the English market and the RU equivalent is assumed rather than observed; OPEN and blocking the architecture gate;
+- OQ-016 which surface can legally take money from a Russian viewer of an owned channel, at what take rate, under what seller status, and without the restricted-resource advertising exposure of CTL-0140; promoted to the active gate by CTL-0154; IN PROGRESS;
+- OQ-019 what the credential effect pays, where an artefact monetises its author rather than itself through press, paid lectures, a commissioned course and clients; raised by CTL-0157 as the first observed instance and by CTL-0138 which assumes the mechanism without evidence; OPEN;
 - OQ-016 which non-restricted Russian surface carries the transaction and what it costs to stand up; raised by CTL-0140 and CTL-0142; candidates are an own site, VK, Dzen, Rutube and a marketplace card, and the marketplace card is the only one measured so far as both searchable and payment-capable; OPEN;
 - OQ-017 what the residual QA cost per video is after automation; carried forward from the map section 8; the 1.5 hours per video figure behind the 195 dollar monthly cost is an estimate and has never been measured on a produced episode; OPEN and load bearing for every break-even number in the ledger;
 
@@ -24,6 +25,7 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 5. Answered
 
+- OQ-018 which non-restricted RU surface supplies its own search demand for digital artefacts; ANSWERED and PARTLY WITHDRAWN by CTL-0154, because the question substituted marketplace search for the channel as the demand source; the measurements are retained as a control case in CTL-0155 through CTL-0158, pricing rented demand at 65 to 75 percent of revenue plus a 990 RUB ceiling against about 13 percent on a payment-only surface;
 - OQ-015 what artefact this pipeline can produce that needs neither a persona nor a deliverable service; ANSWERED by CTL-0150, CTL-0151, CTL-0152 and CTL-0153; the form is a written byproduct of the research the script already requires, placed on a marketplace that supplies its own search demand rather than on a host-only checkout page, with catalogue depth standing in for the audience a cold start lacks; the measured ceiling is small, under 20 USD per day gross, which clears the 195 USD monthly cost about threefold;
 - OQ-005 topic pricing against production cost; ANSWERED by CTL-0097, CTL-0098, CTL-0099 and CTL-0100; the unit is revenue per thousand views rather than views per sale, the artefact price floor is about forty dollars, and the cost half resolves against the internal production record rather than against any public source;
 - OQ-013 lane allocation procedure; ANSWERED by CTL-0093, CTL-0094, CTL-0095 and CTL-0096; the instrument set is measured, the one blocking gap is the absence of any reliable handle to channel identifier path, and the reading point is the second channel rather than the incumbent;

@@ -103,6 +103,7 @@ The full register of clusters from passes one to thirteen, including those close
 - CTL-0022 remains structurally sound but its empirical base was removed by CTL-0027;
 - CTL-0059 portability limit removed by owner confirmation of 2026-08-23.
 - CTL-0132 narrowed by CTL-0151, a marketplace card is a demand source while a hosted checkout page is only a payment endpoint.
+- CTL-0151 narrowed by CTL-0154, its rule against a host-only surface substituted marketplace search for the channel as the demand source; the channel is the demand source by construction and a surface is chosen on take rate, price freedom and payment legality alone.
 
 ## 7. Process failure recorded on 2026-08-23
 
@@ -189,3 +190,21 @@ traffic only (CTL-0153). What is not yet measured is the Russian side of this: w
 RU surface supplies its own search demand for digital artefacts, at what average order value, and
 whether a self-employed seller may list catalogue depth there under the authorship rule of
 CTL-0132. That is OQ-018 and it is the next pass.
+
+## Pass 21  a method correction, and the price of renting demand instead of owning it
+This pass began by asking which RU marketplace supplies its own search demand, and that question
+was itself the defect: the object of the workstream is a channel, so the demand source is owned by
+construction and a storefront is only a display and a till (CTL-0154). The pass is retained as a
+control case, because it prices the alternative. Ozon bars self-employed sellers from digital goods,
+Wildberries routes digital through a shipped physical carrier after WB Digital closed on 2025-12-01,
+and the single bridge without a seller account, Litres selfpub, charges 65 to 75 percent of revenue
+and caps the price at 990 RUB, which puts break-even at 57 to 80 sales per month (CTL-0155). A
+surface that only clears payment keeps about 13 percent and caps nothing, so owned traffic is worth
+a threefold to fivefold margin multiple on the identical artefact, and the price ceiling is revealed
+as administrative rather than as a market fact (CTL-0156). Two findings survive independently of the
+marketplace question: cold paid traffic is measurably unable to sell an artefact of this class, and
+the same artefact monetised its author through press, lectures, a commissioned course and clients
+rather than through the shelf (CTL-0157), while catalogue depth is confirmed as the paying mechanism
+in the RU market too (CTL-0158). The next gate is the one that was skipped: OQ-016, which surface
+can legally take money from a Russian viewer of an owned channel, at what take rate, and under what
+seller status.

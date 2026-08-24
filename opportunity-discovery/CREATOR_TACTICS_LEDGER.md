@@ -510,3 +510,72 @@ Read together with CTL-0126 and CTL-0142 this is the same funnel from the seller
 article feed a page, and the page sells.
 answers: OQ-015. classification: OBSERVED FACT, capture date 2026-08-24. confidence: medium.
 URL: https://www.reddit.com/r/digitalproductselling/comments/1o4uw2y/
+
+## CTL-0154  METHOD DEFECT: THE DEMAND SOURCE WAS SUBSTITUTED AND THE PASS AIMED AT THE WRONG TARGET
+SUPERSEDES in part: CTL-0151, whose selection rule barred a host-only surface for the first
+artefact on the grounds that it presupposes an audience a cold start lacks.
+That rule imported an assumption the workstream does not hold. The object of this workstream is a
+channel taken from zero to monetisation, so the CHANNEL is the demand source by construction, and
+a storefront is required only to display the artefact and clear the payment.
+Substituting a marketplace search for the channel replaces the object of the work with a different
+business, and produced a pass aimed at RU marketplace eligibility rather than at the channel.
+Root cause: payment acceptance in RU is hard and a marketplace bundles demand and payment into one
+account, so two separable problems were fused and solved by the bundle.
+Corrected rule: demand comes from owned content, the transaction surface is chosen on take rate,
+price freedom and payment legality ALONE, and its own search traffic is a bonus, never a criterion.
+answers: NO_OPEN_QUESTION, recorded because it corrects the method that generated CTL-0155 onward.
+classification: METHOD CORRECTION, capture date 2026-08-24. confidence: high.
+
+## CTL-0155  THE PRICE OF RENTING DEMAND IN RU IS MEASURED AND IT IS THE CONTROL CASE, NOT A PATH
+Retained as a BOUNDARY measurement of what the workstream gives up by having no channel.
+Ozon seller policy: digital goods are open to sole proprietors and legal entities only and a
+self-employed seller may not sell them at all.
+Wildberries admits self-employed sellers, but the separate WB Digital storefront closed on
+2025-12-01 and the working route on the main marketplace is a shipped PHYSICAL CARRIER holding an
+access code, which reintroduces printing, stock and per-order fulfilment.
+Litres selfpub is the one bridge onto RU marketplace shelves without a seller account: copyright
+stays with the author, distribution passes to more than a hundred partners including Ozon, partners
+cannot be excluded individually, price is capped at 49.99 to 990 RUB, royalty is 25 percent
+non-exclusive or 35 percent exclusive on (price minus 3.5 percent fees) divided by 1.22.
+Net 196 to 274 RUB per sale gives break-even at 57 to 80 sales per month.
+answers: OQ-018 as a control case. classification: OBSERVED FACT, capture date 2026-08-24.
+URLs: https://seller-edu.ozon.ru/policies/restrictions/need-access/cifrovye-tovary ;
+https://selfpub.ru/faq/license/ ; https://selfpub.ru/faq/pricing/
+
+## CTL-0156  RENTED DEMAND COSTS ABOUT SEVENTY PERCENT OF REVENUE PLUS THE RIGHT TO SET A PRICE
+An intermediary that supplies the buyer keeps 65 to 75 percent of the sale and imposes a 990 RUB
+ceiling, while a surface that only clears payment keeps about 13 percent and imposes no ceiling.
+The ceiling is therefore ADMINISTRATIVE rather than a market limit, and it disappears together
+with the intermediary, which reverses the constraint named in CTL-0152: average order value is not
+capped by the market but by the choice of surface.
+Consequence for the architecture: owned traffic is worth roughly a threefold to fivefold margin
+multiple on the same artefact at the same price, which is the quantified case FOR the channel.
+This does not make the artefact viable on its own; it fixes which side of the trade to build.
+answers: OQ-018. classification: DERIVED CALCULATION from CTL-0155 and CTL-0151.
+confidence: high on arithmetic, medium on the 195 USD monthly cost baseline, still open as OQ-017.
+
+## CTL-0157  A MEASURED RU NON-FICTION OPERATOR, THE FAILURE OF PAID TRAFFIC AND A CREDENTIAL EFFECT
+Self-published English-teaching manual sold through marketplaces: 500 copies over two years,
+69217 RUB gross, 19005 RUB net, about 810 RUB per month, roughly 21 copies per month.
+Paid acquisition failed twice and is measured: Yandex Direct 6000 RUB for zero sales, and eight
+Telegram placements costing 11884 RUB returning 1436 RUB, one channel giving 20 sales and the
+more expensive channels one or none, which prices cold paid traffic out of this artefact class.
+The artefact then acted as a CREDENTIAL rather than as shelf revenue: press interviews,
+commissioned articles, an invitation to build a course, paid lectures and students.
+That is the first observed case where the artefact monetises the author instead of itself, and it
+is the mechanism the memoir model of CTL-0138 assumes but has never had evidence for.
+answers: OQ-018. classification: OBSERVED FACT, capture date 2026-08-24. confidence: medium high.
+URL: https://t-j.ru/skolko-ia-zarabotala-na-knige-za-2-goda/
+
+## CTL-0158  CATALOGUE DEPTH IS CONFIRMED AS THE PAYING MECHANISM BY A SECOND MARKET
+Self-publishing reached 50 percent of the RU ebook market by value, 1.3 bn RUB in a quarter, with
+281 thousand registered authors on one platform, up 39 percent year on year.
+Reported split: 32 percent publish free and earn nothing, 68 percent earn monthly, averaging 50 to
+70 thousand RUB, and the stated mechanism is publishing several titles per month.
+This restates CTL-0152 in the RU market and explains the distance between 810 RUB per month for a
+single title in CTL-0157 and the reported average across a deep catalogue.
+Education is the largest origin sector among independent authors at 14 percent, so the lane is not
+fiction-only, but the average is reported by an interested platform and mixes serialised fiction
+with non-fiction, so it bounds a ceiling and does not predict a cold start.
+answers: OQ-018. classification: REPORTED STATISTIC, capture date 2026-08-24. confidence: medium.
+URL: https://www.mn.ru/smart/samizdat-pokoryaet-onlajn-skol-ko-zarabatyvayut-nezavisimye-pisateli-i-kto-iz-nih-zakrepilsya-v-liderah-prodazh
