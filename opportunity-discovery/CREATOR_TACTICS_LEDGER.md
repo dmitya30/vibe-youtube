@@ -232,3 +232,45 @@ usable RU evidence surface for this lane. Boosty exposes paid-subscriber counts 
 Standing note: RU lanes must be evidenced by a public counter (Boosty subscribers, marketplace
 review count), never by agency case studies, which are an interested party.
 URL: https://plati.market/search/ (empty result for the tested query)
+
+## CTL-0125 — EN AFFILIATE ARITHMETIC MEASURED (A3 PASS)
+ClickBank publishes up to 75 percent commission on top offers; Digistore24 up to 85-95 percent,
+with cited payouts up to 155.20 USD per sale. Net 37-116 USD per sale against post-automation
+cost ~195 USD/mo (CTL-0101) gives break-even at 2-5 sales per month, improving on CTL-0117.
+URLs: https://www.clickbank.com/blog/clickbank-top-offers/ ; https://www.digistore24.com/blog/top-digistore24-offers/
+
+## CTL-0126 — YOUTUBE IS A WEAK AFFILIATE SURFACE (third confirmation of CTL-0102)
+First-hand: photographer with real tutorial channel earned 40-60 USD/mo from affiliate links;
+reported ~300 unconverted downloads against few converted sales; another operator reports
+800k+ views and zero sales. The operator earning 3-4k USD/mo in the same thread states he uses
+NEITHER ClickBank NOR Digistore24 and drives SEO traffic only, having abandoned paid ads after
+18 months because expenses outgrew added sales.
+Rule: description-link attribution is not a sales channel. A searchable page must sit between
+the video and the offer. Video feeds the page; the page sells.
+URLs: https://www.reddit.com/r/PartneredYoutube/comments/1hafkrz/ ; https://www.reddit.com/r/Affiliatemarketing/comments/154akuj/
+
+## CTL-0127 — LOOPHOLE FOUND: MANDATED DEMAND, NOT IMPULSE DEMAND
+Measured operator at 3-4k USD/mo promotes online courses required BY LAW for licensing in a
+narrow geo-specific niche, monetised through SEO alone. Buyer does not need persuasion; a
+regulator compels the purchase. Generalised selection heuristic added to CTL-0118 as A5:
+prefer lanes where purchase is compelled (licensing, certification, compliance, deadline,
+documentation) over lanes where purchase is discretionary.
+Trade-off recorded: such lanes are narrow and cloneable, which is also why operators stay silent.
+
+## CTL-0128 — AFFILIATE ROUTE CARRIES REVOCATION RISK
+First-hand: affiliate account deactivated immediately after payouts jumped to 3-4 figures;
+earned commissions withheld pending investigation while the merchant retained the sales.
+Consequence for this project: the affiliate route was adopted as the workaround for unsolved
+foreign-payment intake (CTL-0117). The workaround exists but is unilaterally revocable and must
+not be treated as a settled payment solution. Mitigation observed: self-hosted link redirects
+with own click tracking, to hold the merchant accountable on counts.
+
+## CTL-0129 — BOXED-PRODUCT LIMIT: SUPPORT IS MANDATORY FOR VENDORS
+ClickBank: seller has 24 hours to save a refund request before automatic refund; return fee
+1.00 USD at price >=10 USD, 0.50 USD below; chargeback zones Green <1.5 percent,
+Yellow 1.5-1.9 percent, Red 2 percent+ requiring action within 48 hours, sustained Red leads to
+restrictions or termination.
+Therefore a hands-off boxed infoproduct is not viable AS A VENDOR on this network; packaging
+without substance is bounded by refund and chargeback rates, not by taste. As an AFFILIATE the
+support load does not apply, only commission debit on refunds. Entry posture: affiliate first.
+URL: https://support.clickbank.com/en/articles/10535249-managing-refunds-and-chargebacks

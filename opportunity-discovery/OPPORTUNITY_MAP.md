@@ -131,3 +131,11 @@ exist, but the RU revenue shape is a $2-6/month retention subscription requiring
 subscribers, which contradicts the automation-and-QA operator profile. Relationships shows the
 strongest measured pain share (26%) with no observable sales counter (CTL-0122).
 Next: EN health and EN relationships through the affiliate route, where commission is 30-50%.
+
+## Pass 15 — EN affiliate route measured
+Affiliate commissions of 75-95 percent cut break-even to 2-5 sales per month (CTL-0125), but
+YouTube description links are a measured-weak sales surface (CTL-0126) and affiliate accounts are
+revocable on sudden growth (CTL-0128). The strongest observed pattern is compelled demand:
+licensing-mandated courses sold via SEO, 3-4k USD/mo by one operator (CTL-0127).
+Coverage gap acknowledged: the money sphere was examined only as corporate B2B. Solo-expert B2B
+and all of B2C money remain untested and are next.
