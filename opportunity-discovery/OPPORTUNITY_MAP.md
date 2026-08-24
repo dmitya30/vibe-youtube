@@ -102,6 +102,7 @@ The full register of clusters from passes one to thirteen, including those close
 - CTL-0040 partially closed by CTL-0054 and CTL-0058, the blocker was tooling rather than absence of evidence;
 - CTL-0022 remains structurally sound but its empirical base was removed by CTL-0027;
 - CTL-0059 portability limit removed by owner confirmation of 2026-08-23.
+- CTL-0132 narrowed by CTL-0151, a marketplace card is a demand source while a hosted checkout page is only a payment endpoint.
 
 ## 7. Process failure recorded on 2026-08-23
 
@@ -173,3 +174,18 @@ in an adjacent lane runs the exact split architecture this workstream converged 
 site first in every description and the service demonstrated inside the content (CTL-0145).
 Neither sells a boxed artefact, so the RU broad-money lane monetises by membership or service
 (CTL-0146), and demonstration replaces promotion as the conversion mechanism (CTL-0147).
+
+## Pass 20  the asset gap closes in form and the storefront becomes the variable
+OQ-015 is answered. An artefact that is a byproduct of production, and requires neither a persona
+nor a deliverable service, is sold by measured operators: 132 sales at 5 percent conversion on one
+Gumroad store, and 3-5 sales per day from 100 plus Etsy listings with no audience whatsoever
+(CTL-0150). The decisive distinction found in this pass is between storefront classes: a host
+supplies payment only, a marketplace supplies demand, and Gumroad prices its own Discover at 30
+percent precisely because the seller is expected to bring the buyer (CTL-0151). Catalogue depth is
+therefore the substitute for the audience this workstream does not have, and it is the one scaling
+axis a production pipeline actually owns (CTL-0152). The configuration of video plus store is also
+measured with its decay: over 100,000 USD lifetime falling to about 500 USD per month on free
+traffic only (CTL-0153). What is not yet measured is the Russian side of this: which non-restricted
+RU surface supplies its own search demand for digital artefacts, at what average order value, and
+whether a self-employed seller may list catalogue depth there under the authorship rule of
+CTL-0132. That is OQ-018 and it is the next pass.

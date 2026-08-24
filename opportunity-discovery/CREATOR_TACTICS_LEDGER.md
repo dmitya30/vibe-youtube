@@ -456,3 +456,57 @@ superseded by CTL-0113 and CTL-0115; section 8 asserted no open questions agains
 LANE_QUEUE. OPEN_QUESTIONS section 3 was empty while at least three questions were live.
 Standing rule: a pass that supersedes a rule must edit the map in place, not only append to the
 ledger, because the map is what is read after compression.
+
+## CTL-0150  OQ-015 ANSWERED: THE BYPRODUCT ARTEFACT EXISTS AND SELLS WITHOUT A PERSONA
+Two first-hand sellers monetise written artefacts with no persona, no cohort and no service.
+Seller one, Gumroad, sells ebooks, guides, checklists and two mini courses built in Canva and
+Google Docs: 2,647 product views, 132 sales, 5 percent conversion, 1,518.45 USD on the reported
+dashboard and about 30,000 USD lifetime, organic only, no paid ads ever.
+Seller two, Etsy, sells spreadsheet templates only: 100 plus listings, 5-6 percent conversion,
+3-5 sales per day, under 20 USD per day gross, shop opened October 2023.
+Both artefacts are byproducts of work the seller already performs, matching CTL-0084 and closing
+the CTL-0148 asset gap IN FORM: the pipeline already researches the material such an artefact is
+made of, so it needs neither an identity to join nor a service to deliver.
+answers: OQ-015. classification: OBSERVED FACT, capture date 2026-08-24. confidence: medium high.
+URLs: https://www.reddit.com/r/passive_income/comments/1kkxnf3/ ;
+https://www.reddit.com/r/EtsyDigitalSeller/comments/1tu8rc5/
+
+## CTL-0151  STOREFRONTS SPLIT INTO HOST AND MARKETPLACE AND ONLY ONE CARRIES DEMAND
+SUPERSEDES in part: CTL-0132, which treated a marketplace card as a searchable page only.
+Gumroad hosts but does not distribute: several first-hand sellers report almost no traffic of its
+own, and its Discover marketplace takes 30 percent against about 13 percent on self-driven
+traffic, so the platform is priced to make the seller bring the buyer.
+One seller reports more organic traffic from Etsy than from Gumroad, and the Etsy operator above
+reaches 3-5 sales per day with no social following at all, on marketplace search alone.
+Corrected reading: a marketplace card is a DEMAND SOURCE, a hosted checkout page is only a
+PAYMENT ENDPOINT, and the two must never be scored as the same surface.
+Selection rule: the first artefact must not be placed on a host-only surface, because that
+configuration presupposes exactly the audience a cold start does not have.
+answers: OQ-015 and OQ-016. classification: OBSERVED FACT, capture date 2026-08-24.
+URL: https://www.reddit.com/r/digitalproductselling/comments/1o4uw2y/
+
+## CTL-0152  CATALOGUE DEPTH SUBSTITUTES FOR AUDIENCE AND THE PIPELINE IS A DEPTH MACHINE
+The Etsy operator holds 100 plus listings and converts at 5-6 percent with no channel, no face
+and no list; her traffic is bought with listing count instead of with subscribers.
+This is the first measured monetisation shape compatible with the owned asset, because a
+production pipeline scales artefact count and cannot scale identity.
+Ceiling and cost recorded with the finding: under 20 USD per day gross, Etsy ads only break even,
+and the operator reports hours every day and no traction despite above-average conversion.
+Against the post-automation cost of about 195 USD per month this clears break-even roughly
+threefold, so the shape is viable and small rather than a lane that pays for attention.
+The binding constraint moves from artefact existence to average order value and listing
+throughput, which is where the next measurement belongs.
+answers: OQ-015. classification: OBSERVED FACT, capture date 2026-08-24. confidence: medium.
+
+## CTL-0153  THE VIDEO PLUS STORE CONFIGURATION IS MEASURED INCLUDING ITS DECAY
+First-hand operator selling on Gumroad from free traffic only, blog plus YouTube plus social:
+over 100,000 USD lifetime, currently about 500 USD per month, never any ads.
+He attributes the decline to saturation and higher platform fees, states that a large volume of
+free helpful content is now required per sale, and warns that whatever works today will stop
+working, so the configuration must be re-tested rather than held.
+His stated mechanism is a ladder: a free artefact that ranks and is shared, carrying a link to
+the paid artefact, with articles built to rank around the free one.
+Read together with CTL-0126 and CTL-0142 this is the same funnel from the seller side: video and
+article feed a page, and the page sells.
+answers: OQ-015. classification: OBSERVED FACT, capture date 2026-08-24. confidence: medium.
+URL: https://www.reddit.com/r/digitalproductselling/comments/1o4uw2y/
