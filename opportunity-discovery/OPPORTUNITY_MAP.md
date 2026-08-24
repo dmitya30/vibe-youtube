@@ -104,6 +104,8 @@ The full register of clusters from passes one to thirteen, including those close
 - CTL-0059 portability limit removed by owner confirmation of 2026-08-23.
 - CTL-0132 narrowed by CTL-0151, a marketplace card is a demand source while a hosted checkout page is only a payment endpoint.
 - CTL-0151 narrowed by CTL-0154, its rule against a host-only surface substituted marketplace search for the channel as the demand source; the channel is the demand source by construction and a surface is chosen on take rate, price freedom and payment legality alone.
+- CTL-0115 partially reopened by CTL-0160, the artefact price is a free variable on an owned rail because the 990 RUB ceiling belonged to the intermediary.
+- RU-A, RU-B and RU-C additionally closed by CTL-0161, a self-employed seller cannot be paid by a legal entity on this rail.
 
 ## 7. Process failure recorded on 2026-08-23
 
@@ -208,3 +210,20 @@ rather than through the shelf (CTL-0157), while catalogue depth is confirmed as 
 in the RU market too (CTL-0158). The next gate is the one that was skipped: OQ-016, which surface
 can legally take money from a Russian viewer of an owned channel, at what take rate, and under what
 seller status.
+
+## Pass 22  the transaction half is solved and the channel is now the only unbuilt half
+OQ-016 is answered, and it is answered by an asset that already exists. A site with YooKassa at 3.5
+percent plus VAT on the commission is open to a self-employed seller on a passport and a tax number,
+needs no website to issue an invoice, and is already running in two of three owner products
+(CTL-0159). Against the rented-demand route measured in pass 21 this is a twenty to thirtyfold
+difference in take rate: about 955 RUB net on a 990 RUB artefact instead of 196 to 274, break-even
+at 16 to 17 sales per month instead of 57 to 80, and no price ceiling at all, since the ceiling
+belonged to the intermediary (CTL-0160). Foreign cards are reachable without leaving Russian tax
+residency through Prodamus at 10 percent with no cash register required on NPD (CTL-0162), while
+Telegram Stars is retained as the only residency-free rail but is barred from any arithmetic until
+its real rate is read from primary documentation (CTL-0163). Three rail limits now shape the model
+more than any niche finding: only natural persons may pay, cards are capped at 500000 RUB per month,
+and the NPD regime caps annual income at 2.4 mn RUB, which closes the corporate lanes by payment
+rather than by market and bounds the whole model (CTL-0161). Foreign creator platforms are out of
+scope by owner decision. What remains unbuilt is attention: the credential channel of CTL-0157,
+where an artefact monetises its author, is the next and last measurement before architecture.

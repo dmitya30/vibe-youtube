@@ -579,3 +579,69 @@ fiction-only, but the average is reported by an interested platform and mixes se
 with non-fiction, so it bounds a ceiling and does not predict a cold start.
 answers: OQ-018. classification: REPORTED STATISTIC, capture date 2026-08-24. confidence: medium.
 URL: https://www.mn.ru/smart/samizdat-pokoryaet-onlajn-skol-ko-zarabatyvayut-nezavisimye-pisateli-i-kto-iz-nih-zakrepilsya-v-liderah-prodazh
+
+## CTL-0159  THE OWNED PAYMENT RAIL IS AVAILABLE TO A SELF-EMPLOYED SELLER AND IS ALREADY BUILT
+YooKassa for self-employed sellers: no subscription fee, 3.5 percent per successful payment plus
+VAT on the commission for wallet and linked cards, SberPay, T-Pay and NSPK-partner foreign cards,
+3.3 percent for smartphone acceptance, and SBP priced individually.
+Onboarding needs a passport and a tax number, the contract is signed online from one day, and no
+website is required because invoices can be issued as links, SMS, email or QR from the dashboard.
+Owner state, supplied 2026-08-24: YooKassa is already implemented in two of three esoteric Telegram
+bots, Telegram Stars in two of three products, and a website exists for all three, so the payment
+contour is an OWNED ASSET rather than a design task, and Prodamus is evaluated but not registered.
+This converts the transaction half of the split architecture of CTL-0142 from open to solved and
+leaves the channel as the only unbuilt half.
+answers: OQ-016. classification: OBSERVED FACT plus OWNER-SUPPLIED STATE, capture date 2026-08-24.
+confidence: high. URL: https://yookassa.ru/platezhi-dlya-samozanyatyh/
+
+## CTL-0160  OWNED CHECKOUT BEATS RENTED DEMAND BY A FACTOR OF THREE TO FOUR ON THE SAME ARTEFACT
+At a 990 RUB price the owned rail returns about 955 RUB net against 196 to 274 RUB through the
+Litres intermediary measured in CTL-0155.
+Break-even against the 195 USD monthly cost falls from 57 to 80 sales per month to 16 to 17.
+The 990 RUB ceiling disappears entirely because it was a platform rule and not a market limit,
+so price becomes a variable the operator controls, which reopens the artefact price question that
+CTL-0115 withdrew as a floor.
+Standing consequence: renting demand is priced at roughly 20 to 30 times the cost of clearing a
+payment, so a storefront is only ever a till and the channel must supply the buyer.
+answers: OQ-016. classification: DERIVED CALCULATION from CTL-0155 and CTL-0159.
+confidence: high on arithmetic, medium on the cost baseline still open as OQ-017.
+
+## CTL-0161  THE SELF-EMPLOYED RAIL IMPOSES THREE HARD LIMITS THAT SHAPE THE WHOLE MODEL
+Only natural persons may pay a self-employed seller through this rail, so a corporate buyer cannot
+transact at all; the corporate lanes RU-A, RU-B and RU-C are therefore closed to this operator by
+the PAYMENT rail rather than by their markets, independently of the vendor-freeware finding.
+Card acceptance is capped at 500000 RUB per month, and the NPD regime itself caps annual income at
+2.4 mn RUB by law, which bounds the entire model well below the 1 mn RUB per month top-author
+figure reported in CTL-0158.
+Resale disqualifies the seller from connecting the rail, which is safe for an own-authored artefact
+but is the reason the affiliate question below must be settled before any EN affiliate build.
+answers: OQ-016. classification: OBSERVED FACT, capture date 2026-08-24. confidence: high.
+URL: https://yookassa.ru/platezhi-dlya-samozanyatyh/
+
+## CTL-0162  A FOREIGN-CARD RAIL EXISTS FOR A RUSSIAN RESIDENT AT A TEN PERCENT TARIFF
+Prodamus international acceptance: 10 percent tariff, 100 RUB minimum payment, Visa, Mastercard and
+Maestro, automatic conversion to dollars and euro, payment links and an on-site widget, funds
+usually next business day.
+A self-employed seller or an entrepreneur on NPD needs no connected cash register because receipts
+are fiscalised by the service itself.
+This is the surface that makes an EN-language artefact reachable without leaving Russian tax
+residency, at roughly three times the domestic take rate but with no ceiling and no marketplace.
+Foreign creator platforms are excluded from this workstream by owner decision of 2026-08-24 on the
+ground that inbound payment acceptance is unavailable to Russian residents, so Boosty, Tribute,
+Digiseller and equivalents are not to be researched further.
+answers: OQ-016. classification: OBSERVED FACT plus OWNER DECISION, capture date 2026-08-24.
+confidence: high. URL: https://prodamus.ru/priem-mezhdynarodnyh-platezhey
+
+## CTL-0163  TELEGRAM STARS IS RETAINED AS A UNIVERSAL RAIL WITH ITS RATE STILL UNVERIFIED
+Stars accept payment from any user in any country inside Telegram and are already implemented in
+two of three owner products, which makes them the only rail with no residency question.
+Secondary commentary reports an app-store surcharge of up to 30 percent and withdrawal through
+Fragment into TON rather than to a bank card, with a holding period.
+Effective rate to the author, withdrawal minimum, holding period and the fiscal treatment of a
+Stars payout under NPD are all recorded as UNKNOWN because only interested secondary sources were
+reached in this pass and the primary Telegram documentation was not read.
+Standing rule: Stars are not to be used in any break-even arithmetic until the primary rate is
+measured, since a 30 percent rail and a 3.5 percent rail differ by an order of magnitude in the
+volume they demand.
+answers: OQ-016 in part. classification: UNVERIFIED SECONDARY REPORT, capture date 2026-08-24.
+confidence: low.
