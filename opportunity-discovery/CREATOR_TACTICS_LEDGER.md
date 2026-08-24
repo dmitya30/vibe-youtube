@@ -138,3 +138,55 @@ Unmeasured and blocking the EN line: whether NPD may be applied to a payment fro
 such as an affiliate network, and at which rate, since the 4 and 6 percent split is defined by the
 status of the payer; recorded as OQ-022.
 answers: OQ-020. classification: REPORTED PRACTICE, capture date 2026-08-24. confidence: medium.
+
+## CTL-0172  THE REGIME TOLERATES A FOREIGN PAYER AT SIX PERCENT WHILE THE OPERATOR STAYS IN RUSSIA
+Ministry of Finance letter 03-11-11/68560 of 05.09.2019 permits the NPD regime on income from a
+foreign client provided the self-employed person is located in Russia, and the rate is 6 percent
+when the payer is a foreign legal entity, per tax service letter of 19.04.2019.
+The residence condition is symmetric and is the real constraint: the region declared in My Tax is
+chosen by the location of the operator or of the client, and if both are abroad the regime does not
+apply at all, per tax service letter SD-4-3/23424 of 18.11.2019.
+Relocation therefore does not merely change the rate, it removes the regime for foreign income,
+while income from Russian clients continues under NPD even after loss of tax residency.
+answers: OQ-022. classification: OFFICIAL CLARIFICATION, capture date 2026-08-24. confidence: high.
+URL: https://e-kontur.ru/enquiry/2088/samozanyatomu-rabotat-na-inostrannogo-zakazchika
+
+## CTL-0173  THE FOREIGN PAYMENT MECHANICS ADD NO REPORTING AND NO CURRENCY CONTROL
+A self-employed natural person passes no currency control and carries no repatriation duty on
+foreign proceeds, there is no mandatory conversion of currency, and the funds may be held in
+foreign currency, although the bank may request the underlying documents.
+The receipt is issued in My Tax with the foreign organisation flag set and without the client tax
+number, the sum is converted at the central bank rate on the date the money is received, and the
+receipt is formed after the funds reach the settlement account rather than the transit account.
+A foreign account is the only branch that adds duties: notification of opening and an annual
+movement report, waived below 600000 RUB for accounts in EAEU or automatic-exchange countries.
+answers: OQ-022. classification: PROCEDURE, capture date 2026-08-24. confidence: high.
+URL: https://e-kontur.ru/enquiry/2088/samozanyatomu-rabotat-na-inostrannogo-zakazchika
+
+## CTL-0174  THE ACTUAL BLOCKER IS THE PAYOUT RAIL AND NOT THE TAX REGIME
+NARROWS: CTL-0171, which framed the foreign payer as an open fiscal question.
+ClickBank publishes its direct-deposit country list at 43 entries and Russia is absent from it,
+while the same page states that sanctions policies are applied and that accounts in countries the
+platform does not do business in are disabled.
+The general-purpose rails fail the same way: Wise states it cannot serve customers in Russia and
+does not open new Russia-based accounts, Payoneer no longer issues or supports cards for a postal
+or actual address in the Russian Federation, and Stripe does not list Russia as supported.
+The EN affiliate line therefore fails one step AFTER the fiscal gate is cleared, at the receipt of
+the commission, which is a vendor and sanctions constraint and not a tax constraint.
+answers: OQ-022. classification: VENDOR POLICY, capture date 2026-08-24. confidence: high.
+URLs: https://www.clickbank.com/blog/clickbank-accepts-clients-from-more-countries/ ;
+https://www.flexhire.com/blog/ai/full-guide-how-to-become-a-freelancer-in-russia-2026
+
+## CTL-0175  THE DISCRIMINATOR IS THE DIRECTION OF THE MONEY AND IT SPLITS THE EN LINE IN TWO
+Inbound works: a foreign buyer pays the operator directly, measured at 10 percent through Prodamus
+without leaving Russian tax residency in CTL-0162, and such a payment is taxed at 4 percent because
+the payer is a natural person, which is a better net than the 6 percent RU referral of CTL-0171.
+Outbound commission does not work: a foreign network paying the operator has no observed lawful
+rail, per CTL-0174.
+Consequence: the English-speaking audience stays reachable as a MARKET but only for an artefact the
+operator owns and sells on the owned rail, while the affiliate configuration of CTL-0125 through
+CTL-0129 is deferred until a rail is observed rather than rejected.
+This also removes the last argument for a foreign intermediary storefront, since the same money
+direction constraint applies to any of them.
+answers: OQ-022. classification: DERIVED SYNTHESIS, capture date 2026-08-24. confidence: medium
+high, the inbound leg rests on vendor claims and has not been executed by the owner.

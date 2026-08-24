@@ -109,6 +109,8 @@ The full register of clusters from passes one to thirteen, including those close
 - CTL-0097 priority inverted by CTL-0167, the credential and referral unit is primary for a cold start and the shelf artefact is a secondary by-product.
 - CTL-0138 narrowed by CTL-0165, a memoir artefact is a price multiplier on a deliverable and is not revenue by itself.
 - CTL-0164 and CTL-0166 narrowed by CTL-0168, publicity belongs to the memoir form and not to the credential mechanism, which also operates through a useful instruction that certifies competence anonymously.
+- CTL-0171 narrowed by CTL-0174, the foreign payer obstacle is only partly fiscal; the regime admits the payer while no payout rail delivers the money to a Russian resident.
+- CTL-0125 through CTL-0129 deferred by CTL-0175, the EN affiliate configuration is unreachable by payout although the EN market stays reachable by inbound sale.
 
 ## 7. Process failure recorded on 2026-08-23
 
@@ -266,3 +268,20 @@ signed client and keeps the referral configuration alive (CTL-0171). The English
 now blocked on a narrower question than before, namely whether the regime tolerates a foreign payer
 at all, which is OQ-022. The next measurement is the one the model rests on: what converts views
 into a single signed referral per month.
+
+## Pass 25  the foreign payer is cleared fiscally and blocked mechanically
+OQ-022 is answered with a split verdict. The regime itself admits a foreign payer: the Ministry of
+Finance permits NPD on income from a foreign client while the operator is located in Russia, at 6
+percent for a foreign legal entity, and the residence condition is symmetric, since a region cannot
+be declared when both operator and client sit abroad (CTL-0172). The mechanics are lighter than the
+workstream assumed, with no currency control, no repatriation, no forced conversion, a receipt
+carrying the foreign organisation flag and a central bank conversion on the date of receipt
+(CTL-0173). The obstacle sits one step later. ClickBank lists 43 direct-deposit countries and
+Russia is not among them, while Wise, Payoneer and Stripe each exclude Russia-based users, so the
+commission cannot be received at all (CTL-0174). The discriminator that emerges is the direction of
+the money rather than the border: an inbound payment from a foreign buyer works at 10 percent
+through Prodamus and is taxed at 4 percent as a natural-person payment, while an outbound
+commission from a network has no rail, which keeps the EN audience reachable only for an owned
+artefact and defers the affiliate configuration instead of rejecting it (CTL-0175). Nothing in this
+pass touches the binding constraint, which remains attention: the next measurement is still what
+converts channel views into one signed referral per month.

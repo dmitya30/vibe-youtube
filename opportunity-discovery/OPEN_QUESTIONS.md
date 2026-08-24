@@ -1,6 +1,6 @@
 # Open questions
 
-Updated: 2026-08-23
+Updated: 2026-08-24
 Purpose: the queue that drives every research pass and survives context compression.
 
 ## 1. How this file is used
@@ -13,17 +13,18 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 3. Open
 
-- OQ-022 whether the NPD regime may be applied to income from a FOREIGN payer such as an affiliate network, and at which rate given that the 4 and 6 percent split is defined by the status of the payer; raised by CTL-0171; blocking the EN affiliate line of CTL-0125 through CTL-0129; OPEN;
 - OQ-021 what converts channel views into one signed referral per month, since CTL-0167 rests on that rate and no operator has been observed running the memoir plus referral combination end to end; raised by CTL-0166 and CTL-0167; OPEN;
 - OQ-017 what the residual QA cost per video is after automation; carried forward from the map section 8; the 1.5 hours per video figure behind the 195 dollar monthly cost is an estimate and has never been measured on a produced episode; OPEN and load bearing for every break-even number in the ledger;
 
 ## 4. Deferred
 
+- OQ-023 whether any lawful payout rail exists by which a Russia-resident self-employed operator can receive commission from a foreign affiliate network; raised by CTL-0174 and CTL-0175; DEFERRED until such a rail is observed in use rather than advertised, and the EN affiliate line of CTL-0125 through CTL-0129 resumes only on that condition;
 - OQ-007 reachable Russian speaking geographies outside Russia and the monetization mechanics available there; deferred by owner instruction until the English segment is assessed; partially answered already by CTL-0052, which established that eligibility follows operator residency rather than viewer location;
 - OQ-008 export and reading of the private Russian language creator channels; deferred because the two named creators are retained as a source of rare observations and not as a source of truth, and because access requires tooling that has not been justified by expected value.
 
 ## 5. Answered
 
+- OQ-022 whether the NPD regime may be applied to income from a foreign payer; ANSWERED by CTL-0172 through CTL-0175 with a split verdict; the regime admits a foreign payer at 6 percent while the operator is located in Russia and adds no currency control, but no payout rail delivers a foreign commission to a Russian resident, so the discriminator is the direction of the money: inbound sale works at 4 percent, outbound commission does not work at all;
 - OQ-020 whether affiliate or referral commission is compatible with the self-employed NPD regime; ANSWERED by CTL-0169 through CTL-0171; agency, commission and mandate contracts are barred by 422-FZ article 4 part 2 item 5 and cost the regime itself, but a fee for the factual act of finding a potential client, without concluding contracts on behalf of the firm, qualifies as ordinary paid services and is paid this way in practice at 6 percent, with the requalification risk borne by the payer;
 - OQ-019 what the credential channel pays, where an artefact monetises its author rather than itself; ANSWERED by CTL-0164 through CTL-0167; the credential unit is one to two orders larger per unit than the shelf, about 30000 USD per engagement against at most 10000 USD per book, but it prices a service that must already exist, and the referral fee of CTL-0136 satisfies that precondition without owning one, which makes the referral the primary unit for a cold start and the shelf artefact a by-product;
 - OQ-016 which surface can legally take money from a Russian viewer of an owned channel; ANSWERED by CTL-0159 through CTL-0163; an own page with YooKassa at 3.5 percent plus VAT serves Russian payers under self-employed status and is already implemented by the owner, Prodamus at 10 percent serves foreign cards without leaving Russian residency, Telegram Stars is universal but its rate is unmeasured, and the rail imposes natural-persons-only payment, a 500000 RUB monthly card cap and the 2.4 mn RUB annual NPD cap;
