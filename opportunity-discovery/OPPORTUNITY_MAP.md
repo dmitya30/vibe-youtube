@@ -139,3 +139,12 @@ revocable on sudden growth (CTL-0128). The strongest observed pattern is compell
 licensing-mandated courses sold via SEO, 3-4k USD/mo by one operator (CTL-0127).
 Coverage gap acknowledged: the money sphere was examined only as corporate B2B. Solo-expert B2B
 and all of B2C money remain untested and are next.
+
+## Pass 16 — RU money sphere, B2C and compelled demand
+Coverage gap from Pass 15 closed. The debt and bankruptcy lane is the first RU candidate with a
+boxed artefact, a public sales counter and one-off pricing rather than a low-value subscription
+(CTL-0130). Compelled demand ranks the lane; migrant exams are weakened by free state courses and
+labour-safety training is closed by accreditation (CTL-0131). A marketplace card supplies the
+searchable selling surface and domestic payment intake that CTL-0126 demanded (CTL-0132).
+Remaining before any decision: read the actual review count and find a channel under 12 months
+old already selling in this lane (CTL-0134).

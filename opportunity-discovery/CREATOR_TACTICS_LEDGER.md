@@ -274,3 +274,43 @@ Therefore a hands-off boxed infoproduct is not viable AS A VENDOR on this networ
 without substance is bounded by refund and chargeback rates, not by taste. As an AFFILIATE the
 support load does not apply, only commission debit on refunds. Entry posture: affiliate first.
 URL: https://support.clickbank.com/en/articles/10535249-managing-refunds-and-chargebacks
+
+## CTL-0130 — RU MONEY B2C: FIRST MEASURED RU ARTEFACT WITH PUBLIC COUNTER
+Ozon sells the ebook "Bankrotstvo fizicheskih lic: kak spisat dolgi po kreditam i MFO" at
+1,389 RUB (~17 USD) with a public review counter, alongside competing guides (Skvortsov,
+Kozlov/Prokhorov, Ridero) in the same category — competition present, which is a positive signal.
+Marketplace fees: Ozon ~11 percent plus 6 percent virtual cash register; WB 5 percent.
+Net ~1,150-1,250 RUB (~14-15 USD) per sale => break-even 13-14 sales/month post-automation.
+Contrast with CTL-0121: this is a one-off boxed sale, not a 2-6 USD retention subscription.
+URLs: https://www.ozon.ru/product/bankrotstvo-fizicheskih-lits-kak-spisat-dolgi-po-kreditam-i-mfo-polnoe-rukovodstvo-po-3575022836/ ;
+https://www.ozon.ru/category/bankrotstvo-usluga/ ; https://dostavka.mphub.ru/blog/kak-prodavat-cifrovye-tovary-na-wildberries-ozon-jandeksmarket/
+
+## CTL-0131 — A5 SCAN OF RU COMPELLED-DEMAND MONEY LANES
+DEBT/BANKRUPTCY: compelled by enforcement proceedings and courts, error cost in hundreds of
+thousands RUB, boxed guides already sell on marketplace. STATUS: strongest RU candidate.
+MIGRANT EXAM: compelled by law (official test 3,800 RUB for patent, 5,900 RUB for citizenship/
+RVP/VNZh), BUT the state provides free job-identical preparation courses => weakened by CTL-0114.
+LABOUR SAFETY (PP 2464): compelled, from 16 hours, but delivery requires an accredited licensed
+training centre and is a B2B procurement => inaccessible to a solo operator.
+URLs: https://ppt.ru/art/inostrannye-grazhdane/kak-migrantu-sdat-ekzamen-na-znanie-russkogo-yazyka-istorii-rossii-i-osnov-zakonodatelstva-rf ;
+https://test.kubsu.ru/preparation/ ; https://habr.com/ru/articles/1070980/
+
+## CTL-0132 — MARKETPLACE AS SELLING SURFACE (answers CTL-0126)
+CTL-0126 established that description links do not sell and a searchable page is required.
+A RU marketplace card satisfies that requirement without building or hosting a site, and it also
+resolves payment intake domestically. Cost: 11-17 percent fees and platform dependency.
+Seller status note: self-employed may sell only OWN production with proof of authorship;
+reselling third-party digital goods requires IP or a legal entity.
+
+## CTL-0133 — CLAIM CONSTRAINT IN DEBT LANE (parallel to CTL-0119)
+The debt/bankruptcy lane addresses people under financial distress and adjoins a regulated
+service. Selling an informational procedure guide is ordinary commerce; promising guaranteed
+debt cancellation is a false-advertising pattern and drives refunds. Constraint binds the copy
+and the card, not the lane. Ethical note recorded alongside the commercial one: refund rate is
+the mechanism that punishes overclaiming.
+
+## CTL-0134 — OPEN GAPS FOR THIS LANE
+A1 met qualitatively (live listing, multiplying competitors) but NOT quantitatively: the review
+count was not captured because the Ozon category page rendered without per-product counters;
+the number lives on the product /reviews/ page and must be read next.
+A4 untested: no channel under 12 months old selling in this lane has been identified yet.
