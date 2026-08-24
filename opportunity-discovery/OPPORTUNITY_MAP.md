@@ -124,3 +124,10 @@ Prior runs applied a reject-only filter and therefore could not return a lane.
 CTL-0105 and the $40 price floor are superseded. RU-B/RU-C return to the queue as
 untested. Segment priority is no longer RU-vs-EN but artefact-proof-vs-none.
 Open lanes to run under CTL-0118: RU-B, RU-C, health (RU/EN), relationships (RU/EN).
+
+## Pass 14 — RU health and relationships measured
+RU health and RU relationships are MODEL-INCOMPATIBLE (CTL-0121, CTL-0123): demand and payment
+exist, but the RU revenue shape is a $2-6/month retention subscription requiring ~100-160 retained
+subscribers, which contradicts the automation-and-QA operator profile. Relationships shows the
+strongest measured pain share (26%) with no observable sales counter (CTL-0122).
+Next: EN health and EN relationships through the affiliate route, where commission is 30-50%.

@@ -202,3 +202,33 @@ but artefact-harder: sold as process (community/reviews), rarely as a file.
 Original mandate was opportunity discovery; executed posture was hazard discovery.
 Standing instruction: every lane run must terminate in an A1-A4 verdict, and a run
 that produces only hazards without testing A1 is an INCOMPLETE run, not a rejection.
+
+## CTL-0121 — RU HEALTH/RELATIONSHIPS: A1 PARTIAL, ARITHMETIC FAILS (measured 2026-08-23)
+Observed paid counter: boosty.to/personalpsychotherapy shows 8 of 100 paid subscribers,
+$210.26 of $642 and $224.37 of $12,821 raised. Natinfitness sells 500 RUB/mo (~$6), counter private.
+Platform-wide: only 89 Boosty authors exceed 100,000 RUB/mo; top-50 from 150,000 RUB/mo;
+one 6-person team makes 420,000 RUB/mo from 2,672 paid subscribers = ~157 RUB (~$2) per subscriber.
+Verdict: A1 met in form, A3 FAILS. RU monetisation shape is $2-6/mo retention subscription,
+not a $20-net artefact. Break-even needs ~100-160 RETAINED subscribers, not ~10 sales.
+URLs: https://boosty.to/personalpsychotherapy/about ; https://boosty.to/natinfitness ;
+https://t-j.ru/friendship-ended-with-patreon/ ; https://trafficcardinal.com/post/chto-takoe-boosty-i-kak-na-nem-zarabotat
+
+## CTL-0122 — RU RELATIONSHIPS: DEMAND MEASURED, SALE NOT MEASURED
+Buyer research, 25 respondents: relationships is the top pain sphere at 26% vs 14% each for
+health, hobby, spirituality, family, career and 4% for social circle; 95% of buyers are women;
+55% believe such courses help, 19% do not. The project did NOT launch: quoted launch cost 640,000 RUB.
+Demand confirmed, revenue not confirmed. A1 NOT MET (no observable sales counter).
+URL: https://vc.ru/marketing/1091248-keis-po-rabote-s-proektom-po-psihologii-ili-kak-ne-slit-600000-na-zapusk-onlain-kursa
+
+## CTL-0123 — RECLASSIFICATION RULE: LANE MAY BE LIVE BUT MODEL-INCOMPATIBLE
+A lane is not only ACCEPTED or REJECTED. Third verdict added: MODEL-INCOMPATIBLE — demand and
+payment exist, but the revenue shape (retention subscription, community, 1-1) contradicts the
+operator profile (<=2 videos/week, automation, QA-only, no live cohort work).
+RU health and RU relationships are recorded as MODEL-INCOMPATIBLE, not rejected.
+
+## CTL-0124 — RU SALES-COUNTER SURFACES: SEARCH RESULT
+Digiseller/plati storefront returned zero listings for the tested health query, so it is not a
+usable RU evidence surface for this lane. Boosty exposes paid-subscriber counts and is usable.
+Standing note: RU lanes must be evidenced by a public counter (Boosty subscribers, marketplace
+review count), never by agency case studies, which are an interested party.
+URL: https://plati.market/search/ (empty result for the tested query)
