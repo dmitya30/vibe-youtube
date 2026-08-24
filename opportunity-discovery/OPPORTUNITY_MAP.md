@@ -157,3 +157,11 @@ bankruptcy content, monetising the narrow service downstream (CTL-0136). Partner
 10,000-26,000 RUB per signed client make break-even about one conversion per quarter, at the cost
 of a six-month ramp and no funnel visibility (CTL-0137). A memoir-style artefact is recorded as a
 design option with a named advertising-substance risk (CTL-0138).
+
+## Pass 18 — A6 promotability check hits the project, not the lane
+The promotability check introduced in Pass 17 returned a project-level constraint: advertising on
+YouTube from Russia is under an active legal challenge, with the first FAS cases against bloggers
+opened in March 2026 and liability suspended only until the end of 2026 (CTL-0140). Content and
+informing remain lawful; the purchase call does not (CTL-0141). The architecture already implied
+by three economic measurements is now also the compliant one: YouTube informs, a non-restricted
+surface transacts (CTL-0142). A4 in the broad everyday-money lane remains open (CTL-0143).

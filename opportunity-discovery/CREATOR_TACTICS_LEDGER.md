@@ -358,3 +358,41 @@ Ozon product page and /reviews/ both returned crawler errors (anti-bot), so the 
 the 1,389 RUB bankruptcy ebook was NOT captured. A1 for CTL-0130 remains qualitative only.
 Standing note: Ozon is readable in search snippets and category pages but not per-product;
 do not substitute an estimate for the missing counter.
+
+## CTL-0140 — A6 HARD FINDING: RU ADVERTISING BAN COVERS YOUTUBE ITSELF
+Federal law "O reklame" part 10.7 art. 5, in force since 2025-09-01, bans advertising on
+resources with restricted access. On 2026-03-05 FAS opened its FIRST cases against bloggers for
+ads placed on YouTube and Telegram despite full contracts and ERID marking. On 2026-03-25 FAS
+announced a transition period: no liability measures until the end of 2026.
+Penalties, KoAP art. 14.3: up to 2,500 RUB individuals, up to 20,000 RUB officials,
+up to 500,000 RUB legal entities. Courts may treat an old undeleted post as a continuing offence,
+implying retroactive archive cleanup, not just a stop.
+Legal status remains contested: RKN has not issued an act declaring the platforms restricted, and
+counsel cited four arguments why placement may still be lawful.
+URLs: https://callibri.ru/blog/zaprety-i-shtrafy-za-reklamu-v-telegram-i-youtube ;
+https://fas.gov.ru/news/34584 ; https://snob.ru/news/do-kontsa-2026-goda-shtrafov-za-reklamu-v-telegram-i-youtube-ne-budet/
+
+## CTL-0141 — INFORMING IS NOT ADVERTISING: THE SURVIVING FORM
+The ban targets advertising, not content. Reported safe on restricted platforms: describing ones
+activity, news, cases, answering questions, and republishing customer testimonials, provided
+there is NO call to purchase. Collecting order data via Telegram bots is separately barred by
+152-FZ because servers sit abroad.
+Consequence: the memoir artefact pattern (CTL-0138) is not merely attractive, it is the form that
+survives this restriction, because it makes no purchase call and no outcome promise.
+Non-restricted RU surfaces for the actual call to action: own site registered with RKN, VK,
+Dzen, Rutube, RSYa, marketplaces.
+
+## CTL-0142 — ARCHITECTURE CONSEQUENCE: SPLIT TRAFFIC FROM TRANSACTION
+Three independent measurements already required a searchable page between video and offer
+(CTL-0102, CTL-0126, CTL-0132). A legal reason now joins the economic one: the purchase call must
+live off the restricted platform. Target architecture: YouTube informs and builds trust;
+a non-restricted RU surface carries the call and the transaction.
+Horizon note: the FAS transition period expires end of 2026 while lane ramp-up is six months plus
+(CTL-0137), so the compliant architecture must be assumed from day one, not retrofitted.
+
+## CTL-0143 — A4 NOT CLOSED IN THE BROAD EVERYDAY-MONEY LANE
+Candidates surfaced by search proved off-lane: GermanyCation covers employment in Germany;
+Kat Hough covers US-resident finances for Russian speakers. SocialBlade does not resolve either
+handle and no channel ID was recoverable, so no feed age check was possible.
+No sub-12-month channel in the broad everyday-money lane has been identified. Recorded as an OPEN
+GAP, not as evidence that none exists.
