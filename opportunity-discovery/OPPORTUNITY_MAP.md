@@ -148,3 +148,12 @@ labour-safety training is closed by accreditation (CTL-0131). A marketplace card
 searchable selling surface and domestic payment intake that CTL-0126 demanded (CTL-0132).
 Remaining before any decision: read the actual review count and find a channel under 12 months
 old already selling in this lane (CTL-0134).
+
+## Pass 17 — A5 corrected, incumbent behaviour measured
+Operator challenge upheld: compelled demand and promotion bans are correlated, so A5 is demoted
+to a signal and paired with A6 promotability (CTL-0135). The lane incumbent, a bankruptcy law
+firm on YouTube since 2018, publishes broad everyday-money and news content rather than
+bankruptcy content, monetising the narrow service downstream (CTL-0136). Partner payouts of
+10,000-26,000 RUB per signed client make break-even about one conversion per quarter, at the cost
+of a six-month ramp and no funnel visibility (CTL-0137). A memoir-style artefact is recorded as a
+design option with a named advertising-substance risk (CTL-0138).

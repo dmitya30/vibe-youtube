@@ -314,3 +314,47 @@ A1 met qualitatively (live listing, multiplying competitors) but NOT quantitativ
 count was not captured because the Ozon category page rendered without per-product counters;
 the number lives on the product /reviews/ page and must be read next.
 A4 untested: no channel under 12 months old selling in this lane has been identified yet.
+
+## CTL-0135 — A5 DEMOTED FROM FILTER TO SIGNAL (operator challenge accepted)
+Compelled demand and heavy regulation are correlated: the same authority that compels the
+purchase usually restricts its promotion (supplements, weight-loss claims, financial and legal
+services). Using A5 as a gate re-created the reject-only failure of CTL-0113 in new clothes.
+A5 is now a STRENGTH SIGNAL, not an eligibility condition. New paired check A6 PROMOTABILITY:
+can the topic be advertised and recommended on the intended surfaces without licensing, ad
+registration or claim approval? A lane scoring high on A5 and low on A6 is a trap.
+
+## CTL-0136 — INCUMBENT BEHAVIOUR CONTRADICTS NARROW-TOPIC ASSUMPTION (measured)
+Channel "Bankrotstvo fizicheskih lic ot Bankrot-Servis" (UCItNnP3nTjrnpz2qcBImOkg), created
+2018-12-07, is a bankruptcy law firm that almost never publishes bankruptcy content. Recent feed:
+digital ruble 3,728 views; new laws from 1 September 5,028; FNS mass checks of card transfers
+10,530; sole-dwelling protection 6,161; WB seller debts 1,462; blocking spam calls; bank sites
+down. Bankruptcy appears only as a free-consultation link in the description.
+Reading: the narrow compelled topic carries no traffic; broad everyday-money and alarming-news
+topics carry it, and the narrow service is monetised downstream. A4 FAILS for this channel (age).
+
+## CTL-0137 — RU DEBT LANE PARTNER PAYOUTS ARE PUBLIC AND LARGE
+Published partner rates: 10,000 RUB per client after the client pays the contract;
+12,000-26,000 RUB at another firm; 500-5,000 RUB at a third. Operator reports a personal offer of
+~20,000 RUB, which sits inside the measured range and is therefore credible.
+At ~20,000 RUB (~250 USD) per conversion, post-automation cost (~195 USD/mo) is covered by
+roughly ONE conversion per quarter — two orders of magnitude softer than a 15 USD artefact.
+Counterweight: payment only on signed contract, ramp-up from six months (operator first-hand),
+and zero funnel visibility. High payout, low controllability.
+URLs: https://fizbankrot.com/partneram/ ; https://netdolgoff.ru/akczii/partnerskaya-programma-5-000-rubley-za-privedennogo-druga/
+
+## CTL-0138 — MEMOIR ARTEFACT PATTERN (operator hypothesis, recorded as design option)
+Pattern: a first-person narrative "based on real events" about surviving the procedure, rather
+than an instructional guide. Mechanics: it gives no legal advice and promises no outcome, so it
+sits outside professional-service regulation and ad-claim approval (high A6), while addressing
+the reader pain that regulated firms structurally cannot address — fear, shame, distrust.
+Author contact becomes a narrative continuation rather than a lead form.
+Named risk: systematic routing of readers to a paying firm converts the work into advertising in
+substance; disclosure of the relationship and absence of promises inside the text are required,
+as both legal and reputational protection with an already distrustful audience.
+Status: DESIGN OPTION, not a measured case. Not authorised for production.
+
+## CTL-0139 — A1 QUANTITATIVE CLOSURE FAILED ON OZON (tool limit)
+Ozon product page and /reviews/ both returned crawler errors (anti-bot), so the review count for
+the 1,389 RUB bankruptcy ebook was NOT captured. A1 for CTL-0130 remains qualitative only.
+Standing note: Ozon is readable in search snippets and category pages but not per-product;
+do not substitute an estimate for the missing counter.
