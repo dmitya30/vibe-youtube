@@ -108,6 +108,7 @@ The full register of clusters from passes one to thirteen, including those close
 - RU-A, RU-B and RU-C additionally closed by CTL-0161, a self-employed seller cannot be paid by a legal entity on this rail.
 - CTL-0097 priority inverted by CTL-0167, the credential and referral unit is primary for a cold start and the shelf artefact is a secondary by-product.
 - CTL-0138 narrowed by CTL-0165, a memoir artefact is a price multiplier on a deliverable and is not revenue by itself.
+- CTL-0164 and CTL-0166 narrowed by CTL-0168, publicity belongs to the memoir form and not to the credential mechanism, which also operates through a useful instruction that certifies competence anonymously.
 
 ## 7. Process failure recorded on 2026-08-23
 
@@ -247,3 +248,21 @@ to 17 shelf sales per month against roughly one referral per month for the same 
 cold-start channel can plausibly deliver the second and not the first (CTL-0167). The blocking
 question is now fiscal rather than commercial, namely whether agency income is compatible with the
 self-employed regime at all, which is OQ-020.
+
+## Pass 24  the referral form is legally cleared, and the artefact is reframed as a channel
+Two things settled in this pass. First, a correction from the owner that the workstream had folded
+into the memoir form by accident: publicity is a property of the memoir, not of the credential. An
+instruction that works certifies competence without exposing a person, which is the same
+demonstration mechanism already measured in the service-backed incumbent, and it recasts the
+artefact as the channel of trust and delivery rather than as the merchandise, with a free artefact
+still costing attention and production time to distribute (CTL-0168). Second, the fiscal gate.
+Agency, commission and mandate contracts are barred outright by 422-FZ article 4 and the penalty is
+loss of the regime itself, not tax on one payment (CTL-0169). The dividing line is factual against
+legal acts: handing over a contact is a service and is compatible, while negotiating or organising
+a signing is intermediation, and courts have treated exactly that pattern in property sales as
+intermediary work (CTL-0170). Platforms already pay referral fees to self-employed recipients at 6
+percent and the requalification risk falls on the payer, which leaves about 18800 RUB net per
+signed client and keeps the referral configuration alive (CTL-0171). The English affiliate line is
+now blocked on a narrower question than before, namely whether the regime tolerates a foreign payer
+at all, which is OQ-022. The next measurement is the one the model rests on: what converts views
+into a single signed referral per month.

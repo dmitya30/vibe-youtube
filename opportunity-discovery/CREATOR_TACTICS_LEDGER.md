@@ -86,3 +86,55 @@ The shelf artefact is retained because it is what makes the credential legible a
 by-product of the pipeline per CTL-0150.
 answers: OQ-019. classification: DERIVED CALCULATION, capture date 2026-08-24. confidence: medium,
 the conversion rate from views to a signed referral remains unmeasured.
+
+## CTL-0168  THE ARTEFACT IS A TRUST AND DELIVERY CHANNEL AND NEED NOT CARRY A PERSONA
+NARROWS: CTL-0164 and CTL-0166, which measured the credential channel only in its memoir form.
+Owner correction of 2026-08-24: a memoir sells the person and therefore requires publicity, which
+is a property of that FORM and not of the credential mechanism.
+A second form exists in which the artefact certifies COMPETENCE by being useful: an instruction that
+actually solves the readers problem proves qualification by working, and the author may remain
+anonymous, which is exactly the demonstration mechanism measured in CTL-0145 and CTL-0147.
+Reframed unit: the artefact is the channel of trust and of delivery, not the merchandise, and the
+question shifts from what it sells for to what it makes credible.
+Corollary recorded by the owner and confirmed by CTL-0153: a free artefact still carries a
+distribution cost, paid in attention and production time rather than by the buyer, so free is a
+price change and not the absence of a price.
+answers: OQ-019 refinement. classification: OWNER CORRECTION plus SYNTHESIS, capture 2026-08-24.
+
+## CTL-0169  AGENCY INCOME IS INCOMPATIBLE WITH THE SELF-EMPLOYED REGIME AT THE LEVEL OF THE REGIME
+Federal law 422-FZ article 4 part 2 item 5 bars the NPD regime for persons conducting business in
+the interest of another under contracts of agency, commission or mandate, confirmed by Ministry of
+Finance letters 03-11-11/22802, 03-11-11/15764 and 03-11-11/99133 and by tax service letter
+SD-4-3/7496 item 8.
+The penalty is loss of the REGIME rather than taxation of one payment, so a single mis-structured
+contract invalidates the whole payment contour of CTL-0159.
+answers: OQ-020. classification: STATUTE, capture date 2026-08-24. confidence: high.
+URL: https://www.garant.ru/consult/business/1637462/
+
+## CTL-0170  THE DIVIDING LINE IS LEGAL VERSUS FACTUAL ACTS AND IT DECIDES THE WHOLE REFERRAL MODEL
+Contract name is irrelevant and qualification follows substance under civil code article 431.
+If the performer only carries out FACTUAL acts, namely finding potential counterparties, and
+concludes no contracts with third parties, there is no ground to treat the contract as
+intermediary and it is ordinary paid services, compatible with NPD, with supporting court practice.
+If the acts create, change or terminate rights and duties for the principal, or indirect relations
+arise between the principal and the third party, the contract is requalified as agency with income
+tax and social contributions charged additionally.
+Warning from the same source: finding buyers for property, negotiating with them and organising the
+signing is treated by courts as intermediary service, which is the nearest analogue to a debt-lane
+referral and marks how narrow the safe side is.
+Operating rule: hand over a contact and stop; do not negotiate, do not qualify on behalf of the
+firm, do not participate in signing.
+answers: OQ-020. classification: LEGAL ANALYSIS, capture date 2026-08-24. confidence: high.
+
+## CTL-0171  REFERRAL FEES ARE PAID TO SELF-EMPLOYED PERSONS IN PRACTICE AND THE RISK SITS WITH THE PAYER
+Platforms pay referral rewards to self-employed recipients as professional income at the 6 percent
+rate applied to payments from legal entities, reported by eLama, Yandex Market partner programmes
+and marketing industry guidance, so the compliant form is in mass use rather than theoretical.
+On requalification the additional income tax and contributions are charged to the PAYER, which is
+why the partner firm has its own incentive to document the relationship as a service.
+This keeps the referral configuration of CTL-0166 alive, at 6 percent tax against the 20000 RUB per
+signed client of CTL-0136, leaving about 18800 RUB net per referral.
+Unmeasured and blocking the EN line: whether NPD may be applied to a payment from a FOREIGN payer
+such as an affiliate network, and at which rate, since the 4 and 6 percent split is defined by the
+status of the payer; recorded as OQ-022.
+answers: OQ-020. classification: REPORTED PRACTICE, capture date 2026-08-24. confidence: medium.
