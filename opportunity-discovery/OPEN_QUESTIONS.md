@@ -13,8 +13,8 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 3. Open
 
+- OQ-021 what converts channel views into one signed referral per month, since CTL-0167 rests on that rate and no operator has been observed running the memoir plus referral combination end to end; raised by CTL-0166 and CTL-0167; OPEN;
 - OQ-020 whether affiliate or network commission income is compatible with the NPD self-employed regime at all, given that the rail disqualifies resale and that commission is agency rather than own-product income; raised by CTL-0161; blocking the entire EN affiliate line of CTL-0125 through CTL-0129 because that line assumes a payout the operator may not be able to receive under this status; OPEN;
-- OQ-019 what the credential effect pays, where an artefact monetises its author rather than itself through press, paid lectures, a commissioned course and clients; raised by CTL-0157 as the first observed instance and by CTL-0138 which assumes the mechanism without evidence; OPEN;
 - OQ-017 what the residual QA cost per video is after automation; carried forward from the map section 8; the 1.5 hours per video figure behind the 195 dollar monthly cost is an estimate and has never been measured on a produced episode; OPEN and load bearing for every break-even number in the ledger;
 
 ## 4. Deferred
@@ -24,6 +24,7 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 5. Answered
 
+- OQ-019 what the credential channel pays, where an artefact monetises its author rather than itself; ANSWERED by CTL-0164 through CTL-0167; the credential unit is one to two orders larger per unit than the shelf, about 30000 USD per engagement against at most 10000 USD per book, but it prices a service that must already exist, and the referral fee of CTL-0136 satisfies that precondition without owning one, which makes the referral the primary unit for a cold start and the shelf artefact a by-product;
 - OQ-016 which surface can legally take money from a Russian viewer of an owned channel; ANSWERED by CTL-0159 through CTL-0163; an own page with YooKassa at 3.5 percent plus VAT serves Russian payers under self-employed status and is already implemented by the owner, Prodamus at 10 percent serves foreign cards without leaving Russian residency, Telegram Stars is universal but its rate is unmeasured, and the rail imposes natural-persons-only payment, a 500000 RUB monthly card cap and the 2.4 mn RUB annual NPD cap;
 - OQ-018 which non-restricted RU surface supplies its own search demand for digital artefacts; ANSWERED and PARTLY WITHDRAWN by CTL-0154, because the question substituted marketplace search for the channel as the demand source; the measurements are retained as a control case in CTL-0155 through CTL-0158, pricing rented demand at 65 to 75 percent of revenue plus a 990 RUB ceiling against about 13 percent on a payment-only surface;
 - OQ-015 what artefact this pipeline can produce that needs neither a persona nor a deliverable service; ANSWERED by CTL-0150, CTL-0151, CTL-0152 and CTL-0153; the form is a written byproduct of the research the script already requires, placed on a marketplace that supplies its own search demand rather than on a host-only checkout page, with catalogue depth standing in for the audience a cold start lacks; the measured ceiling is small, under 20 USD per day gross, which clears the 195 USD monthly cost about threefold;

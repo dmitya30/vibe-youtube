@@ -106,6 +106,8 @@ The full register of clusters from passes one to thirteen, including those close
 - CTL-0151 narrowed by CTL-0154, its rule against a host-only surface substituted marketplace search for the channel as the demand source; the channel is the demand source by construction and a surface is chosen on take rate, price freedom and payment legality alone.
 - CTL-0115 partially reopened by CTL-0160, the artefact price is a free variable on an owned rail because the 990 RUB ceiling belonged to the intermediary.
 - RU-A, RU-B and RU-C additionally closed by CTL-0161, a self-employed seller cannot be paid by a legal entity on this rail.
+- CTL-0097 priority inverted by CTL-0167, the credential and referral unit is primary for a cold start and the shelf artefact is a secondary by-product.
+- CTL-0138 narrowed by CTL-0165, a memoir artefact is a price multiplier on a deliverable and is not revenue by itself.
 
 ## 7. Process failure recorded on 2026-08-23
 
@@ -227,3 +229,21 @@ and the NPD regime caps annual income at 2.4 mn RUB, which closes the corporate 
 rather than by market and bounds the whole model (CTL-0161). Foreign creator platforms are out of
 scope by owner decision. What remains unbuilt is attention: the credential channel of CTL-0157,
 where an artefact monetises its author, is the next and last measurement before architecture.
+
+## Pass 23  the credential unit is where the money is, and it needs a service it need not own
+OQ-019 is answered and it inverts a priority the workstream has carried for twenty passes. One
+operator states both numbers for the same work: about 10000 USD from a self-published book, at most
+5000 USD per book through major publishers, and above 30000 USD for a single speaking engagement
+(CTL-0164). The shelf and the credential are two revenue units and the second is one to two orders
+larger per unit. The catch is causality: practitioners report that a career sells a book rather than
+a book building a career, so the credential prices a service that must already exist, and a
+publisher will not market a debut author, meaning the artefact presupposes the channel instead of
+replacing it (CTL-0165). The loophole is that the service need not be the authors own. A referral
+fee of 10000 to 26000 RUB per signed client lets the partner firm hold the licence and the liability
+while the author holds only the account of having gone through the process, which is also why the
+measured incumbent in the debt lane sells no file and routes to a free consultation, and why this
+form carries no advertising exposure under CTL-0140 (CTL-0166). The volumes decide the priority: 16
+to 17 shelf sales per month against roughly one referral per month for the same cost, and a
+cold-start channel can plausibly deliver the second and not the first (CTL-0167). The blocking
+question is now fiscal rather than commercial, namely whether agency income is compatible with the
+self-employed regime at all, which is OQ-020.
