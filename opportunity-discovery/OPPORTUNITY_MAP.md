@@ -448,3 +448,20 @@ which is the existing line counterpart of the six-month ramp recorded for the de
 (CTL-0208). Research remainder after this pass is OQ-017 on production throughput and OQ-034 on the
 subscription share; every other open question is addressed to the owner or to a partner rather than
 to research.
+
+## Pass 34  the throughput question is inverted from capacity to requirement
+An attempt to read operator throughput out of the git trail was rejected by the owner on two grounds,
+both accepted. The trail is contaminated, because commits were made returning to finished videos to
+record statistics rather than to produce them, which the day histogram shows with its busiest days
+falling after the last video shipped; and capacity is a moving target that rises with experience and
+drops sharply once the automated pipeline lands, so any measurement of it is obsolete before use.
+Residual QA hours are therefore recorded as UNKNOWN AND IMPROVING with no invented figure
+(CTL-0209). The question is instead asked from the demand side, where the answer survives automation
+because the requirement belongs to the line rather than to the operator. Partner lanes require a
+flow, about 47600 channel views per unit at mid rates, which is roughly 26 median uploads a month or
+about 7 at the optimistic end; the existing line requires a stock, since the 800 to 4900 monthly
+search visits arrive on arcanum by sphere pages that keep ranking and accumulate while an upload
+decays. The publication ceiling therefore binds only the four partner lanes, whose mid case sits at
+the edge of a single operator, and leaves the existing line insensitive to it, which is an
+independent reason for the ordering of CTL-0200 resting on the type of resource required rather than
+on margin (CTL-0210).

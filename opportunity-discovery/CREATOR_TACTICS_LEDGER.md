@@ -170,3 +170,32 @@ This is the existing line equivalent of the ramp-up risk recorded for the debt l
 URL: https://impact-dl.ru/portfolio/matricza-sudby/
 answers: OQ-033. classification: OBSERVED PRACTICE, capture date 2026-08-25. confidence: medium high,
 qualitative by the source own choice.
+
+## CTL-0209  THE GIT TRAIL CANNOT MEASURE THROUGHPUT AND CAPACITY IS THE WRONG TARGET
+The production trail holds 134 commits over 2026-07-31 to 2026-08-25 with four tagged videos at 7 to
+24 commits and 2 to 5 QA commits each over 3 to 14 calendar days, and none of it measures operator
+hours.
+Owner correction of 2026-08-25: the trail is CONTAMINATED, because commits were made returning to
+finished videos in order to record statistics rather than to produce, and the busiest days sit after
+the last video shipped, which the day histogram confirms at 22, 14 and 13 commits on 08-23 to 08-25.
+Second and stronger half of the correction: capacity is a MOVING target that rises with experience
+and falls sharply once the automated pipeline lands, so a measurement of it is obsolete before it is
+used and is not worth buying.
+Consequence: residual QA hours are recorded as UNKNOWN AND IMPROVING and no number is invented for
+them; the throughput question must be asked from the demand side instead (CTL-0210).
+answers: OQ-017. classification: OWNER CORRECTION, capture date 2026-08-25. confidence: high.
+
+## CTL-0210  A LINE NEEDS EITHER A FLOW OR A STOCK, AND ONLY FLOW IS CAPACITY BOUND
+Inverting OQ-017 from capacity to REQUIREMENT gives a figure that survives automation, since the
+requirement is set by the line and not by the operator.
+Partner lanes require a FLOW: about 47600 channel views per unit at mid rates (CTL-0199), which at the
+1700 to 1900 views of a median new-channel upload is about 26 videos a month, or about 7 at the
+optimistic 13000 views per unit.
+The existing line requires a STOCK: the 800 to 4900 monthly search visits of CTL-0205 arrive on
+arcanum by sphere pages (CTL-0201) that keep ranking after publication and ACCUMULATE, whereas an
+upload decays.
+Consequence that survives any pipeline change: the publication ceiling binds only the four partner
+lanes, whose mid case sits at the edge of one operator, while the existing line is insensitive to it.
+This adds an independent reason for the ordering of CTL-0200, resting on the TYPE of resource
+required rather than on margin.
+answers: OQ-017. classification: DERIVED SYNTHESIS, capture date 2026-08-25. confidence: medium high.
