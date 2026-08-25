@@ -95,6 +95,8 @@ Discovery is REOPENED, see the correction at CTL-0113. A topic is admitted throu
 The full register of clusters from passes one to thirteen, including those closed earlier, is in the archived map.
 
 ## 6. Corrections register
+- CTL-0167 narrowed by CTL-0198, its preference for a partner-owned service was a particular case about cold-start sale volumes and not a standing priority; ownership of the product does not gate a line and the criterion is the probability of real income.
+- CTL-0197 quantified by CTL-0199 and CTL-0200, the qualitative comparison of the existing line against the four lanes is replaced by one common unit, net RUB per thousand channel views, and all five lines are ranked without elimination.
 - OQ-W01 reopened by CTL-0192 on owner instruction, narrowly, the existing esoteric line is admitted as a measured baseline and comparison benchmark while remaining outside channel selection.
 - CTL-0180 sharpened by CTL-0194, the tool beats the document because it is INDEXED, so calculator depth substitutes for advertising and for publicity alike.
 - OQ-017 restated by CTL-0189, owner hours are excluded from cost by the ruling of CTL-0188, so residual QA time now sets the monthly publication ceiling instead of the unit cost.
@@ -382,3 +384,22 @@ direction constraint already recorded (CTL-0196). Ranked against the four lanes,
 wins on ownership, margin, legal load and assets already built, and loses only on demand certainty,
 since nobody is already paying per lead in it; it therefore stands as the default monetisation layer
 with the four lanes as ranked alternatives (CTL-0197).
+
+## Pass 30  the ownership dichotomy is withdrawn and five lines are ranked on one unit
+The owner corrected a generalisation the workstream had been carrying since pass 23: the preference
+for a partner-owned service over an owner product was a particular case about how few sales a cold
+start can deliver, not a rule about ownership, and it was promoted into a standing priority by the
+assistant rather than by evidence, which is the CTL-0176 defect repeated in a softer form
+(CTL-0198). Nothing is excluded by ownership and the criterion is the probability of a real paid
+sale, so the line set is five and the ranking is a ranking rather than a screen. On the common unit
+of net RUB per thousand channel views, computed from the 0.6 percent click rate of CTL-0177 and the
+published funnel of CTL-0183, a partner-mediated unit costs about 47600 views at mid values, which
+puts the existing esoteric line at about 1370 RUB per thousand views, real estate and legal at about
+395, education at about 316 and telecom at UNKNOWN (CTL-0199). The existing line leads on a ticket
+four to five times smaller because two partner-controlled steps are removed and delivery is instant,
+so step count dominates fee size, and time to first money splits the rest, from weekly education
+payouts to a six-month legal ramp and a 12 to 24 month telecom accrual (CTL-0200). Telecom ranks
+last on measured value and first on option value as the only recurring unit, and two gaps survive
+without blocking the ranking, the telecom average invoice as OQ-032 and the undefined base of the 5
+to 7 percent conversion of CTL-0195. The next measurement is OQ-030, the query clusters that the
+calculator grid of CTL-0194 can own.

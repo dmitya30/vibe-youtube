@@ -480,3 +480,43 @@ first screen condition of CTL-0181 and which the four lanes satisfy by definitio
 Consequence: the existing line is the DEFAULT monetisation layer for a channel and the four lanes are
 alternatives to be ranked by the owner, not replacements.
 answers: OQ-029. classification: DERIVED SYNTHESIS, capture date 2026-08-25. confidence: medium.
+
+## CTL-0198  OWNER CLARIFICATION, THERE IS NO OWN-VERSUS-PARTNER PRODUCT DICHOTOMY
+Owner clarification of 2026-08-25: this workstream never carried a rule preferring a partner service
+over an owner product, and the preference recorded from CTL-0167 onward was a PARTICULAR CASE about
+sale volumes on a cold start that the assistant generalised into a standing priority, which is a
+method defect of the same class as CTL-0176.
+Standing form: nothing is excluded by ownership of the product, the criterion is the probability of
+an actual paid sale and of real income, and both families are compared on the same axes instead of
+being gated against each other.
+Second half of the clarification, recorded as given: a clarification is not a prohibition, so this
+entry adds no new ban and revives no rejected option; the line set is simply FIVE.
+NO_OPEN_QUESTION, recorded so later passes do not reintroduce the dichotomy.
+classification: OWNER CLARIFICATION, capture date 2026-08-25. confidence: high.
+
+## CTL-0199  THE FIVE LINES ON ONE UNIT, AND STEP COUNT BEATS FEE SIZE
+Common unit per CTL-0099, computed from CTL-0177 and CTL-0183: views to click 0.6 percent, click to
+request 3 to 7 percent, request to payment 3 to 11 percent, so one partner-mediated unit costs about
+47600 views at mid values, about 13000 at the optimistic end and above 1000000 at the pessimistic.
+Net per unit after 6 percent NPD: education about 15040 RUB, real estate about 18800 RUB, legal and
+debt about 18800 RUB, telecom UNKNOWN because the average client invoice is not published, existing
+line about 3840 RUB on the 4000 RUB tripwire of CTL-0196 taxed at 4 percent.
+Net per thousand channel views at mid values: existing line about 1370, real estate and legal about
+395, education about 316, telecom UNKNOWN.
+The existing line leads on a ticket four to five times SMALLER, because two partner-controlled steps
+are removed and delivery is instant, so step count dominates fee size.
+answers: OQ-031. classification: DERIVED CALCULATION, capture date 2026-08-25. confidence: medium,
+the funnel rates are borrowed from one published education funnel.
+
+## CTL-0200  RANKING VERDICT WITHOUT ELIMINATION, AND THE TWO GAPS THAT SURVIVE IT
+Order on net per thousand views first, then time to first money, then recurrence, then regulatory
+load, then reuse of built assets: existing esoteric line, education, real estate, legal and debt,
+B2B telecom. Nothing is eliminated, per CTL-0192.
+Time to first money separates them further: the existing line pays instantly on its own rail,
+education pays weekly, real estate pays only after a closed deal, legal carries the six-month ramp
+of CTL-0137 and telecom accrues over 12 to 24 months.
+Telecom ranks last on measured value and first on option value, being the only recurring unit
+observed in CTL-0185, so its position inverts if the average invoice is large.
+Two gaps survive and neither blocks the ranking: the telecom average client invoice, recorded as
+OQ-032, and the base of the 5 to 7 percent conversion of CTL-0195, which the source leaves undefined.
+answers: OQ-031. classification: DERIVED SYNTHESIS, capture date 2026-08-25. confidence: medium.
