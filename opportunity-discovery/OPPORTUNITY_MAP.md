@@ -95,6 +95,8 @@ Discovery is REOPENED, see the correction at CTL-0113. A topic is admitted throu
 The full register of clusters from passes one to thirteen, including those closed earlier, is in the archived map.
 
 ## 6. Corrections register
+- CTL-0136 and CTL-0167 narrowed by CTL-0176, the debt lane was an owner illustration and not a selected lane; it is one candidate among the register of CTL-0178 and carries no privileged status.
+- CTL-0167 quantified by CTL-0177 and CTL-0181, the referral mechanic is lane-independent and only its input prices are lane-specific, so a lane is chosen by screen and not by mechanic.
 
 - CTL-0051 superseded by CTL-0055, subscribers per video withdrawn as time blind;
 - CTL-0020 and CTL-0021 narrowed by CTL-0061, the policy is less restrictive than recorded and the esoteric register is not on the enumerated sensitive list;
@@ -285,3 +287,24 @@ commission from a network has no rail, which keeps the EN audience reachable onl
 artefact and defers the affiliate configuration instead of rejecting it (CTL-0175). Nothing in this
 pass touches the binding constraint, which remains attention: the next measurement is still what
 converts channel views into one signed referral per month.
+
+## Pass 26  the lane register replaces the single lane and a screen replaces the guess
+This pass opens by repairing its predecessor. The debt lane had entered as the owner personal
+example behind a 20000 RUB referral fee and was silently promoted to the only candidate, which
+contradicts the standing scope that fixes the niche as an output of measurement; the referral
+mechanic is lane-independent and only its input prices are lane-specific (CTL-0176). The
+lane-independent part is now measured: a topic-matched description link converts 0.1 to 1 percent of
+views into clicks, 0.6 percent as the planning value, driven by relevance rather than reach
+(CTL-0177). The lane-specific part turns out to be a wide register. At least ten RU lanes pay per
+lead, spanning finance in six sub-forms, insurance, e-commerce, HR, education, real estate,
+medicine, legal services and B2B services, and CPL ranges elevenfold from 500 RUB for a cold real
+estate contact to 15000 RUB for a qualified one, with a general 2026 band of 1500 to 6000 RUB from
+search (CTL-0178). Channels are not incidental to this market: Telegram and YouTube owners are a
+named partner class given individual rates, and organic traffic is rated the highest converting,
+which makes lane choice free (CTL-0179). But the richest lanes carry holds of 30 to 90 days, shave,
+brand-context bans, creative approval, statutory ad marking and in places a licensing wall, the same
+restriction class the owner rejected for supplements, so CPL alone cannot rank a lane (CTL-0180).
+The pass therefore ends with a screen rather than a choice: pay-per-lead must already exist, CPL at
+least about 2000 RUB, the subject coverable without licensed advice, the content outside restricted
+advertising, and a payer willing to pay a self-employed person (CTL-0181). The next pass applies the
+screen to the register and returns the surviving lanes with the reason each other lane failed.

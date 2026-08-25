@@ -190,3 +190,79 @@ This also removes the last argument for a foreign intermediary storefront, since
 direction constraint applies to any of them.
 answers: OQ-022. classification: DERIVED SYNTHESIS, capture date 2026-08-24. confidence: medium
 high, the inbound leg rests on vendor claims and has not been executed by the owner.
+
+## CTL-0176  METHOD DEFECT, AN ILLUSTRATION WAS PROMOTED TO THE ONLY CANDIDATE LANE
+The debt lane entered this workstream as the owner personal example behind the 20000 RUB per signed
+client of CTL-0136, and a measurement pass then treated it as the lane itself, pricing leads,
+tickets and converting artefacts inside it while never enumerating alternatives.
+That violates the standing scope of OPEN_QUESTIONS section 2, which fixes the niche as an output of
+measurement rather than an input, and it would have set the whole monetisation shape on one example.
+Correction: the referral mechanic is lane-independent and only its INPUT PRICES are lane-specific,
+so the correct unit of measurement is the register of lanes where somebody already pays per lead.
+NO_OPEN_QUESTION for the defect itself, recorded because it changes what later passes may assume.
+classification: METHOD CORRECTION, capture date 2026-08-25. confidence: high.
+
+## CTL-0177  A DESCRIPTION LINK CONVERTS ONE TENTH TO ONE PERCENT OF VIEWS AND THE RATE IS LANE-INDEPENDENT
+Operators state first-hand click volumes for the link in the description: 600 clicks per 100000
+views, which is 0.6 percent, and 10000 clicks per 1000000 views, which is 1 percent, while a third
+reports about 200 clicks against millions of views because the audience did not match the offer.
+The working band is 0.1 to 1 percent, pinning the link in a comment raises it, and the rate tracks
+relevance between link and video body rather than channel size or niche.
+Planning value for a topic-matched link: 0.6 percent of views become clicks.
+answers: OQ-021. classification: OBSERVED FACT, capture date 2026-08-25. confidence: medium high,
+several independent first-hand operators, self-reported and not audited.
+URLs: https://www.reddit.com/r/PartneredYoutube/comments/141mmao/ ;
+https://www.reddit.com/r/advertising/comments/g8kx11/
+
+## CTL-0178  THE RU PAY-PER-LEAD MARKET SPANS AT LEAST TEN LANES AND CPL RANGES ELEVENFOLD
+Named lanes that pay per lead or per action in RU networks: finance split into debit cards, credit
+cards, microloans, consumer credit and mortgage, business banking and company registration,
+brokerage and investment accounts, and insurance; plus e-commerce, HR and recruitment, education and
+online schools, real estate, medicine and clinics, legal services, and B2B services and SaaS.
+Prices, 2026: general CPL 1500 to 6000 RUB from search and 1000 to 3000 RUB from targeting; Moscow
+real estate 500 RUB for a cold contact up to 15000 RUB and above for a qualified one; a clinic
+appointment from 250 RUB; education approaching 1000 USD in some segments, with a practitioner case
+of 5 to 6 leads a month at about 5000 RUB on a classifieds channel; personal bankruptcy 4500 RUB
+audited. A ten-row CPL table by vertical exists at 1800 to 7000 RUB from search but its vertical
+labels were lost in extraction and are UNKNOWN pending a re-read.
+answers: OQ-026. classification: MIXED, audit cases plus vendor advertising, capture date
+2026-08-25. confidence: medium, vendor sources have an interest in the level they quote.
+URLs: https://new-point.bz/blog/stati-kontekstnoj-reklamy/skolko-stoit-lid-v-kontekstnoj-i-targetirovannoj-reklame-i-pochemu-stoimost-menyaetsya/ ;
+https://vc.ru/marketing/2706060-skolko-stoit-lid-v-2026-godu ;
+https://www.sostav.ru/blogs/283843/80237
+
+## CTL-0179  INFLUENCE AND ORGANIC TRAFFIC ARE A NAMED PARTNER CLASS WITH INDIVIDUAL TERMS
+RU networks list Telegram and YouTube owners as a distinct partner category alongside media buyers,
+site owners, agencies and offline consultants, value that traffic for high client lifetime value,
+and state that such partners are often given individual rates.
+Organic search traffic is rated the highest quality with the best registration to deposit ratio
+because demand is already formed, and YouTube appears in the allowed-source lists of RU finance
+networks rather than in the prohibited ones, which are motivated traffic, fraud and brand context.
+Consequence: a channel qualifies as a traffic source ACROSS the register of CTL-0178 rather than in
+one lane, so lane choice is free and must be decided by the screen and not by the mechanic.
+answers: OQ-026. classification: VENDOR POLICY, capture date 2026-08-25. confidence: medium high.
+URL: https://afftrends.com/vertical/finance/
+
+## CTL-0180  THE HIGHEST-CPL LANES CARRY THE REGULATORY AND SETTLEMENT COSTS THE OWNER ALREADY FLAGGED
+Finance, the lane with the highest published rates, attaches a hold of 30 to 90 days before payout,
+lead cancellation on the advertiser side known as shave, a ban on brand context, mandatory creative
+pre-approval, statutory advertising marking, a minimum payout of 20 to 100 USD, and in part of the
+networks a requirement that the partner hold IP or self-employed status.
+Medicine and financial advice additionally sit behind licensing, so the video itself cannot give the
+advice that would convert best.
+This is the same restriction class the owner raised against supplement and weight-loss offers, which
+means CPL alone does not rank a lane and the regulatory load must be a screen dimension.
+answers: OQ-026. classification: VENDOR POLICY, capture date 2026-08-25. confidence: high.
+URL: https://afftrends.com/vertical/finance/
+
+## CTL-0181  LANE SCREEN, FIVE CONDITIONS DERIVED FROM THE MEASURED NUMBERS
+A lane passes only if all five hold: somebody already pays per lead in it, per CTL-0178; the CPL is
+at least about 2000 RUB, since at the 0.6 percent click rate of CTL-0177 and a click-to-request rate
+of 5 to 20 percent a month of about 15000 views yields roughly 5 to 18 requests and must clear the
+195 USD monthly cost; the subject can be covered on video without giving licensed advice; the
+content itself is not restricted advertising, per CTL-0180; and a payer exists that will pay a
+natural person or a self-employed person under the factual-acts-only form of CTL-0170.
+The debt lane is now one candidate among those of CTL-0178 and holds no privileged status.
+The screen is deliberately blind to audience size, because CTL-0177 shows relevance and not reach
+drives the first step.
+answers: OQ-026. classification: DERIVED SYNTHESIS, capture date 2026-08-25. confidence: medium.
