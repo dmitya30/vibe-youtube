@@ -1,6 +1,6 @@
 # Opportunity map
 
-Updated: 2026-08-23
+Updated: 2026-08-25
 Status: current state after thirteen passes, rewritten as state rather than as a log
 Method: RESEARCH_PROTOCOL.md
 History: archive/OPPORTUNITY_MAP_PASSES_1_13.md holds the per pass narrative and the full cluster register from passes one to thirteen
@@ -403,3 +403,11 @@ last on measured value and first on option value as the only recurring unit, and
 without blocking the ranking, the telecom average invoice as OQ-032 and the undefined base of the 5
 to 7 percent conversion of CTL-0195. The next measurement is OQ-030, the query clusters that the
 calculator grid of CTL-0194 can own.
+
+## Pass 31  ledger v4 is frozen and v5 opens
+Version four crossed its own forty kilobyte archival threshold at 40407 bytes and was frozen
+complete at CTL-0200 as archive/CREATOR_TACTICS_LEDGER_V4.md, with v5 opening at CTL-0201 and
+carrying an index of the archived identifiers the five line picture rests on. No belief changed in
+this pass and no question moved; the only method fact recorded is that the threshold is measured on
+the local file, because a remote listing reports a compressed transport size that understates it and
+had briefly looked like a discrepancy.
