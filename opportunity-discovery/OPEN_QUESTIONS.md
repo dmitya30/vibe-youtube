@@ -13,6 +13,9 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 3. Open
 
+- OQ-028 which of the four surviving lanes the owner selects, given that this is a decision over priced options and not a research question; the choice fixes the artefact, the partner and the revenue unit for everything downstream; OPEN and awaiting the owner;
+- OQ-024 whether passing a viewer contact to a partner makes the creator a personal-data operator under 152-FZ with notification and consent duties, which decides whether handing over a contact is available at all in the form CTL-0170 permits; OPEN;
+- OQ-025 what the chosen partner actually converts from request to signed contract, since CTL-0183 shows the figure runs 3 to 11 percent and can move severalfold on call-script quality; this is a question to ASK THE PARTNER rather than to research; OPEN;
 - OQ-017 what the residual QA cost per video is after automation; carried forward from the map section 8; the 1.5 hours per video figure behind the 195 dollar monthly cost is an estimate and has never been measured on a produced episode; OPEN and load bearing for every break-even number in the ledger;
 
 ## 4. Deferred
@@ -23,6 +26,8 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 5. Answered
 
+- OQ-026 which lanes of the register pass the five-condition screen; ANSWERED by CTL-0182 through CTL-0187; four survive, namely education at about 16000 RUB per sale with weekly self-employed payouts, B2B services and telecom at 7 to 12 percent recurring for 12 to 24 months with natural persons explicitly admitted, real estate at 20000 RUB per closed deal against a 4000 to 15600 RUB market lead price, and legal or debt services at 20000 RUB against a 4500 RUB lead price; six fail, split between a CPL floor and a regulatory wall, and HR remains UNKNOWN for want of a payer admitting a self-employed partner;
+- OQ-027 what fraction of clicks becomes a submitted request; ANSWERED IN PART by CTL-0183; a published partner funnel puts owned-audience visit to request at 3 to 7 percent and request to payment at 3 to 11 percent, which corrects the 22 percent that had been inferred, and the residual uncertainty is whether a video audience behaves like the messenger audience measured there;
 - OQ-021 what converts channel views into one signed referral per month; ANSWERED IN PART by CTL-0177, a topic-matched description link takes 0.1 to 1 percent of views with 0.6 percent as the planning value and the rate is lane-independent; the remaining steps are lane-specific and were moved into OQ-026 and OQ-027 rather than answered here;
 - OQ-022 whether the NPD regime may be applied to income from a foreign payer; ANSWERED by CTL-0172 through CTL-0175 with a split verdict; the regime admits a foreign payer at 6 percent while the operator is located in Russia and adds no currency control, but no payout rail delivers a foreign commission to a Russian resident, so the discriminator is the direction of the money: inbound sale works at 4 percent, outbound commission does not work at all;
 - OQ-020 whether affiliate or referral commission is compatible with the self-employed NPD regime; ANSWERED by CTL-0169 through CTL-0171; agency, commission and mandate contracts are barred by 422-FZ article 4 part 2 item 5 and cost the regime itself, but a fee for the factual act of finding a potential client, without concluding contracts on behalf of the firm, qualifies as ordinary paid services and is paid this way in practice at 6 percent, with the requalification risk borne by the payer;

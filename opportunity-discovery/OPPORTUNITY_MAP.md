@@ -95,6 +95,9 @@ Discovery is REOPENED, see the correction at CTL-0113. A topic is admitted throu
 The full register of clusters from passes one to thirteen, including those closed earlier, is in the archived map.
 
 ## 6. Corrections register
+- CTL-0176 discharged by CTL-0187, the debt lane now holds a measured place among four surviving lanes rather than a privileged one.
+- CTL-0178 narrowed by CTL-0186, six lanes of the register fail the screen and the failures split into a CPL floor and a regulatory wall that are anti-correlated.
+- The 22 percent request-to-contract rate inferred in the withdrawn pass 26 arithmetic is corrected by CTL-0183 to an observed 3 to 11 percent, and the click-to-request step is fixed at 3 to 7 percent.
 - CTL-0136 and CTL-0167 narrowed by CTL-0176, the debt lane was an owner illustration and not a selected lane; it is one candidate among the register of CTL-0178 and carries no privileged status.
 - CTL-0167 quantified by CTL-0177 and CTL-0181, the referral mechanic is lane-independent and only its input prices are lane-specific, so a lane is chosen by screen and not by mechanic.
 
@@ -308,3 +311,27 @@ The pass therefore ends with a screen rather than a choice: pay-per-lead must al
 least about 2000 RUB, the subject coverable without licensed advice, the content outside restricted
 advertising, and a payer willing to pay a self-employed person (CTL-0181). The next pass applies the
 screen to the register and returns the surviving lanes with the reason each other lane failed.
+
+## Pass 27  the screen is applied and four lanes survive
+Of the ten-lane register, four clear all five conditions. Education pays from 5000 RUB per referred
+sale with a 16000 RUB average against a 100000 RUB ticket, names channel owners as an admitted
+partner class and states weekly payouts to the self-employed (CTL-0182). B2B services and telecom
+admit natural persons and the self-employed explicitly, require only the handover of a contact,
+which is exactly the factual act permitted under the NPD regime, and pay 7 to 12 percent of the
+client invoice for 12 to 24 months, the first recurring unit observed in this workstream (CTL-0185).
+Real estate carries the highest prices in the register, a raw contact at about 4000 RUB and a
+qualified one at about 15600 RUB rising to 58379 RUB in premium, with Telegram-style owned traffic
+the cheapest qualified source named, and pays natural persons a flat 20000 RUB per closed deal
+(CTL-0184). Legal and debt services remain at 4500 RUB per market lead against a 20000 RUB
+signature, which discharges the earlier method defect by leaving the owner illustration inside the
+surviving set without privilege (CTL-0187). Six lanes fail, and they fail in opposite directions:
+medicine at 250 RUB per appointment and e-commerce fall below the roughly 2000 RUB floor, while
+microloans, consumer credit, brokerage and insurance carry holds, shave, brand-context bans,
+creative approval and licensing walls, the same restriction class the owner rejected for supplements
+(CTL-0186). HR is UNKNOWN for want of a payer that admits a self-employed partner. A published
+partner funnel also closed most of OQ-027 as a side effect: owned-audience traffic converts 3 to 7
+percent of visits into requests and only 3 to 11 percent of requests into payment, the second figure
+well below the 22 percent the withdrawn pass 26 arithmetic had inferred (CTL-0183). Lane selection
+is now an owner decision over four priced options, and the remaining measurements are the residual
+QA cost per video, the personal-data status of a handed-over contact, and the chosen partner own
+conversion rate.

@@ -266,3 +266,86 @@ The debt lane is now one candidate among those of CTL-0178 and holds no privileg
 The screen is deliberately blind to audience size, because CTL-0177 shows relevance and not reach
 drives the first step.
 answers: OQ-026. classification: DERIVED SYNTHESIS, capture date 2026-08-25. confidence: medium.
+
+## CTL-0182  THE EDUCATION LANE PAYS THE LARGEST PER-UNIT FEE AND PAYS THE SELF-EMPLOYED WEEKLY
+A major RU online school states from 5000 RUB per referred sale, up to 30 percent of the ticket, an
+average reward of 16000 RUB against an average ticket of 100000 RUB, 780 plus courses across 11
+subject areas, 11500 partner-link sales in 2024 and 215 mn RUB paid to partners.
+A second platform states 17 percent of a 100000 RUB average course, about 17000 RUB.
+Bloggers, Telegram channel owners and site owners are named as an admitted partner class, and a
+partner testimonial states WEEKLY PAYOUTS FOR THE SELF-EMPLOYED, which clears the payer condition of
+the screen without an agency contract.
+Regulatory load is statutory ad marking only, with no licensing wall on the content itself.
+answers: OQ-026. classification: VENDOR POLICY, capture date 2026-08-25. confidence: medium high,
+advertiser-published figures, the 16000 RUB average is not independently audited.
+URL: https://partners.skillbox.ru/
+
+## CTL-0183  A PUBLISHED PARTNER FUNNEL FIXES CLICK TO REQUEST AT THREE TO SEVEN PERCENT
+The same programme publishes funnels by source type. Telegram channel: 108010 visits, 7750 requests,
+200 sales, stated CR 7 percent and AR 3 percent, 4350000 RUB partner reward, about 21750 RUB per
+sale. Content sites: 206950 visits, 10345 requests, 1110 sales, CR 5 percent, AR 11 percent,
+15300000 RUB. Banner: 257350 visits, 7140 requests, 300 sales, CR 3 percent, AR 4 percent.
+So visit to request runs 3 to 7 percent, at the TOP of the 5 to 20 percent band assumed earlier,
+while request to payment runs only 3 to 11 percent against the 22 percent inferred for the debt lane
+in the withdrawn arithmetic, which is the pessimistic direction.
+Owned-audience sources beat banner on both steps, which supports the relevance rule of CTL-0177.
+answers: OQ-027 in part. classification: VENDOR DISCLOSURE, capture date 2026-08-25. confidence:
+medium, aggregated advertiser statistics presented as an income forecast tool.
+URL: https://partners.skillbox.ru/
+
+## CTL-0184  THE REAL ESTATE LANE HAS THE HIGHEST CPL IN THE REGISTER AND PAYS A FIXED FEE TO NATURAL PERSONS
+Moscow 2026: a first contact rose from about 2500 RUB in 2024 to about 4000 RUB, a qualified lead
+from about 8000 to about 15600 RUB, and a targeted premium enquiry reached 58379 RUB, up 88 percent
+year on year. By channel, a lead costs about 2400 RUB from VK communities, 2900 from VK targeting,
+3100 from search, 3300 from Telegram seeding, 5000 from display and 5100 from classifieds, while a
+qualified lead costs about 10000 RUB from Telegram against 15000 from VK and up to 18000 from
+display, so Telegram-style owned traffic is the cheapest qualified source named.
+The ready-lead market runs 1599 to 4499 RUB and up to 10000 plus, and an agency partner programme
+pays natural persons a flat 20000 RUB after a closed deal against 30 percent of commission to legal
+entities.
+answers: OQ-026. classification: OBSERVED FACT plus vendor pricing, capture date 2026-08-25.
+confidence: medium high.
+URLs: https://www.sostav.ru/blogs/283843/80237 ; https://svetlana-naumova.ru/partnerskaya-programma/
+
+## CTL-0185  A B2B TELECOM PROGRAMME ADMITS NATURAL PERSONS EXPLICITLY AND PAYS FOR TWELVE TO TWENTY-FOUR MONTHS
+A federal RU telecom operator runs a referral programme open to natural persons holding a RU
+passport and a RU bank account, to the self-employed, to IP and to legal entities, operated through
+a third-party recommendation platform that states it carries the legal and organisational side of
+paying natural persons in compliance with RU law.
+The required action is exactly the factual act permitted by CTL-0170: hand over the contact of an
+interested company and stop, with the operator performing the call, the consultation and the
+connection.
+The fee is 7 to 12 percent of the client invoice excluding VAT, paid for 12 or 24 months while the
+client keeps paying, and registration requires only surname, name, email and region.
+This is the first observed lane where the revenue unit is RECURRING rather than one-off.
+answers: OQ-026. classification: VENDOR POLICY, capture date 2026-08-25. confidence: high.
+URL: https://agents.mts.ru/fizlicam
+
+## CTL-0186  SIX LANES FAIL THE SCREEN AND THEY FAIL FOR TWO OPPOSITE REASONS
+Failing on CPL below the roughly 2000 RUB floor of CTL-0181: medicine, where a clinic appointment
+starts from 250 RUB, and e-commerce, where the fee is a small percentage of a small order.
+Failing on regulatory load: microloans, cards and consumer credit carry a 30 to 90 day hold, shave
+on reconciliation, a brand-context ban, creative pre-approval and article 28 of the advertising law;
+brokerage, investment accounts and insurance sit behind licensing, so the video cannot give the
+advice that converts; medicine fails here a second time on medical advertising limits.
+HR and recruitment fails neither test but no payer admitting a self-employed partner was found, so
+it is UNKNOWN rather than rejected.
+Consequence: high CPL and low regulatory load are anti-correlated across the register, which is why
+CPL alone cannot rank a lane.
+answers: OQ-026. classification: DERIVED SYNTHESIS, capture date 2026-08-25. confidence: medium
+high.
+URL: https://afftrends.com/vertical/finance/
+
+## CTL-0187  FOUR LANES SURVIVE AND TWO OF THEM PAY A SHARE RATHER THAN A BOUNTY
+Survivors of the five-condition screen: education at about 16000 RUB average per sale, B2B services
+and telecom at 7 to 12 percent recurring for 12 to 24 months, real estate at 20000 RUB per closed
+deal against a 4000 to 15600 RUB market lead price, and legal or debt services at the 20000 RUB of
+CTL-0136 against a 4500 RUB market lead price.
+The owner illustration therefore holds a place in the surviving set without privilege, which
+discharges the defect of CTL-0176.
+Structural finding: two survivors pay a share of the ticket or of the invoice rather than a bounty
+per signature, and the telecom form pays repeatedly from one referred client, which converts the
+revenue unit from one-off to recurring and reduces, without removing, the partner sales-risk
+exposure of the withdrawn per-signature arithmetic.
+Lane choice is now an OWNER decision over four priced options rather than a research question.
+answers: OQ-026. classification: DERIVED SYNTHESIS, capture date 2026-08-25. confidence: medium.
