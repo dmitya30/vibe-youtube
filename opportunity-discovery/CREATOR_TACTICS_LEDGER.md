@@ -199,3 +199,56 @@ lanes, whose mid case sits at the edge of one operator, while the existing line 
 This adds an independent reason for the ordering of CTL-0200, resting on the TYPE of resource
 required rather than on margin.
 answers: OQ-017. classification: DERIVED SYNTHESIS, capture date 2026-08-25. confidence: medium high.
+
+## CTL-0211  THE TELECOM LANE IS WITHDRAWN BY THE OWNER AND RECURRENCE MUST COME FROM ELSEWHERE
+Owner decision of 2026-08-25: the B2B telecom referral lane is not of interest and will not be
+researched further, on the ground of very high competition among agents.
+SUPERSEDES the lane inventory of CTL-0187 and the ordering of CTL-0200 by removing their fifth member;
+four lines remain live, education, real estate, legal and debt, and the existing esoteric line.
+Consequence that matters more than the removal: telecom was the ONLY recurring revenue unit observed
+in the whole survey (CTL-0185), so recurrence now has to come from the owner side, that is from the
+2990 RUB monthly or 4900 RUB annual subscription of CTL-0203, which makes OQ-034 load bearing.
+The unmeasured average invoice of OQ-032 is therefore no longer worth obtaining.
+answers: OQ-032. classification: OWNER DECISION, capture date 2026-08-25. confidence: high.
+
+## CTL-0212  THE OWNER PRODUCTS CARRY END TO END ANALYTICS, WHICH IS AN ASSET AND NOT AN ABSENCE
+Owner statement of 2026-08-25: the owner products have full end to end analytics already configured,
+from the click on the site through the entire client path inside the bot, but NO statistics yet,
+because there is no traffic.
+This converts OQ-034 from an unanswerable question into an OBSERVATION scheduled at first traffic,
+and no share of subscription against single unlock is to be assumed before then.
+Structural consequence: the existing line is the only line where the operator owns the WHOLE
+measurement chain, click, path and payment, whereas a partner lane exposes only what the partner
+chooses to report, which is the same asymmetry that makes the 3 to 11 percent of CTL-0183 unverifiable
+from the creator side.
+This is an independent reason for the ordering of CTL-0200, resting on observability rather than on
+margin or on resource type (CTL-0210).
+answers: OQ-034 in part. classification: OWNER STATEMENT, capture date 2026-08-25. confidence: high.
+
+## CTL-0213  COUNT UNCONTROLLED HANDOFFS INSTEAD OF INVENTING A CORRECTION COEFFICIENT
+Owner framing of 2026-08-25, accepted with one amendment: an ideal funnel breaks at the partner sales
+department, this is a known and unpredictable failure, and it cannot be computed in advance.
+Amendment: a numeric correction coefficient must NOT be invented, because it would enter the files as
+evidence and be reused as if measured; what is countable today is the NUMBER of handoffs outside the
+operator control and the criticality of each.
+Existing line, zero uncontrolled handoffs. Partner lanes, at least three, the partner sales script,
+click attribution, and the payout hold of 30 to 90 days.
+Each handoff is recorded as a TOTAL LOSS risk rather than as a percentage, on the evidence of the debt
+lane where 70 percent of leads died on the first call for reasons invisible to the referrer.
+Design rule: prefer the configuration with fewer uncontrolled handoffs at equal money.
+answers: OQ-025. classification: DESIGN RULE, capture date 2026-08-25. confidence: high.
+
+## CTL-0214  THE MONETISATION LAYER NOW SELECTS THE CHANNEL TOPIC, INVERTING THE DESIGN ORDER
+Owner leaning of 2026-08-25: the line with the owner product will be chosen, while the four partner
+lanes stay in the final document as ranked alternatives and the formal selection stays outside this
+dialogue.
+Because the products are a monetisation layer over a channel and not the channel itself, the open
+question becomes the reverse of the earlier one: not which product suits the channel, but which
+channel direction lets the existing product sit NATIVELY inside it, per the binding conditions of
+CTL-0087 through CTL-0089, where the product must be the artefact shown rather than a topical match.
+Two questions follow, OQ-035 on channel direction and OQ-036 on what further products, partners and
+monetisation forms attach to such a channel in the RU and EN segments.
+Scope note recorded so it is not lost: the owner has widened access to the product documents for the
+purpose of choosing a CHANNEL DIRECTION, and not for improving the products, which remain outside the
+object of this workstream per README.md section 8 and the narrow reopening of OQ-029.
+answers: OQ-028 in part. classification: OWNER DECISION, capture date 2026-08-25. confidence: high.

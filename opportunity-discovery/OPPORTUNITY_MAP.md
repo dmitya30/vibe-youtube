@@ -95,6 +95,8 @@ Discovery is REOPENED, see the correction at CTL-0113. A topic is admitted throu
 The full register of clusters from passes one to thirteen, including those closed earlier, is in the archived map.
 
 ## 6. Corrections register
+- CTL-0187 and CTL-0200 narrowed by CTL-0211, the B2B telecom lane is withdrawn on owner decision over agent competition, leaving four live lines and removing the only recurring revenue unit, so recurrence must now come from the owner subscription.
+- CTL-0195 and CTL-0183 further qualified by CTL-0212, a partner lane exposes only the conversion figures the partner chooses to report, while the existing line carries end to end analytics owned by the operator.
 - CTL-0194 narrowed by CTL-0201, grid breadth is the growth lever but the grid is arcanum by sphere content pages rather than calculators; the leading site runs four calculators and hundreds of pages.
 - CTL-0196 narrowed by CTL-0203, the 4000 to 4500 RUB ticket is the live practitioner price; an automated calculator sells at 670 RUB per unlock with subscriptions above it.
 - CTL-0195 narrowed by CTL-0204, the 5 to 7 percent conversion belongs to a bot gated funnel; cold search traffic in this line converts at 0.5 to 3 percent.
@@ -465,3 +467,23 @@ decays. The publication ceiling therefore binds only the four partner lanes, who
 the edge of a single operator, and leaves the existing line insensitive to it, which is an
 independent reason for the ordering of CTL-0200 resting on the type of resource required rather than
 on margin (CTL-0210).
+
+## Pass 35  telecom is withdrawn, handoffs replace a coefficient, and the design order inverts
+Three owner decisions and one amendment closed most of the remaining queue. The B2B telecom lane is
+withdrawn over agent competition, which leaves four live lines and, more importantly, removes the only
+recurring revenue unit the survey had found, so recurrence must now come from the owner subscription
+and the subscription share becomes load bearing (CTL-0211). The owner products already carry end to
+end analytics from site click through the whole bot path, with no statistics only because there is no
+traffic, which turns that share into an observation scheduled at first traffic and reveals a further
+asymmetry: the existing line is the only one where the operator owns the entire measurement chain,
+while a partner lane exposes only what the partner reports (CTL-0212). The owner proposed a numeric
+correction coefficient for uncontrolled funnel breaks and this was accepted in substance but amended
+in form, since an invented multiplier would enter the files as evidence; what is counted instead is
+the number of handoffs outside operator control, zero on the existing line against at least three on
+a partner lane, each treated as a total loss risk on the evidence of 70 percent of debt leads dying
+on the first call (CTL-0213). Finally the design order inverted. The products are a monetisation layer
+over a channel, so the question is no longer which product suits a channel but which channel direction
+lets the existing product sit natively inside it, which opens OQ-035 on direction, OQ-036 on further
+products and partners in the RU and EN segments, and OQ-037 on whether the owner payment rail can
+accept a foreign card at all, since the money direction rule of CTL-0175 blocks the commission path
+but says nothing about inbound acquiring (CTL-0214).
