@@ -95,6 +95,9 @@ Discovery is REOPENED, see the correction at CTL-0113. A topic is admitted throu
 The full register of clusters from passes one to thirteen, including those closed earlier, is in the archived map.
 
 ## 6. Corrections register
+- CTL-0194 narrowed by CTL-0201, grid breadth is the growth lever but the grid is arcanum by sphere content pages rather than calculators; the leading site runs four calculators and hundreds of pages.
+- CTL-0196 narrowed by CTL-0203, the 4000 to 4500 RUB ticket is the live practitioner price; an automated calculator sells at 670 RUB per unlock with subscriptions above it.
+- CTL-0195 narrowed by CTL-0204, the 5 to 7 percent conversion belongs to a bot gated funnel; cold search traffic in this line converts at 0.5 to 3 percent.
 - CTL-0167 narrowed by CTL-0198, its preference for a partner-owned service was a particular case about cold-start sale volumes and not a standing priority; ownership of the product does not gate a line and the criterion is the probability of real income.
 - CTL-0197 quantified by CTL-0199 and CTL-0200, the qualitative comparison of the existing line against the four lanes is replaced by one common unit, net RUB per thousand channel views, and all five lines are ranked without elimination.
 - OQ-W01 reopened by CTL-0192 on owner instruction, narrowly, the existing esoteric line is admitted as a measured baseline and comparison benchmark while remaining outside channel selection.
@@ -411,3 +414,21 @@ carrying an index of the archived identifiers the five line picture rests on. No
 this pass and no question moved; the only method fact recorded is that the threshold is measured on
 the local file, because a remote listing reports a compressed transport size that understates it and
 had briefly looked like a discrepancy.
+
+## Pass 32  the existing line is priced and its search surface is described
+The growth lever of the existing line was restated. The leading Russian matrix calculator runs only
+four calculators, and its indexed surface is a grid of arcanum by sphere pages, twenty two arcana
+crossed with relationships, money, health and profession, which is the cheap way to widen a surface
+while adding calculators is the expensive way (CTL-0201). The ticket is lower than assumed: 670 RUB
+to unlock one date, 2990 RUB a month or 4900 RUB a year for all calculators, so the 4000 to 4500 RUB
+of CTL-0196 is a live practitioner price and not an automated one, at 15 to 25 RUB of unit cost and
+82 to 87 percent margin (CTL-0203). Cold search traffic converts at 0.5 to 3 percent rather than the
+5 to 7 percent of a bot gated funnel, with 23 percent repeat purchase (CTL-0204). Together these put
+a thousand search visits at about 3200 to 19300 RUB net and cover the 195 USD ceiling with roughly 24
+unlocks, that is 800 to 4900 search visits a month, two orders of magnitude cheaper per rouble than
+the 47600 channel views a partner unit needs, though search visits must be earned by ranking rather
+than produced by publishing (CTL-0205). Demand volume remains unmeasured: the 1.5 million monthly
+queries come from a party selling calculator scripts, Wordstat is gated, and only competitive scale
+is independently visible at 37000 and 420000 monthly visits on rival domains (CTL-0202). The line
+also carries risks the partner lanes do not, namely fraud schemes using these services as bait,
+explicit seasonality, and cannibalisation between several domains of one owner (CTL-0206).
