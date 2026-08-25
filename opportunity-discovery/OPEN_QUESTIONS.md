@@ -13,10 +13,9 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 3. Open
 
+- OQ-017 RESTATED by CTL-0189: at the observed residual QA time per video after automation, how many videos per month can one operator sustain, and does that publication ceiling reach the monthly view volume a surviving lane of CTL-0187 requires; the 1.5 hours per video figure has never been measured on a produced episode; OPEN and load bearing, now for throughput rather than for cost;
 - OQ-028 which of the four surviving lanes the owner selects, given that this is a decision over priced options and not a research question; the choice fixes the artefact, the partner and the revenue unit for everything downstream; OPEN and awaiting the owner;
-- OQ-024 whether passing a viewer contact to a partner makes the creator a personal-data operator under 152-FZ with notification and consent duties, which decides whether handing over a contact is available at all in the form CTL-0170 permits; OPEN;
 - OQ-025 what the chosen partner actually converts from request to signed contract, since CTL-0183 shows the figure runs 3 to 11 percent and can move severalfold on call-script quality; this is a question to ASK THE PARTNER rather than to research; OPEN;
-- OQ-017 what the residual QA cost per video is after automation; carried forward from the map section 8; the 1.5 hours per video figure behind the 195 dollar monthly cost is an estimate and has never been measured on a produced episode; OPEN and load bearing for every break-even number in the ledger;
 
 ## 4. Deferred
 
@@ -26,6 +25,7 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 5. Answered
 
+- OQ-024 whether handing a viewer contact to a partner makes the creator a personal-data operator; ANSWERED by CTL-0190 and CTL-0191; the regime grants the self-employed no exemption and requires notification before processing, but the duty attaches to whoever COLLECTS, so a design in which the partner hosts the request form and the channel supplies only a tracked link leaves the creator outside the regime entirely; the corollary is that the owned page must host no lead form and that selling leads is closed as a revenue unit;
 - OQ-026 which lanes of the register pass the five-condition screen; ANSWERED by CTL-0182 through CTL-0187; four survive, namely education at about 16000 RUB per sale with weekly self-employed payouts, B2B services and telecom at 7 to 12 percent recurring for 12 to 24 months with natural persons explicitly admitted, real estate at 20000 RUB per closed deal against a 4000 to 15600 RUB market lead price, and legal or debt services at 20000 RUB against a 4500 RUB lead price; six fail, split between a CPL floor and a regulatory wall, and HR remains UNKNOWN for want of a payer admitting a self-employed partner;
 - OQ-027 what fraction of clicks becomes a submitted request; ANSWERED IN PART by CTL-0183; a published partner funnel puts owned-audience visit to request at 3 to 7 percent and request to payment at 3 to 11 percent, which corrects the 22 percent that had been inferred, and the residual uncertainty is whether a video audience behaves like the messenger audience measured there;
 - OQ-021 what converts channel views into one signed referral per month; ANSWERED IN PART by CTL-0177, a topic-matched description link takes 0.1 to 1 percent of views with 0.6 percent as the planning value and the rate is lane-independent; the remaining steps are lane-specific and were moved into OQ-026 and OQ-027 rather than answered here;

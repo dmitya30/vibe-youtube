@@ -349,3 +349,55 @@ revenue unit from one-off to recurring and reduces, without removing, the partne
 exposure of the withdrawn per-signature arithmetic.
 Lane choice is now an OWNER decision over four priced options rather than a research question.
 answers: OQ-026. classification: DERIVED SYNTHESIS, capture date 2026-08-25. confidence: medium.
+
+## CTL-0188  OWNER RULING, THE 195 USD IS A CASH CEILING AND OWNER HOURS ARE NOT PRICED INTO IT
+Owner decision of 2026-08-25: own time is not counted as an expense, so 195 USD per month stands as
+the UPPER bound of monetary cost and every break-even figure in this ledger is to be read against
+cash only.
+Consequence for arithmetic: no break-even number may be inflated by an hourly rate for the owner,
+and a lane may not be rejected on the ground that owner hours make it unprofitable.
+Consequence that survives the ruling: unpriced hours remain a THROUGHPUT limit rather than a cost,
+since at the 8 hours per video median of the pre-automation baseline eight to nine videos a month
+consume 64 to 72 hours, so the residual QA figure now governs how many videos can exist rather than
+what they cost.
+NO_OPEN_QUESTION, this is a scope ruling recorded so later passes do not reintroduce imputed labour
+cost. classification: OWNER DECISION, capture date 2026-08-25. confidence: high.
+
+## CTL-0189  OQ-017 REDEFINED FROM A COST QUESTION INTO A THROUGHPUT CEILING QUESTION
+SUPERSEDES the framing of OQ-017 as a cost input, per CTL-0188.
+The residual QA time per video after automation is no longer needed to price a video; it is needed
+to compute the maximum monthly publication rate, which is the input that the reach requirement of
+the surviving lanes is compared against.
+Restated question: at the observed residual QA time per video, how many videos per month can one
+operator sustain, and does that number reach the monthly view volume a surviving lane needs.
+If residual QA is 1.5 hours the ceiling is far above the eight to nine videos a month assumed, and
+if it is 4 hours or more the publication rate becomes the binding constraint instead of attention.
+answers: OQ-017 in part, by restating it. classification: METHOD CORRECTION, capture date
+2026-08-25. confidence: high.
+
+## CTL-0190  THE SELF-EMPLOYED HAVE NO EXEMPTION FROM THE PERSONAL DATA REGIME
+Law 152-FZ provides no exception for the self-employed, so a person on the NPD regime who processes
+personal data is an operator and must notify Roskomnadzor BEFORE processing begins, filing through
+Gosuslugi on the form of Roskomnadzor order 180 of 28.10.2022, and must also notify on termination.
+Since 30 May 2025 collecting data without having notified is a separate offence under article 13.11
+of the administrative code.
+Penalty scale: from 2000 to 4000 RUB for a citizen on the base offence, 30000 to 50000 RUB for an IP
+for the missing notification, and from 100000 RUB upward for processing without valid consent, with
+far larger figures for leaks and special categories.
+answers: OQ-024. classification: OFFICIAL REQUIREMENT, capture date 2026-08-25. confidence: high.
+URLs: https://www.zarplata-online.ru/art/164326-persdannye-ip-samozanyatye ;
+https://www.consultant.ru/document/cons_doc_LAW_34661/1f421640c6775ff67079ebde06a7d2f6d17b96db/ ;
+https://www.eg-online.ru/article/497944/
+
+## CTL-0191  DESIGN RULE, THE CREATOR NEVER COLLECTS A CONTACT AND THEREFORE NEVER BECOMES AN OPERATOR
+The duty of CTL-0190 attaches to whoever COLLECTS and transfers the data. If the request form lives
+on the partner surface and the channel supplies only a tracked link, the partner is the operator and
+the creator processes nothing, which removes notification, consent and storage duties entirely.
+This is the same shape the safe referral form of CTL-0170 already requires, namely pass the interest
+and stop, and it is how all four surviving lanes of CTL-0187 are actually built, since the request is
+received by the partner.
+A form on the creator own site, by contrast, makes the creator an operator immediately, so the owned
+page of CTL-0159 must remain a SELLING and ROUTING surface and must not host a lead form.
+It also closes the lead-sale fallback as a revenue unit, because selling a lead requires collecting
+and transferring it and therefore operator status.
+answers: OQ-024. classification: DERIVED RULE, capture date 2026-08-25. confidence: medium high.

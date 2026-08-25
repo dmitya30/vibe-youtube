@@ -95,6 +95,8 @@ Discovery is REOPENED, see the correction at CTL-0113. A topic is admitted throu
 The full register of clusters from passes one to thirteen, including those closed earlier, is in the archived map.
 
 ## 6. Corrections register
+- OQ-017 restated by CTL-0189, owner hours are excluded from cost by the ruling of CTL-0188, so residual QA time now sets the monthly publication ceiling instead of the unit cost.
+- The lead-sale fallback floated as a lower-ticket unit is closed by CTL-0191, since selling a lead requires collecting it and therefore operator status under 152-FZ.
 - CTL-0176 discharged by CTL-0187, the debt lane now holds a measured place among four surviving lanes rather than a privileged one.
 - CTL-0178 narrowed by CTL-0186, six lanes of the register fail the screen and the failures split into a CPL floor and a regulatory wall that are anti-correlated.
 - The 22 percent request-to-contract rate inferred in the withdrawn pass 26 arithmetic is corrected by CTL-0183 to an observed 3 to 11 percent, and the click-to-request step is fixed at 3 to 7 percent.
@@ -335,3 +337,22 @@ well below the 22 percent the withdrawn pass 26 arithmetic had inferred (CTL-018
 is now an owner decision over four priced options, and the remaining measurements are the residual
 QA cost per video, the personal-data status of a handed-over contact, and the chosen partner own
 conversion rate.
+
+## Pass 28  the cost basis is fixed and the data role is settled
+The owner ruled that own time is not an expense, so 195 USD a month stands as the upper bound of
+monetary cost and no break-even figure may be inflated by an imputed hourly rate (CTL-0188). The part
+of the objection that survives is that unpriced hours still cap output: at the eight hours per video
+baseline, eight to nine videos consume 64 to 72 hours, so the residual QA figure was restated from a
+cost input into a publication ceiling, and the question is now how many videos a month one operator
+can sustain and whether that reaches the view volume a surviving lane needs (CTL-0189). Alongside
+this, OQ-024 closed. Law 152-FZ grants the self-employed no exemption: an operator must notify
+Roskomnadzor before processing, collection without notification has been a separate offence since 30
+May 2025, and penalties run from 2000 to 4000 RUB for a citizen up to 100000 RUB and beyond for
+processing without valid consent (CTL-0190). The resolution is a design rule rather than a
+permission. The duty attaches to whoever collects, so if the partner hosts the request form and the
+channel supplies only a tracked link, the creator processes nothing and holds no duties; this is the
+shape the safe referral form already required and the shape all four surviving lanes already have,
+while a form on the owned page would create operator status immediately, and it also closes lead
+selling as a revenue unit (CTL-0191). What remains before the strategy assembly is the publication
+ceiling, the partner own request-to-contract rate, and the owner lane choice among the four priced
+options.
