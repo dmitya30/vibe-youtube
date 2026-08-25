@@ -13,7 +13,6 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 3. Open
 
-- OQ-033 what the actual Yandex Wordstat volumes are for the arcanum by sphere clusters of CTL-0201, since CTL-0202 leaves them UNKNOWN and the only published figure comes from a script seller; Wordstat is behind authentication, so this is a question for the OWNER to pull from his own account rather than to research; OPEN;
 - OQ-034 what share of buyers takes the 2990 RUB monthly or 4900 RUB annual subscription rather than the 670 RUB single unlock of CTL-0203, since the ratio moves revenue per visitor by a factor of four to seven and decides whether the line is a one-off or a retention product; OPEN;
 - OQ-017 RESTATED by CTL-0189: at the observed residual QA time per video after automation, how many videos per month can one operator sustain, and does that publication ceiling reach the monthly view volume a surviving lane of CTL-0187 requires; the 1.5 hours per video figure has never been measured on a produced episode; OPEN and load bearing, now for throughput rather than for cost;
 - OQ-028 which of the FIVE ranked lines the owner selects, the four partner lanes of CTL-0187 plus the existing esoteric line of CTL-0192, given that this is a decision over priced options and not a research question; ranked without elimination at CTL-0200; OPEN and awaiting the owner, and excluded from this dialogue by owner decision of 2026-08-25;
@@ -58,5 +57,6 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 6. Withdrawn
 
+- OQ-033 the Yandex Wordstat volumes for the arcanum by sphere clusters; WITHDRAWN on 2026-08-25 on owner instruction and shown non-blocking by CTL-0207 and CTL-0208; break-even at 800 to 4900 monthly search visits lies two orders of magnitude below the 37000 to 420000 visits observed on rival domains, so the volume would refine a forecast rather than change the decision, and the real entry barrier is time to rank and technical upkeep rather than knowledge of demand; reopen only if a revenue forecast for this line is required.
 - OQ-012 the two surface plan; WITHDRAWN on 2026-08-23 because its premise dissolved; CTL-0077 shows the 20 to 40 minute band needs 20000 to 32400 views against 11000 for very long form, a gap under threefold, while the same band leads on median reach, so the threshold saving does not pay for a second format cycle and for halving the breakout attempts;
 - OQ-W01 which acquisition surface carries buyers of the owner products; WITHDRAWN on 2026-08-23 as out of scope, because it investigates the products rather than the channel and therefore violates the scope stated in section 2 and in README.md section 8. REOPENED NARROWLY on 2026-08-25 as OQ-029 by owner instruction, limited to a baseline economic picture of the existing line and still excluded from channel selection.

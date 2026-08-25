@@ -142,3 +142,31 @@ cannibalisation risks that fall on the operator.
 URLs: https://www.gosrf.ru/eksperty-vyyavili-novuyu-shemu-moshennichestva-s-czifrovymi-servisami and
 https://impact-dl.ru/portfolio/matricza-sudby/
 answers: OQ-030. classification: OBSERVED RISK, capture date 2026-08-25. confidence: medium.
+
+## CTL-0207  QUERY VOLUME IS NOT A DECISION INPUT AT THIS BREAK-EVEN
+Break-even for the existing line is 800 to 4900 search visits a month (CTL-0205) while independently
+observed rivals in the same cluster run about 37000 and about 420000 monthly visits (CTL-0202).
+The requirement therefore sits two orders of magnitude BELOW observed traffic in the cluster, so the
+enter-or-not decision is identical whether the true volume is the seller-claimed 1.5 million monthly
+queries or a fraction of it.
+Volume would change a revenue FORECAST, not the decision, and a forecast is not needed before a line
+is chosen, so the unmeasured volume of CTL-0202 is not a blocker.
+Owner decision of 2026-08-25: Wordstat is not to be pursued and the data already held is sufficient.
+SUPERSEDES nothing; it narrows the standing of OQ-033 to a forecasting refinement.
+answers: OQ-033. classification: DERIVED SYNTHESIS, capture date 2026-08-25. confidence: high, it is
+a comparison of two figures already in the ledger.
+
+## CTL-0208  THE BARRIER IN THIS LINE IS TIME AND TEAM, NOT KNOWLEDGE OF DEMAND
+The agency running the leading platform publishes NO absolute figure in its own case study, only the
+words high, growth and top, next to the statement 2+ years of platform and SEO development in one
+team, which is itself the most informative number in the document.
+It names competition on three axes at once, content, technical quality and brand recognition in AI
+answers, and lists as project difficulties seasonality of demand, cannibalisation between several
+domains of one owner, and high coupling where one formula error damages the whole product.
+Consequence: the scarce resource for entering this line is TIME TO RANK and sustained technical
+upkeep, not knowledge of query volumes, which is why CTL-0207 holds and why a cold entrant cannot
+assume the leader economics of CTL-0203 in its first months.
+This is the existing line equivalent of the ramp-up risk recorded for the debt lane at CTL-0137.
+URL: https://impact-dl.ru/portfolio/matricza-sudby/
+answers: OQ-033. classification: OBSERVED PRACTICE, capture date 2026-08-25. confidence: medium high,
+qualitative by the source own choice.

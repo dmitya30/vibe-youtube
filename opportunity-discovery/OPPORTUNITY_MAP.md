@@ -432,3 +432,19 @@ queries come from a party selling calculator scripts, Wordstat is gated, and onl
 is independently visible at 37000 and 420000 monthly visits on rival domains (CTL-0202). The line
 also carries risks the partner lanes do not, namely fraud schemes using these services as bait,
 explicit seasonality, and cannibalisation between several domains of one owner (CTL-0206).
+
+## Pass 33  the unmeasured demand volume is shown not to be a blocker
+The residue left by pass 32 was closed without measuring it. Break-even for the existing line is 800
+to 4900 search visits a month while rivals in the same cluster are independently seen at about 37000
+and about 420000 monthly visits, so the requirement sits two orders of magnitude below observed
+traffic and the enter-or-not decision does not move with the true volume; volume would refine a
+revenue forecast, which is not needed before a line is chosen, and the owner closed the Wordstat
+pursuit on 2026-08-25 (CTL-0207). The agency case behind the leading platform reinforces this from
+the other side by publishing no absolute figure at all, only high, growth and top, beside the one
+number that matters, 2+ years of platform and SEO development in a single team, with competition
+running simultaneously on content, technical quality and brand presence in AI answers. The scarce
+resource for entry is therefore time to rank and sustained upkeep rather than knowledge of demand,
+which is the existing line counterpart of the six-month ramp recorded for the debt lane at CTL-0137
+(CTL-0208). Research remainder after this pass is OQ-017 on production throughput and OQ-034 on the
+subscription share; every other open question is addressed to the owner or to a partner rather than
+to research.
