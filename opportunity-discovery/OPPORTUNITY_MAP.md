@@ -95,6 +95,8 @@ Discovery is REOPENED, see the correction at CTL-0113. A topic is admitted throu
 The full register of clusters from passes one to thirteen, including those closed earlier, is in the archived map.
 
 ## 6. Corrections register
+- OQ-W01 reopened by CTL-0192 on owner instruction, narrowly, the existing esoteric line is admitted as a measured baseline and comparison benchmark while remaining outside channel selection.
+- CTL-0180 sharpened by CTL-0194, the tool beats the document because it is INDEXED, so calculator depth substitutes for advertising and for publicity alike.
 - OQ-017 restated by CTL-0189, owner hours are excluded from cost by the ruling of CTL-0188, so residual QA time now sets the monthly publication ceiling instead of the unit cost.
 - The lead-sale fallback floated as a lower-ticket unit is closed by CTL-0191, since selling a lead requires collecting it and therefore operator status under 152-FZ.
 - CTL-0176 discharged by CTL-0187, the debt lane now holds a measured place among four surviving lanes rather than a privileged one.
@@ -356,3 +358,27 @@ while a form on the owned page would create operator status immediately, and it 
 selling as a revenue unit (CTL-0191). What remains before the strategy assembly is the publication
 ceiling, the partner own request-to-contract rate, and the owner lane choice among the four priced
 options.
+
+## Pass 29  the existing line is priced and ranked against the four lanes
+On owner instruction the withdrawn question about the existing esoteric line is reopened narrowly, as
+a measured baseline rather than as an object of selection, and the four lanes are to be ranked in the
+final document without elimination (CTL-0192). An operator running the owner exact stack, a
+calculator site plus a Telegram bot with no publicity requirement, reports 1219120 RUB over nine
+months at zero advertising spend, with search traffic landing on a birth-date calculator that hands
+the date to a bot gating a free reading on channel subscription and selling a paid reading as a
+tripwire; the same operator states every other surface tried, Reels, Shorts, VK clips and video, was
+ineffective because it demanded continuous effort while the site produced subscribers automatically
+(CTL-0193). The growth lever is indexation rather than persuasion: calculators were ADDED for
+talents, profession, money, health, yearly forecast and compatibility precisely to own more query
+clusters, so the breadth of the grid replaces both ad budget and a public persona, and the bot is the
+retention and payment layer rather than the acquisition layer (CTL-0194). The case also names its
+failures: manual readings were replaced by instant generated PDFs, unsubscribes were countered by a
+daily forecast, and a 5 to 7 percent conversion, stated as insufficient, was answered by placing
+courses and report access above the tripwire, so revenue is a property of the ladder and not of the
+bot (CTL-0195). Market prices bound the ceiling: 4000 to 4500 RUB per forecast, 10000 RUB per
+package, two to five consultations a day, from 100000 to 250000 RUB a month for a single
+practitioner, with package demand weakened since 2022 and foreign clients lost to the payment
+direction constraint already recorded (CTL-0196). Ranked against the four lanes, the existing line
+wins on ownership, margin, legal load and assets already built, and loses only on demand certainty,
+since nobody is already paying per lead in it; it therefore stands as the default monetisation layer
+with the four lanes as ranked alternatives (CTL-0197).

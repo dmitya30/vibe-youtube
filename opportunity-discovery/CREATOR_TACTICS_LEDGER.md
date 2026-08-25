@@ -401,3 +401,82 @@ page of CTL-0159 must remain a SELLING and ROUTING surface and must not host a l
 It also closes the lead-sale fallback as a revenue unit, because selling a lead requires collecting
 and transferring it and therefore operator status.
 answers: OQ-024. classification: DERIVED RULE, capture date 2026-08-25. confidence: medium high.
+
+## CTL-0192  SCOPE CHANGE BY OWNER, THE ESOTERIC LINE ECONOMICS RE-ENTERS AS OQ-029
+OQ-W01 was withdrawn on 2026-08-23 as out of scope because it investigated owner products rather than
+the channel. Owner decision of 2026-08-25 reverses that for one purpose only: the final document
+must carry a completed economic picture of the EXISTING line, namely the esoteric Telegram bots plus
+an inviting site with basic SEO, alongside the four lanes of CTL-0187.
+Scope of the reversal: the existing line is admitted as a MEASURED BASELINE and a comparison
+benchmark, not as the object of channel selection, and the four lanes remain RANKED WITHOUT
+ELIMINATION per the same decision.
+Recorded so the reversal is explicit and the withdrawn question is not treated as silently reopened.
+answers: OQ-029. classification: OWNER DECISION, capture date 2026-08-25. confidence: high.
+
+## CTL-0193  AN OPERATOR WITH THE OWNER EXACT STACK REPORTS 1219120 RUB ON ZERO AD SPEND
+A numerology consultant project running a calculator SITE plus a Telegram BOT, with no personality
+publicity requirement, grew from 100 to 1600 subscribers in nine months and reports 1219120 RUB of
+revenue at 0 RUB advertising spend.
+Funnel: search traffic lands on a birth-date calculator, the calculator hands the date to the bot
+through an external request, the bot offers a free reading gated on a verified channel subscription
+or a paid full reading as a tripwire, and higher-priced products sit above it.
+The operator states that every OTHER source tried, Reels, Shorts, VK clips and video, was
+ineffective because each demanded continuous effort, while the site delivered subscribers
+automatically, which is the only first-hand comparison of surfaces observed in this workstream.
+answers: OQ-029. classification: REPORTED CASE, capture date 2026-08-25. confidence: medium, single
+self-reported case published by the bot platform it advertises.
+URL: https://bothelp.io/ru/blog/keys-bot-numerologa
+
+## CTL-0194  CALCULATOR DEPTH IS AN SEO SURFACE AND IT SUBSTITUTES FOR BOTH ADVERTISING AND PUBLICITY
+SHARPENS: CTL-0180, which found the converting artefact to be a tool rather than a document.
+The same operator raised traffic by ADDING calculators, naming talents, profession, money, a health
+map, a yearly forecast and pair compatibility, and states the purpose explicitly, to increase the
+number of key queries and therefore site visitors and therefore channel subscribers.
+The mechanism is not persuasion but indexation: each distinct calculation owns its own search
+cluster, so breadth of the calculator grid replaces both ad budget and a public persona, which is
+what the owner required in rejecting the memoir form.
+Consequence for the existing line: the growth lever is the NUMBER of calculators, each mapped to a
+query cluster, and the bot is the retention and payment layer rather than the acquisition layer.
+answers: OQ-029. classification: DERIVED SYNTHESIS, capture date 2026-08-25. confidence: medium
+high.
+URL: https://bothelp.io/ru/blog/keys-bot-numerologa
+
+## CTL-0195  THE FOUR FIXES THAT MOVED REVENUE WERE AUTOMATION, RETENTION, DEPTH AND LADDER
+The same case names its own failures and remedies. Manual preparation of paid readings consumed
+staff time and made clients wait two to three days, fixed by a program generating an individual PDF
+from the birth date so payment and delivery are instant. Channel unsubscribes were countered by a
+DAILY forecast bot that gives a reason to stay subscribed. A conversion rate of 5 to 7 percent was
+stated as insufficient for the target income, answered by adding higher-priced products, namely site
+access to potential reports, courses and trainings, and by building an offer chain after the
+tripwire.
+So the reported revenue is not a property of the bot but of a ladder placed above a tripwire, and the
+observed conversion band for this configuration is 5 to 7 percent.
+answers: OQ-029. classification: REPORTED CASE, capture date 2026-08-25. confidence: medium.
+URL: https://bothelp.io/ru/blog/keys-bot-numerologa
+
+## CTL-0196  RU ESOTERIC SERVICE PRICES AND THE CEILING OF A SINGLE PRACTITIONER
+First-hand practitioner figures: a numerologist on the self-employed regime charges 4000 to 4500 RUB
+per forecast, sells packages of several consultations at 10000 RUB, runs two to five consultations a
+day and states at least 100000 RUB a month; a neurographics specialist states a minimum monthly
+250000 RUB; entry investment ranged from 30000 RUB to about 500000 RUB spent on training and
+blogger advertising.
+Demand context: platform data showed requests to astrologers up 38 percent, tarologists up 33
+percent and numerologists doubling in 2022, while practitioners report that package buying weakened
+afterwards as clients became cautious.
+Same practitioner reports losing foreign clients because payments could not be received, which is
+the money-direction constraint of CTL-0175 observed independently in this lane.
+answers: OQ-029. classification: OBSERVED FACT, capture date 2026-08-25. confidence: medium high.
+URL: https://www.dg-yug.ru/article/126087.html
+
+## CTL-0197  THE EXISTING LINE OUTRANKS THE FOUR LANES ON EVERY DIMENSION EXCEPT DEMAND CERTAINTY
+Ranking the existing line against CTL-0187 without eliminating anything, as the owner requires.
+It wins on ownership, since price, ladder and payment rail are the operator own and no partner
+conversion rate intervenes, removing the dependency recorded earlier; on margin, since the owned
+rail keeps about 87 to 96 percent against 13 percent of ticket in a referral; on legal load, since
+no personal data is collected by a third party and the NPD regime applies directly; and on assets
+already built, since the bots, the site and the payment circuit exist.
+It loses on demand certainty, because no third party is already paying per lead in it, which was the
+first screen condition of CTL-0181 and which the four lanes satisfy by definition.
+Consequence: the existing line is the DEFAULT monetisation layer for a channel and the four lanes are
+alternatives to be ranked by the owner, not replacements.
+answers: OQ-029. classification: DERIVED SYNTHESIS, capture date 2026-08-25. confidence: medium.
