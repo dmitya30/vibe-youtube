@@ -252,3 +252,74 @@ Scope note recorded so it is not lost: the owner has widened access to the produ
 purpose of choosing a CHANNEL DIRECTION, and not for improving the products, which remain outside the
 object of this workstream per README.md section 8 and the narrow reopening of OQ-029.
 answers: OQ-028 in part. classification: OWNER DECISION, capture date 2026-08-25. confidence: high.
+
+## CTL-0215  EVERY OWNER PRODUCT RETURNS A PER-VIEWER ARTEFACT, WHICH DICTATES THE VIDEO FORM
+All three products take PERSONAL input and return an object that exists only for that person: birth
+date and full name in Quantocode, a fifteen question portrait plus a goal in Elyor, a described
+situation in Mystic Oracle.
+Consequence for CTL-0087 through CTL-0089, where a product sells only when it IS the artefact shown:
+the finished output cannot be shown in a video because it differs for every viewer.
+The only form that satisfies the binding is a video whose subject is the SYSTEM itself, one number,
+one arcanum, one direction, where computing the personal instance is the missing action and therefore
+the call to action.
+This rules out review, prediction and personality-reading formats, and rules in explanatory ones.
+URLs: the three product documents in quietHome-context/01-products of the owner repository.
+answers: OQ-035. classification: DERIVED SYNTHESIS, capture date 2026-08-25. confidence: high.
+
+## CTL-0216  THE SEARCH PAGE GRID AND THE CHANNEL CONTENT PLAN ARE THE SAME GRID
+The arcanum by sphere page grid that holds the leading site in search (CTL-0201) has the same shape as
+the enumerable content space of the owner products: three codes in Quantocode, eight oracle systems
+against five situations in Mystic Oracle, six life directions in Elyor.
+Consequence: one research artefact feeds two surfaces at once, a ranking page and a video, so the
+content plan is finite, enumerable and already validated by web search demand rather than invented.
+This is the first mechanism found in this workstream where the channel and the monetisation layer do
+not compete for production time but share it.
+Caveat kept explicit: web search demand does not prove YouTube demand for the same topics, which is
+recorded as OQ-039.
+answers: OQ-035. classification: DERIVED SYNTHESIS, capture date 2026-08-25. confidence: medium high.
+
+## CTL-0217  THE BOTS ALREADY CARRY DAILY RETENTION, SO THE CHANNEL ONLY HAS TO ACQUIRE
+Each product holds its own daily return mechanism: Posts of Elyor each morning, the Code of the Day at
+06:00 Moscow in Quantocode with a free mirror layer and a paid interpretation layer, and one free
+answer a day in Mystic Oracle.
+This confirms from the owner side the division already observed in the field at CTL-0194, where the bot
+is retention and payment while the acquisition surface is separate.
+Consequence: the channel is not required to build loyalty or a persona, it is required to deliver a
+first arrival, which lowers the format demands and keeps a faceless production compatible with the
+guide-beside-you framing the products enforce.
+answers: OQ-035. classification: OBSERVED DESIGN, capture date 2026-08-25. confidence: high.
+
+## CTL-0218  THE EN SEGMENT IS ALREADY BUILT IN ONE PRODUCT AND ITS RAIL IS INBOUND
+Mystic Oracle carries a full RU and EN interface localisation with all user text in dictionaries, a
+language rule per profile, EN reminders timed to the US east coast, and payment in Telegram Stars.
+Stars are an INBOUND payment, which is the direction the money rule of CTL-0175 permits, so the barrier
+that killed the EN affiliate line does not apply here; the owner confirms foreign payment is already
+possible and implemented on Stars.
+What is missing is only an external EN funnel, which the product document itself lists as not deployed.
+Consequence, recorded as an OPPORTUNITY rather than a plan: an EN channel has near zero incremental
+product cost for this one product, while Quantocode and Elyor are RU only, Elyor being tied to YuKassa.
+answers: OQ-037. classification: OBSERVED CAPABILITY, capture date 2026-08-25. confidence: high.
+
+## CTL-0219  THE THREE PRODUCTS DISAGREE ON REVENUE SHAPE, SO RECURRENCE IS PRODUCT SPECIFIC
+Elyor rejects subscription on principle, because a permanent anchor contradicts a repeating charge, and
+prices one-off symbols with a stated ceiling near six directions per person.
+Quantocode sells a 490 RUB unlock, a 790 RUB resonance check, a 2190 RUB naming report and a functional
+subscription at 1490 RUB then 2490 RUB; Mystic Oracle sells Stars packs and thirty day unlimited.
+SUPERSEDES the assumption in CTL-0211 that recurrence comes from the owner subscription in general: it
+comes from Quantocode and Oracle only, and Elyor is structurally one-off with a per-person ceiling.
+Consequence: routing channel traffic to a product is also a choice of revenue shape, and the three are
+not interchangeable destinations.
+answers: OQ-036. classification: OBSERVED PRICING, capture date 2026-08-25. confidence: high.
+
+## CTL-0220  A MEASURED FREE CORE THAT NEVER PAYS IS THE CLEAREST RISK IN THE OWNER STACK
+Mystic Oracle baseline of 2026-06-13: about 22 organic users, zero paying, zero premium, with several
+users past 20 answers who have never paid, returning for the one free answer a day.
+The product document treats this core as an asset for referral, which is defensible, but as measured
+evidence it shows a daily free unit SUBSTITUTING for payment rather than leading to it.
+Quantocode places its paywall immediately after the mirror is complete and the curiosity is at its
+peak, and Elyor gives one full free symbol then charges per new life direction; both put the charge
+closer to the value moment than a renewable free allowance does.
+Consequence for the channel: first traffic should be routed to the cliffhanger shaped product, and the
+freemium one should be treated as a retention and referral surface until it shows a paying cohort.
+Threshold stated by the products themselves: conclusions need 30 to 50 arrivals at the paywall.
+answers: OQ-036. classification: OBSERVED BASELINE, capture date 2026-08-25. confidence: high.

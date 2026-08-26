@@ -95,6 +95,7 @@ Discovery is REOPENED, see the correction at CTL-0113. A topic is admitted throu
 The full register of clusters from passes one to thirteen, including those closed earlier, is in the archived map.
 
 ## 6. Corrections register
+- CTL-0211 narrowed by CTL-0219, recurrence does not come from the owner side in general but from Quantocode and Mystic Oracle only, while Elyor rejects subscription by design and carries a ceiling near six symbols per person.
 - CTL-0187 and CTL-0200 narrowed by CTL-0211, the B2B telecom lane is withdrawn on owner decision over agent competition, leaving four live lines and removing the only recurring revenue unit, so recurrence must now come from the owner subscription.
 - CTL-0195 and CTL-0183 further qualified by CTL-0212, a partner lane exposes only the conversion figures the partner chooses to report, while the existing line carries end to end analytics owned by the operator.
 - CTL-0194 narrowed by CTL-0201, grid breadth is the growth lever but the grid is arcanum by sphere content pages rather than calculators; the leading site runs four calculators and hundreds of pages.
@@ -487,3 +488,24 @@ lets the existing product sit natively inside it, which opens OQ-035 on directio
 products and partners in the RU and EN segments, and OQ-037 on whether the owner payment rail can
 accept a foreign card at all, since the money direction rule of CTL-0175 blocks the commission path
 but says nothing about inbound acquiring (CTL-0214).
+
+## Pass 36  the product documents fix the form of the channel
+Reading the three product descriptions settled the direction question without guesswork. Every product
+takes personal input and returns an artefact that exists only for one viewer, so a finished output can
+never be shown on screen, and the binding conditions of CTL-0087 through CTL-0089 can only be met by a
+video whose subject is the system itself, one number, one arcanum, one direction, with the personal
+computation left as the missing action; prediction, review and personality-reading formats are ruled
+out by the same argument (CTL-0215). The content plan then turns out to be the arcanum by sphere grid
+already holding the leading site in search, which means the channel and the monetisation layer share
+one research artefact instead of competing for production time, subject to the caveat that web demand
+is not YouTube demand (CTL-0216). The bots already carry daily retention through Posts, the Code of the
+Day and the daily free answer, so the channel is only required to deliver a first arrival, which keeps
+a faceless format viable (CTL-0217). Mystic Oracle is already localised to EN and paid in Telegram
+Stars, an inbound rail the money direction rule permits, so an EN channel has near zero incremental
+product cost and is recorded as an opportunity rather than a plan (CTL-0218). Two frictions were found.
+The products disagree on revenue shape, Elyor refusing subscription and capping at about six symbols
+per person while Quantocode and Oracle carry recurring forms, so routing traffic is also a choice of
+revenue shape (CTL-0219). And the measured Oracle baseline of about 22 organic users, zero paying, with
+several past twenty answers, shows a renewable free allowance substituting for payment, which argues
+for routing first traffic to the cliffhanger shaped product and treating the freemium one as retention
+and referral until it shows a paying cohort (CTL-0220).
