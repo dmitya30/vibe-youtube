@@ -103,3 +103,5 @@ This file is the first operational source of truth after any dialogue compressio
 ## Document language
 - Owner-facing conclusion documents are written in Russian; internal registers and ledgers stay in English.
 - When creating a new document for the owner to read, choose the language the owner writes in and state that choice in the file header.
+- Do not hard-wrap prose in owner-facing documents; write one logical line per paragraph and per list item and let the editor wrap by window width.
+- Hard wrapping at a fixed column stays allowed in internal registers, ledgers and code comments only.
