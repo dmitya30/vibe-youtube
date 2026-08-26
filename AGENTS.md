@@ -99,3 +99,7 @@ This file is the first operational source of truth after any dialogue compressio
 - Do not default to one production composition per semantic scene.
 - Batch the source validation, lint and sequential rendering of multiple compositions before one shared visual-QA stop-point when this does not weaken defect isolation.
 - Do not change an already locked timing manifest merely to reduce the number of compositions.
+
+## Document language
+- Owner-facing conclusion documents are written in Russian; internal registers and ledgers stay in English.
+- When creating a new document for the owner to read, choose the language the owner writes in and state that choice in the file header.

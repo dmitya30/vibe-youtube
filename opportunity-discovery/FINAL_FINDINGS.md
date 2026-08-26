@@ -1,124 +1,128 @@
-# Final findings
+# Итоговые выводы
 
-Updated: 2026-08-26
-Status: CONSOLIDATED CONCLUSIONS OF PASSES 1 TO 39 / READ AFTER AGENTS.md AND BEFORE ANY OTHER FILE HERE
-Head commit at creation: 1a24f51
+Обновлено: 2026-08-26
+Статус: СВЕДЁННЫЕ ВЫВОДЫ ПРОХОДОВ 1–39 / ЧИТАТЬ ПОСЛЕ AGENTS.md И ПЕРЕД ЛЮБЫМ ДРУГИМ ФАЙЛОМ ЭТОЙ ПАПКИ
+Коммит на момент создания: 6d0c135
+Язык: русский. Это рабочий язык документа, остальные файлы папки остаются на английском.
 
-## 1. What this file is
+## 1. Что это за файл
 
-This file holds every conclusion the workstream is willing to act on, and it is sized to be read in
-one pass. It exists because the evidence base grew past the point where it could be read in full,
-so the standing state was rebuilt from narrative after every context compression, which produced
-repeated research of already closed questions.
+Здесь лежат только те выводы, на которых мы готовы действовать, и объём подобран так, чтобы файл
+читался за один проход. Он появился потому, что доказательная база выросла настолько, что перестала
+читаться целиком: после каждого сжатия диалога состояние восстанавливалось по повествованию, и это
+приводило к повторному исследованию уже закрытых вопросов.
 
-Division of labour: the ledger keeps evidence, this file keeps conclusions. An identifier points at
-the entry that carries the proof and is never expanded here. A statement enters this file only when
-a decision depends on it. Section 2 is not reopened by research, only by the owner.
+Разделение труда: журнал (ledger) хранит доказательства, этот файл хранит выводы. Идентификатор вида
+CTL-XXXX указывает на запись с доказательством и никогда здесь не разворачивается. Утверждение
+попадает сюда только если от него зависит решение. Раздел 2 не открывается исследованием — только
+решением владельца.
 
-## 2. Locked decisions
+## 2. Закрытые решения
 
-- The object is one new channel taken from zero to first external revenue. Advertising revenue is
-  not available to this operator and is never the target. YPP thresholds serve as a calibration
-  scale for attention only. CTL-0006.
-- The host is faceless, or a virtual character, or voiceover. A public persona is not required and
-  that requirement was withdrawn after measurement. CTL-0234.
-- The channel carries a broad container theme and never the name of a product. CTL-0231.
-- Container order, retained without elimination: relationships, self development and mindfulness,
-  spiritual development, happiness, health. Health is the only container with real policy exposure,
-  and the exposure sits on medical claims rather than on esotericism. CTL-0231, CTL-0192.
-- Form is longform of 20 to 40 minutes, a fixed visual frame with a variable subject, at most two
-  videos per week. Remotion is the retained production asset.
-- The product returns an artefact computed for one viewer, so it cannot be shown finished. The call
-  to action is a calculation the viewer runs. Prediction, review and personality reading formats are
-  excluded.
-- YouTube informs and the transaction happens on another surface. This is both the economic
-  conclusion and a requirement of Russian advertising law. CTL-0226.
-- The channel never collects a contact. The partner holds the form, the channel gives a tracked link,
-  and the operator therefore does not become a data controller. CTL-0191.
-- Referral participation is limited to factual acts: hand over a contact and stop. No negotiation, no
-  qualification on behalf of the firm, no participation in signing. CTL-0170.
+- Объект работы — один новый канал от нуля до первой внешней выручки. Рекламная выручка этому
+  оператору недоступна и целью не является. Пороги YPP служат только шкалой калибровки внимания.
+  CTL-0006.
+- Ведущий обезличенный: либо faceless, либо виртуальный герой, либо voiceover. Публичная личность не
+  требуется, это требование снято после измерения. CTL-0234.
+- Канал несёт широкую контейнерную тему и никогда не называется именем продукта. CTL-0231.
+- Порядок контейнеров, сохранён без отсева: отношения; саморазвитие и осознанность; духовное
+  развитие; счастье; здоровье. Здоровье — единственный контейнер с реальной политической
+  экспозицией, и она сидит на медицинских утверждениях, а не на эзотерике. CTL-0231, CTL-0192.
+- Форма: длинное видео 20–40 минут, фиксированный визуальный кадр с переменным предметом, не более
+  двух видео в неделю. Remotion остаётся переносимым производственным активом.
+- Продукт возвращает артефакт, рассчитанный под одного зрителя, поэтому его нельзя показать готовым.
+  Призыв к действию — расчёт, который зритель запускает сам. Форматы предсказания, обзора и чтения
+  личности исключены.
+- YouTube информирует, транзакция происходит на другой поверхности. Это одновременно вывод экономики
+  и требование российского рекламного права. CTL-0226.
+- Канал не собирает контакты. Форму держит партнёр, канал даёт только отслеживаемую ссылку, и
+  оператором персональных данных владелец не становится. CTL-0191.
+- Участие в referral ограничено фактическими действиями: передал контакт и остановился. Никаких
+  переговоров, квалификации клиента от имени фирмы и участия в подписании. CTL-0170.
 
-## 3. Measured evidence the decisions rest on
+## 3. Измеренные факты, на которых стоят решения
 
-- Product named narrow channels: 19 to 195 subscribers, 68, 379 and 5838 views per video, no daily
-  movement.
-- Faceless container channels on comparable material: a Russian one live since December 2020 at 111000
-  subscribers and 5.95 million views over 102 videos, an English one since September 2023 at 136000
-  subscribers and 6.94 million views over 133 videos. That is 52000 to 58000 views per video and 1600
-  against 3900 subscribers per month.
-- The same form and theme spread from 29 to 136000 subscribers, so the format is permission and not a
-  guarantee. Execution discriminates. CTL-0236.
-- Targets are subscribers per month and longform views, never gross views. One channel shows 8.24
-  million views at 1030 subscribers, which is 0.01 percent and a Shorts profile. CTL-0235.
-- No counter is attributed to a theme before the channel feed is checked. CTL-0054.
-- Cold start references are only channels younger than about three years.
+- Узкие каналы, названные именем продукта: 19–195 подписчиков, 68, 379 и 5838 просмотров на видео,
+  суточного движения нет.
+- Faceless-контейнеры на сопоставимом материале: русский, живой с декабря 2020 — 111 000 подписчиков
+  и 5,95 млн просмотров на 102 видео; англоязычный с сентября 2023 — 136 000 подписчиков и 6,94 млн
+  просмотров на 133 видео. Это 52 000–58 000 просмотров на видео и 1600 против 3900 подписчиков в
+  месяц.
+- Разброс внутри одной формы и одной темы: от 29 до 136 000 подписчиков. Формат даёт разрешение, а не
+  гарантию; различает исполнение. CTL-0236.
+- Целевые величины — подписчики в месяц и просмотры длинных видео, никогда не суммарные просмотры.
+  Пример: канал с 8,24 млн просмотров при 1030 подписчиках, это 0,01 % и профиль Shorts. CTL-0235.
+- Ни один счётчик не приписывается теме до проверки фида канала. CTL-0054.
+- Референсы холодного старта — только каналы моложе примерно трёх лет.
 
-## 4. The attach test
+## 4. Тест на пристёгивание слоя
 
-A monetization layer may be attached to a video only when all three conditions hold: the artefact
-answers the same question the video raised, it is needed within the same viewing session, and it
-requires no re-identification of the viewer. A layer failing any condition looks grafted and is
-dropped rather than reworded.
+Слой монетизации можно пристёгивать к ролику только при выполнении всех трёх условий: артефакт
+отвечает на тот же вопрос, который поднял ролик; он нужен в той же сессии просмотра; он не требует
+повторной идентификации зрителя. Слой, не проходящий любое из условий, выглядит натянутым и
+выбрасывается, а не переформулируется.
 
-## 5. Monetization stack, most reliable first
+## 5. Стек монетизации, от самого надёжного к менее
 
-- Own product: 670 RUB single unlock, 2990 RUB per month, 4900 RUB per year, unit cost 15 to 25 RUB at
-  82 to 87 percent margin, end to end analytics already in place, zero uncontrolled handovers. CTL-0203.
-- Course affiliate: 10.72 to 13 percent of a 15200 to 16650 RUB ticket, about 2000 RUB per sale, which
-  is roughly three times the own unlock.
-- Books: 20 to 25 percent direct on a new reader, or 9.6 percent new and 3.2 percent returning through
-  a network.
-- Expert referral: about 18800 RUB net per signed client at 6 percent NPD, factual acts only.
-  CTL-0171, CTL-0170.
-- Physical goods: up to 50 percent of item price, paid twice a month, no audience floor, self
-  employment and RF citizenship required, YouTube not an accepted surface, so the route is YouTube to
-  Telegram to the marketplace. CTL-0226.
-- Conversion of every layer is UNKNOWN and is recorded as unknown rather than estimated.
+- Собственный продукт: 670 руб. за разовую разблокировку, 2990 руб. в месяц, 4900 руб. в год,
+  себестоимость 15–25 руб. при марже 82–87 %, сквозная аналитика уже настроена, ноль
+  неконтролируемых передач. CTL-0203.
+- Партнёрка курсов: 10,72–13 % от чека 15 200–16 650 руб., около 2000 руб. с продажи, то есть примерно
+  втрое больше собственной разблокировки.
+- Книги: 20–25 % напрямую с нового клиента, либо 9,6 % новый и 3,2 % вернувшийся через сеть.
+- Referral экспертов: около 18 800 руб. чистыми за подписанного клиента при 6 % НПД, только
+  фактические действия. CTL-0171, CTL-0170.
+- Физические товары: до 50 % цены товара, выплаты дважды в месяц, порога аудитории нет, нужны
+  самозанятость и гражданство РФ; YouTube в программу не входит, поэтому маршрут обязательно
+  YouTube → Telegram → маркетплейс. CTL-0226.
+- Конверсия каждого слоя НЕИЗВЕСТНА и записана как незнание, а не как оценка.
 
-## 6. Money rails and legal envelope
+## 6. Денежные рельсы и правовой контур
 
-- Payments: own site with YuKassa at 3.5 percent plus VAT charged on the commission for a self employed
-  person, Prodamus at 10 percent for foreign cards, Telegram Stars excluded from arithmetic until a
-  real rate is read.
-- Rail limits: only individuals pay, 500000 RUB per month by card, 2.4 million RUB per year under NPD.
-- Advertising law: first FAS cases against bloggers opened on 2026-03-05, liability suspended until the
-  end of 2026, fines of 2500, 20000 and 500000 RUB.
-- Agency income destroys the NPD regime itself rather than taxing one payment, so contract substance
-  decides and contract name does not. CTL-0169, CTL-0170.
+- Приём платежей: свой сайт с ЮKassa под 3,5 % плюс НДС, начисляемый на комиссию для самозанятого;
+  Prodamus под 10 % для иностранных карт; Telegram Stars исключены из арифметики до чтения реальной
+  ставки.
+- Ограничения рельсов: платят только физлица, 500 000 руб. в месяц по картам, 2,4 млн руб. в год по НПД.
+- Рекламное право: первые дела ФАС против блогеров открыты 05.03.2026, ответственность приостановлена
+  до конца 2026 года, штрафы 2500, 20 000 и 500 000 руб.
+- Агентский доход уничтожает сам режим НПД, а не облагает один платёж, поэтому решает существо
+  договора, а не его название. CTL-0169, CTL-0170.
 
-## 7. Line ranking on one unit, net RUB per 1000 channel views
+## 7. Ранг линий в одной единице: чистые рубли на 1000 просмотров канала
 
-The existing esoteric line stands at about 1370, real estate and legal at about 395, education at about
-316. Telecom was withdrawn by the owner over agent competition. The existing line wins on ownership,
-margin, legal load and reuse of already built assets, and loses only on demand certainty. CTL-0199,
-CTL-0200, CTL-0197.
+Существующая эзотерическая линия — около 1370, недвижимость и юридическая — около 395, образование —
+около 316. Телеком снят решением владельца из-за конкуренции агентов. Существующая линия выигрывает по
+владению, марже, правовой нагрузке и переиспользованию уже построенных активов и проигрывает только по
+достоверности спроса. CTL-0199, CTL-0200, CTL-0197.
 
-Baseline for that line: an operator on the same stack reports 1219120 RUB over nine months at zero
-advertising spend, on a route of search to calculator to bot, with 0.5 to 3 percent on cold search
-against 5 to 7 percent behind a subscription gate, repeat purchase of 23 percent, and break even at 800
-to 4900 search visits per month. CTL-0204, CTL-0205.
+Базовая точка по этой линии: оператор на том же стеке заявляет 1 219 120 руб. за девять месяцев при
+нулевых расходах на рекламу, маршрут поиск → калькулятор → бот, конверсия 0,5–3 % на холодном поиске
+против 5–7 % за подписной калиткой, повторная покупка 23 %, безубыточность при 800–4900 поисковых
+визитов в месяц. CTL-0204, CTL-0205.
 
-The search surface is an arcanum by sphere page grid rather than a calculator grid, so breadth is bought
-by crossing one calculation with life spheres. CTL-0201.
+Поисковая поверхность — сетка страниц «аркан × сфера жизни», а не сетка калькуляторов: широта
+покупается перекрестием одного расчёта со сферами жизни. CTL-0201.
 
-Cash ceiling on spend is 195 USD per month. Owner hours are a throughput limit and not a price.
+Денежный потолок расходов — 195 USD в месяц. Часы владельца — ограничение пропускной способности, а не
+цена.
 
-## 8. Launch parameters that replace gates
+## 8. Параметры запуска вместо гейтов
 
-These were carried as open questions and cannot be closed by desk research. Each is now an assumption
-plus the threshold at which the decision is recomputed.
+Эти пункты раньше висели открытыми вопросами и кабинетным исследованием не закрываются. Каждый теперь
+записан как допущение плюс порог, при котором решение пересчитывается.
 
-- Description link click rate: plan 0.6 percent of views. CTL-0177.
-- YouTube to Telegram drop: UNKNOWN and the first measurement target. If the hop delivers under 0.2
-  percent of views, the goods layer is dropped before the product layer is touched.
-- First product to receive channel traffic: the cliffhanger shaped unlock for RU, the freemium path for
-  EN. Revisit after 30 days of measured unlocks.
-- Share of subscriptions against single unlocks: UNKNOWN, priced only after 20 paid events.
-- No correction coefficient is applied to bottlenecks. Uncontrolled handovers are counted instead: zero
-  on the own line against three or more on a partner line, each counted as a full loss risk.
+- Клик по ссылке из описания: план 0,6 % от просмотров. CTL-0177.
+- Просадка на переходе YouTube → Telegram: НЕИЗВЕСТНА, первая цель измерения. Если переход даёт менее
+  0,2 % от просмотров, товарный слой снимается раньше, чем мы трогаем продуктовый.
+- Какой продукт принимает первый трафик: для RU — разблокировка с обрывом на интересном, для EN —
+  freemium. Пересмотр после 30 дней измеренных разблокировок.
+- Доля подписок против разовых разблокировок: НЕИЗВЕСТНА, оценивается только после 20 платных событий.
+- Поправочный коэффициент к узким местам не применяется. Вместо него считаются неконтролируемые
+  передачи: ноль на своей линии против трёх и более на партнёрской, каждая считается риском полной
+  потери.
 
-## 9. What is still unknown and must not be assumed
+## 9. Что остаётся неизвестным и не должно приниматься за данность
 
-Cluster query volume, because the only published figure of 1.5 million monthly queries is seller
-reported. CTL-0202. Conversion of every attached layer. Retention beyond the 23 percent repeat purchase
-of a single operator. Seasonality amplitude of the line. CTL-0206.
+Объём запросов кластера — единственная опубликованная цифра 1,5 млн запросов в месяц заявлена
+продавцом. CTL-0202. Конверсия каждого пристёгнутого слоя. Удержание за пределами 23 % повторных
+покупок одного оператора. Амплитуда сезонности линии. CTL-0206.
