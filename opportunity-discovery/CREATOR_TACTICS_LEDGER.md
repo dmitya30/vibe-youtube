@@ -377,3 +377,105 @@ substitutes for one, which is what OQ-040 must find or fail to find.
 Falsification condition stated in advance: one channel under 12 months old, in the explanatory grid
 form, holding daily view movement, overturns CTL-0221 and CTL-0223 together.
 answers: OQ-039. classification: METHOD RULING, capture date 2026-08-26. confidence: high.
+
+## CTL-0225  A CONTAINER THEME OUTPERFORMS A TOPIC MATCHED THEME BY THREE TO FOUR ORDERS
+Pass 37 measured only channels named after the product subject and found 19, 39 and 195
+subscribers. Broad container themes in the same language, measured 2026-08-26, run at 57k, 211k,
+238k, 251k, 372k and 513k subscribers for practitioner psychology channels and 2.55M for a
+popular science channel covering the same material as one section among many.
+A weak channel also exists inside the broad theme, 875 subscribers and 81330 views over 56 videos
+since 2017, so breadth is not a guarantee of traffic; what breadth supplies is an observed ceiling,
+which the topic matched cut did not supply at all.
+SUPERSEDES: narrows CTL-0221 and CTL-0223 in scope. Their measurement stands but applies only to
+the topic matched variant and must not be read as a verdict on the material or on the lane.
+URL: dtf.ru/psychotop/4089542 and socialblade handle pages.
+answers: OQ-040. classification: OBSERVED MEASUREMENT, capture date 2026-08-26. confidence: high
+on the gap, medium on the ceiling, since subscriber counts are not view velocity.
+
+## CTL-0226  THE OZON REFERRAL LAYER DOES NOT ACCEPT YOUTUBE AS A PLATFORM
+Ozon Blogger pays a referral share of up to 50 percent of item value, settled twice a month, with
+NO minimum audience threshold, open to Russian citizens holding self employed status, with ad
+labelling performed by Ozon itself and access for sole traders promised later.
+Eligible platforms are Telegram first, then VK and MAX from 2026-05-25. YouTube is absent from the
+list, so a YouTube channel cannot carry this layer directly and needs one hop.
+Consequence: the hop is already owned, because the Telegram bots of CTL-0087 to CTL-0089 sit on an
+eligible platform, so the chain is YOUTUBE to TELEGRAM to OZON and the Telegram step stops being
+only a product surface and becomes a monetization surface as well.
+The cost of the hop is the loss recorded in CTL-0213, each uncontrolled handoff is a total loss
+risk, except here the handoff is into an asset the owner controls, so it is not a partner handoff.
+URLs: ppc.world/news/blogery-vkontakte-i-maksa..., ozon.ru/bloggers, docs.ozon.ru/legal/partners/bloggers
+answers: OQ-036. classification: OBSERVED CONSTRAINT, capture date 2026-08-26. confidence: high.
+
+## CTL-0227  BOOK AND COURSE LAYERS ACCEPT LINK TRAFFIC FROM ANY PLATFORM
+Litres pays 20 percent on a new reader and states up to 25 percent, or via the Pampadu network
+9.6 percent on a new client and 3.2 percent on a returning one from 2025-12-01.
+Numerology retraining courses are priced at 15200 to 16650 RUB with hobby courses at 1900 to 9700,
+against affiliate rates of 10.72 percent at NADPO from 2026-06-01 and from 13 percent at MSHP,
+which puts about 2000 RUB on a single course sale, roughly three times the 670 RUB one time unlock
+of CTL-0203, while the subscription tiers of CTL-0203 remain higher per buyer.
+Unlike CTL-0226 these are link based webmaster programmes with no platform whitelist, so they are
+the layers a YouTube channel can carry without any hop.
+Consequence: the stack is not one product plus ads, it is own product, books, courses, expert
+referral and physical goods, with the goods layer alone requiring the Telegram hop.
+URLs: litres.ru/company/partners, pampadu.ru/affiliate-program/e-commerce/litres, pampadu.ru/.../akademiya-nadpo
+answers: OQ-036. classification: PUBLISHED TERMS, capture date 2026-08-26. confidence: high on
+rates, none on conversion, which is unmeasured for every layer here.
+
+## CTL-0228  THE ADVERTISER GUIDELINES CONTAIN NO OCCULT OR ESOTERIC CATEGORY AT ALL
+The advertiser friendly content guidelines enumerate inappropriate language, violence, adult,
+shocking, harmful acts and unreliable content, hateful, drugs, firearms, controversial issues,
+sensitive events, dishonest behaviour, kids content, incendiary and demeaning, and tobacco.
+Esotericism, divination and the supernatural appear in NONE of them, so the material itself carries
+no ad exposure and the earlier working assumption of a policy penalty on the niche is unfounded.
+What does carry exposure is medical and scientific misinformation together with harmful
+misinformation, both inside the harmful acts and unreliable content section.
+Consequence for container choice: of the broad themes proposed, HEALTH is the single one with real
+demonetization exposure, because health claims land in that section, while self development,
+mindfulness, relationships, purpose and happiness do not.
+This is recorded as a priced risk and NOT as an exclusion, per the standing instruction that
+research widens the option set rather than prunes it.
+URL: support.google.com/youtube/answer/6162278
+answers: OQ-040. classification: PUBLISHED POLICY, capture date 2026-08-26. confidence: high.
+
+## CTL-0229  THE CONSISTENCY TEST THAT REPLACES TASTE WHEN ATTACHING A LAYER
+Any layer can be attached to any theme, and the failure mode is not prohibition but visible
+absurdity, such as infant goods on a channel for car mechanics. The test has three conditions and
+a layer is consistent only if all three hold.
+One, the artefact answers the SAME question the video raised, not an adjacent one. Two, the viewer
+needs it in the SAME session, not in some later life stage. Three, accepting it requires NO change
+in how the viewer sees himself, because a viewer who must first re-identify will not convert.
+Worked example that passes: a mindfulness video, a book on mindfulness, a personal calculation.
+Worked example that fails condition one: a relationships video and a telecom tariff.
+Worked example that fails condition three: a rational self development video and a divination
+artefact presented as prediction rather than as a structured self description.
+Consequence: condition three is what forces the framing of CTL-0215, the artefact must be offered
+as a system the viewer computes, never as a forecast, whatever container is chosen.
+answers: OQ-040. classification: DESIGN RULE, capture date 2026-08-26. confidence: medium, the rule
+is derived from the observed cases and is not yet tested against a live funnel.
+
+## CTL-0230  THE FORMAT CONFLICT DISSOLVES UNDER THE CONTAINER FRAME BUT LEAVES A RESIDUE
+CTL-0223 recorded a conflict: the explanatory form the product requires carries no traffic, while
+the forms that carry traffic are prediction and persona, which CTL-0215 rules out.
+Under the container frame the conflict largely dissolves, because the channel no longer has to be
+ABOUT the product subject. The container carries the traffic on its own demand, and the artefact
+appears as the closing step, which satisfies CTL-0215 without adopting prediction.
+The residue is real and is not dissolved: the persona factor remains. Every high subscriber channel
+measured in CTL-0225 is fronted by a NAMED practitioner, and none is faceless.
+This collides with the production pipeline retained as a transferable asset, which is built for
+assembled rather than presented video, so the persona question is now the live one.
+SUPERSEDES: resolves CTL-0223 in part and carries its residue forward as the persona requirement.
+answers: OQ-040. classification: DERIVED RESOLUTION, capture date 2026-08-26. confidence: medium.
+
+## CTL-0231  CONTAINER CANDIDATES RANKED WITHOUT FILTERING
+Ranked on measured traffic, layer density, policy exposure and distance to the owned artefact,
+under the ranking discipline of CTL-0192 which orders and never screens.
+Relationships ranks first: the two largest practitioner channels measured sit here at 251k and
+513k, all five layers attach, policy exposure is nil, and date based compatibility is a short walk
+to the artefact. Self development and mindfulness rank second: comparable traffic, the densest book
+and course layers, nil exposure, but a longer bridge to the artefact. Spiritual development ranks
+third: shortest walk to the artefact, but the audience narrows toward the overheated pool of
+CTL-0221. Happiness ranks fourth on weak search intent and no observable operator set. Health ranks
+fifth NOT on demand, which is high, but on being the only candidate with the demonetization
+exposure of CTL-0228, and it is retained rather than dropped.
+answers: OQ-042. classification: RANKING, capture date 2026-08-26. confidence: medium, traffic is
+measured, layer density is derived, and no candidate has a tested funnel.

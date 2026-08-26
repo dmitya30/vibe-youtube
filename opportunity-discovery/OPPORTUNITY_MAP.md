@@ -95,6 +95,9 @@ Discovery is REOPENED, see the correction at CTL-0113. A topic is admitted throu
 The full register of clusters from passes one to thirteen, including those closed earlier, is in the archived map.
 
 ## 6. Corrections register
+- CTL-0221 and CTL-0223 narrowed in scope by CTL-0225, both measured only the topic matched variant in which the channel is named after the product subject, and neither may be read as a verdict on the material or on the lane; broad container themes covering the same material run three to four orders of magnitude higher.
+- CTL-0223 resolved in part by CTL-0230, the explanatory format conflict dissolves once the channel carries a container theme rather than the product subject, and the surviving residue is the persona requirement rather than the format.
+- The working assumption that esotericism carries an advertising policy penalty is withdrawn by CTL-0228, no such category exists in the advertiser friendly guidelines, and the exposure sits on health claims instead.
 - CTL-0216 narrowed by CTL-0221 and CTL-0223, the claim that one research artefact feeds a ranking page and a video alike is withdrawn as a free lunch, because the explanatory cut of the grid shows no live operator on YouTube while the observed traffic there sits in prediction and persona formats that CTL-0215 rules out.
 - CTL-0221 bounded by CTL-0224, the reading is an unformed surface and not a closed lane, since CTL-0096 requires a second channel behind a leader and this sample contains no leader at all.
 - CTL-0211 narrowed by CTL-0219, recurrence does not come from the owner side in general but from Quantocode and Mystic Oracle only, while Elyor rejects subscription by design and carries a ceiling near six symbols per person.
@@ -532,3 +535,25 @@ recorded as UNFORMED rather than CLOSED, which leaves a format vacuum and an abs
 equally admissible until a named live operator separates them (CTL-0224). The next pass is OQ-040,
 which must either name that operator or record that the search surface and the channel need
 different material after all.
+
+## Pass 38  the question is reframed from topic match to container plus layers
+Pass 37 asked whether a channel named after the product subject carries demand and answered no.
+Pass 38 asked the wider question the owner intended: choose a container theme broad enough to
+carry traffic on its own demand, then attach the owned artefact and further layers on top.
+The gap is decisive. Topic matched channels run 19 to 195 subscribers, container channels in the
+same language run 57k to 513k for practitioner psychology and 2.55M for popular science, though a
+weak container channel also exists at 875 subscribers over eight years, so breadth supplies a
+ceiling rather than a guarantee (CTL-0225). The layer stack is now priced rather than imagined:
+goods at up to 50 percent through Ozon, books at 20 to 25 percent through Litres or 9.6 percent
+through a network, courses at about 2000 RUB per sale, expert referral, and the owned artefact
+(CTL-0227). One structural constraint was found: Ozon admits Telegram, VK and MAX but not YouTube,
+so the goods layer needs one hop, and the hop lands on the owner Telegram bots, which converts
+them from a product surface into a monetization surface as well (CTL-0226). A second finding
+removes a long standing assumption: the advertiser guidelines contain no occult category at all,
+so the material is unexposed, while health claims are exposed through medical misinformation, which
+makes health the one proposed container with a real price and it is retained as such (CTL-0228).
+The format conflict of pass 37 dissolves under this frame because the channel is no longer about
+the artefact, but it leaves a residue that is now the live question: every measured leader is a
+named practitioner and none is faceless, which collides with an assembly oriented pipeline
+(CTL-0230). Containers are ranked and none is dropped (CTL-0231), and attachment is governed by a
+three condition consistency test rather than by taste (CTL-0229).
