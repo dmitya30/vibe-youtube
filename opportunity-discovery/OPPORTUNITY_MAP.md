@@ -95,6 +95,8 @@ Discovery is REOPENED, see the correction at CTL-0113. A topic is admitted throu
 The full register of clusters from passes one to thirteen, including those closed earlier, is in the archived map.
 
 ## 6. Corrections register
+- CTL-0225 demoted by CTL-0232 from cold start reference to context, because its channels were created in 2014 to 2018 and a decade of accumulation is a stock rather than a rate; the three to four order gap against CTL-0221 survives the demotion, the channels may no longer be cited as cold start evidence.
+- CTL-0230 persona residue withdrawn by CTL-0234, the absence of faceless channels was an artefact of drawing the sample from a curated list of established named psychologists, and drawing on the container theme returns faceless channels at once.
 - CTL-0221 and CTL-0223 narrowed in scope by CTL-0225, both measured only the topic matched variant in which the channel is named after the product subject, and neither may be read as a verdict on the material or on the lane; broad container themes covering the same material run three to four orders of magnitude higher.
 - CTL-0223 resolved in part by CTL-0230, the explanatory format conflict dissolves once the channel carries a container theme rather than the product subject, and the surviving residue is the persona requirement rather than the format.
 - The working assumption that esotericism carries an advertising policy penalty is withdrawn by CTL-0228, no such category exists in the advertiser friendly guidelines, and the exposure sits on health claims instead.
@@ -557,3 +559,23 @@ the artefact, but it leaves a residue that is now the live question: every measu
 named practitioner and none is faceless, which collides with an assembly oriented pipeline
 (CTL-0230). Containers are ranked and none is dropped (CTL-0231), and attachment is governed by a
 three condition consistency test rather than by taste (CTL-0229).
+
+## Pass 39  the faceless container is validated on young channels
+Two corrections drove this pass and both were owner corrections. The channel host form was already
+decided long ago, faceless or a drawn virtual host in the manner of NOD or voiceover, and pass 38
+wrongly reopened it. The evidence pass 38 leaned on was also inadmissible, since channels created
+in 2014 to 2018 cannot evidence what a channel started now can reach, so a reference must now be
+under about three years old and is read as views per video and subscribers per month of age rather
+than as a raw subscriber total (CTL-0232). Redrawn on that rule the answer is unambiguous. A
+Russian faceless container channel created in December 2020 holds 111000 subscribers and 5.95M
+views over 102 videos, about 58300 views per video, and an English one created in September 2023
+holds 136000 subscribers and 6.94M views over 133 videos, about 52200 per video, both on voiceover
+over assembled visuals with no presenter, which is what the retained pipeline already produces
+(CTL-0233). On rate these beat the named practitioners that pass 38 treated as leaders, so the
+persona requirement is withdrawn as a sampling artefact rather than merely overruled (CTL-0234).
+Two guards came out of the same sample. A channel with 8.24M views against 1030 subscribers shows
+that a Shorts profile decouples views from audience entirely, so the target quantity is subscribers
+per month with long form views and never gross views (CTL-0235). And two further faceless channels
+in the same container hold 29 and 1190 subscribers, so spread inside the format runs about four
+orders of magnitude and the format is a permission rather than a result (CTL-0236). The next gate
+is OQ-041, the hop the goods layer needs.

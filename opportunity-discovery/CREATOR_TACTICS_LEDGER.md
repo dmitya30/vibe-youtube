@@ -479,3 +479,68 @@ fifth NOT on demand, which is high, but on being the only candidate with the dem
 exposure of CTL-0228, and it is retained rather than dropped.
 answers: OQ-042. classification: RANKING, capture date 2026-08-26. confidence: medium, traffic is
 measured, layer density is derived, and no candidate has a tested funnel.
+
+## CTL-0232  A COLD START REFERENCE MUST BE A YOUNG CHANNEL AND OLD CHANNELS ARE NOT REFERENCES
+The container sample of CTL-0225 consisted of channels created in 2014 to 2018. A channel that
+accumulated its audience across eight to twelve years under earlier recommendation behaviour
+cannot evidence what a channel started now can reach, and its subscriber total is a stock rather
+than a rate, which is the same stock versus flow error already recorded in CTL-0210.
+Selection rule adopted for every later pass: a reference channel must be created within about
+three years of the capture date, and the quantity read is views per video and subscribers per
+month of channel age, never the raw subscriber total.
+SUPERSEDES: demotes the sample of CTL-0225 from reference to context. Its three to four order gap
+against the topic matched cut of CTL-0221 survives, because that gap is far larger than any
+plausible age effect, but its channels may no longer be cited as cold start evidence.
+answers: OQ-043. classification: METHOD RULING, capture date 2026-08-26. confidence: high.
+
+## CTL-0233  A FACELESS CONTAINER CHANNEL REACHES SIX FIGURES FROM A COLD START
+Measured 2026-08-26 under the rule of CTL-0232. A Russian language faceless container channel on
+modern stoicism, created 2020-12-17, holds 111000 subscribers and 5947494 views over 102 videos,
+which is about 58300 views per video and about 1600 subscribers per month of age.
+An English language faceless channel in the same container, created 2023-09-26 and therefore under
+three years old, holds 136000 subscribers and 6939534 views over 133 videos, about 52200 views per
+video and about 3900 subscribers per month of age.
+Neither shows a presenter. Both run voiceover over assembled visuals, which is the form the
+retained pipeline already produces.
+Consequence: the persona residue of CTL-0230 is REMOVED as a requirement. A face is not needed to
+hold container traffic, and on rate the faceless channels beat the named practitioners of CTL-0225.
+URLs: socialblade.com/youtube/handle/modern_stoicism and socialblade.com/youtube/handle/stoicmindguy
+answers: OQ-043. classification: OBSERVED MEASUREMENT, capture date 2026-08-26. confidence: high on
+the counts, medium on the rate, since neither channel discloses its publication schedule.
+
+## CTL-0234  THE PERSONA REQUIREMENT IS WITHDRAWN AND WAS AN ARTEFACT OF A BAD SAMPLE
+CTL-0230 recorded that every measured leader was a named practitioner and no faceless channel was
+found. That was true of the sample and false of the population: the sample had been drawn by
+editorial list of established psychology channels, which selects for named experts by construction.
+Drawing on the container theme instead of on the personality returns faceless channels immediately
+(CTL-0233). The prior decision that this workstream builds faceless channels, channels with a drawn
+or virtual host in the manner of NOD, and full or partial voiceover, therefore stands unchanged and
+was never in question.
+SUPERSEDES: withdraws the persona residue of CTL-0230.
+Method note: a sample drawn from a curated list inherits the curators selection criterion, so a
+format absence in such a list is not evidence of a format absence on the platform.
+answers: OQ-043. classification: CORRECTION, capture date 2026-08-26. confidence: high.
+
+## CTL-0235  GROSS VIEWS ARE NOT A TARGET BECAUSE A SHORTS PROFILE DECOUPLES THEM FROM AUDIENCE
+A faceless channel in the same container, created 2022-01-04, holds 8240386 views over 46 videos
+against only 1030 subscribers, which is about 179000 views per video at a subscription rate near
+0.01 percent, roughly two orders below the container channels of CTL-0233.
+This is the Shorts profile already recorded in CTL-0037 and CTL-0222 and it means view volume can
+be bought with format alone while building no audience and therefore no funnel.
+Consequence: the target quantity for a container channel is subscribers per month of age together
+with views per long form video, and never gross channel views, which the partner lane requirement
+of CTL-0210 also implicitly assumed away.
+answers: OQ-043. classification: OBSERVED CONTRAST, capture date 2026-08-26. confidence: high.
+
+## CTL-0236  THE FACELESS FORMAT PERMITS THE OUTCOME AND DOES NOT SUPPLY IT
+Two further faceless channels in the same container and of comparable age hold 29 subscribers over
+15 videos, created 2023-05-27, and 1190 subscribers over 20 videos, created 2015-03-15.
+Spread inside one format, one language family and one theme therefore runs from 29 to 136000
+subscribers, about four orders of magnitude, so the format is a permission and execution is the
+discriminator, exactly as CTL-0221 found for the topic matched cut.
+Vendor claims of 261000 subscribers in five months on 20 faceless videos were found in circulation
+but name no channel and are NOT recorded as evidence, per the vendor claim discipline of CTL-0202.
+Consequence: no pass may promise a cold start outcome from format choice, and the honest statement
+is that the faceless container has a demonstrated ceiling above 100000 and a demonstrated floor
+near zero.
+answers: OQ-043. classification: OBSERVED SPREAD, capture date 2026-08-26. confidence: high.

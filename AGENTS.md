@@ -26,6 +26,9 @@ This file is the first operational source of truth after any dialogue compressio
 - Use command chaining only when later commands must not run after a failed validation.
 
 ## Workflow behavior
+- When a large delivered script fails on a single defect, deliver a minimal replacement patch naming the exact lines or block to substitute, and do not reissue the whole script; the user re-runs the amended script.
+- Reissue a full script only when the defect is structural, when the file state has diverged, or when the user asks for it.
+- A trailing blank line at EOF is a warning and not a blocker; do not abort a pass for it.
 
 - Do not merely announce the next step. Perform the next actionable step in the same response whenever user input is not required first.
 - Do not ask the user to repair assistant-generated code manually.
