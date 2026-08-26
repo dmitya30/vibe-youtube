@@ -95,6 +95,8 @@ Discovery is REOPENED, see the correction at CTL-0113. A topic is admitted throu
 The full register of clusters from passes one to thirteen, including those closed earlier, is in the archived map.
 
 ## 6. Corrections register
+- CTL-0216 narrowed by CTL-0221 and CTL-0223, the claim that one research artefact feeds a ranking page and a video alike is withdrawn as a free lunch, because the explanatory cut of the grid shows no live operator on YouTube while the observed traffic there sits in prediction and persona formats that CTL-0215 rules out.
+- CTL-0221 bounded by CTL-0224, the reading is an unformed surface and not a closed lane, since CTL-0096 requires a second channel behind a leader and this sample contains no leader at all.
 - CTL-0211 narrowed by CTL-0219, recurrence does not come from the owner side in general but from Quantocode and Mystic Oracle only, while Elyor rejects subscription by design and carries a ceiling near six symbols per person.
 - CTL-0187 and CTL-0200 narrowed by CTL-0211, the B2B telecom lane is withdrawn on owner decision over agent competition, leaving four live lines and removing the only recurring revenue unit, so recurrence must now come from the owner subscription.
 - CTL-0195 and CTL-0183 further qualified by CTL-0212, a partner lane exposes only the conversion figures the partner chooses to report, while the existing line carries end to end analytics owned by the operator.
@@ -509,3 +511,24 @@ revenue shape (CTL-0219). And the measured Oracle baseline of about 22 organic u
 several past twenty answers, shows a renewable free allowance substituting for payment, which argues
 for routing first traffic to the cliffhanger shaped product and treating the freemium one as retention
 and referral until it shows a paying cohort (CTL-0220).
+
+## Pass 37  the grid is measured on YouTube and the format binding breaks
+OQ-039 asked whether the arcanum by sphere grid that ranks in web search also carries demand on
+YouTube. It does not, on the evidence available. Three channels named after the grid subject hold
+19, 39 and 195 subscribers at 68, 379 and 5838 views per video with no daily movement, one of them
+accumulating its total over eight years (CTL-0221). The largest candidate in the sample, at 833
+subscribers and 564835 views, was disqualified by the feed instrument of CTL-0054 as vertical
+Shorts of political predictions with no grid content, and its traffic is attributed to persona and
+prediction rather than to the topic (CTL-0222). That disqualification is the methodological result
+of the pass, because the aggregate counter supported the niche hypothesis and the per-video feed
+refuted it. The substantive result is a conflict rather than a decision: the explanatory form that
+CTL-0215 derived from the per-viewer artefact is exactly the form measured here as carrying no
+traffic, while the forms that carry traffic are the ones CTL-0215 ruled out (CTL-0223). The
+ranking of CTL-0200 is untouched, because the existing line was ranked on a stock of ranking pages
+under CTL-0210 and search demand is unaffected by a platform format finding; what is withdrawn is
+only the shared-production claim of CTL-0216. Finally the verdict is deliberately stopped short of
+closure: with no leader in the sample the CTL-0096 reading point does not exist, so the surface is
+recorded as UNFORMED rather than CLOSED, which leaves a format vacuum and an absence of demand
+equally admissible until a named live operator separates them (CTL-0224). The next pass is OQ-040,
+which must either name that operator or record that the search surface and the channel need
+different material after all.

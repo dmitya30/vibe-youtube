@@ -1,6 +1,6 @@
 # Open questions
 
-Updated: 2026-08-25
+Updated: 2026-08-26
 Purpose: the queue that drives every research pass and survives context compression.
 
 ## 1. How this file is used
@@ -14,7 +14,7 @@ The object of this workstream is a new channel taken from zero to the start of m
 ## 3. Open
 
 - OQ-038 which of the three products receives the first channel traffic, given that CTL-0220 argues for the cliffhanger shaped Quantocode over the freemium Oracle while CTL-0218 argues that only Oracle can serve an EN audience, so the answer may differ by language; OPEN;
-- OQ-039 whether the grid topics of CTL-0216 carry demand on YOUTUBE rather than on web search, since the arcanum by sphere structure is validated only against ranking pages and a browse-driven platform may reward a different cut of the same material; OPEN;
+- OQ-040 whether any live channel under 12 months old runs the explanatory grid form with daily view movement, which is the single observation that separates the format vacuum reading from the absence of demand reading of CTL-0224, and if none is found, which format satisfies both the product binding of CTL-0087 through CTL-0089 and the traffic pattern of CTL-0222 without adopting prediction or a persona; OPEN;
 - OQ-036 which further products, partners and monetisation forms attach to such a channel in the RU and EN segments; ANSWERED IN PART by CTL-0219 and CTL-0220 for the owner stack itself and still OPEN for third parties, to be resumed after the final document; OPEN;
 
 ## 4. Deferred
@@ -27,6 +27,7 @@ The object of this workstream is a new channel taken from zero to the start of m
 
 ## 5. Answered
 
+- OQ-039 whether the grid topics carry demand on YouTube rather than on web search; ANSWERED IN PART by CTL-0221 through CTL-0224 and answered in the negative for the explanatory cut; three channels named after the grid subject run at 68, 379 and 5838 views per video with no daily movement and one of them took eight years to reach its total, the largest candidate in the sample was disqualified as out-of-niche Shorts of political predictions by the feed instrument of CTL-0054, and the residue is a recorded CONFLICT rather than a decision, since the form the product requires is the form that carries no traffic here while the forms that carry traffic are the ones CTL-0215 excluded; the verdict is UNFORMED SURFACE and not CLOSED LANE because the sample holds no leader and therefore no CTL-0096 reading point, and the separating observation is carried into OQ-040;
 - OQ-035 which channel direction lets the owner product sit natively inside the content; ANSWERED by CTL-0215, CTL-0216 and CTL-0217; the direction is an explanatory channel about the SYSTEM, one number, one arcanum or one life direction per video, because every product returns a per-viewer artefact that cannot be shown finished, which makes the viewer own computation the call to action and rules out prediction, review and personality-reading formats; the content plan is the same arcanum by sphere grid that already ranks in search, and the channel carries acquisition only because the bots already hold daily retention;
 - OQ-037 whether the owner payment circuit can accept a foreign card; ANSWERED by CTL-0218 and by owner statement; foreign payment is already implemented through Telegram Stars in Mystic Oracle, which is an inbound rail and therefore permitted by CTL-0175, and the product is already localised RU and EN, so the EN segment is an open opportunity gated only by the absence of an external EN funnel rather than by the payment rail;
 - OQ-030 how many calculator query clusters exist in the esoteric line and what their volumes are; ANSWERED IN PART by CTL-0201 through CTL-0206; the cluster STRUCTURE is measured and is not a calculator grid at all but an arcanum by sphere page grid, four calculators generating hundreds of pages, priced at 670 RUB per unlock with subscriptions above it and converting cold search traffic at 0.5 to 3 percent, which puts break-even at 800 to 4900 search visits a month; the VOLUMES remain UNKNOWN because Wordstat is gated and the only published figure is a script seller claim, and that residue was carried into OQ-033, which is now WITHDRAWN as non-blocking by CTL-0207 and CTL-0208;

@@ -323,3 +323,57 @@ Consequence for the channel: first traffic should be routed to the cliffhanger s
 freemium one should be treated as a retention and referral surface until it shows a paying cohort.
 Threshold stated by the products themselves: conclusions need 30 to 50 arrivals at the paywall.
 answers: OQ-036. classification: OBSERVED BASELINE, capture date 2026-08-25. confidence: high.
+
+## CTL-0221  NO LIVE EXPLANATORY OPERATOR EXISTS ON THE GRID TOPICS ON YOUTUBE
+Four channels named after the grid subject itself were measured on 2026-08-26. A channel titled
+matrix of fate numerology by birth date holds 19 subscribers and 749 views over 11 videos and
+gained 9 views and zero subscribers across the preceding fourteen days. A tarot and matrix of
+thinking channel holds 39 subscribers and 9482 views over 25 videos with zero daily movement for
+thirteen consecutive days. A channel titled CIFRA holds 195 subscribers and 23352 views over 4
+videos but was created on 2018-03-18, which is about 240 views a month over eight years.
+Views per video across the three in-niche channels run 68, 379 and 5838, all at or below the
+10 to 900 band that CTL-0080 recorded for a closed lane, and none shows daily motion.
+Consequence: the web search demand of CTL-0201 does not reproduce on YouTube for the same cut of
+the material, and CTL-0216 may not assume one artefact feeds both surfaces without a format change.
+URLs: socialblade.com/youtube/handle/vlad_polyakov and two further socialblade handle pages.
+answers: OQ-039. classification: OBSERVED MEASUREMENT, capture date 2026-08-26. confidence: medium,
+three channels is a small sample and it contains no leader.
+
+## CTL-0222  THE LARGEST CHANNEL IN THE SAMPLE IS NOT IN THE NICHE AND ITS TRAFFIC IS REJECTED
+A channel named matrica zero shows 833 subscribers and 564835 views over 104 videos created on
+2025-08-18, which would have inverted the reading of CTL-0221 by nearly three orders of magnitude.
+The public feed instrument of CTL-0054 shows its entries are vertical Shorts of political
+predictions attributed to a deceased politician, at 40 to 240 views each, with no grid content.
+Its traffic is therefore attributed to a persona and prediction format and NOT to the grid, and it
+is recorded as contrast under the sampling rule of CTL-0070 rather than as a niche case.
+Method note kept deliberately: the aggregate counter agreed with the niche hypothesis and the
+per-video feed refuted it, so a channel-level counter must never be attributed to a topic without
+the feed check, which is the same defect class as the vendor claim of CTL-0202.
+answers: OQ-039. classification: MEASUREMENT CORRECTION, capture date 2026-08-26. confidence: high.
+
+## CTL-0223  THE FORMAT THE PRODUCT REQUIRES IS THE FORMAT THAT TAKES NO TRAFFIC HERE
+CTL-0215 derived that the only admissible video form is explanatory, one number or one arcanum with
+the viewer computing his own instance, because a per-viewer artefact cannot be shown finished.
+CTL-0221 measures that exact form at 68 to 5838 views per video with no daily movement, while the
+only volume observed anywhere near these topics sits in prediction and persona formats (CTL-0222),
+which CTL-0215 ruled out, and in a 21 second Shorts explainer at about 5000 views over three years.
+This is recorded as a CONFLICT and not resolved in this pass: the product binding of CTL-0087 to
+CTL-0089 and the observed traffic on this platform currently point at different formats.
+It does not reorder CTL-0200, because the existing line was ranked on a STOCK of ranking pages
+(CTL-0210) and search demand is unaffected by a YouTube format finding.
+What it does remove is the free lunch claimed in CTL-0216, one artefact serving two surfaces.
+answers: OQ-039. classification: RECORDED CONFLICT, capture date 2026-08-26. confidence: high about
+the conflict, none about its resolution, which is OQ-040.
+
+## CTL-0224  AN ABSENT LEADER IS NOT A CLOSED LANE AND THE READING POINT IS UNAVAILABLE
+CTL-0096 reads lane health from the second channel because an incumbent looks the same either way,
+and CTL-0111 ranks on daily views. This sample supplies neither, because no leader in the
+explanatory grid format was found at all, so the procedure has no reading point to apply.
+The verdict therefore stops at UNFORMED SURFACE rather than CLOSED LANE, and the distinction is
+load bearing: a closed lane means arrival too late (CTL-0078), while an unformed surface means
+either a format vacuum worth entering or an absence of demand worth avoiding.
+The two readings are separated only by a NAMED live operator, and no amount of counter reading
+substitutes for one, which is what OQ-040 must find or fail to find.
+Falsification condition stated in advance: one channel under 12 months old, in the explanatory grid
+form, holding daily view movement, overturns CTL-0221 and CTL-0223 together.
+answers: OQ-039. classification: METHOD RULING, capture date 2026-08-26. confidence: high.
