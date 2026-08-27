@@ -1,7 +1,7 @@
 # Candidate Dossier — Russian Numerology and Esotericism
 
-Updated: 2026-08-22
-Status: RESEARCH CANDIDATE / PRODUCTION NOT AUTHORIZED
+Updated: 2026-08-27
+Status: INHERITED PRODUCT FIT / YOUTUBE FIT UNPROVEN / PRODUCTION NOT AUTHORIZED
 
 ## 1. Candidate thesis
 
@@ -11,7 +11,7 @@ Working path:
 
 `YouTube → Telegram/site/bot → useful personalized result → product/subscription/service`
 
-The existence, behavior and economics of owner products are not assumed. They will be inspected only from specifically linked files and folders when the research reaches the product-fit or integration gate.
+The owner product line and its recorded economics are accepted from  as an . Sol has not independently audited the underlying product files, transactions or funnel data, so inherited parameters must not be represented as independently replicated Sol evidence.
 
 ## 2. Questions to verify
 
@@ -84,7 +84,7 @@ External-business indicators:
 
 ## 6. Owner-data gate
 
-No owner product details are requested during broad market mapping. When product fit, conversion path or integration becomes the active question, request links to the exact relevant files and folders in the separate repository, plus definitions of available aggregate funnel events. Do not request a reconstructed verbal description when inspectable sources exist.
+Broad market mapping is closed. Product facts already recorded in  remain the inherited operating baseline. If conversion-path validation or integration becomes active after a separate owner decision, request the exact relevant files and folders plus definitions of available aggregate funnel events; do not ask for a reconstructed verbal description when inspectable sources exist.
 
 ## 7. Decision boundary
 
