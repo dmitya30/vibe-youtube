@@ -72,3 +72,9 @@
 ## 9. Требуемый вход
 
 Для начала нужны точные URL вебинаров либо локальные пути к аудио или видео, а также точные URL или локальные пути выбранных материалов Слабуна. Если материал закрытый, владелец предоставляет файл, к которому имеет законный доступ; обход ограничений доступа не выполняется.
+
+## 10. Forecast-versus-realization rule
+
+Payback, profit and revenue claims must be labelled `REALIZED`, `PROJECTED` or `UNKNOWN`. A projection based on another channel, a single high-performing day, an assumed RPM or an expected conversion rate is not recorded as realized economics.
+
+For a realized payback claim, capture cumulative revenue through the claimed date, direct production cost, labor or contractor cost, tooling, paid distribution, refunds, revenue share, taxes when material, and the treatment of abandoned or failed channels. If those fields are unavailable, the claim remains `CREATOR CLAIM` or `MARKETING CLAIM` regardless of screenshots.

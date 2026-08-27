@@ -153,3 +153,21 @@ This ledger records mechanisms rather than generic advice. Initial entries prese
 3. Add Russian-language primary sources without assuming that public view counts prove conversion.
 4. Separate organic YouTube effects from paid traffic, collaborations and external audience transfers.
 5. Record failed replications and survivorship counterexamples alongside successes.
+
+## CASE-SOL-009 — Public admission of winner-selection bias and forecast-based payback
+
+- Classification: `CREATOR CLAIM`, `MARKETING CLAIM`, partial `OBSERVED FACT`, `INFERENCE`.
+- Primary URLs: https://t.me/ArtEarn/382, https://t.me/ArtEarn/384, https://t.me/ArtEarn/381 and https://t.me/ArtEarn/391.
+- Author: Artem Slabun / ArtEarn.
+- Publication dates: 2026-05-28 for posts 382 and 384; 2026-05-27 for post 381; 2026-05-30 for post 391.
+- Captured: 2026-08-27.
+- Negative-case disclosure: in post 382 Slabun says a mass low-price club could continuously display apparent success cases because some entrants already had results or experienced an accidental growth event, while successful outcomes could represent one percent or less of all participants.
+- Dataset claim: post 384 says the Razgon team tracks every participant from training through each publication across hundreds of students and records where participants stall and which actions correlate with results. No cohort table, anonymized export, median, failure distribution or channel list is public.
+- Portfolio baseline claim: post 381 reports an average three to four months to first profit and five to seven months to payback across Slabun channel experience, while selected fresh channels shown in the attached video allegedly reached profit in one and a half to two months.
+- Unit-economics claim: post 391 describes one channel as one and a half months old, with USD 600 paid to an editor, USD 300 fixed compensation to a manager and an additional profit share. The claimed one-and-a-half-week payback uses a projected USD 80–90 daily average borrowed from similar network channels; USD 175 was explicitly described as an unusually strong day.
+- Measurement defect: the public posts do not identify the channels, number of publications, traffic sources, revenue period, gross-versus-net accounting, team overhead, taxes, tooling, failed-channel costs or realized cumulative payback.
+- Selection effect: the accelerated channels are explicitly presented as outperforming the authors own three-to-four-month and five-to-seven-month baselines, so they cannot be treated as representative cold-start outcomes.
+- Repeatability: not established; all figures come from one commercially conflicted operator and anonymous channels.
+- Conflict: the same posts market Razgon training, curator access and the claimed superiority of its methodology.
+- Applicability: high as a warning to require denominator, zero-result count and realized cash-flow accounting; low as a transferable production or niche-selection formula.
+- Confidence: `HIGH` that Slabun publicly described the selection-bias mechanism, `LOW` for the numerical outcome and profitability claims.
