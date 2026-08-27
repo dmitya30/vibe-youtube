@@ -1,7 +1,7 @@
 # Candidate Dossier — Russian Numerology and Esotericism
 
 Updated: 2026-08-27
-Status: QUANTOCODE PRIMARY ROUTE / YOUTUBE FIT UNPROVEN / EXECUTION NOT AUTHORIZED
+Status: RELATIONSHIPS PACKAGE SET READY / YOUTUBE FIT UNPROVEN / EXECUTION NOT AUTHORIZED
 
 ## 1. Candidate thesis
 
@@ -116,4 +116,4 @@ Do not cite this case as evidence that Russian numerology works on YouTube. Use 
 
 The candidate advances from general research to probe design because the owner already has an operational monetization layer and the inherited comparison ranks this line highest on resource fit. This advancement does not increase the evidence level for YouTube demand.
 
-The bounded design is recorded in `../COLD_START_PROBE_DESIGN.md`, and the three production products are compared in `../PRODUCT_ROUTE_SUMMARY.md`. Quantocode is the primary receiver because its deterministic calculation, short path to a free artifact, same-session paywall and source attribution best match the accepted CTA boundary. Elyor remains the fallback; Mystic Oracle is excluded from the first probe. A live route check, one broad container, one repeatable editorial promise and a separate owner authorization are still required before channel creation, production or publication.
+The bounded design is recorded in `../COLD_START_PROBE_DESIGN.md`, the production products are compared in `../PRODUCT_ROUTE_SUMMARY.md`, and the package field is recorded in `../PACKAGE_FIRST_CONCEPTS.md`. Relationships is the selected broad container. The repeatable construct examines one recognizable conflict through wants, actions and perceived signals; Quantocode remains an optional personalized reflection after the videos standalone value. Twelve concepts and a four-episode shortlist are ready, but YouTube fit remains unproven. Live route verification and separate owner authorization are still required before channel creation, scripting, production or publication.
