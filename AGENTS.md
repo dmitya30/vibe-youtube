@@ -24,6 +24,8 @@ This file is the first operational source of truth after any dialogue compressio
 - Validate syntax and quoting before sending every command.
 - Generated or modified tracked text files must end with exactly one newline and no additional blank line at EOF; `git diff --check` must pass before a patch reports PASS.
 - Use command chaining only when later commands must not run after a failed validation.
+- Do not print full diffs or patches from executable scripts, including `git diff` and `git diff --cached`; the user does not need diff output and the assistant can inspect committed changes from the repository after push.
+- Before commit, mechanically verify the exact staged file list and run `git diff --cached --check` without printing a successful diff. On success, report only concise validation, commit and push status; diagnostic output is allowed only when a check fails.
 
 ## Workflow behavior
 - When a large delivered script fails on a single defect, deliver a minimal replacement patch naming the exact lines or block to substitute, and do not reissue the whole script; the user re-runs the amended script.
