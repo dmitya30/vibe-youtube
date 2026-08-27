@@ -1,7 +1,7 @@
 # Opportunity Discovery Research — Sol
 
-Updated: 2026-08-22
-Status: BOOTSTRAP / RESEARCH NOT COMPLETE
+Updated: 2026-08-27
+Status: FIRST EVIDENCE PASS RECORDED / RESEARCH IN PROGRESS
 Workstream: `OPPORTUNITY_DISCOVERY_RESEARCH`
 
 ## Purpose

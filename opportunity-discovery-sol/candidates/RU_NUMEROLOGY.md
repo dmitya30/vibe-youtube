@@ -89,3 +89,25 @@ No owner product details are requested during broad market mapping. When product
 ## 7. Decision boundary
 
 Research may compare channels, formats, creator disclosures, public metrics and policy risks. It may later propose a cheap falsification probe. It does not authorize creating a channel, producing a video, publishing content or changing an existing product.
+
+## 8. Initial external-funnel evidence
+
+### CASE-SOL-006 boundary
+
+- `CREATOR CLAIM`: a BotHelp-hosted case reports Telegram growth from about 100 to more than 1,600 subscribers over nine months and approximately RUB 1.21 million in project revenue without advertising spend.
+- `OBSERVED FACT`: the public page describes the sequence `organic search → site calculator → Telegram bot → free or paid personalized interpretation → paid PDF and higher-value offers` and includes implementation screenshots.
+- `OBSERVED FACT`: the author says VK, Reels, Shorts, clips and video were comparatively ineffective because they required sustained effort; site calculators supplied the effective traffic.
+- `MARKETING CLAIM`: the case is hosted by the automation vendor used in the implementation, promotes a BotHelp guide and was authored by a seller of bot, funnel, SEO and calculator development.
+- `OBSERVED FACT`: the page gives inconsistent revenue totals of RUB 1,219,120 and RUB 1,210,000 and does not define the denominator for its reported 5–7 percent conversion.
+- `INFERENCE`: personalization, immediate delivery and a recurring daily utility may create stronger retention and monetization than generic esoteric content, but this has not been attributed to YouTube.
+- `UNVERIFIED HYPOTHESIS`: YouTube could become an additional acquisition surface for the same utility if video topics match high-intent calculations and produce attributable qualified bot starts.
+
+Primary URL: https://bothelp.io/ru/blog/keys-bot-numerologa
+
+Captured: 2026-08-27.
+
+Confidence: `LOW` for financial and growth outcomes, `MEDIUM` for the disclosed funnel architecture, `LEAD ONLY` for YouTube fit.
+
+### Research consequence
+
+Do not cite this case as evidence that Russian numerology works on YouTube. Use it to define later product-fit questions and attribution metrics. The YouTube opportunity still requires creator disclosures, observable channel histories and evidence that qualified viewers move from videos into a useful personalized result.

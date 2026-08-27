@@ -73,6 +73,43 @@ This ledger records mechanisms rather than generic advice. Initial entries prese
 - Applicability: conceptually high for useful personalized funnels, but vertical transfer is unproven.
 - Confidence: `LEAD ONLY` until the primary interview and public channel evidence are captured.
 
+## CASE-SOL-005 — Benchmark niche ceiling, then broaden the package without abandoning the core
+
+- Classification: `CREATOR CLAIM`, partial `OBSERVED FACT`, `MARKETING CLAIM`, `INFERENCE`.
+- Primary URL: https://podcast.creatorscience.com/paddy-galloway-2/
+- Author: Paddy Galloway, interviewed by Jay Clouse / Creator Science.
+- Publication date: `UNKNOWN`.
+- Captured: 2026-08-27.
+- Claimed result: Galloway says niche potential can be approximated by inspecting established long-form leaders and relative outliers; he cites Andrew Millison broadening permaculture into a Sahara and UN story that reached a claimed 12 million views in four months.
+- Observable public corroboration: the transcript names Andrew Millison, 731 Woodworks, Noah Kagan and specific video concepts that can be checked against public channel histories; those checks are not yet complete.
+- Proposed mechanism: estimate an empirical ceiling from several established channels, then design ideas that retain the core audience while also being legible to casual and new viewers; require novelty and a title-thumbnail concept before production.
+- External-monetization boundary: Galloway explicitly distinguishes view maximization from attracting a smaller product-relevant audience and says broad reach can be counterproductive when the business depends on a niche product.
+- Alternative explanations: established audiences, channel authority, production quality, newsworthy institutions, collaborations and selection of successful examples after the fact.
+- Paid-traffic effect: `UNKNOWN`.
+- Recurrence: several named channels are offered by one strategist; independent creator disclosure is still required.
+- Conflict: the episode is sponsored by the outlier-research product 1of10 and promotes Galloway accelerator results.
+- Applicability: high for opportunity mapping and package-first filtering; it cannot substitute for direct demand or conversion evidence.
+- Confidence: `MEDIUM` for the research heuristic, `LOW` for causal performance claims.
+
+## CASE-SOL-006 — SEO calculator to personalized Telegram result, with video sources reported ineffective
+
+- Classification: `CREATOR CLAIM`, `MARKETING CLAIM`, partial `OBSERVED FACT`, `INFERENCE`.
+- Primary URL: https://bothelp.io/ru/blog/keys-bot-numerologa
+- Author: Tatiana Geiner; case hosted by automation vendor BotHelp.
+- Publication date: `UNKNOWN`.
+- Captured: 2026-08-27.
+- Claimed result: a numerology-related project reportedly grew a Telegram channel from about 100 to more than 1,600 subscribers in nine months with zero advertising spend and approximately RUB 1.21 million in project revenue.
+- Observable public corroboration: the page shows funnel screenshots and describes implementation steps, but provides no independently inspectable traffic, payment or attribution dataset.
+- Proposed mechanism: organic-search visitors complete a date-of-birth calculator, carry the input into Telegram, choose a free subscription-gated interpretation or paid personalized PDF, and receive a daily calculation that encourages repeat use.
+- YouTube relevance: the author states that VK, Reels, Shorts, clips and video were comparatively ineffective because they required sustained effort; the site calculators supplied the effective traffic. This case does not demonstrate YouTube acquisition.
+- Measurement defect: the same page reports both RUB 1,219,120 and RUB 1,210,000, and its reported 5–7 percent conversion does not define denominator, period or product mix.
+- Alternative explanations: pre-existing search rankings, branded demand, email or social traffic, owner reputation and unattributed returning users.
+- Paid-traffic effect: the author claims zero advertising spend, but independent verification is absent.
+- Recurrence: one vendor-hosted case; no independent recurrence established.
+- Conflict: BotHelp uses the case to promote its chatbot guide and platform capabilities; the case author sells bot, funnel, SEO and calculator development.
+- Applicability: high as a concrete external-funnel architecture and low as evidence for YouTube market fit.
+- Confidence: `LOW` for reported outcomes, `MEDIUM` for the disclosed funnel construction, and `LEAD ONLY` for YouTube opportunity selection.
+
 ## Research queue
 
 1. Verify all dates, channel baselines and named-video metrics in the initial cases.

@@ -24,7 +24,7 @@ Audience need: people seeking structured self-reflection, compatibility or perso
 
 Potential asymmetry: a useful personalized result delivered through an owned Telegram, site or bot flow may be more valuable than generic entertainment views.
 
-Evidence state: candidate-specific research required; existing products create a possible resource advantage but their capabilities are not assumed.
+Evidence state: one vendor-hosted Russian case describes an SEO-site calculator feeding a personalized Telegram bot, paid PDF and daily repeat-use loop. The author reports that Shorts, Reels and other video sources were comparatively ineffective, so the case supports the external-funnel architecture but does not support YouTube acquisition or conversion. Existing owner products create a possible resource advantage, but their capabilities are not assumed.
 
 Primary risks: guaranteed predictions, fear-based selling, medical or financial promises, weak trust and unverifiable conversion claims.
 
