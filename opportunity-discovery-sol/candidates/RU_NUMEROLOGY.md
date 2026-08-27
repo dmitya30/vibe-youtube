@@ -11,7 +11,7 @@ Working path:
 
 `YouTube → Telegram/site/bot → useful personalized result → product/subscription/service`
 
-The owner product line and its recorded economics are accepted from  as an . Sol has not independently audited the underlying product files, transactions or funnel data, so inherited parameters must not be represented as independently replicated Sol evidence.
+The owner Telegram bots are operational production products and form an available external-monetization layer. Their existence does not establish YouTube demand, cold-start distribution or topic-channel fit. Product and funnel conclusions recorded in `../../opportunity-discovery/FINAL_FINDINGS.md` are accepted as an `INHERITED RESEARCH CONCLUSION`; Sol has not independently audited the underlying transactions or funnel data.
 
 ## 2. Questions to verify
 
@@ -84,7 +84,7 @@ External-business indicators:
 
 ## 6. Owner-data gate
 
-Broad market mapping is closed. Product facts already recorded in  remain the inherited operating baseline. If conversion-path validation or integration becomes active after a separate owner decision, request the exact relevant files and folders plus definitions of available aggregate funnel events; do not ask for a reconstructed verbal description when inspectable sources exist.
+Broad market mapping is closed. Product facts recorded in `../../opportunity-discovery/FINAL_FINDINGS.md` remain the inherited operating baseline. The production bots are a monetization attachment to a future validated acquisition channel, not a substitute for cold-start evidence. If conversion-path validation or integration becomes active after a separate owner decision, request the exact relevant files and folders plus definitions of available aggregate funnel events.
 
 ## 7. Decision boundary
 

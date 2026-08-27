@@ -6,7 +6,7 @@
 
 ## 1. Scope
 
-Основной корпус: два вебинара текущего cold-start спринта Даниила Грузинова продолжительностью примерно 3–4 часа каждый. Дополнительный корпус Артема Слабуна ограничивается конкретными материалами, которые предоставит владелец; бесконечный просмотр публичного контента не открывается.
+Основной корпус: два вебинара текущего cold-start спринта Даниила Грузинова продолжительностью примерно 3–4 часа каждый. Пока записи ожидаются, разрешён ограниченный внешний аудит обоих наставников: независимые отзывы, публичные каналы учеников, критические разборы, наблюдаемая аналитика и юридические или коммерческие раскрытия. Отсутствие записей не блокирует этот аудит, но бесконечный общий поиск YouTube-советов не открывается.
 
 Сначала создаётся максимально точная транскрипция с временными метками. Извлечение выводов начинается после транскрипции, чтобы раннее резюмирование не уничтожило qualifiers, denominator, отрицательные примеры и контекст продаж.
 
@@ -78,3 +78,11 @@
 Payback, profit and revenue claims must be labelled `REALIZED`, `PROJECTED` or `UNKNOWN`. A projection based on another channel, a single high-performing day, an assumed RPM or an expected conversion rate is not recorded as realized economics.
 
 For a realized payback claim, capture cumulative revenue through the claimed date, direct production cost, labor or contractor cost, tooling, paid distribution, refunds, revenue share, taxes when material, and the treatment of abandoned or failed channels. If those fields are unavailable, the claim remains `CREATOR CLAIM` or `MARKETING CLAIM` regardless of screenshots.
+
+## 11. External-source quality rule
+
+An external page is not independent evidence merely because it is outside the mentor ecosystem. Record its author identity, evidence links, purchase verification, publication model, affiliate or ranking conflict, and whether quoted reviews can be traced to original users.
+
+SEO reputation pages, course-resale listings, anonymous screenshots and unattributed review summaries are `LEAD ONLY`. They may identify channels or claims for verification but cannot establish fraud, effectiveness, participant outcomes or cohort distributions.
+
+A useful external student case must connect a named or consistently pseudonymous operator to a public channel, establish the channel baseline and relevant period, expose the publication history and traffic conditions, and separate observed results from the mentors interpretation.

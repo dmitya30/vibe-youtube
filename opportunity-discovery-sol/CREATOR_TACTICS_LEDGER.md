@@ -171,3 +171,19 @@ This ledger records mechanisms rather than generic advice. Initial entries prese
 - Conflict: the same posts market Razgon training, curator access and the claimed superiority of its methodology.
 - Applicability: high as a warning to require denominator, zero-result count and realized cash-flow accounting; low as a transferable production or niche-selection formula.
 - Confidence: `HIGH` that Slabun publicly described the selection-bias mechanism, `LOW` for the numerical outcome and profitability claims.
+
+## CASE-SOL-010 — External reputation surface does not supply verifiable student outcomes
+
+- Classification: `OBSERVED FACT`, `INFERENCE`, external allegations retained as `LEAD ONLY`.
+- Primary URLs: https://bankstoday.net/rejting-trejderov/razgon-youtube-artem-slabun-obzor, https://coinspot.io/rejting-trejderov/master-ringo-otzyvy/, https://bitok.blog/razgon-youtube-artem-slabun-obuchenie, https://coinmania.com/rejting-luchshikh-trejderov/artem-slabun-kursy/, https://www.youtube.com/@Depaet/videos, https://t.me/s/razgon_yt and https://www.instagram.com/reel/DcGdWATslO2/.
+- Authors: multiple external review publishers, one external YouTube commentator, the Razgon-owned diary and public Instagram commenters.
+- Captured: 2026-08-27.
+- Search result: no attributable student case was found that joins a participant identity, a public cold-start channel, complete upload history, organic traffic conditions, costs and realized revenue.
+- Review-page limitation: the critical pages repeat concerns about unverifiable income, audience manipulation, weak course value and questionable promotions, but they do not provide attributable purchaser testimony, source comment URLs, complete channel records or a cohort denominator.
+- Publisher conflict: several pages promote rankings, alternative projects or course-sharing offers. Their business model and lack of primary evidence prevent treatment as neutral adjudication.
+- External video lead: the Bodi4kaoff channel lists a critical video alleging deception in a MasterRingo earning method. Its existence and public view count are observable, but the allegations were not validated claim by claim and do not evaluate the current Razgon cohort.
+- Owned-diary observation: the public `razgon_yt` channel says that after the first two weeks some participants had reached monetization while most remained at niche selection. It also says reports can receive prizes, introducing reporting and selection incentives. The diary is operator-owned and provides no denominator or public channel list.
+- Gruzinov corroboration: public Instagram comments recognize Gruzinov as the former MetaGame creator, supporting continuity of public identity. They do not establish legal ownership, revenue or transferability of legacy gaming experience to a new faceless channel.
+- Repeatability: not established for either mentor.
+- Applicability: high for source-screening rules; none of the external findings supplies a cold-start forecast.
+- Confidence: `HIGH` that the inspected review surface lacks decision-grade evidence; `LOW` for all anonymous allegations and outcome claims.
