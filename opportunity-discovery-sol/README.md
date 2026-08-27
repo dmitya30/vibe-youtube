@@ -1,7 +1,7 @@
 # Opportunity Discovery Research — Sol
 
 Updated: 2026-08-27
-Status: EXTERNAL MENTOR AUDIT RECORDED / GRUZINOV WEBINARS PENDING
+Status: MENTOR PASS CLOSED / COLD-START PROBE DESIGN READY / OWNER DECISION REQUIRED
 Workstream: `OPPORTUNITY_DISCOVERY_RESEARCH`
 
 ## Purpose
@@ -45,7 +45,8 @@ No new channel, production, publication, paid promotion or product integration i
 - `candidates/RU_NUMEROLOGY.md` — candidate-specific dossier and boundaries.
 - `PUBLIC_MENTOR_SOURCE_DOSSIER.md` — owner-facing public-source review of Slabun and Gruzinov.
 - `INFOMARKETER_REVIEW_PROTOCOL.md` — adversarial protocol for the pending webinar corpus.
-- `STRATEGY_DECISION_2026_08_27.md` — adopted next-stage decision.
+- `STRATEGY_DECISION_2026_08_27.md` — adopted research-stage decision.
+- `COLD_START_PROBE_DESIGN.md` — owner-facing design for the next bounded falsification probe; execution is not authorized.
 
 ## Source-of-truth boundary
 
@@ -57,6 +58,6 @@ Broad repeat research is closed because no universal cold-start or revenue formu
 
 The read-only conclusions in `../opportunity-discovery/FINAL_FINDINGS.md` are accepted as an inherited operating baseline, not as independently replicated Sol evidence. The source folder remains read-only and its evidence identifiers are not copied into this workspace.
 
-Next comes a bounded adversarial review of specified Daniil Gruzinov and Artem Slabun materials under `INFOMARKETER_REVIEW_PROTOCOL.md`. The purpose is to identify decision-changing evidence or cheap falsifiable mechanics, not to accept course marketing or reopen unlimited research.
+The bounded public mentor review is complete and produced no decision-changing cold-start evidence. Gruzinov webinar recordings remain an optional higher-density corpus if supplied later, but their absence does not block the current conclusion. The next authorized research artifact is a cheap falsification-probe design; executing that probe still requires a separate owner decision.
 
 Owner-facing decision record: `STRATEGY_DECISION_2026_08_27.md`.

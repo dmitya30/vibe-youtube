@@ -1,7 +1,7 @@
 # Opportunity Map
 
 Updated: 2026-08-22
-Status: PRELIMINARY CLUSTERS / NO CHANNEL AUTHORIZATION
+Status: COMPARISON COMPLETE / CLUSTER 01 SELECTED FOR PROBE DESIGN / NO CHANNEL AUTHORIZATION
 
 The clusters below are research directions, not production decisions. Ranking is provisional until creator cases and observable channel histories are compared.
 
@@ -24,11 +24,11 @@ Audience need: people seeking structured self-reflection, compatibility or perso
 
 Potential asymmetry: a useful personalized result delivered through an owned Telegram, site or bot flow may be more valuable than generic entertainment views.
 
-Evidence state: one vendor-hosted Russian case describes an SEO-site calculator feeding a personalized Telegram bot, paid PDF and daily repeat-use loop. The author reports that Shorts, Reels and other video sources were comparatively ineffective, so the case supports the external-funnel architecture but does not support YouTube acquisition or conversion. Existing owner products create a possible resource advantage, but their capabilities are not assumed.
+Evidence state: one vendor-hosted Russian case describes an SEO-site calculator feeding a personalized Telegram bot, paid PDF and daily repeat-use loop. The author reports that Shorts, Reels and other video sources were comparatively ineffective, so the case supports the external-funnel architecture but does not support YouTube acquisition or conversion. The owner Telegram bots are operational production products and reduce implementation risk, but they do not establish YouTube demand, distribution or conversion.
 
 Primary risks: guaranteed predictions, fear-based selling, medical or financial promises, weak trust and unverifiable conversion claims.
 
-Current priority: `DEEP RESEARCH CANDIDATE`.
+Current priority: `SELECTED FOR BOUNDED FALSIFICATION-PROBE DESIGN`.
 
 ## CLUSTER-SOL-02 — Hyper-specific high-intent practical guidance
 
@@ -80,6 +80,6 @@ Current priority: `LOW CONFIDENCE / SOURCE SEARCH`.
 
 ## Current shortlist
 
-The first comparative pass will prioritize clusters 01, 02, 03 and 04. Cluster 05 remains a cross-cutting distribution mechanism rather than a standalone channel concept unless stronger evidence appears.
+The inherited research comparison selects cluster 01 as the only current probe-design target because it combines the strongest resource fit with an already operational monetization layer. This is a resource-allocation decision, not proof of YouTube demand. Clusters 02–05 remain inactive unless a new decision-changing source or failed probe justifies reopening comparison.
 
-No cluster passes a production gate at this stage.
+Cluster 01 passes only the design gate. Channel creation, production, publication, paid promotion and product integration remain unauthorized.

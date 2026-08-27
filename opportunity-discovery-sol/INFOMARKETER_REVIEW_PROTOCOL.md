@@ -1,7 +1,7 @@
 # Протокол критического разбора материалов практикующих YouTube-наставников
 
 Обновлено: 2026-08-27
-Статус: ГОТОВ К ПОЛУЧЕНИЮ ИСТОЧНИКОВ
+Статус: ОТКРЫТЫЙ ПРОХОД ЗАКРЫТ / ВЕБИНАРЫ ОПЦИОНАЛЬНЫ ПРИ ПОЛУЧЕНИИ
 Язык: русский, потому что документ предназначен владельцу и будет использоваться для согласования выводов.
 
 ## 1. Scope
@@ -86,3 +86,9 @@ An external page is not independent evidence merely because it is outside the me
 SEO reputation pages, course-resale listings, anonymous screenshots and unattributed review summaries are `LEAD ONLY`. They may identify channels or claims for verification but cannot establish fraud, effectiveness, participant outcomes or cohort distributions.
 
 A useful external student case must connect a named or consistently pseudonymous operator to a public channel, establish the channel baseline and relevant period, expose the publication history and traffic conditions, and separate observed results from the mentors interpretation.
+
+## 12. Текущее состояние прохода
+
+Открытый аудит Слабуна и Грузинова завершён с результатом `NO DECISION-CHANGING EVIDENCE`. Он подтвердил необходимость denominator, failure distribution, разделения органического и внешнего трафика и учёта всех попыток, но не дал переносимой cold-start формулы или пригодного для прогноза cohort.
+
+Записи вебинаров Грузинова могут быть разобраны по этому протоколу, если владелец предоставит их позже. Их отсутствие больше не блокирует переход к проектированию дешёвого falsification probe и не является основанием продолжать общий поиск отзывов, советов или маркетинговых кейсов.

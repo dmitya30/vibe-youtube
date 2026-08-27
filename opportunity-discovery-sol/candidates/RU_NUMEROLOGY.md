@@ -1,7 +1,7 @@
 # Candidate Dossier — Russian Numerology and Esotericism
 
 Updated: 2026-08-27
-Status: INHERITED PRODUCT FIT / YOUTUBE FIT UNPROVEN / PRODUCTION NOT AUTHORIZED
+Status: SELECTED FOR PROBE DESIGN / YOUTUBE FIT UNPROVEN / EXECUTION NOT AUTHORIZED
 
 ## 1. Candidate thesis
 
@@ -111,3 +111,9 @@ Confidence: `LOW` for financial and growth outcomes, `MEDIUM` for the disclosed 
 ### Research consequence
 
 Do not cite this case as evidence that Russian numerology works on YouTube. Use it to define later product-fit questions and attribution metrics. The YouTube opportunity still requires creator disclosures, observable channel histories and evidence that qualified viewers move from videos into a useful personalized result.
+
+## 9. Next gate
+
+The candidate advances from general research to probe design because the owner already has an operational monetization layer and the inherited comparison ranks this line highest on resource fit. This advancement does not increase the evidence level for YouTube demand.
+
+The bounded design is recorded in `../COLD_START_PROBE_DESIGN.md`. Before execution, the exact bot artifact and landing route must be inspected rather than inferred, one broad container and one repeatable editorial promise must be selected, and the owner must separately authorize the channel, production and publication.
