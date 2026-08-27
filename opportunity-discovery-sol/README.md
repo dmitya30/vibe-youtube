@@ -1,7 +1,7 @@
 # Opportunity Discovery Research — Sol
 
 Updated: 2026-08-27
-Status: MENTOR PASS CLOSED / COLD-START PROBE DESIGN READY / OWNER DECISION REQUIRED
+Status: PRODUCT ROUTES SUMMARIZED / QUANTOCODE PRIMARY / OWNER DECISION REQUIRED
 Workstream: `OPPORTUNITY_DISCOVERY_RESEARCH`
 
 ## Purpose
@@ -47,6 +47,7 @@ No new channel, production, publication, paid promotion or product integration i
 - `INFOMARKETER_REVIEW_PROTOCOL.md` — adversarial protocol for the pending webinar corpus.
 - `STRATEGY_DECISION_2026_08_27.md` — adopted research-stage decision.
 - `COLD_START_PROBE_DESIGN.md` — owner-facing design for the next bounded falsification probe; execution is not authorized.
+- `PRODUCT_ROUTE_SUMMARY.md` — compact owner-facing comparison of the three production products and the selected primary route.
 
 ## Source-of-truth boundary
 
@@ -58,6 +59,6 @@ Broad repeat research is closed because no universal cold-start or revenue formu
 
 The read-only conclusions in `../opportunity-discovery/FINAL_FINDINGS.md` are accepted as an inherited operating baseline, not as independently replicated Sol evidence. The source folder remains read-only and its evidence identifiers are not copied into this workspace.
 
-The bounded public mentor review is complete and produced no decision-changing cold-start evidence. Gruzinov webinar recordings remain an optional higher-density corpus if supplied later, but their absence does not block the current conclusion. The next authorized research artifact is a cheap falsification-probe design; executing that probe still requires a separate owner decision.
+The bounded public mentor review is complete and produced no decision-changing cold-start evidence. The three production product snapshots and public entry points have now been inspected without copying their full implementation documentation into this workspace. Quantocode is the primary receiver for probe design, Elyor is the fallback, and Mystic Oracle is excluded from the first probe. This product choice does not prove YouTube demand, and executing the probe still requires a separate owner decision.
 
 Owner-facing decision record: `STRATEGY_DECISION_2026_08_27.md`.
