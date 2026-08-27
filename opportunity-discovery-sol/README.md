@@ -47,3 +47,12 @@ No new channel, production, publication, paid promotion or product integration i
 ## Source-of-truth boundary
 
 Repository strategy documents remain authoritative for project decisions. This workspace records research evidence and hypotheses; it does not override production gates.
+## Adopted next-stage decision
+
+Broad repeat research is closed because no universal cold-start or revenue formula was established and another similar pass has low expected decision value.
+
+The read-only conclusions in `../opportunity-discovery/FINAL_FINDINGS.md` are accepted as an inherited operating baseline, not as independently replicated Sol evidence. The source folder remains read-only and its evidence identifiers are not copied into this workspace.
+
+Next comes a bounded adversarial review of specified Daniil Gruzinov and Artem Slabun materials under `INFOMARKETER_REVIEW_PROTOCOL.md`. The purpose is to identify decision-changing evidence or cheap falsifiable mechanics, not to accept course marketing or reopen unlimited research.
+
+Owner-facing decision record: `STRATEGY_DECISION_2026_08_27.md`.
