@@ -1,7 +1,7 @@
 # Opportunity Discovery Research — Sol
 
 Updated: 2026-08-27
-Status: FIRST EVIDENCE PASS RECORDED / RESEARCH IN PROGRESS
+Status: PUBLIC MENTOR PASS RECORDED / GRUZINOV WEBINARS PENDING
 Workstream: `OPPORTUNITY_DISCOVERY_RESEARCH`
 
 ## Purpose
@@ -43,10 +43,14 @@ No new channel, production, publication, paid promotion or product integration i
 - `CREATOR_TACTICS_LEDGER.md` — case and tactic registry.
 - `OPPORTUNITY_MAP.md` — comparative opportunity clusters.
 - `candidates/RU_NUMEROLOGY.md` — candidate-specific dossier and boundaries.
+- `PUBLIC_MENTOR_SOURCE_DOSSIER.md` — owner-facing public-source review of Slabun and Gruzinov.
+- `INFOMARKETER_REVIEW_PROTOCOL.md` — adversarial protocol for the pending webinar corpus.
+- `STRATEGY_DECISION_2026_08_27.md` — adopted next-stage decision.
 
 ## Source-of-truth boundary
 
 Repository strategy documents remain authoritative for project decisions. This workspace records research evidence and hypotheses; it does not override production gates.
+
 ## Adopted next-stage decision
 
 Broad repeat research is closed because no universal cold-start or revenue formula was established and another similar pass has low expected decision value.

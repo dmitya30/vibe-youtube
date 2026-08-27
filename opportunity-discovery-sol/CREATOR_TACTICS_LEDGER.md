@@ -1,7 +1,7 @@
 # Creator Tactics Ledger
 
-Updated: 2026-08-22
-Status: INITIAL LEADS / NOT YET DECISION-GRADE
+Updated: 2026-08-27
+Status: PUBLIC MENTOR PASS RECORDED / WEBINAR EVIDENCE PENDING
 
 This ledger records mechanisms rather than generic advice. Initial entries preserve leads discovered during workspace bootstrap; each requires a deeper primary-source and channel-history pass.
 
@@ -109,6 +109,42 @@ This ledger records mechanisms rather than generic advice. Initial entries prese
 - Conflict: BotHelp uses the case to promote its chatbot guide and platform capabilities; the case author sells bot, funnel, SEO and calculator development.
 - Applicability: high as a concrete external-funnel architecture and low as evidence for YouTube market fit.
 - Confidence: `LOW` for reported outcomes, `MEDIUM` for the disclosed funnel construction, and `LEAD ONLY` for YouTube opportunity selection.
+
+## CASE-SOL-007 — Practical-audience digital products and quantity-first production claims
+
+- Classification: `CREATOR CLAIM`, `MARKETING CLAIM`, partial `OBSERVED FACT`, `INFERENCE`.
+- Primary URLs: https://t.me/ArtEarn/483, https://t.me/ArtEarn/487 and https://t.me/ArtEarn/488.
+- Author: Artem Slabun / ArtEarn.
+- Publication dates: `UNKNOWN` where the public embed omits the year.
+- Captured: 2026-08-27.
+- Claimed result: own digital products can add 20–30 percent to channel income, can monetize early views before YPP and can be created by mining competitor outliers and comments.
+- Observable public corroboration: named channels and offers exist; the Silas Mercer and Otis Granger products are publicly reachable. Sales volume, ownership, refunds, attribution and profit are not public.
+- Operational claim: new creators should prioritize publication quantity above quality while staying above a market-quality floor, focus on niche, topic and packaging, and reach a first upload within 7–8 days.
+- Result boundary: 7–8 days measures publication, not distribution, conversion or profitability.
+- YPP fact check: the cited 2027 threshold change is corroborated by https://support.google.com/youtube/answer/12843009?hl=en; the claim that the change creates a profit opportunity is not established by the policy page.
+- Paid-traffic effect: `UNKNOWN` for the named cases.
+- Recurrence: three named product examples come from one commercially conflicted source; independent economics are absent.
+- Conflicts: Slabun sells YouTube education and uses affiliate links for NexLev, Claude registration and Tribute.
+- Safety boundary: channel cloning, reused footage, fictional authority and unreviewed high-stakes AI guidance are not transferable tactics.
+- Applicability: `MEDIUM` for matching a practical audience to a same-session digital artifact; `LOW` for quantity-first production and revenue estimates.
+- Confidence: `MEDIUM` for offer existence, `LOW` for economics and causal growth claims.
+
+## CASE-SOL-008 — Legacy creator footprint without public cold-start cohort evidence
+
+- Classification: `CREATOR CLAIM`, `MARKETING CLAIM`, partial `OBSERVED FACT`.
+- Primary URLs: https://daniil-gruzinov.ru/, https://www.youtube.com/@meta_advice and https://www.youtube.com/watch?v=vioYe5_-zh8.
+- Author: Daniil Gruzinov.
+- Publication dates: `UNKNOWN` for the sales page; public interview date to be captured from the source file or transcript.
+- Captured: 2026-08-27.
+- Claimed result: 13 years on YouTube, six self-owned channels without advertising investment and RUB 60 million earned from YouTube.
+- Observable public corroboration: the public profile links Gruzinov to MetaGame, Weapons Geek and CS GO Expert and exposes a substantial publishing history; this establishes creator activity but not the stated aggregate revenue.
+- Current sprint evidence: open search did not expose a complete participant list, cohort denominator, median, zero-result count or organic-versus-paid traffic split.
+- Alternative explanations: legacy audience, prior expertise, channel portfolio selection and sales-page survivorship bias.
+- Paid-traffic effect: claimed absent for the six channels but independently `UNKNOWN`.
+- Recurrence: legacy channels are self-attributed; current cold-start recurrence is not publicly established.
+- Conflict: the website and public content sell YouTube education and private access.
+- Applicability: the pending sprint webinars may expose process and cohort evidence; public marketing totals do not support a forecast.
+- Confidence: `MEDIUM` for long-term creator activity, `LOW` for revenue and cold-start generalization.
 
 ## Research queue
 
