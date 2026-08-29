@@ -1,6 +1,6 @@
 # Статический аудит n8n: КвантоКод
 
-**Источник:** предоставленный экспорт [`KvantoKod_Main.json.txt`](https://www.genspark.ai/api/files/s/oKCfKGS8) и включённый в сообщение экспорт `KK_PDF`.
+**Источник:** предоставленный экспорт ``KvantoKod_Main.json.txt`` (source supplied out of band; public link removed) и включённый в сообщение экспорт `KK_PDF`.
 
 **OBSERVED IN WORKFLOW** Аудит выполнен статически: workflow не запускались, платежи, Telegram API, БД, PDF-скрипт и внешние сервисы не вызывались.
 
