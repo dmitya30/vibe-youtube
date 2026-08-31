@@ -68,9 +68,9 @@ Mystic Oracle имеет короткий путь от вопроса зрит�
 
 - статически разобрать workflows трёх продуктов;
 - синтезировать ограничения и measurement gaps;
-- исправить критичные attribution, payment и safety gaps до внешнего трафика;
-- провести короткий runtime smoke test выбранного deployed-маршрута;
-- не создавать канал и не запускать probe без отдельного решения.
+- отделить критичные runtime и safety defects фактически используемого маршрута от неблокирующего measurement backlog;
+- провести короткий site-first runtime smoke test выбранного deployed-маршрута;
+- готовить источник канала и Minimum Viable Channel Package, не начиная производство или публикацию без отдельных решений.
 
 ### Этап 1 — чистый distribution probe
 

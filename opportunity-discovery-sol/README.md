@@ -1,7 +1,7 @@
 # Opportunity Discovery Research — Sol
 
 Updated: 2026-08-29
-Status: PRODUCT WORKFLOW AUDITS SYNTHESIZED / OPTIONS PRESERVED / EXECUTION NOT AUTHORIZED
+Status: CHANNEL-LAUNCH PREPARATION AUTHORIZED / SOURCE CHANNEL OPEN / PRODUCTION NOT AUTHORIZED
 Workstream: `OPPORTUNITY_DISCOVERY_RESEARCH`
 
 ## Purpose
@@ -26,7 +26,7 @@ Research must precede production. The sequence is:
 
 `public creator evidence → adversarial verification → opportunity comparison → cheap falsification probe design → separate owner decision`
 
-No new channel, production, publication, paid promotion or product integration is authorized by this workspace.
+Channel-source evaluation and preparation of a Minimum Viable Channel Package are authorized. Production, publication, paid promotion and runtime product changes still require separate decisions.
 
 ## Initial research questions
 
@@ -63,7 +63,7 @@ Broad repeat research is closed because no universal cold-start or revenue formu
 
 The read-only conclusions in `../opportunity-discovery/FINAL_FINDINGS.md` are accepted as an inherited operating baseline, not as independently replicated Sol evidence. The source folder remains read-only and its evidence identifiers are not copied into this workspace.
 
-The bounded public mentor review is complete and produced no decision-changing cold-start evidence. The three production product snapshots and public entry points have been inspected without copying their full implementation documentation into this workspace. Quantocode is the primary receiver, and relationships is the selected broad container. A repeatable three-layer reflection construct, twelve package-first concepts and a four-episode shortlist are recorded in `PACKAGE_FIRST_CONCEPTS.md`. Public competitor evidence establishes package familiarity but not cold-start transferability. Live route verification and a separate owner decision are still required before execution.
+The bounded public mentor review is complete and produced no decision-changing cold-start evidence. The three production product snapshots and public entry points have been inspected without copying their full implementation documentation into this workspace. Quantocode is the primary receiver, and relationships is the selected broad container. A repeatable three-layer reflection construct, twelve package-first concepts and a four-episode shortlist are recorded in `PACKAGE_FIRST_CONCEPTS.md`. Public competitor evidence establishes package familiarity but not cold-start transferability. A site-first route with channel-level UTM is accepted for the MVP. A short runtime smoke test and a separate owner decision are still required before production or publication.
 
 Owner-facing decision record: `STRATEGY_DECISION_2026_08_27.md`.
 
