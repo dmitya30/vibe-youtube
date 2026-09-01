@@ -1,7 +1,7 @@
 # Opportunity Discovery Research — Sol
 
-Updated: 2026-08-29
-Status: CHANNEL-LAUNCH PREPARATION AUTHORIZED / SOURCE CHANNEL OPEN / PRODUCTION NOT AUTHORIZED
+Updated: 2026-09-01
+Status: CHANNEL-LAUNCH PREPARATION AUTHORIZED / SOURCE CHANNEL SELECTED: @yourelyor / PRODUCTION NOT AUTHORIZED
 Workstream: `OPPORTUNITY_DISCOVERY_RESEARCH`
 
 ## Purpose
@@ -51,6 +51,8 @@ Channel-source evaluation and preparation of a Minimum Viable Channel Package ar
 - `PACKAGE_FIRST_CONCEPTS.md` — public-field comparison, selected relationships container, repeatable editorial construct and twelve package-first concepts.
 - `PRODUCT_PORTFOLIO_ARCHITECTURE.md` — owner-facing architecture for three products and a possible future affiliate layer.
 - `PRODUCT_AUDIT_SYNTHESIS.md` — decision-relevant synthesis of the three static workflow audits.
+- `GRUZINOV_WEBINAR_SYNTHESIS.md` — bounded decision synthesis from the private four-part Gruzinov webinar corpus.
+- `MINIMUM_VIABLE_CHANNEL_PACKAGE.md` — accepted channel-source, rebrand, packaging and readiness requirements.
 - `audits/` — detailed static LLM reports for Quantocode, Elyor and Mystic Oracle; source workflow exports are not stored here.
 
 ## Source-of-truth boundary
@@ -72,3 +74,13 @@ Owner-facing decision record: `STRATEGY_DECISION_2026_08_27.md`.
 Static audits of Quantocode, Elyor and Mystic Oracle are stored in `audits/` and synthesized in `PRODUCT_AUDIT_SYNTHESIS.md`. Quantocode remains the first working route, while Elyor, Mystic Oracle and a future affiliate layer remain open under `PRODUCT_PORTFOLIO_ARCHITECTURE.md`. The first probe is not being launched.
 
 The completed public mentor pass does not reject the two Gruzinov webinars. They remain an additional bounded corpus for channel preparation and launch and may supply execution tactics to test against the selected container and early analytics.
+
+## Channel-source and webinar synthesis update — 2026-09-01
+
+The selected source is the owner-controlled abandoned channel `@yourelyor`. It has 267 organic subscribers, 257 public Russian-language Shorts, no known strikes, restrictions or warnings, confirmed ownership of the AI-assisted source material and currently enabled advanced features. All existing Shorts remain public by default. A new channel is now a fallback only if a material policy, rights, ownership, access or technical problem appears.
+
+The private Gruzinov webinar corpus has been processed through four source analyses and one bounded synthesis. Its accepted operational additions are recorded in `GRUZINOV_WEBINAR_SYNTHESIS.md`: one four-episode micro-series for one audience, package-first development before full scripts, Stage 1 rather than a final niche verdict, and separate diagnosis of distribution, packaging, opening and mid-video structure.
+
+The twelve package-first concepts remain the complete working bank. Stage 1 selects four adjacent conflicts from that bank. The strategic duration range remains 15–40 minutes with a target near 20 minutes; Stage 1 targets 15–20 minutes, while approximately 10 minutes is an allowed exception when the subject is fully resolved without padding. Publication begins at two long-form episodes per week. Higher production throughput is a later pipeline objective, not an authorized Stage 1 publication cadence.
+
+Production and publication remain separately gated.

@@ -102,6 +102,15 @@ This file is the first operational source of truth after any dialogue compressio
 - Batch the source validation, lint and sequential rendering of multiple compositions before one shared visual-QA stop-point when this does not weaken defect isolation.
 - Do not change an already locked timing manifest merely to reduce the number of compositions.
 
+## Context-budget discipline
+
+- Do not access the repository, reread project documentation, or query external sources by default for every response.
+- Use repository files and external research only when materially necessary to complete the current task, verify a decision-relevant uncertainty, prepare an executable patch, or when the user explicitly requests them.
+- After dialogue compression, restore only the minimum operational context required for the immediate task. Read `AGENTS.md` first, then open other files selectively rather than reloading entire workstreams.
+- Do not repeat completed research merely because a new analyst, report or compressed dialogue lacks the earlier context. Use accepted project decisions and existing documentation as the baseline.
+- Prefer a targeted file, section, query or verification over broad repository scans and multi-source research.
+- Treat context-window capacity as a project resource: avoid unnecessary retrieval that increases compression risk and causes loss of current conversational context.
+
 ## Document language
 - Owner-facing conclusion documents are written in Russian; internal registers and ledgers stay in English.
 - When creating a new document for the owner to read, choose the language the owner writes in and state that choice in the file header.
